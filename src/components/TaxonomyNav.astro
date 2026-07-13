@@ -1,0 +1,33 @@
+---
+interface Props {
+  current?: string;
+}
+
+const { current = 'all' } = Astro.props;
+const items = [
+  { id: 'all', label: '전체' },
+  { id: 'keycaps', label: '키캡' },
+  { id: 'keyboards', label: '키보드', disabled: true },
+  { id: 'switches', label: '스위치', disabled: true },
+];
+---
+
+<nav class="taxonomy" aria-label="아카이브 분류">
+  <ul>
+    {items.map((item) => (
+      <li>
+        {item.disabled ? (
+          <span class="taxonomy-item is-disabled" aria-disabled="true">{item.label}</span>
+        ) : (
+          <a
+            class:list={['taxonomy-item', { 'is-current': current === item.id }]}
+            href={item.id === 'all' ? '/' : `/?category=${item.id}`}
+            aria-current={current === item.id ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        )}
+      </li>
+    ))}
+  </ul>
+</nav>

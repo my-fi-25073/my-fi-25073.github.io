@@ -1,0 +1,72 @@
+<dialog class="lightbox" data-lightbox aria-label="이미지 확대 보기">
+  <form method="dialog">
+    <button class="lightbox-close" aria-label="확대 보기 닫기">×</button>
+  </form>
+  <button class="lightbox-nav is-prev" type="button" data-lightbox-prev aria-label="이전 이미지">←</button>
+  <figure>
+    <img data-lightbox-image alt="" />
+    <figcaption>
+      <span data-lightbox-count></span>
+      <span data-lightbox-caption></span>
+    </figcaption>
+  </figure>
+  <button class="lightbox-nav is-next" type="button" data-lightbox-next aria-label="다음 이미지">→</button>
+</dialog>
+
+<script>
+  const dialog = document.querySelector('[data-lightbox]');
+  const triggers = [...document.querySelectorAll<HTMLElement>('[data-lightbox-open]')];
+  if (dialog instanceof HTMLDialogElement && triggers.length > 0) {
+    const image = dialog.querySelector('[data-lightbox-image]');
+    const caption = dialog.querySelector('[data-lightbox-caption]');
+    const count = dialog.querySelector('[data-lightbox-count]');
+    const previous = dialog.querySelector('[data-lightbox-prev]');
+    const next = dialog.querySelector('[data-lightbox-next]');
+    let current = 0;
+    let origin: HTMLElement | null = null;
+
+    const render = () => {
+      const trigger = triggers[current];
+      if (!(trigger instanceof HTMLElement) || !(image instanceof HTMLImageElement)) return;
+      image.src = trigger.dataset.full ?? '';
+      image.alt = trigger.dataset.alt ?? '';
+      if (caption) caption.textContent = trigger.dataset.caption ?? '';
+      if (count) count.textContent = `${current + 1} / ${triggers.length}`;
+      if (previous instanceof HTMLButtonElement) previous.disabled = current === 0;
+      if (next instanceof HTMLButtonElement) next.disabled = current === triggers.length - 1;
+    };
+    const move = (amount: number) => {
+      current = Math.max(0, Math.min(triggers.length - 1, current + amount));
+      render();
+    };
+
+    triggers.forEach((trigger, index) => {
+      trigger.addEventListener('click', () => {
+        current = index;
+        origin = trigger;
+        render();
+        dialog.showModal();
+        document.documentElement.classList.add('has-lightbox');
+      });
+    });
+    previous?.addEventListener('click', () => move(-1));
+    next?.addEventListener('click', () => move(1));
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key === 'ArrowLeft') move(-1);
+      if (event.key === 'ArrowRight') move(1);
+    });
+    dialog.addEventListener('close', () => {
+      document.documentElement.classList.remove('has-lightbox');
+      if (origin instanceof HTMLElement) origin.focus();
+    });
+
+    let touchStart = 0;
+    dialog.addEventListener('touchstart', (event) => {
+      touchStart = event.changedTouches[0]?.clientX ?? 0;
+    }, { passive: true });
+    dialog.addEventListener('touchend', (event) => {
+      const delta = (event.changedTouches[0]?.clientX ?? touchStart) - touchStart;
+      if (Math.abs(delta) > 50) move(delta > 0 ? -1 : 1);
+    }, { passive: true });
+  }
+</script>

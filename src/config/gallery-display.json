@@ -1,0 +1,20 @@
+{
+  "homeCard": [
+    "manufacturer",
+    "profile",
+    "kitCount"
+  ],
+  "seriesDetail": [
+    "manufacturer",
+    "profile",
+    "materials",
+    "manufacturingProcess",
+    "compatibility",
+    "colors",
+    "createdAt",
+    "sleeveStatus"
+  ],
+  "kitCard": [
+    "kittingTypes"
+  ]
+}

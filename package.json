@@ -1,0 +1,25 @@
+{
+  "name": "keylog-public",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "test": "node --test",
+    "check:size": "node scripts/check-size.mjs",
+    "verify": "npm run test && npm run check && npm run build && npm run check:size"
+  },
+  "dependencies": {
+    "astro": "7.0.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.9",
+    "typescript": "6.0.3"
+  }
+}

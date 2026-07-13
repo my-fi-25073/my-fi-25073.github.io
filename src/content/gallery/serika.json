@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "serika",
+  "title": "Serika",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T17:06:08.867Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Colorful",
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "expansion",
+      "title": "Expansion",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Serika Expansion 확장 키캡 구성",
+          "variants": [
+            {
+              "src": "/media/serika/serika-expansion-01-640.avif",
+              "width": 512,
+              "height": 384
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "geometry",
+      "title": "Geometry",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Serika Geometry 노벨티 키캡 구성",
+          "variants": [
+            {
+              "src": "/media/serika/serika-geometry-01-640.avif",
+              "width": 512,
+              "height": 449
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hiragana-base",
+      "title": "Hiragana Base",
+      "kittingTypes": [
+        "Base - Standard",
+        "Alpha - Hiragana"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Serika Hiragana Base 키캡 구성",
+          "variants": [
+            {
+              "src": "/media/serika/serika-hiragana-base-01-640.avif",
+              "width": 512,
+              "height": 384
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "latin-base",
+      "title": "Latin Base",
+      "kittingTypes": [
+        "Base - Standard",
+        "Alpha - Latin"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Serika Latin Base 기본 배열 키캡",
+          "variants": [
+            {
+              "src": "/media/serika/serika-latin-base-01-640.avif",
+              "width": 640,
+              "height": 469
+            },
+            {
+              "src": "/media/serika/serika-latin-base-01-1280.avif",
+              "width": 1024,
+              "height": 751
+            }
+          ]
+        },
+        {
+          "alt": "Serika Latin Base 확장 배열과 숫자 키패드 키캡",
+          "variants": [
+            {
+              "src": "/media/serika/serika-latin-base-02-640.avif",
+              "width": 640,
+              "height": 474
+            },
+            {
+              "src": "/media/serika/serika-latin-base-02-1280.avif",
+              "width": 1024,
+              "height": 758
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "obscure",
+      "title": "Obscure",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Serika Obscure 보조 키캡 구성",
+          "variants": [
+            {
+              "src": "/media/serika/serika-obscure-01-640.avif",
+              "width": 512,
+              "height": 569
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Serika 2 Latin Core 키캡 슬리브 전면",
+      "variants": [
+        {
+          "src": "/media/serika/serika-series-latin-core-640.avif",
+          "width": 640,
+          "height": 559
+        },
+        {
+          "src": "/media/serika/serika-series-latin-core-1280.avif",
+          "width": 1212,
+          "height": 1058
+        }
+      ],
+      "caption": "Serika 2 Latin Core 패키지"
+    }
+  ]
+}

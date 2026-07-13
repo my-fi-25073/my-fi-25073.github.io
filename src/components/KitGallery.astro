@@ -1,0 +1,96 @@
+---
+import DisplayFields from './DisplayFields.astro';
+import { buildKitFields, galleryDisplay } from '../lib/gallery-display';
+
+interface ImageVariant {
+  src: string;
+  width: number;
+  height: number;
+}
+
+interface GalleryImage {
+  alt: string;
+  caption?: string;
+  variants: ImageVariant[];
+}
+
+interface Kit {
+  slug: string;
+  title: string;
+  kittingTypes: string[];
+  sleeveStatus: string | null;
+  images: GalleryImage[];
+}
+
+interface Props {
+  seriesTitle: string;
+  kits: Kit[];
+}
+
+const { seriesTitle, kits } = Astro.props;
+---
+
+<section class="kit-gallery-section record-section" aria-labelledby="kit-gallery-heading">
+  <div class="section-heading">
+    <h2 id="kit-gallery-heading">Kits</h2>
+    <p>{kits.length} recorded</p>
+  </div>
+  <div class="kit-gallery">
+    {kits.map((kit, index) => {
+      const fields = buildKitFields(kit, galleryDisplay.kitCard);
+      return (
+        <article id={`kit-${kit.slug}`} class="kit-card" style={`--kit-index:${index}`}>
+          <div class:list={['kit-card-media', { 'is-placeholder': kit.images.length === 0 }]}>
+            {kit.images.length > 0 ? (
+              <div class="kit-card-media-grid">
+                {kit.images.map((image, imageIndex) => {
+                  const variants = image.variants.toSorted((a, b) => a.width - b.width);
+                  const display = variants[0];
+                  const full = variants.at(-1) ?? display;
+                  const srcset = variants
+                    .map((variant) => `${variant.src} ${variant.width}w`)
+                    .join(', ');
+                  return (
+                    <button
+                      class="kit-card-image-button"
+                      type="button"
+                      hidden={imageIndex > 0}
+                      data-lightbox-open
+                      data-full={full.src}
+                      data-alt={image.alt}
+                      data-caption={image.caption ?? `${kit.title} · ${seriesTitle}`}
+                      aria-label={`${kit.title} ${imageIndex + 1}번째 이미지 확대`}
+                    >
+                      <img
+                        src={display.src}
+                        srcset={srcset}
+                        sizes="(min-width: 1440px) 18vw, (min-width: 960px) 25vw, (min-width: 560px) 50vw, 100vw"
+                        width={display.width}
+                        height={display.height}
+                        alt={image.alt}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </button>
+                  );
+                })}
+                {kit.images.length > 1 && <span class="kit-image-count">{kit.images.length} photos</span>}
+              </div>
+            ) : (
+              <div class="kit-placeholder" aria-label="킷 이미지 연결 전">
+                <span>{String(index + 1).padStart(2, '0')}</span>
+              </div>
+            )}
+          </div>
+          <div class="kit-card-copy">
+            <div class="kit-card-titleline">
+              <h3>{kit.title}</h3>
+              <span class="record-number">{String(index + 1).padStart(2, '0')}</span>
+            </div>
+            <DisplayFields fields={fields} variant="kit" />
+          </div>
+        </article>
+      );
+    })}
+  </div>
+</section>

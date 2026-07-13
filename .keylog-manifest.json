@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "releaseId": "e16f8b01bf9de54d110ca292262daa49ebef626c9447806762a8167b68ecbb92",
+  "files": [
+    {
+      "path": "content/gallery/serika.json",
+      "bytes": 3829,
+      "sha256": "2ec60b56752a215fe58bee76f9f39467a5aef2d6d7684ac0541f97d26afc1847"
+    },
+    {
+      "path": "media/serika/serika-expansion-01-640.avif",
+      "bytes": 9453,
+      "sha256": "afddbfa090d02642512c0e870804863369c2852a0d810a0b4ab47cac692a894c"
+    },
+    {
+      "path": "media/serika/serika-geometry-01-640.avif",
+      "bytes": 15253,
+      "sha256": "969a75265a5885b56c444043422e6b5658902e685ef7c6d65fc844d8bd0cc533"
+    },
+    {
+      "path": "media/serika/serika-hiragana-base-01-640.avif",
+      "bytes": 19686,
+      "sha256": "a5cc04dcabb8a457bc4f8f072ea7b20907800ca7c05f17ad13a10ba8b977f7d5"
+    },
+    {
+      "path": "media/serika/serika-latin-base-01-1280.avif",
+      "bytes": 57691,
+      "sha256": "e37533b91462a696653555da71d97867dd4d9fe343bb330b141fa43c6471e0a0"
+    },
+    {
+      "path": "media/serika/serika-latin-base-01-640.avif",
+      "bytes": 26050,
+      "sha256": "ac30d056d82904c183eb029e0539279bd5833e45a08e1b78d22fbda17f3f201a"
+    },
+    {
+      "path": "media/serika/serika-latin-base-02-1280.avif",
+      "bytes": 52033,
+      "sha256": "71858b666c8bad157a8290358f82f41d15704871b182525b1a3c0cc2bbc1b04d"
+    },
+    {
+      "path": "media/serika/serika-latin-base-02-640.avif",
+      "bytes": 21977,
+      "sha256": "1150ab11219fc952bb6ef8fe7c7795f9a810ac68c41a2d61d6ab13ab5331fdca"
+    },
+    {
+      "path": "media/serika/serika-obscure-01-640.avif",
+      "bytes": 21600,
+      "sha256": "13d6cad530c0e01a8301813ef96a704fd2712f6b5ea7ba5a71c9081007281a2b"
+    },
+    {
+      "path": "media/serika/serika-series-latin-core-1280.avif",
+      "bytes": 21149,
+      "sha256": "87896f2e93d6a29d7b30c7c2dbc775f55a3256d75d5bf9e51a4a27818bb95c90"
+    },
+    {
+      "path": "media/serika/serika-series-latin-core-640.avif",
+      "bytes": 7496,
+      "sha256": "8d716e80c5ee446e26d50e862abbbbe574ad797f33061ddb570243f18ceb917f"
+    }
+  ]
+}

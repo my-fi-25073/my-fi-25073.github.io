@@ -1,0 +1,87 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+import Lightbox from '../../components/Lightbox.astro';
+import DisplayFields from '../../components/DisplayFields.astro';
+import KitGallery from '../../components/KitGallery.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { buildSeriesFields, galleryDisplay } from '../../lib/gallery-display';
+
+export async function getStaticPaths() {
+  const galleries = await getCollection('gallery');
+  return galleries.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'gallery'>;
+}
+
+const { entry } = Astro.props;
+const gallery = entry.data;
+const summary = `${gallery.title} 키캡 시리즈의 구성과 보관 상태를 사진 중심으로 정리한 기록입니다.`;
+const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
+---
+
+<SiteLayout title={gallery.title} description={`${gallery.title} 키캡 시리즈 기록`}>
+  <article class="detail shell">
+    <a class="back-link" href="/">← 전체 아카이브</a>
+    <header class="detail-header">
+      <p class="eyebrow">Keycap series</p>
+      <h1>{gallery.title}</h1>
+      <p class="detail-summary">{summary}</p>
+    </header>
+
+    <section class="series-properties" aria-labelledby="series-properties-heading">
+      <div class="section-heading">
+        <h2 id="series-properties-heading">Details</h2>
+      </div>
+      <DisplayFields fields={detailFields} variant="detail" />
+    </section>
+
+    <KitGallery seriesTitle={gallery.title} kits={gallery.kits} />
+
+    {gallery.images.length > 0 && <section class="record-section" aria-labelledby="image-heading">
+      <div class="section-heading">
+        <h2 id="image-heading">Images</h2>
+        <p>{gallery.images.length} published</p>
+      </div>
+      <div class="detail-images">
+          {gallery.images.map((item, index) => {
+            const variants = item.variants.toSorted((a, b) => a.width - b.width);
+            const display = variants[0];
+            const full = variants.at(-1) ?? display;
+            const srcset = variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+            return (
+              <figure>
+                <button
+                  class="detail-image-button"
+                  type="button"
+                  data-lightbox-open
+                  data-full={full.src}
+                  data-alt={item.alt}
+                  data-caption={item.caption ?? ''}
+                  aria-label={`${index + 1}번째 이미지 확대`}
+                >
+                  <img
+                    src={display.src}
+                    srcset={srcset}
+                    sizes="(min-width: 960px) 88vw, 100vw"
+                    width={display.width}
+                    height={display.height}
+                    alt={item.alt}
+                    loading={index === 0 ? 'eager' : 'lazy'}
+                    decoding="async"
+                  />
+                </button>
+                {item.caption && <figcaption>{item.caption}</figcaption>}
+              </figure>
+            );
+          })}
+      </div>
+    </section>}
+  </article>
+  <Lightbox />
+</SiteLayout>

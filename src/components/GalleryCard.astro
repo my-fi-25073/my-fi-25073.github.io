@@ -1,0 +1,77 @@
+---
+import DisplayFields from './DisplayFields.astro';
+import { buildSeriesFields, galleryDisplay } from '../lib/gallery-display';
+
+interface ImageVariant {
+  src: string;
+  width: number;
+  height: number;
+}
+
+interface GalleryImage {
+  alt: string;
+  variants: ImageVariant[];
+}
+
+interface Gallery {
+  slug: string;
+  title: string;
+  manufacturer: string | null;
+  profile: string | null;
+  manufacturingProcess: string | null;
+  sleeveStatus: string | null;
+  createdAt: string | null;
+  materials: string[];
+  colors: string[];
+  compatibility: string[];
+  kits: Array<{
+    slug: string;
+    title: string;
+  }>;
+  images: GalleryImage[];
+}
+
+interface Props {
+  gallery: Gallery;
+  index: number;
+}
+
+const { gallery, index } = Astro.props;
+const cover = gallery.images[0];
+const coverVariants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
+const coverSource = coverVariants[0];
+const coverSrcset = coverVariants.map((item) => `${item.src} ${item.width}w`).join(', ');
+const fields = buildSeriesFields(gallery, galleryDisplay.homeCard);
+const recordNumber = String(index + 1).padStart(3, '0');
+---
+
+<article class="gallery-card" style={`--card-index:${index}`}>
+  <a class="gallery-card-link" href={`/gallery/${gallery.slug}/`}>
+    <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource }] }>
+      {coverSource ? (
+        <img
+          src={coverSource.src}
+          srcset={coverSrcset}
+          sizes="(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw"
+          width={coverSource.width}
+          height={coverSource.height}
+          alt={cover.alt}
+          loading="lazy"
+          decoding="async"
+        />
+      ) : (
+        <div class="placeholder-art" aria-label="이미지 연결 전">
+          <span class="placeholder-number">{String(index + 1).padStart(2, '0')}</span>
+          <span class="placeholder-label">Image archive pending</span>
+        </div>
+      )}
+    </div>
+    <div class="gallery-card-copy">
+      <div class="gallery-card-titleline">
+        <h2>{gallery.title}</h2>
+        <span class="record-number" aria-label={`${index + 1}번째 기록`}>{recordNumber}</span>
+      </div>
+      <DisplayFields fields={fields} variant="card" />
+    </div>
+  </a>
+</article>

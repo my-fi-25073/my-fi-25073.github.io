@@ -1,0 +1,21 @@
+---
+import type { DisplayField } from '../lib/gallery-display';
+
+interface Props {
+  fields: DisplayField[];
+  variant: 'card' | 'detail' | 'kit';
+}
+
+const { fields, variant } = Astro.props;
+---
+
+{fields.length > 0 && (
+  <dl class:list={['display-fields', `is-${variant}`]}>
+    {fields.map((field) => (
+      <div class="display-field">
+        <dt>{field.label}</dt>
+        <dd>{field.value}</dd>
+      </div>
+    ))}
+  </dl>
+)}

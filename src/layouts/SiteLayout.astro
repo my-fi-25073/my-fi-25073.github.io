@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'KEYLOG',
+  description = '키보드와 키캡을 기록하는 개인 이미지 아카이브',
+} = Astro.props;
+const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f4f2ed" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 이동</a>
+    <header class="site-header shell">
+      <a class="wordmark" href="/" aria-label="KEYLOG 홈">KEYLOG</a>
+      <p class="site-note">Personal keyboard archive</p>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer shell">
+      <p>Built as a local-first archive.</p>
+      <p>Images remain the primary record.</p>
+    </footer>
+  </body>
+</html>
