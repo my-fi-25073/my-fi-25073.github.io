@@ -125,5 +125,5 @@ allowlist 투영기가 결정합니다.
 **GitHub Actions**를 선택해야 합니다. 저장소명이 `my-fi-25073.github.io`인 사용자
 사이트이므로 `astro.config.mjs`의 `site`만 사용하고 `base`는 설정하지 않습니다.
 
-현재 로컬 준비 단계에서는 workflow만 만들며 commit, push, Pages 활성화는 자동으로
-수행하지 않습니다.
+로컬 발행 명령은 commit이나 push를 자동으로 수행하지 않습니다. 공개할 변경을 직접
+검토해 `main`에 push하면 이 workflow가 검증과 Pages 배포를 시작합니다.
