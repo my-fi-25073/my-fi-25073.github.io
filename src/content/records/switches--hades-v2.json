@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "hades-v2",
+  "title": "Hades V2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Hades V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hades-v2/25d43e928ad58931-0-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/switches/hades-v2/25d43e928ad58931-0-1280.avif",
+          "width": 924,
+          "height": 660
+        }
+      ]
+    },
+    {
+      "alt": "Hades V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hades-v2/25d43e928ad58931-1-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/hades-v2/25d43e928ad58931-1-1280.avif",
+          "width": 1279,
+          "height": 874
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "transition-lite-no-13",
+  "title": "Transition Lite No.13",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-05-23",
+  "modules": [],
+  "plates": [
+    "PC",
+    "아일랜드보강"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "80%"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Transition Lite No.13 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-640.avif",
+          "width": 640,
+          "height": 390
+        },
+        {
+          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-1280.avif",
+          "width": 1280,
+          "height": 781
+        },
+        {
+          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-2400.avif",
+          "width": 1364,
+          "height": 832
+        }
+      ]
+    }
+  ]
+}

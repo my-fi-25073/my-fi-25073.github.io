@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "classic-beige-oco",
+  "title": "Classic Beige (OCO)",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T11:47:47Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (OCO) Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-oco/kit-511d1e81260a476d-0-640.avif",
+              "width": 640,
+              "height": 384
+            },
+            {
+              "src": "/media/classic-beige-oco/kit-511d1e81260a476d-0-1280.avif",
+              "width": 1280,
+              "height": 769
+            },
+            {
+              "src": "/media/classic-beige-oco/kit-511d1e81260a476d-0-2400.avif",
+              "width": 2048,
+              "height": 1231
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Classic Beige (OCO) 이미지 1",
+      "variants": [
+        {
+          "src": "/media/classic-beige-oco/series-e2a0ddbc3fd861e6-0-640.avif",
+          "width": 640,
+          "height": 452
+        },
+        {
+          "src": "/media/classic-beige-oco/series-e2a0ddbc3fd861e6-0-1280.avif",
+          "width": 1280,
+          "height": 904
+        },
+        {
+          "src": "/media/classic-beige-oco/series-e2a0ddbc3fd861e6-0-2400.avif",
+          "width": 1564,
+          "height": 1104
+        }
+      ]
+    }
+  ]
+}

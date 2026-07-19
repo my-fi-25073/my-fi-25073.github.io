@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "m1",
+  "title": "M1",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "M1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/m1/d3d2a4ac3b77d4d0-0-640.avif",
+          "width": 640,
+          "height": 422
+        },
+        {
+          "src": "/media/switches/m1/d3d2a4ac3b77d4d0-0-1280.avif",
+          "width": 1020,
+          "height": 672
+        }
+      ]
+    },
+    {
+      "alt": "M1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/m1/d3d2a4ac3b77d4d0-1-640.avif",
+          "width": 640,
+          "height": 870
+        },
+        {
+          "src": "/media/switches/m1/d3d2a4ac3b77d4d0-1-1280.avif",
+          "width": 715,
+          "height": 972
+        }
+      ]
+    }
+  ]
+}

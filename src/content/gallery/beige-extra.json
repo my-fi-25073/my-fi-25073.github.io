@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "beige-extra",
+  "title": "Beige Extra",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:52:33Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "beige-4-5u-jis-space-bar",
+      "title": "Beige 4.5u JIS Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Extra Beige 4.5u JIS Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "beige-og-space-keys",
+      "title": "Beige OG Space Keys",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Extra Beige OG Space Keys 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "beige-system-mod",
+      "title": "Beige System Mod",
+      "kittingTypes": [
+        "Accent - Modifiers"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Extra Beige System Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sixes-ogre-ergo-kit",
+      "title": "Sixes Ogre (Ergo kit)",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 2",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-1280.avif",
+              "width": 1280,
+              "height": 1707
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-2400.avif",
+              "width": 2048,
+              "height": 2731
+            }
+          ]
+        },
+        {
+          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 3",
+          "variants": [
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Beige Extra 이미지 1",
+      "variants": [
+        {
+          "src": "/media/beige-extra/series-02d16a84d521a275-0-640.avif",
+          "width": 640,
+          "height": 604
+        },
+        {
+          "src": "/media/beige-extra/series-02d16a84d521a275-0-1280.avif",
+          "width": 1206,
+          "height": 1138
+        }
+      ]
+    }
+  ]
+}

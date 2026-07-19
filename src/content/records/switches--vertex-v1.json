@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "vertex-v1",
+  "title": "Vertex V1",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Vertex V1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/vertex-v1/db13296cc04af6b5-0-640.avif",
+          "width": 640,
+          "height": 572
+        },
+        {
+          "src": "/media/switches/vertex-v1/db13296cc04af6b5-0-1280.avif",
+          "width": 732,
+          "height": 654
+        }
+      ]
+    },
+    {
+      "alt": "Vertex V1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-640.avif",
+          "width": 640,
+          "height": 758
+        },
+        {
+          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-1280.avif",
+          "width": 1280,
+          "height": 1517
+        },
+        {
+          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-2400.avif",
+          "width": 1282,
+          "height": 1519
+        }
+      ]
+    }
+  ]
+}

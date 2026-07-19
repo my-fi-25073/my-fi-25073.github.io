@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "sr-industry",
+  "title": "SR Industry",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/srind"
+    }
+  ],
+  "images": []
+}

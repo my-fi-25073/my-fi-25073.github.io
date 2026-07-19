@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "blanks-iso",
+  "title": "Blanks ISO",
+  "category": "keycaps",
+  "manufacturer": "RDW",
+  "profile": "Cherry-Clone",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:07:16Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "iso-tkl-base",
+      "title": "ISO TKL Base",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Blanks ISO ISO TKL Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/blanks-iso/kit-b0f3e59baada1022-0-640.avif",
+              "width": 640,
+              "height": 490
+            },
+            {
+              "src": "/media/blanks-iso/kit-b0f3e59baada1022-0-1280.avif",
+              "width": 958,
+              "height": 734
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Blanks ISO 이미지 1",
+      "variants": [
+        {
+          "src": "/media/blanks-iso/series-e9794a346eb7858d-0-640.avif",
+          "width": 640,
+          "height": 490
+        },
+        {
+          "src": "/media/blanks-iso/series-e9794a346eb7858d-0-1280.avif",
+          "width": 958,
+          "height": 734
+        }
+      ]
+    }
+  ]
+}

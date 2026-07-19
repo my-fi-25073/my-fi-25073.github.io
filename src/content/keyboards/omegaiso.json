@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "omegaiso",
+  "title": "OmegaISO",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-11-21",
+  "modules": [],
+  "plates": [
+    "알루미늄"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "오쏘리니어",
+    "6x17",
+    "WKL"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "OmegaISO 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "OmegaISO 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "OmegaISO 사진 3",
+      "variants": [
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "OmegaISO 사진 4",
+      "variants": [
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

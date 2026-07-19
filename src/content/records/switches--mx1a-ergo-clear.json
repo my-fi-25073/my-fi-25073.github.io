@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-ergo-clear",
+  "title": "MX1A Ergo Clear",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX1A Ergo Clear 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-ergo-clear/e2c0fd42cbe6e338-0-640.avif",
+          "width": 640,
+          "height": 579
+        },
+        {
+          "src": "/media/switches/mx1a-ergo-clear/e2c0fd42cbe6e338-0-1280.avif",
+          "width": 1229,
+          "height": 1111
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Ergo Clear 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-ergo-clear/e2c0fd42cbe6e338-1-640.avif",
+          "width": 640,
+          "height": 361
+        },
+        {
+          "src": "/media/switches/mx1a-ergo-clear/e2c0fd42cbe6e338-1-1280.avif",
+          "width": 836,
+          "height": 471
+        }
+      ]
+    }
+  ]
+}

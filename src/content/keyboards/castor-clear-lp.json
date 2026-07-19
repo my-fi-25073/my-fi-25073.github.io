@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-clear-lp",
+  "title": "Castor Clear LP",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-01-12",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor Clear LP 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-640.avif",
+          "width": 640,
+          "height": 357
+        },
+        {
+          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-1280.avif",
+          "width": 1280,
+          "height": 714
+        },
+        {
+          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-2400.avif",
+          "width": 2400,
+          "height": 1338
+        }
+      ]
+    }
+  ]
+}

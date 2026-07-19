@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "taro-ice-cream",
+  "title": "Taro Ice Cream",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Taro Ice Cream 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-0-640.avif",
+          "width": 640,
+          "height": 567
+        },
+        {
+          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-0-1280.avif",
+          "width": 665,
+          "height": 589
+        }
+      ]
+    },
+    {
+      "alt": "Taro Ice Cream 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-1-640.avif",
+          "width": 640,
+          "height": 670
+        },
+        {
+          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-1-1280.avif",
+          "width": 1032,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

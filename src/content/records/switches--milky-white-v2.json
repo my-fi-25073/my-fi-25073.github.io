@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "milky-white-v2",
+  "title": "Milky White v2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Milky White v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/milky-white-v2/104aaa49f5883fd3-0-640.avif",
+          "width": 640,
+          "height": 610
+        },
+        {
+          "src": "/media/switches/milky-white-v2/104aaa49f5883fd3-0-1280.avif",
+          "width": 662,
+          "height": 631
+        }
+      ]
+    },
+    {
+      "alt": "Milky White v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/milky-white-v2/104aaa49f5883fd3-1-640.avif",
+          "width": 640,
+          "height": 707
+        },
+        {
+          "src": "/media/switches/milky-white-v2/104aaa49f5883fd3-1-1280.avif",
+          "width": 669,
+          "height": 739
+        }
+      ]
+    }
+  ]
+}

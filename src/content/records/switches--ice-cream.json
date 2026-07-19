@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ice-cream",
+  "title": "Ice Cream",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ice Cream 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ice-cream/2768520aa7b1042d-0-640.avif",
+          "width": 640,
+          "height": 572
+        },
+        {
+          "src": "/media/switches/ice-cream/2768520aa7b1042d-0-1280.avif",
+          "width": 663,
+          "height": 593
+        }
+      ]
+    },
+    {
+      "alt": "Ice Cream 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ice-cream/2768520aa7b1042d-1-640.avif",
+          "width": 640,
+          "height": 606
+        },
+        {
+          "src": "/media/switches/ice-cream/2768520aa7b1042d-1-1280.avif",
+          "width": 1132,
+          "height": 1071
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-white-lp",
+  "title": "Castor White LP",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-05-10",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor White LP 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-white-lp/36309a0c6d139af1-0-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/keyboards/castor-white-lp/36309a0c6d139af1-0-1280.avif",
+          "width": 1025,
+          "height": 706
+        }
+      ]
+    }
+  ]
+}

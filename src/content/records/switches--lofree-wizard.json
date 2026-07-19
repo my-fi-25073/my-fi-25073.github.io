@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lofree-wizard",
+  "title": "Lofree Wizard",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lofree Wizard 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-wizard/164a4e5e795cface-0-640.avif",
+          "width": 459,
+          "height": 408
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Wizard 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-wizard/164a4e5e795cface-1-640.avif",
+          "width": 640,
+          "height": 1361
+        },
+        {
+          "src": "/media/switches/lofree-wizard/164a4e5e795cface-1-1280.avif",
+          "width": 963,
+          "height": 2048
+        }
+      ]
+    }
+  ]
+}

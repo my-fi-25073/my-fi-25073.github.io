@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dots",
+  "title": "Dots",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T17:04:21Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "White"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "nomad-light",
+      "title": "Nomad Light",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Dots Nomad Light 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dots/kit-1c12a64b87430949-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dots/kit-1c12a64b87430949-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dots/kit-1c12a64b87430949-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rainbow-light",
+      "title": "Rainbow Light",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Dots Rainbow Light 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dots/kit-92d93e7911b085e5-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dots/kit-92d93e7911b085e5-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dots/kit-92d93e7911b085e5-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Dots 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dots/series-7f27d044ca4e5ebf-0-640.avif",
+          "width": 640,
+          "height": 455
+        },
+        {
+          "src": "/media/dots/series-7f27d044ca4e5ebf-0-1280.avif",
+          "width": 1280,
+          "height": 909
+        },
+        {
+          "src": "/media/dots/series-7f27d044ca4e5ebf-0-2400.avif",
+          "width": 1346,
+          "height": 956
+        }
+      ]
+    },
+    {
+      "alt": "Dots 이미지 2",
+      "variants": [
+        {
+          "src": "/media/dots/series-7f27d044ca4e5ebf-1-640.avif",
+          "width": 640,
+          "height": 254
+        },
+        {
+          "src": "/media/dots/series-7f27d044ca4e5ebf-1-1280.avif",
+          "width": 1200,
+          "height": 477
+        }
+      ]
+    }
+  ]
+}

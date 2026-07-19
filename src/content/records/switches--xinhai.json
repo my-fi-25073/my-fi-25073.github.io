@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "xinhai",
+  "title": "Xinhai",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Xinhai 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/xinhai/ac655af12e1b5994-0-640.avif",
+          "width": 640,
+          "height": 485
+        },
+        {
+          "src": "/media/switches/xinhai/ac655af12e1b5994-0-1280.avif",
+          "width": 885,
+          "height": 671
+        }
+      ]
+    },
+    {
+      "alt": "Xinhai 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/xinhai/ac655af12e1b5994-1-640.avif",
+          "width": 640,
+          "height": 720
+        },
+        {
+          "src": "/media/switches/xinhai/ac655af12e1b5994-1-1280.avif",
+          "width": 1280,
+          "height": 1440
+        },
+        {
+          "src": "/media/switches/xinhai/ac655af12e1b5994-1-2400.avif",
+          "width": 1331,
+          "height": 1497
+        }
+      ]
+    }
+  ]
+}

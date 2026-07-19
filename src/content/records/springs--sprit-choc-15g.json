@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-choc-15g",
+  "title": "Sprit Choc 15g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Choc/Alps",
+  "springType": "LP",
+  "actuationForce": "???",
+  "bottomOutForce": "15g",
+  "length": "11.75mm",
+  "images": []
+}

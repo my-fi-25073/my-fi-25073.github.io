@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "vulpes-majora",
+  "title": "Vulpes Majora",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-06-27",
+  "modules": [
+    "트랙볼",
+    "휠 노브",
+    "D패드"
+  ],
+  "plates": [
+    "FR4"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "모노블럭 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "스위치 폼",
+    "기보강 폼"
+  ],
+  "images": [
+    {
+      "alt": "Vulpes Majora 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Vulpes Majora 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-1280.avif",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-2400.avif",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "milky-yellow-black",
+  "title": "Milky Yellow Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Milky Yellow Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-0-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-0-1280.avif",
+          "width": 866,
+          "height": 622
+        }
+      ]
+    },
+    {
+      "alt": "Milky Yellow Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-640.avif",
+          "width": 640,
+          "height": 285
+        },
+        {
+          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-1280.avif",
+          "width": 1280,
+          "height": 570
+        },
+        {
+          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-2400.avif",
+          "width": 1915,
+          "height": 853
+        }
+      ]
+    }
+  ]
+}

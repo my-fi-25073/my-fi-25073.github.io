@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "red-pro",
+  "title": "Red Pro",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Red Pro 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/red-pro/831954f62c887060-0-640.avif",
+          "width": 640,
+          "height": 628
+        },
+        {
+          "src": "/media/switches/red-pro/831954f62c887060-0-1280.avif",
+          "width": 723,
+          "height": 709
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mint",
+  "title": "Mint",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Mint 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mint/e22e2b5cdeb42a56-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/switches/mint/e22e2b5cdeb42a56-0-1280.avif",
+          "width": 737,
+          "height": 553
+        }
+      ]
+    },
+    {
+      "alt": "Mint 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-640.avif",
+          "width": 640,
+          "height": 727
+        },
+        {
+          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-1280.avif",
+          "width": 1280,
+          "height": 1455
+        },
+        {
+          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-2400.avif",
+          "width": 1325,
+          "height": 1506
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "factory-og-37g",
+  "title": "Factory OG 37g",
+  "category": "springs",
+  "manufacturer": "Factory",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "???",
+  "bottomOutForce": "37g",
+  "length": "N/A",
+  "images": []
+}

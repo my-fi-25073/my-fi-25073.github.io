@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ash",
+  "title": "Ash",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ash 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ash/483f87454ff4b7a2-0-640.avif",
+          "width": 640,
+          "height": 477
+        },
+        {
+          "src": "/media/switches/ash/483f87454ff4b7a2-0-1280.avif",
+          "width": 712,
+          "height": 531
+        }
+      ]
+    },
+    {
+      "alt": "Ash 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ash/483f87454ff4b7a2-1-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/ash/483f87454ff4b7a2-1-1280.avif",
+          "width": 1214,
+          "height": 1486
+        }
+      ]
+    }
+  ]
+}

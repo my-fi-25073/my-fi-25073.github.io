@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "oblotzky",
+  "title": "Oblotzky",
+  "category": "vendors",
+  "location": "Germany",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://oblotzky.industries/"
+    }
+  ],
+  "images": []
+}

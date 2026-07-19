@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "tt-red",
+  "title": "TT Red",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "TT Red 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/tt-red/8b94aa6898a31dfb-0-640.avif",
+          "width": 640,
+          "height": 420
+        },
+        {
+          "src": "/media/switches/tt-red/8b94aa6898a31dfb-0-1280.avif",
+          "width": 1103,
+          "height": 724
+        }
+      ]
+    },
+    {
+      "alt": "TT Red 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/tt-red/8b94aa6898a31dfb-1-640.avif",
+          "width": 640,
+          "height": 652
+        },
+        {
+          "src": "/media/switches/tt-red/8b94aa6898a31dfb-1-1280.avif",
+          "width": 818,
+          "height": 833
+        }
+      ]
+    }
+  ]
+}

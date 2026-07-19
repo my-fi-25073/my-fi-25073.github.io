@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "geon-non-magnetic-42-5g",
+  "title": "Geon Non Magnetic 42.5g",
+  "category": "springs",
+  "manufacturer": "Geon",
+  "series": "Non-Magnetic",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "42.5g",
+  "length": "19mm",
+  "images": []
+}

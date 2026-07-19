@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "cream-blue",
+  "title": "Cream Blue",
+  "category": "switches",
+  "manufacturer": "Akko",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Cream Blue 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-1280.avif",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-2400.avif",
+          "width": 1500,
+          "height": 1500
+        }
+      ]
+    },
+    {
+      "alt": "Cream Blue 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-640.avif",
+          "width": 640,
+          "height": 332
+        },
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-1280.avif",
+          "width": 1280,
+          "height": 664
+        },
+        {
+          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-2400.avif",
+          "width": 1828,
+          "height": 948
+        }
+      ]
+    }
+  ]
+}

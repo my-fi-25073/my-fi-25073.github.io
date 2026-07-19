@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "nuphy-wisteria",
+  "title": "NuPhy Wisteria",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "NuPhy Wisteria 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-0-640.avif",
+          "width": 640,
+          "height": 498
+        },
+        {
+          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-0-1280.avif",
+          "width": 761,
+          "height": 592
+        }
+      ]
+    },
+    {
+      "alt": "NuPhy Wisteria 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-1-640.avif",
+          "width": 640,
+          "height": 249
+        },
+        {
+          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-1-1280.avif",
+          "width": 935,
+          "height": 364
+        }
+      ]
+    }
+  ]
+}

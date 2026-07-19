@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "oblivion",
+  "title": "Oblivion",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T17:04:44Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Gray",
+    "White"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "40bit-base",
+      "title": "40Bit Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion 40Bit Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Oblivion 40Bit Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-54b77b32ab87420b-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "assembly-base",
+      "title": "Assembly Base",
+      "kittingTypes": [
+        "Base - Assembly"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Assembly Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-91c92abcbfd9fd56-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-91c92abcbfd9fd56-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-91c92abcbfd9fd56-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "colevrak",
+      "title": "Colevrak",
+      "kittingTypes": [
+        "Alpha - Colevrak"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Colevrak 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-6ec8d305d0a46214-0-640.avif",
+              "width": 640,
+              "height": 391
+            },
+            {
+              "src": "/media/oblivion/kit-6ec8d305d0a46214-0-1280.avif",
+              "width": 1280,
+              "height": 783
+            },
+            {
+              "src": "/media/oblivion/kit-6ec8d305d0a46214-0-2400.avif",
+              "width": 2048,
+              "height": 1252
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "coral-space-bars",
+      "title": "Coral Space Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Coral Space Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-858905188e47ae4c-0-640.avif",
+              "width": 640,
+              "height": 507
+            },
+            {
+              "src": "/media/oblivion/kit-858905188e47ae4c-0-1280.avif",
+              "width": 1280,
+              "height": 1014
+            },
+            {
+              "src": "/media/oblivion/kit-858905188e47ae4c-0-2400.avif",
+              "width": 2048,
+              "height": 1623
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extension",
+      "title": "Extension",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-1eec77bc0e927f3e-0-640.avif",
+              "width": 640,
+              "height": 345
+            },
+            {
+              "src": "/media/oblivion/kit-1eec77bc0e927f3e-0-1280.avif",
+              "width": 940,
+              "height": 506
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "git-base",
+      "title": "Git Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Git Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-cee3d9a98bffa30f-0-640.avif",
+              "width": 640,
+              "height": 374
+            },
+            {
+              "src": "/media/oblivion/kit-cee3d9a98bffa30f-0-1280.avif",
+              "width": 1280,
+              "height": 749
+            },
+            {
+              "src": "/media/oblivion/kit-cee3d9a98bffa30f-0-2400.avif",
+              "width": 2048,
+              "height": 1198
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hagoromo-ansi",
+      "title": "Hagoromo ANSI",
+      "kittingTypes": [
+        "Accent - Alpha"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Hagoromo ANSI 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-09b794bbb3b5844a-0-640.avif",
+              "width": 640,
+              "height": 418
+            },
+            {
+              "src": "/media/oblivion/kit-09b794bbb3b5844a-0-1280.avif",
+              "width": 1280,
+              "height": 837
+            },
+            {
+              "src": "/media/oblivion/kit-09b794bbb3b5844a-0-2400.avif",
+              "width": 1958,
+              "height": 1280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "regular-base",
+      "title": "Regular Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Regular Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Oblivion Regular Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-c587f303a16a560e-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vim",
+      "title": "Vim",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Oblivion Vim 이미지 1",
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-3ac154d4db8ee434-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-3ac154d4db8ee434-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-3ac154d4db8ee434-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Oblivion 이미지 1",
+      "variants": [
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-0-640.avif",
+          "width": 640,
+          "height": 504
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-0-1280.avif",
+          "width": 1280,
+          "height": 1008
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-0-2400.avif",
+          "width": 1394,
+          "height": 1098
+        }
+      ]
+    },
+    {
+      "alt": "Oblivion 이미지 2",
+      "variants": [
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-1-640.avif",
+          "width": 640,
+          "height": 579
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-1-1280.avif",
+          "width": 1280,
+          "height": 1157
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-1-2400.avif",
+          "width": 1566,
+          "height": 1416
+        }
+      ]
+    },
+    {
+      "alt": "Oblivion 이미지 3",
+      "variants": [
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-2-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-2-1280.avif",
+          "width": 1280,
+          "height": 1146
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-2-2400.avif",
+          "width": 1510,
+          "height": 1352
+        }
+      ]
+    },
+    {
+      "alt": "Oblivion 이미지 4",
+      "variants": [
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-3-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-3-1280.avif",
+          "width": 1280,
+          "height": 1146
+        },
+        {
+          "src": "/media/oblivion/series-c2ebf9dfc417b6bc-3-2400.avif",
+          "width": 1546,
+          "height": 1384
+        }
+      ]
+    }
+  ]
+}

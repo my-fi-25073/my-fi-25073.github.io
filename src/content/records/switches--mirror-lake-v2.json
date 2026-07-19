@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mirror-lake-v2",
+  "title": "Mirror Lake V2",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Mirror Lake V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-0-640.avif",
+          "width": 640,
+          "height": 303
+        },
+        {
+          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-0-1280.avif",
+          "width": 744,
+          "height": 352
+        }
+      ]
+    },
+    {
+      "alt": "Mirror Lake V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-1-640.avif",
+          "width": 640,
+          "height": 498
+        },
+        {
+          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-1-1280.avif",
+          "width": 811,
+          "height": 631
+        }
+      ]
+    }
+  ]
+}

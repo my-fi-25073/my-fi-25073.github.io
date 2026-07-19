@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "gmk",
+  "title": "GMK",
+  "category": "vendors",
+  "location": "Germany",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.gmk.net/shop/en"
+    }
+  ],
+  "images": []
+}

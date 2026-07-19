@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "gb40",
+  "title": "GB40",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-10-17",
+  "modules": [],
+  "plates": [
+    "FR4"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "40%"
+  ],
+  "mounts": [
+    "실리콘",
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "하우징 폼"
+  ],
+  "images": [
+    {
+      "alt": "GB40 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/gb40/3d795f5415c8ed33-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/gb40/3d795f5415c8ed33-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/gb40/3d795f5415c8ed33-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

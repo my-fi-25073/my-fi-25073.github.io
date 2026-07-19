@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-supreme-180g",
+  "title": "Sprit Supreme 180g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Supreme",
+  "springType": "Short",
+  "actuationForce": "110g",
+  "bottomOutForce": "180g",
+  "length": null,
+  "images": []
+}

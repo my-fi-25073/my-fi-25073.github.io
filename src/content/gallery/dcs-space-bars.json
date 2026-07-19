@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dcs-space-bars",
+  "title": "DCS Space Bars",
+  "category": "keycaps",
+  "manufacturer": "SP",
+  "profile": "DCS",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:05:18Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "10u-space-bar",
+      "title": "10u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCS Space Bars 10u Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcs-space-bars/kit-80e22f8c02e60d90-0-640.avif",
+              "width": 640,
+              "height": 411
+            },
+            {
+              "src": "/media/dcs-space-bars/kit-80e22f8c02e60d90-0-1280.avif",
+              "width": 1280,
+              "height": 821
+            },
+            {
+              "src": "/media/dcs-space-bars/kit-80e22f8c02e60d90-0-2400.avif",
+              "width": 1880,
+              "height": 1206
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "5u-space-bar",
+      "title": "5u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCS Space Bars 5u Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcs-space-bars/kit-7deff682efe77803-0-640.avif",
+              "width": 640,
+              "height": 478
+            },
+            {
+              "src": "/media/dcs-space-bars/kit-7deff682efe77803-0-1280.avif",
+              "width": 1280,
+              "height": 957
+            },
+            {
+              "src": "/media/dcs-space-bars/kit-7deff682efe77803-0-2400.avif",
+              "width": 1370,
+              "height": 1024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "6u-space-bar",
+      "title": "6u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": []
+    },
+    {
+      "slug": "mini-bars",
+      "title": "Mini Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCS Space Bars Mini Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcs-space-bars/kit-dd0def7f41ffd133-0-640.avif",
+              "width": 480,
+              "height": 360
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "DCS Space Bars 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dcs-space-bars/series-7f32029a7c37bb55-0-640.avif",
+          "width": 640,
+          "height": 388
+        },
+        {
+          "src": "/media/dcs-space-bars/series-7f32029a7c37bb55-0-1280.avif",
+          "width": 1280,
+          "height": 776
+        },
+        {
+          "src": "/media/dcs-space-bars/series-7f32029a7c37bb55-0-2400.avif",
+          "width": 2048,
+          "height": 1242
+        }
+      ]
+    }
+  ]
+}

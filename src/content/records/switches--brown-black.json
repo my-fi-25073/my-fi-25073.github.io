@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "brown-black",
+  "title": "Brown Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Brown Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/brown-black/0690b4cfe2e77ede-0-640.avif",
+          "width": 459,
+          "height": 428
+        }
+      ]
+    },
+    {
+      "alt": "Brown Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/brown-black/0690b4cfe2e77ede-1-640.avif",
+          "width": 403,
+          "height": 341
+        }
+      ]
+    }
+  ]
+}

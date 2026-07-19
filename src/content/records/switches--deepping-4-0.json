@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "deepping-4-0",
+  "title": "Deepping 4.0",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Deepping 4.0 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/deepping-4-0/8e9208123122701e-0-640.avif",
+          "width": 640,
+          "height": 569
+        },
+        {
+          "src": "/media/switches/deepping-4-0/8e9208123122701e-0-1280.avif",
+          "width": 1060,
+          "height": 943
+        }
+      ]
+    },
+    {
+      "alt": "Deepping 4.0 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-640.avif",
+          "width": 640,
+          "height": 619
+        },
+        {
+          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-1280.avif",
+          "width": 1280,
+          "height": 1238
+        },
+        {
+          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-2400.avif",
+          "width": 1658,
+          "height": 1603
+        }
+      ]
+    }
+  ]
+}

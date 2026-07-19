@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "white-rain",
+  "title": "White Rain",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "White Rain 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/white-rain/19a40a75898998ba-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/white-rain/19a40a75898998ba-0-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "alt": "White Rain 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/white-rain/19a40a75898998ba-1-640.avif",
+          "width": 640,
+          "height": 431
+        },
+        {
+          "src": "/media/switches/white-rain/19a40a75898998ba-1-1280.avif",
+          "width": 1280,
+          "height": 862
+        },
+        {
+          "src": "/media/switches/white-rain/19a40a75898998ba-1-2400.avif",
+          "width": 1897,
+          "height": 1278
+        }
+      ]
+    }
+  ]
+}

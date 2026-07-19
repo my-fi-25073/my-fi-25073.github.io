@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "pbs-blanks-white",
+  "title": "PBS Blanks White",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "PBS",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:09:07Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "PBS Blanks White Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pbs-blanks-white/kit-cf184d0b8c909f3d-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pbs-blanks-white/kit-cf184d0b8c909f3d-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pbs-blanks-white/kit-cf184d0b8c909f3d-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "PBS Blanks White 이미지 1",
+      "variants": [
+        {
+          "src": "/media/pbs-blanks-white/series-dc1655e41bfcae54-0-640.avif",
+          "width": 640,
+          "height": 508
+        },
+        {
+          "src": "/media/pbs-blanks-white/series-dc1655e41bfcae54-0-1280.avif",
+          "width": 1280,
+          "height": 1016
+        },
+        {
+          "src": "/media/pbs-blanks-white/series-dc1655e41bfcae54-0-2400.avif",
+          "width": 1636,
+          "height": 1298
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ocean",
+  "title": "Ocean",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ocean 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ocean/75b7a5d8201cfa85-0-640.avif",
+          "width": 640,
+          "height": 440
+        },
+        {
+          "src": "/media/switches/ocean/75b7a5d8201cfa85-0-1280.avif",
+          "width": 736,
+          "height": 506
+        }
+      ]
+    },
+    {
+      "alt": "Ocean 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ocean/75b7a5d8201cfa85-1-640.avif",
+          "width": 640,
+          "height": 637
+        },
+        {
+          "src": "/media/switches/ocean/75b7a5d8201cfa85-1-1280.avif",
+          "width": 1249,
+          "height": 1244
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "light-sakura",
+  "title": "Light Sakura",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Light Sakura 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/light-sakura/c7980f0ee1350156-0-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/switches/light-sakura/c7980f0ee1350156-0-1280.avif",
+          "width": 738,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "alt": "Light Sakura 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/light-sakura/c7980f0ee1350156-1-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/switches/light-sakura/c7980f0ee1350156-1-1280.avif",
+          "width": 840,
+          "height": 579
+        }
+      ]
+    }
+  ]
+}

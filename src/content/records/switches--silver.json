@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "silver",
+  "title": "Silver",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Silver 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/silver/4e167b3eb3636d89-0-640.avif",
+          "width": 640,
+          "height": 627
+        },
+        {
+          "src": "/media/switches/silver/4e167b3eb3636d89-0-1280.avif",
+          "width": 757,
+          "height": 742
+        }
+      ]
+    }
+  ]
+}

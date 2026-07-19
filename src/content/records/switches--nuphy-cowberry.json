@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "nuphy-cowberry",
+  "title": "NuPhy Cowberry",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "NuPhy Cowberry 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-0-640.avif",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-0-1280.avif",
+          "width": 814,
+          "height": 652
+        }
+      ]
+    },
+    {
+      "alt": "NuPhy Cowberry 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-1-640.avif",
+          "width": 640,
+          "height": 246
+        },
+        {
+          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-1-1280.avif",
+          "width": 936,
+          "height": 360
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "cannonkeys",
+  "title": "CannonKeys",
+  "category": "vendors",
+  "location": "US-East",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://cannonkeys.com/"
+    }
+  ],
+  "images": []
+}

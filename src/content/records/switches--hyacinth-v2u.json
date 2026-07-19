@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "hyacinth-v2u",
+  "title": "Hyacinth V2U",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Hyacinth V2U 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hyacinth-v2u/07e21365efd8909b-0-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/hyacinth-v2u/07e21365efd8909b-0-1280.avif",
+          "width": 1026,
+          "height": 701
+        }
+      ]
+    },
+    {
+      "alt": "Hyacinth V2U 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hyacinth-v2u/07e21365efd8909b-1-640.avif",
+          "width": 640,
+          "height": 542
+        },
+        {
+          "src": "/media/switches/hyacinth-v2u/07e21365efd8909b-1-1280.avif",
+          "width": 1280,
+          "height": 1084
+        },
+        {
+          "src": "/media/switches/hyacinth-v2u/07e21365efd8909b-1-2400.avif",
+          "width": 1322,
+          "height": 1120
+        }
+      ]
+    }
+  ]
+}

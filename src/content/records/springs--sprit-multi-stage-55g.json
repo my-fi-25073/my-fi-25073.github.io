@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-multi-stage-55g",
+  "title": "Sprit Multi Stage 55g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Multi Stage",
+  "springType": "Multi-Stage",
+  "actuationForce": "60g",
+  "bottomOutForce": "55g",
+  "length": null,
+  "images": []
+}

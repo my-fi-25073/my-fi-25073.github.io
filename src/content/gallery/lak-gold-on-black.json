@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lak-gold-on-black",
+  "title": "LAK Gold On Black",
+  "category": "keycaps",
+  "manufacturer": "Chosfox",
+  "profile": "LAK",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:11:31Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LAK Gold On Black Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-640.avif",
+              "width": 640,
+              "height": 471
+            },
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-1280.avif",
+              "width": 1280,
+              "height": 942
+            },
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-2400.avif",
+              "width": 2048,
+              "height": 1507
+            }
+          ]
+        },
+        {
+          "alt": "LAK Gold On Black Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-640.avif",
+              "width": 640,
+              "height": 541
+            },
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-1280.avif",
+              "width": 1280,
+              "height": 1083
+            },
+            {
+              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-2400.avif",
+              "width": 2048,
+              "height": 1733
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LAK Gold On Black 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-0-640.avif",
+          "width": 468,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "alt": "LAK Gold On Black 이미지 2",
+      "variants": [
+        {
+          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-1-640.avif",
+          "width": 640,
+          "height": 519
+        },
+        {
+          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-1-1280.avif",
+          "width": 1076,
+          "height": 872
+        }
+      ]
+    }
+  ]
+}

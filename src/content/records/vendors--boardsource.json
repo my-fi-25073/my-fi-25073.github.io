@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "boardsource",
+  "title": "Boardsource",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.boardsource.xyz/"
+    }
+  ],
+  "images": []
+}

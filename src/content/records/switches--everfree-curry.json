@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "everfree-curry",
+  "title": "Everfree Curry",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Everfree Curry 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-640.avif",
+          "width": 640,
+          "height": 446
+        },
+        {
+          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-1280.avif",
+          "width": 1280,
+          "height": 892
+        },
+        {
+          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-2400.avif",
+          "width": 1500,
+          "height": 1045
+        }
+      ]
+    },
+    {
+      "alt": "Everfree Curry 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/everfree-curry/2a67392a1d37b402-1-640.avif",
+          "width": 600,
+          "height": 419
+        }
+      ]
+    }
+  ]
+}

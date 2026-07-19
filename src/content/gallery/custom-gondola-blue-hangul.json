@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "custom-gondola-blue-hangul",
+  "title": "Custom Gondola Blue Hangul",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KAM",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:09:54Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "gondola-base",
+      "title": "Gondola Base",
+      "kittingTypes": [
+        "Base - Custom",
+        "Alpha - Hangul"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Custom Gondola Blue Hangul Gondola Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-0-640.avif",
+              "width": 640,
+              "height": 483
+            },
+            {
+              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-0-1280.avif",
+              "width": 1024,
+              "height": 773
+            }
+          ]
+        },
+        {
+          "alt": "Custom Gondola Blue Hangul Gondola Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-1-640.avif",
+              "width": 640,
+              "height": 483
+            },
+            {
+              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-1-1280.avif",
+              "width": 1024,
+              "height": 772
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Custom Gondola Blue Hangul 이미지 1",
+      "variants": [
+        {
+          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

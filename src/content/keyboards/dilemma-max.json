@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "dilemma-max",
+  "title": "Dilemma Max",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-02-03",
+  "modules": [
+    "트랙패드"
+  ],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "4x6"
+  ],
+  "mounts": [
+    "스탠드오프",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Dilemma Max 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "Dilemma Max 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

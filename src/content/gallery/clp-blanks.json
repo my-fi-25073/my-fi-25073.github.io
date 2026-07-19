@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "clp-blanks",
+  "title": "CLP Blanks",
+  "category": "keycaps",
+  "manufacturer": "JLC",
+  "profile": "CLP",
+  "manufacturingProcess": "3D Print",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-24T12:25:03Z",
+  "materials": [],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "clp-custom-black-blanks",
+      "title": "CLP Custom Black Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "CLP Blanks CLP Custom Black Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "clp-custom-transparent-blanks",
+      "title": "CLP Custom Transparent Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "CLP Blanks CLP Custom Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/clp-blanks/kit-06f92d6557279465-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/clp-blanks/kit-06f92d6557279465-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/clp-blanks/kit-06f92d6557279465-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "CLP Blanks 이미지 1",
+      "variants": [
+        {
+          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-640.avif",
+          "width": 640,
+          "height": 418
+        },
+        {
+          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-1280.avif",
+          "width": 1280,
+          "height": 835
+        },
+        {
+          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-2400.avif",
+          "width": 1658,
+          "height": 1082
+        }
+      ]
+    }
+  ]
+}

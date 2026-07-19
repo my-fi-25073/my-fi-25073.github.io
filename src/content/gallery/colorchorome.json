@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "colorchorome",
+  "title": "Colorchorome",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T16:59:09Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Colorchorome Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-640.avif",
+              "width": 640,
+              "height": 342
+            },
+            {
+              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-1280.avif",
+              "width": 1280,
+              "height": 683
+            },
+            {
+              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-2400.avif",
+              "width": 2048,
+              "height": 1093
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "white-40s-mod",
+      "title": "White 40s Mod",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Colorchorome White 40s Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "white-icon-mod",
+      "title": "White Icon Mod",
+      "kittingTypes": [
+        "Accent - Modifiers"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Colorchorome White Icon Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Colorchorome White Icon Mod 이미지 2",
+          "variants": [
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-640.avif",
+              "width": 640,
+              "height": 348
+            },
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-1280.avif",
+              "width": 1280,
+              "height": 696
+            },
+            {
+              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-2400.avif",
+              "width": 2048,
+              "height": 1113
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Colorchorome 이미지 1",
+      "variants": [
+        {
+          "src": "/media/colorchorome/series-043660535029473b-0-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/colorchorome/series-043660535029473b-0-1280.avif",
+          "width": 1280,
+          "height": 1105
+        },
+        {
+          "src": "/media/colorchorome/series-043660535029473b-0-2400.avif",
+          "width": 1592,
+          "height": 1374
+        }
+      ]
+    }
+  ]
+}

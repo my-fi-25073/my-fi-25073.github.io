@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "lowprokb",
+  "title": "LowproKB",
+  "category": "vendors",
+  "location": "Canada",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://lowprokb.ca/"
+    }
+  ],
+  "images": []
+}

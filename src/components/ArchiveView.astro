@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import GalleryCard from './GalleryCard.astro';
+import KeyboardCard from './KeyboardCard.astro';
+import DomainRecordCard from './DomainRecordCard.astro';
+import ArchiveSearch from './ArchiveSearch.astro';
+import TaxonomyNav from './TaxonomyNav.astro';
+
+interface Props {
+  current: 'all' | 'keycaps' | 'keyboards' | 'switches' | 'springs' | 'lubricants' | 'vendors';
+  keycaps: CollectionEntry<'gallery'>[];
+  keyboards: CollectionEntry<'keyboards'>[];
+  domainRecords: CollectionEntry<'records'>[];
+}
+
+const { current, keycaps, keyboards, domainRecords } = Astro.props;
+const records = [
+  ...keycaps.map((entry) => ({ kind: 'keycaps' as const, entry })),
+  ...keyboards.map((entry) => ({ kind: 'keyboards' as const, entry })),
+  ...domainRecords.map((entry) => ({ kind: 'domain' as const, entry })),
+].toSorted((a, b) => a.entry.data.title.localeCompare(b.entry.data.title, 'ko'));
+const countNames = {
+  all: 'records',
+  keycaps: 'keycap records',
+  keyboards: 'keyboards',
+  switches: 'switches',
+  springs: 'springs',
+  lubricants: 'lubricants',
+  vendors: 'vendors',
+};
+const countLabel = `${records.length} ${countNames[current]}`;
+---
+
+<section class="archive-intro shell" aria-labelledby="archive-title">
+  <p class="eyebrow">Keyboard practice, 2024—</p>
+  <h1 id="archive-title">만들고, 바꾸고,<br />오래 기록하는 키보드.</h1>
+  <p class="archive-description">
+    키보드와 키캡, 스위치의 관계를 사진과 함께 정리하는 개인 아카이브입니다.
+  </p>
+</section>
+
+<div class="shell archive-controls">
+  <TaxonomyNav current={current} />
+  <p class="archive-count">{countLabel}</p>
+</div>
+
+<ArchiveSearch />
+
+<section class="gallery-grid shell" aria-label="갤러리 목록">
+  {records.map((record, index) => {
+    if (record.kind === 'keycaps') return <GalleryCard gallery={record.entry.data} index={index} />;
+    if (record.kind === 'keyboards') return <KeyboardCard keyboard={record.entry.data} index={index} />;
+    return <DomainRecordCard record={record.entry.data} index={index} />;
+  })}
+</section>

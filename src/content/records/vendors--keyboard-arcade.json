@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "keyboard-arcade",
+  "title": "Keyboard Arcade",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://keyboardarcade.xyz/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lucky",
+  "title": "Lucky",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lucky 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lucky/a3bd9fc13ac22e94-0-640.avif",
+          "width": 640,
+          "height": 502
+        },
+        {
+          "src": "/media/switches/lucky/a3bd9fc13ac22e94-0-1280.avif",
+          "width": 1088,
+          "height": 854
+        }
+      ]
+    },
+    {
+      "alt": "Lucky 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lucky/a3bd9fc13ac22e94-1-640.avif",
+          "width": 640,
+          "height": 714
+        },
+        {
+          "src": "/media/switches/lucky/a3bd9fc13ac22e94-1-1280.avif",
+          "width": 1280,
+          "height": 1429
+        },
+        {
+          "src": "/media/switches/lucky/a3bd9fc13ac22e94-1-2400.avif",
+          "width": 1395,
+          "height": 1557
+        }
+      ]
+    }
+  ]
+}

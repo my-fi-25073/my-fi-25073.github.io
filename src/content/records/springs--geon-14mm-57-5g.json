@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "geon-14mm-57-5g",
+  "title": "Geon 14mm 57.5g",
+  "category": "springs",
+  "manufacturer": "Geon",
+  "series": "Geon-Spring",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "57.5g",
+  "length": "14mm",
+  "images": []
+}

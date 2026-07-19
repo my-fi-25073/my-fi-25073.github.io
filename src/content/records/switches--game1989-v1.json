@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "game1989-v1",
+  "title": "Game1989 v1",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Game1989 v1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-0-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-0-1280.avif",
+          "width": 1226,
+          "height": 957
+        }
+      ]
+    },
+    {
+      "alt": "Game1989 v1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-1-640.avif",
+          "width": 629,
+          "height": 554
+        }
+      ]
+    },
+    {
+      "alt": "Game1989 v1 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-2-640.avif",
+          "width": 640,
+          "height": 439
+        },
+        {
+          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-2-1280.avif",
+          "width": 1218,
+          "height": 836
+        }
+      ]
+    }
+  ]
+}

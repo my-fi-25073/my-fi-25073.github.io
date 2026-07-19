@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "chocolate",
+  "title": "Chocolate",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Chocolate 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/chocolate/3c537ab66e7a4229-0-640.avif",
+          "width": 483,
+          "height": 382
+        }
+      ]
+    },
+    {
+      "alt": "Chocolate 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/chocolate/3c537ab66e7a4229-1-640.avif",
+          "width": 354,
+          "height": 283
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-serika",
+  "title": "MT3 Serika",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:46Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "alpha",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-23fc332cecf08b8c-0-640.avif",
+              "width": 511,
+              "height": 336
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "geometry",
+      "title": "Geometry",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Geometry 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-06af209850a68f62-0-640.avif",
+              "width": 640,
+              "height": 432
+            },
+            {
+              "src": "/media/mt3-serika/kit-06af209850a68f62-0-1280.avif",
+              "width": 882,
+              "height": 596
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "katakana-forties",
+      "title": "Katakana Forties",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Katakana Forties 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-e3835b5ce2431d82-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mt3-serika/kit-e3835b5ce2431d82-0-1280.avif",
+              "width": 917,
+              "height": 609
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "latin-forties",
+      "title": "Latin Forties",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Latin Forties 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-0e5856c4049bd5a7-0-640.avif",
+              "width": 640,
+              "height": 440
+            },
+            {
+              "src": "/media/mt3-serika/kit-0e5856c4049bd5a7-0-1280.avif",
+              "width": 908,
+              "height": 624
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mac",
+      "title": "Mac",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Mac 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-e824b78b7b6143dd-0-640.avif",
+              "width": 640,
+              "height": 388
+            },
+            {
+              "src": "/media/mt3-serika/kit-e824b78b7b6143dd-0-1280.avif",
+              "width": 860,
+              "height": 522
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "macro-expansion",
+      "title": "Macro Expansion",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Macro Expansion 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-0841a62ca5e6f44f-0-640.avif",
+              "width": 640,
+              "height": 428
+            },
+            {
+              "src": "/media/mt3-serika/kit-0841a62ca5e6f44f-0-1280.avif",
+              "width": 871,
+              "height": 583
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modifiers",
+      "title": "Modifiers",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Serika Modifiers 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-17d7979a30021d51-0-640.avif",
+              "width": 640,
+              "height": 409
+            },
+            {
+              "src": "/media/mt3-serika/kit-17d7979a30021d51-0-1280.avif",
+              "width": 1037,
+              "height": 662
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Serika 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-serika/series-df3c181bc955df95-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-serika/series-df3c181bc955df95-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Serika 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-serika/series-df3c181bc955df95-1-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-serika/series-df3c181bc955df95-1-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/mt3-serika/series-df3c181bc955df95-1-2400.avif",
+          "width": 1678,
+          "height": 1064
+        }
+      ]
+    }
+  ]
+}

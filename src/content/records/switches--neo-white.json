@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "neo-white",
+  "title": "Neo White",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Neo White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/neo-white/449ec9aa496cee62-0-640.avif",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/media/switches/neo-white/449ec9aa496cee62-0-1280.avif",
+          "width": 749,
+          "height": 600
+        }
+      ]
+    },
+    {
+      "alt": "Neo White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/neo-white/449ec9aa496cee62-1-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/neo-white/449ec9aa496cee62-1-1280.avif",
+          "width": 1225,
+          "height": 1499
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "vintage-keys",
+  "title": "Vintage Keys",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T13:20:09Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "beige-2000s",
+      "title": "Beige 2000s",
+      "kittingTypes": [
+        "Child - Extension",
+        "Child - Indicator"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Vintage Keys Beige 2000s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-640.avif",
+              "width": 640,
+              "height": 585
+            },
+            {
+              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-1280.avif",
+              "width": 1280,
+              "height": 1170
+            },
+            {
+              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-2400.avif",
+              "width": 1284,
+              "height": 1174
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dimple",
+      "title": "Dimple",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Vintage Keys Dimple 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-04b0b8567fe006bb-0-640.avif",
+              "width": 640,
+              "height": 585
+            },
+            {
+              "src": "/media/vintage-keys/kit-04b0b8567fe006bb-0-1280.avif",
+              "width": 1126,
+              "height": 1030
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "snack-pack",
+      "title": "Snack Pack",
+      "kittingTypes": [
+        "Accent - Meme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Vintage Keys Snack Pack 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-bd9e9ef4571076bd-0-640.avif",
+              "width": 640,
+              "height": 498
+            },
+            {
+              "src": "/media/vintage-keys/kit-bd9e9ef4571076bd-0-1280.avif",
+              "width": 1038,
+              "height": 808
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vintage-bottom",
+      "title": "Vintage Bottom",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Vintage Keys Vintage Bottom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-a51b7ad0a3b21c17-0-640.avif",
+              "width": 640,
+              "height": 502
+            },
+            {
+              "src": "/media/vintage-keys/kit-a51b7ad0a3b21c17-0-1280.avif",
+              "width": 1200,
+              "height": 942
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Vintage Keys 이미지 1",
+      "variants": [
+        {
+          "src": "/media/vintage-keys/series-50ce258d3252ad62-0-640.avif",
+          "width": 640,
+          "height": 439
+        },
+        {
+          "src": "/media/vintage-keys/series-50ce258d3252ad62-0-1280.avif",
+          "width": 1278,
+          "height": 876
+        }
+      ]
+    }
+  ]
+}

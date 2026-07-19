@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "lets-get-it",
+  "title": "Lets Get It",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/letsget1t"
+    }
+  ],
+  "images": []
+}

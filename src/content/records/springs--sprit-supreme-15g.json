@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-supreme-15g",
+  "title": "Sprit Supreme 15g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Supreme",
+  "springType": "Short",
+  "actuationForce": "10g",
+  "bottomOutForce": "15g",
+  "length": null,
+  "images": [
+    {
+      "alt": "Sprit Supreme 15g 사진 1",
+      "variants": [
+        {
+          "src": "/media/springs/sprit-supreme-15g/83c1785bd89e3c1a-0-640.avif",
+          "width": 640,
+          "height": 356
+        },
+        {
+          "src": "/media/springs/sprit-supreme-15g/83c1785bd89e3c1a-0-1280.avif",
+          "width": 1280,
+          "height": 711
+        },
+        {
+          "src": "/media/springs/sprit-supreme-15g/83c1785bd89e3c1a-0-2400.avif",
+          "width": 2048,
+          "height": 1138
+        }
+      ]
+    }
+  ]
+}

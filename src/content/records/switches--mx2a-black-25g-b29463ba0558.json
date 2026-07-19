@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-black-25g-b29463ba0558",
+  "title": "MX2A Black 25g",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★★★",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": "TX PET 필름 0.150mm",
+  "images": [
+    {
+      "alt": "MX2A Black 25g 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-25g-b29463ba0558/b29463ba05584145-0-640.avif",
+          "width": 640,
+          "height": 491
+        },
+        {
+          "src": "/media/switches/mx2a-black-25g-b29463ba0558/b29463ba05584145-0-1280.avif",
+          "width": 1159,
+          "height": 889
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 25g 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-25g-b29463ba0558/b29463ba05584145-1-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/mx2a-black-25g-b29463ba0558/b29463ba05584145-1-1280.avif",
+          "width": 1280,
+          "height": 1057
+        },
+        {
+          "src": "/media/switches/mx2a-black-25g-b29463ba0558/b29463ba05584145-1-2400.avif",
+          "width": 1327,
+          "height": 1096
+        }
+      ]
+    }
+  ]
+}

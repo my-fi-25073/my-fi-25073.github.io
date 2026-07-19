@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "peach-mellow",
+  "title": "Peach Mellow",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Peach Mellow 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-0-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-0-1280.avif",
+          "width": 745,
+          "height": 518
+        }
+      ]
+    },
+    {
+      "alt": "Peach Mellow 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-1-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-1-1280.avif",
+          "width": 1242,
+          "height": 1520
+        }
+      ]
+    }
+  ]
+}

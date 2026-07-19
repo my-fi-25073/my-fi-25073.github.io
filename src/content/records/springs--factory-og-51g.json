@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "factory-og-51g",
+  "title": "Factory OG 51g",
+  "category": "springs",
+  "manufacturer": "Factory",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "???",
+  "bottomOutForce": "51g",
+  "length": "N/A",
+  "images": []
+}

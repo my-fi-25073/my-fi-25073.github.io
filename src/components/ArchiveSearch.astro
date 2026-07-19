@@ -1,0 +1,32 @@
+<div class="archive-search shell">
+  <label for="archive-search-input">기록 검색</label>
+  <div class="archive-search-line">
+    <input
+      id="archive-search-input"
+      type="search"
+      placeholder="이름, 제조사, 타입, 배열…"
+      autocomplete="off"
+      data-archive-search
+    />
+    <p aria-live="polite" data-search-result></p>
+  </div>
+</div>
+
+<script>
+  const input = document.querySelector<HTMLInputElement>('[data-archive-search]');
+  const result = document.querySelector<HTMLElement>('[data-search-result]');
+  const cards = [...document.querySelectorAll<HTMLElement>('[data-archive-card]')];
+  if (input && result) {
+    const update = () => {
+      const query = input.value.trim().toLocaleLowerCase('ko');
+      let visible = 0;
+      for (const card of cards) {
+        const matches = !query || (card.dataset.search ?? '').includes(query);
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      }
+      result.textContent = query ? `${visible}개 결과` : '';
+    };
+    input.addEventListener('input', update);
+  }
+</script>

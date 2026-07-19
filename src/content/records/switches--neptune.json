@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "neptune",
+  "title": "Neptune",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Neptune 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/neptune/b30604758b4b1c74-0-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/neptune/b30604758b4b1c74-0-1280.avif",
+          "width": 1080,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Neptune 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/neptune/b30604758b4b1c74-1-640.avif",
+          "width": 557,
+          "height": 439
+        }
+      ]
+    }
+  ]
+}

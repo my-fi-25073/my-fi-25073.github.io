@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-slow-extreme-2-45g",
+  "title": "Sprit Slow Extreme 2 45g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Slow Extreme 2",
+  "springType": "Long",
+  "actuationForce": "???",
+  "bottomOutForce": "45g",
+  "length": null,
+  "images": []
+}

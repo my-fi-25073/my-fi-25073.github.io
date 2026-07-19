@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "roselle-v2",
+  "title": "Roselle v2",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Roselle v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/roselle-v2/d709499661a72136-0-640.avif",
+          "width": 640,
+          "height": 416
+        },
+        {
+          "src": "/media/switches/roselle-v2/d709499661a72136-0-1280.avif",
+          "width": 1029,
+          "height": 669
+        }
+      ]
+    },
+    {
+      "alt": "Roselle v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/roselle-v2/d709499661a72136-1-640.avif",
+          "width": 640,
+          "height": 503
+        },
+        {
+          "src": "/media/switches/roselle-v2/d709499661a72136-1-1280.avif",
+          "width": 1078,
+          "height": 847
+        }
+      ]
+    }
+  ]
+}

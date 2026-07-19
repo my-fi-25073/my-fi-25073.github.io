@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "beige-add-on",
+  "title": "Beige Add On",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:51:33Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "2002",
+      "title": "2002",
+      "kittingTypes": [
+        "Accent - RGB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On 2002 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-1280.avif",
+              "width": 1280,
+              "height": 1707
+            },
+            {
+              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-2400.avif",
+              "width": 2048,
+              "height": 2731
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-71a98bd8546c",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-640.avif",
+              "width": 640,
+              "height": 910
+            },
+            {
+              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-1280.avif",
+              "width": 1280,
+              "height": 1820
+            },
+            {
+              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-2400.avif",
+              "width": 1498,
+              "height": 2130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-9d0661c3370b",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-b6fc5f65a32d",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-640.avif",
+              "width": 640,
+              "height": 922
+            },
+            {
+              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-1280.avif",
+              "width": 1280,
+              "height": 1843
+            },
+            {
+              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-2400.avif",
+              "width": 1522,
+              "height": 2192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-ac70d6817684",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-640.avif",
+              "width": 640,
+              "height": 922
+            },
+            {
+              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-1280.avif",
+              "width": 1280,
+              "height": 1843
+            },
+            {
+              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-2400.avif",
+              "width": 1522,
+              "height": 2192
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "addition-7f569a13ddda",
+      "title": "Addition",
+      "kittingTypes": [
+        "Accent - Vim",
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On Addition 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-640.avif",
+              "width": 640,
+              "height": 418
+            },
+            {
+              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-1280.avif",
+              "width": 1280,
+              "height": 836
+            },
+            {
+              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-2400.avif",
+              "width": 2048,
+              "height": 1338
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "addition-7b9237ef44d8",
+      "title": "Addition",
+      "kittingTypes": [
+        "Accent - Vim",
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On Addition 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-7b9237ef44d82f38-0-640.avif",
+              "width": 640,
+              "height": 726
+            },
+            {
+              "src": "/media/beige-add-on/kit-7b9237ef44d82f38-0-1280.avif",
+              "width": 1162,
+              "height": 1318
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cmyk",
+      "title": "CMYK",
+      "kittingTypes": [
+        "Accent - CMY"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On CMYK 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-3c6794f494aa555d-0-640.avif",
+              "width": 640,
+              "height": 488
+            },
+            {
+              "src": "/media/beige-add-on/kit-3c6794f494aa555d-0-1280.avif",
+              "width": 906,
+              "height": 691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "r0-r5",
+      "title": "R0 & R5",
+      "kittingTypes": [
+        "Child - Row 0",
+        "Child - Row 5"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On R0 & R5 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-640.avif",
+              "width": 640,
+              "height": 948
+            },
+            {
+              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-1280.avif",
+              "width": 1280,
+              "height": 1895
+            },
+            {
+              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-2400.avif",
+              "width": 1490,
+              "height": 2206
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "space-bars",
+      "title": "Space Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Beige Add On Space Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-aa57cfe04d64a03e-0-640.avif",
+              "width": 640,
+              "height": 449
+            },
+            {
+              "src": "/media/beige-add-on/kit-aa57cfe04d64a03e-0-1280.avif",
+              "width": 949,
+              "height": 666
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Beige Add On 이미지 1",
+      "variants": [
+        {
+          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-2400.avif",
+          "width": 1440,
+          "height": 1080
+        }
+      ]
+    }
+  ]
+}

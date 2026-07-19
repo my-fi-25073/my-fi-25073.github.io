@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "type-machina-oco",
+  "title": "Type Machina (OCO)",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://typemachina.com/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveView from '../../components/ArchiveView.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const keyboards = await getCollection('keyboards');
+---
+
+<SiteLayout title="키보드 아카이브">
+  <ArchiveView current="keyboards" keycaps={[]} keyboards={keyboards} domainRecords={[]} />
+</SiteLayout>

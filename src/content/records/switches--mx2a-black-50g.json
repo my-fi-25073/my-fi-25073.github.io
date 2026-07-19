@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-black-50g",
+  "title": "MX2A Black 50g",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": "TX PET 필름 0.125mm",
+  "images": [
+    {
+      "alt": "MX2A Black 50g 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-0-640.avif",
+          "width": 640,
+          "height": 451
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-0-1280.avif",
+          "width": 1280,
+          "height": 901
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-0-2400.avif",
+          "width": 2400,
+          "height": 1690
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 50g 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-1-640.avif",
+          "width": 640,
+          "height": 595
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-1-1280.avif",
+          "width": 1029,
+          "height": 957
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 50g 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-2-640.avif",
+          "width": 640,
+          "height": 491
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-2-1280.avif",
+          "width": 1159,
+          "height": 889
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 50g 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-3-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-3-1280.avif",
+          "width": 1280,
+          "height": 1057
+        },
+        {
+          "src": "/media/switches/mx2a-black-50g/afc84adc80525053-3-2400.avif",
+          "width": 1327,
+          "height": 1096
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-slow-extreme-5-55g",
+  "title": "Sprit Slow Extreme 5 55g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Slow Extreme 5",
+  "springType": "Long",
+  "actuationForce": "???",
+  "bottomOutForce": "55g",
+  "length": null,
+  "images": []
+}

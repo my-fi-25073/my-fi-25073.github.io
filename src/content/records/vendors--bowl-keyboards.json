@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "bowl-keyboards",
+  "title": "Bowl Keyboards",
+  "category": "vendors",
+  "location": "US-East",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://bowlkeyboards.com/"
+    }
+  ],
+  "images": []
+}

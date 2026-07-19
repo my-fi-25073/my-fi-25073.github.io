@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "proto-typist",
+  "title": "Proto Typist",
+  "category": "vendors",
+  "location": "UK",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://prototypist.net/"
+    }
+  ],
+  "images": []
+}

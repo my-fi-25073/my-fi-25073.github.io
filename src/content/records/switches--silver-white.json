@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "silver-white",
+  "title": "Silver White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Silver White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/silver-white/6eec3a77a30f4cad-0-640.avif",
+          "width": 468,
+          "height": 415
+        }
+      ]
+    },
+    {
+      "alt": "Silver White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/silver-white/6eec3a77a30f4cad-1-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/silver-white/6eec3a77a30f4cad-1-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

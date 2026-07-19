@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "keylin",
+  "title": "Keylin",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Keylin 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keylin/6475c46ca0df6a54-0-640.avif",
+          "width": 640,
+          "height": 508
+        },
+        {
+          "src": "/media/switches/keylin/6475c46ca0df6a54-0-1280.avif",
+          "width": 739,
+          "height": 587
+        }
+      ]
+    },
+    {
+      "alt": "Keylin 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keylin/6475c46ca0df6a54-1-640.avif",
+          "width": 640,
+          "height": 514
+        },
+        {
+          "src": "/media/switches/keylin/6475c46ca0df6a54-1-1280.avif",
+          "width": 907,
+          "height": 729
+        }
+      ]
+    }
+  ]
+}

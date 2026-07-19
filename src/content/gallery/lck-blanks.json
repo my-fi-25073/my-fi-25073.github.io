@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lck-blanks",
+  "title": "LCK Blanks",
+  "category": "keycaps",
+  "manufacturer": "Chosfox",
+  "profile": "LCK",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:11:30Z",
+  "materials": [
+    "PC"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "transparent-1u",
+      "title": "Transparent 1u",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LCK Blanks Transparent 1u 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lck-blanks/kit-5e87e10e5a7aa7c6-0-640.avif",
+              "width": 640,
+              "height": 542
+            },
+            {
+              "src": "/media/lck-blanks/kit-5e87e10e5a7aa7c6-0-1280.avif",
+              "width": 739,
+              "height": 626
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LCK Blanks 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lck-blanks/series-f0c5dddcc4829570-0-640.avif",
+          "width": 640,
+          "height": 386
+        },
+        {
+          "src": "/media/lck-blanks/series-f0c5dddcc4829570-0-1280.avif",
+          "width": 1038,
+          "height": 626
+        }
+      ]
+    }
+  ]
+}

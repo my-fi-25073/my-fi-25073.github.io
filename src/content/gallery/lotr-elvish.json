@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lotr-elvish",
+  "title": "LotR Elvish",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:56Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "autumn-in-rivendell",
+      "title": "Autumn in Rivendell",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Elvish Autumn in Rivendell 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-elvish/kit-96e2b528945b0a11-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/lotr-elvish/kit-96e2b528945b0a11-0-1280.avif",
+              "width": 1040,
+              "height": 692
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extra",
+      "title": "Extra",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Elvish Extra 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-elvish/kit-a2a01c96af0061b3-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/lotr-elvish/kit-a2a01c96af0061b3-0-1280.avif",
+              "width": 1038,
+              "height": 687
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hardcore-base",
+      "title": "Hardcore Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Meme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Elvish Hardcore Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-elvish/kit-119737a6fa5eddc3-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/lotr-elvish/kit-119737a6fa5eddc3-0-1280.avif",
+              "width": 1046,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Elvish Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-elvish/kit-ade8bcc95f3a8a31-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/lotr-elvish/kit-ade8bcc95f3a8a31-0-1280.avif",
+              "width": 1047,
+              "height": 696
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LotR Elvish 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-640.avif",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-1280.avif",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-2400.avif",
+          "width": 1608,
+          "height": 904
+        }
+      ]
+    },
+    {
+      "alt": "LotR Elvish 이미지 2",
+      "variants": [
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-640.avif",
+          "width": 640,
+          "height": 408
+        },
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-1280.avif",
+          "width": 1280,
+          "height": 815
+        },
+        {
+          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-2400.avif",
+          "width": 1966,
+          "height": 1252
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-black-dg-25g",
+  "title": "MX1A Black DG 25g",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★★★",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": "TX PET 필름 0.150mm",
+  "images": [
+    {
+      "alt": "MX1A Black DG 25g 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-0-640.avif",
+          "width": 640,
+          "height": 592
+        },
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-0-1280.avif",
+          "width": 1280,
+          "height": 1184
+        },
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-0-2400.avif",
+          "width": 1634,
+          "height": 1511
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Black DG 25g 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-1-640.avif",
+          "width": 640,
+          "height": 509
+        },
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-1-1280.avif",
+          "width": 1280,
+          "height": 1018
+        },
+        {
+          "src": "/media/switches/mx1a-black-dg-25g/fad3fc4d73393790-1-2400.avif",
+          "width": 1395,
+          "height": 1109
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "frog-mini",
+  "title": "Frog Mini",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-07-05",
+  "modules": [
+    "트랙볼"
+  ],
+  "plates": [
+    "알루미늄"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "칼럼스태거",
+    "3x6",
+    "브루스",
+    "모노블럭"
+  ],
+  "mounts": [
+    "태드폴",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Frog Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-640.avif",
+          "width": 640,
+          "height": 425
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-1280.avif",
+          "width": 1280,
+          "height": 849
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-2400.avif",
+          "width": 2400,
+          "height": 1592
+        }
+      ]
+    },
+    {
+      "alt": "Frog Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-640.avif",
+          "width": 640,
+          "height": 402
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-1280.avif",
+          "width": 1280,
+          "height": 804
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-2400.avif",
+          "width": 2400,
+          "height": 1507
+        }
+      ]
+    },
+    {
+      "alt": "Frog Mini 사진 3",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

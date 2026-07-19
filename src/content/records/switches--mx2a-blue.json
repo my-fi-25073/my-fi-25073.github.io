@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-blue",
+  "title": "MX2A Blue",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Blue 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-0-640.avif",
+          "width": 201,
+          "height": 206
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Blue 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-1-640.avif",
+          "width": 640,
+          "height": 756
+        },
+        {
+          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-1-1280.avif",
+          "width": 1223,
+          "height": 1445
+        }
+      ]
+    }
+  ]
+}

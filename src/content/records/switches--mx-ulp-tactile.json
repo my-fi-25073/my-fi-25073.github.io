@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx-ulp-tactile",
+  "title": "MX ULP Tactile",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★★★",
+  "footprintType": "Cherry ULP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX ULP Tactile 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-0-1280.avif",
+          "width": 1280,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "alt": "MX ULP Tactile 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-1-640.avif",
+          "width": 640,
+          "height": 448
+        },
+        {
+          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-1-1280.avif",
+          "width": 1280,
+          "height": 896
+        }
+      ]
+    },
+    {
+      "alt": "MX ULP Tactile 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-2-640.avif",
+          "width": 620,
+          "height": 455
+        }
+      ]
+    }
+  ]
+}

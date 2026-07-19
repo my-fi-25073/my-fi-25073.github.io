@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "venus",
+  "title": "Venus",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Venus 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/venus/69cb8232cf855b76-0-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/venus/69cb8232cf855b76-0-1280.avif",
+          "width": 1080,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Venus 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/venus/69cb8232cf855b76-1-640.avif",
+          "width": 557,
+          "height": 443
+        }
+      ]
+    }
+  ]
+}

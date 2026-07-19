@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "kbdfans",
+  "title": "KBDFans",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://kbdfans.com/"
+    }
+  ],
+  "images": []
+}

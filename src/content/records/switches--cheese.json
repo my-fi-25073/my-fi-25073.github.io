@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "cheese",
+  "title": "Cheese",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Cheese 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cheese/df409e447f0a287f-0-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/switches/cheese/df409e447f0a287f-0-1280.avif",
+          "width": 1035,
+          "height": 674
+        }
+      ]
+    },
+    {
+      "alt": "Cheese 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cheese/df409e447f0a287f-1-640.avif",
+          "width": 640,
+          "height": 579
+        },
+        {
+          "src": "/media/switches/cheese/df409e447f0a287f-1-1280.avif",
+          "width": 1261,
+          "height": 1141
+        }
+      ]
+    }
+  ]
+}

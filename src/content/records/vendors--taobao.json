@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "taobao",
+  "title": "TaoBao",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.taobao.com/"
+    }
+  ],
+  "images": []
+}

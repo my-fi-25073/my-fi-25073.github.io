@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "midnight",
+  "title": "Midnight",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Midnight 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/midnight/d69770708582683c-0-640.avif",
+          "width": 640,
+          "height": 410
+        },
+        {
+          "src": "/media/switches/midnight/d69770708582683c-0-1280.avif",
+          "width": 1087,
+          "height": 696
+        }
+      ]
+    },
+    {
+      "alt": "Midnight 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/midnight/d69770708582683c-1-640.avif",
+          "width": 640,
+          "height": 724
+        },
+        {
+          "src": "/media/switches/midnight/d69770708582683c-1-1280.avif",
+          "width": 1280,
+          "height": 1447
+        },
+        {
+          "src": "/media/switches/midnight/d69770708582683c-1-2400.avif",
+          "width": 1315,
+          "height": 1487
+        }
+      ]
+    }
+  ]
+}

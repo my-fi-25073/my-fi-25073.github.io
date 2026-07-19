@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "moon",
+  "title": "Moon",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Moon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/moon/1d948be830131d97-0-640.avif",
+          "width": 640,
+          "height": 476
+        },
+        {
+          "src": "/media/switches/moon/1d948be830131d97-0-1280.avif",
+          "width": 843,
+          "height": 627
+        }
+      ]
+    },
+    {
+      "alt": "Moon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/moon/1d948be830131d97-1-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/moon/1d948be830131d97-1-1280.avif",
+          "width": 841,
+          "height": 564
+        }
+      ]
+    },
+    {
+      "alt": "Moon 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/moon/1d948be830131d97-2-640.avif",
+          "width": 544,
+          "height": 591
+        }
+      ]
+    }
+  ]
+}

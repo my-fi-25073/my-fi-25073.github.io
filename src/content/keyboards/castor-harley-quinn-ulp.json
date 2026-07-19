@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-harley-quinn-ulp",
+  "title": "Castor Harley Quinn ULP",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-01-11",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor Harley Quinn ULP 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-640.avif",
+          "width": 640,
+          "height": 391
+        },
+        {
+          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-1280.avif",
+          "width": 1280,
+          "height": 782
+        },
+        {
+          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-2400.avif",
+          "width": 2400,
+          "height": 1467
+        }
+      ]
+    }
+  ]
+}

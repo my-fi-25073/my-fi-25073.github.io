@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-jukebox",
+  "title": "MT3 Jukebox",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:59Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Jukebox Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-jukebox/kit-849817302444c6d6-0-640.avif",
+              "width": 640,
+              "height": 423
+            },
+            {
+              "src": "/media/mt3-jukebox/kit-849817302444c6d6-0-1280.avif",
+              "width": 1043,
+              "height": 690
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Jukebox 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-jukebox/series-0219877c77d96dbc-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-jukebox/series-0219877c77d96dbc-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Jukebox 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-jukebox/series-0219877c77d96dbc-1-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-jukebox/series-0219877c77d96dbc-1-1280.avif",
+          "width": 1280,
+          "height": 811
+        },
+        {
+          "src": "/media/mt3-jukebox/series-0219877c77d96dbc-1-2400.avif",
+          "width": 1988,
+          "height": 1260
+        }
+      ]
+    }
+  ]
+}

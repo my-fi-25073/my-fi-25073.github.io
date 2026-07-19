@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "geon-raw-zero-f0fe6a5b2171",
+  "title": "Geon Raw Zero",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Geon Raw Zero 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/geon-raw-zero-f0fe6a5b2171/f0fe6a5b2171a396-0-640.avif",
+          "width": 640,
+          "height": 447
+        },
+        {
+          "src": "/media/switches/geon-raw-zero-f0fe6a5b2171/f0fe6a5b2171a396-0-1280.avif",
+          "width": 1032,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Geon Raw Zero 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/geon-raw-zero-f0fe6a5b2171/f0fe6a5b2171a396-1-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/geon-raw-zero-f0fe6a5b2171/f0fe6a5b2171a396-1-1280.avif",
+          "width": 1280,
+          "height": 1061
+        },
+        {
+          "src": "/media/switches/geon-raw-zero-f0fe6a5b2171/f0fe6a5b2171a396-1-2400.avif",
+          "width": 1354,
+          "height": 1122
+        }
+      ]
+    }
+  ]
+}

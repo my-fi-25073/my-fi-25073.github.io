@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "wind-light",
+  "title": "Wind Light",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Wind Light 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/wind-light/3a16eca860b16496-0-640.avif",
+          "width": 640,
+          "height": 448
+        },
+        {
+          "src": "/media/switches/wind-light/3a16eca860b16496-0-1280.avif",
+          "width": 1125,
+          "height": 787
+        }
+      ]
+    },
+    {
+      "alt": "Wind Light 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/wind-light/3a16eca860b16496-1-640.avif",
+          "width": 640,
+          "height": 517
+        },
+        {
+          "src": "/media/switches/wind-light/3a16eca860b16496-1-1280.avif",
+          "width": 1280,
+          "height": 1034
+        },
+        {
+          "src": "/media/switches/wind-light/3a16eca860b16496-1-2400.avif",
+          "width": 1392,
+          "height": 1125
+        }
+      ]
+    }
+  ]
+}

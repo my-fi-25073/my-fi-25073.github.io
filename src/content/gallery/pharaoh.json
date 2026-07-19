@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "pharaoh",
+  "title": "Pharaoh",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T16:58:12Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "40s",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Pharaoh 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-74dda9fd070ff2c7-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-74dda9fd070ff2c7-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-74dda9fd070ff2c7-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ancients",
+      "title": "Ancients",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Pharaoh Ancients 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-bae6992e0beaf0ad-0-640.avif",
+              "width": 640,
+              "height": 485
+            },
+            {
+              "src": "/media/pharaoh/kit-bae6992e0beaf0ad-0-1280.avif",
+              "width": 1024,
+              "height": 776
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard",
+        "Alpha - Hieroglyph"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Pharaoh Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Pharaoh Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Pharaoh Base 이미지 3",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-2-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-2-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-cc4e1610999a9051-2-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "numpad",
+      "title": "Numpad",
+      "kittingTypes": [
+        "Child - Numpad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Pharaoh Numpad 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-babf3137d527d09f-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-babf3137d527d09f-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-babf3137d527d09f-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Pharaoh 이미지 1",
+      "variants": [
+        {
+          "src": "/media/pharaoh/series-20e370e2b6a34711-0-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/pharaoh/series-20e370e2b6a34711-0-1280.avif",
+          "width": 1280,
+          "height": 1103
+        },
+        {
+          "src": "/media/pharaoh/series-20e370e2b6a34711-0-2400.avif",
+          "width": 1580,
+          "height": 1362
+        }
+      ]
+    }
+  ]
+}

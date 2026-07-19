@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-dasher",
+  "title": "MT3 Dasher",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:14Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dasher Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dasher/kit-69067c4700a1799c-0-640.avif",
+              "width": 640,
+              "height": 411
+            },
+            {
+              "src": "/media/mt3-dasher/kit-69067c4700a1799c-0-1280.avif",
+              "width": 1044,
+              "height": 670
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Dasher 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-dasher/series-747b9336d1267db9-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-dasher/series-747b9336d1267db9-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Dasher 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-640.avif",
+          "width": 640,
+          "height": 408
+        },
+        {
+          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-1280.avif",
+          "width": 1280,
+          "height": 816
+        },
+        {
+          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-2400.avif",
+          "width": 1998,
+          "height": 1274
+        }
+      ]
+    }
+  ]
+}

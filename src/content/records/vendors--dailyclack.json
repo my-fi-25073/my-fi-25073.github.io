@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "dailyclack",
+  "title": "DailyClack",
+  "category": "vendors",
+  "location": "Australia",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://dailyclack.com/"
+    }
+  ],
+  "images": []
+}

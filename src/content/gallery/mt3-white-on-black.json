@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-white-on-black",
+  "title": "MT3 White-on-Black",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:05Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 White-on-Black Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-white-on-black/kit-f0c1fb7089f2da1b-0-640.avif",
+              "width": 640,
+              "height": 428
+            },
+            {
+              "src": "/media/mt3-white-on-black/kit-f0c1fb7089f2da1b-0-1280.avif",
+              "width": 1020,
+              "height": 682
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 White-on-Black 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-white-on-black/series-8c8683e9555f259b-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-white-on-black/series-8c8683e9555f259b-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 White-on-Black 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-white-on-black/series-8c8683e9555f259b-1-640.avif",
+          "width": 640,
+          "height": 409
+        },
+        {
+          "src": "/media/mt3-white-on-black/series-8c8683e9555f259b-1-1280.avif",
+          "width": 1280,
+          "height": 819
+        },
+        {
+          "src": "/media/mt3-white-on-black/series-8c8683e9555f259b-1-2400.avif",
+          "width": 1998,
+          "height": 1278
+        }
+      ]
+    }
+  ]
+}

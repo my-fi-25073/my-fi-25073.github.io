@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "transition-lite-no-2",
+  "title": "Transition Lite No.2",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-03-08",
+  "modules": [],
+  "plates": [
+    "PP",
+    "아일랜드보강"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "80%"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Transition Lite No.2 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/transition-lite-no-2/f47499138a0289b8-0-640.avif",
+          "width": 640,
+          "height": 366
+        },
+        {
+          "src": "/media/keyboards/transition-lite-no-2/f47499138a0289b8-0-1280.avif",
+          "width": 1280,
+          "height": 732
+        },
+        {
+          "src": "/media/keyboards/transition-lite-no-2/f47499138a0289b8-0-2400.avif",
+          "width": 2400,
+          "height": 1373
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dcs-intro-wob",
+  "title": "DCS Intro WoB",
+  "category": "keycaps",
+  "manufacturer": "SP",
+  "profile": "DCS",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:05:25Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCS Intro WoB Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "DCS Intro WoB Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "DCS Intro WoB Base 이미지 3",
+          "variants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "DCS Intro WoB 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-640.avif",
+          "width": 640,
+          "height": 388
+        },
+        {
+          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-1280.avif",
+          "width": 1280,
+          "height": 776
+        },
+        {
+          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-2400.avif",
+          "width": 2048,
+          "height": 1242
+        }
+      ]
+    }
+  ]
+}

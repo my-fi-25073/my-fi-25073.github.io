@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "raw-round-pole",
+  "title": "Raw Round Pole",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Raw Round Pole 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-0-640.avif",
+          "width": 640,
+          "height": 541
+        },
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-0-1280.avif",
+          "width": 740,
+          "height": 625
+        }
+      ]
+    },
+    {
+      "alt": "Raw Round Pole 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-1-640.avif",
+          "width": 640,
+          "height": 516
+        },
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-1-1280.avif",
+          "width": 719,
+          "height": 580
+        }
+      ]
+    },
+    {
+      "alt": "Raw Round Pole 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-2-640.avif",
+          "width": 640,
+          "height": 571
+        },
+        {
+          "src": "/media/switches/raw-round-pole/d658ad6b0bfc4a28-2-1280.avif",
+          "width": 1188,
+          "height": 1060
+        }
+      ]
+    }
+  ]
+}

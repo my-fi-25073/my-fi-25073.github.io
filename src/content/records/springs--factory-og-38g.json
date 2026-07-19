@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "factory-og-38g",
+  "title": "Factory OG 38g",
+  "category": "springs",
+  "manufacturer": "Factory",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "38g",
+  "length": "N/A",
+  "images": []
+}

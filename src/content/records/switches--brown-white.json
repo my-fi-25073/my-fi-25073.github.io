@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "brown-white",
+  "title": "Brown White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Brown White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/brown-white/f3e6850475832414-0-640.avif",
+          "width": 515,
+          "height": 383
+        }
+      ]
+    },
+    {
+      "alt": "Brown White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/brown-white/f3e6850475832414-1-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/brown-white/f3e6850475832414-1-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

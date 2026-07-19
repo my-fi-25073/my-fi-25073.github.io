@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "kind": "lubricant",
+  "slug": "factory-lube",
+  "title": "Factory Lube",
+  "category": "lubricants",
+  "manufacturer": "Factory",
+  "series": "Factory Lub",
+  "lubricantType": "Unknown",
+  "images": []
+}

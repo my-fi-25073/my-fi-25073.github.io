@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ambients-silent-bokeh",
+  "title": "Ambients Silent Bokeh",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ambients Silent Bokeh 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ambients-silent-bokeh/1131ac3c9e3b4e94-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/ambients-silent-bokeh/1131ac3c9e3b4e94-0-1280.avif",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  ]
+}

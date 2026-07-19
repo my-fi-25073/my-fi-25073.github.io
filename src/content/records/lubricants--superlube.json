@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "kind": "lubricant",
+  "slug": "superlube",
+  "title": "Superlube",
+  "category": "lubricants",
+  "manufacturer": "SuperLube",
+  "series": "SuperLube",
+  "lubricantType": "구리스",
+  "images": []
+}

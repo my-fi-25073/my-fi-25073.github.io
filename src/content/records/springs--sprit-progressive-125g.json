@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-progressive-125g",
+  "title": "Sprit Progressive 125g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Progressive",
+  "springType": "Complex",
+  "actuationForce": null,
+  "bottomOutForce": "125g",
+  "length": null,
+  "images": []
+}

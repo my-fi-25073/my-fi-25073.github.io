@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-handerbeit",
+  "title": "Castor Handerbeit",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-05-14",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor Handerbeit 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-640.avif",
+          "width": 640,
+          "height": 349
+        },
+        {
+          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-1280.avif",
+          "width": 1280,
+          "height": 697
+        },
+        {
+          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-2400.avif",
+          "width": 1388,
+          "height": 756
+        }
+      ]
+    }
+  ]
+}

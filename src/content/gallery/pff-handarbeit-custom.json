@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "pff-handarbeit-custom",
+  "title": "PFF Handarbeit Custom",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "PFF",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:11:50Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "castor-base",
+      "title": "Castor Base",
+      "kittingTypes": [
+        "Base - Custom",
+        "Alpha - Runic"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "PFF Handarbeit Custom Castor Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-640.avif",
+              "width": 640,
+              "height": 498
+            },
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-1280.avif",
+              "width": 1280,
+              "height": 995
+            },
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-2400.avif",
+              "width": 2048,
+              "height": 1592
+            }
+          ]
+        },
+        {
+          "alt": "PFF Handarbeit Custom Castor Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-640.avif",
+              "width": 640,
+              "height": 404
+            },
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-1280.avif",
+              "width": 1280,
+              "height": 808
+            },
+            {
+              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-2400.avif",
+              "width": 2048,
+              "height": 1292
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "PFF Handarbeit Custom 이미지 1",
+      "variants": [
+        {
+          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "apodiformbird-v1",
+  "title": "Apodiformbird v1",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-08-28",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "모노블럭 스플릿",
+    "칼럼스태거",
+    "2x3"
+  ],
+  "mounts": [
+    "N/A"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Apodiformbird v1 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

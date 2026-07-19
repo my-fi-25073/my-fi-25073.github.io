@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "pado",
+  "title": "Pado",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Pado 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/pado/da2b623d2420653c-0-640.avif",
+          "width": 640,
+          "height": 467
+        },
+        {
+          "src": "/media/switches/pado/da2b623d2420653c-0-1280.avif",
+          "width": 1091,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "alt": "Pado 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/pado/da2b623d2420653c-1-640.avif",
+          "width": 640,
+          "height": 558
+        },
+        {
+          "src": "/media/switches/pado/da2b623d2420653c-1-1280.avif",
+          "width": 1280,
+          "height": 1116
+        },
+        {
+          "src": "/media/switches/pado/da2b623d2420653c-1-2400.avif",
+          "width": 1284,
+          "height": 1119
+        }
+      ]
+    }
+  ]
+}

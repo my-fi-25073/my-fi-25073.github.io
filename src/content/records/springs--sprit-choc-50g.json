@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-choc-50g",
+  "title": "Sprit Choc 50g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Choc/Alps",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "50g",
+  "length": "11.75mm",
+  "images": []
+}

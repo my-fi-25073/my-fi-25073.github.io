@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "dark-yellow",
+  "title": "Dark Yellow",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Dark Yellow 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/dark-yellow/29e410a3c615fa4d-0-640.avif",
+          "width": 640,
+          "height": 545
+        },
+        {
+          "src": "/media/switches/dark-yellow/29e410a3c615fa4d-0-1280.avif",
+          "width": 848,
+          "height": 722
+        }
+      ]
+    }
+  ]
+}

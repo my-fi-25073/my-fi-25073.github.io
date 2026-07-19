@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "blue-cheese",
+  "title": "Blue Cheese",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Blue Cheese 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-0-640.avif",
+          "width": 640,
+          "height": 556
+        },
+        {
+          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-0-1280.avif",
+          "width": 740,
+          "height": 643
+        }
+      ]
+    },
+    {
+      "alt": "Blue Cheese 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-1-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-1-1280.avif",
+          "width": 854,
+          "height": 736
+        }
+      ]
+    }
+  ]
+}

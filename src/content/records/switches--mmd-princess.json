@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mmd-princess",
+  "title": "MMD Princess",
+  "category": "switches",
+  "manufacturer": "MMD",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MMD Princess 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mmd-princess/837762ba768de8dc-0-640.avif",
+          "width": 640,
+          "height": 469
+        },
+        {
+          "src": "/media/switches/mmd-princess/837762ba768de8dc-0-1280.avif",
+          "width": 881,
+          "height": 645
+        }
+      ]
+    },
+    {
+      "alt": "MMD Princess 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mmd-princess/837762ba768de8dc-1-640.avif",
+          "width": 448,
+          "height": 543
+        }
+      ]
+    }
+  ]
+}

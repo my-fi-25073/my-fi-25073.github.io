@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-falcon",
+  "title": "MX2A Falcon",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Falcon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-0-640.avif",
+          "width": 640,
+          "height": 386
+        },
+        {
+          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-0-1280.avif",
+          "width": 785,
+          "height": 474
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Falcon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-1-640.avif",
+          "width": 640,
+          "height": 678
+        },
+        {
+          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-1-1280.avif",
+          "width": 1229,
+          "height": 1302
+        }
+      ]
+    }
+  ]
+}

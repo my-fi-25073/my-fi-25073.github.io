@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "casper",
+  "title": "Casper",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Casper 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/casper/4f9ded88a007ebe5-0-640.avif",
+          "width": 640,
+          "height": 472
+        },
+        {
+          "src": "/media/switches/casper/4f9ded88a007ebe5-0-1280.avif",
+          "width": 718,
+          "height": 530
+        }
+      ]
+    },
+    {
+      "alt": "Casper 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/casper/4f9ded88a007ebe5-1-640.avif",
+          "width": 640,
+          "height": 776
+        },
+        {
+          "src": "/media/switches/casper/4f9ded88a007ebe5-1-1280.avif",
+          "width": 1221,
+          "height": 1481
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "summer-time-v2",
+  "title": "Summer Time V2",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Summer Time V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-640.avif",
+          "width": 640,
+          "height": 373
+        },
+        {
+          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-1280.avif",
+          "width": 1280,
+          "height": 746
+        },
+        {
+          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-2400.avif",
+          "width": 1712,
+          "height": 998
+        }
+      ]
+    },
+    {
+      "alt": "Summer Time V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/summer-time-v2/440f17fc081e4533-1-640.avif",
+          "width": 615,
+          "height": 471
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "snowfall",
+  "title": "Snowfall",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★★☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Snowfall 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/snowfall/653c95f24223158d-0-640.avif",
+          "width": 640,
+          "height": 544
+        },
+        {
+          "src": "/media/switches/snowfall/653c95f24223158d-0-1280.avif",
+          "width": 964,
+          "height": 820
+        }
+      ]
+    },
+    {
+      "alt": "Snowfall 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/snowfall/653c95f24223158d-1-640.avif",
+          "width": 640,
+          "height": 545
+        },
+        {
+          "src": "/media/switches/snowfall/653c95f24223158d-1-1280.avif",
+          "width": 1280,
+          "height": 1090
+        },
+        {
+          "src": "/media/switches/snowfall/653c95f24223158d-1-2400.avif",
+          "width": 1890,
+          "height": 1610
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "lofree",
+  "title": "Lofree",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.lofree.co/"
+    }
+  ],
+  "images": []
+}

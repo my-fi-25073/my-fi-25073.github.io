@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "tb-2st-28g",
+  "title": "TB 2st 28g",
+  "category": "springs",
+  "manufacturer": "Taobao",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": "???",
+  "bottomOutForce": "28g",
+  "length": null,
+  "images": []
+}

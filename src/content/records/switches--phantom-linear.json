@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "phantom-linear",
+  "title": "Phantom Linear",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Phantom Linear 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-0-640.avif",
+          "width": 524,
+          "height": 319
+        }
+      ]
+    },
+    {
+      "alt": "Phantom Linear 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-1-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-1-1280.avif",
+          "width": 746,
+          "height": 533
+        }
+      ]
+    }
+  ]
+}

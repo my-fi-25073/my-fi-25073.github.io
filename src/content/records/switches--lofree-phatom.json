@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lofree-phatom",
+  "title": "Lofree Phatom",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lofree Phatom 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-0-640.avif",
+          "width": 640,
+          "height": 591
+        },
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-0-1280.avif",
+          "width": 1166,
+          "height": 1076
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Phatom 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-640.avif",
+          "width": 640,
+          "height": 594
+        },
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-1280.avif",
+          "width": 1280,
+          "height": 1189
+        },
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-2400.avif",
+          "width": 1322,
+          "height": 1228
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Phatom 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-2-640.avif",
+          "width": 640,
+          "height": 371
+        },
+        {
+          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-2-1280.avif",
+          "width": 1014,
+          "height": 588
+        }
+      ]
+    }
+  ]
+}

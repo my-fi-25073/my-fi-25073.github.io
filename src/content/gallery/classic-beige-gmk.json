@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "classic-beige-gmk",
+  "title": "Classic Beige (GMK)",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T11:47:32Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "colevrak",
+      "title": "Colevrak",
+      "kittingTypes": [
+        "Alpha - Colevrak"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Colevrak 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-640.avif",
+              "width": 640,
+              "height": 473
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-1280.avif",
+              "width": 1280,
+              "height": 946
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-2400.avif",
+              "width": 2048,
+              "height": 1514
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "command",
+      "title": "Command",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Command 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-640.avif",
+              "width": 640,
+              "height": 488
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-1280.avif",
+              "width": 1280,
+              "height": 976
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-2400.avif",
+              "width": 2048,
+              "height": 1562
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "exotic-base",
+      "title": "Exotic Base",
+      "kittingTypes": [
+        "Base - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Exotic Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Classic Beige (GMK) Exotic Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "france",
+      "title": "France",
+      "kittingTypes": [
+        "Alpha - France"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) France 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-640.avif",
+              "width": 640,
+              "height": 723
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-1280.avif",
+              "width": 1280,
+              "height": 1445
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-2400.avif",
+              "width": 1516,
+              "height": 1712
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hiragana",
+      "title": "Hiragana",
+      "kittingTypes": [
+        "Alpha - Hiragana"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Hiragana 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-640.avif",
+              "width": 640,
+              "height": 911
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-1280.avif",
+              "width": 1280,
+              "height": 1822
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-2400.avif",
+              "width": 1380,
+              "height": 1964
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "icon-mod",
+      "title": "Icon Mod",
+      "kittingTypes": [
+        "Modifier - Icon"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Icon Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-640.avif",
+              "width": 640,
+              "height": 728
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-1280.avif",
+              "width": 1280,
+              "height": 1456
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-2400.avif",
+              "width": 1670,
+              "height": 1900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "italy",
+      "title": "Italy",
+      "kittingTypes": [
+        "Alpha - Italy"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Italy 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "katakana",
+      "title": "Katakana",
+      "kittingTypes": [
+        "Alpha - Katakana"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Katakana 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-640.avif",
+              "width": 640,
+              "height": 889
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-1280.avif",
+              "width": 1280,
+              "height": 1778
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-2400.avif",
+              "width": 1414,
+              "height": 1964
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "row-5",
+      "title": "Row 5",
+      "kittingTypes": [
+        "Child - Row 5"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) Row 5 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-640.avif",
+              "width": 640,
+              "height": 756
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-1280.avif",
+              "width": 1280,
+              "height": 1512
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-2400.avif",
+              "width": 1446,
+              "height": 1708
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "uk",
+      "title": "UK",
+      "kittingTypes": [
+        "Alpha - UK"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Beige (GMK) UK 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Classic Beige (GMK) 이미지 1",
+      "variants": [
+        {
+          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-640.avif",
+          "width": 640,
+          "height": 545
+        },
+        {
+          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-1280.avif",
+          "width": 1280,
+          "height": 1089
+        },
+        {
+          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-2400.avif",
+          "width": 1610,
+          "height": 1370
+        }
+      ]
+    }
+  ]
+}

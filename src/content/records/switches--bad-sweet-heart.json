@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "bad-sweet-heart",
+  "title": "Bad Sweet Heart",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Bad Sweet Heart 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bad-sweet-heart/bd413a407f011f9f-0-640.avif",
+          "width": 640,
+          "height": 516
+        },
+        {
+          "src": "/media/switches/bad-sweet-heart/bd413a407f011f9f-0-1280.avif",
+          "width": 801,
+          "height": 646
+        }
+      ]
+    },
+    {
+      "alt": "Bad Sweet Heart 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bad-sweet-heart/bd413a407f011f9f-1-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/bad-sweet-heart/bd413a407f011f9f-1-1280.avif",
+          "width": 1258,
+          "height": 1041
+        }
+      ]
+    }
+  ]
+}

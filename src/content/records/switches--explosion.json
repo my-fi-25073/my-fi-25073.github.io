@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "explosion",
+  "title": "Explosion",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Explosion 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/explosion/ef3be2a7e46069ea-0-640.avif",
+          "width": 640,
+          "height": 424
+        },
+        {
+          "src": "/media/switches/explosion/ef3be2a7e46069ea-0-1280.avif",
+          "width": 985,
+          "height": 652
+        }
+      ]
+    },
+    {
+      "alt": "Explosion 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/explosion/ef3be2a7e46069ea-1-640.avif",
+          "width": 640,
+          "height": 870
+        },
+        {
+          "src": "/media/switches/explosion/ef3be2a7e46069ea-1-1280.avif",
+          "width": 670,
+          "height": 911
+        }
+      ]
+    }
+  ]
+}

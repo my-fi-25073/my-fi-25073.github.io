@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-supreme-85g",
+  "title": "Sprit Supreme 85g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Supreme",
+  "springType": "Short",
+  "actuationForce": null,
+  "bottomOutForce": "85g",
+  "length": null,
+  "images": []
+}

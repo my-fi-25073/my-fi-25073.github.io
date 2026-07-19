@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "bsun-raw",
+  "title": "Bsun Raw",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Bsun Raw 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-raw/c90d36faf7766971-0-640.avif",
+          "width": 640,
+          "height": 557
+        },
+        {
+          "src": "/media/switches/bsun-raw/c90d36faf7766971-0-1280.avif",
+          "width": 974,
+          "height": 848
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Raw 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-raw/c90d36faf7766971-1-640.avif",
+          "width": 640,
+          "height": 574
+        },
+        {
+          "src": "/media/switches/bsun-raw/c90d36faf7766971-1-1280.avif",
+          "width": 1280,
+          "height": 1147
+        },
+        {
+          "src": "/media/switches/bsun-raw/c90d36faf7766971-1-2400.avif",
+          "width": 1350,
+          "height": 1210
+        }
+      ]
+    }
+  ]
+}

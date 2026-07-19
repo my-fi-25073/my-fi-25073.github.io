@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "vault-35",
+  "title": "Vault 35",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-11-16",
+  "modules": [],
+  "plates": [
+    "PC"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "30%",
+    "HHKB"
+  ],
+  "mounts": [
+    "바텀 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Vault 35 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "Vault 35 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

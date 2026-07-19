@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sandstorm",
+  "title": "Sandstorm",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Sandstorm 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sandstorm/448232caf10e8272-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/switches/sandstorm/448232caf10e8272-0-1280.avif",
+          "width": 729,
+          "height": 541
+        }
+      ]
+    },
+    {
+      "alt": "Sandstorm 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sandstorm/448232caf10e8272-1-640.avif",
+          "width": 640,
+          "height": 634
+        },
+        {
+          "src": "/media/switches/sandstorm/448232caf10e8272-1-1280.avif",
+          "width": 1258,
+          "height": 1246
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-brown-rgb",
+  "title": "MX1A Brown RGB",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX1A Brown RGB 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-brown-rgb/10e70e912ad9ccfa-0-640.avif",
+          "width": 640,
+          "height": 409
+        },
+        {
+          "src": "/media/switches/mx1a-brown-rgb/10e70e912ad9ccfa-0-1280.avif",
+          "width": 732,
+          "height": 468
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Brown RGB 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-brown-rgb/10e70e912ad9ccfa-1-640.avif",
+          "width": 354,
+          "height": 297
+        }
+      ]
+    }
+  ]
+}

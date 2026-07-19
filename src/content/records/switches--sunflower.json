@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sunflower",
+  "title": "Sunflower",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★★☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Sunflower 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sunflower/31de40cf9ccf3c57-0-640.avif",
+          "width": 640,
+          "height": 316
+        },
+        {
+          "src": "/media/switches/sunflower/31de40cf9ccf3c57-0-1280.avif",
+          "width": 733,
+          "height": 362
+        }
+      ]
+    },
+    {
+      "alt": "Sunflower 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sunflower/31de40cf9ccf3c57-1-640.avif",
+          "width": 640,
+          "height": 501
+        },
+        {
+          "src": "/media/switches/sunflower/31de40cf9ccf3c57-1-1280.avif",
+          "width": 827,
+          "height": 647
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-darkness",
+  "title": "MT3 Darkness",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:14Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "extra",
+      "title": "Extra",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Darkness Extra 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-darkness/kit-128598098ad216b2-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mt3-darkness/kit-128598098ad216b2-0-1280.avif",
+              "width": 1039,
+              "height": 690
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Darkness 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-darkness/series-6f791dd1ff5d3dc2-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-darkness/series-6f791dd1ff5d3dc2-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/mt3-darkness/series-6f791dd1ff5d3dc2-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Darkness 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-darkness/series-6f791dd1ff5d3dc2-1-640.avif",
+          "width": 640,
+          "height": 418
+        },
+        {
+          "src": "/media/mt3-darkness/series-6f791dd1ff5d3dc2-1-1280.avif",
+          "width": 1004,
+          "height": 656
+        }
+      ]
+    }
+  ]
+}

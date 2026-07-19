@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "weirdkeys",
+  "title": "Weirdkeys",
+  "category": "keycaps",
+  "manufacturer": "Others",
+  "profile": "Cherry-Clone",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T16:39:29Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "15u-space-bar",
+      "title": "15u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Weirdkeys 15u Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alice-bae",
+      "title": "Alice BAE",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Weirdkeys Alice BAE 이미지 1",
+          "variants": [
+            {
+              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-640.avif",
+              "width": 640,
+              "height": 481
+            },
+            {
+              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-1280.avif",
+              "width": 1280,
+              "height": 962
+            },
+            {
+              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-2400.avif",
+              "width": 2046,
+              "height": 1538
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tablock",
+      "title": "TabLock",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Weirdkeys TabLock 이미지 1",
+          "variants": [
+            {
+              "src": "/media/weirdkeys/kit-ff69361b52a1dc83-0-640.avif",
+              "width": 640,
+              "height": 383
+            },
+            {
+              "src": "/media/weirdkeys/kit-ff69361b52a1dc83-0-1280.avif",
+              "width": 992,
+              "height": 594
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Weirdkeys 이미지 1",
+      "variants": [
+        {
+          "src": "/media/weirdkeys/series-466f60142d1780a6-0-640.avif",
+          "width": 640,
+          "height": 594
+        },
+        {
+          "src": "/media/weirdkeys/series-466f60142d1780a6-0-1280.avif",
+          "width": 1114,
+          "height": 1034
+        }
+      ]
+    }
+  ]
+}

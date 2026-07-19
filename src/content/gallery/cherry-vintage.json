@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "cherry-vintage",
+  "title": "Cherry Vintage",
+  "category": "keycaps",
+  "manufacturer": "Cherry",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:52:25Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "beige-8u-space-bar",
+      "title": "Beige 8u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Cherry Vintage Beige 8u Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "g80-9009hag-accent",
+      "title": "G80-9009HAG Accent",
+      "kittingTypes": [
+        "Accent -  9009"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Cherry Vintage G80-9009HAG Accent 이미지 1",
+          "variants": [
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Cherry Vintage G80-9009HAG Accent 이미지 2",
+          "variants": [
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Cherry Vintage 이미지 1",
+      "variants": [
+        {
+          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-640.avif",
+          "width": 640,
+          "height": 357
+        },
+        {
+          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-1280.avif",
+          "width": 1280,
+          "height": 715
+        },
+        {
+          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-2400.avif",
+          "width": 1734,
+          "height": 968
+        }
+      ]
+    }
+  ]
+}

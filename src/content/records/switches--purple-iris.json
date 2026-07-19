@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "purple-iris",
+  "title": "Purple Iris",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★★",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Purple Iris 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-0-640.avif",
+          "width": 640,
+          "height": 533
+        },
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-0-1280.avif",
+          "width": 1280,
+          "height": 1067
+        },
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-0-2400.avif",
+          "width": 1418,
+          "height": 1182
+        }
+      ]
+    },
+    {
+      "alt": "Purple Iris 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-1-640.avif",
+          "width": 640,
+          "height": 700
+        },
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-1-1280.avif",
+          "width": 1280,
+          "height": 1400
+        },
+        {
+          "src": "/media/switches/purple-iris/151cd8b07381db66-1-2400.avif",
+          "width": 1518,
+          "height": 1660
+        }
+      ]
+    }
+  ]
+}

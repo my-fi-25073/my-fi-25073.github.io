@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ambients-silent-nocturnal",
+  "title": "Ambients Silent Nocturnal",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ambients Silent Nocturnal 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ambients-silent-nocturnal/39f537f04d3d187a-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/ambients-silent-nocturnal/39f537f04d3d187a-0-1280.avif",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  ]
+}

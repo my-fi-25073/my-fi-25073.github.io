@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "faction-30",
+  "title": "Faction 30",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-10-19",
+  "modules": [
+    "노브",
+    "디스플레이"
+  ],
+  "plates": [
+    "FR4"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "25%"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Faction 30 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

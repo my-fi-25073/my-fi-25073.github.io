@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "yaksu",
+  "title": "Yaksu",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Yaksu 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-640.avif",
+          "width": 640,
+          "height": 402
+        },
+        {
+          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-1280.avif",
+          "width": 1280,
+          "height": 805
+        },
+        {
+          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-2400.avif",
+          "width": 1824,
+          "height": 1147
+        }
+      ]
+    },
+    {
+      "alt": "Yaksu 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/yaksu/8dbe63391f456ed0-1-640.avif",
+          "width": 603,
+          "height": 689
+        }
+      ]
+    }
+  ]
+}

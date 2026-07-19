@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "red-black",
+  "title": "Red Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Red Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/red-black/0f39388d769c316f-0-640.avif",
+          "width": 425,
+          "height": 399
+        }
+      ]
+    },
+    {
+      "alt": "Red Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/red-black/0f39388d769c316f-1-640.avif",
+          "width": 398,
+          "height": 344
+        }
+      ]
+    }
+  ]
+}

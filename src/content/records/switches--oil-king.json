@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "oil-king",
+  "title": "Oil King",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Oil King 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/oil-king/10ede1892ba5187b-0-640.avif",
+          "width": 640,
+          "height": 489
+        },
+        {
+          "src": "/media/switches/oil-king/10ede1892ba5187b-0-1280.avif",
+          "width": 753,
+          "height": 575
+        }
+      ]
+    },
+    {
+      "alt": "Oil King 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/oil-king/10ede1892ba5187b-1-640.avif",
+          "width": 640,
+          "height": 713
+        },
+        {
+          "src": "/media/switches/oil-king/10ede1892ba5187b-1-1280.avif",
+          "width": 1280,
+          "height": 1425
+        },
+        {
+          "src": "/media/switches/oil-king/10ede1892ba5187b-1-2400.avif",
+          "width": 1409,
+          "height": 1569
+        }
+      ]
+    }
+  ]
+}

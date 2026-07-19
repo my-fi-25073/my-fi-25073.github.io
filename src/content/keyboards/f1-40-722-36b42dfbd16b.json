@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "f1-40-722-36b42dfbd16b",
+  "title": "F1-40 722",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-06-15",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "오쏘리니어",
+    "4x12"
+  ],
+  "mounts": [
+    "무보강킷",
+    "샌드위치 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "F1-40 722 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/f1-40-722-36b42dfbd16b/36b42dfbd16b38b1-0-640.avif",
+          "width": 640,
+          "height": 385
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-36b42dfbd16b/36b42dfbd16b38b1-0-1280.avif",
+          "width": 1280,
+          "height": 771
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-36b42dfbd16b/36b42dfbd16b38b1-0-2400.avif",
+          "width": 2400,
+          "height": 1445
+        }
+      ]
+    }
+  ]
+}

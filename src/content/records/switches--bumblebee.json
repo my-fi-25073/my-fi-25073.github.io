@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "bumblebee",
+  "title": "Bumblebee",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Bumblebee 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-0-640.avif",
+          "width": 640,
+          "height": 451
+        },
+        {
+          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-0-1280.avif",
+          "width": 693,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "alt": "Bumblebee 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-1-640.avif",
+          "width": 640,
+          "height": 405
+        },
+        {
+          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-1-1280.avif",
+          "width": 669,
+          "height": 423
+        }
+      ]
+    }
+  ]
+}

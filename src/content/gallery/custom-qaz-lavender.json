@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "custom-qaz-lavender",
+  "title": "Custom QAZ Lavender",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "Cherry-Clone",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:08:02Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "qaz-base",
+      "title": "QAZ Base",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Custom QAZ Lavender QAZ Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-0-640.avif",
+              "width": 640,
+              "height": 487
+            },
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-0-1280.avif",
+              "width": 1280,
+              "height": 974
+            },
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-0-2400.avif",
+              "width": 1698,
+              "height": 1292
+            }
+          ]
+        },
+        {
+          "alt": "Custom QAZ Lavender QAZ Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-1-640.avif",
+              "width": 640,
+              "height": 484
+            },
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-1-1280.avif",
+              "width": 1280,
+              "height": 967
+            },
+            {
+              "src": "/media/custom-qaz-lavender/kit-572f2545c548af7d-1-2400.avif",
+              "width": 1712,
+              "height": 1294
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Custom QAZ Lavender 이미지 1",
+      "variants": [
+        {
+          "src": "/media/custom-qaz-lavender/series-37ba6ff028fb70f9-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/custom-qaz-lavender/series-37ba6ff028fb70f9-0-1280.avif",
+          "width": 1024,
+          "height": 760
+        }
+      ]
+    }
+  ]
+}

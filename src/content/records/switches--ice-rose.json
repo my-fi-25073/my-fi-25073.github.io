@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ice-rose",
+  "title": "Ice Rose",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Ice Rose 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ice-rose/f5bd0a62c163c626-0-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/ice-rose/f5bd0a62c163c626-0-1280.avif",
+          "width": 722,
+          "height": 564
+        }
+      ]
+    },
+    {
+      "alt": "Ice Rose 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ice-rose/f5bd0a62c163c626-1-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/ice-rose/f5bd0a62c163c626-1-1280.avif",
+          "width": 1235,
+          "height": 1511
+        }
+      ]
+    }
+  ]
+}

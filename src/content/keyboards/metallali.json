@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "metallali",
+  "title": "Metallali",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-08-11",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭 스플릿",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Metallali 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-0-640.avif",
+          "width": 640,
+          "height": 355
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-0-1280.avif",
+          "width": 1280,
+          "height": 710
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-0-2400.avif",
+          "width": 2400,
+          "height": 1331
+        }
+      ]
+    },
+    {
+      "alt": "Metallali 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-1-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-1-1280.avif",
+          "width": 1280,
+          "height": 913
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-1-2400.avif",
+          "width": 2400,
+          "height": 1712
+        }
+      ]
+    },
+    {
+      "alt": "Metallali 사진 3",
+      "variants": [
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-2-640.avif",
+          "width": 640,
+          "height": 428
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-2-1280.avif",
+          "width": 1280,
+          "height": 857
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-2-2400.avif",
+          "width": 2400,
+          "height": 1607
+        }
+      ]
+    },
+    {
+      "alt": "Metallali 사진 4",
+      "variants": [
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-3-640.avif",
+          "width": 640,
+          "height": 395
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-3-1280.avif",
+          "width": 1280,
+          "height": 791
+        },
+        {
+          "src": "/media/keyboards/metallali/0f8b99a3deec1999-3-2400.avif",
+          "width": 2400,
+          "height": 1483
+        }
+      ]
+    }
+  ]
+}

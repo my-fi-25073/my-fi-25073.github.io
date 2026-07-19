@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "four-seasons-spring-mini",
+  "title": "Four Seasons Spring Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Four Seasons Spring Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-0-640.avif",
+          "width": 640,
+          "height": 534
+        },
+        {
+          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-0-1280.avif",
+          "width": 723,
+          "height": 603
+        }
+      ]
+    },
+    {
+      "alt": "Four Seasons Spring Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-1-640.avif",
+          "width": 640,
+          "height": 695
+        },
+        {
+          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-1-1280.avif",
+          "width": 1001,
+          "height": 1087
+        }
+      ]
+    }
+  ]
+}

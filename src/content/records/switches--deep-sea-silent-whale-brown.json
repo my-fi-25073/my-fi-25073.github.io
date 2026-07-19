@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "deep-sea-silent-whale-brown",
+  "title": "Deep Sea Silent Whale Brown",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★★",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Deep Sea Silent Whale Brown 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-0-640.avif",
+          "width": 640,
+          "height": 393
+        },
+        {
+          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-0-1280.avif",
+          "width": 1258,
+          "height": 773
+        }
+      ]
+    },
+    {
+      "alt": "Deep Sea Silent Whale Brown 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-1-640.avif",
+          "width": 640,
+          "height": 1001
+        },
+        {
+          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-1-1280.avif",
+          "width": 1084,
+          "height": 1696
+        }
+      ]
+    }
+  ]
+}

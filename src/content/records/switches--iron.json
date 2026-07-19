@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "iron",
+  "title": "Iron",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Iron 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/iron/902c2f5ec0d2f11b-0-640.avif",
+          "width": 592,
+          "height": 462
+        }
+      ]
+    },
+    {
+      "alt": "Iron 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/iron/902c2f5ec0d2f11b-1-640.avif",
+          "width": 528,
+          "height": 351
+        }
+      ]
+    },
+    {
+      "alt": "Iron 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/iron/902c2f5ec0d2f11b-2-640.avif",
+          "width": 498,
+          "height": 323
+        }
+      ]
+    }
+  ]
+}

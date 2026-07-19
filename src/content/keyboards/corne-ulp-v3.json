@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "corne-ulp-v3",
+  "title": "Corne ULP v3",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-01-31",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "N/A"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Corne ULP v3 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-640.avif",
+          "width": 640,
+          "height": 408
+        },
+        {
+          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-1280.avif",
+          "width": 1280,
+          "height": 817
+        },
+        {
+          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-2400.avif",
+          "width": 2400,
+          "height": 1531
+        }
+      ]
+    }
+  ]
+}

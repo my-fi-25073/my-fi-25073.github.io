@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "neo-ergo",
+  "title": "Neo Ergo",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-07-23",
+  "modules": [],
+  "plates": [
+    "카본"
+  ],
+  "ergonomicFeatures": [
+    "텐팅"
+  ],
+  "layouts": [
+    "유니바디 스플릿",
+    "로우스태거",
+    "65%",
+    "앨리스"
+  ],
+  "mounts": [
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "하우징 폼"
+  ],
+  "images": [
+    {
+      "alt": "Neo Ergo 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

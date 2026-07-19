@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "everglide-aqua-king",
+  "title": "Everglide Aqua King",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Everglide Aqua King 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-0-640.avif",
+          "width": 640,
+          "height": 418
+        },
+        {
+          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-0-1280.avif",
+          "width": 1032,
+          "height": 674
+        }
+      ]
+    },
+    {
+      "alt": "Everglide Aqua King 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-1-640.avif",
+          "width": 640,
+          "height": 525
+        },
+        {
+          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-1-1280.avif",
+          "width": 798,
+          "height": 655
+        }
+      ]
+    },
+    {
+      "alt": "Everglide Aqua King 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-2-640.avif",
+          "width": 635,
+          "height": 665
+        }
+      ]
+    }
+  ]
+}

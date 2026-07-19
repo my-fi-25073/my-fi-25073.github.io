@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "mech-vault",
+  "title": "Mech Vault",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://mechvault.net/"
+    }
+  ],
+  "images": []
+}

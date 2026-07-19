@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "uwu-macro-add-on",
+  "title": "UwU Macro Add On",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:52:48Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige",
+    "Black"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "uwu",
+      "title": "UwU",
+      "kittingTypes": [
+        "Accent - Meme",
+        "Child - Battleship XT"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "UwU Macro Add On UwU 이미지 1",
+          "variants": [
+            {
+              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "UwU Macro Add On 이미지 1",
+      "variants": [
+        {
+          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-2400.avif",
+          "width": 1500,
+          "height": 1125
+        }
+      ]
+    }
+  ]
+}

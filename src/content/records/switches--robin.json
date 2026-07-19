@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "robin",
+  "title": "Robin",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Robin 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/robin/8b119ab851491bdf-0-640.avif",
+          "width": 640,
+          "height": 622
+        },
+        {
+          "src": "/media/switches/robin/8b119ab851491bdf-0-1280.avif",
+          "width": 687,
+          "height": 668
+        }
+      ]
+    }
+  ]
+}

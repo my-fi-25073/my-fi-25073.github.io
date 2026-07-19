@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "aiguoxin-beat-lemon",
+  "title": "Aiguoxin Beat Lemon",
+  "category": "switches",
+  "manufacturer": "Unknown",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Aiguoxin Beat Lemon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/aiguoxin-beat-lemon/f92a820d931cb9b8-0-640.avif",
+          "width": 569,
+          "height": 476
+        }
+      ]
+    },
+    {
+      "alt": "Aiguoxin Beat Lemon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/aiguoxin-beat-lemon/f92a820d931cb9b8-1-640.avif",
+          "width": 565,
+          "height": 602
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "drop-holy-panda-x",
+  "title": "Drop Holy Panda X",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Drop Holy Panda X 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-0-640.avif",
+          "width": 640,
+          "height": 370
+        },
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-0-1280.avif",
+          "width": 1034,
+          "height": 597
+        }
+      ]
+    },
+    {
+      "alt": "Drop Holy Panda X 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-1-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-1-1280.avif",
+          "width": 1029,
+          "height": 689
+        }
+      ]
+    },
+    {
+      "alt": "Drop Holy Panda X 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-2-640.avif",
+          "width": 640,
+          "height": 419
+        },
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-2-1280.avif",
+          "width": 1038,
+          "height": 680
+        }
+      ]
+    },
+    {
+      "alt": "Drop Holy Panda X 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-3-640.avif",
+          "width": 446,
+          "height": 377
+        }
+      ]
+    }
+  ]
+}

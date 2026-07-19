@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "ulp-flat-blanks",
+  "title": "ULP Flat Blanks",
+  "category": "keycaps",
+  "manufacturer": "Kailh",
+  "profile": "OEM-ULP",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:11:18Z",
+  "materials": [
+    "PC"
+  ],
+  "colors": [],
+  "compatibility": [
+    "ULP"
+  ],
+  "kits": [
+    {
+      "slug": "ulp-flat-transparent-blanks",
+      "title": "ULP Flat Transparent Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "ULP Flat Blanks ULP Flat Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/ulp-flat-blanks/kit-a355be4cfab90ffd-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/ulp-flat-blanks/kit-a355be4cfab90ffd-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/ulp-flat-blanks/kit-a355be4cfab90ffd-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "ULP Flat Blanks 이미지 1",
+      "variants": [
+        {
+          "src": "/media/ulp-flat-blanks/series-0f0a2f2cbeb93fac-0-640.avif",
+          "width": 512,
+          "height": 327
+        }
+      ]
+    },
+    {
+      "alt": "ULP Flat Blanks 이미지 2",
+      "variants": [
+        {
+          "src": "/media/ulp-flat-blanks/series-0f0a2f2cbeb93fac-1-640.avif",
+          "width": 640,
+          "height": 423
+        },
+        {
+          "src": "/media/ulp-flat-blanks/series-0f0a2f2cbeb93fac-1-1280.avif",
+          "width": 1280,
+          "height": 845
+        },
+        {
+          "src": "/media/ulp-flat-blanks/series-0f0a2f2cbeb93fac-1-2400.avif",
+          "width": 1296,
+          "height": 856
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-complex-63-5g",
+  "title": "Sprit Complex 63.5g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Complex",
+  "springType": "Complex",
+  "actuationForce": null,
+  "bottomOutForce": "63.5g",
+  "length": null,
+  "images": []
+}

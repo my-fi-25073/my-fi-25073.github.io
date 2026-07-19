@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "peach-v2",
+  "title": "Peach V2",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Peach V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/peach-v2/464bd96e5f67d647-0-640.avif",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "src": "/media/switches/peach-v2/464bd96e5f67d647-0-1280.avif",
+          "width": 1100,
+          "height": 688
+        }
+      ]
+    },
+    {
+      "alt": "Peach V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/peach-v2/464bd96e5f67d647-1-640.avif",
+          "width": 640,
+          "height": 692
+        },
+        {
+          "src": "/media/switches/peach-v2/464bd96e5f67d647-1-1280.avif",
+          "width": 1280,
+          "height": 1383
+        },
+        {
+          "src": "/media/switches/peach-v2/464bd96e5f67d647-1-2400.avif",
+          "width": 1374,
+          "height": 1485
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+import DisplayFields from '../../components/DisplayFields.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { buildKeyboardDetailFields } from '../../lib/keyboard-display';
+
+export async function getStaticPaths() {
+  const keyboards = await getCollection('keyboards');
+  return keyboards.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'keyboards'>;
+}
+
+const { entry } = Astro.props;
+const keyboard = entry.data;
+const fields = buildKeyboardDetailFields(keyboard);
+const summary = `${keyboard.title}의 빌드 구성과 사용 기록을 사진 중심으로 정리했습니다.`;
+---
+
+<SiteLayout title={keyboard.title} description={`${keyboard.title} 키보드 기록`}>
+  <article class="detail shell">
+    <a class="back-link" href="/keyboards/">← 키보드 아카이브</a>
+    <header class="detail-header">
+      <p class="eyebrow">Keyboard build</p>
+      <h1>{keyboard.title}</h1>
+      <p class="detail-summary">{summary}</p>
+    </header>
+
+    <section class="series-properties" aria-labelledby="keyboard-properties-heading">
+      <div class="section-heading">
+        <h2 id="keyboard-properties-heading">Build details</h2>
+      </div>
+      <DisplayFields fields={fields} variant="detail" />
+    </section>
+
+    <section class="record-section" aria-labelledby="keyboard-images-heading">
+      <div class="section-heading">
+        <h2 id="keyboard-images-heading">Images</h2>
+        <p>{keyboard.images.length} published</p>
+      </div>
+      <div class="detail-images keyboard-images">
+        {keyboard.images.map((item, index) => {
+          const variants = item.variants.toSorted((a, b) => a.width - b.width);
+          const display = variants[0];
+          const full = variants.at(-1) ?? display;
+          const srcset = variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+          return (
+            <figure>
+              <button
+                class="detail-image-button"
+                type="button"
+                data-lightbox-open
+                data-full={full.src}
+                data-alt={item.alt}
+                data-caption={`${keyboard.title} · ${index + 1}`}
+                aria-label={`${index + 1}번째 이미지 확대`}
+              >
+                <img
+                  src={display.src}
+                  srcset={srcset}
+                  sizes="(min-width: 960px) 88vw, 100vw"
+                  width={display.width}
+                  height={display.height}
+                  alt={item.alt}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+              </button>
+            </figure>
+          );
+        })}
+      </div>
+    </section>
+  </article>
+  <Lightbox />
+</SiteLayout>

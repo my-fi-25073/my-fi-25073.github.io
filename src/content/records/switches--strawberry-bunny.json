@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "strawberry-bunny",
+  "title": "Strawberry Bunny",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Strawberry Bunny 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-0-640.avif",
+          "width": 640,
+          "height": 484
+        },
+        {
+          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-0-1280.avif",
+          "width": 724,
+          "height": 547
+        }
+      ]
+    },
+    {
+      "alt": "Strawberry Bunny 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-640.avif",
+          "width": 640,
+          "height": 575
+        },
+        {
+          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-1280.avif",
+          "width": 1280,
+          "height": 1151
+        },
+        {
+          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-2400.avif",
+          "width": 1365,
+          "height": 1227
+        }
+      ]
+    }
+  ]
+}

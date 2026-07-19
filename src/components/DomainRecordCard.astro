@@ -1,0 +1,61 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import DisplayFields from './DisplayFields.astro';
+import {
+  buildDomainFields,
+  domainLabels,
+  domainSearchText,
+} from '../lib/domain-display';
+
+interface Props {
+  record: CollectionEntry<'records'>['data'];
+  index: number;
+}
+
+const { record, index } = Astro.props;
+const cover = record.images[0];
+const variants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
+const source = variants[0];
+const srcset = variants.map((item) => `${item.src} ${item.width}w`).join(', ');
+const fields = buildDomainFields(record, true);
+const labels = domainLabels(record);
+const recordNumber = String(index + 1).padStart(3, '0');
+---
+
+<article
+  class:list={['gallery-card', 'domain-card', { 'has-image': Boolean(cover) }]}
+  style={`--card-index:${Math.min(index, 12)}`}
+  data-archive-card
+  data-search={domainSearchText(record)}
+>
+  <a class="gallery-card-link" href={`/${record.category}/${record.slug}/`}>
+    <div class="gallery-card-media">
+      {cover && source ? (
+        <img
+          src={source.src}
+          srcset={srcset}
+          sizes="(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw"
+          width={source.width}
+          height={source.height}
+          alt={cover.alt}
+          loading="lazy"
+          decoding="async"
+        />
+      ) : (
+        <div class={`placeholder-art is-${record.kind}`} aria-hidden="true">
+          <span class="placeholder-number">{recordNumber}</span>
+          <span class="placeholder-monogram">{record.title.slice(0, 2)}</span>
+          <span class="placeholder-label">{labels.singular}</span>
+        </div>
+      )}
+    </div>
+    <div class="gallery-card-copy">
+      <p class="card-kind">{labels.singular}</p>
+      <div class="gallery-card-titleline">
+        <h2>{record.title}</h2>
+        <span class="record-number" aria-label={`${index + 1}번째 기록`}>{recordNumber}</span>
+      </div>
+      <DisplayFields fields={fields} variant="card" />
+    </div>
+  </a>
+</article>

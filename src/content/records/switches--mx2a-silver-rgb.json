@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-silver-rgb",
+  "title": "MX2A Silver RGB",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Silver RGB 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-silver-rgb/b5d91d3bb0214a34-0-640.avif",
+          "width": 640,
+          "height": 465
+        },
+        {
+          "src": "/media/switches/mx2a-silver-rgb/b5d91d3bb0214a34-0-1280.avif",
+          "width": 687,
+          "height": 499
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Silver RGB 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-silver-rgb/b5d91d3bb0214a34-1-640.avif",
+          "width": 640,
+          "height": 682
+        },
+        {
+          "src": "/media/switches/mx2a-silver-rgb/b5d91d3bb0214a34-1-1280.avif",
+          "width": 1186,
+          "height": 1264
+        }
+      ]
+    }
+  ]
+}

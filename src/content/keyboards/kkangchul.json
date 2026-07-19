@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "kkangchul",
+  "title": "KKANGCHUL",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-12-17",
+  "modules": [],
+  "plates": [
+    "PEI"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "HHKB",
+    "60%"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "KKANGCHUL 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-640.avif",
+          "width": 640,
+          "height": 447
+        },
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-1280.avif",
+          "width": 1280,
+          "height": 894
+        },
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-2400.avif",
+          "width": 2400,
+          "height": 1675
+        }
+      ]
+    },
+    {
+      "alt": "KKANGCHUL 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-1280.avif",
+          "width": 1280,
+          "height": 874
+        },
+        {
+          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-2400.avif",
+          "width": 2400,
+          "height": 1638
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "classic-retro-zhuyin",
+  "title": "Classic Retro Zhuyin",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T11:49:01Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard",
+        "Alpha - Zhuyin"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Retro Zhuyin Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Classic Retro Zhuyin Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "led-indicator",
+      "title": "LED Indicator",
+      "kittingTypes": [
+        "Accent - Theme",
+        "Child - Indicator"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Classic Retro Zhuyin LED Indicator 이미지 1",
+          "variants": [
+            {
+              "src": "/media/classic-retro-zhuyin/kit-e3f0149e6c2d9b60-0-640.avif",
+              "width": 580,
+              "height": 456
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Classic Retro Zhuyin 이미지 1",
+      "variants": [
+        {
+          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-640.avif",
+          "width": 640,
+          "height": 559
+        },
+        {
+          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-1280.avif",
+          "width": 1280,
+          "height": 1118
+        },
+        {
+          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-2400.avif",
+          "width": 1592,
+          "height": 1390
+        }
+      ]
+    }
+  ]
+}

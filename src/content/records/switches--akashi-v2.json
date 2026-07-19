@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "akashi-v2",
+  "title": "Akashi v2",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Akashi v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/akashi-v2/7947fca345663c33-0-640.avif",
+          "width": 640,
+          "height": 418
+        },
+        {
+          "src": "/media/switches/akashi-v2/7947fca345663c33-0-1280.avif",
+          "width": 1204,
+          "height": 787
+        }
+      ]
+    },
+    {
+      "alt": "Akashi v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/akashi-v2/7947fca345663c33-1-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/switches/akashi-v2/7947fca345663c33-1-1280.avif",
+          "width": 1280,
+          "height": 833
+        },
+        {
+          "src": "/media/switches/akashi-v2/7947fca345663c33-1-2400.avif",
+          "width": 1292,
+          "height": 841
+        }
+      ]
+    }
+  ]
+}

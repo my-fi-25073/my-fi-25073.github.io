@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "kind": "lubricant",
+  "slug": "no-lube",
+  "title": "No-Lube",
+  "category": "lubricants",
+  "manufacturer": "N/A",
+  "series": "Non Lub",
+  "lubricantType": "N/A",
+  "images": []
+}

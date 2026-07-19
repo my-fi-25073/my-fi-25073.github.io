@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-red",
+  "title": "MX2A Red",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Red 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-red/19d8049db54b72b4-0-640.avif",
+          "width": 232,
+          "height": 200
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Red 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-red/19d8049db54b72b4-1-640.avif",
+          "width": 640,
+          "height": 740
+        },
+        {
+          "src": "/media/switches/mx2a-red/19d8049db54b72b4-1-1280.avif",
+          "width": 1273,
+          "height": 1472
+        }
+      ]
+    }
+  ]
+}

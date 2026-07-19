@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "800",
+  "title": "800",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "MTNU",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:08:43Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "800 Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "800 Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/800/kit-fa03806117fc51c1-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "module-a",
+      "title": "Module A",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "800 Module A 이미지 1",
+          "variants": [
+            {
+              "src": "/media/800/kit-d7a5d716b985008e-0-640.avif",
+              "width": 640,
+              "height": 763
+            },
+            {
+              "src": "/media/800/kit-d7a5d716b985008e-0-1280.avif",
+              "width": 1076,
+              "height": 1282
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "module-b",
+      "title": "Module B",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "800 Module B 이미지 1",
+          "variants": [
+            {
+              "src": "/media/800/kit-3e5f2684fb719282-0-640.avif",
+              "width": 640,
+              "height": 731
+            },
+            {
+              "src": "/media/800/kit-3e5f2684fb719282-0-1280.avif",
+              "width": 1064,
+              "height": 1216
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "module-c",
+      "title": "Module C",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "800 Module C 이미지 1",
+          "variants": [
+            {
+              "src": "/media/800/kit-0d0616a40cc2af09-0-640.avif",
+              "width": 640,
+              "height": 937
+            },
+            {
+              "src": "/media/800/kit-0d0616a40cc2af09-0-1280.avif",
+              "width": 1000,
+              "height": 1464
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "800 이미지 1",
+      "variants": [
+        {
+          "src": "/media/800/series-70cdbe350d3de9a0-0-640.avif",
+          "width": 640,
+          "height": 557
+        },
+        {
+          "src": "/media/800/series-70cdbe350d3de9a0-0-1280.avif",
+          "width": 1280,
+          "height": 1114
+        },
+        {
+          "src": "/media/800/series-70cdbe350d3de9a0-0-2400.avif",
+          "width": 1342,
+          "height": 1168
+        }
+      ]
+    }
+  ]
+}

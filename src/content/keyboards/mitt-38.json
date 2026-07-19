@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "mitt-38",
+  "title": "Mitt 38",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-08-02",
+  "modules": [
+    "트랙패드"
+  ],
+  "plates": [
+    "FR4"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "모노블럭 스플릿",
+    "칼럼스태거",
+    "3x5"
+  ],
+  "mounts": [
+    "스탠드오프",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Mitt 38 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

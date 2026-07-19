@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "biip-extended-2048-dark",
+  "title": "biip Extended 2048 Dark",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:09:53Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "nomad",
+      "title": "Nomad",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "biip Extended 2048 Dark Nomad 이미지 1",
+          "variants": [
+            {
+              "src": "/media/biip-extended-2048-dark/kit-62604f9c6a542359-0-640.avif",
+              "width": 640,
+              "height": 501
+            },
+            {
+              "src": "/media/biip-extended-2048-dark/kit-62604f9c6a542359-0-1280.avif",
+              "width": 667,
+              "height": 522
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelties",
+      "title": "Novelties",
+      "kittingTypes": [
+        "Accent - Icon"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "biip Extended 2048 Dark Novelties 이미지 1",
+          "variants": [
+            {
+              "src": "/media/biip-extended-2048-dark/kit-e2eabf605baf987d-0-640.avif",
+              "width": 640,
+              "height": 385
+            },
+            {
+              "src": "/media/biip-extended-2048-dark/kit-e2eabf605baf987d-0-1280.avif",
+              "width": 720,
+              "height": 433
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "biip Extended 2048 Dark 이미지 1",
+      "variants": [
+        {
+          "src": "/media/biip-extended-2048-dark/series-2912e9dd6b7da407-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/biip-extended-2048-dark/series-2912e9dd6b7da407-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "biip Extended 2048 Dark 이미지 2",
+      "variants": [
+        {
+          "src": "/media/biip-extended-2048-dark/series-2912e9dd6b7da407-1-640.avif",
+          "width": 640,
+          "height": 301
+        },
+        {
+          "src": "/media/biip-extended-2048-dark/series-2912e9dd6b7da407-1-1280.avif",
+          "width": 1280,
+          "height": 602
+        },
+        {
+          "src": "/media/biip-extended-2048-dark/series-2912e9dd6b7da407-1-2400.avif",
+          "width": 1602,
+          "height": 754
+        }
+      ]
+    }
+  ]
+}

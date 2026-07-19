@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "blue-white",
+  "title": "Blue White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Blue White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-0-640.avif",
+          "width": 572,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "alt": "Blue White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-1-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-1-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

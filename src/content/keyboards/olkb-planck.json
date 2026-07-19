@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "olkb-planck",
+  "title": "OLKB Planck",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-05-10",
+  "modules": [],
+  "plates": [
+    "황동"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "오쏘리니어",
+    "4x12"
+  ],
+  "mounts": [
+    "오링",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "OLKB Planck 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "OLKB Planck 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-1-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "OLKB Planck 사진 3",
+      "variants": [
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-2-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-2-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/olkb-planck/396b684ede709694-2-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

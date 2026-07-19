@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "blue-alert",
+  "title": "Blue Alert",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:57:18Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "blue-stripe",
+      "title": "Blue Stripe",
+      "kittingTypes": [
+        "Accent - NumRow"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Blue Alert Blue Stripe 이미지 1",
+          "variants": [
+            {
+              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extension",
+      "title": "Extension",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Blue Alert Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-1280.avif",
+              "width": 1280,
+              "height": 1707
+            },
+            {
+              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-2400.avif",
+              "width": 1536,
+              "height": 2048
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Blue Alert 이미지 1",
+      "variants": [
+        {
+          "src": "/media/blue-alert/series-87675f699987e945-0-640.avif",
+          "width": 640,
+          "height": 462
+        },
+        {
+          "src": "/media/blue-alert/series-87675f699987e945-0-1280.avif",
+          "width": 922,
+          "height": 666
+        }
+      ]
+    }
+  ]
+}

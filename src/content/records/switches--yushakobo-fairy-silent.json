@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "yushakobo-fairy-silent",
+  "title": "Yushakobo Fairy Silent",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Yushakobo Fairy Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/yushakobo-fairy-silent/f25bc7b3638491ec-0-640.avif",
+          "width": 640,
+          "height": 591
+        },
+        {
+          "src": "/media/switches/yushakobo-fairy-silent/f25bc7b3638491ec-0-1280.avif",
+          "width": 1138,
+          "height": 1050
+        }
+      ]
+    }
+  ]
+}

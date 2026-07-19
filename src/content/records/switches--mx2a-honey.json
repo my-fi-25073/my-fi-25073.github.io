@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-honey",
+  "title": "MX2A Honey",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Honey 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-honey/ed49dc2a4526da11-0-640.avif",
+          "width": 640,
+          "height": 558
+        },
+        {
+          "src": "/media/switches/mx2a-honey/ed49dc2a4526da11-0-1280.avif",
+          "width": 1219,
+          "height": 1063
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Honey 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-honey/ed49dc2a4526da11-1-640.avif",
+          "width": 640,
+          "height": 688
+        },
+        {
+          "src": "/media/switches/mx2a-honey/ed49dc2a4526da11-1-1280.avif",
+          "width": 1280,
+          "height": 1375
+        },
+        {
+          "src": "/media/switches/mx2a-honey/ed49dc2a4526da11-1-2400.avif",
+          "width": 1372,
+          "height": 1474
+        }
+      ]
+    }
+  ]
+}

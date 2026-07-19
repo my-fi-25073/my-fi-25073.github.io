@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "frog-mini-leggera",
+  "title": "Frog Mini Leggera",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-12-19",
+  "modules": [],
+  "plates": [
+    "ABS"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "칼럼스태거",
+    "3x6",
+    "브루스"
+  ],
+  "mounts": [
+    "키스냅",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Frog Mini Leggera 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-640.avif",
+          "width": 640,
+          "height": 432
+        },
+        {
+          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-1280.avif",
+          "width": 1280,
+          "height": 864
+        },
+        {
+          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-2400.avif",
+          "width": 2400,
+          "height": 1621
+        }
+      ]
+    }
+  ]
+}

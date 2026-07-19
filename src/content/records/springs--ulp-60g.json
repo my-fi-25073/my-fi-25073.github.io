@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ulp-60g",
+  "title": "ULP 60g",
+  "category": "springs",
+  "manufacturer": "Kalih",
+  "series": "ULP",
+  "springType": "ULP",
+  "actuationForce": "???",
+  "bottomOutForce": "60g",
+  "length": "N/A",
+  "images": []
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "pck-34",
+  "title": "PCK 34",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-02-15",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "모노블럭 스플릿",
+    "칼럼스태거",
+    "3x5"
+  ],
+  "mounts": [
+    "N/A"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "PCK 34 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-640.avif",
+          "width": 640,
+          "height": 352
+        },
+        {
+          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-1280.avif",
+          "width": 1280,
+          "height": 705
+        },
+        {
+          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-2400.avif",
+          "width": 2400,
+          "height": 1321
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "durock-ice-queen-11158694d3e9",
+  "title": "Durock Ice Queen",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Durock Ice Queen 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-0-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-0-1280.avif",
+          "width": 737,
+          "height": 609
+        }
+      ]
+    },
+    {
+      "alt": "Durock Ice Queen 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-1-640.avif",
+          "width": 640,
+          "height": 502
+        },
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-1-1280.avif",
+          "width": 662,
+          "height": 519
+        }
+      ]
+    },
+    {
+      "alt": "Durock Ice Queen 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-2-640.avif",
+          "width": 640,
+          "height": 350
+        },
+        {
+          "src": "/media/switches/durock-ice-queen-11158694d3e9/11158694d3e9985b-2-1280.avif",
+          "width": 838,
+          "height": 458
+        }
+      ]
+    }
+  ]
+}

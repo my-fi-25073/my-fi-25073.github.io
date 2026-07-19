@@ -1,0 +1,103 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
+import DisplayFields from '../../components/DisplayFields.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  buildDomainFields,
+  domainLabels,
+  domainSummary,
+} from '../../lib/domain-display';
+
+export async function getStaticPaths() {
+  const records = await getCollection('records');
+  return records.map((entry) => ({
+    params: { category: entry.data.category, slug: entry.data.slug },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'records'>;
+}
+
+const { entry } = Astro.props;
+const record = entry.data;
+const labels = domainLabels(record);
+const fields = buildDomainFields(record);
+const summary = domainSummary(record);
+---
+
+<SiteLayout title={record.title} description={`${record.title} ${labels.korean} 기록`}>
+  <article class="detail shell">
+    <a class="back-link" href={`/${record.category}/`}>← {labels.archive}</a>
+    <header class="detail-header">
+      <p class="eyebrow">{labels.singular} record</p>
+      <h1>{record.title}</h1>
+      <p class="detail-summary">{summary}</p>
+    </header>
+
+    <section class="series-properties" aria-labelledby="domain-properties-heading">
+      <div class="section-heading">
+        <h2 id="domain-properties-heading">Details</h2>
+      </div>
+      <DisplayFields fields={fields} variant="detail" />
+    </section>
+
+    {record.kind === 'vendor' && record.links.length > 0 && (
+      <section class="record-section vendor-links" aria-labelledby="vendor-links-heading">
+        <div class="section-heading">
+          <h2 id="vendor-links-heading">Links</h2>
+        </div>
+        <ul>
+          {record.links.map((link) => (
+            <li><a href={link.url} target="_blank" rel="noreferrer">{link.label} ↗</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {record.images.length > 0 && (
+      <section class="record-section" aria-labelledby="domain-images-heading">
+        <div class="section-heading">
+          <h2 id="domain-images-heading">Images</h2>
+          <p>{record.images.length} published</p>
+        </div>
+        <div class="detail-images domain-images">
+          {record.images.map((item, index) => {
+            const variants = item.variants.toSorted((a, b) => a.width - b.width);
+            const display = variants[0];
+            const full = variants.at(-1) ?? display;
+            const srcset = variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+            return (
+              <figure>
+                <button
+                  class="detail-image-button"
+                  type="button"
+                  data-lightbox-open
+                  data-full={full.src}
+                  data-alt={item.alt}
+                  data-caption={`${record.title} · ${index + 1}`}
+                  aria-label={`${index + 1}번째 이미지 확대`}
+                >
+                  <img
+                    src={display.src}
+                    srcset={srcset}
+                    sizes="(min-width: 960px) 50vw, 100vw"
+                    width={display.width}
+                    height={display.height}
+                    alt={item.alt}
+                    loading={index === 0 ? 'eager' : 'lazy'}
+                    decoding="async"
+                  />
+                </button>
+              </figure>
+            );
+          })}
+        </div>
+      </section>
+    )}
+  </article>
+  <Lightbox />
+</SiteLayout>

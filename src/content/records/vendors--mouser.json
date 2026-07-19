@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "mouser",
+  "title": "Mouser",
+  "category": "vendors",
+  "location": "Global",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.mouser.kr/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "keebsupply",
+  "title": "KeebSupply",
+  "category": "vendors",
+  "location": "Germany",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://keeb.supply/"
+    }
+  ],
+  "images": []
+}

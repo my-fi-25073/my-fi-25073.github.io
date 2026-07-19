@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "cloud-v2",
+  "title": "Cloud V2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Cloud V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-0-640.avif",
+          "width": 640,
+          "height": 436
+        },
+        {
+          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-0-1280.avif",
+          "width": 717,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "alt": "Cloud V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-1-640.avif",
+          "width": 640,
+          "height": 649
+        },
+        {
+          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-1-1280.avif",
+          "width": 1261,
+          "height": 1278
+        }
+      ]
+    }
+  ]
+}

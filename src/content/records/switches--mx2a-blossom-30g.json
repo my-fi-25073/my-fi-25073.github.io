@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-blossom-30g",
+  "title": "MX2A Blossom 30g",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": "TX PET 필름 0.125mm",
+  "images": [
+    {
+      "alt": "MX2A Blossom 30g 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blossom-30g/ec30a23580e84e0b-0-640.avif",
+          "width": 640,
+          "height": 503
+        },
+        {
+          "src": "/media/switches/mx2a-blossom-30g/ec30a23580e84e0b-0-1280.avif",
+          "width": 1231,
+          "height": 967
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Blossom 30g 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blossom-30g/ec30a23580e84e0b-1-640.avif",
+          "width": 640,
+          "height": 745
+        },
+        {
+          "src": "/media/switches/mx2a-blossom-30g/ec30a23580e84e0b-1-1280.avif",
+          "width": 1255,
+          "height": 1460
+        }
+      ]
+    }
+  ]
+}

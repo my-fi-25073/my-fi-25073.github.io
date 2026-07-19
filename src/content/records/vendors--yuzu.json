@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "yuzu",
+  "title": "Yuzu",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://yuzukeycaps.com/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "nlandkeys-diamond-avalon",
+  "title": "NLandkeys Diamond Avalon",
+  "category": "switches",
+  "manufacturer": "Unknown",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "NLandkeys Diamond Avalon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-0-1280.avif",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "alt": "NLandkeys Diamond Avalon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-1-640.avif",
+          "width": 640,
+          "height": 379
+        },
+        {
+          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-1-1280.avif",
+          "width": 985,
+          "height": 583
+        }
+      ]
+    },
+    {
+      "alt": "NLandkeys Diamond Avalon 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-2-640.avif",
+          "width": 479,
+          "height": 321
+        }
+      ]
+    }
+  ]
+}

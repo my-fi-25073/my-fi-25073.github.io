@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "og-dragon-blue",
+  "title": "OG Dragon Blue",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "OG Dragon Blue 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/og-dragon-blue/c8f88ca20b3fef0f-0-640.avif",
+          "width": 523,
+          "height": 400
+        }
+      ]
+    }
+  ]
+}

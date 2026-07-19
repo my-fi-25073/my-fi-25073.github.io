@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "hhkb-snow",
+  "title": "HHKB Snow",
+  "category": "keycaps",
+  "manufacturer": "Topre",
+  "profile": "OEM-Topre",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T18:35:37Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "Topre EC"
+  ],
+  "kits": [
+    {
+      "slug": "blank-base",
+      "title": "Blank Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "HHKB Snow Blank Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/hhkb-snow/kit-43f570a3b36380b9-0-640.avif",
+              "width": 640,
+              "height": 326
+            },
+            {
+              "src": "/media/hhkb-snow/kit-43f570a3b36380b9-0-1280.avif",
+              "width": 1280,
+              "height": 652
+            },
+            {
+              "src": "/media/hhkb-snow/kit-43f570a3b36380b9-0-2400.avif",
+              "width": 2048,
+              "height": 1043
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "HHKB Snow 이미지 1",
+      "variants": [
+        {
+          "src": "/media/hhkb-snow/series-d6558efac9a8378f-0-640.avif",
+          "width": 640,
+          "height": 299
+        },
+        {
+          "src": "/media/hhkb-snow/series-d6558efac9a8378f-0-1280.avif",
+          "width": 1252,
+          "height": 584
+        }
+      ]
+    }
+  ]
+}

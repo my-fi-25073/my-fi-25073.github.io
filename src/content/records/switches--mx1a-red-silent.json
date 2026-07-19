@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-red-silent",
+  "title": "MX1A Red Silent",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX1A Red Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-0-640.avif",
+          "width": 640,
+          "height": 415
+        },
+        {
+          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-0-1280.avif",
+          "width": 1160,
+          "height": 752
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Red Silent 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-1-640.avif",
+          "width": 640,
+          "height": 426
+        },
+        {
+          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-1-1280.avif",
+          "width": 691,
+          "height": 460
+        }
+      ]
+    }
+  ]
+}

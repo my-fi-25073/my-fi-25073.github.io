@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-purple",
+  "title": "MX2A Purple",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Purple 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-0-640.avif",
+          "width": 447,
+          "height": 425
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Purple 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-640.avif",
+          "width": 640,
+          "height": 236
+        },
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-1280.avif",
+          "width": 1280,
+          "height": 472
+        },
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-2400.avif",
+          "width": 1510,
+          "height": 557
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Purple 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-640.avif",
+          "width": 640,
+          "height": 361
+        },
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-1280.avif",
+          "width": 1280,
+          "height": 722
+        },
+        {
+          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-2400.avif",
+          "width": 1382,
+          "height": 779
+        }
+      ]
+    }
+  ]
+}

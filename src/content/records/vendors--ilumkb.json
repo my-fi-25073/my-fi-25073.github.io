@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "ilumkb",
+  "title": "iLumKB",
+  "category": "vendors",
+  "location": "Singapore",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://ilumkb.com/"
+    }
+  ],
+  "images": []
+}

@@ -5,10 +5,13 @@ interface Props {
 
 const { current = 'all' } = Astro.props;
 const items = [
-  { id: 'all', label: '전체' },
-  { id: 'keycaps', label: '키캡' },
-  { id: 'keyboards', label: '키보드', disabled: true },
-  { id: 'switches', label: '스위치', disabled: true },
+  { id: 'all', label: '전체', href: '/' },
+  { id: 'keycaps', label: '키캡', href: '/keycaps/' },
+  { id: 'keyboards', label: '키보드', href: '/keyboards/' },
+  { id: 'switches', label: '스위치', href: '/switches/' },
+  { id: 'springs', label: '스프링', href: '/springs/' },
+  { id: 'lubricants', label: '윤활제', href: '/lubricants/' },
+  { id: 'vendors', label: '벤더', href: '/vendors/' },
 ];
 ---
 
@@ -16,17 +19,13 @@ const items = [
   <ul>
     {items.map((item) => (
       <li>
-        {item.disabled ? (
-          <span class="taxonomy-item is-disabled" aria-disabled="true">{item.label}</span>
-        ) : (
-          <a
-            class:list={['taxonomy-item', { 'is-current': current === item.id }]}
-            href={item.id === 'all' ? '/' : `/?category=${item.id}`}
-            aria-current={current === item.id ? 'page' : undefined}
-          >
-            {item.label}
-          </a>
-        )}
+        <a
+          class:list={['taxonomy-item', { 'is-current': current === item.id }]}
+          href={item.href}
+          aria-current={current === item.id ? 'page' : undefined}
+        >
+          {item.label}
+        </a>
       </li>
     ))}
   </ul>

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "susu",
+  "title": "Susu",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "MTNU",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:08:47Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Susu Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/susu/kit-116da98b168d161f-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/susu/kit-116da98b168d161f-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/susu/kit-116da98b168d161f-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Susu Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/susu/kit-116da98b168d161f-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/susu/kit-116da98b168d161f-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/susu/kit-116da98b168d161f-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Susu 이미지 1",
+      "variants": [
+        {
+          "src": "/media/susu/series-dc7f394b6611ca4c-0-640.avif",
+          "width": 640,
+          "height": 548
+        },
+        {
+          "src": "/media/susu/series-dc7f394b6611ca4c-0-1280.avif",
+          "width": 1280,
+          "height": 1096
+        },
+        {
+          "src": "/media/susu/series-dc7f394b6611ca4c-0-2400.avif",
+          "width": 1380,
+          "height": 1182
+        }
+      ]
+    }
+  ]
+}

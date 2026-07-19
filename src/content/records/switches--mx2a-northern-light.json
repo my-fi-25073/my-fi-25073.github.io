@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-northern-light",
+  "title": "MX2A Northern Light",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Northern Light 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-0-640.avif",
+          "width": 640,
+          "height": 526
+        },
+        {
+          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-0-1280.avif",
+          "width": 1254,
+          "height": 1030
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Northern Light 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-640.avif",
+          "width": 640,
+          "height": 707
+        },
+        {
+          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-1280.avif",
+          "width": 1280,
+          "height": 1413
+        },
+        {
+          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-2400.avif",
+          "width": 1336,
+          "height": 1475
+        }
+      ]
+    }
+  ]
+}

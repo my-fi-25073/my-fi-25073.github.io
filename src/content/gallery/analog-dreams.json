@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "analog-dreams",
+  "title": "Analog Dreams",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T17:05:47Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Colorful",
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": []
+    }
+  ],
+  "images": [
+    {
+      "alt": "Analog Dreams 이미지 1",
+      "variants": [
+        {
+          "src": "/media/analog-dreams/series-438ef4989e42b325-0-640.avif",
+          "width": 640,
+          "height": 553
+        },
+        {
+          "src": "/media/analog-dreams/series-438ef4989e42b325-0-1280.avif",
+          "width": 1280,
+          "height": 1106
+        },
+        {
+          "src": "/media/analog-dreams/series-438ef4989e42b325-0-2400.avif",
+          "width": 1440,
+          "height": 1244
+        }
+      ]
+    }
+  ]
+}

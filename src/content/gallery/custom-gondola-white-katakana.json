@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "custom-gondola-white-katakana",
+  "title": "Custom Gondola White Katakana",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KAM",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:09:50Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "gondola-base",
+      "title": "Gondola Base",
+      "kittingTypes": [
+        "Base - Custom",
+        "Alpha - Katakana"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Custom Gondola White Katakana Gondola Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-17b4ca202b741183-0-640.avif",
+              "width": 640,
+              "height": 492
+            },
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-17b4ca202b741183-0-1280.avif",
+              "width": 1024,
+              "height": 787
+            }
+          ]
+        },
+        {
+          "alt": "Custom Gondola White Katakana Gondola Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-17b4ca202b741183-1-640.avif",
+              "width": 640,
+              "height": 508
+            },
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-17b4ca202b741183-1-1280.avif",
+              "width": 1024,
+              "height": 812
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Custom Gondola White Katakana 이미지 1",
+      "variants": [
+        {
+          "src": "/media/custom-gondola-white-katakana/series-29bb781e8b723cb8-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/custom-gondola-white-katakana/series-29bb781e8b723cb8-0-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/custom-gondola-white-katakana/series-29bb781e8b723cb8-0-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

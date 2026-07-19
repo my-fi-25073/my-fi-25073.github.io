@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mito-noctua",
+  "title": "MiTo Noctua",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:49Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Noctua Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-noctua/kit-7348b6916b294fcd-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-noctua/kit-7348b6916b294fcd-0-1280.avif",
+              "width": 1040,
+              "height": 692
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hobbyist",
+      "title": "Hobbyist",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Noctua Hobbyist 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-noctua/kit-d34d1347c3e2691c-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-noctua/kit-d34d1347c3e2691c-0-1280.avif",
+              "width": 1038,
+              "height": 691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "numpad",
+      "title": "Numpad",
+      "kittingTypes": [
+        "Child - Numpad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Noctua Numpad 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-noctua/kit-52d1c180b9727e25-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-noctua/kit-52d1c180b9727e25-0-1280.avif",
+              "width": 1039,
+              "height": 691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ortho",
+      "title": "Ortho",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Noctua Ortho 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-noctua/kit-6531d1e9460ac6fe-0-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/mito-noctua/kit-6531d1e9460ac6fe-0-1280.avif",
+              "width": 1040,
+              "height": 694
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Noctua Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-noctua/kit-61f7371659bff1af-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-noctua/kit-61f7371659bff1af-0-1280.avif",
+              "width": 1040,
+              "height": 692
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MiTo Noctua 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-640.avif",
+          "width": 640,
+          "height": 411
+        },
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-1280.avif",
+          "width": 1280,
+          "height": 822
+        },
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-2400.avif",
+          "width": 1576,
+          "height": 1012
+        }
+      ]
+    },
+    {
+      "alt": "MiTo Noctua 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

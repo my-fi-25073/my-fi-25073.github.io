@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "saker-mini",
+  "title": "Saker Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Saker Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/saker-mini/dcc95172de57f0d7-0-640.avif",
+          "width": 640,
+          "height": 492
+        },
+        {
+          "src": "/media/switches/saker-mini/dcc95172de57f0d7-0-1280.avif",
+          "width": 1280,
+          "height": 984
+        }
+      ]
+    },
+    {
+      "alt": "Saker Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-640.avif",
+          "width": 640,
+          "height": 673
+        },
+        {
+          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-1280.avif",
+          "width": 1280,
+          "height": 1346
+        },
+        {
+          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-2400.avif",
+          "width": 1540,
+          "height": 1620
+        }
+      ]
+    }
+  ]
+}

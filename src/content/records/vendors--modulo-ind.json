@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "modulo-ind",
+  "title": "Modulo Ind",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://modulo.industries/"
+    }
+  ],
+  "images": []
+}

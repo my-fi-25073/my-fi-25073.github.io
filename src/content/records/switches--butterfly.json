@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "butterfly",
+  "title": "Butterfly",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Butterfly 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/butterfly/775af80831480524-0-640.avif",
+          "width": 640,
+          "height": 424
+        },
+        {
+          "src": "/media/switches/butterfly/775af80831480524-0-1280.avif",
+          "width": 709,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "alt": "Butterfly 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/butterfly/775af80831480524-1-640.avif",
+          "width": 640,
+          "height": 555
+        },
+        {
+          "src": "/media/switches/butterfly/775af80831480524-1-1280.avif",
+          "width": 1252,
+          "height": 1086
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx-ulp-click",
+  "title": "MX ULP Click",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry ULP",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX ULP Click 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx-ulp-click/a79982f1fb202a7b-0-640.avif",
+          "width": 353,
+          "height": 241
+        }
+      ]
+    },
+    {
+      "alt": "MX ULP Click 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx-ulp-click/a79982f1fb202a7b-1-640.avif",
+          "width": 457,
+          "height": 375
+        }
+      ]
+    }
+  ]
+}

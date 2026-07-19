@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "g-square-x-moondrop-lunalight",
+  "title": "G-Square x Moondrop Lunalight",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "G-Square x Moondrop Lunalight 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-0-640.avif",
+          "width": 640,
+          "height": 385
+        },
+        {
+          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-0-1280.avif",
+          "width": 1017,
+          "height": 612
+        }
+      ]
+    },
+    {
+      "alt": "G-Square x Moondrop Lunalight 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-1-640.avif",
+          "width": 414,
+          "height": 324
+        }
+      ]
+    },
+    {
+      "alt": "G-Square x Moondrop Lunalight 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-2-640.avif",
+          "width": 640,
+          "height": 409
+        },
+        {
+          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-2-1280.avif",
+          "width": 1024,
+          "height": 655
+        }
+      ]
+    }
+  ]
+}

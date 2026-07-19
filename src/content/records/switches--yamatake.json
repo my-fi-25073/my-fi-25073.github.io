@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "yamatake",
+  "title": "Yamatake",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Yamatake 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-0-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-0-1280.avif",
+          "width": 657,
+          "height": 457
+        }
+      ]
+    },
+    {
+      "alt": "Yamatake 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-1-640.avif",
+          "width": 640,
+          "height": 646
+        },
+        {
+          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-1-1280.avif",
+          "width": 1259,
+          "height": 1270
+        }
+      ]
+    }
+  ]
+}

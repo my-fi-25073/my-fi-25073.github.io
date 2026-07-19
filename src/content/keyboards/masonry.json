@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "masonry",
+  "title": "Masonry",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-09-21",
+  "modules": [],
+  "plates": [
+    "FR4"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "모노블럭",
+    "칼럼스태거",
+    "4x12",
+    "브루스"
+  ],
+  "mounts": [
+    "스탠드오프",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Masonry 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-0-640.avif",
+          "width": 640,
+          "height": 381
+        },
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-0-1280.avif",
+          "width": 1280,
+          "height": 762
+        },
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-0-2400.avif",
+          "width": 2400,
+          "height": 1429
+        }
+      ]
+    },
+    {
+      "alt": "Masonry 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/masonry/9e047f7aa8cd1305-1-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

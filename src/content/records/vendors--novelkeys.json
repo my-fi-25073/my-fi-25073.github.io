@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "novelkeys",
+  "title": "NovelKeys",
+  "category": "vendors",
+  "location": "US-East",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://novelkeys.com/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "white",
+  "title": "White",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/white/9ca68e9838dcb1f0-0-640.avif",
+          "width": 640,
+          "height": 571
+        },
+        {
+          "src": "/media/switches/white/9ca68e9838dcb1f0-0-1280.avif",
+          "width": 836,
+          "height": 746
+        }
+      ]
+    }
+  ]
+}

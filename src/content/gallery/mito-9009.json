@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mito-9009",
+  "title": "MiTo 9009",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:09:45Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-0bb2e3fe92001745-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/mito-9009/kit-0bb2e3fe92001745-0-1280.avif",
+              "width": 1035,
+              "height": 685
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "commands",
+      "title": "Commands",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Commands 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-6e801277e0480ca1-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/mito-9009/kit-6e801277e0480ca1-0-1280.avif",
+              "width": 1041,
+              "height": 690
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelties",
+      "title": "Novelties",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Novelties 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-6dd723d2f16e03a5-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-9009/kit-6dd723d2f16e03a5-0-1280.avif",
+              "width": 1039,
+              "height": 691
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "numpad",
+      "title": "Numpad",
+      "kittingTypes": [
+        "Child - Numpad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Numpad 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-73bab58627a32449-0-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/mito-9009/kit-73bab58627a32449-0-1280.avif",
+              "width": 1039,
+              "height": 693
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ortholnear-base",
+      "title": "Ortholnear Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Ortholnear Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-3c0a5138d2b6e73b-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mito-9009/kit-3c0a5138d2b6e73b-0-1280.avif",
+              "width": 1037,
+              "height": 688
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sapce-bars",
+      "title": "Sapce Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo 9009 Sapce Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-4ad6c71707e126ae-0-640.avif",
+              "width": 640,
+              "height": 429
+            },
+            {
+              "src": "/media/mito-9009/kit-4ad6c71707e126ae-0-1280.avif",
+              "width": 1024,
+              "height": 687
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MiTo 9009 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "MiTo 9009 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-1-640.avif",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-1-1280.avif",
+          "width": 1280,
+          "height": 801
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-1-2400.avif",
+          "width": 1972,
+          "height": 1234
+        }
+      ]
+    },
+    {
+      "alt": "MiTo 9009 이미지 3",
+      "variants": [
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-2-640.avif",
+          "width": 640,
+          "height": 327
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-2-1280.avif",
+          "width": 1280,
+          "height": 654
+        },
+        {
+          "src": "/media/mito-9009/series-816ba8f43403f823-2-2400.avif",
+          "width": 1970,
+          "height": 1006
+        }
+      ]
+    }
+  ]
+}

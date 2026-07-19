@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "geon-orbit",
+  "title": "Geon Orbit",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Geon Orbit 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/geon-orbit/25a38715748502fb-0-640.avif",
+          "width": 640,
+          "height": 533
+        },
+        {
+          "src": "/media/switches/geon-orbit/25a38715748502fb-0-1280.avif",
+          "width": 773,
+          "height": 644
+        }
+      ]
+    },
+    {
+      "alt": "Geon Orbit 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/geon-orbit/25a38715748502fb-1-640.avif",
+          "width": 640,
+          "height": 490
+        },
+        {
+          "src": "/media/switches/geon-orbit/25a38715748502fb-1-1280.avif",
+          "width": 813,
+          "height": 623
+        }
+      ]
+    }
+  ]
+}

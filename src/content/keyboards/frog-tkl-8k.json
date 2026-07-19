@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "frog-tkl-8k",
+  "title": "Frog TKL 8k",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-04-21",
+  "modules": [
+    "트랙볼"
+  ],
+  "plates": [
+    "황동"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭 스플릿",
+    "오쏘리니어",
+    "WKL",
+    "6x17"
+  ],
+  "mounts": [
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Frog TKL 8k 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-640.avif",
+          "width": 640,
+          "height": 412
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-1280.avif",
+          "width": 1280,
+          "height": 825
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-2400.avif",
+          "width": 2400,
+          "height": 1547
+        }
+      ]
+    },
+    {
+      "alt": "Frog TKL 8k 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-640.avif",
+          "width": 640,
+          "height": 339
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-1280.avif",
+          "width": 1280,
+          "height": 679
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-2400.avif",
+          "width": 2400,
+          "height": 1273
+        }
+      ]
+    },
+    {
+      "alt": "Frog TKL 8k 사진 3",
+      "variants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-640.avif",
+          "width": 640,
+          "height": 396
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-1280.avif",
+          "width": 1280,
+          "height": 792
+        },
+        {
+          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-2400.avif",
+          "width": 2400,
+          "height": 1485
+        }
+      ]
+    }
+  ]
+}

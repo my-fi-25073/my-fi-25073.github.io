@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sea-salt",
+  "title": "Sea Salt",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Sea Salt 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sea-salt/7a197775bb9ab731-0-640.avif",
+          "width": 640,
+          "height": 412
+        },
+        {
+          "src": "/media/switches/sea-salt/7a197775bb9ab731-0-1280.avif",
+          "width": 1071,
+          "height": 689
+        }
+      ]
+    },
+    {
+      "alt": "Sea Salt 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-640.avif",
+          "width": 640,
+          "height": 704
+        },
+        {
+          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-1280.avif",
+          "width": 1280,
+          "height": 1409
+        },
+        {
+          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-2400.avif",
+          "width": 1341,
+          "height": 1476
+        }
+      ]
+    }
+  ]
+}

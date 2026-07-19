@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "neon",
+  "title": "Neon",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Neon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/neon/acdbab2980348d8a-0-640.avif",
+          "width": 640,
+          "height": 526
+        },
+        {
+          "src": "/media/switches/neon/acdbab2980348d8a-0-1280.avif",
+          "width": 1203,
+          "height": 989
+        }
+      ]
+    },
+    {
+      "alt": "Neon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/neon/acdbab2980348d8a-1-640.avif",
+          "width": 640,
+          "height": 668
+        },
+        {
+          "src": "/media/switches/neon/acdbab2980348d8a-1-1280.avif",
+          "width": 1280,
+          "height": 1336
+        },
+        {
+          "src": "/media/switches/neon/acdbab2980348d8a-1-2400.avif",
+          "width": 1406,
+          "height": 1468
+        }
+      ]
+    }
+  ]
+}

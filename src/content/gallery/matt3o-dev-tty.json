@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "matt3o-dev-tty",
+  "title": "Matt3o /dev/tty",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:37Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "dev-tty-lost-found",
+      "title": "dev/tty Lost + Found",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty dev/tty Lost + Found 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-9f85b58dcb36eb56-0-640.avif",
+              "width": 640,
+              "height": 437
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-9f85b58dcb36eb56-0-1280.avif",
+              "width": 972,
+              "height": 664
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dev-tty-ortho-base",
+      "title": "dev/tty Ortho Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty dev/tty Ortho Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-3ac9c779c4bcd377-0-640.avif",
+              "width": 640,
+              "height": 402
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-3ac9c779c4bcd377-0-1280.avif",
+              "width": 1022,
+              "height": 642
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "small-spacebars",
+      "title": "Small Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Small Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-a17a11675a42d39f-0-640.avif",
+              "width": 640,
+              "height": 367
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-a17a11675a42d39f-0-1280.avif",
+              "width": 1009,
+              "height": 578
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "triumph-apple",
+      "title": "Triumph Apple",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Triumph Apple 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-e679f790e83af868-0-640.avif",
+              "width": 640,
+              "height": 353
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-e679f790e83af868-0-1280.avif",
+              "width": 976,
+              "height": 539
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "triumph-base",
+      "title": "Triumph Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Triumph Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-6b98420416b6eddf-0-640.avif",
+              "width": 640,
+              "height": 323
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-6b98420416b6eddf-0-1280.avif",
+              "width": 1012,
+              "height": 510
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "triumph-lost-found",
+      "title": "Triumph Lost + Found",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Triumph Lost + Found 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-e4ccd8b983573a30-0-640.avif",
+              "width": 640,
+              "height": 444
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-e4ccd8b983573a30-0-1280.avif",
+              "width": 949,
+              "height": 659
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "triumph-numpad",
+      "title": "Triumph Numpad",
+      "kittingTypes": [
+        "Child - Numpad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Triumph Numpad 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-4d4d251b25962739-0-640.avif",
+              "width": 640,
+              "height": 532
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-4d4d251b25962739-0-1280.avif",
+              "width": 776,
+              "height": 645
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "unicorn-barf",
+      "title": "Unicorn Barf",
+      "kittingTypes": [
+        "Accent - RGB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Matt3o /dev/tty Unicorn Barf 이미지 1",
+          "variants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-79a4dcb31f77ee64-0-640.avif",
+              "width": 640,
+              "height": 461
+            },
+            {
+              "src": "/media/matt3o-dev-tty/kit-79a4dcb31f77ee64-0-1280.avif",
+              "width": 885,
+              "height": 638
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Matt3o /dev/tty 이미지 1",
+      "variants": [
+        {
+          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "Matt3o /dev/tty 이미지 2",
+      "variants": [
+        {
+          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-640.avif",
+          "width": 640,
+          "height": 402
+        },
+        {
+          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-1280.avif",
+          "width": 1280,
+          "height": 804
+        },
+        {
+          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-2400.avif",
+          "width": 1644,
+          "height": 1032
+        }
+      ]
+    }
+  ]
+}

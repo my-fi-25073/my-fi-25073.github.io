@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "blusish-white-s",
+  "title": "Blusish White S",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Blusish White S 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/blusish-white-s/9919797ce0def225-0-640.avif",
+          "width": 640,
+          "height": 426
+        },
+        {
+          "src": "/media/switches/blusish-white-s/9919797ce0def225-0-1280.avif",
+          "width": 658,
+          "height": 438
+        }
+      ]
+    },
+    {
+      "alt": "Blusish White S 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/blusish-white-s/9919797ce0def225-1-640.avif",
+          "width": 558,
+          "height": 442
+        }
+      ]
+    }
+  ]
+}

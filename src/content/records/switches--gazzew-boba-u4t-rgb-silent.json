@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "gazzew-boba-u4t-rgb-silent",
+  "title": "Gazzew Boba U4T RGB Silent",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Gazzew Boba U4T RGB Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-640.avif",
+          "width": 640,
+          "height": 355
+        },
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-1280.avif",
+          "width": 1280,
+          "height": 710
+        },
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-2400.avif",
+          "width": 1487,
+          "height": 825
+        }
+      ]
+    },
+    {
+      "alt": "Gazzew Boba U4T RGB Silent 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-1-640.avif",
+          "width": 493,
+          "height": 368
+        }
+      ]
+    }
+  ]
+}

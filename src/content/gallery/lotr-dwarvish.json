@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lotr-dwarvish",
+  "title": "LotR Dwarvish",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:32Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "durins-forge",
+      "title": "Durin’s Forge",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Dwarvish Durin’s Forge 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-15b50d5028356295-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/lotr-dwarvish/kit-15b50d5028356295-0-1280.avif",
+              "width": 1046,
+              "height": 696
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extra",
+      "title": "Extra",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Dwarvish Extra 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-24b3fe614318636b-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/lotr-dwarvish/kit-24b3fe614318636b-0-1280.avif",
+              "width": 1043,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hardcore-base",
+      "title": "Hardcore Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Meme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Dwarvish Hardcore Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-dc9179d2f8fda94c-0-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/lotr-dwarvish/kit-dc9179d2f8fda94c-0-1280.avif",
+              "width": 1044,
+              "height": 697
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "space-bars",
+      "title": "Space Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Dwarvish Space Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-b5e980a31f889164-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/lotr-dwarvish/kit-b5e980a31f889164-0-1280.avif",
+              "width": 1045,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LotR Dwarvish 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-0-640.avif",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-0-1280.avif",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-0-2400.avif",
+          "width": 1608,
+          "height": 904
+        }
+      ]
+    },
+    {
+      "alt": "LotR Dwarvish 이미지 2",
+      "variants": [
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-1-640.avif",
+          "width": 640,
+          "height": 378
+        },
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-1-1280.avif",
+          "width": 1280,
+          "height": 755
+        },
+        {
+          "src": "/media/lotr-dwarvish/series-e79e8381abb22cc8-1-2400.avif",
+          "width": 1990,
+          "height": 1174
+        }
+      ]
+    }
+  ]
+}

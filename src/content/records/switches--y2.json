@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "y2",
+  "title": "Y2",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Y2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/y2/431724f902a71942-0-640.avif",
+          "width": 640,
+          "height": 327
+        },
+        {
+          "src": "/media/switches/y2/431724f902a71942-0-1280.avif",
+          "width": 715,
+          "height": 365
+        }
+      ]
+    },
+    {
+      "alt": "Y2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/y2/431724f902a71942-1-640.avif",
+          "width": 640,
+          "height": 507
+        },
+        {
+          "src": "/media/switches/y2/431724f902a71942-1-1280.avif",
+          "width": 825,
+          "height": 653
+        }
+      ]
+    }
+  ]
+}

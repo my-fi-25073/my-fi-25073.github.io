@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "tomcat",
+  "title": "Tomcat",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Tomcat 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/tomcat/69daaabee56e8f41-0-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/tomcat/69daaabee56e8f41-0-1280.avif",
+          "width": 739,
+          "height": 514
+        }
+      ]
+    },
+    {
+      "alt": "Tomcat 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/tomcat/69daaabee56e8f41-1-640.avif",
+          "width": 640,
+          "height": 593
+        },
+        {
+          "src": "/media/switches/tomcat/69daaabee56e8f41-1-1280.avif",
+          "width": 1280,
+          "height": 1187
+        },
+        {
+          "src": "/media/switches/tomcat/69daaabee56e8f41-1-2400.avif",
+          "width": 1335,
+          "height": 1238
+        }
+      ]
+    }
+  ]
+}

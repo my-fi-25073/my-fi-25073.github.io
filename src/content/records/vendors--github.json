@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "github",
+  "title": "GitHub",
+  "category": "vendors",
+  "location": "WorldWide",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://github.com/"
+    }
+  ],
+  "images": []
+}

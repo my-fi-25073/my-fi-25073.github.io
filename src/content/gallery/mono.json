@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mono",
+  "title": "Mono",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T16:57:40Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Mono Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Mono Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/mono/kit-58e0d84d0da25f97-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hhkb",
+      "title": "HHKB",
+      "kittingTypes": [
+        "Modifier - HHKB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Mono HHKB 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mono/kit-6b507acbdac0cd36-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/mono/kit-6b507acbdac0cd36-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/mono/kit-6b507acbdac0cd36-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mono 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mono/series-7724e5fd8734fbad-0-640.avif",
+          "width": 640,
+          "height": 556
+        },
+        {
+          "src": "/media/mono/series-7724e5fd8734fbad-0-1280.avif",
+          "width": 1280,
+          "height": 1112
+        },
+        {
+          "src": "/media/mono/series-7724e5fd8734fbad-0-2400.avif",
+          "width": 1566,
+          "height": 1360
+        }
+      ]
+    }
+  ]
+}

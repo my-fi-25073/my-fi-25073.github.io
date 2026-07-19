@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "kprepublic",
+  "title": "KPrepublic",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://kprepublic.com/"
+    }
+  ],
+  "images": []
+}

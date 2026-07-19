@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "kbdfans-hhkb-keysets",
+  "title": "KBDFans HHKB Keysets",
+  "category": "keycaps",
+  "manufacturer": "KBDFans",
+  "profile": "OEM-Topre",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:12:46Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "Topre EC"
+  ],
+  "kits": [
+    {
+      "slug": "9009-accent",
+      "title": "9009 Accent",
+      "kittingTypes": [
+        "Accent -  9009"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets 9009 Accent 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-640.avif",
+              "width": 640,
+              "height": 472
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-1280.avif",
+              "width": 1280,
+              "height": 943
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-2400.avif",
+              "width": 1528,
+              "height": 1126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blue-simple-alpha",
+      "title": "Blue Simple Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Blue Simple Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-640.avif",
+              "width": 640,
+              "height": 369
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-1280.avif",
+              "width": 1280,
+              "height": 738
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-2400.avif",
+              "width": 1572,
+              "height": 906
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classic-base",
+      "title": "Classic Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Classic Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-640.avif",
+              "width": 640,
+              "height": 374
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-1280.avif",
+              "width": 1280,
+              "height": 748
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-2400.avif",
+              "width": 1646,
+              "height": 962
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lilac-alpha",
+      "title": "Lilac Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Lilac Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-640.avif",
+              "width": 640,
+              "height": 327
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-1280.avif",
+              "width": 1280,
+              "height": 655
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-2400.avif",
+              "width": 1646,
+              "height": 842
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lilac-simple-alpha",
+      "title": "Lilac Simple Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Lilac Simple Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-640.avif",
+              "width": 640,
+              "height": 357
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-1280.avif",
+              "width": 1280,
+              "height": 715
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-2400.avif",
+              "width": 1608,
+              "height": 898
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mint-alpha",
+      "title": "Mint Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Mint Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-640.avif",
+              "width": 640,
+              "height": 348
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-1280.avif",
+              "width": 1280,
+              "height": 696
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-2400.avif",
+              "width": 1670,
+              "height": 908
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mint-arrows",
+      "title": "Mint Arrows",
+      "kittingTypes": [
+        "Accent - HHKB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Mint Arrows 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-640.avif",
+              "width": 640,
+              "height": 397
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-1280.avif",
+              "width": 1280,
+              "height": 795
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-2400.avif",
+              "width": 1604,
+              "height": 996
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pom-white-base",
+      "title": "POM White Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets POM White Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-640.avif",
+              "width": 640,
+              "height": 390
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-1280.avif",
+              "width": 1280,
+              "height": 781
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-2400.avif",
+              "width": 1630,
+              "height": 994
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "red-mod",
+      "title": "Red Mod",
+      "kittingTypes": [
+        "Modifier - HHKB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Red Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-640.avif",
+              "width": 640,
+              "height": 350
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-1280.avif",
+              "width": 1280,
+              "height": 699
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-2400.avif",
+              "width": 1636,
+              "height": 894
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "teal-alpha",
+      "title": "Teal Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Teal Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-640.avif",
+              "width": 640,
+              "height": 340
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-1280.avif",
+              "width": 1280,
+              "height": 679
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-2400.avif",
+              "width": 1624,
+              "height": 862
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yellow-arrows",
+      "title": "Yellow Arrows",
+      "kittingTypes": [
+        "Accent - HHKB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KBDFans HHKB Keysets Yellow Arrows 이미지 1",
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-640.avif",
+              "width": 640,
+              "height": 408
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-1280.avif",
+              "width": 1280,
+              "height": 816
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-2400.avif",
+              "width": 1604,
+              "height": 1022
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "KBDFans HHKB Keysets 이미지 1",
+      "variants": [
+        {
+          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-640.avif",
+          "width": 640,
+          "height": 335
+        },
+        {
+          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-1280.avif",
+          "width": 1280,
+          "height": 670
+        },
+        {
+          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-2400.avif",
+          "width": 2048,
+          "height": 1072
+        }
+      ]
+    }
+  ]
+}

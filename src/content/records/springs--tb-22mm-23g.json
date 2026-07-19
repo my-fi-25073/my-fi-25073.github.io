@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "tb-22mm-23g",
+  "title": "TB 22mm 23g",
+  "category": "springs",
+  "manufacturer": "Taobao",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "???",
+  "bottomOutForce": "23g",
+  "length": "22mm",
+  "images": []
+}

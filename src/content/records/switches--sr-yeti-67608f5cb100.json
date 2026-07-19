@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sr-yeti-67608f5cb100",
+  "title": "SR YETI",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "SR YETI 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sr-yeti-67608f5cb100/67608f5cb100c38d-0-640.avif",
+          "width": 640,
+          "height": 403
+        },
+        {
+          "src": "/media/switches/sr-yeti-67608f5cb100/67608f5cb100c38d-0-1280.avif",
+          "width": 708,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "alt": "SR YETI 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sr-yeti-67608f5cb100/67608f5cb100c38d-1-640.avif",
+          "width": 640,
+          "height": 505
+        },
+        {
+          "src": "/media/switches/sr-yeti-67608f5cb100/67608f5cb100c38d-1-1280.avif",
+          "width": 1280,
+          "height": 1011
+        },
+        {
+          "src": "/media/switches/sr-yeti-67608f5cb100/67608f5cb100c38d-1-2400.avif",
+          "width": 1293,
+          "height": 1021
+        }
+      ]
+    }
+  ]
+}

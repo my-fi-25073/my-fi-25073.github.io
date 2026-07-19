@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "bckeys-x-gulf",
+  "title": "BCKeys x Gulf",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "BCKeys x Gulf 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-0-640.avif",
+          "width": 640,
+          "height": 507
+        },
+        {
+          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-0-1280.avif",
+          "width": 747,
+          "height": 592
+        }
+      ]
+    },
+    {
+      "alt": "BCKeys x Gulf 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-1-640.avif",
+          "width": 640,
+          "height": 840
+        },
+        {
+          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-1-1280.avif",
+          "width": 1124,
+          "height": 1476
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveView from '../../components/ArchiveView.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const [keycaps, legacyKeycaps] = await Promise.all([
+  getCollection('gallery'),
+  getCollection('records', (entry) => entry.data.category === 'keycaps'),
+]);
+---
+
+<SiteLayout title="키캡 아카이브">
+  <ArchiveView
+    current="keycaps"
+    keycaps={keycaps}
+    keyboards={[]}
+    domainRecords={legacyKeycaps}
+  />
+</SiteLayout>

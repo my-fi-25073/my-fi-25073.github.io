@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "coral-sea",
+  "title": "Coral Sea",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★★☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Coral Sea 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/coral-sea/a9c50d96850fac2a-0-640.avif",
+          "width": 588,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "alt": "Coral Sea 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/coral-sea/a9c50d96850fac2a-1-640.avif",
+          "width": 640,
+          "height": 540
+        },
+        {
+          "src": "/media/switches/coral-sea/a9c50d96850fac2a-1-1280.avif",
+          "width": 837,
+          "height": 706
+        }
+      ]
+    }
+  ]
+}

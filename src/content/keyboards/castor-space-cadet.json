@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-space-cadet",
+  "title": "Castor Space Cadet",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-05-10",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "시카고볼트",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor Space Cadet 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-640.avif",
+          "width": 640,
+          "height": 328
+        },
+        {
+          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-1280.avif",
+          "width": 1280,
+          "height": 655
+        },
+        {
+          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-2400.avif",
+          "width": 1338,
+          "height": 685
+        }
+      ]
+    }
+  ]
+}

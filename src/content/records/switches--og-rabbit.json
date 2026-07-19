@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "og-rabbit",
+  "title": "OG Rabbit",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "OG Rabbit 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/og-rabbit/7560926093729c53-0-640.avif",
+          "width": 640,
+          "height": 443
+        },
+        {
+          "src": "/media/switches/og-rabbit/7560926093729c53-0-1280.avif",
+          "width": 687,
+          "height": 476
+        }
+      ]
+    }
+  ]
+}

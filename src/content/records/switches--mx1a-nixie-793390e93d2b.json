@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-nixie-793390e93d2b",
+  "title": "MX1A Nixie ",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★★★★☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": "TX PET 필름 0.150mm",
+  "images": [
+    {
+      "alt": "MX1A Nixie  사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-nixie-793390e93d2b/793390e93d2bac20-0-640.avif",
+          "width": 640,
+          "height": 569
+        },
+        {
+          "src": "/media/switches/mx1a-nixie-793390e93d2b/793390e93d2bac20-0-1280.avif",
+          "width": 1280,
+          "height": 1138
+        },
+        {
+          "src": "/media/switches/mx1a-nixie-793390e93d2b/793390e93d2bac20-0-2400.avif",
+          "width": 1504,
+          "height": 1337
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Nixie  사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-nixie-793390e93d2b/793390e93d2bac20-1-640.avif",
+          "width": 640,
+          "height": 518
+        },
+        {
+          "src": "/media/switches/mx1a-nixie-793390e93d2b/793390e93d2bac20-1-1280.avif",
+          "width": 812,
+          "height": 657
+        }
+      ]
+    }
+  ]
+}

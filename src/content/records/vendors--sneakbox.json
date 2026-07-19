@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "sneakbox",
+  "title": "SneakBox",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://sneakbox.com/"
+    }
+  ],
+  "images": []
+}

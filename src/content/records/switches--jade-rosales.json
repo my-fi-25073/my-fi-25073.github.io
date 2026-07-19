@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "jade-rosales",
+  "title": "Jade rosales",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Jade rosales 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/jade-rosales/141e8fbcd8965376-0-640.avif",
+          "width": 640,
+          "height": 450
+        },
+        {
+          "src": "/media/switches/jade-rosales/141e8fbcd8965376-0-1280.avif",
+          "width": 736,
+          "height": 518
+        }
+      ]
+    },
+    {
+      "alt": "Jade rosales 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/jade-rosales/141e8fbcd8965376-1-640.avif",
+          "width": 640,
+          "height": 773
+        },
+        {
+          "src": "/media/switches/jade-rosales/141e8fbcd8965376-1-1280.avif",
+          "width": 1280,
+          "height": 1547
+        },
+        {
+          "src": "/media/switches/jade-rosales/141e8fbcd8965376-1-2400.avif",
+          "width": 1292,
+          "height": 1561
+        }
+      ]
+    }
+  ]
+}

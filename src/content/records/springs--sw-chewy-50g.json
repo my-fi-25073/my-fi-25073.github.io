@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sw-chewy-50g",
+  "title": "SW Chewy 50g",
+  "category": "springs",
+  "manufacturer": "Swagkey",
+  "series": "SW-Chewy",
+  "springType": "Long",
+  "actuationForce": "???",
+  "bottomOutForce": "50g",
+  "length": "17.5mm",
+  "images": []
+}

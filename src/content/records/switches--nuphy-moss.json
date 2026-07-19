@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "nuphy-moss",
+  "title": "NuPhy Moss",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★★☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "NuPhy Moss 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-0-640.avif",
+          "width": 640,
+          "height": 514
+        },
+        {
+          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-0-1280.avif",
+          "width": 792,
+          "height": 636
+        }
+      ]
+    },
+    {
+      "alt": "NuPhy Moss 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-1-640.avif",
+          "width": 640,
+          "height": 251
+        },
+        {
+          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-1-1280.avif",
+          "width": 919,
+          "height": 360
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "lp-og-40g",
+  "title": "LP OG 40g",
+  "category": "springs",
+  "manufacturer": "Kalih",
+  "series": "Choc/Alps",
+  "springType": "LP",
+  "actuationForce": "???",
+  "bottomOutForce": "40g",
+  "length": "N/A",
+  "images": []
+}

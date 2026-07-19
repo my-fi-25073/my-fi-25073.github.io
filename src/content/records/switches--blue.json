@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "blue",
+  "title": "Blue",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Blue 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/blue/c814e68a5a0d5dbc-0-640.avif",
+          "width": 640,
+          "height": 594
+        },
+        {
+          "src": "/media/switches/blue/c814e68a5a0d5dbc-0-1280.avif",
+          "width": 697,
+          "height": 647
+        }
+      ]
+    }
+  ]
+}

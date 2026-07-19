@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ulp-65g",
+  "title": "ULP 65g",
+  "category": "springs",
+  "manufacturer": "Cherry",
+  "series": "ULP",
+  "springType": "ULP",
+  "actuationForce": "???",
+  "bottomOutForce": "65g",
+  "length": "N/A",
+  "images": []
+}

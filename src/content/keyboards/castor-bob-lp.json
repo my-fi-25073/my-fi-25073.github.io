@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "castor-bob-lp",
+  "title": "Castor BoB LP",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-02-15",
+  "modules": [],
+  "plates": [
+    "N/A"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Castor BoB LP 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-640.avif",
+          "width": 640,
+          "height": 392
+        },
+        {
+          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-1280.avif",
+          "width": 1280,
+          "height": 784
+        },
+        {
+          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-2400.avif",
+          "width": 2400,
+          "height": 1469
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "haute42-wind-engine",
+  "title": "Haute42 Wind Engine",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Haute42 Wind Engine 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-0-640.avif",
+          "width": 640,
+          "height": 501
+        },
+        {
+          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-0-1280.avif",
+          "width": 850,
+          "height": 665
+        }
+      ]
+    },
+    {
+      "alt": "Haute42 Wind Engine 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-1-640.avif",
+          "width": 640,
+          "height": 705
+        },
+        {
+          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-1-1280.avif",
+          "width": 687,
+          "height": 757
+        }
+      ]
+    }
+  ]
+}

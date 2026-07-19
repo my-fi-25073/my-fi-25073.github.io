@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "brown",
+  "title": "Brown",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Brown 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/brown/3bfe130b0ba3ca55-0-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/switches/brown/3bfe130b0ba3ca55-0-1280.avif",
+          "width": 808,
+          "height": 723
+        }
+      ]
+    }
+  ]
+}

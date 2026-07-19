@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-supreme-25g",
+  "title": "Sprit Supreme 25g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Supreme",
+  "springType": "Short",
+  "actuationForce": "20g",
+  "bottomOutForce": "25g",
+  "length": null,
+  "images": []
+}

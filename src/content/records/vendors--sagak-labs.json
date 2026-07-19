@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "sagak-labs",
+  "title": "Sagak Labs",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/sagaklabs"
+    }
+  ],
+  "images": []
+}

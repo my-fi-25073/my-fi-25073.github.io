@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-skiidata",
+  "title": "MT3 Skiidata",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:10:43Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "accents",
+      "title": "Accents",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Skiidata Accents 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-skiidata/kit-9e6e46f5a097d582-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mt3-skiidata/kit-9e6e46f5a097d582-0-1280.avif",
+              "width": 1035,
+              "height": 687
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Skiidata 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Skiidata 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-640.avif",
+          "width": 640,
+          "height": 423
+        },
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-1280.avif",
+          "width": 1280,
+          "height": 845
+        },
+        {
+          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-2400.avif",
+          "width": 2048,
+          "height": 1352
+        }
+      ]
+    }
+  ]
+}

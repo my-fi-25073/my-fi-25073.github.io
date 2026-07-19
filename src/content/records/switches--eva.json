@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "eva",
+  "title": "EVA",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "EVA 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/eva/24a70d13884b004e-0-640.avif",
+          "width": 640,
+          "height": 471
+        },
+        {
+          "src": "/media/switches/eva/24a70d13884b004e-0-1280.avif",
+          "width": 742,
+          "height": 546
+        }
+      ]
+    },
+    {
+      "alt": "EVA 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/eva/24a70d13884b004e-1-640.avif",
+          "width": 640,
+          "height": 581
+        },
+        {
+          "src": "/media/switches/eva/24a70d13884b004e-1-1280.avif",
+          "width": 1280,
+          "height": 1161
+        },
+        {
+          "src": "/media/switches/eva/24a70d13884b004e-1-2400.avif",
+          "width": 1357,
+          "height": 1231
+        }
+      ]
+    }
+  ]
+}

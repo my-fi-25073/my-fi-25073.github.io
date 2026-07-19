@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "raptor-mx-extreme",
+  "title": "Raptor MX Extreme",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Raptor MX Extreme 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-0-640.avif",
+          "width": 640,
+          "height": 464
+        },
+        {
+          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-0-1280.avif",
+          "width": 1078,
+          "height": 781
+        }
+      ]
+    },
+    {
+      "alt": "Raptor MX Extreme 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-640.avif",
+          "width": 640,
+          "height": 541
+        },
+        {
+          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-1280.avif",
+          "width": 1280,
+          "height": 1081
+        },
+        {
+          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-2400.avif",
+          "width": 1307,
+          "height": 1104
+        }
+      ]
+    }
+  ]
+}

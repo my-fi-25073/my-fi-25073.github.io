@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "f1-40-722-350273dbc393",
+  "title": "F1-40 722",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-06-15",
+  "modules": [],
+  "plates": [
+    "알루미늄"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "40%",
+    "WK"
+  ],
+  "mounts": [
+    "오링",
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "F1-40 722 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-0-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-0-1280.avif",
+          "width": 1280,
+          "height": 834
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-0-2400.avif",
+          "width": 1295,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 사진 2",
+      "variants": [
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-1-640.avif",
+          "width": 640,
+          "height": 446
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-1-1280.avif",
+          "width": 1280,
+          "height": 892
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-350273dbc393/350273dbc393894a-1-2400.avif",
+          "width": 2400,
+          "height": 1672
+        }
+      ]
+    }
+  ]
+}

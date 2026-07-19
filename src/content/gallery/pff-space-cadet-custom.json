@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "pff-space-cadet-custom",
+  "title": "PFF Space Cadet Custom",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "PFF",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-24T10:26:41Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "castor-base",
+      "title": "Castor Base",
+      "kittingTypes": [
+        "Base - Custom",
+        "Alpha - Cadet"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "PFF Space Cadet Custom Castor Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-640.avif",
+              "width": 640,
+              "height": 394
+            },
+            {
+              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-1280.avif",
+              "width": 1280,
+              "height": 788
+            },
+            {
+              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-2400.avif",
+              "width": 2048,
+              "height": 1261
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "PFF Space Cadet Custom 이미지 1",
+      "variants": [
+        {
+          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

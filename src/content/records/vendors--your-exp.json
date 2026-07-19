@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "your-exp",
+  "title": "Your EXP",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/yourexp"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "nap",
+  "title": "NAP",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "NAP 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/nap/7bf3e7995560f657-0-640.avif",
+          "width": 640,
+          "height": 486
+        },
+        {
+          "src": "/media/switches/nap/7bf3e7995560f657-0-1280.avif",
+          "width": 718,
+          "height": 545
+        }
+      ]
+    },
+    {
+      "alt": "NAP 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/nap/7bf3e7995560f657-1-640.avif",
+          "width": 640,
+          "height": 837
+        },
+        {
+          "src": "/media/switches/nap/7bf3e7995560f657-1-1280.avif",
+          "width": 1177,
+          "height": 1540
+        }
+      ]
+    }
+  ]
+}

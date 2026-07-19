@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "black-cloud",
+  "title": "Black Cloud",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Black Cloud 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/black-cloud/48730099d4124e89-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/black-cloud/48730099d4124e89-0-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "alt": "Black Cloud 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/black-cloud/48730099d4124e89-1-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/black-cloud/48730099d4124e89-1-1280.avif",
+          "width": 1280,
+          "height": 874
+        },
+        {
+          "src": "/media/switches/black-cloud/48730099d4124e89-1-2400.avif",
+          "width": 1864,
+          "height": 1273
+        }
+      ]
+    }
+  ]
+}

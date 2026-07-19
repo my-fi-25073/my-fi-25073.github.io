@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "everglide-jade-black",
+  "title": "Everglide Jade Black",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Everglide Jade Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-0-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-0-1280.avif",
+          "width": 820,
+          "height": 547
+        }
+      ]
+    },
+    {
+      "alt": "Everglide Jade Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-1-640.avif",
+          "width": 640,
+          "height": 455
+        },
+        {
+          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-1-1280.avif",
+          "width": 914,
+          "height": 650
+        }
+      ]
+    },
+    {
+      "alt": "Everglide Jade Black 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-2-640.avif",
+          "width": 585,
+          "height": 571
+        }
+      ]
+    }
+  ]
+}

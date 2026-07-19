@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "candy-red",
+  "title": "Candy Red",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Candy Red 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/candy-red/4b9098d231f044ac-0-640.avif",
+          "width": 595,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "alt": "Candy Red 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/candy-red/4b9098d231f044ac-1-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/candy-red/4b9098d231f044ac-1-1280.avif",
+          "width": 1161,
+          "height": 1057
+        }
+      ]
+    }
+  ]
+}

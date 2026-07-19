@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lofree-surfer",
+  "title": "Lofree Surfer",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lofree Surfer 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-1280.avif",
+          "width": 1280,
+          "height": 1166
+        },
+        {
+          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-2400.avif",
+          "width": 1304,
+          "height": 1188
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Surfer 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-1-640.avif",
+          "width": 640,
+          "height": 472
+        },
+        {
+          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-1-1280.avif",
+          "width": 1192,
+          "height": 880
+        }
+      ]
+    }
+  ]
+}

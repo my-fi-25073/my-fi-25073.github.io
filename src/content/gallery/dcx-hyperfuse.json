@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dcx-hyperfuse",
+  "title": "DCX Hyperfuse",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "DCX",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:13:22Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCX Hyperfuse Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-640.avif",
+              "width": 640,
+              "height": 440
+            },
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-1280.avif",
+              "width": 1280,
+              "height": 879
+            },
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-2400.avif",
+              "width": 2006,
+              "height": 1378
+            }
+          ]
+        },
+        {
+          "alt": "DCX Hyperfuse Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "DCX Hyperfuse 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    }
+  ]
+}

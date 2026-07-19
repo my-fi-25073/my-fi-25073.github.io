@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "charybdis-mini",
+  "title": "Charybdis Mini",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-08-10",
+  "modules": [
+    "트랙볼"
+  ],
+  "plates": [
+    "인티보강",
+    "3DP",
+    "PLA"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터",
+    "키웰",
+    "텐팅"
+  ],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x6"
+  ],
+  "mounts": [
+    "인티 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Charybdis Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

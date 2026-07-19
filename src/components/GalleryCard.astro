@@ -43,9 +43,17 @@ const coverSource = coverVariants[0];
 const coverSrcset = coverVariants.map((item) => `${item.src} ${item.width}w`).join(', ');
 const fields = buildSeriesFields(gallery, galleryDisplay.homeCard);
 const recordNumber = String(index + 1).padStart(3, '0');
+const searchText = [gallery.title, ...fields.map((field) => field.value)]
+  .join(' ')
+  .toLocaleLowerCase('ko');
 ---
 
-<article class="gallery-card" style={`--card-index:${index}`}>
+<article
+  class="gallery-card"
+  style={`--card-index:${Math.min(index, 12)}`}
+  data-archive-card
+  data-search={searchText}
+>
   <a class="gallery-card-link" href={`/gallery/${gallery.slug}/`}>
     <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource }] }>
       {coverSource ? (

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "biip-operator",
+  "title": "biip Operator",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:05Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "biip Operator Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/biip-operator/kit-3216aeb1000efe06-0-640.avif",
+              "width": 640,
+              "height": 364
+            },
+            {
+              "src": "/media/biip-operator/kit-3216aeb1000efe06-0-1280.avif",
+              "width": 773,
+              "height": 440
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "function",
+      "title": "Function",
+      "kittingTypes": [
+        "Modifier - Mac",
+        "Accent - Function"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "biip Operator Function 이미지 1",
+          "variants": [
+            {
+              "src": "/media/biip-operator/kit-f12fe1420e7405d9-0-640.avif",
+              "width": 640,
+              "height": 362
+            },
+            {
+              "src": "/media/biip-operator/kit-f12fe1420e7405d9-0-1280.avif",
+              "width": 672,
+              "height": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nomad-base",
+      "title": "Nomad Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "biip Operator Nomad Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/biip-operator/kit-8a2ead21101bf243-0-640.avif",
+              "width": 640,
+              "height": 400
+            },
+            {
+              "src": "/media/biip-operator/kit-8a2ead21101bf243-0-1280.avif",
+              "width": 668,
+              "height": 418
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "biip Operator 이미지 1",
+      "variants": [
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "biip Operator 이미지 2",
+      "variants": [
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-1-640.avif",
+          "width": 640,
+          "height": 390
+        },
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-1-1280.avif",
+          "width": 1280,
+          "height": 781
+        },
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-1-2400.avif",
+          "width": 2004,
+          "height": 1222
+        }
+      ]
+    },
+    {
+      "alt": "biip Operator 이미지 3",
+      "variants": [
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-2-640.avif",
+          "width": 640,
+          "height": 328
+        },
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-2-1280.avif",
+          "width": 1280,
+          "height": 657
+        },
+        {
+          "src": "/media/biip-operator/series-c742eb2e604485e5-2-2400.avif",
+          "width": 2004,
+          "height": 1028
+        }
+      ]
+    }
+  ]
+}

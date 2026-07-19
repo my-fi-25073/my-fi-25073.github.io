@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "vintage-citrus",
+  "title": "Vintage Citrus",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Vintage Citrus 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-0-640.avif",
+          "width": 640,
+          "height": 487
+        },
+        {
+          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-0-1280.avif",
+          "width": 742,
+          "height": 565
+        }
+      ]
+    },
+    {
+      "alt": "Vintage Citrus 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-1280.avif",
+          "width": 1280,
+          "height": 1167
+        },
+        {
+          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-2400.avif",
+          "width": 1309,
+          "height": 1193
+        }
+      ]
+    }
+  ]
+}

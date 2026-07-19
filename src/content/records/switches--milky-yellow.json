@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "milky-yellow",
+  "title": "Milky Yellow",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Milky Yellow 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-0-640.avif",
+          "width": 640,
+          "height": 546
+        },
+        {
+          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-0-1280.avif",
+          "width": 708,
+          "height": 604
+        }
+      ]
+    },
+    {
+      "alt": "Milky Yellow 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-1-640.avif",
+          "width": 514,
+          "height": 430
+        }
+      ]
+    },
+    {
+      "alt": "Milky Yellow 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-2-640.avif",
+          "width": 612,
+          "height": 469
+        }
+      ]
+    },
+    {
+      "alt": "Milky Yellow 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-3-640.avif",
+          "width": 556,
+          "height": 521
+        }
+      ]
+    }
+  ]
+}

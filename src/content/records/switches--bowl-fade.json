@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "bowl-fade",
+  "title": "Bowl Fade",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Bowl Fade 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bowl-fade/bed6f69836c01631-0-640.avif",
+          "width": 640,
+          "height": 397
+        },
+        {
+          "src": "/media/switches/bowl-fade/bed6f69836c01631-0-1280.avif",
+          "width": 923,
+          "height": 573
+        }
+      ]
+    },
+    {
+      "alt": "Bowl Fade 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bowl-fade/bed6f69836c01631-1-640.avif",
+          "width": 640,
+          "height": 392
+        },
+        {
+          "src": "/media/switches/bowl-fade/bed6f69836c01631-1-1280.avif",
+          "width": 778,
+          "height": 477
+        }
+      ]
+    }
+  ]
+}

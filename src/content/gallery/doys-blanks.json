@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "doys-blanks",
+  "title": "Doys Blanks",
+  "category": "keycaps",
+  "manufacturer": "Deadline",
+  "profile": "DOYS",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:09:58Z",
+  "materials": [
+    "PBT",
+    "PC"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "black-transparent-blanks",
+      "title": "Black Transparent Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Doys Blanks Black Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/doys-blanks/kit-5dca0f914301c1fd-0-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/doys-blanks/kit-5dca0f914301c1fd-0-1280.avif",
+              "width": 792,
+              "height": 792
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "warm-white-solid-blanks",
+      "title": "Warm White Solid Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Doys Blanks Warm White Solid Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/doys-blanks/kit-ad70dabbf651a562-0-640.avif",
+              "width": 640,
+              "height": 630
+            },
+            {
+              "src": "/media/doys-blanks/kit-ad70dabbf651a562-0-1280.avif",
+              "width": 807,
+              "height": 794
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Doys Blanks 이미지 1",
+      "variants": [
+        {
+          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-640.avif",
+          "width": 640,
+          "height": 642
+        },
+        {
+          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-1280.avif",
+          "width": 1280,
+          "height": 1284
+        },
+        {
+          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-2400.avif",
+          "width": 2048,
+          "height": 2054
+        }
+      ]
+    }
+  ]
+}

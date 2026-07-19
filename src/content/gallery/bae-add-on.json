@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "bae-add-on",
+  "title": "BAE Add On",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:53:36Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "9009",
+      "title": "9009",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "BAE Add On 9009 이미지 1",
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-c731b9f38669fd22-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/bae-add-on/kit-c731b9f38669fd22-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/bae-add-on/kit-c731b9f38669fd22-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bow",
+      "title": "BoW",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "BAE Add On BoW 이미지 1",
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-c744b45aec638a47-0-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/bae-add-on/kit-c744b45aec638a47-0-1280.avif",
+              "width": 1103,
+              "height": 719
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dolch",
+      "title": "Dolch",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "BAE Add On Dolch 이미지 1",
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-f8a2236da1e0609e-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/bae-add-on/kit-f8a2236da1e0609e-0-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "BAE Add On Dolch 이미지 2",
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-f8a2236da1e0609e-1-640.avif",
+              "width": 640,
+              "height": 451
+            },
+            {
+              "src": "/media/bae-add-on/kit-f8a2236da1e0609e-1-1280.avif",
+              "width": 1280,
+              "height": 903
+            },
+            {
+              "src": "/media/bae-add-on/kit-f8a2236da1e0609e-1-2400.avif",
+              "width": 2048,
+              "height": 1444
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob",
+      "title": "WoB",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "BAE Add On WoB 이미지 1",
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-640c11cc4d1e5895-0-640.avif",
+              "width": 640,
+              "height": 423
+            },
+            {
+              "src": "/media/bae-add-on/kit-640c11cc4d1e5895-0-1280.avif",
+              "width": 1096,
+              "height": 725
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "BAE Add On 이미지 1",
+      "variants": [
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-0-640.avif",
+          "width": 640,
+          "height": 403
+        },
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-0-1280.avif",
+          "width": 1280,
+          "height": 807
+        },
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-0-2400.avif",
+          "width": 2048,
+          "height": 1291
+        }
+      ]
+    },
+    {
+      "alt": "BAE Add On 이미지 2",
+      "variants": [
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-1-640.avif",
+          "width": 640,
+          "height": 415
+        },
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-1-1280.avif",
+          "width": 1280,
+          "height": 831
+        },
+        {
+          "src": "/media/bae-add-on/series-795ebc4a73185332-1-2400.avif",
+          "width": 2048,
+          "height": 1329
+        }
+      ]
+    }
+  ]
+}

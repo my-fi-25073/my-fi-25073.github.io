@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "dragonghost",
+  "title": "DragonGhost",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "DragonGhost 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-0-640.avif",
+          "width": 640,
+          "height": 373
+        },
+        {
+          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-0-1280.avif",
+          "width": 1179,
+          "height": 688
+        }
+      ]
+    },
+    {
+      "alt": "DragonGhost 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-640.avif",
+          "width": 640,
+          "height": 645
+        },
+        {
+          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-1280.avif",
+          "width": 1280,
+          "height": 1289
+        },
+        {
+          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-2400.avif",
+          "width": 1484,
+          "height": 1495
+        }
+      ]
+    }
+  ]
+}

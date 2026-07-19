@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "desk-hero",
+  "title": "Desk Hero",
+  "category": "vendors",
+  "location": "Canada",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.deskhero.ca/"
+    }
+  ],
+  "images": []
+}

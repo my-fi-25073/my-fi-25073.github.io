@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-dusk",
+  "title": "MT3 Dusk",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:33Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "accents",
+      "title": "Accents",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dusk Accents 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dusk/kit-161c532e23e7248a-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/mt3-dusk/kit-161c532e23e7248a-0-1280.avif",
+              "width": 1042,
+              "height": 690
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dusk Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dusk/kit-9105afbc48212b67-0-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/mt3-dusk/kit-9105afbc48212b67-0-1280.avif",
+              "width": 1043,
+              "height": 679
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hobbyist",
+      "title": "Hobbyist",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dusk Hobbyist 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dusk/kit-fca49ff5c8e27619-0-640.avif",
+              "width": 640,
+              "height": 421
+            },
+            {
+              "src": "/media/mt3-dusk/kit-fca49ff5c8e27619-0-1280.avif",
+              "width": 1036,
+              "height": 682
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dusk Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dusk/kit-1a33517a7f93a70f-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mt3-dusk/kit-1a33517a7f93a70f-0-1280.avif",
+              "width": 1039,
+              "height": 690
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Dusk 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Dusk 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-640.avif",
+          "width": 640,
+          "height": 378
+        },
+        {
+          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-1280.avif",
+          "width": 1280,
+          "height": 756
+        },
+        {
+          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-2400.avif",
+          "width": 1994,
+          "height": 1178
+        }
+      ]
+    }
+  ]
+}

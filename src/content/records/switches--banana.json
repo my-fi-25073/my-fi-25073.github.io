@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "banana",
+  "title": "Banana",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Banana 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/banana/14df3efebd2d275c-0-640.avif",
+          "width": 453,
+          "height": 389
+        }
+      ]
+    },
+    {
+      "alt": "Banana 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/banana/14df3efebd2d275c-1-640.avif",
+          "width": 372,
+          "height": 286
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "duck-duck-3-5",
+  "title": "Duck Duck 3.5",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Duck Duck 3.5 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-0-640.avif",
+          "width": 640,
+          "height": 426
+        },
+        {
+          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-0-1280.avif",
+          "width": 1030,
+          "height": 686
+        }
+      ]
+    },
+    {
+      "alt": "Duck Duck 3.5 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-1-640.avif",
+          "width": 640,
+          "height": 752
+        },
+        {
+          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-1-1280.avif",
+          "width": 1277,
+          "height": 1501
+        }
+      ]
+    }
+  ]
+}

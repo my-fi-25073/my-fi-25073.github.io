@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "snow-crash",
+  "title": "Snow Crash",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Snow Crash 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/snow-crash/66c11370243d9d4a-0-640.avif",
+          "width": 640,
+          "height": 507
+        },
+        {
+          "src": "/media/switches/snow-crash/66c11370243d9d4a-0-1280.avif",
+          "width": 1099,
+          "height": 871
+        }
+      ]
+    },
+    {
+      "alt": "Snow Crash 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-640.avif",
+          "width": 640,
+          "height": 602
+        },
+        {
+          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-1280.avif",
+          "width": 1280,
+          "height": 1204
+        },
+        {
+          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-2400.avif",
+          "width": 1315,
+          "height": 1237
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:06:08.867Z",
+  "createdAt": "2026-03-20T17:06:08Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,22 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Serika Expansion 확장 키캡 구성",
+          "alt": "Serika Expansion 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/serika-expansion-01-640.avif",
-              "width": 512,
-              "height": 384
+              "src": "/media/serika/kit-ba7691197fc3c44e-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/serika/kit-ba7691197fc3c44e-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/serika/kit-ba7691197fc3c44e-0-2400.avif",
+              "width": 2048,
+              "height": 1536
             }
           ]
         }
@@ -49,12 +59,17 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Serika Geometry 노벨티 키캡 구성",
+          "alt": "Serika Geometry 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/serika-geometry-01-640.avif",
-              "width": 512,
-              "height": 449
+              "src": "/media/serika/kit-c2ca030a6e93af3e-0-640.avif",
+              "width": 640,
+              "height": 561
+            },
+            {
+              "src": "/media/serika/kit-c2ca030a6e93af3e-0-1280.avif",
+              "width": 1058,
+              "height": 928
             }
           ]
         }
@@ -70,12 +85,22 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Serika Hiragana Base 키캡 구성",
+          "alt": "Serika Hiragana Base 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/serika-hiragana-base-01-640.avif",
-              "width": 512,
-              "height": 384
+              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-2400.avif",
+              "width": 2048,
+              "height": 1536
             }
           ]
         }
@@ -91,32 +116,42 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Serika Latin Base 기본 배열 키캡",
+          "alt": "Serika Latin Base 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/serika-latin-base-01-640.avif",
+              "src": "/media/serika/kit-0c582063697875e8-0-640.avif",
               "width": 640,
               "height": 469
             },
             {
-              "src": "/media/serika/serika-latin-base-01-1280.avif",
-              "width": 1024,
-              "height": 751
+              "src": "/media/serika/kit-0c582063697875e8-0-1280.avif",
+              "width": 1280,
+              "height": 939
+            },
+            {
+              "src": "/media/serika/kit-0c582063697875e8-0-2400.avif",
+              "width": 1854,
+              "height": 1360
             }
           ]
         },
         {
-          "alt": "Serika Latin Base 확장 배열과 숫자 키패드 키캡",
+          "alt": "Serika Latin Base 이미지 2",
           "variants": [
             {
-              "src": "/media/serika/serika-latin-base-02-640.avif",
+              "src": "/media/serika/kit-0c582063697875e8-1-640.avif",
               "width": 640,
               "height": 474
             },
             {
-              "src": "/media/serika/serika-latin-base-02-1280.avif",
-              "width": 1024,
-              "height": 758
+              "src": "/media/serika/kit-0c582063697875e8-1-1280.avif",
+              "width": 1280,
+              "height": 948
+            },
+            {
+              "src": "/media/serika/kit-0c582063697875e8-1-2400.avif",
+              "width": 1872,
+              "height": 1386
             }
           ]
         }
@@ -131,12 +166,17 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Serika Obscure 보조 키캡 구성",
+          "alt": "Serika Obscure 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/serika-obscure-01-640.avif",
-              "width": 512,
-              "height": 569
+              "src": "/media/serika/kit-689681ee41f5f86b-0-640.avif",
+              "width": 640,
+              "height": 711
+            },
+            {
+              "src": "/media/serika/kit-689681ee41f5f86b-0-1280.avif",
+              "width": 1110,
+              "height": 1234
             }
           ]
         }
@@ -145,20 +185,34 @@
   ],
   "images": [
     {
-      "alt": "Serika 2 Latin Core 키캡 슬리브 전면",
+      "alt": "Serika 이미지 1",
       "variants": [
         {
-          "src": "/media/serika/serika-series-latin-core-640.avif",
+          "src": "/media/serika/series-45077e77e24d8005-0-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/serika/series-45077e77e24d8005-0-1280.avif",
+          "width": 1202,
+          "height": 1076
+        }
+      ]
+    },
+    {
+      "alt": "Serika 이미지 2",
+      "variants": [
+        {
+          "src": "/media/serika/series-45077e77e24d8005-1-640.avif",
           "width": 640,
           "height": 559
         },
         {
-          "src": "/media/serika/serika-series-latin-core-1280.avif",
+          "src": "/media/serika/series-45077e77e24d8005-1-1280.avif",
           "width": 1212,
           "height": 1058
         }
-      ],
-      "caption": "Serika 2 Latin Core 패키지"
+      ]
     }
   ]
 }

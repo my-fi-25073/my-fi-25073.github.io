@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "eava55",
+  "title": "Eava55",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-07-10",
+  "modules": [
+    "트랙볼"
+  ],
+  "plates": [
+    "황동"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "50%"
+  ],
+  "mounts": [
+    "포론",
+    "가스켓 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Eava55 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-640.avif",
+          "width": 640,
+          "height": 383
+        },
+        {
+          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-1280.avif",
+          "width": 1280,
+          "height": 767
+        },
+        {
+          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-2400.avif",
+          "width": 2400,
+          "height": 1438
+        }
+      ]
+    }
+  ]
+}

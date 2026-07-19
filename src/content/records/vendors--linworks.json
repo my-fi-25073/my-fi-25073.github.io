@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "linworks",
+  "title": "Linworks",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/realcustom"
+    },
+    {
+      "label": "Secondary",
+      "url": "https://allthatkeyboard.com/"
+    }
+  ],
+  "images": []
+}

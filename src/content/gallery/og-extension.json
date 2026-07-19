@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "og-extension",
+  "title": "OG Extension",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:52:14Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "beige-og-r4-extension",
+      "title": "Beige OG R4 Extension",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "OG Extension Beige OG R4 Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-640.avif",
+              "width": 640,
+              "height": 709
+            },
+            {
+              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-1280.avif",
+              "width": 1280,
+              "height": 1418
+            },
+            {
+              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-2400.avif",
+              "width": 1997,
+              "height": 2213
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "beige-xt-extension",
+      "title": "Beige XT Extension",
+      "kittingTypes": [
+        "Child - Battleship XT"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "OG Extension Beige XT Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "OG Extension Beige XT Extension 이미지 2",
+          "variants": [
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/og-extension/kit-28bbb48e257d4457-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "OG Extension 이미지 1",
+      "variants": [
+        {
+          "src": "/media/og-extension/series-385d2645728bc38f-0-640.avif",
+          "width": 640,
+          "height": 386
+        },
+        {
+          "src": "/media/og-extension/series-385d2645728bc38f-0-1280.avif",
+          "width": 1280,
+          "height": 771
+        },
+        {
+          "src": "/media/og-extension/series-385d2645728bc38f-0-2400.avif",
+          "width": 2048,
+          "height": 1234
+        }
+      ]
+    }
+  ]
+}

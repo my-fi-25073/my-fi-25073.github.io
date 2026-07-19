@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ulp-35g",
+  "title": "ULP 35g",
+  "category": "springs",
+  "manufacturer": "Kalih",
+  "series": "ULP",
+  "springType": "ULP",
+  "actuationForce": "???",
+  "bottomOutForce": "35g",
+  "length": "N/A",
+  "images": []
+}

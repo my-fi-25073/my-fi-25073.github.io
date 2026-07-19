@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "zfrontier",
+  "title": "ZFrontier",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://en.zfrontier.com/"
+    }
+  ],
+  "images": []
+}

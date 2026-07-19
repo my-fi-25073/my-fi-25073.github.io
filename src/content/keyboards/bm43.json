@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "bm43",
+  "title": "BM43",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-02-26",
+  "modules": [],
+  "plates": [
+    "서스"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "40%"
+  ],
+  "mounts": [
+    "트레이 마운트"
+  ],
+  "foams": [
+    "하우징 폼"
+  ],
+  "images": [
+    {
+      "alt": "BM43 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-640.avif",
+          "width": 640,
+          "height": 495
+        },
+        {
+          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-1280.avif",
+          "width": 1280,
+          "height": 990
+        },
+        {
+          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-2400.avif",
+          "width": 2400,
+          "height": 1857
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "zeal-pc-zealios-v2",
+  "title": "Zeal PC Zealios v2",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Zeal PC Zealios v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-0-1280.avif",
+          "width": 837,
+          "height": 531
+        }
+      ]
+    },
+    {
+      "alt": "Zeal PC Zealios v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-1-640.avif",
+          "width": 640,
+          "height": 407
+        },
+        {
+          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-1-1280.avif",
+          "width": 861,
+          "height": 548
+        }
+      ]
+    }
+  ]
+}

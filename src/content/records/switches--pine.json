@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "pine",
+  "title": "Pine",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Pine 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/pine/dde1a9a5d871403f-0-640.avif",
+          "width": 640,
+          "height": 432
+        },
+        {
+          "src": "/media/switches/pine/dde1a9a5d871403f-0-1280.avif",
+          "width": 1135,
+          "height": 767
+        }
+      ]
+    },
+    {
+      "alt": "Pine 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/pine/dde1a9a5d871403f-1-640.avif",
+          "width": 640,
+          "height": 523
+        },
+        {
+          "src": "/media/switches/pine/dde1a9a5d871403f-1-1280.avif",
+          "width": 1191,
+          "height": 973
+        }
+      ]
+    }
+  ]
+}

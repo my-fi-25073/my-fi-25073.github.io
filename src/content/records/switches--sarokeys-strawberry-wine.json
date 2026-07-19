@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sarokeys-strawberry-wine",
+  "title": "Sarokeys Strawberry Wine",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Sarokeys Strawberry Wine 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sarokeys-strawberry-wine/b0c4f7fbc2076bd3-0-640.avif",
+          "width": 640,
+          "height": 465
+        },
+        {
+          "src": "/media/switches/sarokeys-strawberry-wine/b0c4f7fbc2076bd3-0-1280.avif",
+          "width": 1088,
+          "height": 790
+        }
+      ]
+    }
+  ]
+}

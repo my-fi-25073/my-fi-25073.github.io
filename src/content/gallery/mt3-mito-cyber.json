@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-mito-cyber",
+  "title": "MT3 MiTo Cyber",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:12:00Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "bar-keys",
+      "title": "Bar Keys",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 MiTo Cyber Bar Keys 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-9dc1558c38f44d30-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mt3-mito-cyber/kit-9dc1558c38f44d30-0-1280.avif",
+              "width": 1045,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelty",
+      "title": "Novelty",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 MiTo Cyber Novelty 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-26ebf2c12e1f2a9b-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mt3-mito-cyber/kit-26ebf2c12e1f2a9b-0-1280.avif",
+              "width": 1044,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 MiTo Cyber 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-mito-cyber/series-139844efece3568e-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-mito-cyber/series-139844efece3568e-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/mt3-mito-cyber/series-139844efece3568e-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "MT3 MiTo Cyber 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-mito-cyber/series-139844efece3568e-1-640.avif",
+          "width": 640,
+          "height": 421
+        },
+        {
+          "src": "/media/mt3-mito-cyber/series-139844efece3568e-1-1280.avif",
+          "width": 1012,
+          "height": 666
+        }
+      ]
+    }
+  ]
+}

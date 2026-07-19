@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "ttc-holy-panda-v2",
+  "title": "TTC Holy Panda V2",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "TTC Holy Panda V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-0-640.avif",
+          "width": 640,
+          "height": 502
+        },
+        {
+          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-0-1280.avif",
+          "width": 702,
+          "height": 551
+        }
+      ]
+    },
+    {
+      "alt": "TTC Holy Panda V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-1-640.avif",
+          "width": 399,
+          "height": 190
+        }
+      ]
+    }
+  ]
+}

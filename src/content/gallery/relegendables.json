@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "relegendables",
+  "title": "Relegendables+",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T11:52:59Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "l9-relegendables",
+      "title": "L9 Relegendables",
+      "kittingTypes": [
+        "Child - Relegendable"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Relegendables+ L9 Relegendables 이미지 1",
+          "variants": [
+            {
+              "src": "/media/relegendables/kit-a0a968599076e2c9-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/relegendables/kit-a0a968599076e2c9-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/relegendables/kit-a0a968599076e2c9-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "u9-front-print",
+      "title": "U9 Front Print",
+      "kittingTypes": [
+        "Child - Relegendable"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Relegendables+ U9 Front Print 이미지 1",
+          "variants": [
+            {
+              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "u9-relegendables",
+      "title": "U9 Relegendables",
+      "kittingTypes": [
+        "Child - Relegendable"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Relegendables+ U9 Relegendables 이미지 1",
+          "variants": [
+            {
+              "src": "/media/relegendables/kit-d450bd29917733c5-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/relegendables/kit-d450bd29917733c5-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/relegendables/kit-d450bd29917733c5-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Relegendables+ 이미지 1",
+      "variants": [
+        {
+          "src": "/media/relegendables/series-be73c500304a2e9e-0-640.avif",
+          "width": 640,
+          "height": 461
+        },
+        {
+          "src": "/media/relegendables/series-be73c500304a2e9e-0-1280.avif",
+          "width": 1280,
+          "height": 922
+        },
+        {
+          "src": "/media/relegendables/series-be73c500304a2e9e-0-2400.avif",
+          "width": 1388,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}

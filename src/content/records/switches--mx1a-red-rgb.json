@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-red-rgb",
+  "title": "MX1A Red RGB",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX1A Red RGB 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-0-640.avif",
+          "width": 640,
+          "height": 408
+        },
+        {
+          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-0-1280.avif",
+          "width": 1242,
+          "height": 792
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Red RGB 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-1-640.avif",
+          "width": 432,
+          "height": 306
+        }
+      ]
+    }
+  ]
+}

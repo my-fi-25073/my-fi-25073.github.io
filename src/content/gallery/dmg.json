@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dmg",
+  "title": "DMG",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T17:04:52Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Colorful"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "addition",
+      "title": "Addition",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Addition 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-640.avif",
+              "width": 640,
+              "height": 287
+            },
+            {
+              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-1280.avif",
+              "width": 1280,
+              "height": 574
+            },
+            {
+              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-2400.avif",
+              "width": 1306,
+              "height": 586
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aesthetic",
+      "title": "Aesthetic",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Aesthetic 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "command",
+      "title": "Command",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Command 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "latin-base",
+      "title": "Latin Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Latin Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "DMG Latin Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-05f61cad73b39adf-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelty",
+      "title": "Novelty",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Novelty 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "obscure",
+      "title": "Obscure",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DMG Obscure 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dmg/kit-d552cea48178542c-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-d552cea48178542c-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-d552cea48178542c-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "DMG 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dmg/series-9bcb5baeedb00cda-0-640.avif",
+          "width": 640,
+          "height": 565
+        },
+        {
+          "src": "/media/dmg/series-9bcb5baeedb00cda-0-1280.avif",
+          "width": 1280,
+          "height": 1131
+        },
+        {
+          "src": "/media/dmg/series-9bcb5baeedb00cda-0-2400.avif",
+          "width": 1528,
+          "height": 1350
+        }
+      ]
+    }
+  ]
+}

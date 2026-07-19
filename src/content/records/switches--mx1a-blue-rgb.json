@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx1a-blue-rgb",
+  "title": "MX1A Blue RGB",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX1A Blue RGB 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-0-640.avif",
+          "width": 640,
+          "height": 426
+        },
+        {
+          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-0-1280.avif",
+          "width": 1261,
+          "height": 840
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Blue RGB 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-1-640.avif",
+          "width": 477,
+          "height": 310
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "white-owl-mini",
+  "title": "White Owl Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": null,
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "White Owl Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/white-owl-mini/2fef4e997b4ffb27-0-640.avif",
+          "width": 640,
+          "height": 492
+        },
+        {
+          "src": "/media/switches/white-owl-mini/2fef4e997b4ffb27-0-1280.avif",
+          "width": 1280,
+          "height": 984
+        },
+        {
+          "src": "/media/switches/white-owl-mini/2fef4e997b4ffb27-0-2400.avif",
+          "width": 1548,
+          "height": 1190
+        }
+      ]
+    },
+    {
+      "alt": "White Owl Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/white-owl-mini/2fef4e997b4ffb27-1-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/white-owl-mini/2fef4e997b4ffb27-1-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    }
+  ]
+}

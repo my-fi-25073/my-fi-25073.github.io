@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "cosmic-purple",
+  "title": "Cosmic Purple",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Cosmic Purple 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cosmic-purple/2af4f1d78e18064d-0-640.avif",
+          "width": 625,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "alt": "Cosmic Purple 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cosmic-purple/2af4f1d78e18064d-1-640.avif",
+          "width": 526,
+          "height": 975
+        }
+      ]
+    }
+  ]
+}

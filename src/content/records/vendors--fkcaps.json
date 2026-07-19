@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "fkcaps",
+  "title": "FKCaps",
+  "category": "vendors",
+  "location": "Singapore",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://fkcaps.com/"
+    }
+  ],
+  "images": []
+}

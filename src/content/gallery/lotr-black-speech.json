@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lotr-black-speech",
+  "title": "LotR Black Speech",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:09:49Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "extra",
+      "title": "Extra",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Black Speech Extra 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-black-speech/kit-299a580fc9321430-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/lotr-black-speech/kit-299a580fc9321430-0-1280.avif",
+              "width": 1024,
+              "height": 678
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hardcore-base",
+      "title": "Hardcore Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Meme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Black Speech Hardcore Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-black-speech/kit-e3a1fa67f3955349-0-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/lotr-black-speech/kit-e3a1fa67f3955349-0-1280.avif",
+              "width": 1029,
+              "height": 670
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "magma",
+      "title": "Magma",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Black Speech Magma 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-black-speech/kit-a75d28237d8cd11c-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/lotr-black-speech/kit-a75d28237d8cd11c-0-1280.avif",
+              "width": 1008,
+              "height": 669
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LotR Black Speech Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lotr-black-speech/kit-5f74b7f4bef9d209-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/lotr-black-speech/kit-5f74b7f4bef9d209-0-1280.avif",
+              "width": 1011,
+              "height": 672
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LotR Black Speech 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-640.avif",
+          "width": 640,
+          "height": 360
+        },
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-1280.avif",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-2400.avif",
+          "width": 1608,
+          "height": 904
+        }
+      ]
+    },
+    {
+      "alt": "LotR Black Speech 이미지 2",
+      "variants": [
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

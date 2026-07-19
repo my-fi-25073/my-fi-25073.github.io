@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "norde-beige",
+  "title": "Norde Beige",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T11:48:44Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Beige"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard",
+        "Alpha - Norde"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Norde Beige Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Norde Beige Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/norde-beige/kit-10ca7f5167355664-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Norde Beige 이미지 1",
+      "variants": [
+        {
+          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-640.avif",
+          "width": 640,
+          "height": 542
+        },
+        {
+          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-1280.avif",
+          "width": 1280,
+          "height": 1084
+        },
+        {
+          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-2400.avif",
+          "width": 1608,
+          "height": 1362
+        }
+      ]
+    }
+  ]
+}

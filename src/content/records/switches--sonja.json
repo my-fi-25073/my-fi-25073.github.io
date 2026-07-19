@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sonja",
+  "title": "SONJA",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "SONJA 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sonja/1edea58c5d6b82a3-0-640.avif",
+          "width": 640,
+          "height": 395
+        },
+        {
+          "src": "/media/switches/sonja/1edea58c5d6b82a3-0-1280.avif",
+          "width": 707,
+          "height": 436
+        }
+      ]
+    },
+    {
+      "alt": "SONJA 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sonja/1edea58c5d6b82a3-1-640.avif",
+          "width": 640,
+          "height": 631
+        },
+        {
+          "src": "/media/switches/sonja/1edea58c5d6b82a3-1-1280.avif",
+          "width": 1270,
+          "height": 1253
+        }
+      ]
+    }
+  ]
+}

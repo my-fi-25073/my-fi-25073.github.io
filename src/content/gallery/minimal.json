@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "minimal",
+  "title": "Minimal",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T16:59:32Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "White"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "40s-kit",
+      "title": "40s Kit",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal 40s Kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bow-gmk-hiragana-kit",
+      "title": "BoW (GMK) Hiragana Kit",
+      "kittingTypes": [
+        "Alpha - Hiragana"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal BoW (GMK) Hiragana Kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-45391e49c09e2b1d-0-640.avif",
+              "width": 640,
+              "height": 907
+            },
+            {
+              "src": "/media/minimal/kit-45391e49c09e2b1d-0-1280.avif",
+              "width": 996,
+              "height": 1412
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brg-space-bar-kit",
+      "title": "BRG Space Bar kit",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal BRG Space Bar kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-cbbaa5babea8cf54-0-640.avif",
+              "width": 640,
+              "height": 434
+            },
+            {
+              "src": "/media/minimal/kit-cbbaa5babea8cf54-0-1280.avif",
+              "width": 1256,
+              "height": 852
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classic-bow-40s-cannon-key",
+      "title": "Classic BoW 40s (Cannon Key)",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal Classic BoW 40s (Cannon Key) 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-eae97a28310fb9ec-0-640.avif",
+              "width": 640,
+              "height": 520
+            },
+            {
+              "src": "/media/minimal/kit-eae97a28310fb9ec-0-1280.avif",
+              "width": 872,
+              "height": 708
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "command-kit",
+      "title": "Command Kit",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal Command Kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-d35be3a217ba5b11-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-d35be3a217ba5b11-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-d35be3a217ba5b11-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jis-space-bar",
+      "title": "JIS Space bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal JIS Space bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "minimal-base",
+      "title": "Minimal Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal Minimal Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Minimal Minimal Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modern-japanese-desko-hhkb",
+      "title": "Modern Japanese Desko HHKB",
+      "kittingTypes": [
+        "Accent - HHKB"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Minimal Modern Japanese Desko HHKB 이미지 1",
+          "variants": [
+            {
+              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-640.avif",
+              "width": 640,
+              "height": 580
+            },
+            {
+              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-1280.avif",
+              "width": 1280,
+              "height": 1160
+            },
+            {
+              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-2400.avif",
+              "width": 1690,
+              "height": 1532
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Minimal 이미지 1",
+      "variants": [
+        {
+          "src": "/media/minimal/series-9f610ec9acc4c869-0-640.avif",
+          "width": 640,
+          "height": 539
+        },
+        {
+          "src": "/media/minimal/series-9f610ec9acc4c869-0-1280.avif",
+          "width": 1280,
+          "height": 1079
+        },
+        {
+          "src": "/media/minimal/series-9f610ec9acc4c869-0-2400.avif",
+          "width": 1728,
+          "height": 1456
+        }
+      ]
+    }
+  ]
+}

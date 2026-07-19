@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lime-v3",
+  "title": "Lime V3",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lime V3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lime-v3/0a32af992d65c2f8-0-640.avif",
+          "width": 640,
+          "height": 468
+        },
+        {
+          "src": "/media/switches/lime-v3/0a32af992d65c2f8-0-1280.avif",
+          "width": 690,
+          "height": 505
+        }
+      ]
+    },
+    {
+      "alt": "Lime V3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lime-v3/0a32af992d65c2f8-1-640.avif",
+          "width": 640,
+          "height": 720
+        },
+        {
+          "src": "/media/switches/lime-v3/0a32af992d65c2f8-1-1280.avif",
+          "width": 1280,
+          "height": 1441
+        },
+        {
+          "src": "/media/switches/lime-v3/0a32af992d65c2f8-1-2400.avif",
+          "width": 1322,
+          "height": 1488
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "ashkeebs",
+  "title": "AshKeebs",
+  "category": "vendors",
+  "location": "Canada",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.ashkeebs.com/"
+    }
+  ],
+  "images": []
+}

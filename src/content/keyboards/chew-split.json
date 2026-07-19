@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "chew-split",
+  "title": "Chew Split",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-11-23",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터",
+    "스플레이"
+  ],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x5"
+  ],
+  "mounts": [
+    "스탠드오프",
+    "마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Chew Split 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-2400.avif",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lila",
+  "title": "Lila",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lila 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lila/8f5dbe47fbed1641-0-640.avif",
+          "width": 640,
+          "height": 492
+        },
+        {
+          "src": "/media/switches/lila/8f5dbe47fbed1641-0-1280.avif",
+          "width": 742,
+          "height": 570
+        }
+      ]
+    },
+    {
+      "alt": "Lila 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lila/8f5dbe47fbed1641-1-640.avif",
+          "width": 640,
+          "height": 595
+        },
+        {
+          "src": "/media/switches/lila/8f5dbe47fbed1641-1-1280.avif",
+          "width": 1280,
+          "height": 1190
+        },
+        {
+          "src": "/media/switches/lila/8f5dbe47fbed1641-1-2400.avif",
+          "width": 1358,
+          "height": 1262
+        }
+      ]
+    }
+  ]
+}

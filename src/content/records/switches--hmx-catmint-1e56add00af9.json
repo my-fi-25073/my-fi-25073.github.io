@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "hmx-catmint-1e56add00af9",
+  "title": "HMX Catmint",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "HMX Catmint 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint-1e56add00af9/1e56add00af97db6-0-640.avif",
+          "width": 592,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "alt": "HMX Catmint 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint-1e56add00af9/1e56add00af97db6-1-640.avif",
+          "width": 640,
+          "height": 690
+        },
+        {
+          "src": "/media/switches/hmx-catmint-1e56add00af9/1e56add00af97db6-1-1280.avif",
+          "width": 712,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "HMX Catmint 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint-1e56add00af9/1e56add00af97db6-2-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/hmx-catmint-1e56add00af9/1e56add00af97db6-2-1280.avif",
+          "width": 1226,
+          "height": 957
+        }
+      ]
+    }
+  ]
+}

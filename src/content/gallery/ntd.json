@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "ntd",
+  "title": "NTD",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T17:05:26Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Colorful",
+    "Gray"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "30-lives",
+      "title": "30 Lives",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "NTD 30 Lives 이미지 1",
+          "variants": [
+            {
+              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extension",
+      "title": "Extension",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "NTD Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "space-bars",
+      "title": "Space Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "NTD Space Bars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "NTD 이미지 1",
+      "variants": [
+        {
+          "src": "/media/ntd/series-6821afbfb04bac5d-0-640.avif",
+          "width": 640,
+          "height": 325
+        },
+        {
+          "src": "/media/ntd/series-6821afbfb04bac5d-0-1280.avif",
+          "width": 1280,
+          "height": 650
+        },
+        {
+          "src": "/media/ntd/series-6821afbfb04bac5d-0-2400.avif",
+          "width": 2048,
+          "height": 1040
+        }
+      ]
+    }
+  ]
+}

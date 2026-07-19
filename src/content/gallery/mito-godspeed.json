@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mito-godspeed",
+  "title": "MiTo Godspeed",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:09Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "apollo-base",
+      "title": "Apollo Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Godspeed Apollo Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-godspeed/kit-25917c473cef346a-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mito-godspeed/kit-25917c473cef346a-0-1280.avif",
+              "width": 1035,
+              "height": 688
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apollo-ergo",
+      "title": "Apollo Ergo",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Godspeed Apollo Ergo 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-godspeed/kit-1816645f9c95d0f7-0-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mito-godspeed/kit-1816645f9c95d0f7-0-1280.avif",
+              "width": 1041,
+              "height": 692
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MiTo Godspeed Spacebars 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mito-godspeed/kit-1695ca4eabf44f52-0-640.avif",
+              "width": 640,
+              "height": 423
+            },
+            {
+              "src": "/media/mito-godspeed/kit-1695ca4eabf44f52-0-1280.avif",
+              "width": 1037,
+              "height": 685
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MiTo Godspeed 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mito-godspeed/series-325b9025c0dcb6b8-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mito-godspeed/series-325b9025c0dcb6b8-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MiTo Godspeed 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mito-godspeed/series-325b9025c0dcb6b8-1-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/mito-godspeed/series-325b9025c0dcb6b8-1-1280.avif",
+          "width": 1280,
+          "height": 802
+        },
+        {
+          "src": "/media/mito-godspeed/series-325b9025c0dcb6b8-1-2400.avif",
+          "width": 1666,
+          "height": 1044
+        }
+      ]
+    }
+  ]
+}

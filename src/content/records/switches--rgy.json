@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "rgy",
+  "title": "RGY",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "RGY 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/rgy/205bcc1859bd5806-0-640.avif",
+          "width": 602,
+          "height": 442
+        }
+      ]
+    },
+    {
+      "alt": "RGY 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/rgy/205bcc1859bd5806-1-640.avif",
+          "width": 334,
+          "height": 341
+        }
+      ]
+    },
+    {
+      "alt": "RGY 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/rgy/205bcc1859bd5806-2-640.avif",
+          "width": 357,
+          "height": 252
+        }
+      ]
+    }
+  ]
+}

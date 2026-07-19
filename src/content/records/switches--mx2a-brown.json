@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mx2a-brown",
+  "title": "MX2A Brown",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MX2A Brown 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-brown/15a23e4382f8de3c-0-640.avif",
+          "width": 270,
+          "height": 241
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Brown 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-brown/15a23e4382f8de3c-1-640.avif",
+          "width": 640,
+          "height": 626
+        },
+        {
+          "src": "/media/switches/mx2a-brown/15a23e4382f8de3c-1-1280.avif",
+          "width": 1280,
+          "height": 1252
+        },
+        {
+          "src": "/media/switches/mx2a-brown/15a23e4382f8de3c-1-2400.avif",
+          "width": 1499,
+          "height": 1466
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "lck-retro",
+  "title": "LCK Retro",
+  "category": "keycaps",
+  "manufacturer": "Chosfox",
+  "profile": "LCK",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:11:29Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "40s-mod",
+      "title": "40s Mod",
+      "kittingTypes": [
+        "Modifier - Nomad"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LCK Retro 40s Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lck-retro/kit-c067412b452043ab-0-640.avif",
+              "width": 640,
+              "height": 500
+            },
+            {
+              "src": "/media/lck-retro/kit-c067412b452043ab-0-1280.avif",
+              "width": 996,
+              "height": 778
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "LCK Retro Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/lck-retro/kit-1c0c1ff7cff74fd7-0-640.avif",
+              "width": 640,
+              "height": 513
+            },
+            {
+              "src": "/media/lck-retro/kit-1c0c1ff7cff74fd7-0-1280.avif",
+              "width": 1056,
+              "height": 846
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "LCK Retro 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lck-retro/series-18af2e3b1c729207-0-640.avif",
+          "width": 640,
+          "height": 379
+        },
+        {
+          "src": "/media/lck-retro/series-18af2e3b1c729207-0-1280.avif",
+          "width": 994,
+          "height": 588
+        }
+      ]
+    }
+  ]
+}

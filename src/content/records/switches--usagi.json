@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "usagi",
+  "title": "Usagi",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Usagi 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/usagi/b31b0cf0789e89c4-0-640.avif",
+          "width": 640,
+          "height": 555
+        },
+        {
+          "src": "/media/switches/usagi/b31b0cf0789e89c4-0-1280.avif",
+          "width": 945,
+          "height": 820
+        }
+      ]
+    },
+    {
+      "alt": "Usagi 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-640.avif",
+          "width": 640,
+          "height": 355
+        },
+        {
+          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-1280.avif",
+          "width": 1280,
+          "height": 710
+        },
+        {
+          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-2400.avif",
+          "width": 1294,
+          "height": 718
+        }
+      ]
+    }
+  ]
+}

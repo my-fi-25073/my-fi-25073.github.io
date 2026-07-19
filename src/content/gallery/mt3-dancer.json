@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "mt3-dancer",
+  "title": "MT3 Dancer",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "MT3",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-21T17:11:41Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "MT3 Dancer Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/mt3-dancer/kit-3a39adb643c71fcf-0-640.avif",
+              "width": 640,
+              "height": 412
+            },
+            {
+              "src": "/media/mt3-dancer/kit-3a39adb643c71fcf-0-1280.avif",
+              "width": 1043,
+              "height": 672
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "MT3 Dancer 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mt3-dancer/series-4c2b031839da0ec6-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/mt3-dancer/series-4c2b031839da0ec6-0-1280.avif",
+          "width": 1024,
+          "height": 649
+        }
+      ]
+    },
+    {
+      "alt": "MT3 Dancer 이미지 2",
+      "variants": [
+        {
+          "src": "/media/mt3-dancer/series-4c2b031839da0ec6-1-640.avif",
+          "width": 640,
+          "height": 404
+        },
+        {
+          "src": "/media/mt3-dancer/series-4c2b031839da0ec6-1-1280.avif",
+          "width": 1280,
+          "height": 807
+        },
+        {
+          "src": "/media/mt3-dancer/series-4c2b031839da0ec6-1-2400.avif",
+          "width": 2020,
+          "height": 1274
+        }
+      ]
+    }
+  ]
+}

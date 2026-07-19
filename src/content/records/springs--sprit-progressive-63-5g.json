@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-progressive-63-5g",
+  "title": "Sprit Progressive 63.5g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Progressive",
+  "springType": "Complex",
+  "actuationForce": null,
+  "bottomOutForce": "63.5g",
+  "length": null,
+  "images": []
+}

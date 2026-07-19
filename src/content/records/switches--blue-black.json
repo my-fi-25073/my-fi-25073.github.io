@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "blue-black",
+  "title": "Blue Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Blue Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/blue-black/bc48c27d6b3fa3df-0-640.avif",
+          "width": 440,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "alt": "Blue Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/blue-black/bc48c27d6b3fa3df-1-640.avif",
+          "width": 393,
+          "height": 335
+        }
+      ]
+    }
+  ]
+}

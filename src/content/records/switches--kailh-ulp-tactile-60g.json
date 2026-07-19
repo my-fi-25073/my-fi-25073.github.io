@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "kailh-ulp-tactile-60g",
+  "title": "Kailh ULP Tactile 60g",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★☆☆",
+  "footprintType": "Kailh ULP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Kailh ULP Tactile 60g 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile-60g/4bc3aa5a175156a1-0-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-ulp-tactile-60g/4bc3aa5a175156a1-0-1280.avif",
+          "width": 730,
+          "height": 730
+        }
+      ]
+    }
+  ]
+}

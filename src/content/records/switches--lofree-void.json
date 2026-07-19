@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "lofree-void",
+  "title": "Lofree Void",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★★",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Lofree Void 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-void/0ae43aaeed8dca7a-0-640.avif",
+          "width": 640,
+          "height": 521
+        },
+        {
+          "src": "/media/switches/lofree-void/0ae43aaeed8dca7a-0-1280.avif",
+          "width": 1280,
+          "height": 1042
+        },
+        {
+          "src": "/media/switches/lofree-void/0ae43aaeed8dca7a-0-2400.avif",
+          "width": 1282,
+          "height": 1044
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Void 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-void/0ae43aaeed8dca7a-1-640.avif",
+          "width": 640,
+          "height": 495
+        },
+        {
+          "src": "/media/switches/lofree-void/0ae43aaeed8dca7a-1-1280.avif",
+          "width": 1166,
+          "height": 902
+        }
+      ]
+    }
+  ]
+}

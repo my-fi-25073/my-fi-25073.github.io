@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "sea-apricot",
+  "title": "Sea Apricot",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Sea Apricot 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sea-apricot/3e33663a635d51c3-0-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/sea-apricot/3e33663a635d51c3-0-1280.avif",
+          "width": 1157,
+          "height": 958
+        }
+      ]
+    },
+    {
+      "alt": "Sea Apricot 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sea-apricot/3e33663a635d51c3-1-640.avif",
+          "width": 640,
+          "height": 948
+        },
+        {
+          "src": "/media/switches/sea-apricot/3e33663a635d51c3-1-1280.avif",
+          "width": 919,
+          "height": 1361
+        }
+      ]
+    }
+  ]
+}

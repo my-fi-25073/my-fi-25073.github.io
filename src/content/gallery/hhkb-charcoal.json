@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "hhkb-charcoal",
+  "title": "HHKB Charcoal",
+  "category": "keycaps",
+  "manufacturer": "Topre",
+  "profile": "OEM-Topre",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-24T15:27:50Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "Topre EC"
+  ],
+  "kits": [
+    {
+      "slug": "blank-base",
+      "title": "Blank Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Blanks"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "HHKB Charcoal Blank Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-640.avif",
+              "width": 640,
+              "height": 412
+            },
+            {
+              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-1280.avif",
+              "width": 1280,
+              "height": 825
+            },
+            {
+              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-2400.avif",
+              "width": 1614,
+              "height": 1040
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "HHKB Charcoal 이미지 1",
+      "variants": [
+        {
+          "src": "/media/hhkb-charcoal/series-53d721d38ec82d13-0-640.avif",
+          "width": 640,
+          "height": 299
+        },
+        {
+          "src": "/media/hhkb-charcoal/series-53d721d38ec82d13-0-1280.avif",
+          "width": 1252,
+          "height": 584
+        }
+      ]
+    }
+  ]
+}

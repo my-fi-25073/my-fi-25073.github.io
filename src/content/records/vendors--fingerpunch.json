@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "fingerpunch",
+  "title": "FingerPunch",
+  "category": "vendors",
+  "location": "US-West",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://fingerpunch.xyz/"
+    }
+  ],
+  "images": []
+}

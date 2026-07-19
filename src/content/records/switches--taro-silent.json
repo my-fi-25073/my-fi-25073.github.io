@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "taro-silent",
+  "title": "Taro Silent",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Taro Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/taro-silent/a604305dd2679dde-0-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/taro-silent/a604305dd2679dde-0-1280.avif",
+          "width": 721,
+          "height": 501
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+---
+import DisplayFields from './DisplayFields.astro';
+import { buildKeyboardCardFields } from '../lib/keyboard-display';
+
+interface ImageVariant {
+  src: string;
+  width: number;
+  height: number;
+}
+
+interface Keyboard {
+  slug: string;
+  title: string;
+  status: string | null;
+  lastBuiltAt: string | null;
+  modules: string[];
+  plates: string[];
+  ergonomicFeatures: string[];
+  layouts: string[];
+  mounts: string[];
+  foams: string[];
+  images: Array<{ alt: string; variants: ImageVariant[] }>;
+}
+
+interface Props {
+  keyboard: Keyboard;
+  index: number;
+}
+
+const { keyboard, index } = Astro.props;
+const cover = keyboard.images[0];
+const variants = cover.variants.toSorted((a, b) => a.width - b.width);
+const source = variants[0];
+const srcset = variants.map((item) => `${item.src} ${item.width}w`).join(', ');
+const fields = buildKeyboardCardFields(keyboard);
+const recordNumber = String(index + 1).padStart(3, '0');
+const searchText = [keyboard.title, ...fields.map((field) => field.value)]
+  .join(' ')
+  .toLocaleLowerCase('ko');
+---
+
+<article
+  class="gallery-card"
+  style={`--card-index:${Math.min(index, 12)}`}
+  data-archive-card
+  data-search={searchText}
+>
+  <a class="gallery-card-link" href={`/keyboards/${keyboard.slug}/`}>
+    <div class="gallery-card-media">
+      <img
+        src={source.src}
+        srcset={srcset}
+        sizes="(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw"
+        width={source.width}
+        height={source.height}
+        alt={cover.alt}
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <div class="gallery-card-copy">
+      <p class="card-kind">Keyboard</p>
+      <div class="gallery-card-titleline">
+        <h2>{keyboard.title}</h2>
+        <span class="record-number" aria-label={`${index + 1}번째 기록`}>{recordNumber}</span>
+      </div>
+      <DisplayFields fields={fields} variant="card" />
+    </div>
+  </a>
+</article>

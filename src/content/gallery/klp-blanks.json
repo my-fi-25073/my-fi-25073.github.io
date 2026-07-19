@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "klp-blanks",
+  "title": "KLP Blanks",
+  "category": "keycaps",
+  "manufacturer": "JLC",
+  "profile": "KLP",
+  "manufacturingProcess": "3D Print",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-24T12:25:07Z",
+  "materials": [],
+  "colors": [],
+  "compatibility": [
+    "Choc v1"
+  ],
+  "kits": [
+    {
+      "slug": "klp-custom-black-blanks",
+      "title": "KLP Custom Black Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KLP Blanks KLP Custom Black Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-640.avif",
+              "width": 640,
+              "height": 450
+            },
+            {
+              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-1280.avif",
+              "width": 1280,
+              "height": 900
+            },
+            {
+              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-2400.avif",
+              "width": 1394,
+              "height": 980
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klp-custom-transparent-blanks",
+      "title": "KLP Custom Transparent Blanks",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "KLP Blanks KLP Custom Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "KLP Blanks 이미지 1",
+      "variants": [
+        {
+          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-1280.avif",
+          "width": 1280,
+          "height": 875
+        },
+        {
+          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-2400.avif",
+          "width": 1636,
+          "height": 1118
+        }
+      ]
+    }
+  ]
+}

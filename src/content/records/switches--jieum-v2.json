@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "jieum-v2",
+  "title": "Jieum V2",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Jieum V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/jieum-v2/cf72849415aa0d13-0-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/jieum-v2/cf72849415aa0d13-0-1280.avif",
+          "width": 1084,
+          "height": 680
+        }
+      ]
+    },
+    {
+      "alt": "Jieum V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/jieum-v2/cf72849415aa0d13-1-640.avif",
+          "width": 640,
+          "height": 742
+        },
+        {
+          "src": "/media/switches/jieum-v2/cf72849415aa0d13-1-1280.avif",
+          "width": 1280,
+          "height": 1483
+        },
+        {
+          "src": "/media/switches/jieum-v2/cf72849415aa0d13-1-2400.avif",
+          "width": 1311,
+          "height": 1519
+        }
+      ]
+    }
+  ]
+}

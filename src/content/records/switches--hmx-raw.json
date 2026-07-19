@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "hmx-raw",
+  "title": "HMX Raw",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "HMX Raw 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-0-640.avif",
+          "width": 640,
+          "height": 508
+        },
+        {
+          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-0-1280.avif",
+          "width": 655,
+          "height": 520
+        }
+      ]
+    },
+    {
+      "alt": "HMX Raw 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-640.avif",
+          "width": 640,
+          "height": 547
+        },
+        {
+          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-1280.avif",
+          "width": 1280,
+          "height": 1093
+        },
+        {
+          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-2400.avif",
+          "width": 1294,
+          "height": 1105
+        }
+      ]
+    }
+  ]
+}

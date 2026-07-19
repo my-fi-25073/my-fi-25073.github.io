@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "bastard-kb",
+  "title": "Bastard KB",
+  "category": "vendors",
+  "location": "Netherlands",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://bastardkb.com/"
+    }
+  ],
+  "images": []
+}

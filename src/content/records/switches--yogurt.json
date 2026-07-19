@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "yogurt",
+  "title": "Yogurt",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★★☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Yogurt 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-0-640.avif",
+          "width": 640,
+          "height": 617
+        },
+        {
+          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-0-1280.avif",
+          "width": 969,
+          "height": 934
+        }
+      ]
+    },
+    {
+      "alt": "Yogurt 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-1-640.avif",
+          "width": 573,
+          "height": 475
+        }
+      ]
+    }
+  ]
+}

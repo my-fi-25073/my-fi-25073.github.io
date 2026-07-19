@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "sa-oblivion",
+  "title": "SA Oblivion",
+  "category": "keycaps",
+  "manufacturer": "SP",
+  "profile": "SA",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:04:49Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "7u-space-bar",
+      "title": "7u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion 7u Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-42e8dcbc1a2e0e50-0-640.avif",
+              "width": 640,
+              "height": 411
+            },
+            {
+              "src": "/media/sa-oblivion/kit-42e8dcbc1a2e0e50-0-1280.avif",
+              "width": 1280,
+              "height": 823
+            },
+            {
+              "src": "/media/sa-oblivion/kit-42e8dcbc1a2e0e50-0-2400.avif",
+              "width": 2048,
+              "height": 1316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "assembly",
+      "title": "Assembly",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion Assembly 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-a13c09f687595b15-0-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/sa-oblivion/kit-a13c09f687595b15-0-1280.avif",
+              "width": 1280,
+              "height": 854
+            },
+            {
+              "src": "/media/sa-oblivion/kit-a13c09f687595b15-0-2400.avif",
+              "width": 2048,
+              "height": 1367
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hagoromo-askii-alpha",
+      "title": "Hagoromo Askii Alpha",
+      "kittingTypes": [
+        "Alpha - Askii"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion Hagoromo Askii Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-aa01391027c37dd0-0-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/sa-oblivion/kit-aa01391027c37dd0-0-1280.avif",
+              "width": 1280,
+              "height": 849
+            },
+            {
+              "src": "/media/sa-oblivion/kit-aa01391027c37dd0-0-2400.avif",
+              "width": 2048,
+              "height": 1358
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "monochorome-modifier",
+      "title": "Monochorome Modifier",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion Monochorome Modifier 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-034e77dcad86044f-0-640.avif",
+              "width": 640,
+              "height": 358
+            },
+            {
+              "src": "/media/sa-oblivion/kit-034e77dcad86044f-0-1280.avif",
+              "width": 1280,
+              "height": 716
+            },
+            {
+              "src": "/media/sa-oblivion/kit-034e77dcad86044f-0-2400.avif",
+              "width": 2048,
+              "height": 1146
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "oblivion-askii-alpha",
+      "title": "Oblivion Askii Alpha",
+      "kittingTypes": [
+        "Alpha - Askii"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion Oblivion Askii Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-cebc1bbd28c009ee-0-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/sa-oblivion/kit-cebc1bbd28c009ee-0-1280.avif",
+              "width": 1280,
+              "height": 853
+            },
+            {
+              "src": "/media/sa-oblivion/kit-cebc1bbd28c009ee-0-2400.avif",
+              "width": 2048,
+              "height": 1364
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vim",
+      "title": "VIM",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "SA Oblivion VIM 이미지 1",
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-a0be77b90ee57dec-0-640.avif",
+              "width": 640,
+              "height": 423
+            },
+            {
+              "src": "/media/sa-oblivion/kit-a0be77b90ee57dec-0-1280.avif",
+              "width": 1280,
+              "height": 846
+            },
+            {
+              "src": "/media/sa-oblivion/kit-a0be77b90ee57dec-0-2400.avif",
+              "width": 2048,
+              "height": 1353
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "SA Oblivion 이미지 1",
+      "variants": [
+        {
+          "src": "/media/sa-oblivion/series-969002269a2d8d57-0-640.avif",
+          "width": 640,
+          "height": 388
+        },
+        {
+          "src": "/media/sa-oblivion/series-969002269a2d8d57-0-1280.avif",
+          "width": 1280,
+          "height": 776
+        },
+        {
+          "src": "/media/sa-oblivion/series-969002269a2d8d57-0-2400.avif",
+          "width": 2048,
+          "height": 1242
+        }
+      ]
+    }
+  ]
+}

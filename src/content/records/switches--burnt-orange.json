@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "burnt-orange",
+  "title": "Burnt Orange",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Burnt Orange 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/burnt-orange/8297f95b5196aac3-0-640.avif",
+          "width": 640,
+          "height": 548
+        },
+        {
+          "src": "/media/switches/burnt-orange/8297f95b5196aac3-0-1280.avif",
+          "width": 825,
+          "height": 706
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mz-y3-6eb609e1edd9",
+  "title": "MZ y3",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MZ y3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3-6eb609e1edd9/6eb609e1edd93e0d-0-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/mz-y3-6eb609e1edd9/6eb609e1edd93e0d-0-1280.avif",
+          "width": 1030,
+          "height": 645
+        }
+      ]
+    },
+    {
+      "alt": "MZ y3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3-6eb609e1edd9/6eb609e1edd93e0d-1-640.avif",
+          "width": 640,
+          "height": 588
+        },
+        {
+          "src": "/media/switches/mz-y3-6eb609e1edd9/6eb609e1edd93e0d-1-1280.avif",
+          "width": 1280,
+          "height": 1175
+        },
+        {
+          "src": "/media/switches/mz-y3-6eb609e1edd9/6eb609e1edd93e0d-1-2400.avif",
+          "width": 1322,
+          "height": 1214
+        }
+      ]
+    }
+  ]
+}

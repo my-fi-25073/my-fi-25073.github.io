@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "tx-middle-50g",
+  "title": "TX Middle 50g",
+  "category": "springs",
+  "manufacturer": "TX",
+  "series": "TX-Spring",
+  "springType": "Middle",
+  "actuationForce": "???",
+  "bottomOutForce": "50g",
+  "length": "15mm",
+  "images": []
+}

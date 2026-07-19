@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "factory-og-60g",
+  "title": "Factory OG 60g",
+  "category": "springs",
+  "manufacturer": "Factory",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "???",
+  "bottomOutForce": "60g",
+  "length": "N/A",
+  "images": []
+}

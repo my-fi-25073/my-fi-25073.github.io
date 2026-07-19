@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "b1",
+  "title": "B1",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "B1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/b1/aade09a9c32de30c-0-640.avif",
+          "width": 640,
+          "height": 412
+        },
+        {
+          "src": "/media/switches/b1/aade09a9c32de30c-0-1280.avif",
+          "width": 1004,
+          "height": 646
+        }
+      ]
+    },
+    {
+      "alt": "B1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/b1/aade09a9c32de30c-1-640.avif",
+          "width": 640,
+          "height": 763
+        },
+        {
+          "src": "/media/switches/b1/aade09a9c32de30c-1-1280.avif",
+          "width": 722,
+          "height": 861
+        }
+      ]
+    }
+  ]
+}

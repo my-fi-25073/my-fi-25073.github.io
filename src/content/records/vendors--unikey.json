@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "unikey",
+  "title": "Unikey",
+  "category": "vendors",
+  "location": "China",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://unikeyboards.com/en-kr"
+    }
+  ],
+  "images": []
+}

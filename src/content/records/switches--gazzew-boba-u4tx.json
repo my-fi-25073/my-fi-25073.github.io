@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "gazzew-boba-u4tx",
+  "title": "Gazzew Boba U4Tx",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Gazzew Boba U4Tx 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-0-640.avif",
+          "width": 606,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "alt": "Gazzew Boba U4Tx 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-1-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-1-1280.avif",
+          "width": 783,
+          "height": 563
+        }
+      ]
+    }
+  ]
+}

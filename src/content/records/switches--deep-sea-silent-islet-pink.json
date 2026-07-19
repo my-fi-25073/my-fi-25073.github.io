@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "deep-sea-silent-islet-pink",
+  "title": "Deep Sea Silent Islet Pink",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Deep Sea Silent Islet Pink 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/deep-sea-silent-islet-pink/6d6cfc1e33397d42-0-640.avif",
+          "width": 640,
+          "height": 384
+        },
+        {
+          "src": "/media/switches/deep-sea-silent-islet-pink/6d6cfc1e33397d42-0-1280.avif",
+          "width": 1263,
+          "height": 758
+        }
+      ]
+    },
+    {
+      "alt": "Deep Sea Silent Islet Pink 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/deep-sea-silent-islet-pink/6d6cfc1e33397d42-1-640.avif",
+          "width": 640,
+          "height": 574
+        },
+        {
+          "src": "/media/switches/deep-sea-silent-islet-pink/6d6cfc1e33397d42-1-1280.avif",
+          "width": 1158,
+          "height": 1038
+        }
+      ]
+    }
+  ]
+}

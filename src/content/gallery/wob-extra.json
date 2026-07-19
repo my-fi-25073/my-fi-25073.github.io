@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "wob-extra",
+  "title": "WoB Extra",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T16:57:16Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "colorchorome-black-40s-mod",
+      "title": "Colorchorome Black 40s Mod",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra Colorchorome Black 40s Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jis-extension",
+      "title": "JIS Extension",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra JIS Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mictlan-space-bar-7a2b75404eda",
+      "title": "Mictlan Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra Mictlan Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mictlan-space-bar-0b22526f1479",
+      "title": "Mictlan Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra Mictlan Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-0b22526f147996b2-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-0b22526f147996b2-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-0b22526f147996b2-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-base-drop",
+      "title": "WoB Base (Drop)",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra WoB Base (Drop) 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-red-cyrilic-icon-mod",
+      "title": "WoB Red Cyrilic Icon Mod",
+      "kittingTypes": [
+        "Modifier - Icon"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra WoB Red Cyrilic Icon Mod 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-329ba88fb0cfe427-0-640.avif",
+              "width": 640,
+              "height": 456
+            },
+            {
+              "src": "/media/wob-extra/kit-329ba88fb0cfe427-0-1280.avif",
+              "width": 903,
+              "height": 644
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-swiss-add-on",
+      "title": "WoB Swiss Add on",
+      "kittingTypes": [
+        "Alpha - Swiss"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "WoB Extra WoB Swiss Add on 이미지 1",
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-45bb79415a492390-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-45bb79415a492390-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-45bb79415a492390-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "WoB Extra 이미지 1",
+      "variants": [
+        {
+          "src": "/media/wob-extra/series-1ad948931633c89b-0-640.avif",
+          "width": 640,
+          "height": 444
+        },
+        {
+          "src": "/media/wob-extra/series-1ad948931633c89b-0-1280.avif",
+          "width": 1280,
+          "height": 889
+        },
+        {
+          "src": "/media/wob-extra/series-1ad948931633c89b-0-2400.avif",
+          "width": 2048,
+          "height": 1422
+        }
+      ]
+    }
+  ]
+}

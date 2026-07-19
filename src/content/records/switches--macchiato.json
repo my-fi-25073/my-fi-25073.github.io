@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "macchiato",
+  "title": "Macchiato",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Macchiato 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/macchiato/ca5817819f519102-0-640.avif",
+          "width": 640,
+          "height": 442
+        },
+        {
+          "src": "/media/switches/macchiato/ca5817819f519102-0-1280.avif",
+          "width": 1032,
+          "height": 712
+        }
+      ]
+    },
+    {
+      "alt": "Macchiato 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/macchiato/ca5817819f519102-1-640.avif",
+          "width": 640,
+          "height": 544
+        },
+        {
+          "src": "/media/switches/macchiato/ca5817819f519102-1-1280.avif",
+          "width": 1280,
+          "height": 1087
+        },
+        {
+          "src": "/media/switches/macchiato/ca5817819f519102-1-2400.avif",
+          "width": 1301,
+          "height": 1105
+        }
+      ]
+    }
+  ]
+}

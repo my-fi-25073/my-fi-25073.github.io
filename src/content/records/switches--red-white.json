@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "red-white",
+  "title": "Red White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Red White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/red-white/47c1152c37c72447-0-640.avif",
+          "width": 488,
+          "height": 424
+        }
+      ]
+    },
+    {
+      "alt": "Red White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/red-white/47c1152c37c72447-1-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/red-white/47c1152c37c72447-1-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

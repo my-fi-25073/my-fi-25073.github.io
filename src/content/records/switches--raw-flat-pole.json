@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "raw-flat-pole",
+  "title": "Raw Flat Pole",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★★☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Raw Flat Pole 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-0-640.avif",
+          "width": 640,
+          "height": 481
+        },
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-0-1280.avif",
+          "width": 763,
+          "height": 574
+        }
+      ]
+    },
+    {
+      "alt": "Raw Flat Pole 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-1-640.avif",
+          "width": 640,
+          "height": 478
+        },
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-1-1280.avif",
+          "width": 645,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "alt": "Raw Flat Pole 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-2-640.avif",
+          "width": 640,
+          "height": 584
+        },
+        {
+          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-2-1280.avif",
+          "width": 1188,
+          "height": 1084
+        }
+      ]
+    }
+  ]
+}

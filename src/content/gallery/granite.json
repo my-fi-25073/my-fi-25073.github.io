@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "granite",
+  "title": "Granite",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "MTNU",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T18:08:51Z",
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Granite Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Granite Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/granite/kit-f99b86a0d52b814a-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extension",
+      "title": "Extension",
+      "kittingTypes": [
+        "Modifier - Obscure",
+        "Child - Extension"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Granite Extension 이미지 1",
+          "variants": [
+            {
+              "src": "/media/granite/kit-72a03d9720de26f9-0-640.avif",
+              "width": 640,
+              "height": 886
+            },
+            {
+              "src": "/media/granite/kit-72a03d9720de26f9-0-1280.avif",
+              "width": 1248,
+              "height": 1728
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Granite 이미지 1",
+      "variants": [
+        {
+          "src": "/media/granite/series-b364684dd0edb748-0-640.avif",
+          "width": 640,
+          "height": 540
+        },
+        {
+          "src": "/media/granite/series-b364684dd0edb748-0-1280.avif",
+          "width": 1280,
+          "height": 1080
+        },
+        {
+          "src": "/media/granite/series-b364684dd0edb748-0-2400.avif",
+          "width": 1354,
+          "height": 1142
+        }
+      ]
+    }
+  ]
+}

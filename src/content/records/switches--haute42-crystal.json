@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "haute42-crystal",
+  "title": "Haute42 Crystal",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★★★★☆",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Haute42 Crystal 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-0-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-0-1280.avif",
+          "width": 839,
+          "height": 723
+        }
+      ]
+    },
+    {
+      "alt": "Haute42 Crystal 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-1-640.avif",
+          "width": 640,
+          "height": 701
+        },
+        {
+          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-1-1280.avif",
+          "width": 676,
+          "height": 740
+        }
+      ]
+    }
+  ]
+}

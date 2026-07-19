@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "redacted",
+  "title": "Redacted",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": "2026-03-20T17:04:57Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [
+    "Gray",
+    "White"
+  ],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Redacted Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Redacted Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-1-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/redacted/kit-86f48634938813b2-1-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classified",
+      "title": "Classified",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Redacted Classified 이미지 1",
+          "variants": [
+            {
+              "src": "/media/redacted/kit-62998b5b15036923-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/redacted/kit-62998b5b15036923-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/redacted/kit-62998b5b15036923-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eyes-only",
+      "title": "Eyes Only",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "Redacted Eyes Only 이미지 1",
+          "variants": [
+            {
+              "src": "/media/redacted/kit-7e32f6987a58e517-0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/redacted/kit-7e32f6987a58e517-0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/redacted/kit-7e32f6987a58e517-0-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Redacted 이미지 1",
+      "variants": [
+        {
+          "src": "/media/redacted/series-ad44cbe711fe81e0-0-640.avif",
+          "width": 640,
+          "height": 560
+        },
+        {
+          "src": "/media/redacted/series-ad44cbe711fe81e0-0-1280.avif",
+          "width": 1280,
+          "height": 1119
+        },
+        {
+          "src": "/media/redacted/series-ad44cbe711fe81e0-0-2400.avif",
+          "width": 1624,
+          "height": 1420
+        }
+      ]
+    }
+  ]
+}

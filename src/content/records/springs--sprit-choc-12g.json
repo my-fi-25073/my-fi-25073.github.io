@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-choc-12g",
+  "title": "Sprit Choc 12g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Choc/Alps",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "12g",
+  "length": "11.75mm",
+  "images": []
+}

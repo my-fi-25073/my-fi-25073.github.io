@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "waffle87-sweep",
+  "title": "Waffle87 Sweep",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2024-10-19",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [
+    "썸클러스터"
+  ],
+  "layouts": [
+    "트루 스플릿",
+    "칼럼스태거",
+    "3x5"
+  ],
+  "mounts": [
+    "N/A"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "images": [
+    {
+      "alt": "Waffle87 Sweep 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

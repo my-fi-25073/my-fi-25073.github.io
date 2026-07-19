@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "dcx-bow",
+  "title": "DCX BoW",
+  "category": "keycaps",
+  "manufacturer": "Drop",
+  "profile": "DCX",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": "2026-03-20T18:13:18Z",
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "sleeveStatus": "슬리브 없음",
+      "images": [
+        {
+          "alt": "DCX BoW Base 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-0-640.avif",
+              "width": 640,
+              "height": 373
+            },
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-0-1280.avif",
+              "width": 1280,
+              "height": 745
+            },
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-0-2400.avif",
+              "width": 1958,
+              "height": 1140
+            }
+          ]
+        },
+        {
+          "alt": "DCX BoW Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-1-640.avif",
+              "width": 640,
+              "height": 358
+            },
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-1-1280.avif",
+              "width": 1280,
+              "height": 715
+            },
+            {
+              "src": "/media/dcx-bow/kit-995ce457e8240767-1-2400.avif",
+              "width": 1968,
+              "height": 1100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "DCX BoW 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dcx-bow/series-64c02cdc2a584356-0-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/dcx-bow/series-64c02cdc2a584356-0-1280.avif",
+          "width": 1280,
+          "height": 812
+        },
+        {
+          "src": "/media/dcx-bow/series-64c02cdc2a584356-0-2400.avif",
+          "width": 1514,
+          "height": 960
+        }
+      ]
+    }
+  ]
+}

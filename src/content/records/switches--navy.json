@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "navy",
+  "title": "Navy",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Click"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Navy 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/navy/e26b18339d3983db-0-640.avif",
+          "width": 640,
+          "height": 611
+        },
+        {
+          "src": "/media/switches/navy/e26b18339d3983db-0-1280.avif",
+          "width": 718,
+          "height": 685
+        }
+      ]
+    }
+  ]
+}

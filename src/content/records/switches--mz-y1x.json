@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mz-y1x",
+  "title": "MZ y1x ",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "rating": "★★☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "MZ y1x  사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y1x/2aa27bee2f67fce4-0-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/mz-y1x/2aa27bee2f67fce4-0-1280.avif",
+          "width": 1064,
+          "height": 880
+        }
+      ]
+    },
+    {
+      "alt": "MZ y1x  사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y1x/2aa27bee2f67fce4-1-640.avif",
+          "width": 640,
+          "height": 542
+        },
+        {
+          "src": "/media/switches/mz-y1x/2aa27bee2f67fce4-1-1280.avif",
+          "width": 1280,
+          "height": 1084
+        },
+        {
+          "src": "/media/switches/mz-y1x/2aa27bee2f67fce4-1-2400.avif",
+          "width": 1342,
+          "height": 1137
+        }
+      ]
+    }
+  ]
+}

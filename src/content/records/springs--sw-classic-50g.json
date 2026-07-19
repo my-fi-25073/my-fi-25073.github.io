@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sw-classic-50g",
+  "title": "SW Classic 50g",
+  "category": "springs",
+  "manufacturer": "Swagkey",
+  "series": "SW-Classic",
+  "springType": "Middle",
+  "actuationForce": "???",
+  "bottomOutForce": "50g",
+  "length": "14.5mm",
+  "images": []
+}

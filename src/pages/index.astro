@@ -1,29 +1,20 @@
 ---
 import { getCollection } from 'astro:content';
-import GalleryCard from '../components/GalleryCard.astro';
-import TaxonomyNav from '../components/TaxonomyNav.astro';
+import ArchiveView from '../components/ArchiveView.astro';
 import SiteLayout from '../layouts/SiteLayout.astro';
 
-const galleries = (await getCollection('gallery')).toSorted((a, b) =>
-  a.data.title.localeCompare(b.data.title, 'ko'),
-);
+const [keycaps, keyboards, domainRecords] = await Promise.all([
+  getCollection('gallery'),
+  getCollection('keyboards'),
+  getCollection('records'),
+]);
 ---
 
 <SiteLayout>
-  <section class="archive-intro shell" aria-labelledby="archive-title">
-    <p class="eyebrow">Keyboard practice, 2024—</p>
-    <h1 id="archive-title">만들고, 바꾸고,<br />오래 기록하는 키보드.</h1>
-    <p class="archive-description">
-      키보드와 키캡, 스위치의 관계를 사진과 함께 정리하는 개인 아카이브입니다.
-    </p>
-  </section>
-
-  <div class="shell archive-controls">
-    <TaxonomyNav />
-    <p class="archive-count">{galleries.length} series</p>
-  </div>
-
-  <section class="gallery-grid shell" aria-label="갤러리 목록">
-    {galleries.map((entry, index) => <GalleryCard gallery={entry.data} index={index} />)}
-  </section>
+  <ArchiveView
+    current="all"
+    keycaps={keycaps}
+    keyboards={keyboards}
+    domainRecords={domainRecords}
+  />
 </SiteLayout>

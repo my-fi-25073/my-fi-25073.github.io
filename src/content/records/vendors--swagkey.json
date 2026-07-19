@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "swagkey",
+  "title": "Swagkey",
+  "category": "vendors",
+  "location": "Korea",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://smartstore.naver.com/swagkey"
+    },
+    {
+      "label": "Secondary",
+      "url": "https://www.swagkey.kr/"
+    }
+  ],
+  "images": []
+}

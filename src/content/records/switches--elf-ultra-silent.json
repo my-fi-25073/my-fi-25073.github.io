@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "elf-ultra-silent",
+  "title": "Elf Ultra-Silent",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "rating": "★☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Elf Ultra-Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/elf-ultra-silent/0105d16b5aaea7a9-0-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/elf-ultra-silent/0105d16b5aaea7a9-0-1280.avif",
+          "width": 991,
+          "height": 664
+        }
+      ]
+    },
+    {
+      "alt": "Elf Ultra-Silent 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/elf-ultra-silent/0105d16b5aaea7a9-1-640.avif",
+          "width": 477,
+          "height": 300
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch",
+  "slug": "mistic-purple",
+  "title": "Mistic Purple",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "rating": "☆☆☆☆☆",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "film": null,
+  "images": [
+    {
+      "alt": "Mistic Purple 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-0-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-0-1280.avif",
+          "width": 774,
+          "height": 533
+        }
+      ]
+    },
+    {
+      "alt": "Mistic Purple 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-1-640.avif",
+          "width": 446,
+          "height": 292
+        }
+      ]
+    }
+  ]
+}
