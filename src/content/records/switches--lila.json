@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lila",
   "title": "Lila",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lila 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lila/8f5dbe47fbed1641-0-640.avif",
+          "src": "/media/switches/lila/00cdb5a8cf3b5dc3-source-gallery-0-0ef048206305-640.avif",
           "width": 640,
           "height": 492
         },
         {
-          "src": "/media/switches/lila/8f5dbe47fbed1641-0-1280.avif",
+          "src": "/media/switches/lila/00cdb5a8cf3b5dc3-source-gallery-0-0ef048206305-1280.avif",
           "width": 742,
           "height": 570
         }
@@ -31,17 +49,17 @@
       "alt": "Lila 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lila/8f5dbe47fbed1641-1-640.avif",
+          "src": "/media/switches/lila/00cdb5a8cf3b5dc3-source-gallery-1-de1e6532d148-640.avif",
           "width": 640,
           "height": 595
         },
         {
-          "src": "/media/switches/lila/8f5dbe47fbed1641-1-1280.avif",
+          "src": "/media/switches/lila/00cdb5a8cf3b5dc3-source-gallery-1-de1e6532d148-1280.avif",
           "width": 1280,
           "height": 1190
         },
         {
-          "src": "/media/switches/lila/8f5dbe47fbed1641-1-2400.avif",
+          "src": "/media/switches/lila/00cdb5a8cf3b5dc3-source-gallery-1-de1e6532d148-2400.avif",
           "width": 1358,
           "height": 1262
         }

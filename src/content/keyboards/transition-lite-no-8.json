@@ -24,22 +24,65 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-11-01",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-11-01",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Hiney Beige ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (GMK)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Norde Beige",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.8 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-8/116fa06610ddb8a8-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-8/69b298f8422f288a-source-gallery-0-b22545f6ff4d-640.avif",
           "width": 640,
           "height": 374
         },
         {
-          "src": "/media/keyboards/transition-lite-no-8/116fa06610ddb8a8-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-8/69b298f8422f288a-source-gallery-0-b22545f6ff4d-1280.avif",
           "width": 1280,
           "height": 749
         },
         {
-          "src": "/media/keyboards/transition-lite-no-8/116fa06610ddb8a8-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-8/69b298f8422f288a-source-gallery-0-b22545f6ff4d-2400.avif",
           "width": 2400,
           "height": 1404
         }

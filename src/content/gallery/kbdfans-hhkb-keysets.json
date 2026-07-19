@@ -8,7 +8,7 @@
   "profile": "OEM-Topre",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:12:46Z",
+  "createdAt": "2026-03-20T18:12:46.464Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "KBDFans HHKB Keysets 9009 Accent 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-640.avif",
               "width": 640,
               "height": 472
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-1280.avif",
               "width": 1280,
               "height": 943
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-37d7ede33ac8d730-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-2400.avif",
               "width": 1528,
               "height": 1126
             }
@@ -59,17 +59,17 @@
           "alt": "KBDFans HHKB Keysets Blue Simple Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-640.avif",
               "width": 640,
               "height": 369
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-1280.avif",
               "width": 1280,
               "height": 738
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-110c675041138a60-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-2400.avif",
               "width": 1572,
               "height": 906
             }
@@ -89,17 +89,17 @@
           "alt": "KBDFans HHKB Keysets Classic Base 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-87ec7a7e54c88bef-source-gallery-0-91bfd74768d9-640.avif",
               "width": 640,
               "height": 374
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-87ec7a7e54c88bef-source-gallery-0-91bfd74768d9-1280.avif",
               "width": 1280,
               "height": 748
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-9d7a1feeedb2438d-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-87ec7a7e54c88bef-source-gallery-0-91bfd74768d9-2400.avif",
               "width": 1646,
               "height": 962
             }
@@ -119,17 +119,17 @@
           "alt": "KBDFans HHKB Keysets Lilac Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-9b2c633187069716-source-gallery-0-6a53a55324a8-640.avif",
               "width": 640,
               "height": 327
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-9b2c633187069716-source-gallery-0-6a53a55324a8-1280.avif",
               "width": 1280,
               "height": 655
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-aedece2e9ba10daa-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-9b2c633187069716-source-gallery-0-6a53a55324a8-2400.avif",
               "width": 1646,
               "height": 842
             }
@@ -149,17 +149,17 @@
           "alt": "KBDFans HHKB Keysets Lilac Simple Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-3cf32d6f9bf6e755-source-gallery-0-63506575638a-640.avif",
               "width": 640,
               "height": 357
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-3cf32d6f9bf6e755-source-gallery-0-63506575638a-1280.avif",
               "width": 1280,
               "height": 715
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-34675123c015acb9-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-3cf32d6f9bf6e755-source-gallery-0-63506575638a-2400.avif",
               "width": 1608,
               "height": 898
             }
@@ -179,17 +179,17 @@
           "alt": "KBDFans HHKB Keysets Mint Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-640.avif",
               "width": 640,
               "height": 348
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-1280.avif",
               "width": 1280,
               "height": 696
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-2210a10a1188e14f-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-2400.avif",
               "width": 1670,
               "height": 908
             }
@@ -209,17 +209,17 @@
           "alt": "KBDFans HHKB Keysets Mint Arrows 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-640.avif",
               "width": 640,
               "height": 397
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-1280.avif",
               "width": 1280,
               "height": 795
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-43b0690d9aa412cb-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-2400.avif",
               "width": 1604,
               "height": 996
             }
@@ -239,17 +239,17 @@
           "alt": "KBDFans HHKB Keysets POM White Base 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-640.avif",
               "width": 640,
               "height": 390
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-1280.avif",
               "width": 1280,
               "height": 781
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-83df95c128a24c84-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-2400.avif",
               "width": 1630,
               "height": 994
             }
@@ -269,17 +269,17 @@
           "alt": "KBDFans HHKB Keysets Red Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5a3ff3a03cbb3e78-source-gallery-0-b2d1d27da2e3-640.avif",
               "width": 640,
               "height": 350
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5a3ff3a03cbb3e78-source-gallery-0-b2d1d27da2e3-1280.avif",
               "width": 1280,
               "height": 699
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-55d65bb145156493-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5a3ff3a03cbb3e78-source-gallery-0-b2d1d27da2e3-2400.avif",
               "width": 1636,
               "height": 894
             }
@@ -299,17 +299,17 @@
           "alt": "KBDFans HHKB Keysets Teal Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-640.avif",
               "width": 640,
               "height": 340
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-1280.avif",
               "width": 1280,
               "height": 679
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-d45927e2c7eb9e06-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-2400.avif",
               "width": 1624,
               "height": 862
             }
@@ -329,17 +329,17 @@
           "alt": "KBDFans HHKB Keysets Yellow Arrows 이미지 1",
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5487a9a4b568f445-source-gallery-0-d21128ee6572-640.avif",
               "width": 640,
               "height": 408
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5487a9a4b568f445-source-gallery-0-d21128ee6572-1280.avif",
               "width": 1280,
               "height": 816
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-791eea03f7853e98-0-2400.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-5487a9a4b568f445-source-gallery-0-d21128ee6572-2400.avif",
               "width": 1604,
               "height": 1022
             }
@@ -353,19 +353,34 @@
       "alt": "KBDFans HHKB Keysets 이미지 1",
       "variants": [
         {
-          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-640.avif",
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-640.avif",
           "width": 640,
           "height": 335
         },
         {
-          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-1280.avif",
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-1280.avif",
           "width": 1280,
           "height": 670
         },
         {
-          "src": "/media/kbdfans-hhkb-keysets/series-05fc9e8ce00e0254-0-2400.avif",
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-2400.avif",
           "width": 2048,
           "height": 1072
+        }
+      ]
+    },
+    {
+      "alt": "KBDFans HHKB Keysets 이미지 1",
+      "variants": [
+        {
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-body-0-62588c62bd48-640.avif",
+          "width": 640,
+          "height": 258
+        },
+        {
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-body-0-62588c62bd48-1280.avif",
+          "width": 1092,
+          "height": 440
         }
       ]
     }

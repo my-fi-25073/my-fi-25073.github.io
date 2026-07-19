@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "keygeek-factory-spring-62-5g",
+  "title": "Keygeek Factory Spring 62.5g",
+  "category": "springs",
+  "manufacturer": "Keygeek",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "57.5g",
+  "bottomOutForce": "62.5g",
+  "length": "22mm",
+  "images": []
+}

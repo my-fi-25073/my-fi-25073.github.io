@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "blue-cheese",
   "title": "Blue Cheese",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Blue Cheese 사진 1",
       "variants": [
         {
-          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-0-640.avif",
+          "src": "/media/switches/blue-cheese/b193eb2a4cd2d551-source-gallery-0-839b2fc1d20c-640.avif",
           "width": 640,
           "height": 556
         },
         {
-          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-0-1280.avif",
+          "src": "/media/switches/blue-cheese/b193eb2a4cd2d551-source-gallery-0-839b2fc1d20c-1280.avif",
           "width": 740,
           "height": 643
         }
@@ -31,12 +49,12 @@
       "alt": "Blue Cheese 사진 2",
       "variants": [
         {
-          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-1-640.avif",
+          "src": "/media/switches/blue-cheese/b193eb2a4cd2d551-source-gallery-1-40946b653929-640.avif",
           "width": 640,
           "height": 552
         },
         {
-          "src": "/media/switches/blue-cheese/1b0596480c2ee66e-1-1280.avif",
+          "src": "/media/switches/blue-cheese/b193eb2a4cd2d551-source-gallery-1-40946b653929-1280.avif",
           "width": 854,
           "height": 736
         }

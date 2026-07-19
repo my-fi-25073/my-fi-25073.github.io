@@ -26,22 +26,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-11-23",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-11-23",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "KLP Custom Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Chew Mono 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/chew-mono/7de12bcdfedb703b-0-640.avif",
+          "src": "/media/keyboards/chew-mono/5b19fb5f50e2761d-source-gallery-0-4259b984b0ec-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/chew-mono/7de12bcdfedb703b-0-1280.avif",
+          "src": "/media/keyboards/chew-mono/5b19fb5f50e2761d-source-gallery-0-4259b984b0ec-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/chew-mono/7de12bcdfedb703b-0-2400.avif",
+          "src": "/media/keyboards/chew-mono/5b19fb5f50e2761d-source-gallery-0-4259b984b0ec-2400.avif",
           "width": 2400,
           "height": 1800
         }

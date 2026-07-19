@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-slow-extreme-3-60g",
+  "title": "Sprit Slow Extreme 3 60g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Slow Extreme 3",
+  "springType": "Extra Long",
+  "actuationForce": null,
+  "bottomOutForce": "60g",
+  "length": "19mm",
+  "images": []
+}

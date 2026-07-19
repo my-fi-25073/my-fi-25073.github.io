@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "macchiato",
   "title": "Macchiato",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Macchiato 사진 1",
       "variants": [
         {
-          "src": "/media/switches/macchiato/ca5817819f519102-0-640.avif",
+          "src": "/media/switches/macchiato/d467022ff471ff43-source-gallery-0-e50944364ee3-640.avif",
           "width": 640,
           "height": 442
         },
         {
-          "src": "/media/switches/macchiato/ca5817819f519102-0-1280.avif",
+          "src": "/media/switches/macchiato/d467022ff471ff43-source-gallery-0-e50944364ee3-1280.avif",
           "width": 1032,
           "height": 712
         }
@@ -31,17 +49,17 @@
       "alt": "Macchiato 사진 2",
       "variants": [
         {
-          "src": "/media/switches/macchiato/ca5817819f519102-1-640.avif",
+          "src": "/media/switches/macchiato/d467022ff471ff43-source-gallery-1-c91c7962b0c1-640.avif",
           "width": 640,
           "height": 544
         },
         {
-          "src": "/media/switches/macchiato/ca5817819f519102-1-1280.avif",
+          "src": "/media/switches/macchiato/d467022ff471ff43-source-gallery-1-c91c7962b0c1-1280.avif",
           "width": 1280,
           "height": 1087
         },
         {
-          "src": "/media/switches/macchiato/ca5817819f519102-1-2400.avif",
+          "src": "/media/switches/macchiato/d467022ff471ff43-source-gallery-1-c91c7962b0c1-2400.avif",
           "width": 1301,
           "height": 1105
         }

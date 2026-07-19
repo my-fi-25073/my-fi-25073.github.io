@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mmd-princess",
   "title": "MMD Princess",
   "category": "switches",
-  "manufacturer": "MMD",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "MMD",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 33g",
+        "status": "conflict"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MMD Princess 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mmd-princess/837762ba768de8dc-0-640.avif",
+          "src": "/media/switches/mmd-princess/f6c7d7599e4d9dcc-source-gallery-0-c561f66554d1-640.avif",
           "width": 640,
           "height": 469
         },
         {
-          "src": "/media/switches/mmd-princess/837762ba768de8dc-0-1280.avif",
+          "src": "/media/switches/mmd-princess/f6c7d7599e4d9dcc-source-gallery-0-c561f66554d1-1280.avif",
           "width": 881,
           "height": 645
         }
@@ -31,7 +49,7 @@
       "alt": "MMD Princess 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mmd-princess/837762ba768de8dc-1-640.avif",
+          "src": "/media/switches/mmd-princess/f6c7d7599e4d9dcc-source-gallery-1-c859e1f555ba-640.avif",
           "width": 448,
           "height": 543
         }

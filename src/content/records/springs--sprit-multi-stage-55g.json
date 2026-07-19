@@ -7,7 +7,7 @@
   "manufacturer": "Sprit",
   "series": "Multi Stage",
   "springType": "Multi-Stage",
-  "actuationForce": "60g",
+  "actuationForce": null,
   "bottomOutForce": "55g",
   "length": null,
   "images": []

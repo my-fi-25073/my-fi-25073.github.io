@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-slow-extreme-2-78g",
+  "title": "Sprit Slow Extreme 2 78g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Slow Extreme 2",
+  "springType": "Long",
+  "actuationForce": null,
+  "bottomOutForce": "78g",
+  "length": "17.75mm",
+  "images": []
+}

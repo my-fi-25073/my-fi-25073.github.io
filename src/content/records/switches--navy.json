@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "navy",
   "title": "Navy",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Navy 사진 1",
       "variants": [
         {
-          "src": "/media/switches/navy/e26b18339d3983db-0-640.avif",
+          "src": "/media/switches/navy/b3461e7a20167c35-source-gallery-0-370b1ec4dd17-640.avif",
           "width": 640,
           "height": 611
         },
         {
-          "src": "/media/switches/navy/e26b18339d3983db-0-1280.avif",
+          "src": "/media/switches/navy/b3461e7a20167c35-source-gallery-0-370b1ec4dd17-1280.avif",
           "width": 718,
           "height": 685
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "vertex-v1",
   "title": "Vertex V1",
   "category": "switches",
-  "manufacturer": "JWK",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "JWK Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Vertex V1 사진 1",
       "variants": [
         {
-          "src": "/media/switches/vertex-v1/db13296cc04af6b5-0-640.avif",
+          "src": "/media/switches/vertex-v1/fc1523058d4b6796-source-gallery-0-45d70d26aec9-640.avif",
           "width": 640,
           "height": 572
         },
         {
-          "src": "/media/switches/vertex-v1/db13296cc04af6b5-0-1280.avif",
+          "src": "/media/switches/vertex-v1/fc1523058d4b6796-source-gallery-0-45d70d26aec9-1280.avif",
           "width": 732,
           "height": 654
         }
@@ -31,17 +49,17 @@
       "alt": "Vertex V1 사진 2",
       "variants": [
         {
-          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-640.avif",
+          "src": "/media/switches/vertex-v1/fc1523058d4b6796-source-gallery-1-ea1160b4520c-640.avif",
           "width": 640,
           "height": 758
         },
         {
-          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-1280.avif",
+          "src": "/media/switches/vertex-v1/fc1523058d4b6796-source-gallery-1-ea1160b4520c-1280.avif",
           "width": 1280,
           "height": 1517
         },
         {
-          "src": "/media/switches/vertex-v1/db13296cc04af6b5-1-2400.avif",
+          "src": "/media/switches/vertex-v1/fc1523058d4b6796-source-gallery-1-ea1160b4520c-2400.avif",
           "width": 1282,
           "height": 1519
         }

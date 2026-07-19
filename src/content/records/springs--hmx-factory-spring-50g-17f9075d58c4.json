@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "hmx-factory-spring-50g-17f9075d58c4",
+  "title": "HMX Factory Spring 50g",
+  "category": "springs",
+  "manufacturer": "HMX",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "50g",
+  "length": "20mm",
+  "images": []
+}

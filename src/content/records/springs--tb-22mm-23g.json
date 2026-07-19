@@ -7,7 +7,7 @@
   "manufacturer": "Taobao",
   "series": "Factory",
   "springType": "Ultra Long",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "23g",
   "length": "22mm",
   "images": []

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nuphy-cowberry",
   "title": "NuPhy Cowberry",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NuPhy Cowberry 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-0-640.avif",
+          "src": "/media/switches/nuphy-cowberry/e16571bf5ae34c83-source-gallery-0-d731d844858a-640.avif",
           "width": 640,
           "height": 513
         },
         {
-          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-0-1280.avif",
+          "src": "/media/switches/nuphy-cowberry/e16571bf5ae34c83-source-gallery-0-d731d844858a-1280.avif",
           "width": 814,
           "height": 652
         }
@@ -31,12 +49,12 @@
       "alt": "NuPhy Cowberry 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-1-640.avif",
+          "src": "/media/switches/nuphy-cowberry/e16571bf5ae34c83-source-gallery-1-fc21e6dffe26-640.avif",
           "width": 640,
           "height": 246
         },
         {
-          "src": "/media/switches/nuphy-cowberry/edfc522a08e4f19d-1-1280.avif",
+          "src": "/media/switches/nuphy-cowberry/e16571bf5ae34c83-source-gallery-1-fc21e6dffe26-1280.avif",
           "width": 936,
           "height": 360
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "white-rain",
   "title": "White Rain",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "White Rain 사진 1",
       "variants": [
         {
-          "src": "/media/switches/white-rain/19a40a75898998ba-0-640.avif",
+          "src": "/media/switches/white-rain/1d3ef5b2b7464ffd-source-gallery-0-3be5a6da9274-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/white-rain/19a40a75898998ba-0-1280.avif",
+          "src": "/media/switches/white-rain/1d3ef5b2b7464ffd-source-gallery-0-3be5a6da9274-1280.avif",
           "width": 800,
           "height": 800
         }
@@ -31,17 +49,17 @@
       "alt": "White Rain 사진 2",
       "variants": [
         {
-          "src": "/media/switches/white-rain/19a40a75898998ba-1-640.avif",
+          "src": "/media/switches/white-rain/1d3ef5b2b7464ffd-source-gallery-1-8182a5c96f08-640.avif",
           "width": 640,
           "height": 431
         },
         {
-          "src": "/media/switches/white-rain/19a40a75898998ba-1-1280.avif",
+          "src": "/media/switches/white-rain/1d3ef5b2b7464ffd-source-gallery-1-8182a5c96f08-1280.avif",
           "width": 1280,
           "height": 862
         },
         {
-          "src": "/media/switches/white-rain/19a40a75898998ba-1-2400.avif",
+          "src": "/media/switches/white-rain/1d3ef5b2b7464ffd-source-gallery-1-8182a5c96f08-2400.avif",
           "width": 1897,
           "height": 1278
         }

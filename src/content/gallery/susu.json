@@ -8,7 +8,7 @@
   "profile": "MTNU",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:08:47Z",
+  "createdAt": "2026-03-20T18:08:47.372Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "Susu Base 이미지 1",
           "variants": [
             {
-              "src": "/media/susu/kit-116da98b168d161f-0-640.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-0-8f0a89068f84-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/susu/kit-116da98b168d161f-0-1280.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-0-8f0a89068f84-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/susu/kit-116da98b168d161f-0-2400.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-0-8f0a89068f84-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "Susu Base 이미지 2",
           "variants": [
             {
-              "src": "/media/susu/kit-116da98b168d161f-1-640.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-1-890e8b2d835b-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/susu/kit-116da98b168d161f-1-1280.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-1-890e8b2d835b-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/susu/kit-116da98b168d161f-1-2400.avif",
+              "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-1-890e8b2d835b-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -73,17 +73,17 @@
       "alt": "Susu 이미지 1",
       "variants": [
         {
-          "src": "/media/susu/series-dc7f394b6611ca4c-0-640.avif",
+          "src": "/media/susu/series-b4e6cdd819b51bda-source-gallery-0-c21a6bfa7170-640.avif",
           "width": 640,
           "height": 548
         },
         {
-          "src": "/media/susu/series-dc7f394b6611ca4c-0-1280.avif",
+          "src": "/media/susu/series-b4e6cdd819b51bda-source-gallery-0-c21a6bfa7170-1280.avif",
           "width": 1280,
           "height": 1096
         },
         {
-          "src": "/media/susu/series-dc7f394b6611ca4c-0-2400.avif",
+          "src": "/media/susu/series-b4e6cdd819b51bda-source-gallery-0-c21a6bfa7170-2400.avif",
           "width": 1380,
           "height": 1182
         }

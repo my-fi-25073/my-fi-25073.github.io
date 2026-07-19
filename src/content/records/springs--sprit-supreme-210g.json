@@ -7,8 +7,8 @@
   "manufacturer": "Sprit",
   "series": "Supreme",
   "springType": "Short",
-  "actuationForce": "135g",
+  "actuationForce": null,
   "bottomOutForce": "210g",
-  "length": null,
+  "length": "13.75mm",
   "images": []
 }

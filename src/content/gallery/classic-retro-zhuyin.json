@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:49:01Z",
+  "createdAt": "2026-03-20T11:49:01.902Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Classic Retro Zhuyin Base 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-640.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-0-590bd1d3a69d-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-1280.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-0-590bd1d3a69d-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-0-2400.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-0-590bd1d3a69d-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -52,17 +52,17 @@
           "alt": "Classic Retro Zhuyin Base 이미지 2",
           "variants": [
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-640.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-1-ede05c9a2939-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-1280.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-1-ede05c9a2939-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-retro-zhuyin/kit-173cced490e06bca-1-2400.avif",
+              "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-1-ede05c9a2939-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -83,7 +83,7 @@
           "alt": "Classic Retro Zhuyin LED Indicator 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-retro-zhuyin/kit-e3f0149e6c2d9b60-0-640.avif",
+              "src": "/media/classic-retro-zhuyin/kit-e3d28ba60b9f8e73-source-gallery-0-446e7daa9325-640.avif",
               "width": 580,
               "height": 456
             }
@@ -97,17 +97,17 @@
       "alt": "Classic Retro Zhuyin 이미지 1",
       "variants": [
         {
-          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-640.avif",
+          "src": "/media/classic-retro-zhuyin/series-03358389868b1a32-source-gallery-0-fbf49855341e-640.avif",
           "width": 640,
           "height": 559
         },
         {
-          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-1280.avif",
+          "src": "/media/classic-retro-zhuyin/series-03358389868b1a32-source-gallery-0-fbf49855341e-1280.avif",
           "width": 1280,
           "height": 1118
         },
         {
-          "src": "/media/classic-retro-zhuyin/series-ec88ef658c459125-0-2400.avif",
+          "src": "/media/classic-retro-zhuyin/series-03358389868b1a32-source-gallery-0-fbf49855341e-2400.avif",
           "width": 1592,
           "height": 1390
         }

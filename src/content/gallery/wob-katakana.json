@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T16:57:21Z",
+  "createdAt": "2026-03-20T16:57:21.368Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "WoB Katakana Base 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-katakana/kit-119e9d4282fe3d70-0-640.avif",
+              "src": "/media/wob-katakana/kit-cdfe9b0d8e56e82a-source-gallery-0-f5f6ddcb6ba3-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-katakana/kit-119e9d4282fe3d70-0-1280.avif",
+              "src": "/media/wob-katakana/kit-cdfe9b0d8e56e82a-source-gallery-0-f5f6ddcb6ba3-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-katakana/kit-119e9d4282fe3d70-0-2400.avif",
+              "src": "/media/wob-katakana/kit-cdfe9b0d8e56e82a-source-gallery-0-f5f6ddcb6ba3-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -56,17 +56,17 @@
       "alt": "WoB Katakana 이미지 1",
       "variants": [
         {
-          "src": "/media/wob-katakana/series-dd7f66c02931f4bc-0-640.avif",
+          "src": "/media/wob-katakana/series-32a62853c4f45ad8-source-gallery-0-70042ed28a05-640.avif",
           "width": 640,
           "height": 551
         },
         {
-          "src": "/media/wob-katakana/series-dd7f66c02931f4bc-0-1280.avif",
+          "src": "/media/wob-katakana/series-32a62853c4f45ad8-source-gallery-0-70042ed28a05-1280.avif",
           "width": 1280,
           "height": 1103
         },
         {
-          "src": "/media/wob-katakana/series-dd7f66c02931f4bc-0-2400.avif",
+          "src": "/media/wob-katakana/series-32a62853c4f45ad8-source-gallery-0-70042ed28a05-2400.avif",
           "width": 1574,
           "height": 1356
         }

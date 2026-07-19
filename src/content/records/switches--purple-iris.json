@@ -1,33 +1,51 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "purple-iris",
   "title": "Purple Iris",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★★",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 40g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Purple Iris 사진 1",
       "variants": [
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-0-640.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-0-b7408278bb83-640.avif",
           "width": 640,
           "height": 533
         },
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-0-1280.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-0-b7408278bb83-1280.avif",
           "width": 1280,
           "height": 1067
         },
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-0-2400.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-0-b7408278bb83-2400.avif",
           "width": 1418,
           "height": 1182
         }
@@ -37,17 +55,17 @@
       "alt": "Purple Iris 사진 2",
       "variants": [
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-1-640.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-1-67c918578a9d-640.avif",
           "width": 640,
           "height": 700
         },
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-1-1280.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-1-67c918578a9d-1280.avif",
           "width": 1280,
           "height": 1400
         },
         {
-          "src": "/media/switches/purple-iris/151cd8b07381db66-1-2400.avif",
+          "src": "/media/switches/purple-iris/34ebb2b4cee052e8-source-gallery-1-67c918578a9d-2400.avif",
           "width": 1518,
           "height": 1660
         }

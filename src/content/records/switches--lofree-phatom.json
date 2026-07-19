@@ -1,27 +1,65 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lofree-phatom",
   "title": "Lofree Phatom",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "35g",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "기본 구성",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lofree Phatom 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-0-640.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-0-953f840fb187-640.avif",
           "width": 640,
           "height": 591
         },
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-0-1280.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-0-953f840fb187-1280.avif",
           "width": 1166,
           "height": 1076
         }
@@ -31,17 +69,17 @@
       "alt": "Lofree Phatom 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-640.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-1-31cd493e9e80-640.avif",
           "width": 640,
           "height": 594
         },
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-1280.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-1-31cd493e9e80-1280.avif",
           "width": 1280,
           "height": 1189
         },
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-1-2400.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-1-31cd493e9e80-2400.avif",
           "width": 1322,
           "height": 1228
         }
@@ -51,12 +89,12 @@
       "alt": "Lofree Phatom 사진 3",
       "variants": [
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-2-640.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-2-b279bad122a6-640.avif",
           "width": 640,
           "height": 371
         },
         {
-          "src": "/media/switches/lofree-phatom/c44aa9bc3c615b13-2-1280.avif",
+          "src": "/media/switches/lofree-phatom/0de3b4dd290bad55-source-gallery-2-b279bad122a6-1280.avif",
           "width": 1014,
           "height": 588
         }

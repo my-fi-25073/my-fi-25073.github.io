@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "deepping-4-0",
   "title": "Deepping 4.0",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 58g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Deepping 4.0 사진 1",
       "variants": [
         {
-          "src": "/media/switches/deepping-4-0/8e9208123122701e-0-640.avif",
+          "src": "/media/switches/deepping-4-0/efc92d08ba73e1e8-source-gallery-0-8a6a36a3cf35-640.avif",
           "width": 640,
           "height": 569
         },
         {
-          "src": "/media/switches/deepping-4-0/8e9208123122701e-0-1280.avif",
+          "src": "/media/switches/deepping-4-0/efc92d08ba73e1e8-source-gallery-0-8a6a36a3cf35-1280.avif",
           "width": 1060,
           "height": 943
         }
@@ -31,17 +49,17 @@
       "alt": "Deepping 4.0 사진 2",
       "variants": [
         {
-          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-640.avif",
+          "src": "/media/switches/deepping-4-0/efc92d08ba73e1e8-source-gallery-1-9271851592b1-640.avif",
           "width": 640,
           "height": 619
         },
         {
-          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-1280.avif",
+          "src": "/media/switches/deepping-4-0/efc92d08ba73e1e8-source-gallery-1-9271851592b1-1280.avif",
           "width": 1280,
           "height": 1238
         },
         {
-          "src": "/media/switches/deepping-4-0/8e9208123122701e-1-2400.avif",
+          "src": "/media/switches/deepping-4-0/efc92d08ba73e1e8-source-gallery-1-9271851592b1-2400.avif",
           "width": 1658,
           "height": 1603
         }

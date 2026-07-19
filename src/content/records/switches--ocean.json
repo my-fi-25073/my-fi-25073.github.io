@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ocean",
   "title": "Ocean",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 57.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Ocean 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ocean/75b7a5d8201cfa85-0-640.avif",
+          "src": "/media/switches/ocean/621c8f1018871523-source-gallery-0-1953906d707b-640.avif",
           "width": 640,
           "height": 440
         },
         {
-          "src": "/media/switches/ocean/75b7a5d8201cfa85-0-1280.avif",
+          "src": "/media/switches/ocean/621c8f1018871523-source-gallery-0-1953906d707b-1280.avif",
           "width": 736,
           "height": 506
         }
@@ -31,12 +49,12 @@
       "alt": "Ocean 사진 2",
       "variants": [
         {
-          "src": "/media/switches/ocean/75b7a5d8201cfa85-1-640.avif",
+          "src": "/media/switches/ocean/621c8f1018871523-source-gallery-1-ad4aba44e68d-640.avif",
           "width": 640,
           "height": 637
         },
         {
-          "src": "/media/switches/ocean/75b7a5d8201cfa85-1-1280.avif",
+          "src": "/media/switches/ocean/621c8f1018871523-source-gallery-1-ad4aba44e68d-1280.avif",
           "width": 1249,
           "height": 1244
         }

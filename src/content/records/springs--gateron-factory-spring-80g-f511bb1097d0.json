@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-80g-f511bb1097d0",
+  "title": "Gateron Factory Spring 80g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Extra Long",
+  "actuationForce": null,
+  "bottomOutForce": "80g",
+  "length": "19mm",
+  "images": []
+}

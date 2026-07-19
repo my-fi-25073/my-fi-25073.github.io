@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "bsun-factory-spring-62g-116448fc35de",
+  "title": "Bsun Factory Spring 62g",
+  "category": "springs",
+  "manufacturer": "Bsun",
+  "series": "Factory",
+  "springType": "Extra Long",
+  "actuationForce": null,
+  "bottomOutForce": "62g",
+  "length": "19.7mm",
+  "images": []
+}

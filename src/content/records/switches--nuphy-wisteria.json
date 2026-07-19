@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nuphy-wisteria",
   "title": "NuPhy Wisteria",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NuPhy Wisteria 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-0-640.avif",
+          "src": "/media/switches/nuphy-wisteria/3a69985b553cb75b-source-gallery-0-9560efadd77a-640.avif",
           "width": 640,
           "height": 498
         },
         {
-          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-0-1280.avif",
+          "src": "/media/switches/nuphy-wisteria/3a69985b553cb75b-source-gallery-0-9560efadd77a-1280.avif",
           "width": 761,
           "height": 592
         }
@@ -31,12 +49,12 @@
       "alt": "NuPhy Wisteria 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-1-640.avif",
+          "src": "/media/switches/nuphy-wisteria/3a69985b553cb75b-source-gallery-1-68a8bae3996b-640.avif",
           "width": 640,
           "height": 249
         },
         {
-          "src": "/media/switches/nuphy-wisteria/064bbe5f3b7e3191-1-1280.avif",
+          "src": "/media/switches/nuphy-wisteria/3a69985b553cb75b-source-gallery-1-68a8bae3996b-1280.avif",
           "width": 935,
           "height": 364
         }

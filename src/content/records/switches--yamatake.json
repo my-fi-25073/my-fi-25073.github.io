@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "yamatake",
   "title": "Yamatake",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 54g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Yamatake 사진 1",
       "variants": [
         {
-          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-0-640.avif",
+          "src": "/media/switches/yamatake/18e2bf2f8b808573-source-gallery-0-43bfa20f441a-640.avif",
           "width": 640,
           "height": 445
         },
         {
-          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-0-1280.avif",
+          "src": "/media/switches/yamatake/18e2bf2f8b808573-source-gallery-0-43bfa20f441a-1280.avif",
           "width": 657,
           "height": 457
         }
@@ -31,12 +49,12 @@
       "alt": "Yamatake 사진 2",
       "variants": [
         {
-          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-1-640.avif",
+          "src": "/media/switches/yamatake/18e2bf2f8b808573-source-gallery-1-4fa5860535ab-640.avif",
           "width": 640,
           "height": 646
         },
         {
-          "src": "/media/switches/yamatake/c319a4e1bfb8d00f-1-1280.avif",
+          "src": "/media/switches/yamatake/18e2bf2f8b808573-source-gallery-1-4fa5860535ab-1280.avif",
           "width": 1259,
           "height": 1270
         }

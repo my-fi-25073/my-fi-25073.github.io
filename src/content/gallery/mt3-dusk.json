@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:11:33Z",
+  "createdAt": "2026-03-21T17:11:33.272Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,12 @@
           "alt": "MT3 Dusk Accents 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-dusk/kit-161c532e23e7248a-0-640.avif",
+              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-640.avif",
               "width": 640,
               "height": 424
             },
             {
-              "src": "/media/mt3-dusk/kit-161c532e23e7248a-0-1280.avif",
+              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-1280.avif",
               "width": 1042,
               "height": 690
             }
@@ -54,12 +54,12 @@
           "alt": "MT3 Dusk Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-dusk/kit-9105afbc48212b67-0-640.avif",
+              "src": "/media/mt3-dusk/kit-a776b2256754634c-source-gallery-0-89ccbc609b15-640.avif",
               "width": 640,
               "height": 417
             },
             {
-              "src": "/media/mt3-dusk/kit-9105afbc48212b67-0-1280.avif",
+              "src": "/media/mt3-dusk/kit-a776b2256754634c-source-gallery-0-89ccbc609b15-1280.avif",
               "width": 1043,
               "height": 679
             }
@@ -79,12 +79,12 @@
           "alt": "MT3 Dusk Hobbyist 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-dusk/kit-fca49ff5c8e27619-0-640.avif",
+              "src": "/media/mt3-dusk/kit-213e8b941b3170b3-source-gallery-0-2240bebaaefd-640.avif",
               "width": 640,
               "height": 421
             },
             {
-              "src": "/media/mt3-dusk/kit-fca49ff5c8e27619-0-1280.avif",
+              "src": "/media/mt3-dusk/kit-213e8b941b3170b3-source-gallery-0-2240bebaaefd-1280.avif",
               "width": 1036,
               "height": 682
             }
@@ -104,12 +104,12 @@
           "alt": "MT3 Dusk Spacebars 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-dusk/kit-1a33517a7f93a70f-0-640.avif",
+              "src": "/media/mt3-dusk/kit-491a8988a9950be9-source-gallery-0-27bcdce9f09a-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/mt3-dusk/kit-1a33517a7f93a70f-0-1280.avif",
+              "src": "/media/mt3-dusk/kit-491a8988a9950be9-source-gallery-0-27bcdce9f09a-1280.avif",
               "width": 1039,
               "height": 690
             }
@@ -123,12 +123,12 @@
       "alt": "MT3 Dusk 이미지 1",
       "variants": [
         {
-          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-0-640.avif",
+          "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-0-1280.avif",
+          "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -138,17 +138,17 @@
       "alt": "MT3 Dusk 이미지 2",
       "variants": [
         {
-          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-640.avif",
+          "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-1-6c7c04847f4d-640.avif",
           "width": 640,
           "height": 378
         },
         {
-          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-1280.avif",
+          "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-1-6c7c04847f4d-1280.avif",
           "width": 1280,
           "height": 756
         },
         {
-          "src": "/media/mt3-dusk/series-a63eed26b53b4f33-1-2400.avif",
+          "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-1-6c7c04847f4d-2400.avif",
           "width": 1994,
           "height": 1178
         }

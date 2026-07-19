@@ -9,6 +9,17 @@ export interface KeyboardRecord {
   layouts: string[];
   mounts: string[];
   foams: string[];
+  build: {
+    label: string;
+    state: 'draft' | 'approved' | 'retired';
+    startedAt: string | null;
+    completedAt: string | null;
+    keycaps: Array<{
+      kind: 'series' | 'kit';
+      title: string;
+      quantity: number | null;
+    }>;
+  };
 }
 
 function textField(key: string, label: string, value: string | null | undefined) {
@@ -39,8 +50,14 @@ export function buildKeyboardCardFields(record: KeyboardRecord): DisplayField[] 
 }
 
 export function buildKeyboardDetailFields(record: KeyboardRecord): DisplayField[] {
+  const buildState = {
+    draft: '초안',
+    approved: '확정',
+    retired: '종료',
+  }[record.build.state];
   return [
     ...textField('status', '상태', record.status),
+    ...textField('buildState', '현재 빌드', buildState),
     ...dateField(record.lastBuiltAt),
     ...listField('layouts', '배열', record.layouts),
     ...listField('mounts', '결합 방식', record.mounts),

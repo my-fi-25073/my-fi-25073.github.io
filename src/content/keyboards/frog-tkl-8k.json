@@ -25,22 +25,60 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-04-21",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-04-21",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "Sixes Ogre (Ergo kit)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Retro Zhuyin",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Frog TKL 8k 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-640.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-0-3cbf6116fa9b-640.avif",
           "width": 640,
           "height": 412
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-1280.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-0-3cbf6116fa9b-1280.avif",
           "width": 1280,
           "height": 825
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-0-2400.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-0-3cbf6116fa9b-2400.avif",
           "width": 2400,
           "height": 1547
         }
@@ -50,17 +88,17 @@
       "alt": "Frog TKL 8k 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-640.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-1-7908b5fb9013-640.avif",
           "width": 640,
           "height": 339
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-1280.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-1-7908b5fb9013-1280.avif",
           "width": 1280,
           "height": 679
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-1-2400.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-1-7908b5fb9013-2400.avif",
           "width": 2400,
           "height": 1273
         }
@@ -70,17 +108,17 @@
       "alt": "Frog TKL 8k 사진 3",
       "variants": [
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-640.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-2-59442077e080-640.avif",
           "width": 640,
           "height": 396
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-1280.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-2-59442077e080-1280.avif",
           "width": 1280,
           "height": 792
         },
         {
-          "src": "/media/keyboards/frog-tkl-8k/a8e53a3a62e1ccee-2-2400.avif",
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-2-59442077e080-2400.avif",
           "width": 2400,
           "height": 1485
         }

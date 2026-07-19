@@ -22,22 +22,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-01-26",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-01-26",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "LCK Retro",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Castor Retro LP 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-retro-lp/5ce147c19e74fbe5-0-640.avif",
+          "src": "/media/keyboards/castor-retro-lp/f3f7cebbf4e7fc1a-source-gallery-0-ae6e97103742-640.avif",
           "width": 640,
           "height": 386
         },
         {
-          "src": "/media/keyboards/castor-retro-lp/5ce147c19e74fbe5-0-1280.avif",
+          "src": "/media/keyboards/castor-retro-lp/f3f7cebbf4e7fc1a-source-gallery-0-ae6e97103742-1280.avif",
           "width": 1280,
           "height": 773
         },
         {
-          "src": "/media/keyboards/castor-retro-lp/5ce147c19e74fbe5-0-2400.avif",
+          "src": "/media/keyboards/castor-retro-lp/f3f7cebbf4e7fc1a-source-gallery-0-ae6e97103742-2400.avif",
           "width": 2400,
           "height": 1449
         }

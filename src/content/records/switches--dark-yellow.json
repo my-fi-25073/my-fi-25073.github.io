@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "dark-yellow",
   "title": "Dark Yellow",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 70g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Dark Yellow 사진 1",
       "variants": [
         {
-          "src": "/media/switches/dark-yellow/29e410a3c615fa4d-0-640.avif",
+          "src": "/media/switches/dark-yellow/b28596fb2808e95e-source-gallery-0-7918d6e572d4-640.avif",
           "width": 640,
           "height": 545
         },
         {
-          "src": "/media/switches/dark-yellow/29e410a3c615fa4d-0-1280.avif",
+          "src": "/media/switches/dark-yellow/b28596fb2808e95e-source-gallery-0-7918d6e572d4-1280.avif",
           "width": 848,
           "height": 722
         }

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "hmx-catmint",
+  "title": "HMX Catmint",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "Sprit Supreme 25g · 스템 Factory Lube · 스프링 No-Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "Sprit Supreme 30g · 스템 Factory Lube · 스프링 No-Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 30g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Catmint 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-0-984b3800d525-640.avif",
+          "width": 592,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "alt": "HMX Catmint 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-1-b41172db2a5c-640.avif",
+          "width": 640,
+          "height": 690
+        },
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-1-b41172db2a5c-1280.avif",
+          "width": 712,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "HMX Catmint 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-2-083ca046e5c8-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-2-083ca046e5c8-1280.avif",
+          "width": 1226,
+          "height": 957
+        }
+      ]
+    },
+    {
+      "alt": "HMX Catmint 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-0-ca7f168ddefe-640.avif",
+          "width": 640,
+          "height": 522
+        },
+        {
+          "src": "/media/switches/hmx-catmint/03b3f24ba68f652d-source-gallery-0-ca7f168ddefe-1280.avif",
+          "width": 1075,
+          "height": 876
+        }
+      ]
+    }
+  ]
+}

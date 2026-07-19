@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "y2",
   "title": "Y2",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 42g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Y2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/y2/431724f902a71942-0-640.avif",
+          "src": "/media/switches/y2/5db3347c6eb3d3a1-source-gallery-0-d0680251b5df-640.avif",
           "width": 640,
           "height": 327
         },
         {
-          "src": "/media/switches/y2/431724f902a71942-0-1280.avif",
+          "src": "/media/switches/y2/5db3347c6eb3d3a1-source-gallery-0-d0680251b5df-1280.avif",
           "width": 715,
           "height": 365
         }
@@ -31,12 +49,12 @@
       "alt": "Y2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/y2/431724f902a71942-1-640.avif",
+          "src": "/media/switches/y2/5db3347c6eb3d3a1-source-gallery-1-25b3da062972-640.avif",
           "width": 640,
           "height": 507
         },
         {
-          "src": "/media/switches/y2/431724f902a71942-1-1280.avif",
+          "src": "/media/switches/y2/5db3347c6eb3d3a1-source-gallery-1-25b3da062972-1280.avif",
           "width": 825,
           "height": 653
         }

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "bsun-factory-spring-62g-8915b00b1be0",
+  "title": "Bsun Factory Spring 62g",
+  "category": "springs",
+  "manufacturer": "Bsun",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "57g",
+  "bottomOutForce": "62g",
+  "length": "20mm",
+  "images": []
+}

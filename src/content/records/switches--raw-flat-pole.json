@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "raw-flat-pole",
   "title": "Raw Flat Pole",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 57.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Raw Flat Pole 사진 1",
       "variants": [
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-0-640.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-0-99716699eed7-640.avif",
           "width": 640,
           "height": 481
         },
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-0-1280.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-0-99716699eed7-1280.avif",
           "width": 763,
           "height": 574
         }
@@ -31,12 +49,12 @@
       "alt": "Raw Flat Pole 사진 2",
       "variants": [
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-1-640.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-1-f4a3cdd93cb1-640.avif",
           "width": 640,
           "height": 478
         },
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-1-1280.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-1-f4a3cdd93cb1-1280.avif",
           "width": 645,
           "height": 482
         }
@@ -46,12 +64,12 @@
       "alt": "Raw Flat Pole 사진 3",
       "variants": [
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-2-640.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-2-c5f94f188b1b-640.avif",
           "width": 640,
           "height": 584
         },
         {
-          "src": "/media/switches/raw-flat-pole/ba808c4a694bd108-2-1280.avif",
+          "src": "/media/switches/raw-flat-pole/6d4feb2491e75d6a-source-gallery-2-c5f94f188b1b-1280.avif",
           "width": 1188,
           "height": 1084
         }

@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:59:14Z",
+  "createdAt": "2026-03-20T11:59:14.641Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Alt Grrrr Addon Beige/WoB 이미지 1",
           "variants": [
             {
-              "src": "/media/alt-grrrr-addon/kit-1053c1cab5c13d47-0-640.avif",
+              "src": "/media/alt-grrrr-addon/kit-d6e11b5ddf4c88ee-source-gallery-0-4e597cf7502f-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/alt-grrrr-addon/kit-1053c1cab5c13d47-0-1280.avif",
+              "src": "/media/alt-grrrr-addon/kit-d6e11b5ddf4c88ee-source-gallery-0-4e597cf7502f-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/alt-grrrr-addon/kit-1053c1cab5c13d47-0-2400.avif",
+              "src": "/media/alt-grrrr-addon/kit-d6e11b5ddf4c88ee-source-gallery-0-4e597cf7502f-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -56,12 +56,12 @@
       "alt": "Alt Grrrr Addon 이미지 1",
       "variants": [
         {
-          "src": "/media/alt-grrrr-addon/series-603ae6e2e90d05c6-0-640.avif",
+          "src": "/media/alt-grrrr-addon/series-10a52800d6e03d01-source-gallery-0-65fe5c7f2960-640.avif",
           "width": 640,
           "height": 497
         },
         {
-          "src": "/media/alt-grrrr-addon/series-603ae6e2e90d05c6-0-1280.avif",
+          "src": "/media/alt-grrrr-addon/series-10a52800d6e03d01-source-gallery-0-65fe5c7f2960-1280.avif",
           "width": 1084,
           "height": 842
         }

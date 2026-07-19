@@ -25,22 +25,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-07-20",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-07-20",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Susu",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Zako34 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/zako34/e347227162d043df-0-640.avif",
+          "src": "/media/keyboards/zako34/6127be9c0cb1a533-source-gallery-0-2a6a484459ef-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/zako34/e347227162d043df-0-1280.avif",
+          "src": "/media/keyboards/zako34/6127be9c0cb1a533-source-gallery-0-2a6a484459ef-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/zako34/e347227162d043df-0-2400.avif",
+          "src": "/media/keyboards/zako34/6127be9c0cb1a533-source-gallery-0-2a6a484459ef-2400.avif",
           "width": 2048,
           "height": 1536
         }

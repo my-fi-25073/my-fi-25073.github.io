@@ -7,7 +7,7 @@
   "manufacturer": "Taobao",
   "series": "Factory",
   "springType": "Multi-Stage",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "28g",
   "length": null,
   "images": []

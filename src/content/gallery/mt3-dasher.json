@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:11:14Z",
+  "createdAt": "2026-03-21T17:11:14.369Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,12 @@
           "alt": "MT3 Dasher Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-dasher/kit-69067c4700a1799c-0-640.avif",
+              "src": "/media/mt3-dasher/kit-823849c5f9641b38-source-gallery-0-3a245366c2ec-640.avif",
               "width": 640,
               "height": 411
             },
             {
-              "src": "/media/mt3-dasher/kit-69067c4700a1799c-0-1280.avif",
+              "src": "/media/mt3-dasher/kit-823849c5f9641b38-source-gallery-0-3a245366c2ec-1280.avif",
               "width": 1044,
               "height": 670
             }
@@ -48,12 +48,12 @@
       "alt": "MT3 Dasher 이미지 1",
       "variants": [
         {
-          "src": "/media/mt3-dasher/series-747b9336d1267db9-0-640.avif",
+          "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-dasher/series-747b9336d1267db9-0-1280.avif",
+          "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -63,17 +63,17 @@
       "alt": "MT3 Dasher 이미지 2",
       "variants": [
         {
-          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-640.avif",
+          "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-1-94fbc879deeb-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-1280.avif",
+          "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-1-94fbc879deeb-1280.avif",
           "width": 1280,
           "height": 816
         },
         {
-          "src": "/media/mt3-dasher/series-747b9336d1267db9-1-2400.avif",
+          "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-1-94fbc879deeb-2400.avif",
           "width": 1998,
           "height": 1274
         }

@@ -7,8 +7,8 @@
   "manufacturer": "Sprit",
   "series": "Slow Extreme 2",
   "springType": "Long",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "45g",
-  "length": null,
+  "length": "17.75mm",
   "images": []
 }

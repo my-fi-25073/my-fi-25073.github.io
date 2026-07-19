@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T17:05:26Z",
+  "createdAt": "2026-03-20T17:05:26.633Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "NTD 30 Lives 이미지 1",
           "variants": [
             {
-              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-640.avif",
+              "src": "/media/ntd/kit-71f373b9cab5003b-source-gallery-0-5399507ffd6e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-1280.avif",
+              "src": "/media/ntd/kit-71f373b9cab5003b-source-gallery-0-5399507ffd6e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/ntd/kit-a51a31d07e19fcf6-0-2400.avif",
+              "src": "/media/ntd/kit-71f373b9cab5003b-source-gallery-0-5399507ffd6e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -62,17 +62,17 @@
           "alt": "NTD Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-640.avif",
+              "src": "/media/ntd/kit-7936e57bd4e06953-source-gallery-0-96200f6736b6-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-1280.avif",
+              "src": "/media/ntd/kit-7936e57bd4e06953-source-gallery-0-96200f6736b6-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/ntd/kit-213bd6e43ba6bddf-0-2400.avif",
+              "src": "/media/ntd/kit-7936e57bd4e06953-source-gallery-0-96200f6736b6-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -92,17 +92,17 @@
           "alt": "NTD Space Bars 이미지 1",
           "variants": [
             {
-              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-640.avif",
+              "src": "/media/ntd/kit-b86552f93fc9727e-source-gallery-0-b9147f4c5ad1-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-1280.avif",
+              "src": "/media/ntd/kit-b86552f93fc9727e-source-gallery-0-b9147f4c5ad1-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/ntd/kit-8c11cee41bfa0c32-0-2400.avif",
+              "src": "/media/ntd/kit-b86552f93fc9727e-source-gallery-0-b9147f4c5ad1-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -116,17 +116,17 @@
       "alt": "NTD 이미지 1",
       "variants": [
         {
-          "src": "/media/ntd/series-6821afbfb04bac5d-0-640.avif",
+          "src": "/media/ntd/series-0cb3c7196e074061-source-gallery-0-c0b6463ac104-640.avif",
           "width": 640,
           "height": 325
         },
         {
-          "src": "/media/ntd/series-6821afbfb04bac5d-0-1280.avif",
+          "src": "/media/ntd/series-0cb3c7196e074061-source-gallery-0-c0b6463ac104-1280.avif",
           "width": 1280,
           "height": 650
         },
         {
-          "src": "/media/ntd/series-6821afbfb04bac5d-0-2400.avif",
+          "src": "/media/ntd/series-0cb3c7196e074061-source-gallery-0-c0b6463ac104-2400.avif",
           "width": 2048,
           "height": 1040
         }

@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "candy-red",
   "title": "Candy Red",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Candy Red 사진 1",
       "variants": [
         {
-          "src": "/media/switches/candy-red/4b9098d231f044ac-0-640.avif",
+          "src": "/media/switches/candy-red/f86de7575d53f0c4-source-gallery-0-1a644153bc24-640.avif",
           "width": 595,
           "height": 448
         }
@@ -26,12 +44,12 @@
       "alt": "Candy Red 사진 2",
       "variants": [
         {
-          "src": "/media/switches/candy-red/4b9098d231f044ac-1-640.avif",
+          "src": "/media/switches/candy-red/f86de7575d53f0c4-source-gallery-1-c85d4416a9ce-640.avif",
           "width": 640,
           "height": 583
         },
         {
-          "src": "/media/switches/candy-red/4b9098d231f044ac-1-1280.avif",
+          "src": "/media/switches/candy-red/f86de7575d53f0c4-source-gallery-1-c85d4416a9ce-1280.avif",
           "width": 1161,
           "height": 1057
         }

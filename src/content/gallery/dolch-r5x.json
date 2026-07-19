@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:05:31Z",
+  "createdAt": "2026-03-20T17:05:31.833Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Dolch R5X Base 이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-0-640.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-0-4be8f726fc98-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-0-4be8f726fc98-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-0-2400.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-0-4be8f726fc98-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -51,17 +51,17 @@
           "alt": "Dolch R5X Base 이미지 2",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-1-640.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-1-db81bac10e9a-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-1-1280.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-1-db81bac10e9a-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dolch-r5x/kit-781ac5ea03f36412-1-2400.avif",
+              "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-1-db81bac10e9a-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -81,17 +81,17 @@
           "alt": "Dolch R5X Monochrome Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-0f08e209a9451264-0-640.avif",
+              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-640.avif",
               "width": 640,
               "height": 408
             },
             {
-              "src": "/media/dolch-r5x/kit-0f08e209a9451264-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-1280.avif",
               "width": 1280,
               "height": 816
             },
             {
-              "src": "/media/dolch-r5x/kit-0f08e209a9451264-0-2400.avif",
+              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-2400.avif",
               "width": 2048,
               "height": 1305
             }
@@ -111,17 +111,17 @@
           "alt": "Dolch R5X Monochrome Novelty 이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-c7eb48013d066d0b-0-640.avif",
+              "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-source-gallery-0-7cf4c2acba38-640.avif",
               "width": 640,
               "height": 406
             },
             {
-              "src": "/media/dolch-r5x/kit-c7eb48013d066d0b-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-source-gallery-0-7cf4c2acba38-1280.avif",
               "width": 1280,
               "height": 813
             },
             {
-              "src": "/media/dolch-r5x/kit-c7eb48013d066d0b-0-2400.avif",
+              "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-source-gallery-0-7cf4c2acba38-2400.avif",
               "width": 2048,
               "height": 1300
             }
@@ -131,22 +131,22 @@
     },
     {
       "slug": "r5-extension",
-      "title": "R5 Extension",
+      "title": "R5 Extension ",
       "kittingTypes": [
         "Child - Extension"
       ],
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5 Extension 이미지 1",
+          "alt": "Dolch R5X R5 Extension  이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-58da2f9d99c16e22-0-640.avif",
+              "src": "/media/dolch-r5x/kit-e8a31db777ce2b24-source-gallery-0-4116202a2a66-640.avif",
               "width": 640,
               "height": 841
             },
             {
-              "src": "/media/dolch-r5x/kit-58da2f9d99c16e22-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-e8a31db777ce2b24-source-gallery-0-4116202a2a66-1280.avif",
               "width": 1032,
               "height": 1356
             }
@@ -155,60 +155,60 @@
       ]
     },
     {
-      "slug": "r5x-extension-01ede97117d6",
-      "title": "R5X Extension",
+      "slug": "r5x-extension-7ec535a165a4",
+      "title": "R5X Extension ",
       "kittingTypes": [
         "Child - Extension"
       ],
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5X Extension 이미지 1",
+          "alt": "Dolch R5X R5X Extension  이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-01ede97117d6e420-0-640.avif",
+              "src": "/media/dolch-r5x/kit-7ec535a165a472f0-source-gallery-0-b19314d36bbf-640.avif",
               "width": 640,
-              "height": 488
+              "height": 500
             },
             {
-              "src": "/media/dolch-r5x/kit-01ede97117d6e420-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-7ec535a165a472f0-source-gallery-0-b19314d36bbf-1280.avif",
               "width": 1280,
-              "height": 976
+              "height": 999
             },
             {
-              "src": "/media/dolch-r5x/kit-01ede97117d6e420-0-2400.avif",
-              "width": 1618,
-              "height": 1234
+              "src": "/media/dolch-r5x/kit-7ec535a165a472f0-source-gallery-0-b19314d36bbf-2400.avif",
+              "width": 1586,
+              "height": 1238
             }
           ]
         }
       ]
     },
     {
-      "slug": "r5x-extension-efc68d616b41",
-      "title": "R5X Extension",
+      "slug": "r5x-extension-03a1deab8556",
+      "title": "R5X Extension ",
       "kittingTypes": [
         "Child - Extension"
       ],
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5X Extension 이미지 1",
+          "alt": "Dolch R5X R5X Extension  이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-efc68d616b416599-0-640.avif",
+              "src": "/media/dolch-r5x/kit-03a1deab85563307-source-gallery-0-e3f1ee4f4cab-640.avif",
               "width": 640,
-              "height": 500
+              "height": 488
             },
             {
-              "src": "/media/dolch-r5x/kit-efc68d616b416599-0-1280.avif",
+              "src": "/media/dolch-r5x/kit-03a1deab85563307-source-gallery-0-e3f1ee4f4cab-1280.avif",
               "width": 1280,
-              "height": 999
+              "height": 976
             },
             {
-              "src": "/media/dolch-r5x/kit-efc68d616b416599-0-2400.avif",
-              "width": 1586,
-              "height": 1238
+              "src": "/media/dolch-r5x/kit-03a1deab85563307-source-gallery-0-e3f1ee4f4cab-2400.avif",
+              "width": 1618,
+              "height": 1234
             }
           ]
         }
@@ -220,17 +220,17 @@
       "alt": "Dolch R5X 이미지 1",
       "variants": [
         {
-          "src": "/media/dolch-r5x/series-f504bbb9ec1716d5-0-640.avif",
+          "src": "/media/dolch-r5x/series-e9b043baa19a29fe-source-gallery-0-cdb5c89989b7-640.avif",
           "width": 640,
           "height": 577
         },
         {
-          "src": "/media/dolch-r5x/series-f504bbb9ec1716d5-0-1280.avif",
+          "src": "/media/dolch-r5x/series-e9b043baa19a29fe-source-gallery-0-cdb5c89989b7-1280.avif",
           "width": 1280,
           "height": 1155
         },
         {
-          "src": "/media/dolch-r5x/series-f504bbb9ec1716d5-0-2400.avif",
+          "src": "/media/dolch-r5x/series-e9b043baa19a29fe-source-gallery-0-cdb5c89989b7-2400.avif",
           "width": 1470,
           "height": 1326
         }

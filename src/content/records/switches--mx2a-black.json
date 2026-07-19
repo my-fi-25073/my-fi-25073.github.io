@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "mx2a-black",
+  "title": "MX2A Black",
+  "category": "switches",
+  "familyKind": "commercial",
+  "recipeStatus": "not_applicable",
+  "variants": [
+    {
+      "label": "25g · stem 205g2 / spring 105",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      }
+    },
+    {
+      "label": "25g · stem/spring 205g0",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      }
+    },
+    {
+      "label": "35g · AF206",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "35g · Z15 + GR M07",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "35g · Z15 + GR M07 · GLM",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "glue_marker",
+        "material": null
+      }
+    },
+    {
+      "label": "50g · AF206",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "55g · DRI-KOTE DL 116Y",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "60g · 107",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "63.5g · No-Lube stem",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "63.5g · S3",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Slow Extreme 3 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MX2A Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-adffe50b8b7d-640.avif",
+          "width": 640,
+          "height": 595
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-adffe50b8b7d-1280.avif",
+          "width": 1029,
+          "height": 957
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-1-902cc34f827d-640.avif",
+          "width": 640,
+          "height": 491
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-1-902cc34f827d-1280.avif",
+          "width": 1159,
+          "height": 889
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-2-5dfcda0b9df0-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-2-5dfcda0b9df0-1280.avif",
+          "width": 1280,
+          "height": 1057
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-2-5dfcda0b9df0-2400.avif",
+          "width": 1327,
+          "height": 1096
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-0a728faf9b3a-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-0a728faf9b3a-1280.avif",
+          "width": 1280,
+          "height": 921
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-0a728faf9b3a-2400.avif",
+          "width": 2400,
+          "height": 1728
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 5",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-0a6830840ac5-640.avif",
+          "width": 640,
+          "height": 466
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-0a6830840ac5-1280.avif",
+          "width": 1153,
+          "height": 839
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 6",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-2a1a953a8cf5-640.avif",
+          "width": 640,
+          "height": 424
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-2a1a953a8cf5-1280.avif",
+          "width": 1157,
+          "height": 767
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 7",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-24fe57dee319-640.avif",
+          "width": 640,
+          "height": 451
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-24fe57dee319-1280.avif",
+          "width": 1280,
+          "height": 901
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-24fe57dee319-2400.avif",
+          "width": 2400,
+          "height": 1690
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 8",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-eba78a917aae-640.avif",
+          "width": 640,
+          "height": 450
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-eba78a917aae-1280.avif",
+          "width": 1152,
+          "height": 810
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 9",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-04dfaaad9e02-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-04dfaaad9e02-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-04dfaaad9e02-2400.avif",
+          "width": 2400,
+          "height": 1781
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 10",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-3cbcd247b54c-640.avif",
+          "width": 640,
+          "height": 487
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-3cbcd247b54c-1280.avif",
+          "width": 1280,
+          "height": 974
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-3cbcd247b54c-2400.avif",
+          "width": 2400,
+          "height": 1826
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Black 사진 11",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-c9d6678ca912-640.avif",
+          "width": 640,
+          "height": 449
+        },
+        {
+          "src": "/media/switches/mx2a-black/81543060c8b14cf7-source-gallery-0-c9d6678ca912-1280.avif",
+          "width": 1130,
+          "height": 792
+        }
+      ]
+    }
+  ]
+}

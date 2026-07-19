@@ -27,22 +27,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-08-02",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-08-02",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "CLP Custom Black Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Mitt 38 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-640.avif",
+          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-1280.avif",
+          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/mitt-38/54c40b0a138f8c42-0-2400.avif",
+          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-2400.avif",
           "width": 2048,
           "height": 1536
         }

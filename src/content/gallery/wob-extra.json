@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T16:57:16Z",
+  "createdAt": "2026-03-20T16:57:16.207Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "WoB Extra Colorchorome Black 40s Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-640.avif",
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-1280.avif",
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-7056fe65ace1e6db-0-2400.avif",
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "WoB Extra JIS Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-640.avif",
+              "src": "/media/wob-extra/kit-1c70e596490271d2-source-gallery-0-9b99a16624fb-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-1280.avif",
+              "src": "/media/wob-extra/kit-1c70e596490271d2-source-gallery-0-9b99a16624fb-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-130456cbb3b1647e-0-2400.avif",
+              "src": "/media/wob-extra/kit-1c70e596490271d2-source-gallery-0-9b99a16624fb-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "slug": "mictlan-space-bar-7a2b75404eda",
+      "slug": "mictlan-space-bar-dd6056e9c61a",
       "title": "Mictlan Space Bar",
       "kittingTypes": [
         "Child - Spacebars"
@@ -91,17 +91,17 @@
           "alt": "WoB Extra Mictlan Space Bar 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-640.avif",
+              "src": "/media/wob-extra/kit-dd6056e9c61a16c7-source-gallery-0-091b3bee3054-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-1280.avif",
+              "src": "/media/wob-extra/kit-dd6056e9c61a16c7-source-gallery-0-091b3bee3054-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-7a2b75404edadaa4-0-2400.avif",
+              "src": "/media/wob-extra/kit-dd6056e9c61a16c7-source-gallery-0-091b3bee3054-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "slug": "mictlan-space-bar-0b22526f1479",
+      "slug": "mictlan-space-bar-e4dc86f1db22",
       "title": "Mictlan Space Bar",
       "kittingTypes": [
         "Child - Spacebars"
@@ -121,17 +121,17 @@
           "alt": "WoB Extra Mictlan Space Bar 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-0b22526f147996b2-0-640.avif",
+              "src": "/media/wob-extra/kit-e4dc86f1db228e38-source-gallery-0-091b3bee3054-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-0b22526f147996b2-0-1280.avif",
+              "src": "/media/wob-extra/kit-e4dc86f1db228e38-source-gallery-0-091b3bee3054-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-0b22526f147996b2-0-2400.avif",
+              "src": "/media/wob-extra/kit-e4dc86f1db228e38-source-gallery-0-091b3bee3054-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -151,17 +151,17 @@
           "alt": "WoB Extra WoB Base (Drop) 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-640.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-1280.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-2ecfd1f2ade79e79-0-2400.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -181,12 +181,12 @@
           "alt": "WoB Extra WoB Red Cyrilic Icon Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-329ba88fb0cfe427-0-640.avif",
+              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-640.avif",
               "width": 640,
               "height": 456
             },
             {
-              "src": "/media/wob-extra/kit-329ba88fb0cfe427-0-1280.avif",
+              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-1280.avif",
               "width": 903,
               "height": 644
             }
@@ -206,17 +206,17 @@
           "alt": "WoB Extra WoB Swiss Add on 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-extra/kit-45bb79415a492390-0-640.avif",
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-45bb79415a492390-0-1280.avif",
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-45bb79415a492390-0-2400.avif",
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -230,17 +230,17 @@
       "alt": "WoB Extra 이미지 1",
       "variants": [
         {
-          "src": "/media/wob-extra/series-1ad948931633c89b-0-640.avif",
+          "src": "/media/wob-extra/series-29c66d87ff9c001c-source-gallery-0-e2360e613634-640.avif",
           "width": 640,
           "height": 444
         },
         {
-          "src": "/media/wob-extra/series-1ad948931633c89b-0-1280.avif",
+          "src": "/media/wob-extra/series-29c66d87ff9c001c-source-gallery-0-e2360e613634-1280.avif",
           "width": 1280,
           "height": 889
         },
         {
-          "src": "/media/wob-extra/series-1ad948931633c89b-0-2400.avif",
+          "src": "/media/wob-extra/series-29c66d87ff9c001c-source-gallery-0-e2360e613634-2400.avif",
           "width": 2048,
           "height": 1422
         }

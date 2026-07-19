@@ -23,22 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-06-28",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-06-28",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Verdant Retro",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Think 6.5 v3 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-0-640.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-0-0bfe12fe9f21-640.avif",
           "width": 640,
           "height": 379
         },
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-0-1280.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-0-0bfe12fe9f21-1280.avif",
           "width": 1280,
           "height": 758
         },
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-0-2400.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-0-0bfe12fe9f21-2400.avif",
           "width": 2400,
           "height": 1422
         }
@@ -48,17 +61,17 @@
       "alt": "Think 6.5 v3 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-1-640.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-1-d98bb7a57350-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-1-1280.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-1-d98bb7a57350-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/think-6-5-v3/85f112e4fc40fec3-1-2400.avif",
+          "src": "/media/keyboards/think-6-5-v3/3e98af1ff868a777-source-gallery-1-d98bb7a57350-2400.avif",
           "width": 2400,
           "height": 1800
         }

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "mz-y3",
+  "title": "MZ y3",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "Factory OG 37g(partial) · 스템 Factory Lube · 스프링 Factory Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 37g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "Factory OG 45g(partial) · 스템 Factory Lube · 스프링 Factory Lube",
+      "reference": false,
+      "rating": 2,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "Sprit Supreme 30g · 스템 Factory Lube · 스프링 No-Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 30g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MZ y3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-93272f38e90c-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-93272f38e90c-1280.avif",
+          "width": 1030,
+          "height": 645
+        }
+      ]
+    },
+    {
+      "alt": "MZ y3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-1-88dffb85dfed-640.avif",
+          "width": 640,
+          "height": 588
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-1-88dffb85dfed-1280.avif",
+          "width": 1280,
+          "height": 1175
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-1-88dffb85dfed-2400.avif",
+          "width": 1322,
+          "height": 1214
+        }
+      ]
+    },
+    {
+      "alt": "MZ y3 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-557e47bd78a6-640.avif",
+          "width": 640,
+          "height": 517
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-557e47bd78a6-1280.avif",
+          "width": 705,
+          "height": 570
+        }
+      ]
+    },
+    {
+      "alt": "MZ y3 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-1-403b9149cc25-640.avif",
+          "width": 640,
+          "height": 811
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-1-403b9149cc25-1280.avif",
+          "width": 1161,
+          "height": 1471
+        }
+      ]
+    },
+    {
+      "alt": "MZ y3 사진 5",
+      "variants": [
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-557e1955f3c5-640.avif",
+          "width": 640,
+          "height": 393
+        },
+        {
+          "src": "/media/switches/mz-y3/d7c49835995e8eb2-source-gallery-0-557e1955f3c5-1280.avif",
+          "width": 1059,
+          "height": 650
+        }
+      ]
+    }
+  ]
+}

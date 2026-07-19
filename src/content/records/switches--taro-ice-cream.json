@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "taro-ice-cream",
   "title": "Taro Ice Cream",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Taro Ice Cream 사진 1",
       "variants": [
         {
-          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-0-640.avif",
+          "src": "/media/switches/taro-ice-cream/1bb22926ebd6a303-source-gallery-0-5f9cd6fe17d2-640.avif",
           "width": 640,
           "height": 567
         },
         {
-          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-0-1280.avif",
+          "src": "/media/switches/taro-ice-cream/1bb22926ebd6a303-source-gallery-0-5f9cd6fe17d2-1280.avif",
           "width": 665,
           "height": 589
         }
@@ -31,12 +49,12 @@
       "alt": "Taro Ice Cream 사진 2",
       "variants": [
         {
-          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-1-640.avif",
+          "src": "/media/switches/taro-ice-cream/1bb22926ebd6a303-source-gallery-1-4174a041d4c9-640.avif",
           "width": 640,
           "height": 670
         },
         {
-          "src": "/media/switches/taro-ice-cream/f8d72c693fff6f1a-1-1280.avif",
+          "src": "/media/switches/taro-ice-cream/1bb22926ebd6a303-source-gallery-1-4174a041d4c9-1280.avif",
           "width": 1032,
           "height": 1080
         }

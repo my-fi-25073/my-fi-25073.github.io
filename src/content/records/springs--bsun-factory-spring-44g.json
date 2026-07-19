@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "bsun-factory-spring-44g",
+  "title": "Bsun Factory Spring 44g",
+  "category": "springs",
+  "manufacturer": "Bsun",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "44g",
+  "length": "21mm",
+  "images": []
+}

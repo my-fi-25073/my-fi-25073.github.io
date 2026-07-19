@@ -24,22 +24,55 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-09-06",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-09-06",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (GMK)",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.5 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-5/eed2732ec5b103e2-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-5/d52ecd6ff8033c8c-source-gallery-0-b5c31bc4d20c-640.avif",
           "width": 640,
           "height": 457
         },
         {
-          "src": "/media/keyboards/transition-lite-no-5/eed2732ec5b103e2-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-5/d52ecd6ff8033c8c-source-gallery-0-b5c31bc4d20c-1280.avif",
           "width": 1280,
           "height": 915
         },
         {
-          "src": "/media/keyboards/transition-lite-no-5/eed2732ec5b103e2-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-5/d52ecd6ff8033c8c-source-gallery-0-b5c31bc4d20c-2400.avif",
           "width": 2400,
           "height": 1716
         }

@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sp-star-meteor-white-v2",
   "title": "SP-Star Meteor White V2",
   "category": "switches",
-  "manufacturer": "JWK",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 57g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "SP-Star Meteor White V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sp-star-meteor-white-v2/97a669827438e72d-0-640.avif",
+          "src": "/media/switches/sp-star-meteor-white-v2/dba89d8d08c63911-source-gallery-0-4f2aa8bb7e80-640.avif",
           "width": 640,
           "height": 421
         },
         {
-          "src": "/media/switches/sp-star-meteor-white-v2/97a669827438e72d-0-1280.avif",
+          "src": "/media/switches/sp-star-meteor-white-v2/dba89d8d08c63911-source-gallery-0-4f2aa8bb7e80-1280.avif",
           "width": 1280,
           "height": 842
         },
         {
-          "src": "/media/switches/sp-star-meteor-white-v2/97a669827438e72d-0-2400.avif",
+          "src": "/media/switches/sp-star-meteor-white-v2/dba89d8d08c63911-source-gallery-0-4f2aa8bb7e80-2400.avif",
           "width": 2061,
           "height": 1355
         }

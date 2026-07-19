@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "hmx-factory-spring-58g-1f23fc7ecec6",
+  "title": "HMX Factory Spring 58g",
+  "category": "springs",
+  "manufacturer": "HMX",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "58g",
+  "length": "22mm",
+  "images": []
+}

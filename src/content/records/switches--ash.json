@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ash",
   "title": "Ash",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Ash 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ash/483f87454ff4b7a2-0-640.avif",
+          "src": "/media/switches/ash/88ccb098068257ed-source-gallery-0-96d4e33f7dd9-640.avif",
           "width": 640,
           "height": 477
         },
         {
-          "src": "/media/switches/ash/483f87454ff4b7a2-0-1280.avif",
+          "src": "/media/switches/ash/88ccb098068257ed-source-gallery-0-96d4e33f7dd9-1280.avif",
           "width": 712,
           "height": 531
         }
@@ -31,12 +49,12 @@
       "alt": "Ash 사진 2",
       "variants": [
         {
-          "src": "/media/switches/ash/483f87454ff4b7a2-1-640.avif",
+          "src": "/media/switches/ash/88ccb098068257ed-source-gallery-1-1982ed1f0337-640.avif",
           "width": 640,
           "height": 783
         },
         {
-          "src": "/media/switches/ash/483f87454ff4b7a2-1-1280.avif",
+          "src": "/media/switches/ash/88ccb098068257ed-source-gallery-1-1982ed1f0337-1280.avif",
           "width": 1214,
           "height": 1486
         }

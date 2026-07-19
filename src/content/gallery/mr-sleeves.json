@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:05:51Z",
+  "createdAt": "2026-03-20T17:05:51.956Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Mr. Sleeves New Sleeves 이미지 1",
           "variants": [
             {
-              "src": "/media/mr-sleeves/kit-c223e9f17f72c6e6-0-640.avif",
+              "src": "/media/mr-sleeves/kit-6c30b0be699f5ea3-source-gallery-0-1f6aeda41615-640.avif",
               "width": 640,
               "height": 411
             },
             {
-              "src": "/media/mr-sleeves/kit-c223e9f17f72c6e6-0-1280.avif",
+              "src": "/media/mr-sleeves/kit-6c30b0be699f5ea3-source-gallery-0-1f6aeda41615-1280.avif",
               "width": 1280,
               "height": 821
             },
             {
-              "src": "/media/mr-sleeves/kit-c223e9f17f72c6e6-0-2400.avif",
+              "src": "/media/mr-sleeves/kit-6c30b0be699f5ea3-source-gallery-0-1f6aeda41615-2400.avif",
               "width": 1992,
               "height": 1278
             }
@@ -61,17 +61,17 @@
           "alt": "Mr. Sleeves Original Sleeves 이미지 1",
           "variants": [
             {
-              "src": "/media/mr-sleeves/kit-4d6227057a0f8ece-0-640.avif",
+              "src": "/media/mr-sleeves/kit-2f8f24b0c123646d-source-gallery-0-8935065f488a-640.avif",
               "width": 640,
               "height": 454
             },
             {
-              "src": "/media/mr-sleeves/kit-4d6227057a0f8ece-0-1280.avif",
+              "src": "/media/mr-sleeves/kit-2f8f24b0c123646d-source-gallery-0-8935065f488a-1280.avif",
               "width": 1280,
               "height": 908
             },
             {
-              "src": "/media/mr-sleeves/kit-4d6227057a0f8ece-0-2400.avif",
+              "src": "/media/mr-sleeves/kit-2f8f24b0c123646d-source-gallery-0-8935065f488a-2400.avif",
               "width": 1605,
               "height": 1139
             }
@@ -85,17 +85,17 @@
       "alt": "Mr. Sleeves 이미지 1",
       "variants": [
         {
-          "src": "/media/mr-sleeves/series-6513c9a3534652ed-0-640.avif",
+          "src": "/media/mr-sleeves/series-95270a92193de70d-source-gallery-0-c7b17a110421-640.avif",
           "width": 640,
           "height": 454
         },
         {
-          "src": "/media/mr-sleeves/series-6513c9a3534652ed-0-1280.avif",
+          "src": "/media/mr-sleeves/series-95270a92193de70d-source-gallery-0-c7b17a110421-1280.avif",
           "width": 1280,
           "height": 909
         },
         {
-          "src": "/media/mr-sleeves/series-6513c9a3534652ed-0-2400.avif",
+          "src": "/media/mr-sleeves/series-95270a92193de70d-source-gallery-0-c7b17a110421-2400.avif",
           "width": 1876,
           "height": 1332
         }

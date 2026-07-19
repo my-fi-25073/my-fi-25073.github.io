@@ -8,7 +8,7 @@
   "profile": "CLP",
   "manufacturingProcess": "3D Print",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-24T12:25:03Z",
+  "createdAt": "2026-03-24T12:25:03.192Z",
   "materials": [],
   "colors": [],
   "compatibility": [
@@ -28,17 +28,37 @@
           "alt": "CLP Blanks CLP Custom Black Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-640.avif",
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-1280.avif",
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/clp-blanks/kit-c13cf20b08843bc6-0-2400.avif",
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "CLP Blanks CLP Custom Black Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -58,17 +78,37 @@
           "alt": "CLP Blanks CLP Custom Transparent Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/clp-blanks/kit-06f92d6557279465-0-640.avif",
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/clp-blanks/kit-06f92d6557279465-0-1280.avif",
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/clp-blanks/kit-06f92d6557279465-0-2400.avif",
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "CLP Blanks CLP Custom Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -82,17 +122,17 @@
       "alt": "CLP Blanks 이미지 1",
       "variants": [
         {
-          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-640.avif",
+          "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-640.avif",
           "width": 640,
           "height": 418
         },
         {
-          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-1280.avif",
+          "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-1280.avif",
           "width": 1280,
           "height": 835
         },
         {
-          "src": "/media/clp-blanks/series-e0cac7886a30f29b-0-2400.avif",
+          "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-2400.avif",
           "width": 1658,
           "height": 1082
         }

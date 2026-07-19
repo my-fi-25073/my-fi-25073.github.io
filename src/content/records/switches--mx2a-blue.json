@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-blue",
   "title": "MX2A Blue",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 65g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Blue 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-0-640.avif",
+          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-0-05aacfc0c2b5-640.avif",
           "width": 201,
           "height": 206
         }
@@ -26,12 +44,12 @@
       "alt": "MX2A Blue 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-1-640.avif",
+          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-1-5f164c5b6cfe-640.avif",
           "width": 640,
           "height": 756
         },
         {
-          "src": "/media/switches/mx2a-blue/417ea5d7aac6fdfb-1-1280.avif",
+          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-1-5f164c5b6cfe-1280.avif",
           "width": 1223,
           "height": 1445
         }

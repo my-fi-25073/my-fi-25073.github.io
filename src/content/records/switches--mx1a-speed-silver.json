@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-speed-silver",
   "title": "MX1A Speed Silver",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Speed Silver 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-speed-silver/a91c64805b48bdf7-0-640.avif",
+          "src": "/media/switches/mx1a-speed-silver/79334a1cab34d6ef-source-gallery-0-7c2c8c9b0cd6-640.avif",
           "width": 640,
           "height": 429
         },
         {
-          "src": "/media/switches/mx1a-speed-silver/a91c64805b48bdf7-0-1280.avif",
+          "src": "/media/switches/mx1a-speed-silver/79334a1cab34d6ef-source-gallery-0-7c2c8c9b0cd6-1280.avif",
           "width": 988,
           "height": 663
         }
@@ -31,12 +49,12 @@
       "alt": "MX1A Speed Silver 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-speed-silver/a91c64805b48bdf7-1-640.avif",
+          "src": "/media/switches/mx1a-speed-silver/79334a1cab34d6ef-source-gallery-1-c80d9f597c4d-640.avif",
           "width": 640,
           "height": 395
         },
         {
-          "src": "/media/switches/mx1a-speed-silver/a91c64805b48bdf7-1-1280.avif",
+          "src": "/media/switches/mx1a-speed-silver/79334a1cab34d6ef-source-gallery-1-c80d9f597c4d-1280.avif",
           "width": 780,
           "height": 481
         }

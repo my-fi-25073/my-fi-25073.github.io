@@ -25,22 +25,35 @@
   "foams": [
     "하우징 폼"
   ],
+  "build": {
+    "label": "2024-07-23",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-07-23",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "LotR Elvish",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Neo Ergo 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-640.avif",
+          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-1280.avif",
+          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/neo-ergo/bbe490a51bd18178-0-2400.avif",
+          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-2400.avif",
           "width": 2400,
           "height": 1800
         }

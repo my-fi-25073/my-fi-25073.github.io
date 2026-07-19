@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nap",
   "title": "NAP",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 43g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NAP 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nap/7bf3e7995560f657-0-640.avif",
+          "src": "/media/switches/nap/28f1bf64545f8174-source-gallery-0-18c0386621f1-640.avif",
           "width": 640,
           "height": 486
         },
         {
-          "src": "/media/switches/nap/7bf3e7995560f657-0-1280.avif",
+          "src": "/media/switches/nap/28f1bf64545f8174-source-gallery-0-18c0386621f1-1280.avif",
           "width": 718,
           "height": 545
         }
@@ -31,12 +49,12 @@
       "alt": "NAP 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nap/7bf3e7995560f657-1-640.avif",
+          "src": "/media/switches/nap/28f1bf64545f8174-source-gallery-1-c4119c6b5e80-640.avif",
           "width": 640,
           "height": 837
         },
         {
-          "src": "/media/switches/nap/7bf3e7995560f657-1-1280.avif",
+          "src": "/media/switches/nap/28f1bf64545f8174-source-gallery-1-c4119c6b5e80-1280.avif",
           "width": 1177,
           "height": 1540
         }

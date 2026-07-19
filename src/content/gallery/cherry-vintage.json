@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:52:25Z",
+  "createdAt": "2026-03-20T11:52:25.138Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Cherry Vintage Beige 8u Space Bar 이미지 1",
           "variants": [
             {
-              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-640.avif",
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-1280.avif",
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/cherry-vintage/kit-a3065a23c82532d3-0-2400.avif",
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "Cherry Vintage G80-9009HAG Accent 이미지 1",
           "variants": [
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-640.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-0-eec3687cc4ac-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-1280.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-0-eec3687cc4ac-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-0-2400.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-0-eec3687cc4ac-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -81,17 +81,17 @@
           "alt": "Cherry Vintage G80-9009HAG Accent 이미지 2",
           "variants": [
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-640.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-1-e01a90377b46-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-1280.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-1-e01a90377b46-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/cherry-vintage/kit-2d50b08d78a98f9d-1-2400.avif",
+              "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-1-e01a90377b46-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -105,17 +105,17 @@
       "alt": "Cherry Vintage 이미지 1",
       "variants": [
         {
-          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-640.avif",
+          "src": "/media/cherry-vintage/series-0e16d9704ac6102d-source-gallery-0-87cca4665ad1-640.avif",
           "width": 640,
           "height": 357
         },
         {
-          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-1280.avif",
+          "src": "/media/cherry-vintage/series-0e16d9704ac6102d-source-gallery-0-87cca4665ad1-1280.avif",
           "width": 1280,
           "height": 715
         },
         {
-          "src": "/media/cherry-vintage/series-767e2e4e2fbdef00-0-2400.avif",
+          "src": "/media/cherry-vintage/series-0e16d9704ac6102d-source-gallery-0-87cca4665ad1-2400.avif",
           "width": 1734,
           "height": 968
         }

@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lofree-hades",
   "title": "Lofree Hades",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lofree Hades 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-0-640.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-0-30970e048b2a-640.avif",
           "width": 640,
           "height": 537
         },
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-0-1280.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-0-30970e048b2a-1280.avif",
           "width": 1186,
           "height": 996
         }
@@ -32,12 +50,12 @@
       "alt": "Lofree Hades 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-1-640.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-1-b56fc1e168a5-640.avif",
           "width": 640,
           "height": 314
         },
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-1-1280.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-1-b56fc1e168a5-1280.avif",
           "width": 1038,
           "height": 510
         }
@@ -47,17 +65,17 @@
       "alt": "Lofree Hades 사진 3",
       "variants": [
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-2-640.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-2-3543b822f81d-640.avif",
           "width": 640,
           "height": 568
         },
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-2-1280.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-2-3543b822f81d-1280.avif",
           "width": 1280,
           "height": 1136
         },
         {
-          "src": "/media/switches/lofree-hades/73da58c96fa3b67f-2-2400.avif",
+          "src": "/media/switches/lofree-hades/d0797468b09cf3eb-source-gallery-2-3543b822f81d-2400.avif",
           "width": 1366,
           "height": 1212
         }

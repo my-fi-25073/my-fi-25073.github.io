@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "beige-add-on",
-  "title": "Beige Add On",
+  "title": "Beige Add On ",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:51:33Z",
+  "createdAt": "2026-03-20T11:51:33.561Z",
   "materials": [
     "ABS"
   ],
@@ -21,27 +21,27 @@
   "kits": [
     {
       "slug": "2002",
-      "title": "2002",
+      "title": "2002 ",
       "kittingTypes": [
         "Accent - RGB"
       ],
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On 2002 이미지 1",
+          "alt": "Beige Add On  2002  이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-640.avif",
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-640.avif",
               "width": 640,
               "height": 853
             },
             {
-              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-1280.avif",
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-1280.avif",
               "width": 1280,
               "height": 1707
             },
             {
-              "src": "/media/beige-add-on/kit-23e2a990bf742824-0-2400.avif",
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-2400.avif",
               "width": 2048,
               "height": 2731
             }
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "slug": "40s-71a98bd8546c",
+      "slug": "40s-d1e157550666",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -58,20 +58,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On 40s 이미지 1",
+          "alt": "Beige Add On  40s 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-640.avif",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-640.avif",
               "width": 640,
               "height": 910
             },
             {
-              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-1280.avif",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-1280.avif",
               "width": 1280,
               "height": 1820
             },
             {
-              "src": "/media/beige-add-on/kit-71a98bd8546c6e75-0-2400.avif",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-2400.avif",
               "width": 1498,
               "height": 2130
             }
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "slug": "40s-9d0661c3370b",
+      "slug": "40s-8938fbc8f457",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -88,20 +88,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On 40s 이미지 1",
+          "alt": "Beige Add On  40s 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-640.avif",
+              "src": "/media/beige-add-on/kit-8938fbc8f457c8eb-source-gallery-0-fdf9c7013ab2-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-1280.avif",
+              "src": "/media/beige-add-on/kit-8938fbc8f457c8eb-source-gallery-0-fdf9c7013ab2-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-add-on/kit-9d0661c3370b9b9a-0-2400.avif",
+              "src": "/media/beige-add-on/kit-8938fbc8f457c8eb-source-gallery-0-fdf9c7013ab2-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "slug": "40s-b6fc5f65a32d",
+      "slug": "40s-8598616255b0",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -118,20 +118,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On 40s 이미지 1",
+          "alt": "Beige Add On  40s 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-640.avif",
+              "src": "/media/beige-add-on/kit-8598616255b076a6-source-gallery-0-6a3856929b81-640.avif",
               "width": 640,
               "height": 922
             },
             {
-              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-1280.avif",
+              "src": "/media/beige-add-on/kit-8598616255b076a6-source-gallery-0-6a3856929b81-1280.avif",
               "width": 1280,
               "height": 1843
             },
             {
-              "src": "/media/beige-add-on/kit-b6fc5f65a32d2c87-0-2400.avif",
+              "src": "/media/beige-add-on/kit-8598616255b076a6-source-gallery-0-6a3856929b81-2400.avif",
               "width": 1522,
               "height": 2192
             }
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "slug": "40s-ac70d6817684",
+      "slug": "40s-d7ad87ed6cb7",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -148,20 +148,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On 40s 이미지 1",
+          "alt": "Beige Add On  40s 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-640.avif",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-640.avif",
               "width": 640,
               "height": 922
             },
             {
-              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-1280.avif",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-1280.avif",
               "width": 1280,
               "height": 1843
             },
             {
-              "src": "/media/beige-add-on/kit-ac70d6817684bef6-0-2400.avif",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-2400.avif",
               "width": 1522,
               "height": 2192
             }
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "slug": "addition-7f569a13ddda",
+      "slug": "addition-ad7dee749b6f",
       "title": "Addition",
       "kittingTypes": [
         "Accent - Vim",
@@ -179,20 +179,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On Addition 이미지 1",
+          "alt": "Beige Add On  Addition 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-640.avif",
+              "src": "/media/beige-add-on/kit-ad7dee749b6f6213-source-gallery-0-5fa44297a16f-640.avif",
               "width": 640,
               "height": 418
             },
             {
-              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-1280.avif",
+              "src": "/media/beige-add-on/kit-ad7dee749b6f6213-source-gallery-0-5fa44297a16f-1280.avif",
               "width": 1280,
               "height": 836
             },
             {
-              "src": "/media/beige-add-on/kit-7f569a13dddae281-0-2400.avif",
+              "src": "/media/beige-add-on/kit-ad7dee749b6f6213-source-gallery-0-5fa44297a16f-2400.avif",
               "width": 2048,
               "height": 1338
             }
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "slug": "addition-7b9237ef44d8",
+      "slug": "addition-9de483597dc4",
       "title": "Addition",
       "kittingTypes": [
         "Accent - Vim",
@@ -210,15 +210,15 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On Addition 이미지 1",
+          "alt": "Beige Add On  Addition 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-7b9237ef44d82f38-0-640.avif",
+              "src": "/media/beige-add-on/kit-9de483597dc4dc67-source-gallery-0-ec7e0bb7345a-640.avif",
               "width": 640,
               "height": 726
             },
             {
-              "src": "/media/beige-add-on/kit-7b9237ef44d82f38-0-1280.avif",
+              "src": "/media/beige-add-on/kit-9de483597dc4dc67-source-gallery-0-ec7e0bb7345a-1280.avif",
               "width": 1162,
               "height": 1318
             }
@@ -235,15 +235,15 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On CMYK 이미지 1",
+          "alt": "Beige Add On  CMYK 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-3c6794f494aa555d-0-640.avif",
+              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-640.avif",
               "width": 640,
               "height": 488
             },
             {
-              "src": "/media/beige-add-on/kit-3c6794f494aa555d-0-1280.avif",
+              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-1280.avif",
               "width": 906,
               "height": 691
             }
@@ -261,20 +261,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On R0 & R5 이미지 1",
+          "alt": "Beige Add On  R0 & R5 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-640.avif",
+              "src": "/media/beige-add-on/kit-694b09bbe5e0f4f5-source-gallery-0-a42ccddff03e-640.avif",
               "width": 640,
               "height": 948
             },
             {
-              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-1280.avif",
+              "src": "/media/beige-add-on/kit-694b09bbe5e0f4f5-source-gallery-0-a42ccddff03e-1280.avif",
               "width": 1280,
               "height": 1895
             },
             {
-              "src": "/media/beige-add-on/kit-027789e5ad47ab58-0-2400.avif",
+              "src": "/media/beige-add-on/kit-694b09bbe5e0f4f5-source-gallery-0-a42ccddff03e-2400.avif",
               "width": 1490,
               "height": 2206
             }
@@ -291,15 +291,15 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On Space Bars 이미지 1",
+          "alt": "Beige Add On  Space Bars 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-aa57cfe04d64a03e-0-640.avif",
+              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-640.avif",
               "width": 640,
               "height": 449
             },
             {
-              "src": "/media/beige-add-on/kit-aa57cfe04d64a03e-0-1280.avif",
+              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-1280.avif",
               "width": 949,
               "height": 666
             }
@@ -310,20 +310,20 @@
   ],
   "images": [
     {
-      "alt": "Beige Add On 이미지 1",
+      "alt": "Beige Add On  이미지 1",
       "variants": [
         {
-          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-640.avif",
+          "src": "/media/beige-add-on/series-5df79314ab59c98b-source-gallery-0-cb73e77df04c-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-1280.avif",
+          "src": "/media/beige-add-on/series-5df79314ab59c98b-source-gallery-0-cb73e77df04c-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/beige-add-on/series-6f976a7ce20678ed-0-2400.avif",
+          "src": "/media/beige-add-on/series-5df79314ab59c98b-source-gallery-0-cb73e77df04c-2400.avif",
           "width": 1440,
           "height": 1080
         }

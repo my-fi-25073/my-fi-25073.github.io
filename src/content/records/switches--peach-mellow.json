@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "peach-mellow",
   "title": "Peach Mellow",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Peach Mellow 사진 1",
       "variants": [
         {
-          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-0-640.avif",
+          "src": "/media/switches/peach-mellow/46937aaed92ebbad-source-gallery-0-8f1f912e26b2-640.avif",
           "width": 640,
           "height": 445
         },
         {
-          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-0-1280.avif",
+          "src": "/media/switches/peach-mellow/46937aaed92ebbad-source-gallery-0-8f1f912e26b2-1280.avif",
           "width": 745,
           "height": 518
         }
@@ -31,12 +49,12 @@
       "alt": "Peach Mellow 사진 2",
       "variants": [
         {
-          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-1-640.avif",
+          "src": "/media/switches/peach-mellow/46937aaed92ebbad-source-gallery-1-e3bf62687aee-640.avif",
           "width": 640,
           "height": 783
         },
         {
-          "src": "/media/switches/peach-mellow/d7e2a82b9201a757-1-1280.avif",
+          "src": "/media/switches/peach-mellow/46937aaed92ebbad-source-gallery-1-e3bf62687aee-1280.avif",
           "width": 1242,
           "height": 1520
         }

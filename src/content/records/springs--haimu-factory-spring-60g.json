@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "haimu-factory-spring-60g",
+  "title": "Haimu Factory Spring 60g",
+  "category": "springs",
+  "manufacturer": "Haimu",
+  "series": "Factory",
+  "springType": "Extra Long",
+  "actuationForce": null,
+  "bottomOutForce": "60g",
+  "length": "18mm",
+  "images": []
+}

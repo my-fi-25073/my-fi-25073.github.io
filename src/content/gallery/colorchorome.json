@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T16:59:09Z",
+  "createdAt": "2026-03-20T16:59:09.851Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Colorchorome Base 이미지 1",
           "variants": [
             {
-              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-640.avif",
+              "src": "/media/colorchorome/kit-b59dbba59eef0692-source-gallery-0-0391633e504e-640.avif",
               "width": 640,
               "height": 342
             },
             {
-              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-1280.avif",
+              "src": "/media/colorchorome/kit-b59dbba59eef0692-source-gallery-0-0391633e504e-1280.avif",
               "width": 1280,
               "height": 683
             },
             {
-              "src": "/media/colorchorome/kit-f5ccd48f6ef430e2-0-2400.avif",
+              "src": "/media/colorchorome/kit-b59dbba59eef0692-source-gallery-0-0391633e504e-2400.avif",
               "width": 2048,
               "height": 1093
             }
@@ -62,17 +62,17 @@
           "alt": "Colorchorome White 40s Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-640.avif",
+              "src": "/media/colorchorome/kit-fa66863017fee262-source-gallery-0-226260c2b78e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-1280.avif",
+              "src": "/media/colorchorome/kit-fa66863017fee262-source-gallery-0-226260c2b78e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/colorchorome/kit-5529a242e59a1a48-0-2400.avif",
+              "src": "/media/colorchorome/kit-fa66863017fee262-source-gallery-0-226260c2b78e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -92,17 +92,17 @@
           "alt": "Colorchorome White Icon Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-640.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-0-0fe566a69c5c-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-1280.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-0-0fe566a69c5c-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-0-2400.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-0-0fe566a69c5c-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -112,17 +112,17 @@
           "alt": "Colorchorome White Icon Mod 이미지 2",
           "variants": [
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-640.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-1-ee40d78a1d44-640.avif",
               "width": 640,
               "height": 348
             },
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-1280.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-1-ee40d78a1d44-1280.avif",
               "width": 1280,
               "height": 696
             },
             {
-              "src": "/media/colorchorome/kit-ccd1961bb10a3d63-1-2400.avif",
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-1-ee40d78a1d44-2400.avif",
               "width": 2048,
               "height": 1113
             }
@@ -136,17 +136,17 @@
       "alt": "Colorchorome 이미지 1",
       "variants": [
         {
-          "src": "/media/colorchorome/series-043660535029473b-0-640.avif",
+          "src": "/media/colorchorome/series-fa1a640448dabae1-source-gallery-0-519efc3e3fc8-640.avif",
           "width": 640,
           "height": 552
         },
         {
-          "src": "/media/colorchorome/series-043660535029473b-0-1280.avif",
+          "src": "/media/colorchorome/series-fa1a640448dabae1-source-gallery-0-519efc3e3fc8-1280.avif",
           "width": 1280,
           "height": 1105
         },
         {
-          "src": "/media/colorchorome/series-043660535029473b-0-2400.avif",
+          "src": "/media/colorchorome/series-fa1a640448dabae1-source-gallery-0-519efc3e3fc8-2400.avif",
           "width": 1592,
           "height": 1374
         }

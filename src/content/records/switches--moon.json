@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "moon",
   "title": "Moon",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 56g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Moon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/moon/1d948be830131d97-0-640.avif",
+          "src": "/media/switches/moon/99a6fc1074bbe4d3-source-gallery-0-5acea8f259e4-640.avif",
           "width": 640,
           "height": 476
         },
         {
-          "src": "/media/switches/moon/1d948be830131d97-0-1280.avif",
+          "src": "/media/switches/moon/99a6fc1074bbe4d3-source-gallery-0-5acea8f259e4-1280.avif",
           "width": 843,
           "height": 627
         }
@@ -31,12 +49,12 @@
       "alt": "Moon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/moon/1d948be830131d97-1-640.avif",
+          "src": "/media/switches/moon/99a6fc1074bbe4d3-source-gallery-1-97290b225507-640.avif",
           "width": 640,
           "height": 429
         },
         {
-          "src": "/media/switches/moon/1d948be830131d97-1-1280.avif",
+          "src": "/media/switches/moon/99a6fc1074bbe4d3-source-gallery-1-97290b225507-1280.avif",
           "width": 841,
           "height": 564
         }
@@ -46,7 +64,7 @@
       "alt": "Moon 사진 3",
       "variants": [
         {
-          "src": "/media/switches/moon/1d948be830131d97-2-640.avif",
+          "src": "/media/switches/moon/99a6fc1074bbe4d3-source-gallery-2-cfd0247aa96c-640.avif",
           "width": 544,
           "height": 591
         }

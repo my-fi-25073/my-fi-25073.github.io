@@ -29,22 +29,35 @@
     "스위치 폼",
     "기보강 폼"
   ],
+  "build": {
+    "label": "2024-06-27",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-06-27",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "800",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Vulpes Majora 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-640.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-0-69abe5738224-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-1280.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-0-69abe5738224-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-0-2400.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-0-69abe5738224-2400.avif",
           "width": 2048,
           "height": 1536
         }
@@ -54,17 +67,17 @@
       "alt": "Vulpes Majora 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-640.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-1-67ad2ff37008-640.avif",
           "width": 640,
           "height": 427
         },
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-1280.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-1-67ad2ff37008-1280.avif",
           "width": 1280,
           "height": 853
         },
         {
-          "src": "/media/keyboards/vulpes-majora/875319144193dbce-1-2400.avif",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-1-67ad2ff37008-2400.avif",
           "width": 1536,
           "height": 1024
         }

@@ -25,22 +25,60 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-03-15",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-03-15",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "BAE Add On",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "OG Extension",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "UwU Macro Add On",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Retro Zhuyin",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.1 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-1/9e501cb8c6d8692a-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-1/28e9021ffdfe4312-source-gallery-0-f262aaa09eaf-640.avif",
           "width": 640,
           "height": 364
         },
         {
-          "src": "/media/keyboards/transition-lite-no-1/9e501cb8c6d8692a-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-1/28e9021ffdfe4312-source-gallery-0-f262aaa09eaf-1280.avif",
           "width": 1280,
           "height": 727
         },
         {
-          "src": "/media/keyboards/transition-lite-no-1/9e501cb8c6d8692a-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-1/28e9021ffdfe4312-source-gallery-0-f262aaa09eaf-2400.avif",
           "width": 2400,
           "height": 1364
         }

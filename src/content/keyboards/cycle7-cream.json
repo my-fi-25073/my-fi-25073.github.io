@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-03-24",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-03-24",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Serika",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Cycle7 Cream 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/cycle7-cream/838cb261ba18c588-0-640.avif",
+          "src": "/media/keyboards/cycle7-cream/565a81e78eda22a0-source-gallery-0-b696a6745c11-640.avif",
           "width": 640,
           "height": 373
         },
         {
-          "src": "/media/keyboards/cycle7-cream/838cb261ba18c588-0-1280.avif",
+          "src": "/media/keyboards/cycle7-cream/565a81e78eda22a0-source-gallery-0-b696a6745c11-1280.avif",
           "width": 1280,
           "height": 746
         },
         {
-          "src": "/media/keyboards/cycle7-cream/838cb261ba18c588-0-2400.avif",
+          "src": "/media/keyboards/cycle7-cream/565a81e78eda22a0-source-gallery-0-b696a6745c11-2400.avif",
           "width": 2400,
           "height": 1400
         }

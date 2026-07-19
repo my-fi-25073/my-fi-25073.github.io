@@ -22,22 +22,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-02-15",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-02-15",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "LAK Gold On Black",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Castor BoB LP 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-640.avif",
+          "src": "/media/keyboards/castor-bob-lp/8f46400e86077d90-source-gallery-0-d7367ceec9ff-640.avif",
           "width": 640,
           "height": 392
         },
         {
-          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-1280.avif",
+          "src": "/media/keyboards/castor-bob-lp/8f46400e86077d90-source-gallery-0-d7367ceec9ff-1280.avif",
           "width": 1280,
           "height": 784
         },
         {
-          "src": "/media/keyboards/castor-bob-lp/7c31ebaaf8d8ea6b-0-2400.avif",
+          "src": "/media/keyboards/castor-bob-lp/8f46400e86077d90-source-gallery-0-d7367ceec9ff-2400.avif",
           "width": 2400,
           "height": 1469
         }

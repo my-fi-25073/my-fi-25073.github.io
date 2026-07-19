@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "haute42-wind-engine",
   "title": "Haute42 Wind Engine",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Haute42 Wind Engine 사진 1",
       "variants": [
         {
-          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-0-640.avif",
+          "src": "/media/switches/haute42-wind-engine/177aa0be284fb598-source-gallery-0-5383e59a1611-640.avif",
           "width": 640,
           "height": 501
         },
         {
-          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-0-1280.avif",
+          "src": "/media/switches/haute42-wind-engine/177aa0be284fb598-source-gallery-0-5383e59a1611-1280.avif",
           "width": 850,
           "height": 665
         }
@@ -31,12 +49,12 @@
       "alt": "Haute42 Wind Engine 사진 2",
       "variants": [
         {
-          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-1-640.avif",
+          "src": "/media/switches/haute42-wind-engine/177aa0be284fb598-source-gallery-1-3dff0cd4fe7a-640.avif",
           "width": 640,
           "height": 705
         },
         {
-          "src": "/media/switches/haute42-wind-engine/430bc799f808b0de-1-1280.avif",
+          "src": "/media/switches/haute42-wind-engine/177aa0be284fb598-source-gallery-1-3dff0cd4fe7a-1280.avif",
           "width": 687,
           "height": 757
         }

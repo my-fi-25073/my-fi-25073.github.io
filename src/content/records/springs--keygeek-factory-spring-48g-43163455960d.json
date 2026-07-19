@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "keygeek-factory-spring-48g-43163455960d",
+  "title": "Keygeek Factory Spring 48g",
+  "category": "springs",
+  "manufacturer": "Keygeek",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "48g",
+  "length": "21mm",
+  "images": []
+}

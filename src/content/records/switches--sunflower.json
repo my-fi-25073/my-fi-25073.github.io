@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sunflower",
   "title": "Sunflower",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★★☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 37g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sunflower 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sunflower/31de40cf9ccf3c57-0-640.avif",
+          "src": "/media/switches/sunflower/25be8a110af7422b-source-gallery-0-16b19e903689-640.avif",
           "width": 640,
           "height": 316
         },
         {
-          "src": "/media/switches/sunflower/31de40cf9ccf3c57-0-1280.avif",
+          "src": "/media/switches/sunflower/25be8a110af7422b-source-gallery-0-16b19e903689-1280.avif",
           "width": 733,
           "height": 362
         }
@@ -31,12 +49,12 @@
       "alt": "Sunflower 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sunflower/31de40cf9ccf3c57-1-640.avif",
+          "src": "/media/switches/sunflower/25be8a110af7422b-source-gallery-1-edabca631624-640.avif",
           "width": 640,
           "height": 501
         },
         {
-          "src": "/media/switches/sunflower/31de40cf9ccf3c57-1-1280.avif",
+          "src": "/media/switches/sunflower/25be8a110af7422b-source-gallery-1-edabca631624-1280.avif",
           "width": 827,
           "height": 647
         }

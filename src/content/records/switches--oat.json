@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "oat",
   "title": "Oat",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 45g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Oat 사진 1",
       "variants": [
         {
-          "src": "/media/switches/oat/3dc671442969acd5-0-640.avif",
+          "src": "/media/switches/oat/9f016544e9d4ef35-source-gallery-0-b608e3c3d416-640.avif",
           "width": 640,
           "height": 512
         },
         {
-          "src": "/media/switches/oat/3dc671442969acd5-0-1280.avif",
+          "src": "/media/switches/oat/9f016544e9d4ef35-source-gallery-0-b608e3c3d416-1280.avif",
           "width": 732,
           "height": 586
         }
@@ -31,17 +49,17 @@
       "alt": "Oat 사진 2",
       "variants": [
         {
-          "src": "/media/switches/oat/3dc671442969acd5-1-640.avif",
+          "src": "/media/switches/oat/9f016544e9d4ef35-source-gallery-1-c5991267830a-640.avif",
           "width": 640,
           "height": 755
         },
         {
-          "src": "/media/switches/oat/3dc671442969acd5-1-1280.avif",
+          "src": "/media/switches/oat/9f016544e9d4ef35-source-gallery-1-c5991267830a-1280.avif",
           "width": 1280,
           "height": 1510
         },
         {
-          "src": "/media/switches/oat/3dc671442969acd5-1-2400.avif",
+          "src": "/media/switches/oat/9f016544e9d4ef35-source-gallery-1-c5991267830a-2400.avif",
           "width": 1289,
           "height": 1521
         }

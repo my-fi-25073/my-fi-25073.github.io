@@ -8,7 +8,7 @@
   "profile": "MTNU",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:08:51Z",
+  "createdAt": "2026-03-20T18:08:51.174Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "Granite Base 이미지 1",
           "variants": [
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-0-640.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-0-2ec4c2a5aa88-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-0-1280.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-0-2ec4c2a5aa88-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-0-2400.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-0-2ec4c2a5aa88-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "Granite Base 이미지 2",
           "variants": [
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-1-640.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-1-8c80e8e90464-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-1-1280.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-1-8c80e8e90464-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/granite/kit-f99b86a0d52b814a-1-2400.avif",
+              "src": "/media/granite/kit-33c87168657e2743-source-gallery-1-8c80e8e90464-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -80,12 +80,12 @@
           "alt": "Granite Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/granite/kit-72a03d9720de26f9-0-640.avif",
+              "src": "/media/granite/kit-9236a3c93cc1b9a3-source-gallery-0-65d96e6337bf-640.avif",
               "width": 640,
               "height": 886
             },
             {
-              "src": "/media/granite/kit-72a03d9720de26f9-0-1280.avif",
+              "src": "/media/granite/kit-9236a3c93cc1b9a3-source-gallery-0-65d96e6337bf-1280.avif",
               "width": 1248,
               "height": 1728
             }
@@ -99,17 +99,17 @@
       "alt": "Granite 이미지 1",
       "variants": [
         {
-          "src": "/media/granite/series-b364684dd0edb748-0-640.avif",
+          "src": "/media/granite/series-ccb72a7cc34c7feb-source-gallery-0-714757faac77-640.avif",
           "width": 640,
           "height": 540
         },
         {
-          "src": "/media/granite/series-b364684dd0edb748-0-1280.avif",
+          "src": "/media/granite/series-ccb72a7cc34c7feb-source-gallery-0-714757faac77-1280.avif",
           "width": 1280,
           "height": 1080
         },
         {
-          "src": "/media/granite/series-b364684dd0edb748-0-2400.avif",
+          "src": "/media/granite/series-ccb72a7cc34c7feb-source-gallery-0-714757faac77-2400.avif",
           "width": 1354,
           "height": 1142
         }

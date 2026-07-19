@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "pink-pro",
   "title": "Pink Pro",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 20g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Pink Pro 사진 1",
       "variants": [
         {
-          "src": "/media/switches/pink-pro/0b25818befed02a5-0-640.avif",
+          "src": "/media/switches/pink-pro/a8298a9aa0d87489-source-gallery-0-399052d73283-640.avif",
           "width": 640,
           "height": 483
         },
         {
-          "src": "/media/switches/pink-pro/0b25818befed02a5-0-1280.avif",
+          "src": "/media/switches/pink-pro/a8298a9aa0d87489-source-gallery-0-399052d73283-1280.avif",
           "width": 862,
           "height": 651
         }
@@ -31,12 +49,12 @@
       "alt": "Pink Pro 사진 2",
       "variants": [
         {
-          "src": "/media/switches/pink-pro/0b25818befed02a5-1-640.avif",
+          "src": "/media/switches/pink-pro/a8298a9aa0d87489-source-gallery-1-d3d4632b197d-640.avif",
           "width": 640,
           "height": 337
         },
         {
-          "src": "/media/switches/pink-pro/0b25818befed02a5-1-1280.avif",
+          "src": "/media/switches/pink-pro/a8298a9aa0d87489-source-gallery-1-d3d4632b197d-1280.avif",
           "width": 719,
           "height": 379
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "usagi",
   "title": "Usagi",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 43g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Usagi 사진 1",
       "variants": [
         {
-          "src": "/media/switches/usagi/b31b0cf0789e89c4-0-640.avif",
+          "src": "/media/switches/usagi/bd619f7909fe19c0-source-gallery-0-9e8c883cca08-640.avif",
           "width": 640,
           "height": 555
         },
         {
-          "src": "/media/switches/usagi/b31b0cf0789e89c4-0-1280.avif",
+          "src": "/media/switches/usagi/bd619f7909fe19c0-source-gallery-0-9e8c883cca08-1280.avif",
           "width": 945,
           "height": 820
         }
@@ -31,17 +49,17 @@
       "alt": "Usagi 사진 2",
       "variants": [
         {
-          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-640.avif",
+          "src": "/media/switches/usagi/bd619f7909fe19c0-source-gallery-1-4afc3af2dd52-640.avif",
           "width": 640,
           "height": 355
         },
         {
-          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-1280.avif",
+          "src": "/media/switches/usagi/bd619f7909fe19c0-source-gallery-1-4afc3af2dd52-1280.avif",
           "width": 1280,
           "height": 710
         },
         {
-          "src": "/media/switches/usagi/b31b0cf0789e89c4-1-2400.avif",
+          "src": "/media/switches/usagi/bd619f7909fe19c0-source-gallery-1-4afc3af2dd52-2400.avif",
           "width": 1294,
           "height": 718
         }

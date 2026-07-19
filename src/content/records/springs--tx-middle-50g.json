@@ -7,7 +7,7 @@
   "manufacturer": "TX",
   "series": "TX-Spring",
   "springType": "Middle",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "50g",
   "length": "15mm",
   "images": []

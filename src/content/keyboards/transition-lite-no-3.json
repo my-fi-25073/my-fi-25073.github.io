@@ -25,22 +25,85 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-04-19",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-04-19",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Blue Alert",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Arabic",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Retro Zhuyin",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Hiney Beige ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Relegendables+",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "UwU Macro Add On",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.3 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-3/c28ca23da7709f0a-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-3/fa81da87a4a13068-source-gallery-0-37a396554d9d-640.avif",
           "width": 640,
           "height": 478
         },
         {
-          "src": "/media/keyboards/transition-lite-no-3/c28ca23da7709f0a-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-3/fa81da87a4a13068-source-gallery-0-37a396554d9d-1280.avif",
           "width": 1280,
           "height": 956
         },
         {
-          "src": "/media/keyboards/transition-lite-no-3/c28ca23da7709f0a-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-3/fa81da87a4a13068-source-gallery-0-37a396554d9d-2400.avif",
           "width": 2400,
           "height": 1793
         }

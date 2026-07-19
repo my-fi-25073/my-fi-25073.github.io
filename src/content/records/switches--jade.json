@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "jade",
   "title": "Jade",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Jade 사진 1",
       "variants": [
         {
-          "src": "/media/switches/jade/3f3c26be0c2972c7-0-640.avif",
+          "src": "/media/switches/jade/f155c88eb28d7e8f-source-gallery-0-4be5a0684485-640.avif",
           "width": 640,
           "height": 573
         },
         {
-          "src": "/media/switches/jade/3f3c26be0c2972c7-0-1280.avif",
+          "src": "/media/switches/jade/f155c88eb28d7e8f-source-gallery-0-4be5a0684485-1280.avif",
           "width": 750,
           "height": 672
         }

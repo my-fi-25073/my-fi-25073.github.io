@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "explosion",
   "title": "Explosion",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 53g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Explosion 사진 1",
       "variants": [
         {
-          "src": "/media/switches/explosion/ef3be2a7e46069ea-0-640.avif",
+          "src": "/media/switches/explosion/3b276bff16d34436-source-gallery-0-e3045b648cf4-640.avif",
           "width": 640,
           "height": 424
         },
         {
-          "src": "/media/switches/explosion/ef3be2a7e46069ea-0-1280.avif",
+          "src": "/media/switches/explosion/3b276bff16d34436-source-gallery-0-e3045b648cf4-1280.avif",
           "width": 985,
           "height": 652
         }
@@ -31,12 +49,12 @@
       "alt": "Explosion 사진 2",
       "variants": [
         {
-          "src": "/media/switches/explosion/ef3be2a7e46069ea-1-640.avif",
+          "src": "/media/switches/explosion/3b276bff16d34436-source-gallery-1-190988708f32-640.avif",
           "width": 640,
           "height": 870
         },
         {
-          "src": "/media/switches/explosion/ef3be2a7e46069ea-1-1280.avif",
+          "src": "/media/switches/explosion/3b276bff16d34436-source-gallery-1-190988708f32-1280.avif",
           "width": 670,
           "height": 911
         }

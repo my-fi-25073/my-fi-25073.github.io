@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T17:04:21Z",
+  "createdAt": "2026-03-20T17:04:21.929Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Dots Nomad Light 이미지 1",
           "variants": [
             {
-              "src": "/media/dots/kit-1c12a64b87430949-0-640.avif",
+              "src": "/media/dots/kit-4ce6b31aac753437-source-gallery-0-6b7983704967-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dots/kit-1c12a64b87430949-0-1280.avif",
+              "src": "/media/dots/kit-4ce6b31aac753437-source-gallery-0-6b7983704967-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dots/kit-1c12a64b87430949-0-2400.avif",
+              "src": "/media/dots/kit-4ce6b31aac753437-source-gallery-0-6b7983704967-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "Dots Rainbow Light 이미지 1",
           "variants": [
             {
-              "src": "/media/dots/kit-92d93e7911b085e5-0-640.avif",
+              "src": "/media/dots/kit-4d70beeebcdc4532-source-gallery-0-4f9d3015d491-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dots/kit-92d93e7911b085e5-0-1280.avif",
+              "src": "/media/dots/kit-4d70beeebcdc4532-source-gallery-0-4f9d3015d491-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dots/kit-92d93e7911b085e5-0-2400.avif",
+              "src": "/media/dots/kit-4d70beeebcdc4532-source-gallery-0-4f9d3015d491-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -85,17 +85,17 @@
       "alt": "Dots 이미지 1",
       "variants": [
         {
-          "src": "/media/dots/series-7f27d044ca4e5ebf-0-640.avif",
+          "src": "/media/dots/series-bf037ce57db26886-source-gallery-0-f1136a450cc4-640.avif",
           "width": 640,
           "height": 455
         },
         {
-          "src": "/media/dots/series-7f27d044ca4e5ebf-0-1280.avif",
+          "src": "/media/dots/series-bf037ce57db26886-source-gallery-0-f1136a450cc4-1280.avif",
           "width": 1280,
           "height": 909
         },
         {
-          "src": "/media/dots/series-7f27d044ca4e5ebf-0-2400.avif",
+          "src": "/media/dots/series-bf037ce57db26886-source-gallery-0-f1136a450cc4-2400.avif",
           "width": 1346,
           "height": 956
         }
@@ -105,12 +105,12 @@
       "alt": "Dots 이미지 2",
       "variants": [
         {
-          "src": "/media/dots/series-7f27d044ca4e5ebf-1-640.avif",
+          "src": "/media/dots/series-bf037ce57db26886-source-gallery-1-4ea0949927d2-640.avif",
           "width": 640,
           "height": 254
         },
         {
-          "src": "/media/dots/series-7f27d044ca4e5ebf-1-1280.avif",
+          "src": "/media/dots/series-bf037ce57db26886-source-gallery-1-4ea0949927d2-1280.avif",
           "width": 1200,
           "height": 477
         }

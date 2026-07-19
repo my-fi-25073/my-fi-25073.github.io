@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-hirose-orange",
   "title": "MX2A Hirose Orange",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 65g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Hirose Orange 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-0-640.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-0-587aea616315-640.avif",
           "width": 640,
           "height": 595
         },
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-0-1280.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-0-587aea616315-1280.avif",
           "width": 735,
           "height": 683
         }
@@ -31,12 +49,12 @@
       "alt": "MX2A Hirose Orange 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-1-640.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-1-e3b0a9549329-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-1-1280.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-1-e3b0a9549329-1280.avif",
           "width": 730,
           "height": 486
         }
@@ -46,12 +64,12 @@
       "alt": "MX2A Hirose Orange 사진 3",
       "variants": [
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-2-640.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-2-2fadbf58db79-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/switches/mx2a-hirose-orange/863b61f48539421c-2-1280.avif",
+          "src": "/media/switches/mx2a-hirose-orange/3331d1ecec5edcc2-source-gallery-2-2fadbf58db79-1280.avif",
           "width": 962,
           "height": 614
         }

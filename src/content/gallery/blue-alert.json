@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:57:18Z",
+  "createdAt": "2026-03-20T11:57:18.767Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Blue Alert Blue Stripe 이미지 1",
           "variants": [
             {
-              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-640.avif",
+              "src": "/media/blue-alert/kit-b7c4fc398bfc689f-source-gallery-0-1ac3e26c1ec1-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-1280.avif",
+              "src": "/media/blue-alert/kit-b7c4fc398bfc689f-source-gallery-0-1ac3e26c1ec1-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/blue-alert/kit-3cc245368f61daf0-0-2400.avif",
+              "src": "/media/blue-alert/kit-b7c4fc398bfc689f-source-gallery-0-1ac3e26c1ec1-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "Blue Alert Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-640.avif",
+              "src": "/media/blue-alert/kit-5f0317d96870eaa3-source-gallery-0-da3ccac6a484-640.avif",
               "width": 640,
               "height": 853
             },
             {
-              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-1280.avif",
+              "src": "/media/blue-alert/kit-5f0317d96870eaa3-source-gallery-0-da3ccac6a484-1280.avif",
               "width": 1280,
               "height": 1707
             },
             {
-              "src": "/media/blue-alert/kit-a3e478913e4da5da-0-2400.avif",
+              "src": "/media/blue-alert/kit-5f0317d96870eaa3-source-gallery-0-da3ccac6a484-2400.avif",
               "width": 1536,
               "height": 2048
             }
@@ -85,12 +85,12 @@
       "alt": "Blue Alert 이미지 1",
       "variants": [
         {
-          "src": "/media/blue-alert/series-87675f699987e945-0-640.avif",
+          "src": "/media/blue-alert/series-2161b98ad43496c3-source-gallery-0-2fdf8f76667b-640.avif",
           "width": 640,
           "height": 462
         },
         {
-          "src": "/media/blue-alert/series-87675f699987e945-0-1280.avif",
+          "src": "/media/blue-alert/series-2161b98ad43496c3-source-gallery-0-2fdf8f76667b-1280.avif",
           "width": 922,
           "height": 666
         }

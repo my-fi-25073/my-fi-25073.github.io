@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:10:56Z",
+  "createdAt": "2026-03-21T17:10:56.832Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "LotR Elvish Autumn in Rivendell 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-elvish/kit-96e2b528945b0a11-0-640.avif",
+              "src": "/media/lotr-elvish/kit-dffc27b4ef006378-source-gallery-0-148339882200-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/lotr-elvish/kit-96e2b528945b0a11-0-1280.avif",
+              "src": "/media/lotr-elvish/kit-dffc27b4ef006378-source-gallery-0-148339882200-1280.avif",
               "width": 1040,
               "height": 692
             }
@@ -54,12 +54,12 @@
           "alt": "LotR Elvish Extra 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-elvish/kit-a2a01c96af0061b3-0-640.avif",
+              "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-640.avif",
               "width": 640,
               "height": 424
             },
             {
-              "src": "/media/lotr-elvish/kit-a2a01c96af0061b3-0-1280.avif",
+              "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-1280.avif",
               "width": 1038,
               "height": 687
             }
@@ -80,12 +80,12 @@
           "alt": "LotR Elvish Hardcore Base 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-elvish/kit-119737a6fa5eddc3-0-640.avif",
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/lotr-elvish/kit-119737a6fa5eddc3-0-1280.avif",
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-1280.avif",
               "width": 1046,
               "height": 695
             }
@@ -105,12 +105,12 @@
           "alt": "LotR Elvish Spacebars 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-elvish/kit-ade8bcc95f3a8a31-0-640.avif",
+              "src": "/media/lotr-elvish/kit-2acc71eeef0202d0-source-gallery-0-dd76effd54f7-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/lotr-elvish/kit-ade8bcc95f3a8a31-0-1280.avif",
+              "src": "/media/lotr-elvish/kit-2acc71eeef0202d0-source-gallery-0-dd76effd54f7-1280.avif",
               "width": 1047,
               "height": 696
             }
@@ -124,17 +124,17 @@
       "alt": "LotR Elvish 이미지 1",
       "variants": [
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-640.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-640.avif",
           "width": 640,
           "height": 360
         },
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-1280.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-1280.avif",
           "width": 1280,
           "height": 720
         },
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-0-2400.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-2400.avif",
           "width": 1608,
           "height": 904
         }
@@ -144,17 +144,37 @@
       "alt": "LotR Elvish 이미지 2",
       "variants": [
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-640.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-1280.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-1280.avif",
           "width": 1280,
           "height": 815
         },
         {
-          "src": "/media/lotr-elvish/series-12f098fef08baa19-1-2400.avif",
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-2400.avif",
+          "width": 1966,
+          "height": 1252
+        }
+      ]
+    },
+    {
+      "alt": "LotR Elvish 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-640.avif",
+          "width": 640,
+          "height": 408
+        },
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-1280.avif",
+          "width": 1280,
+          "height": 815
+        },
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-2400.avif",
           "width": 1966,
           "height": 1252
         }

@@ -8,7 +8,7 @@
   "profile": "OEM-Topre",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-24T15:27:43Z",
+  "createdAt": "2026-03-24T15:27:43.604Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "HHKB White Accents 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-white/kit-aab4716e749a6321-0-640.avif",
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-640.avif",
               "width": 640,
               "height": 438
             },
             {
-              "src": "/media/hhkb-white/kit-aab4716e749a6321-0-1280.avif",
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-1280.avif",
               "width": 1280,
               "height": 876
             },
             {
-              "src": "/media/hhkb-white/kit-aab4716e749a6321-0-2400.avif",
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-2400.avif",
               "width": 1380,
               "height": 944
             }
@@ -60,17 +60,17 @@
           "alt": "HHKB White Blank Base 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-white/kit-8e24de7d58e5e42c-0-640.avif",
+              "src": "/media/hhkb-white/kit-7a26edc5bebfc895-source-gallery-0-cd76ca5aaa52-640.avif",
               "width": 640,
               "height": 339
             },
             {
-              "src": "/media/hhkb-white/kit-8e24de7d58e5e42c-0-1280.avif",
+              "src": "/media/hhkb-white/kit-7a26edc5bebfc895-source-gallery-0-cd76ca5aaa52-1280.avif",
               "width": 1280,
               "height": 678
             },
             {
-              "src": "/media/hhkb-white/kit-8e24de7d58e5e42c-0-2400.avif",
+              "src": "/media/hhkb-white/kit-7a26edc5bebfc895-source-gallery-0-cd76ca5aaa52-2400.avif",
               "width": 1600,
               "height": 848
             }
@@ -90,17 +90,17 @@
           "alt": "HHKB White Realforce Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-white/kit-3a58570a8b141909-0-640.avif",
+              "src": "/media/hhkb-white/kit-5e25f335d36b9d57-source-gallery-0-1e82838e30cd-640.avif",
               "width": 640,
               "height": 380
             },
             {
-              "src": "/media/hhkb-white/kit-3a58570a8b141909-0-1280.avif",
+              "src": "/media/hhkb-white/kit-5e25f335d36b9d57-source-gallery-0-1e82838e30cd-1280.avif",
               "width": 1280,
               "height": 760
             },
             {
-              "src": "/media/hhkb-white/kit-3a58570a8b141909-0-2400.avif",
+              "src": "/media/hhkb-white/kit-5e25f335d36b9d57-source-gallery-0-1e82838e30cd-2400.avif",
               "width": 1606,
               "height": 954
             }
@@ -120,17 +120,17 @@
           "alt": "HHKB White Realforce Extra 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-white/kit-fda427dd75cf0d8d-0-640.avif",
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-640.avif",
               "width": 640,
               "height": 490
             },
             {
-              "src": "/media/hhkb-white/kit-fda427dd75cf0d8d-0-1280.avif",
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-1280.avif",
               "width": 1280,
               "height": 979
             },
             {
-              "src": "/media/hhkb-white/kit-fda427dd75cf0d8d-0-2400.avif",
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-2400.avif",
               "width": 1548,
               "height": 1184
             }
@@ -150,17 +150,17 @@
           "alt": "HHKB White Stamped Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-white/kit-da3b991698142124-0-640.avif",
+              "src": "/media/hhkb-white/kit-e560171d254f0af0-source-gallery-0-4152bc8916c8-640.avif",
               "width": 640,
               "height": 353
             },
             {
-              "src": "/media/hhkb-white/kit-da3b991698142124-0-1280.avif",
+              "src": "/media/hhkb-white/kit-e560171d254f0af0-source-gallery-0-4152bc8916c8-1280.avif",
               "width": 1280,
               "height": 705
             },
             {
-              "src": "/media/hhkb-white/kit-da3b991698142124-0-2400.avif",
+              "src": "/media/hhkb-white/kit-e560171d254f0af0-source-gallery-0-4152bc8916c8-2400.avif",
               "width": 1608,
               "height": 886
             }
@@ -174,12 +174,12 @@
       "alt": "HHKB White 이미지 1",
       "variants": [
         {
-          "src": "/media/hhkb-white/series-3da1813e60bdc947-0-640.avif",
+          "src": "/media/hhkb-white/series-513ddecc82ed88fb-source-gallery-0-e073080fad33-640.avif",
           "width": 640,
           "height": 299
         },
         {
-          "src": "/media/hhkb-white/series-3da1813e60bdc947-0-1280.avif",
+          "src": "/media/hhkb-white/series-513ddecc82ed88fb-source-gallery-0-e073080fad33-1280.avif",
           "width": 1252,
           "height": 584
         }

@@ -25,22 +25,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-06-05",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-06-05",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Colorchorome",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Reviung 41 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/reviung-41/a10139c614174d24-0-640.avif",
+          "src": "/media/keyboards/reviung-41/2e0c31f411057112-source-gallery-0-078912ed91cb-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/reviung-41/a10139c614174d24-0-1280.avif",
+          "src": "/media/keyboards/reviung-41/2e0c31f411057112-source-gallery-0-078912ed91cb-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/reviung-41/a10139c614174d24-0-2400.avif",
+          "src": "/media/keyboards/reviung-41/2e0c31f411057112-source-gallery-0-078912ed91cb-2400.avif",
           "width": 2048,
           "height": 1536
         }

@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "brown-white",
   "title": "Brown White",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Brown White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/brown-white/f3e6850475832414-0-640.avif",
+          "src": "/media/switches/brown-white/fd9aeae0246ca7a3-source-gallery-0-8e529e16d14d-640.avif",
           "width": 515,
           "height": 383
         }
@@ -26,12 +44,12 @@
       "alt": "Brown White 사진 2",
       "variants": [
         {
-          "src": "/media/switches/brown-white/f3e6850475832414-1-640.avif",
+          "src": "/media/switches/brown-white/fd9aeae0246ca7a3-source-gallery-1-d1b14145fb06-640.avif",
           "width": 640,
           "height": 298
         },
         {
-          "src": "/media/switches/brown-white/f3e6850475832414-1-1280.avif",
+          "src": "/media/switches/brown-white/fd9aeae0246ca7a3-source-gallery-1-d1b14145fb06-1280.avif",
           "width": 1248,
           "height": 581
         }

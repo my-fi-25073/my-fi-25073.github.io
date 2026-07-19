@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "f1-40-722-fd7b0e3ba8ee",
+  "title": "F1-40 722",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2025-06-15",
+  "modules": [],
+  "plates": [
+    "무보강"
+  ],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "오쏘리니어",
+    "4x12"
+  ],
+  "mounts": [
+    "무보강킷",
+    "샌드위치 마운트"
+  ],
+  "foams": [
+    "노폼"
+  ],
+  "build": {
+    "label": "2025-06-15",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-06-15",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Norde Beige",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      }
+    ]
+  },
+  "images": [
+    {
+      "alt": "F1-40 722 사진 1",
+      "variants": [
+        {
+          "src": "/media/keyboards/f1-40-722-fd7b0e3ba8ee/fd7b0e3ba8eed3b7-source-gallery-0-b905d15a0a15-640.avif",
+          "width": 640,
+          "height": 385
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-fd7b0e3ba8ee/fd7b0e3ba8eed3b7-source-gallery-0-b905d15a0a15-1280.avif",
+          "width": 1280,
+          "height": 771
+        },
+        {
+          "src": "/media/keyboards/f1-40-722-fd7b0e3ba8ee/fd7b0e3ba8eed3b7-source-gallery-0-b905d15a0a15-2400.avif",
+          "width": 2400,
+          "height": 1445
+        }
+      ]
+    }
+  ]
+}

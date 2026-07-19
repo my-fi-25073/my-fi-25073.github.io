@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "hmx-raw",
   "title": "HMX Raw",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 48g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "HMX Raw 사진 1",
       "variants": [
         {
-          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-0-640.avif",
+          "src": "/media/switches/hmx-raw/aebbdf68a8dae93d-source-gallery-0-7222c09dbb78-640.avif",
           "width": 640,
           "height": 508
         },
         {
-          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-0-1280.avif",
+          "src": "/media/switches/hmx-raw/aebbdf68a8dae93d-source-gallery-0-7222c09dbb78-1280.avif",
           "width": 655,
           "height": 520
         }
@@ -31,17 +49,17 @@
       "alt": "HMX Raw 사진 2",
       "variants": [
         {
-          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-640.avif",
+          "src": "/media/switches/hmx-raw/aebbdf68a8dae93d-source-gallery-1-758ba1c61dfa-640.avif",
           "width": 640,
           "height": 547
         },
         {
-          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-1280.avif",
+          "src": "/media/switches/hmx-raw/aebbdf68a8dae93d-source-gallery-1-758ba1c61dfa-1280.avif",
           "width": 1280,
           "height": 1093
         },
         {
-          "src": "/media/switches/hmx-raw/57ed646c475c5ad0-1-2400.avif",
+          "src": "/media/switches/hmx-raw/aebbdf68a8dae93d-source-gallery-1-758ba1c61dfa-2400.avif",
           "width": 1294,
           "height": 1105
         }

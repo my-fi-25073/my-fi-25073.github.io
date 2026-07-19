@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "dragonghost",
   "title": "DragonGhost",
   "category": "switches",
-  "manufacturer": "SWK",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "commercial",
+  "recipeStatus": "not_applicable",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "SWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "SWK Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "DragonGhost 사진 1",
       "variants": [
         {
-          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-0-640.avif",
+          "src": "/media/switches/dragonghost/2e8a6f91c4687d5c-source-gallery-0-a0ff53225c28-640.avif",
           "width": 640,
           "height": 373
         },
         {
-          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-0-1280.avif",
+          "src": "/media/switches/dragonghost/2e8a6f91c4687d5c-source-gallery-0-a0ff53225c28-1280.avif",
           "width": 1179,
           "height": 688
         }
@@ -31,17 +49,17 @@
       "alt": "DragonGhost 사진 2",
       "variants": [
         {
-          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-640.avif",
+          "src": "/media/switches/dragonghost/2e8a6f91c4687d5c-source-gallery-1-d359519f65b3-640.avif",
           "width": 640,
           "height": 645
         },
         {
-          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-1280.avif",
+          "src": "/media/switches/dragonghost/2e8a6f91c4687d5c-source-gallery-1-d359519f65b3-1280.avif",
           "width": 1280,
           "height": 1289
         },
         {
-          "src": "/media/switches/dragonghost/fb2cf9c84b6c0f86-1-2400.avif",
+          "src": "/media/switches/dragonghost/2e8a6f91c4687d5c-source-gallery-1-d359519f65b3-2400.avif",
           "width": 1484,
           "height": 1495
         }

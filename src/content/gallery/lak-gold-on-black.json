@@ -8,7 +8,7 @@
   "profile": "LAK",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:11:31Z",
+  "createdAt": "2026-03-20T18:11:31.697Z",
   "materials": [
     "PBT"
   ],
@@ -30,17 +30,17 @@
           "alt": "LAK Gold On Black Base 이미지 1",
           "variants": [
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-640.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-0-3127cd79768c-640.avif",
               "width": 640,
               "height": 471
             },
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-1280.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-0-3127cd79768c-1280.avif",
               "width": 1280,
               "height": 942
             },
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-0-2400.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-0-3127cd79768c-2400.avif",
               "width": 2048,
               "height": 1507
             }
@@ -50,17 +50,17 @@
           "alt": "LAK Gold On Black Base 이미지 2",
           "variants": [
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-640.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-1-02330e59b3f2-640.avif",
               "width": 640,
               "height": 541
             },
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-1280.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-1-02330e59b3f2-1280.avif",
               "width": 1280,
               "height": 1083
             },
             {
-              "src": "/media/lak-gold-on-black/kit-b129f8561df4ebed-1-2400.avif",
+              "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-1-02330e59b3f2-2400.avif",
               "width": 2048,
               "height": 1733
             }
@@ -74,7 +74,7 @@
       "alt": "LAK Gold On Black 이미지 1",
       "variants": [
         {
-          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-0-640.avif",
+          "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-0-cb08877574a5-640.avif",
           "width": 468,
           "height": 240
         }
@@ -84,12 +84,12 @@
       "alt": "LAK Gold On Black 이미지 2",
       "variants": [
         {
-          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-1-640.avif",
+          "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-1-03af5cb12720-640.avif",
           "width": 640,
           "height": 519
         },
         {
-          "src": "/media/lak-gold-on-black/series-6aeea3418de429ad-1-1280.avif",
+          "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-1-03af5cb12720-1280.avif",
           "width": 1076,
           "height": 872
         }

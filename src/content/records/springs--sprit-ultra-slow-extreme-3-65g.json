@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-ultra-slow-extreme-3-65g",
+  "title": "Sprit Ultra Slow Extreme 3 65g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Ultra Slow Extreme 3",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "65g",
+  "length": "26mm",
+  "images": []
+}

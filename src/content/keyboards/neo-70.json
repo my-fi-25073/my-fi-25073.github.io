@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-01-20",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-01-20",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Oblivion",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Neo 70 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/neo-70/c53c9ec60e42eb8f-0-640.avif",
+          "src": "/media/keyboards/neo-70/dc69f79713c1d9bc-source-gallery-0-0daf8589592a-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/neo-70/c53c9ec60e42eb8f-0-1280.avif",
+          "src": "/media/keyboards/neo-70/dc69f79713c1d9bc-source-gallery-0-0daf8589592a-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/neo-70/c53c9ec60e42eb8f-0-2400.avif",
+          "src": "/media/keyboards/neo-70/dc69f79713c1d9bc-source-gallery-0-0daf8589592a-2400.avif",
           "width": 2048,
           "height": 1536
         }

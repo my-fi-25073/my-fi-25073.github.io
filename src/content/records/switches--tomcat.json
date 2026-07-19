@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "tomcat",
   "title": "Tomcat",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Tomcat 사진 1",
       "variants": [
         {
-          "src": "/media/switches/tomcat/69daaabee56e8f41-0-640.avif",
+          "src": "/media/switches/tomcat/1e8011e95f29552e-source-gallery-0-950ae66ac827-640.avif",
           "width": 640,
           "height": 445
         },
         {
-          "src": "/media/switches/tomcat/69daaabee56e8f41-0-1280.avif",
+          "src": "/media/switches/tomcat/1e8011e95f29552e-source-gallery-0-950ae66ac827-1280.avif",
           "width": 739,
           "height": 514
         }
@@ -31,17 +49,17 @@
       "alt": "Tomcat 사진 2",
       "variants": [
         {
-          "src": "/media/switches/tomcat/69daaabee56e8f41-1-640.avif",
+          "src": "/media/switches/tomcat/1e8011e95f29552e-source-gallery-1-b57d8e50a32c-640.avif",
           "width": 640,
           "height": 593
         },
         {
-          "src": "/media/switches/tomcat/69daaabee56e8f41-1-1280.avif",
+          "src": "/media/switches/tomcat/1e8011e95f29552e-source-gallery-1-b57d8e50a32c-1280.avif",
           "width": 1280,
           "height": 1187
         },
         {
-          "src": "/media/switches/tomcat/69daaabee56e8f41-1-2400.avif",
+          "src": "/media/switches/tomcat/1e8011e95f29552e-source-gallery-1-b57d8e50a32c-2400.avif",
           "width": 1335,
           "height": 1238
         }

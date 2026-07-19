@@ -8,7 +8,7 @@
   "profile": "DCS",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:05:23Z",
+  "createdAt": "2026-03-20T18:05:23.790Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "DCS WoB 40% Mono Kit Base 이미지 1",
           "variants": [
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-0-640.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-0-1d0f936b6c18-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-0-1280.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-0-1d0f936b6c18-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-0-2400.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-0-1d0f936b6c18-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "DCS WoB 40% Mono Kit Base 이미지 2",
           "variants": [
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-1-640.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-1-c2de87e2c174-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-1-1280.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-1-c2de87e2c174-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcs-wob-40-mono-kit/kit-d9ea1818c9154eeb-1-2400.avif",
+              "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-1-c2de87e2c174-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -73,17 +73,17 @@
       "alt": "DCS WoB 40% Mono Kit 이미지 1",
       "variants": [
         {
-          "src": "/media/dcs-wob-40-mono-kit/series-dd904ea27c1ed430-0-640.avif",
+          "src": "/media/dcs-wob-40-mono-kit/series-32302f7194a493d8-source-gallery-0-58e96f5eaffc-640.avif",
           "width": 640,
           "height": 388
         },
         {
-          "src": "/media/dcs-wob-40-mono-kit/series-dd904ea27c1ed430-0-1280.avif",
+          "src": "/media/dcs-wob-40-mono-kit/series-32302f7194a493d8-source-gallery-0-58e96f5eaffc-1280.avif",
           "width": 1280,
           "height": 776
         },
         {
-          "src": "/media/dcs-wob-40-mono-kit/series-dd904ea27c1ed430-0-2400.avif",
+          "src": "/media/dcs-wob-40-mono-kit/series-32302f7194a493d8-source-gallery-0-58e96f5eaffc-2400.avif",
           "width": 2048,
           "height": 1242
         }

@@ -8,7 +8,7 @@
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:07:16Z",
+  "createdAt": "2026-03-20T18:07:16.760Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "Blanks ISO ISO TKL Base 이미지 1",
           "variants": [
             {
-              "src": "/media/blanks-iso/kit-b0f3e59baada1022-0-640.avif",
+              "src": "/media/blanks-iso/kit-aca7fc80236a74df-source-gallery-0-4d5557e70bc5-640.avif",
               "width": 640,
               "height": 490
             },
             {
-              "src": "/media/blanks-iso/kit-b0f3e59baada1022-0-1280.avif",
+              "src": "/media/blanks-iso/kit-aca7fc80236a74df-source-gallery-0-4d5557e70bc5-1280.avif",
               "width": 958,
               "height": 734
             }
@@ -48,12 +48,12 @@
       "alt": "Blanks ISO 이미지 1",
       "variants": [
         {
-          "src": "/media/blanks-iso/series-e9794a346eb7858d-0-640.avif",
+          "src": "/media/blanks-iso/series-a919ba59d1d78e2b-source-gallery-0-4d5557e70bc5-640.avif",
           "width": 640,
           "height": 490
         },
         {
-          "src": "/media/blanks-iso/series-e9794a346eb7858d-0-1280.avif",
+          "src": "/media/blanks-iso/series-a919ba59d1d78e2b-source-gallery-0-4d5557e70bc5-1280.avif",
           "width": 958,
           "height": 734
         }

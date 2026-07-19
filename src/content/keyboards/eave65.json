@@ -23,22 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-07-06",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-07-06",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Oblivion",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Eave65 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-0-640.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-0-8d2a8c02a9bf-640.avif",
           "width": 640,
           "height": 369
         },
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-0-1280.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-0-8d2a8c02a9bf-1280.avif",
           "width": 1280,
           "height": 739
         },
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-0-2400.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-0-8d2a8c02a9bf-2400.avif",
           "width": 2400,
           "height": 1386
         }
@@ -48,17 +61,17 @@
       "alt": "Eave65 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-1-640.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-1-dd0c07c9bbb2-640.avif",
           "width": 640,
           "height": 349
         },
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-1-1280.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-1-dd0c07c9bbb2-1280.avif",
           "width": 1280,
           "height": 698
         },
         {
-          "src": "/media/keyboards/eave65/54c4e9ea759362a0-1-2400.avif",
+          "src": "/media/keyboards/eave65/26ae553d6dac6c67-source-gallery-1-dd0c07c9bbb2-2400.avif",
           "width": 2400,
           "height": 1309
         }

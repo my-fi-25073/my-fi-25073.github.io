@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "bckeys-x-gulf",
   "title": "BCKeys x Gulf",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 58g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "BCKeys x Gulf 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-0-640.avif",
+          "src": "/media/switches/bckeys-x-gulf/57b2081555fdf908-source-gallery-0-6630b8f97782-640.avif",
           "width": 640,
           "height": 507
         },
         {
-          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-0-1280.avif",
+          "src": "/media/switches/bckeys-x-gulf/57b2081555fdf908-source-gallery-0-6630b8f97782-1280.avif",
           "width": 747,
           "height": 592
         }
@@ -31,12 +49,12 @@
       "alt": "BCKeys x Gulf 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-1-640.avif",
+          "src": "/media/switches/bckeys-x-gulf/57b2081555fdf908-source-gallery-1-1eaff1e8c78c-640.avif",
           "width": 640,
           "height": 840
         },
         {
-          "src": "/media/switches/bckeys-x-gulf/d126632f6936d3d0-1-1280.avif",
+          "src": "/media/switches/bckeys-x-gulf/57b2081555fdf908-source-gallery-1-1eaff1e8c78c-1280.avif",
           "width": 1124,
           "height": 1476
         }

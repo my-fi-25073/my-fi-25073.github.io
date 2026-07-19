@@ -4,11 +4,11 @@
   "slug": "lp-og-35g",
   "title": "LP OG 35g",
   "category": "springs",
-  "manufacturer": "Kalih",
+  "manufacturer": "Kailh",
   "series": "Choc/Alps",
   "springType": "LP",
-  "actuationForce": "???",
-  "bottomOutForce": "35g",
-  "length": "N/A",
+  "actuationForce": "35g",
+  "bottomOutForce": null,
+  "length": null,
   "images": []
 }

@@ -8,7 +8,7 @@
   "profile": "KAM",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:09:40Z",
+  "createdAt": "2026-03-20T18:09:40.132Z",
   "materials": [
     "PBT"
   ],
@@ -30,17 +30,17 @@
           "alt": "Custom Masonry WoB Masonry Base 이미지 1",
           "variants": [
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-0-640.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-0-1280.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-0-2400.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -50,17 +50,17 @@
           "alt": "Custom Masonry WoB Masonry Base 이미지 2",
           "variants": [
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-1-640.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-640.avif",
               "width": 640,
               "height": 471
             },
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-1-1280.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-1280.avif",
               "width": 1280,
               "height": 943
             },
             {
-              "src": "/media/custom-masonry-wob/kit-bd2ea11eab550a2b-1-2400.avif",
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-2400.avif",
               "width": 1472,
               "height": 1084
             }
@@ -74,17 +74,17 @@
       "alt": "Custom Masonry WoB 이미지 1",
       "variants": [
         {
-          "src": "/media/custom-masonry-wob/series-75e8acfa4f7a9887-0-640.avif",
+          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/custom-masonry-wob/series-75e8acfa4f7a9887-0-1280.avif",
+          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/custom-masonry-wob/series-75e8acfa4f7a9887-0-2400.avif",
+          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }

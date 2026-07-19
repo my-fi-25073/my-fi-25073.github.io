@@ -23,22 +23,29 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-05-14",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-05-14",
+    "keycaps": []
+  },
   "images": [
     {
       "alt": "Castor Handerbeit 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-640.avif",
+          "src": "/media/keyboards/castor-handerbeit/e5c163df8c6aad56-source-gallery-0-d649b8802a6d-640.avif",
           "width": 640,
           "height": 349
         },
         {
-          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-1280.avif",
+          "src": "/media/keyboards/castor-handerbeit/e5c163df8c6aad56-source-gallery-0-d649b8802a6d-1280.avif",
           "width": 1280,
           "height": 697
         },
         {
-          "src": "/media/keyboards/castor-handerbeit/a60dace39596e5a7-0-2400.avif",
+          "src": "/media/keyboards/castor-handerbeit/e5c163df8c6aad56-source-gallery-0-d649b8802a6d-2400.avif",
           "width": 1388,
           "height": 756
         }

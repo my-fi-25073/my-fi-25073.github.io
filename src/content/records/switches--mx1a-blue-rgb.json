@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-blue-rgb",
   "title": "MX1A Blue RGB",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 65g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Blue RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-0-640.avif",
+          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-0-672dcfe071e5-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-0-1280.avif",
+          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-0-672dcfe071e5-1280.avif",
           "width": 1261,
           "height": 840
         }
@@ -31,7 +49,7 @@
       "alt": "MX1A Blue RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-blue-rgb/5c4456f1716af4c2-1-640.avif",
+          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-1-18faae8f4a05-640.avif",
           "width": 477,
           "height": 310
         }

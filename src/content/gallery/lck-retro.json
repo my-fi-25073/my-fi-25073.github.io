@@ -8,7 +8,7 @@
   "profile": "LCK",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:11:29Z",
+  "createdAt": "2026-03-20T18:11:29.361Z",
   "materials": [
     "PBT"
   ],
@@ -30,12 +30,12 @@
           "alt": "LCK Retro 40s Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/lck-retro/kit-c067412b452043ab-0-640.avif",
+              "src": "/media/lck-retro/kit-b1735c463fa41c15-source-gallery-0-caf25dd92e4e-640.avif",
               "width": 640,
               "height": 500
             },
             {
-              "src": "/media/lck-retro/kit-c067412b452043ab-0-1280.avif",
+              "src": "/media/lck-retro/kit-b1735c463fa41c15-source-gallery-0-caf25dd92e4e-1280.avif",
               "width": 996,
               "height": 778
             }
@@ -55,12 +55,12 @@
           "alt": "LCK Retro Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/lck-retro/kit-1c0c1ff7cff74fd7-0-640.avif",
+              "src": "/media/lck-retro/kit-9ee2ea3e7c7d2a5e-source-gallery-0-ed33af6ff13c-640.avif",
               "width": 640,
               "height": 513
             },
             {
-              "src": "/media/lck-retro/kit-1c0c1ff7cff74fd7-0-1280.avif",
+              "src": "/media/lck-retro/kit-9ee2ea3e7c7d2a5e-source-gallery-0-ed33af6ff13c-1280.avif",
               "width": 1056,
               "height": 846
             }
@@ -74,12 +74,12 @@
       "alt": "LCK Retro 이미지 1",
       "variants": [
         {
-          "src": "/media/lck-retro/series-18af2e3b1c729207-0-640.avif",
+          "src": "/media/lck-retro/series-78e38c3c8893455d-source-gallery-0-73dd0fbeb7b3-640.avif",
           "width": 640,
           "height": 379
         },
         {
-          "src": "/media/lck-retro/series-18af2e3b1c729207-0-1280.avif",
+          "src": "/media/lck-retro/series-78e38c3c8893455d-source-gallery-0-73dd0fbeb7b3-1280.avif",
           "width": 994,
           "height": 588
         }

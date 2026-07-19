@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "yaksu",
   "title": "Yaksu",
   "category": "switches",
-  "manufacturer": "SWK",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "SWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "SWK Factory Spring 58g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Yaksu 사진 1",
       "variants": [
         {
-          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-640.avif",
+          "src": "/media/switches/yaksu/22c0702aa0382a61-source-gallery-0-6cbb7ed025a6-640.avif",
           "width": 640,
           "height": 402
         },
         {
-          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-1280.avif",
+          "src": "/media/switches/yaksu/22c0702aa0382a61-source-gallery-0-6cbb7ed025a6-1280.avif",
           "width": 1280,
           "height": 805
         },
         {
-          "src": "/media/switches/yaksu/8dbe63391f456ed0-0-2400.avif",
+          "src": "/media/switches/yaksu/22c0702aa0382a61-source-gallery-0-6cbb7ed025a6-2400.avif",
           "width": 1824,
           "height": 1147
         }
@@ -36,7 +54,7 @@
       "alt": "Yaksu 사진 2",
       "variants": [
         {
-          "src": "/media/switches/yaksu/8dbe63391f456ed0-1-640.avif",
+          "src": "/media/switches/yaksu/22c0702aa0382a61-source-gallery-1-2a11bcf09af8-640.avif",
           "width": 603,
           "height": 689
         }

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "hmx-factory-spring-43g-22d0ef07c6d5",
+  "title": "HMX Factory Spring 43g",
+  "category": "springs",
+  "manufacturer": "HMX",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": null,
+  "bottomOutForce": "43g",
+  "length": "22mm",
+  "images": []
+}

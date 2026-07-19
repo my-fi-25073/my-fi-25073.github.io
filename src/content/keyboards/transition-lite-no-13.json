@@ -23,22 +23,40 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-05-23",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-05-23",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.13 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-13/8beab07c96988b1d-source-gallery-0-f884c0ccf3d4-640.avif",
           "width": 640,
           "height": 390
         },
         {
-          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-13/8beab07c96988b1d-source-gallery-0-f884c0ccf3d4-1280.avif",
           "width": 1280,
           "height": 781
         },
         {
-          "src": "/media/keyboards/transition-lite-no-13/1bb9880078337184-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-13/8beab07c96988b1d-source-gallery-0-f884c0ccf3d4-2400.avif",
           "width": 1364,
           "height": 832
         }

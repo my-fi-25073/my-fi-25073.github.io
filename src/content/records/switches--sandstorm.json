@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sandstorm",
   "title": "Sandstorm",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sandstorm 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sandstorm/448232caf10e8272-0-640.avif",
+          "src": "/media/switches/sandstorm/3fca71c908d5e3d4-source-gallery-0-035b67cddfc2-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/switches/sandstorm/448232caf10e8272-0-1280.avif",
+          "src": "/media/switches/sandstorm/3fca71c908d5e3d4-source-gallery-0-035b67cddfc2-1280.avif",
           "width": 729,
           "height": 541
         }
@@ -31,12 +49,12 @@
       "alt": "Sandstorm 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sandstorm/448232caf10e8272-1-640.avif",
+          "src": "/media/switches/sandstorm/3fca71c908d5e3d4-source-gallery-1-be9bc6d628c1-640.avif",
           "width": 640,
           "height": 634
         },
         {
-          "src": "/media/switches/sandstorm/448232caf10e8272-1-1280.avif",
+          "src": "/media/switches/sandstorm/3fca71c908d5e3d4-source-gallery-1-be9bc6d628c1-1280.avif",
           "width": 1258,
           "height": 1246
         }

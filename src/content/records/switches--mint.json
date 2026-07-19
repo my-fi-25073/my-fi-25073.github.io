@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mint",
   "title": "Mint",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Mint 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mint/e22e2b5cdeb42a56-0-640.avif",
+          "src": "/media/switches/mint/d8205eed0e0a6c86-source-gallery-0-b809bf6b3234-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/switches/mint/e22e2b5cdeb42a56-0-1280.avif",
+          "src": "/media/switches/mint/d8205eed0e0a6c86-source-gallery-0-b809bf6b3234-1280.avif",
           "width": 737,
           "height": 553
         }
@@ -31,17 +49,17 @@
       "alt": "Mint 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-640.avif",
+          "src": "/media/switches/mint/d8205eed0e0a6c86-source-gallery-1-527b01b8ff1d-640.avif",
           "width": 640,
           "height": 727
         },
         {
-          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-1280.avif",
+          "src": "/media/switches/mint/d8205eed0e0a6c86-source-gallery-1-527b01b8ff1d-1280.avif",
           "width": 1280,
           "height": 1455
         },
         {
-          "src": "/media/switches/mint/e22e2b5cdeb42a56-1-2400.avif",
+          "src": "/media/switches/mint/d8205eed0e0a6c86-source-gallery-1-527b01b8ff1d-2400.avif",
           "width": 1325,
           "height": 1506
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sonja-hc",
   "title": "SONJA HC",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "SONJA HC 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sonja-hc/8a7716cc89de1ac0-0-640.avif",
+          "src": "/media/switches/sonja-hc/51152a39414b1ac9-source-gallery-0-1f153eccf06b-640.avif",
           "width": 640,
           "height": 433
         },
         {
-          "src": "/media/switches/sonja-hc/8a7716cc89de1ac0-0-1280.avif",
+          "src": "/media/switches/sonja-hc/51152a39414b1ac9-source-gallery-0-1f153eccf06b-1280.avif",
           "width": 691,
           "height": 468
         }
@@ -31,12 +49,12 @@
       "alt": "SONJA HC 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sonja-hc/8a7716cc89de1ac0-1-640.avif",
+          "src": "/media/switches/sonja-hc/51152a39414b1ac9-source-gallery-1-972692ac50fc-640.avif",
           "width": 640,
           "height": 629
         },
         {
-          "src": "/media/switches/sonja-hc/8a7716cc89de1ac0-1-1280.avif",
+          "src": "/media/switches/sonja-hc/51152a39414b1ac9-source-gallery-1-972692ac50fc-1280.avif",
           "width": 1275,
           "height": 1254
         }

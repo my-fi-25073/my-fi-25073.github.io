@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-08-28",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-08-28",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "CLP Custom Black Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Apodiformbird v1 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-640.avif",
+          "src": "/media/keyboards/apodiformbird-v1/dce1e2f2ebc774aa-source-gallery-0-9fcdd1e69f3b-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-1280.avif",
+          "src": "/media/keyboards/apodiformbird-v1/dce1e2f2ebc774aa-source-gallery-0-9fcdd1e69f3b-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/apodiformbird-v1/44e73fd4b4d9c7dc-0-2400.avif",
+          "src": "/media/keyboards/apodiformbird-v1/dce1e2f2ebc774aa-source-gallery-0-9fcdd1e69f3b-2400.avif",
           "width": 2048,
           "height": 1536
         }

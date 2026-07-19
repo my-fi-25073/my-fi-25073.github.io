@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "haimu-factory-spring-55g",
+  "title": "Haimu Factory Spring 55g",
+  "category": "springs",
+  "manufacturer": "Haimu",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": "47g",
+  "bottomOutForce": "55g",
+  "length": "22mm",
+  "images": []
+}

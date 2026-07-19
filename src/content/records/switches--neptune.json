@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "neptune",
   "title": "Neptune",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Neptune 사진 1",
       "variants": [
         {
-          "src": "/media/switches/neptune/b30604758b4b1c74-0-640.avif",
+          "src": "/media/switches/neptune/67d4e349d474a274-source-gallery-0-a74d61a58bc2-640.avif",
           "width": 640,
           "height": 427
         },
         {
-          "src": "/media/switches/neptune/b30604758b4b1c74-0-1280.avif",
+          "src": "/media/switches/neptune/67d4e349d474a274-source-gallery-0-a74d61a58bc2-1280.avif",
           "width": 1080,
           "height": 720
         }
@@ -31,7 +49,7 @@
       "alt": "Neptune 사진 2",
       "variants": [
         {
-          "src": "/media/switches/neptune/b30604758b4b1c74-1-640.avif",
+          "src": "/media/switches/neptune/67d4e349d474a274-source-gallery-1-ee691f48828e-640.avif",
           "width": 557,
           "height": 439
         }

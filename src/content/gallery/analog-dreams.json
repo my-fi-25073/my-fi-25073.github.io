@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:05:47Z",
+  "createdAt": "2026-03-20T17:05:47.000Z",
   "materials": [
     "ABS"
   ],
@@ -35,17 +35,17 @@
       "alt": "Analog Dreams 이미지 1",
       "variants": [
         {
-          "src": "/media/analog-dreams/series-438ef4989e42b325-0-640.avif",
+          "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-640.avif",
           "width": 640,
           "height": 553
         },
         {
-          "src": "/media/analog-dreams/series-438ef4989e42b325-0-1280.avif",
+          "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-1280.avif",
           "width": 1280,
           "height": 1106
         },
         {
-          "src": "/media/analog-dreams/series-438ef4989e42b325-0-2400.avif",
+          "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-2400.avif",
           "width": 1440,
           "height": 1244
         }

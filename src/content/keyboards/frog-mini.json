@@ -26,22 +26,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-07-05",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-07-05",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Custom Gondola Blue Hangul",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Frog Mini 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-640.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-0-4f5ce200daaf-640.avif",
           "width": 640,
           "height": 425
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-1280.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-0-4f5ce200daaf-1280.avif",
           "width": 1280,
           "height": 849
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-0-2400.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-0-4f5ce200daaf-2400.avif",
           "width": 2400,
           "height": 1592
         }
@@ -51,17 +64,17 @@
       "alt": "Frog Mini 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-640.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-1-571b620a1896-640.avif",
           "width": 640,
           "height": 402
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-1280.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-1-571b620a1896-1280.avif",
           "width": 1280,
           "height": 804
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-1-2400.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-1-571b620a1896-2400.avif",
           "width": 2400,
           "height": 1507
         }
@@ -71,17 +84,17 @@
       "alt": "Frog Mini 사진 3",
       "variants": [
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-640.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-2-329d45babb00-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-1280.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-2-329d45babb00-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/frog-mini/dfbad6907d08c317-2-2400.avif",
+          "src": "/media/keyboards/frog-mini/f5192f15155b6f0f-source-gallery-2-329d45babb00-2400.avif",
           "width": 2048,
           "height": 1536
         }

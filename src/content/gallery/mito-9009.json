@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:09:45Z",
+  "createdAt": "2026-03-21T17:09:45.058Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "MiTo 9009 Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-0bb2e3fe92001745-0-640.avif",
+              "src": "/media/mito-9009/kit-bc2a55d73184c0c1-source-gallery-0-671946abfb42-640.avif",
               "width": 640,
               "height": 424
             },
             {
-              "src": "/media/mito-9009/kit-0bb2e3fe92001745-0-1280.avif",
+              "src": "/media/mito-9009/kit-bc2a55d73184c0c1-source-gallery-0-671946abfb42-1280.avif",
               "width": 1035,
               "height": 685
             }
@@ -54,12 +54,12 @@
           "alt": "MiTo 9009 Commands 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-6e801277e0480ca1-0-640.avif",
+              "src": "/media/mito-9009/kit-d1f8a448416ebc35-source-gallery-0-3310782e8772-640.avif",
               "width": 640,
               "height": 424
             },
             {
-              "src": "/media/mito-9009/kit-6e801277e0480ca1-0-1280.avif",
+              "src": "/media/mito-9009/kit-d1f8a448416ebc35-source-gallery-0-3310782e8772-1280.avif",
               "width": 1041,
               "height": 690
             }
@@ -79,12 +79,12 @@
           "alt": "MiTo 9009 Novelties 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-6dd723d2f16e03a5-0-640.avif",
+              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/mito-9009/kit-6dd723d2f16e03a5-0-1280.avif",
+              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-1280.avif",
               "width": 1039,
               "height": 691
             }
@@ -104,12 +104,12 @@
           "alt": "MiTo 9009 Numpad 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-73bab58627a32449-0-640.avif",
+              "src": "/media/mito-9009/kit-59b1f68b71ec9649-source-gallery-0-65fb3ee9c2a0-640.avif",
               "width": 640,
               "height": 427
             },
             {
-              "src": "/media/mito-9009/kit-73bab58627a32449-0-1280.avif",
+              "src": "/media/mito-9009/kit-59b1f68b71ec9649-source-gallery-0-65fb3ee9c2a0-1280.avif",
               "width": 1039,
               "height": 693
             }
@@ -129,12 +129,12 @@
           "alt": "MiTo 9009 Ortholnear Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-3c0a5138d2b6e73b-0-640.avif",
+              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/mito-9009/kit-3c0a5138d2b6e73b-0-1280.avif",
+              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-1280.avif",
               "width": 1037,
               "height": 688
             }
@@ -154,12 +154,12 @@
           "alt": "MiTo 9009 Sapce Bars 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-9009/kit-4ad6c71707e126ae-0-640.avif",
+              "src": "/media/mito-9009/kit-d56e9bfc0dc2b745-source-gallery-0-a04dbf0f6a82-640.avif",
               "width": 640,
               "height": 429
             },
             {
-              "src": "/media/mito-9009/kit-4ad6c71707e126ae-0-1280.avif",
+              "src": "/media/mito-9009/kit-d56e9bfc0dc2b745-source-gallery-0-a04dbf0f6a82-1280.avif",
               "width": 1024,
               "height": 687
             }
@@ -173,17 +173,17 @@
       "alt": "MiTo 9009 이미지 1",
       "variants": [
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-0-640.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-0-2948073ad1b2-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-0-1280.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-0-2948073ad1b2-1280.avif",
           "width": 1280,
           "height": 812
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-0-2400.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-0-2948073ad1b2-2400.avif",
           "width": 1514,
           "height": 960
         }
@@ -193,17 +193,17 @@
       "alt": "MiTo 9009 이미지 2",
       "variants": [
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-1-640.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-1-2e4954743224-640.avif",
           "width": 640,
           "height": 400
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-1-1280.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-1-2e4954743224-1280.avif",
           "width": 1280,
           "height": 801
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-1-2400.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-1-2e4954743224-2400.avif",
           "width": 1972,
           "height": 1234
         }
@@ -213,17 +213,17 @@
       "alt": "MiTo 9009 이미지 3",
       "variants": [
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-2-640.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-2-db7612a5a19e-640.avif",
           "width": 640,
           "height": 327
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-2-1280.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-2-db7612a5a19e-1280.avif",
           "width": 1280,
           "height": 654
         },
         {
-          "src": "/media/mito-9009/series-816ba8f43403f823-2-2400.avif",
+          "src": "/media/mito-9009/series-759e281dd3ea65a0-source-gallery-2-db7612a5a19e-2400.avif",
           "width": 1970,
           "height": 1006
         }

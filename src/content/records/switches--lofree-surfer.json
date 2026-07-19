@@ -1,32 +1,70 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lofree-surfer",
   "title": "Lofree Surfer",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "25g",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "기본 구성",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lofree Surfer 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-640.avif",
+          "src": "/media/switches/lofree-surfer/84476f766740ad94-source-gallery-0-2f6ec158a661-640.avif",
           "width": 640,
           "height": 583
         },
         {
-          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-1280.avif",
+          "src": "/media/switches/lofree-surfer/84476f766740ad94-source-gallery-0-2f6ec158a661-1280.avif",
           "width": 1280,
           "height": 1166
         },
         {
-          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-0-2400.avif",
+          "src": "/media/switches/lofree-surfer/84476f766740ad94-source-gallery-0-2f6ec158a661-2400.avif",
           "width": 1304,
           "height": 1188
         }
@@ -36,12 +74,12 @@
       "alt": "Lofree Surfer 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-1-640.avif",
+          "src": "/media/switches/lofree-surfer/84476f766740ad94-source-gallery-1-d1fe7eb207a2-640.avif",
           "width": 640,
           "height": 472
         },
         {
-          "src": "/media/switches/lofree-surfer/fdad7ad96610cf33-1-1280.avif",
+          "src": "/media/switches/lofree-surfer/84476f766740ad94-source-gallery-1-d1fe7eb207a2-1280.avif",
           "width": 1192,
           "height": 880
         }

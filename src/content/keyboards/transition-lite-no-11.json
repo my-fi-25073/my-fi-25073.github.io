@@ -24,22 +24,50 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-03-12",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-03-12",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Cherry Vintage",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (GMK)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.11 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-11/8bc56715c44038b9-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-11/666346bc3b07f2d6-source-gallery-0-626ea25f9732-640.avif",
           "width": 640,
           "height": 440
         },
         {
-          "src": "/media/keyboards/transition-lite-no-11/8bc56715c44038b9-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-11/666346bc3b07f2d6-source-gallery-0-626ea25f9732-1280.avif",
           "width": 1280,
           "height": 880
         },
         {
-          "src": "/media/keyboards/transition-lite-no-11/8bc56715c44038b9-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-11/666346bc3b07f2d6-source-gallery-0-626ea25f9732-2400.avif",
           "width": 2400,
           "height": 1651
         }

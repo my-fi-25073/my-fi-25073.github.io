@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-55g-88a14b057730",
+  "title": "Gateron Factory Spring 55g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Middle",
+  "actuationForce": "45g",
+  "bottomOutForce": "55g",
+  "length": "15mm",
+  "images": []
+}

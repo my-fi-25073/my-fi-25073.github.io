@@ -25,22 +25,50 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-05-22",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-05-22",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "WoB Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "WoB Essential",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Colorchorome",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Mictlan Space Bar",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Corne v4 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-0-640.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-0-3f293400a3f7-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-0-1280.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-0-3f293400a3f7-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-0-2400.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-0-3f293400a3f7-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -50,17 +78,17 @@
       "alt": "Corne v4 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-1-640.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-1-a5db34b3dc1d-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-1-1280.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-1-a5db34b3dc1d-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-1-2400.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-1-a5db34b3dc1d-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -70,17 +98,17 @@
       "alt": "Corne v4 사진 3",
       "variants": [
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-2-640.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-2-0cdbe6b293dc-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-2-1280.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-2-0cdbe6b293dc-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/corne-v4/2bf099c5224488c8-2-2400.avif",
+          "src": "/media/keyboards/corne-v4/19ac3d0f78a283d1-source-gallery-2-0cdbe6b293dc-2400.avif",
           "width": 2048,
           "height": 1536
         }

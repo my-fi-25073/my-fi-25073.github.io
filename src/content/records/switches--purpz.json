@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "purpz",
   "title": "Purpz",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Purpz 사진 1",
       "variants": [
         {
-          "src": "/media/switches/purpz/9851faf5bf867da1-0-640.avif",
+          "src": "/media/switches/purpz/2e1eec8e8b7e3484-source-gallery-0-15685c33a73d-640.avif",
           "width": 640,
           "height": 619
         },
         {
-          "src": "/media/switches/purpz/9851faf5bf867da1-0-1280.avif",
+          "src": "/media/switches/purpz/2e1eec8e8b7e3484-source-gallery-0-15685c33a73d-1280.avif",
           "width": 754,
           "height": 729
         }
@@ -31,12 +49,12 @@
       "alt": "Purpz 사진 2",
       "variants": [
         {
-          "src": "/media/switches/purpz/9851faf5bf867da1-1-640.avif",
+          "src": "/media/switches/purpz/2e1eec8e8b7e3484-source-gallery-1-dd0b846ef2bd-640.avif",
           "width": 640,
           "height": 195
         },
         {
-          "src": "/media/switches/purpz/9851faf5bf867da1-1-1280.avif",
+          "src": "/media/switches/purpz/2e1eec8e8b7e3484-source-gallery-1-dd0b846ef2bd-1280.avif",
           "width": 833,
           "height": 254
         }

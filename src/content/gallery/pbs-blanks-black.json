@@ -8,7 +8,7 @@
   "profile": "PBS",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:09:01Z",
+  "createdAt": "2026-03-20T18:09:01.078Z",
   "materials": [
     "PBT"
   ],
@@ -30,17 +30,17 @@
           "alt": "PBS Blanks Black Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pbs-blanks-black/kit-a926be6f0be1409e-0-640.avif",
+              "src": "/media/pbs-blanks-black/kit-cc82df72e463a133-source-gallery-0-6de883b42ede-640.avif",
               "width": 640,
               "height": 482
             },
             {
-              "src": "/media/pbs-blanks-black/kit-a926be6f0be1409e-0-1280.avif",
+              "src": "/media/pbs-blanks-black/kit-cc82df72e463a133-source-gallery-0-6de883b42ede-1280.avif",
               "width": 1280,
               "height": 964
             },
             {
-              "src": "/media/pbs-blanks-black/kit-a926be6f0be1409e-0-2400.avif",
+              "src": "/media/pbs-blanks-black/kit-cc82df72e463a133-source-gallery-0-6de883b42ede-2400.avif",
               "width": 1662,
               "height": 1252
             }
@@ -54,17 +54,17 @@
       "alt": "PBS Blanks Black 이미지 1",
       "variants": [
         {
-          "src": "/media/pbs-blanks-black/series-38906d0741b69e6e-0-640.avif",
+          "src": "/media/pbs-blanks-black/series-709af5ed12041f0a-source-gallery-0-6a40333fec82-640.avif",
           "width": 640,
           "height": 482
         },
         {
-          "src": "/media/pbs-blanks-black/series-38906d0741b69e6e-0-1280.avif",
+          "src": "/media/pbs-blanks-black/series-709af5ed12041f0a-source-gallery-0-6a40333fec82-1280.avif",
           "width": 1280,
           "height": 963
         },
         {
-          "src": "/media/pbs-blanks-black/series-38906d0741b69e6e-0-2400.avif",
+          "src": "/media/pbs-blanks-black/series-709af5ed12041f0a-source-gallery-0-6a40333fec82-2400.avif",
           "width": 1470,
           "height": 1106
         }

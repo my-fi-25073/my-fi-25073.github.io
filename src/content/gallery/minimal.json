@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T16:59:32Z",
+  "createdAt": "2026-03-20T16:59:32.389Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Minimal 40s Kit 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-640.avif",
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-1280.avif",
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/minimal/kit-e1c3cfec716a9b02-0-2400.avif",
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,12 +61,12 @@
           "alt": "Minimal BoW (GMK) Hiragana Kit 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-45391e49c09e2b1d-0-640.avif",
+              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-640.avif",
               "width": 640,
               "height": 907
             },
             {
-              "src": "/media/minimal/kit-45391e49c09e2b1d-0-1280.avif",
+              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-1280.avif",
               "width": 996,
               "height": 1412
             }
@@ -86,12 +86,12 @@
           "alt": "Minimal BRG Space Bar kit 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-cbbaa5babea8cf54-0-640.avif",
+              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-640.avif",
               "width": 640,
               "height": 434
             },
             {
-              "src": "/media/minimal/kit-cbbaa5babea8cf54-0-1280.avif",
+              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-1280.avif",
               "width": 1256,
               "height": 852
             }
@@ -111,12 +111,12 @@
           "alt": "Minimal Classic BoW 40s (Cannon Key) 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-eae97a28310fb9ec-0-640.avif",
+              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-640.avif",
               "width": 640,
               "height": 520
             },
             {
-              "src": "/media/minimal/kit-eae97a28310fb9ec-0-1280.avif",
+              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-1280.avif",
               "width": 872,
               "height": 708
             }
@@ -136,17 +136,17 @@
           "alt": "Minimal Command Kit 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-d35be3a217ba5b11-0-640.avif",
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/minimal/kit-d35be3a217ba5b11-0-1280.avif",
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/minimal/kit-d35be3a217ba5b11-0-2400.avif",
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -166,17 +166,17 @@
           "alt": "Minimal JIS Space bar 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-640.avif",
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-1280.avif",
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/minimal/kit-83e85c3fb5f7d98a-0-2400.avif",
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -196,17 +196,17 @@
           "alt": "Minimal Minimal Base 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-640.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-0-480ad941444d-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-1280.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-0-480ad941444d-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-0-2400.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-0-480ad941444d-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -216,17 +216,17 @@
           "alt": "Minimal Minimal Base 이미지 2",
           "variants": [
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-640.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-1-b313ec64dfc3-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-1280.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-1-b313ec64dfc3-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/minimal/kit-3fb68f1bc75e8437-1-2400.avif",
+              "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-1-b313ec64dfc3-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -246,17 +246,17 @@
           "alt": "Minimal Modern Japanese Desko HHKB 이미지 1",
           "variants": [
             {
-              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-640.avif",
+              "src": "/media/minimal/kit-658b2a3b2e9548a5-source-gallery-0-302181990900-640.avif",
               "width": 640,
               "height": 580
             },
             {
-              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-1280.avif",
+              "src": "/media/minimal/kit-658b2a3b2e9548a5-source-gallery-0-302181990900-1280.avif",
               "width": 1280,
               "height": 1160
             },
             {
-              "src": "/media/minimal/kit-f40c4f26f436c2c9-0-2400.avif",
+              "src": "/media/minimal/kit-658b2a3b2e9548a5-source-gallery-0-302181990900-2400.avif",
               "width": 1690,
               "height": 1532
             }
@@ -270,17 +270,17 @@
       "alt": "Minimal 이미지 1",
       "variants": [
         {
-          "src": "/media/minimal/series-9f610ec9acc4c869-0-640.avif",
+          "src": "/media/minimal/series-28277db0e945f1c7-source-gallery-0-9dd77f0ae881-640.avif",
           "width": 640,
           "height": 539
         },
         {
-          "src": "/media/minimal/series-9f610ec9acc4c869-0-1280.avif",
+          "src": "/media/minimal/series-28277db0e945f1c7-source-gallery-0-9dd77f0ae881-1280.avif",
           "width": 1280,
           "height": 1079
         },
         {
-          "src": "/media/minimal/series-9f610ec9acc4c869-0-2400.avif",
+          "src": "/media/minimal/series-28277db0e945f1c7-source-gallery-0-9dd77f0ae881-2400.avif",
           "width": 1728,
           "height": 1456
         }

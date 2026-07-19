@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "blusish-white-s",
   "title": "Blusish White S",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Blusish White S 사진 1",
       "variants": [
         {
-          "src": "/media/switches/blusish-white-s/9919797ce0def225-0-640.avif",
+          "src": "/media/switches/blusish-white-s/29c8bb5cb2c847ae-source-gallery-0-d9dd7660bbf0-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/blusish-white-s/9919797ce0def225-0-1280.avif",
+          "src": "/media/switches/blusish-white-s/29c8bb5cb2c847ae-source-gallery-0-d9dd7660bbf0-1280.avif",
           "width": 658,
           "height": 438
         }
@@ -32,7 +50,7 @@
       "alt": "Blusish White S 사진 2",
       "variants": [
         {
-          "src": "/media/switches/blusish-white-s/9919797ce0def225-1-640.avif",
+          "src": "/media/switches/blusish-white-s/29c8bb5cb2c847ae-source-gallery-1-06a1793c31d3-640.avif",
           "width": 558,
           "height": 442
         }

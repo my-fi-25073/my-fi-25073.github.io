@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "bumblebee",
   "title": "Bumblebee",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Bumblebee 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-0-640.avif",
+          "src": "/media/switches/bumblebee/6ab371af1f4ad0d3-source-gallery-0-901dccc976fd-640.avif",
           "width": 640,
           "height": 451
         },
         {
-          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-0-1280.avif",
+          "src": "/media/switches/bumblebee/6ab371af1f4ad0d3-source-gallery-0-901dccc976fd-1280.avif",
           "width": 693,
           "height": 488
         }
@@ -31,12 +49,12 @@
       "alt": "Bumblebee 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-1-640.avif",
+          "src": "/media/switches/bumblebee/6ab371af1f4ad0d3-source-gallery-1-178a262f1538-640.avif",
           "width": 640,
           "height": 405
         },
         {
-          "src": "/media/switches/bumblebee/e961b02ebd1d5d15-1-1280.avif",
+          "src": "/media/switches/bumblebee/6ab371af1f4ad0d3-source-gallery-1-178a262f1538-1280.avif",
           "width": 669,
           "height": 423
         }

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "bsun-factory-spring-38g",
+  "title": "Bsun Factory Spring 38g",
+  "category": "springs",
+  "manufacturer": "Bsun",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "33g",
+  "bottomOutForce": "38g",
+  "length": null,
+  "images": []
+}

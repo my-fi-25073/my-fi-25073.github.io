@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx-ulp-click",
   "title": "MX ULP Click",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry ULP",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry ULP",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 65g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX ULP Click 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx-ulp-click/a79982f1fb202a7b-0-640.avif",
+          "src": "/media/switches/mx-ulp-click/7b6da4f41bbe71db-source-gallery-0-22c26f8b5097-640.avif",
           "width": 353,
           "height": 241
         }
@@ -26,7 +44,7 @@
       "alt": "MX ULP Click 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx-ulp-click/a79982f1fb202a7b-1-640.avif",
+          "src": "/media/switches/mx-ulp-click/7b6da4f41bbe71db-source-gallery-1-a1c798b96188-640.avif",
           "width": 457,
           "height": 375
         }

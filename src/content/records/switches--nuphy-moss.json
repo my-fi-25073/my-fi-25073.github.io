@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nuphy-moss",
   "title": "NuPhy Moss",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★★☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NuPhy Moss 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-0-640.avif",
+          "src": "/media/switches/nuphy-moss/e15e7606740b1f58-source-gallery-0-5cb1fe775139-640.avif",
           "width": 640,
           "height": 514
         },
         {
-          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-0-1280.avif",
+          "src": "/media/switches/nuphy-moss/e15e7606740b1f58-source-gallery-0-5cb1fe775139-1280.avif",
           "width": 792,
           "height": 636
         }
@@ -31,12 +49,12 @@
       "alt": "NuPhy Moss 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-1-640.avif",
+          "src": "/media/switches/nuphy-moss/e15e7606740b1f58-source-gallery-1-d824d84f9637-640.avif",
           "width": 640,
           "height": 251
         },
         {
-          "src": "/media/switches/nuphy-moss/4efbde16bd21ff0e-1-1280.avif",
+          "src": "/media/switches/nuphy-moss/e15e7606740b1f58-source-gallery-1-d824d84f9637-1280.avif",
           "width": 919,
           "height": 360
         }

@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:10:49Z",
+  "createdAt": "2026-03-21T17:10:49.937Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,12 @@
           "alt": "MiTo Noctua Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-noctua/kit-7348b6916b294fcd-0-640.avif",
+              "src": "/media/mito-noctua/kit-e1b17a1d0be806ac-source-gallery-0-1f6faa917420-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/mito-noctua/kit-7348b6916b294fcd-0-1280.avif",
+              "src": "/media/mito-noctua/kit-e1b17a1d0be806ac-source-gallery-0-1f6faa917420-1280.avif",
               "width": 1040,
               "height": 692
             }
@@ -54,12 +54,12 @@
           "alt": "MiTo Noctua Hobbyist 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-noctua/kit-d34d1347c3e2691c-0-640.avif",
+              "src": "/media/mito-noctua/kit-6e664f147cce0a79-source-gallery-0-cb76eb564c0c-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/mito-noctua/kit-d34d1347c3e2691c-0-1280.avif",
+              "src": "/media/mito-noctua/kit-6e664f147cce0a79-source-gallery-0-cb76eb564c0c-1280.avif",
               "width": 1038,
               "height": 691
             }
@@ -79,12 +79,12 @@
           "alt": "MiTo Noctua Numpad 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-noctua/kit-52d1c180b9727e25-0-640.avif",
+              "src": "/media/mito-noctua/kit-3e4c696ba919917b-source-gallery-0-c01eba9b654e-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/mito-noctua/kit-52d1c180b9727e25-0-1280.avif",
+              "src": "/media/mito-noctua/kit-3e4c696ba919917b-source-gallery-0-c01eba9b654e-1280.avif",
               "width": 1039,
               "height": 691
             }
@@ -104,12 +104,12 @@
           "alt": "MiTo Noctua Ortho 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-noctua/kit-6531d1e9460ac6fe-0-640.avif",
+              "src": "/media/mito-noctua/kit-63fd18ffd485d6e2-source-gallery-0-d20281a8a41d-640.avif",
               "width": 640,
               "height": 427
             },
             {
-              "src": "/media/mito-noctua/kit-6531d1e9460ac6fe-0-1280.avif",
+              "src": "/media/mito-noctua/kit-63fd18ffd485d6e2-source-gallery-0-d20281a8a41d-1280.avif",
               "width": 1040,
               "height": 694
             }
@@ -129,12 +129,12 @@
           "alt": "MiTo Noctua Spacebars 이미지 1",
           "variants": [
             {
-              "src": "/media/mito-noctua/kit-61f7371659bff1af-0-640.avif",
+              "src": "/media/mito-noctua/kit-57564ce46ab5cb89-source-gallery-0-c453c7d59126-640.avif",
               "width": 640,
               "height": 426
             },
             {
-              "src": "/media/mito-noctua/kit-61f7371659bff1af-0-1280.avif",
+              "src": "/media/mito-noctua/kit-57564ce46ab5cb89-source-gallery-0-c453c7d59126-1280.avif",
               "width": 1040,
               "height": 692
             }
@@ -148,17 +148,17 @@
       "alt": "MiTo Noctua 이미지 1",
       "variants": [
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-640.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-640.avif",
           "width": 640,
           "height": 411
         },
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-1280.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-1280.avif",
           "width": 1280,
           "height": 822
         },
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-0-2400.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-2400.avif",
           "width": 1576,
           "height": 1012
         }
@@ -168,17 +168,37 @@
       "alt": "MiTo Noctua 이미지 2",
       "variants": [
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-640.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-1280.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/mito-noctua/series-e2543813a5bd91c1-1-2400.avif",
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "MiTo Noctua 이미지 1",
+      "variants": [
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-2400.avif",
           "width": 2048,
           "height": 1536
         }

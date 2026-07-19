@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "taro-ball",
   "title": "Taro Ball",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 43g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Taro Ball 사진 1",
       "variants": [
         {
-          "src": "/media/switches/taro-ball/b28cc3ae361b5f21-0-640.avif",
+          "src": "/media/switches/taro-ball/1f6028bf331f2261-source-gallery-0-db4bc49edbc3-640.avif",
           "width": 640,
           "height": 504
         },
         {
-          "src": "/media/switches/taro-ball/b28cc3ae361b5f21-0-1280.avif",
+          "src": "/media/switches/taro-ball/1f6028bf331f2261-source-gallery-0-db4bc49edbc3-1280.avif",
           "width": 811,
           "height": 639
         }
@@ -31,12 +49,12 @@
       "alt": "Taro Ball 사진 2",
       "variants": [
         {
-          "src": "/media/switches/taro-ball/b28cc3ae361b5f21-1-640.avif",
+          "src": "/media/switches/taro-ball/1f6028bf331f2261-source-gallery-1-d65279fb3cc5-640.avif",
           "width": 640,
           "height": 531
         },
         {
-          "src": "/media/switches/taro-ball/b28cc3ae361b5f21-1-1280.avif",
+          "src": "/media/switches/taro-ball/1f6028bf331f2261-source-gallery-1-d65279fb3cc5-1280.avif",
           "width": 1244,
           "height": 1033
         }

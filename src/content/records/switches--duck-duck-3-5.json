@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "duck-duck-3-5",
   "title": "Duck Duck 3.5",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Duck Duck 3.5 사진 1",
       "variants": [
         {
-          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-0-640.avif",
+          "src": "/media/switches/duck-duck-3-5/583a8df50fd995ac-source-gallery-0-4aaceccc3951-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-0-1280.avif",
+          "src": "/media/switches/duck-duck-3-5/583a8df50fd995ac-source-gallery-0-4aaceccc3951-1280.avif",
           "width": 1030,
           "height": 686
         }
@@ -31,12 +49,12 @@
       "alt": "Duck Duck 3.5 사진 2",
       "variants": [
         {
-          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-1-640.avif",
+          "src": "/media/switches/duck-duck-3-5/583a8df50fd995ac-source-gallery-1-79b78c9b9599-640.avif",
           "width": 640,
           "height": 752
         },
         {
-          "src": "/media/switches/duck-duck-3-5/4a7283a8d687bc5a-1-1280.avif",
+          "src": "/media/switches/duck-duck-3-5/583a8df50fd995ac-source-gallery-1-79b78c9b9599-1280.avif",
           "width": 1277,
           "height": 1501
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "hide-mountain",
   "title": "Hide Mountain",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Hide Mountain 사진 1",
       "variants": [
         {
-          "src": "/media/switches/hide-mountain/27d838d8c8d40fe2-0-640.avif",
+          "src": "/media/switches/hide-mountain/9f6ba06c74b12c14-source-gallery-0-2b0929b6eea3-640.avif",
           "width": 640,
           "height": 462
         },
         {
-          "src": "/media/switches/hide-mountain/27d838d8c8d40fe2-0-1280.avif",
+          "src": "/media/switches/hide-mountain/9f6ba06c74b12c14-source-gallery-0-2b0929b6eea3-1280.avif",
           "width": 894,
           "height": 646
         }
@@ -31,17 +49,17 @@
       "alt": "Hide Mountain 사진 2",
       "variants": [
         {
-          "src": "/media/switches/hide-mountain/27d838d8c8d40fe2-1-640.avif",
+          "src": "/media/switches/hide-mountain/9f6ba06c74b12c14-source-gallery-1-ebe954e1f656-640.avif",
           "width": 640,
           "height": 454
         },
         {
-          "src": "/media/switches/hide-mountain/27d838d8c8d40fe2-1-1280.avif",
+          "src": "/media/switches/hide-mountain/9f6ba06c74b12c14-source-gallery-1-ebe954e1f656-1280.avif",
           "width": 1280,
           "height": 908
         },
         {
-          "src": "/media/switches/hide-mountain/27d838d8c8d40fe2-1-2400.avif",
+          "src": "/media/switches/hide-mountain/9f6ba06c74b12c14-source-gallery-1-ebe954e1f656-2400.avif",
           "width": 1796,
           "height": 1274
         }

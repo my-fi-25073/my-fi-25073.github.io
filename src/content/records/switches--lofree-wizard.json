@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lofree-wizard",
   "title": "Lofree Wizard",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lofree Wizard 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lofree-wizard/164a4e5e795cface-0-640.avif",
+          "src": "/media/switches/lofree-wizard/b1ad3a08db1b3806-source-gallery-0-914dc97ffa50-640.avif",
           "width": 459,
           "height": 408
         }
@@ -26,12 +44,12 @@
       "alt": "Lofree Wizard 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lofree-wizard/164a4e5e795cface-1-640.avif",
+          "src": "/media/switches/lofree-wizard/b1ad3a08db1b3806-source-gallery-1-248b01213f6a-640.avif",
           "width": 640,
           "height": 1361
         },
         {
-          "src": "/media/switches/lofree-wizard/164a4e5e795cface-1-1280.avif",
+          "src": "/media/switches/lofree-wizard/b1ad3a08db1b3806-source-gallery-1-248b01213f6a-1280.avif",
           "width": 963,
           "height": 2048
         }

@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:52:59Z",
+  "createdAt": "2026-03-20T11:52:59.202Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Relegendables+ L9 Relegendables 이미지 1",
           "variants": [
             {
-              "src": "/media/relegendables/kit-a0a968599076e2c9-0-640.avif",
+              "src": "/media/relegendables/kit-f8ada7f955a8382d-source-gallery-0-d8a49f244e85-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/relegendables/kit-a0a968599076e2c9-0-1280.avif",
+              "src": "/media/relegendables/kit-f8ada7f955a8382d-source-gallery-0-d8a49f244e85-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/relegendables/kit-a0a968599076e2c9-0-2400.avif",
+              "src": "/media/relegendables/kit-f8ada7f955a8382d-source-gallery-0-d8a49f244e85-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "Relegendables+ U9 Front Print 이미지 1",
           "variants": [
             {
-              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-640.avif",
+              "src": "/media/relegendables/kit-f1befafaa6e350db-source-gallery-0-e964e77cb4b7-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-1280.avif",
+              "src": "/media/relegendables/kit-f1befafaa6e350db-source-gallery-0-e964e77cb4b7-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/relegendables/kit-62a4c9c7f1ff50b6-0-2400.avif",
+              "src": "/media/relegendables/kit-f1befafaa6e350db-source-gallery-0-e964e77cb4b7-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -91,17 +91,17 @@
           "alt": "Relegendables+ U9 Relegendables 이미지 1",
           "variants": [
             {
-              "src": "/media/relegendables/kit-d450bd29917733c5-0-640.avif",
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/relegendables/kit-d450bd29917733c5-0-1280.avif",
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/relegendables/kit-d450bd29917733c5-0-2400.avif",
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -115,17 +115,17 @@
       "alt": "Relegendables+ 이미지 1",
       "variants": [
         {
-          "src": "/media/relegendables/series-be73c500304a2e9e-0-640.avif",
+          "src": "/media/relegendables/series-807eaa2a7bac0860-source-gallery-0-8c54884f654f-640.avif",
           "width": 640,
           "height": 461
         },
         {
-          "src": "/media/relegendables/series-be73c500304a2e9e-0-1280.avif",
+          "src": "/media/relegendables/series-807eaa2a7bac0860-source-gallery-0-8c54884f654f-1280.avif",
           "width": 1280,
           "height": 922
         },
         {
-          "src": "/media/relegendables/series-be73c500304a2e9e-0-2400.avif",
+          "src": "/media/relegendables/series-807eaa2a7bac0860-source-gallery-0-8c54884f654f-2400.avif",
           "width": 1388,
           "height": 1000
         }

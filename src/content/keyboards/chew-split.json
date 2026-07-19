@@ -26,22 +26,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-11-23",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-11-23",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "KLP Custom Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Chew Split 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-640.avif",
+          "src": "/media/keyboards/chew-split/f7019e2abbbfe24a-source-gallery-0-49c56571cc32-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-1280.avif",
+          "src": "/media/keyboards/chew-split/f7019e2abbbfe24a-source-gallery-0-49c56571cc32-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/chew-split/6e9a3a116e2c7b1a-0-2400.avif",
+          "src": "/media/keyboards/chew-split/f7019e2abbbfe24a-source-gallery-0-49c56571cc32-2400.avif",
           "width": 2400,
           "height": 1800
         }

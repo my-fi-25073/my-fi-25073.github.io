@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "xinhai",
   "title": "Xinhai",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "commercial",
+  "recipeStatus": "not_applicable",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 45g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Xinhai 사진 1",
       "variants": [
         {
-          "src": "/media/switches/xinhai/ac655af12e1b5994-0-640.avif",
+          "src": "/media/switches/xinhai/38fccd97815233a9-source-gallery-0-c8aca1b6a7f5-640.avif",
           "width": 640,
           "height": 485
         },
         {
-          "src": "/media/switches/xinhai/ac655af12e1b5994-0-1280.avif",
+          "src": "/media/switches/xinhai/38fccd97815233a9-source-gallery-0-c8aca1b6a7f5-1280.avif",
           "width": 885,
           "height": 671
         }
@@ -31,17 +49,17 @@
       "alt": "Xinhai 사진 2",
       "variants": [
         {
-          "src": "/media/switches/xinhai/ac655af12e1b5994-1-640.avif",
+          "src": "/media/switches/xinhai/38fccd97815233a9-source-gallery-1-5f9ac36ba4a1-640.avif",
           "width": 640,
           "height": 720
         },
         {
-          "src": "/media/switches/xinhai/ac655af12e1b5994-1-1280.avif",
+          "src": "/media/switches/xinhai/38fccd97815233a9-source-gallery-1-5f9ac36ba4a1-1280.avif",
           "width": 1280,
           "height": 1440
         },
         {
-          "src": "/media/switches/xinhai/ac655af12e1b5994-1-2400.avif",
+          "src": "/media/switches/xinhai/38fccd97815233a9-source-gallery-1-5f9ac36ba4a1-2400.avif",
           "width": 1331,
           "height": 1497
         }

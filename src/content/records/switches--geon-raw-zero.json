@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "geon-raw-zero",
+  "title": "Geon Raw Zero",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "Geon 14mm 45g · 스템 Factory Lube · 스프링 105",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Geon 14mm 45g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "SW Classic 50g · 스템 Factory Lube · 스프링 105",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "SW Classic 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Geon Raw Zero 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/geon-raw-zero/f883529a667f6842-source-gallery-0-0b7a8b11a3b3-640.avif",
+          "width": 640,
+          "height": 447
+        },
+        {
+          "src": "/media/switches/geon-raw-zero/f883529a667f6842-source-gallery-0-0b7a8b11a3b3-1280.avif",
+          "width": 1032,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Geon Raw Zero 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/geon-raw-zero/f883529a667f6842-source-gallery-1-74685f2c32a7-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/geon-raw-zero/f883529a667f6842-source-gallery-1-74685f2c32a7-1280.avif",
+          "width": 1280,
+          "height": 1061
+        },
+        {
+          "src": "/media/switches/geon-raw-zero/f883529a667f6842-source-gallery-1-74685f2c32a7-2400.avif",
+          "width": 1354,
+          "height": 1122
+        }
+      ]
+    }
+  ]
+}

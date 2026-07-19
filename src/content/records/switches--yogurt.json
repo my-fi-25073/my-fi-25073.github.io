@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "yogurt",
   "title": "Yogurt",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★★☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Yogurt 사진 1",
       "variants": [
         {
-          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-0-640.avif",
+          "src": "/media/switches/yogurt/739acb08db4db9c7-source-gallery-0-732ac9b693ff-640.avif",
           "width": 640,
           "height": 617
         },
         {
-          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-0-1280.avif",
+          "src": "/media/switches/yogurt/739acb08db4db9c7-source-gallery-0-732ac9b693ff-1280.avif",
           "width": 969,
           "height": 934
         }
@@ -31,7 +49,7 @@
       "alt": "Yogurt 사진 2",
       "variants": [
         {
-          "src": "/media/switches/yogurt/14ef8f986f5f7ebd-1-640.avif",
+          "src": "/media/switches/yogurt/739acb08db4db9c7-source-gallery-1-79c43c1f8857-640.avif",
           "width": 573,
           "height": 475
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "neo-white",
   "title": "Neo White",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 58g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Neo White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/neo-white/449ec9aa496cee62-0-640.avif",
+          "src": "/media/switches/neo-white/c3e6a8354a70b8d5-source-gallery-0-b5619e89547d-640.avif",
           "width": 640,
           "height": 513
         },
         {
-          "src": "/media/switches/neo-white/449ec9aa496cee62-0-1280.avif",
+          "src": "/media/switches/neo-white/c3e6a8354a70b8d5-source-gallery-0-b5619e89547d-1280.avif",
           "width": 749,
           "height": 600
         }
@@ -31,12 +49,12 @@
       "alt": "Neo White 사진 2",
       "variants": [
         {
-          "src": "/media/switches/neo-white/449ec9aa496cee62-1-640.avif",
+          "src": "/media/switches/neo-white/c3e6a8354a70b8d5-source-gallery-1-6a1244c30854-640.avif",
           "width": 640,
           "height": 783
         },
         {
-          "src": "/media/switches/neo-white/449ec9aa496cee62-1-1280.avif",
+          "src": "/media/switches/neo-white/c3e6a8354a70b8d5-source-gallery-1-6a1244c30854-1280.avif",
           "width": 1225,
           "height": 1499
         }

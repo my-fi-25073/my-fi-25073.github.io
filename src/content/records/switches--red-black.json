@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "red-black",
   "title": "Red Black",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Red Black 사진 1",
       "variants": [
         {
-          "src": "/media/switches/red-black/0f39388d769c316f-0-640.avif",
+          "src": "/media/switches/red-black/0e4e72748d955d18-source-gallery-0-9de2b837eb8e-640.avif",
           "width": 425,
           "height": 399
         }
@@ -26,7 +44,7 @@
       "alt": "Red Black 사진 2",
       "variants": [
         {
-          "src": "/media/switches/red-black/0f39388d769c316f-1-640.avif",
+          "src": "/media/switches/red-black/0e4e72748d955d18-source-gallery-1-f6a0fbe46b7e-640.avif",
           "width": 398,
           "height": 344
         }

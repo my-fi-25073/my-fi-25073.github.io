@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "taro-silent",
   "title": "Taro Silent",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Taro Silent 사진 1",
       "variants": [
         {
-          "src": "/media/switches/taro-silent/a604305dd2679dde-0-640.avif",
+          "src": "/media/switches/taro-silent/a14bb1713b66767f-source-gallery-0-b3e73a9f8859-640.avif",
           "width": 640,
           "height": 445
         },
         {
-          "src": "/media/switches/taro-silent/a604305dd2679dde-0-1280.avif",
+          "src": "/media/switches/taro-silent/a14bb1713b66767f-source-gallery-0-b3e73a9f8859-1280.avif",
           "width": 721,
           "height": 501
         }

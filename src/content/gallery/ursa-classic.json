@@ -8,7 +8,7 @@
   "profile": "URSA",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:12:37Z",
+  "createdAt": "2026-03-20T18:12:37.302Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "URSA Classic Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/ursa-classic/kit-c1f361fccb552a7c-0-640.avif",
+              "src": "/media/ursa-classic/kit-4d90f7040a2f2b6f-source-gallery-0-5aedc23b144c-640.avif",
               "width": 640,
               "height": 488
             },
             {
-              "src": "/media/ursa-classic/kit-c1f361fccb552a7c-0-1280.avif",
+              "src": "/media/ursa-classic/kit-4d90f7040a2f2b6f-source-gallery-0-5aedc23b144c-1280.avif",
               "width": 1280,
               "height": 975
             },
             {
-              "src": "/media/ursa-classic/kit-c1f361fccb552a7c-0-2400.avif",
+              "src": "/media/ursa-classic/kit-4d90f7040a2f2b6f-source-gallery-0-5aedc23b144c-2400.avif",
               "width": 2032,
               "height": 1548
             }
@@ -59,17 +59,17 @@
           "alt": "URSA Classic Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/ursa-classic/kit-e5bce4add163fed5-0-640.avif",
+              "src": "/media/ursa-classic/kit-e90fdabc500e6a7f-source-gallery-0-e13d96c69393-640.avif",
               "width": 640,
               "height": 438
             },
             {
-              "src": "/media/ursa-classic/kit-e5bce4add163fed5-0-1280.avif",
+              "src": "/media/ursa-classic/kit-e90fdabc500e6a7f-source-gallery-0-e13d96c69393-1280.avif",
               "width": 1280,
               "height": 876
             },
             {
-              "src": "/media/ursa-classic/kit-e5bce4add163fed5-0-2400.avif",
+              "src": "/media/ursa-classic/kit-e90fdabc500e6a7f-source-gallery-0-e13d96c69393-2400.avif",
               "width": 2048,
               "height": 1402
             }
@@ -83,17 +83,17 @@
       "alt": "URSA Classic 이미지 1",
       "variants": [
         {
-          "src": "/media/ursa-classic/series-2da9589a5577af40-0-640.avif",
+          "src": "/media/ursa-classic/series-62de4032b8e8ee37-source-gallery-0-1be8156c77a0-640.avif",
           "width": 640,
           "height": 450
         },
         {
-          "src": "/media/ursa-classic/series-2da9589a5577af40-0-1280.avif",
+          "src": "/media/ursa-classic/series-62de4032b8e8ee37-source-gallery-0-1be8156c77a0-1280.avif",
           "width": 1280,
           "height": 899
         },
         {
-          "src": "/media/ursa-classic/series-2da9589a5577af40-0-2400.avif",
+          "src": "/media/ursa-classic/series-62de4032b8e8ee37-source-gallery-0-1be8156c77a0-2400.avif",
           "width": 1748,
           "height": 1228
         }

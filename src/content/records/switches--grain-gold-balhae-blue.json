@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "grain-gold-balhae-blue",
   "title": "Grain Gold Balhae Blue",
   "category": "switches",
-  "manufacturer": "Unknown",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Unknown",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Grain Gold Balhae Blue 사진 1",
       "variants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/362942798e67eccc-0-640.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-0-c68a38e42004-640.avif",
           "width": 640,
           "height": 561
         },
         {
-          "src": "/media/switches/grain-gold-balhae-blue/362942798e67eccc-0-1280.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-0-c68a38e42004-1280.avif",
           "width": 792,
           "height": 694
         }
@@ -31,12 +49,12 @@
       "alt": "Grain Gold Balhae Blue 사진 2",
       "variants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/362942798e67eccc-1-640.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-1-4ab0b84db863-640.avif",
           "width": 640,
           "height": 417
         },
         {
-          "src": "/media/switches/grain-gold-balhae-blue/362942798e67eccc-1-1280.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-1-4ab0b84db863-1280.avif",
           "width": 658,
           "height": 429
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nuphy-daisy",
   "title": "NuPhy Daisy",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NuPhy Daisy 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nuphy-daisy/f0edebb07ee24df7-0-640.avif",
+          "src": "/media/switches/nuphy-daisy/9c872642eadf16d8-source-gallery-0-62bb3f86885a-640.avif",
           "width": 640,
           "height": 467
         },
         {
-          "src": "/media/switches/nuphy-daisy/f0edebb07ee24df7-0-1280.avif",
+          "src": "/media/switches/nuphy-daisy/9c872642eadf16d8-source-gallery-0-62bb3f86885a-1280.avif",
           "width": 817,
           "height": 596
         }
@@ -31,12 +49,12 @@
       "alt": "NuPhy Daisy 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nuphy-daisy/f0edebb07ee24df7-1-640.avif",
+          "src": "/media/switches/nuphy-daisy/9c872642eadf16d8-source-gallery-1-bbf2187759e8-640.avif",
           "width": 640,
           "height": 246
         },
         {
-          "src": "/media/switches/nuphy-daisy/f0edebb07ee24df7-1-1280.avif",
+          "src": "/media/switches/nuphy-daisy/9c872642eadf16d8-source-gallery-1-bbf2187759e8-1280.avif",
           "width": 928,
           "height": 357
         }

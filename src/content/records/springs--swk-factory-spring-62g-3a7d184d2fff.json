@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "swk-factory-spring-62g-3a7d184d2fff",
+  "title": "SWK Factory Spring 62g",
+  "category": "springs",
+  "manufacturer": "SWK",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": null,
+  "bottomOutForce": "62g",
+  "length": "19.4mm",
+  "images": []
+}

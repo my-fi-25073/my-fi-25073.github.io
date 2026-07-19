@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:57:13Z",
+  "createdAt": "2026-03-20T11:57:13.124Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Verdant Retro Base 이미지 1",
           "variants": [
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-0-640.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-0-20c04e8cb8b5-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-0-1280.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-0-20c04e8cb8b5-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-0-2400.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-0-20c04e8cb8b5-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -51,17 +51,17 @@
           "alt": "Verdant Retro Base 이미지 2",
           "variants": [
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-1-640.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-1-75f5b992289e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-1-1280.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-1-75f5b992289e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/verdant-retro/kit-b058f5cbe2761c51-1-2400.avif",
+              "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-1-75f5b992289e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -75,17 +75,17 @@
       "alt": "Verdant Retro 이미지 1",
       "variants": [
         {
-          "src": "/media/verdant-retro/series-0fd52182b4abfa91-0-640.avif",
+          "src": "/media/verdant-retro/series-a360441cbbbd82f2-source-gallery-0-f9759e61066d-640.avif",
           "width": 640,
           "height": 552
         },
         {
-          "src": "/media/verdant-retro/series-0fd52182b4abfa91-0-1280.avif",
+          "src": "/media/verdant-retro/series-a360441cbbbd82f2-source-gallery-0-f9759e61066d-1280.avif",
           "width": 1280,
           "height": 1105
         },
         {
-          "src": "/media/verdant-retro/series-0fd52182b4abfa91-0-2400.avif",
+          "src": "/media/verdant-retro/series-a360441cbbbd82f2-source-gallery-0-f9759e61066d-2400.avif",
           "width": 1638,
           "height": 1414
         }

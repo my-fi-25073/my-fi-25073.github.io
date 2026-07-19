@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "roselle-v2",
   "title": "Roselle v2",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Roselle v2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/roselle-v2/d709499661a72136-0-640.avif",
+          "src": "/media/switches/roselle-v2/11c8273c797b4860-source-gallery-0-84f8f1075188-640.avif",
           "width": 640,
           "height": 416
         },
         {
-          "src": "/media/switches/roselle-v2/d709499661a72136-0-1280.avif",
+          "src": "/media/switches/roselle-v2/11c8273c797b4860-source-gallery-0-84f8f1075188-1280.avif",
           "width": 1029,
           "height": 669
         }
@@ -31,12 +49,12 @@
       "alt": "Roselle v2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/roselle-v2/d709499661a72136-1-640.avif",
+          "src": "/media/switches/roselle-v2/11c8273c797b4860-source-gallery-1-ce5fa5709f6e-640.avif",
           "width": 640,
           "height": 503
         },
         {
-          "src": "/media/switches/roselle-v2/d709499661a72136-1-1280.avif",
+          "src": "/media/switches/roselle-v2/11c8273c797b4860-source-gallery-1-ce5fa5709f6e-1280.avif",
           "width": 1078,
           "height": 847
         }

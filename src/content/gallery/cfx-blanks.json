@@ -8,7 +8,7 @@
   "profile": "CFX",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:11:21Z",
+  "createdAt": "2026-03-20T18:11:21.779Z",
   "materials": [
     "PC"
   ],
@@ -29,12 +29,12 @@
           "alt": "CFX Blanks Transparent 1u 이미지 1",
           "variants": [
             {
-              "src": "/media/cfx-blanks/kit-64d2fa1fe25a7176-0-640.avif",
+              "src": "/media/cfx-blanks/kit-6e2c9c69a9917faa-source-gallery-0-f3af8b08e046-640.avif",
               "width": 640,
               "height": 590
             },
             {
-              "src": "/media/cfx-blanks/kit-64d2fa1fe25a7176-0-1280.avif",
+              "src": "/media/cfx-blanks/kit-6e2c9c69a9917faa-source-gallery-0-f3af8b08e046-1280.avif",
               "width": 850,
               "height": 784
             }
@@ -48,12 +48,12 @@
       "alt": "CFX Blanks 이미지 1",
       "variants": [
         {
-          "src": "/media/cfx-blanks/series-d770c0c7765f96ca-0-640.avif",
+          "src": "/media/cfx-blanks/series-03140bc30743a277-source-gallery-0-522c8e25edfa-640.avif",
           "width": 640,
           "height": 386
         },
         {
-          "src": "/media/cfx-blanks/series-d770c0c7765f96ca-0-1280.avif",
+          "src": "/media/cfx-blanks/series-03140bc30743a277-source-gallery-0-522c8e25edfa-1280.avif",
           "width": 1038,
           "height": 626
         }

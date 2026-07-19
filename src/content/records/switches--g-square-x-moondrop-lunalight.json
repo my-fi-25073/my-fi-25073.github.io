@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "g-square-x-moondrop-lunalight",
   "title": "G-Square x Moondrop Lunalight",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "G-Square x Moondrop Lunalight 사진 1",
       "variants": [
         {
-          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-0-640.avif",
+          "src": "/media/switches/g-square-x-moondrop-lunalight/b4d9b53a2a924a82-source-gallery-0-250bd0dd1c0e-640.avif",
           "width": 640,
           "height": 385
         },
         {
-          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-0-1280.avif",
+          "src": "/media/switches/g-square-x-moondrop-lunalight/b4d9b53a2a924a82-source-gallery-0-250bd0dd1c0e-1280.avif",
           "width": 1017,
           "height": 612
         }
@@ -31,7 +49,7 @@
       "alt": "G-Square x Moondrop Lunalight 사진 2",
       "variants": [
         {
-          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-1-640.avif",
+          "src": "/media/switches/g-square-x-moondrop-lunalight/b4d9b53a2a924a82-source-gallery-1-59b2ff59f5d7-640.avif",
           "width": 414,
           "height": 324
         }
@@ -41,12 +59,12 @@
       "alt": "G-Square x Moondrop Lunalight 사진 3",
       "variants": [
         {
-          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-2-640.avif",
+          "src": "/media/switches/g-square-x-moondrop-lunalight/b4d9b53a2a924a82-source-gallery-2-b3457988bc13-640.avif",
           "width": 640,
           "height": 409
         },
         {
-          "src": "/media/switches/g-square-x-moondrop-lunalight/c5fc876ad338fedd-2-1280.avif",
+          "src": "/media/switches/g-square-x-moondrop-lunalight/b4d9b53a2a924a82-source-gallery-2-b3457988bc13-1280.avif",
           "width": 1024,
           "height": 655
         }

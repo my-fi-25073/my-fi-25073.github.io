@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "용신음",
+  "title": "용신음",
+  "category": "switches",
+  "familyKind": "franken",
+  "recipeStatus": "complete",
+  "variants": [
+    {
+      "label": "기본 조합",
+      "reference": true,
+      "rating": null,
+      "manufacturer": null,
+      "footprintType": null,
+      "switchTypes": [],
+      "spring": {
+        "resolution": "unknown",
+        "name": null,
+        "status": null
+      },
+      "housingFit": {
+        "state": "unknown",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [
+    {
+      "role": "bottom_housing",
+      "donor": "DragonGhost"
+    },
+    {
+      "role": "stem",
+      "donor": "Xinhai"
+    },
+    {
+      "role": "top_housing",
+      "donor": "지음"
+    }
+  ],
+  "images": []
+}

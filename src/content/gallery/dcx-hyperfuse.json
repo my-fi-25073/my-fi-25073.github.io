@@ -8,7 +8,7 @@
   "profile": "DCX",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:13:22Z",
+  "createdAt": "2026-03-20T18:13:22.209Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "DCX Hyperfuse Base 이미지 1",
           "variants": [
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-640.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-0-b9edbd8b16ce-640.avif",
               "width": 640,
               "height": 440
             },
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-1280.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-0-b9edbd8b16ce-1280.avif",
               "width": 1280,
               "height": 879
             },
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-0-2400.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-0-b9edbd8b16ce-2400.avif",
               "width": 2006,
               "height": 1378
             }
@@ -49,17 +49,17 @@
           "alt": "DCX Hyperfuse Base 이미지 2",
           "variants": [
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-640.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-1-31de673ab81d-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-1280.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-1-31de673ab81d-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcx-hyperfuse/kit-a21d3bcbe279e5a7-1-2400.avif",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-1-31de673ab81d-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -73,19 +73,59 @@
       "alt": "DCX Hyperfuse 이미지 1",
       "variants": [
         {
-          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-640.avif",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-gallery-0-e3c193c4debc-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-1280.avif",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-gallery-0-e3c193c4debc-1280.avif",
           "width": 1280,
           "height": 812
         },
         {
-          "src": "/media/dcx-hyperfuse/series-e5af5f3b9ec8fafd-0-2400.avif",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-gallery-0-e3c193c4debc-2400.avif",
           "width": 1514,
           "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "DCX Hyperfuse 이미지 1",
+      "variants": [
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-0-1146cc948f17-640.avif",
+          "width": 640,
+          "height": 440
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-0-1146cc948f17-1280.avif",
+          "width": 1280,
+          "height": 879
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-0-1146cc948f17-2400.avif",
+          "width": 2006,
+          "height": 1378
+        }
+      ]
+    },
+    {
+      "alt": "DCX Hyperfuse 이미지 2",
+      "variants": [
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-1-b36efe093b70-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-1-b36efe093b70-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-1-b36efe093b70-2400.avif",
+          "width": 2400,
+          "height": 1800
         }
       ]
     }

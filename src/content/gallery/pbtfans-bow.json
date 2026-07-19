@@ -8,7 +8,7 @@
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:07:24Z",
+  "createdAt": "2026-03-20T18:07:24.667Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "PBTFans BoW Icon Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-0-640.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-0-1e50bbc83650-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-0-1280.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-0-1e50bbc83650-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-0-2400.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-0-1e50bbc83650-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "PBTFans BoW Icon Base 이미지 2",
           "variants": [
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-1-640.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-1-aa2300ceb784-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-1-1280.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-1-aa2300ceb784-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pbtfans-bow/kit-f5cf310de596d778-1-2400.avif",
+              "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-1-aa2300ceb784-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -79,17 +79,17 @@
           "alt": "PBTFans BoW SpaceBar 이미지 1",
           "variants": [
             {
-              "src": "/media/pbtfans-bow/kit-0a0ebeea0609ab3c-0-640.avif",
+              "src": "/media/pbtfans-bow/kit-6584b83e8884099a-source-gallery-0-a937c20edbef-640.avif",
               "width": 640,
               "height": 445
             },
             {
-              "src": "/media/pbtfans-bow/kit-0a0ebeea0609ab3c-0-1280.avif",
+              "src": "/media/pbtfans-bow/kit-6584b83e8884099a-source-gallery-0-a937c20edbef-1280.avif",
               "width": 1280,
               "height": 891
             },
             {
-              "src": "/media/pbtfans-bow/kit-0a0ebeea0609ab3c-0-2400.avif",
+              "src": "/media/pbtfans-bow/kit-6584b83e8884099a-source-gallery-0-a937c20edbef-2400.avif",
               "width": 1630,
               "height": 1134
             }
@@ -103,17 +103,17 @@
       "alt": "PBTFans BoW 이미지 1",
       "variants": [
         {
-          "src": "/media/pbtfans-bow/series-8460772afaa649ac-0-640.avif",
+          "src": "/media/pbtfans-bow/series-5cce953ff14786af-source-gallery-0-8b5a57cdcdb6-640.avif",
           "width": 640,
           "height": 311
         },
         {
-          "src": "/media/pbtfans-bow/series-8460772afaa649ac-0-1280.avif",
+          "src": "/media/pbtfans-bow/series-5cce953ff14786af-source-gallery-0-8b5a57cdcdb6-1280.avif",
           "width": 1280,
           "height": 623
         },
         {
-          "src": "/media/pbtfans-bow/series-8460772afaa649ac-0-2400.avif",
+          "src": "/media/pbtfans-bow/series-5cce953ff14786af-source-gallery-0-8b5a57cdcdb6-2400.avif",
           "width": 1772,
           "height": 862
         }

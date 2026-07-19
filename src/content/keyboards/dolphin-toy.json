@@ -23,17 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-06-05",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-06-05",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "DCS WoB 40% Mono Kit",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "DCS Intro WoB",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Dolphin Toy 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/dolphin-toy/abfea2f26f86907e-0-640.avif",
+          "src": "/media/keyboards/dolphin-toy/69ad6da94cb19dd8-source-gallery-0-b9791e05edc2-640.avif",
           "width": 640,
           "height": 452
         },
         {
-          "src": "/media/keyboards/dolphin-toy/abfea2f26f86907e-0-1280.avif",
+          "src": "/media/keyboards/dolphin-toy/69ad6da94cb19dd8-source-gallery-0-b9791e05edc2-1280.avif",
           "width": 1108,
           "height": 782
         }

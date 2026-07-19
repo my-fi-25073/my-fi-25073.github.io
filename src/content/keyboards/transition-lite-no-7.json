@@ -24,22 +24,70 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-10-18",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-10-18",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Classic Beige (GMK)",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "5u Space Bar",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "BAE Add On",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Verdant Retro",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Norde Beige",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.7 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-7/07e2360dac435fcc-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-7/255fedb2d0bf2424-source-gallery-0-a673ff656546-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/keyboards/transition-lite-no-7/07e2360dac435fcc-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-7/255fedb2d0bf2424-source-gallery-0-a673ff656546-1280.avif",
           "width": 1280,
           "height": 816
         },
         {
-          "src": "/media/keyboards/transition-lite-no-7/07e2360dac435fcc-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-7/255fedb2d0bf2424-source-gallery-0-a673ff656546-2400.avif",
           "width": 2400,
           "height": 1530
         }

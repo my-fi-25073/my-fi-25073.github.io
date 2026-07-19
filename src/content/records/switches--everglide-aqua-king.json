@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "everglide-aqua-king",
   "title": "Everglide Aqua King",
   "category": "switches",
-  "manufacturer": "JWK",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Everglide Aqua King 사진 1",
       "variants": [
         {
-          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-0-640.avif",
+          "src": "/media/switches/everglide-aqua-king/cc5b694197272c22-source-gallery-0-18597d219323-640.avif",
           "width": 640,
           "height": 418
         },
         {
-          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-0-1280.avif",
+          "src": "/media/switches/everglide-aqua-king/cc5b694197272c22-source-gallery-0-18597d219323-1280.avif",
           "width": 1032,
           "height": 674
         }
@@ -31,12 +49,12 @@
       "alt": "Everglide Aqua King 사진 2",
       "variants": [
         {
-          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-1-640.avif",
+          "src": "/media/switches/everglide-aqua-king/cc5b694197272c22-source-gallery-1-7f1549a28fd4-640.avif",
           "width": 640,
           "height": 525
         },
         {
-          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-1-1280.avif",
+          "src": "/media/switches/everglide-aqua-king/cc5b694197272c22-source-gallery-1-7f1549a28fd4-1280.avif",
           "width": 798,
           "height": 655
         }
@@ -46,7 +64,7 @@
       "alt": "Everglide Aqua King 사진 3",
       "variants": [
         {
-          "src": "/media/switches/everglide-aqua-king/8a6a845e466c4b46-2-640.avif",
+          "src": "/media/switches/everglide-aqua-king/cc5b694197272c22-source-gallery-2-838b164c7523-640.avif",
           "width": 635,
           "height": 665
         }

@@ -8,7 +8,7 @@
   "profile": "DOYS",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:09:58Z",
+  "createdAt": "2026-03-20T18:09:58.795Z",
   "materials": [
     "PBT",
     "PC"
@@ -31,12 +31,27 @@
           "alt": "Doys Blanks Black Transparent Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/doys-blanks/kit-5dca0f914301c1fd-0-640.avif",
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-gallery-0-27fc36085f1b-640.avif",
               "width": 640,
               "height": 640
             },
             {
-              "src": "/media/doys-blanks/kit-5dca0f914301c1fd-0-1280.avif",
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-gallery-0-27fc36085f1b-1280.avif",
+              "width": 792,
+              "height": 792
+            }
+          ]
+        },
+        {
+          "alt": "Doys Blanks Black Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-body-0-d8d028e7d3c8-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-body-0-d8d028e7d3c8-1280.avif",
               "width": 792,
               "height": 792
             }
@@ -56,12 +71,12 @@
           "alt": "Doys Blanks Warm White Solid Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/doys-blanks/kit-ad70dabbf651a562-0-640.avif",
+              "src": "/media/doys-blanks/kit-55c38e02afd6a8ad-source-gallery-0-42341445307b-640.avif",
               "width": 640,
               "height": 630
             },
             {
-              "src": "/media/doys-blanks/kit-ad70dabbf651a562-0-1280.avif",
+              "src": "/media/doys-blanks/kit-55c38e02afd6a8ad-source-gallery-0-42341445307b-1280.avif",
               "width": 807,
               "height": 794
             }
@@ -75,17 +90,17 @@
       "alt": "Doys Blanks 이미지 1",
       "variants": [
         {
-          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-640.avif",
+          "src": "/media/doys-blanks/series-b3183200dc0cab44-source-gallery-0-8db8b2c4764e-640.avif",
           "width": 640,
           "height": 642
         },
         {
-          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-1280.avif",
+          "src": "/media/doys-blanks/series-b3183200dc0cab44-source-gallery-0-8db8b2c4764e-1280.avif",
           "width": 1280,
           "height": 1284
         },
         {
-          "src": "/media/doys-blanks/series-ee8bbcd86daa4dbc-0-2400.avif",
+          "src": "/media/doys-blanks/series-b3183200dc0cab44-source-gallery-0-8db8b2c4764e-2400.avif",
           "width": 2048,
           "height": 2054
         }

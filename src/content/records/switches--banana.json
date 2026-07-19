@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "banana",
   "title": "Banana",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Banana 사진 1",
       "variants": [
         {
-          "src": "/media/switches/banana/14df3efebd2d275c-0-640.avif",
+          "src": "/media/switches/banana/26715434996c5337-source-gallery-0-1922bb9264b8-640.avif",
           "width": 453,
           "height": 389
         }
@@ -26,7 +44,7 @@
       "alt": "Banana 사진 2",
       "variants": [
         {
-          "src": "/media/switches/banana/14df3efebd2d275c-1-640.avif",
+          "src": "/media/switches/banana/26715434996c5337-source-gallery-1-4a13977388f0-640.avif",
           "width": 372,
           "height": 286
         }

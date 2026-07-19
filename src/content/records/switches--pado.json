@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "pado",
   "title": "Pado",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 48g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Pado 사진 1",
       "variants": [
         {
-          "src": "/media/switches/pado/da2b623d2420653c-0-640.avif",
+          "src": "/media/switches/pado/d6f1d86e2dcb1e41-source-gallery-0-8501a28068a8-640.avif",
           "width": 640,
           "height": 467
         },
         {
-          "src": "/media/switches/pado/da2b623d2420653c-0-1280.avif",
+          "src": "/media/switches/pado/d6f1d86e2dcb1e41-source-gallery-0-8501a28068a8-1280.avif",
           "width": 1091,
           "height": 796
         }
@@ -31,17 +49,17 @@
       "alt": "Pado 사진 2",
       "variants": [
         {
-          "src": "/media/switches/pado/da2b623d2420653c-1-640.avif",
+          "src": "/media/switches/pado/d6f1d86e2dcb1e41-source-gallery-1-8891440f3d27-640.avif",
           "width": 640,
           "height": 558
         },
         {
-          "src": "/media/switches/pado/da2b623d2420653c-1-1280.avif",
+          "src": "/media/switches/pado/d6f1d86e2dcb1e41-source-gallery-1-8891440f3d27-1280.avif",
           "width": 1280,
           "height": 1116
         },
         {
-          "src": "/media/switches/pado/da2b623d2420653c-1-2400.avif",
+          "src": "/media/switches/pado/d6f1d86e2dcb1e41-source-gallery-1-8891440f3d27-2400.avif",
           "width": 1284,
           "height": 1119
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ice-rose",
   "title": "Ice Rose",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 38g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Ice Rose 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ice-rose/f5bd0a62c163c626-0-640.avif",
+          "src": "/media/switches/ice-rose/516a775ba4ef3866-source-gallery-0-8b771d33008e-640.avif",
           "width": 640,
           "height": 500
         },
         {
-          "src": "/media/switches/ice-rose/f5bd0a62c163c626-0-1280.avif",
+          "src": "/media/switches/ice-rose/516a775ba4ef3866-source-gallery-0-8b771d33008e-1280.avif",
           "width": 722,
           "height": 564
         }
@@ -31,12 +49,12 @@
       "alt": "Ice Rose 사진 2",
       "variants": [
         {
-          "src": "/media/switches/ice-rose/f5bd0a62c163c626-1-640.avif",
+          "src": "/media/switches/ice-rose/516a775ba4ef3866-source-gallery-1-e45a35fd3202-640.avif",
           "width": 640,
           "height": 783
         },
         {
-          "src": "/media/switches/ice-rose/f5bd0a62c163c626-1-1280.avif",
+          "src": "/media/switches/ice-rose/516a775ba4ef3866-source-gallery-1-e45a35fd3202-1280.avif",
           "width": 1235,
           "height": 1511
         }

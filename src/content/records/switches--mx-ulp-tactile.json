@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx-ulp-tactile",
   "title": "MX ULP Tactile",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★★★★★",
-  "footprintType": "Cherry ULP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 5,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry ULP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 65g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX ULP Tactile 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-0-640.avif",
+          "src": "/media/switches/mx-ulp-tactile/b667d545f6d3744a-source-gallery-0-2337f61789f9-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-0-1280.avif",
+          "src": "/media/switches/mx-ulp-tactile/b667d545f6d3744a-source-gallery-0-2337f61789f9-1280.avif",
           "width": 1280,
           "height": 1280
         }
@@ -31,12 +49,12 @@
       "alt": "MX ULP Tactile 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-1-640.avif",
+          "src": "/media/switches/mx-ulp-tactile/b667d545f6d3744a-source-gallery-1-8961ac59e61f-640.avif",
           "width": 640,
           "height": 448
         },
         {
-          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-1-1280.avif",
+          "src": "/media/switches/mx-ulp-tactile/b667d545f6d3744a-source-gallery-1-8961ac59e61f-1280.avif",
           "width": 1280,
           "height": 896
         }
@@ -46,7 +64,7 @@
       "alt": "MX ULP Tactile 사진 3",
       "variants": [
         {
-          "src": "/media/switches/mx-ulp-tactile/f2888f513269b69f-2-640.avif",
+          "src": "/media/switches/mx-ulp-tactile/b667d545f6d3744a-source-gallery-2-9e44458b74e2-640.avif",
           "width": 620,
           "height": 455
         }

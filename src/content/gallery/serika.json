@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:06:08Z",
+  "createdAt": "2026-03-20T17:06:08.867Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Serika Expansion 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/kit-ba7691197fc3c44e-0-640.avif",
+              "src": "/media/serika/kit-a8c5372044485a76-source-gallery-0-1dac044bf745-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/serika/kit-ba7691197fc3c44e-0-1280.avif",
+              "src": "/media/serika/kit-a8c5372044485a76-source-gallery-0-1dac044bf745-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/serika/kit-ba7691197fc3c44e-0-2400.avif",
+              "src": "/media/serika/kit-a8c5372044485a76-source-gallery-0-1dac044bf745-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -62,12 +62,12 @@
           "alt": "Serika Geometry 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/kit-c2ca030a6e93af3e-0-640.avif",
+              "src": "/media/serika/kit-ad12d22b4ccf0ed7-source-gallery-0-7286bbb1f520-640.avif",
               "width": 640,
               "height": 561
             },
             {
-              "src": "/media/serika/kit-c2ca030a6e93af3e-0-1280.avif",
+              "src": "/media/serika/kit-ad12d22b4ccf0ed7-source-gallery-0-7286bbb1f520-1280.avif",
               "width": 1058,
               "height": 928
             }
@@ -88,17 +88,17 @@
           "alt": "Serika Hiragana Base 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-640.avif",
+              "src": "/media/serika/kit-bf09777a4a38068d-source-gallery-0-a94f5be5c895-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-1280.avif",
+              "src": "/media/serika/kit-bf09777a4a38068d-source-gallery-0-a94f5be5c895-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/serika/kit-c0e1b47e49e5ea7a-0-2400.avif",
+              "src": "/media/serika/kit-bf09777a4a38068d-source-gallery-0-a94f5be5c895-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -119,17 +119,17 @@
           "alt": "Serika Latin Base 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/kit-0c582063697875e8-0-640.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-0-fb00da8d21b9-640.avif",
               "width": 640,
               "height": 469
             },
             {
-              "src": "/media/serika/kit-0c582063697875e8-0-1280.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-0-fb00da8d21b9-1280.avif",
               "width": 1280,
               "height": 939
             },
             {
-              "src": "/media/serika/kit-0c582063697875e8-0-2400.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-0-fb00da8d21b9-2400.avif",
               "width": 1854,
               "height": 1360
             }
@@ -139,17 +139,17 @@
           "alt": "Serika Latin Base 이미지 2",
           "variants": [
             {
-              "src": "/media/serika/kit-0c582063697875e8-1-640.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-1-26c2d31ded08-640.avif",
               "width": 640,
               "height": 474
             },
             {
-              "src": "/media/serika/kit-0c582063697875e8-1-1280.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-1-26c2d31ded08-1280.avif",
               "width": 1280,
               "height": 948
             },
             {
-              "src": "/media/serika/kit-0c582063697875e8-1-2400.avif",
+              "src": "/media/serika/kit-e77459c2aa2fbabd-source-gallery-1-26c2d31ded08-2400.avif",
               "width": 1872,
               "height": 1386
             }
@@ -169,12 +169,12 @@
           "alt": "Serika Obscure 이미지 1",
           "variants": [
             {
-              "src": "/media/serika/kit-689681ee41f5f86b-0-640.avif",
+              "src": "/media/serika/kit-d3b0c3f6ee343b3e-source-gallery-0-c0a1ace6f633-640.avif",
               "width": 640,
               "height": 711
             },
             {
-              "src": "/media/serika/kit-689681ee41f5f86b-0-1280.avif",
+              "src": "/media/serika/kit-d3b0c3f6ee343b3e-source-gallery-0-c0a1ace6f633-1280.avif",
               "width": 1110,
               "height": 1234
             }
@@ -188,12 +188,12 @@
       "alt": "Serika 이미지 1",
       "variants": [
         {
-          "src": "/media/serika/series-45077e77e24d8005-0-640.avif",
+          "src": "/media/serika/series-2cbd512103c24ec2-source-gallery-0-a585ae4511ef-640.avif",
           "width": 640,
           "height": 573
         },
         {
-          "src": "/media/serika/series-45077e77e24d8005-0-1280.avif",
+          "src": "/media/serika/series-2cbd512103c24ec2-source-gallery-0-a585ae4511ef-1280.avif",
           "width": 1202,
           "height": 1076
         }
@@ -203,12 +203,12 @@
       "alt": "Serika 이미지 2",
       "variants": [
         {
-          "src": "/media/serika/series-45077e77e24d8005-1-640.avif",
+          "src": "/media/serika/series-2cbd512103c24ec2-source-gallery-1-8ee795ef140f-640.avif",
           "width": 640,
           "height": 559
         },
         {
-          "src": "/media/serika/series-45077e77e24d8005-1-1280.avif",
+          "src": "/media/serika/series-2cbd512103c24ec2-source-gallery-1-8ee795ef140f-1280.avif",
           "width": 1212,
           "height": 1058
         }

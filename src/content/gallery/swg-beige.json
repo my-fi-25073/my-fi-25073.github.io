@@ -8,7 +8,7 @@
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:07:11Z",
+  "createdAt": "2026-03-20T18:07:11.001Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "SWG Beige Base 이미지 1",
           "variants": [
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-0-640.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-0-0c3918c27870-640.avif",
               "width": 640,
               "height": 385
             },
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-0-1280.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-0-0c3918c27870-1280.avif",
               "width": 1280,
               "height": 770
             },
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-0-2400.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-0-0c3918c27870-2400.avif",
               "width": 1874,
               "height": 1128
             }
@@ -49,17 +49,17 @@
           "alt": "SWG Beige Base 이미지 2",
           "variants": [
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-1-640.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-1-8efe40e419c2-640.avif",
               "width": 640,
               "height": 402
             },
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-1-1280.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-1-8efe40e419c2-1280.avif",
               "width": 1280,
               "height": 804
             },
             {
-              "src": "/media/swg-beige/kit-281fdb19cef0748a-1-2400.avif",
+              "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-1-8efe40e419c2-2400.avif",
               "width": 1846,
               "height": 1160
             }
@@ -79,17 +79,17 @@
           "alt": "SWG Beige Tulip 이미지 1",
           "variants": [
             {
-              "src": "/media/swg-beige/kit-c9ae8bc477858bdb-0-640.avif",
+              "src": "/media/swg-beige/kit-75d6bafc7b6bc85b-source-gallery-0-8927ca22072e-640.avif",
               "width": 640,
               "height": 482
             },
             {
-              "src": "/media/swg-beige/kit-c9ae8bc477858bdb-0-1280.avif",
+              "src": "/media/swg-beige/kit-75d6bafc7b6bc85b-source-gallery-0-8927ca22072e-1280.avif",
               "width": 1280,
               "height": 965
             },
             {
-              "src": "/media/swg-beige/kit-c9ae8bc477858bdb-0-2400.avif",
+              "src": "/media/swg-beige/kit-75d6bafc7b6bc85b-source-gallery-0-8927ca22072e-2400.avif",
               "width": 1672,
               "height": 1260
             }
@@ -103,17 +103,17 @@
       "alt": "SWG Beige 이미지 1",
       "variants": [
         {
-          "src": "/media/swg-beige/series-4acf4049783a004e-0-640.avif",
+          "src": "/media/swg-beige/series-a291b7b6c584bbd7-source-gallery-0-4413f38348f5-640.avif",
           "width": 640,
           "height": 317
         },
         {
-          "src": "/media/swg-beige/series-4acf4049783a004e-0-1280.avif",
+          "src": "/media/swg-beige/series-a291b7b6c584bbd7-source-gallery-0-4413f38348f5-1280.avif",
           "width": 1280,
           "height": 634
         },
         {
-          "src": "/media/swg-beige/series-4acf4049783a004e-0-2400.avif",
+          "src": "/media/swg-beige/series-a291b7b6c584bbd7-source-gallery-0-4413f38348f5-2400.avif",
           "width": 1760,
           "height": 872
         }

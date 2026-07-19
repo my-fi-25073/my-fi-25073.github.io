@@ -9,6 +9,6 @@
   "springType": "Short",
   "actuationForce": "20g",
   "bottomOutForce": "25g",
-  "length": null,
+  "length": "13.75mm",
   "images": []
 }

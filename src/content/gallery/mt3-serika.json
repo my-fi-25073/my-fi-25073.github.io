@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:11:46Z",
+  "createdAt": "2026-03-21T17:11:46.922Z",
   "materials": [
     "PBT"
   ],
@@ -29,7 +29,7 @@
           "alt": "MT3 Serika Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-23fc332cecf08b8c-0-640.avif",
+              "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-640.avif",
               "width": 511,
               "height": 336
             }
@@ -49,12 +49,12 @@
           "alt": "MT3 Serika Geometry 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-06af209850a68f62-0-640.avif",
+              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-640.avif",
               "width": 640,
               "height": 432
             },
             {
-              "src": "/media/mt3-serika/kit-06af209850a68f62-0-1280.avif",
+              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-1280.avif",
               "width": 882,
               "height": 596
             }
@@ -74,12 +74,12 @@
           "alt": "MT3 Serika Katakana Forties 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-e3835b5ce2431d82-0-640.avif",
+              "src": "/media/mt3-serika/kit-b5c3a38abf130564-source-gallery-0-706b7843f559-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/mt3-serika/kit-e3835b5ce2431d82-0-1280.avif",
+              "src": "/media/mt3-serika/kit-b5c3a38abf130564-source-gallery-0-706b7843f559-1280.avif",
               "width": 917,
               "height": 609
             }
@@ -99,12 +99,12 @@
           "alt": "MT3 Serika Latin Forties 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-0e5856c4049bd5a7-0-640.avif",
+              "src": "/media/mt3-serika/kit-fb3e66f70baffba4-source-gallery-0-9a502f4935ff-640.avif",
               "width": 640,
               "height": 440
             },
             {
-              "src": "/media/mt3-serika/kit-0e5856c4049bd5a7-0-1280.avif",
+              "src": "/media/mt3-serika/kit-fb3e66f70baffba4-source-gallery-0-9a502f4935ff-1280.avif",
               "width": 908,
               "height": 624
             }
@@ -124,12 +124,12 @@
           "alt": "MT3 Serika Mac 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-e824b78b7b6143dd-0-640.avif",
+              "src": "/media/mt3-serika/kit-b107d8f76ce967e6-source-gallery-0-0bd4729aba90-640.avif",
               "width": 640,
               "height": 388
             },
             {
-              "src": "/media/mt3-serika/kit-e824b78b7b6143dd-0-1280.avif",
+              "src": "/media/mt3-serika/kit-b107d8f76ce967e6-source-gallery-0-0bd4729aba90-1280.avif",
               "width": 860,
               "height": 522
             }
@@ -149,12 +149,12 @@
           "alt": "MT3 Serika Macro Expansion 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-0841a62ca5e6f44f-0-640.avif",
+              "src": "/media/mt3-serika/kit-6a44f5d53f61e7ee-source-gallery-0-4291ecb11396-640.avif",
               "width": 640,
               "height": 428
             },
             {
-              "src": "/media/mt3-serika/kit-0841a62ca5e6f44f-0-1280.avif",
+              "src": "/media/mt3-serika/kit-6a44f5d53f61e7ee-source-gallery-0-4291ecb11396-1280.avif",
               "width": 871,
               "height": 583
             }
@@ -174,12 +174,12 @@
           "alt": "MT3 Serika Modifiers 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-17d7979a30021d51-0-640.avif",
+              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-640.avif",
               "width": 640,
               "height": 409
             },
             {
-              "src": "/media/mt3-serika/kit-17d7979a30021d51-0-1280.avif",
+              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-1280.avif",
               "width": 1037,
               "height": 662
             }
@@ -193,12 +193,12 @@
       "alt": "MT3 Serika 이미지 1",
       "variants": [
         {
-          "src": "/media/mt3-serika/series-df3c181bc955df95-0-640.avif",
+          "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-serika/series-df3c181bc955df95-0-1280.avif",
+          "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -208,17 +208,17 @@
       "alt": "MT3 Serika 이미지 2",
       "variants": [
         {
-          "src": "/media/mt3-serika/series-df3c181bc955df95-1-640.avif",
+          "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-1-1bb635b3d47f-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-serika/series-df3c181bc955df95-1-1280.avif",
+          "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-1-1bb635b3d47f-1280.avif",
           "width": 1280,
           "height": 812
         },
         {
-          "src": "/media/mt3-serika/series-df3c181bc955df95-1-2400.avif",
+          "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-1-1bb635b3d47f-2400.avif",
           "width": 1678,
           "height": 1064
         }

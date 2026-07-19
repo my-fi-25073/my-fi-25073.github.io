@@ -19,6 +19,13 @@ interface Keyboard {
   layouts: string[];
   mounts: string[];
   foams: string[];
+  build: {
+    label: string;
+    state: 'draft' | 'approved' | 'retired';
+    startedAt: string | null;
+    completedAt: string | null;
+    keycaps: Array<{ kind: 'series' | 'kit'; title: string; quantity: number | null }>;
+  };
   images: Array<{ alt: string; variants: ImageVariant[] }>;
 }
 

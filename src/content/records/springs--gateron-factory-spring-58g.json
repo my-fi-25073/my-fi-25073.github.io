@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-58g",
+  "title": "Gateron Factory Spring 58g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Extra Long",
+  "actuationForce": null,
+  "bottomOutForce": "58g",
+  "length": "18mm",
+  "images": []
+}

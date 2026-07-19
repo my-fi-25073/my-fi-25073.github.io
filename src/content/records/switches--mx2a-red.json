@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-red",
   "title": "MX2A Red",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Red 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-red/19d8049db54b72b4-0-640.avif",
+          "src": "/media/switches/mx2a-red/f265e6c3e2d5dbdf-source-gallery-0-ff76c05b77d2-640.avif",
           "width": 232,
           "height": 200
         }
@@ -26,12 +44,12 @@
       "alt": "MX2A Red 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-red/19d8049db54b72b4-1-640.avif",
+          "src": "/media/switches/mx2a-red/f265e6c3e2d5dbdf-source-gallery-1-3ae963a44c39-640.avif",
           "width": 640,
           "height": 740
         },
         {
-          "src": "/media/switches/mx2a-red/19d8049db54b72b4-1-1280.avif",
+          "src": "/media/switches/mx2a-red/f265e6c3e2d5dbdf-source-gallery-1-3ae963a44c39-1280.avif",
           "width": 1273,
           "height": 1472
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "midnight",
   "title": "Midnight",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Midnight 사진 1",
       "variants": [
         {
-          "src": "/media/switches/midnight/d69770708582683c-0-640.avif",
+          "src": "/media/switches/midnight/1cf9d0a08b647fdf-source-gallery-0-c35451478bae-640.avif",
           "width": 640,
           "height": 410
         },
         {
-          "src": "/media/switches/midnight/d69770708582683c-0-1280.avif",
+          "src": "/media/switches/midnight/1cf9d0a08b647fdf-source-gallery-0-c35451478bae-1280.avif",
           "width": 1087,
           "height": 696
         }
@@ -31,17 +49,17 @@
       "alt": "Midnight 사진 2",
       "variants": [
         {
-          "src": "/media/switches/midnight/d69770708582683c-1-640.avif",
+          "src": "/media/switches/midnight/1cf9d0a08b647fdf-source-gallery-1-0c3a132f4d83-640.avif",
           "width": 640,
           "height": 724
         },
         {
-          "src": "/media/switches/midnight/d69770708582683c-1-1280.avif",
+          "src": "/media/switches/midnight/1cf9d0a08b647fdf-source-gallery-1-0c3a132f4d83-1280.avif",
           "width": 1280,
           "height": 1447
         },
         {
-          "src": "/media/switches/midnight/d69770708582683c-1-2400.avif",
+          "src": "/media/switches/midnight/1cf9d0a08b647fdf-source-gallery-1-0c3a132f4d83-2400.avif",
           "width": 1315,
           "height": 1487
         }

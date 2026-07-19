@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "black-cloud",
   "title": "Black Cloud",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Black Cloud 사진 1",
       "variants": [
         {
-          "src": "/media/switches/black-cloud/48730099d4124e89-0-640.avif",
+          "src": "/media/switches/black-cloud/f047b16d18040b83-source-gallery-0-24c6c66c0b9f-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/black-cloud/48730099d4124e89-0-1280.avif",
+          "src": "/media/switches/black-cloud/f047b16d18040b83-source-gallery-0-24c6c66c0b9f-1280.avif",
           "width": 800,
           "height": 800
         }
@@ -31,17 +49,17 @@
       "alt": "Black Cloud 사진 2",
       "variants": [
         {
-          "src": "/media/switches/black-cloud/48730099d4124e89-1-640.avif",
+          "src": "/media/switches/black-cloud/f047b16d18040b83-source-gallery-1-7a705a80b2bb-640.avif",
           "width": 640,
           "height": 437
         },
         {
-          "src": "/media/switches/black-cloud/48730099d4124e89-1-1280.avif",
+          "src": "/media/switches/black-cloud/f047b16d18040b83-source-gallery-1-7a705a80b2bb-1280.avif",
           "width": 1280,
           "height": 874
         },
         {
-          "src": "/media/switches/black-cloud/48730099d4124e89-1-2400.avif",
+          "src": "/media/switches/black-cloud/f047b16d18040b83-source-gallery-1-7a705a80b2bb-2400.avif",
           "width": 1864,
           "height": 1273
         }

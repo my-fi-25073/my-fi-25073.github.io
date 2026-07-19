@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "oil-king",
   "title": "Oil King",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 80g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Oil King 사진 1",
       "variants": [
         {
-          "src": "/media/switches/oil-king/10ede1892ba5187b-0-640.avif",
+          "src": "/media/switches/oil-king/56d492fb0a7a6b62-source-gallery-0-b8873d044cb1-640.avif",
           "width": 640,
           "height": 489
         },
         {
-          "src": "/media/switches/oil-king/10ede1892ba5187b-0-1280.avif",
+          "src": "/media/switches/oil-king/56d492fb0a7a6b62-source-gallery-0-b8873d044cb1-1280.avif",
           "width": 753,
           "height": 575
         }
@@ -31,17 +49,17 @@
       "alt": "Oil King 사진 2",
       "variants": [
         {
-          "src": "/media/switches/oil-king/10ede1892ba5187b-1-640.avif",
+          "src": "/media/switches/oil-king/56d492fb0a7a6b62-source-gallery-1-4433564c22d6-640.avif",
           "width": 640,
           "height": 713
         },
         {
-          "src": "/media/switches/oil-king/10ede1892ba5187b-1-1280.avif",
+          "src": "/media/switches/oil-king/56d492fb0a7a6b62-source-gallery-1-4433564c22d6-1280.avif",
           "width": 1280,
           "height": 1425
         },
         {
-          "src": "/media/switches/oil-king/10ede1892ba5187b-1-2400.avif",
+          "src": "/media/switches/oil-king/56d492fb0a7a6b62-source-gallery-1-4433564c22d6-2400.avif",
           "width": 1409,
           "height": 1569
         }

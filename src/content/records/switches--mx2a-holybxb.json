@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "mx2a-holybxb",
+  "title": "MX2A HolyBXB",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "63.5g",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Slow Extreme 1 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MX2A HolyBXB 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-holybxb/23f2dac055cf379a-source-gallery-0-a5a5be1e4172-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/mx2a-holybxb/23f2dac055cf379a-source-gallery-0-a5a5be1e4172-1280.avif",
+          "width": 1280,
+          "height": 857
+        },
+        {
+          "src": "/media/switches/mx2a-holybxb/23f2dac055cf379a-source-gallery-0-a5a5be1e4172-2400.avif",
+          "width": 2400,
+          "height": 1608
+        }
+      ]
+    },
+    {
+      "alt": "MX2A HolyBXB 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-holybxb/23f2dac055cf379a-source-gallery-1-7cd45caf801b-640.avif",
+          "width": 368,
+          "height": 344
+        }
+      ]
+    }
+  ]
+}

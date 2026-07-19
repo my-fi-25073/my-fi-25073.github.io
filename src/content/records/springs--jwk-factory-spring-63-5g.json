@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "jwk-factory-spring-63-5g",
+  "title": "JWK Factory Spring 63.5g",
+  "category": "springs",
+  "manufacturer": "JWK",
+  "series": "Factory",
+  "springType": "Complex",
+  "actuationForce": "42g",
+  "bottomOutForce": "63.5g",
+  "length": "21mm",
+  "images": []
+}

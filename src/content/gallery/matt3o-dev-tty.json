@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:10:37Z",
+  "createdAt": "2026-03-21T17:10:37.925Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "Matt3o /dev/tty dev/tty Lost + Found 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-9f85b58dcb36eb56-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-7ed811408db17dbf-source-gallery-0-e2e0b14321e4-640.avif",
               "width": 640,
               "height": 437
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-9f85b58dcb36eb56-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-7ed811408db17dbf-source-gallery-0-e2e0b14321e4-1280.avif",
               "width": 972,
               "height": 664
             }
@@ -54,12 +54,12 @@
           "alt": "Matt3o /dev/tty dev/tty Ortho Base 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-3ac9c779c4bcd377-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-22faed7129048688-source-gallery-0-8bb4656d619b-640.avif",
               "width": 640,
               "height": 402
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-3ac9c779c4bcd377-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-22faed7129048688-source-gallery-0-8bb4656d619b-1280.avif",
               "width": 1022,
               "height": 642
             }
@@ -79,12 +79,12 @@
           "alt": "Matt3o /dev/tty Small Spacebars 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-a17a11675a42d39f-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-29dda889268a5ab7-source-gallery-0-a5c489d1cbff-640.avif",
               "width": 640,
               "height": 367
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-a17a11675a42d39f-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-29dda889268a5ab7-source-gallery-0-a5c489d1cbff-1280.avif",
               "width": 1009,
               "height": 578
             }
@@ -104,12 +104,12 @@
           "alt": "Matt3o /dev/tty Triumph Apple 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-e679f790e83af868-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-9cfb173a25e16aad-source-gallery-0-52f2e168d8ea-640.avif",
               "width": 640,
               "height": 353
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-e679f790e83af868-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-9cfb173a25e16aad-source-gallery-0-52f2e168d8ea-1280.avif",
               "width": 976,
               "height": 539
             }
@@ -129,12 +129,12 @@
           "alt": "Matt3o /dev/tty Triumph Base 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-6b98420416b6eddf-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-7a2926961d2deb7f-source-gallery-0-e5ac285ce931-640.avif",
               "width": 640,
               "height": 323
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-6b98420416b6eddf-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-7a2926961d2deb7f-source-gallery-0-e5ac285ce931-1280.avif",
               "width": 1012,
               "height": 510
             }
@@ -154,12 +154,12 @@
           "alt": "Matt3o /dev/tty Triumph Lost + Found 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-e4ccd8b983573a30-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-662d7358b64fbe04-source-gallery-0-a7ff3aabd314-640.avif",
               "width": 640,
               "height": 444
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-e4ccd8b983573a30-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-662d7358b64fbe04-source-gallery-0-a7ff3aabd314-1280.avif",
               "width": 949,
               "height": 659
             }
@@ -179,12 +179,12 @@
           "alt": "Matt3o /dev/tty Triumph Numpad 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-4d4d251b25962739-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-4c1ad91fc2f372a6-source-gallery-0-7afa33c74791-640.avif",
               "width": 640,
               "height": 532
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-4d4d251b25962739-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-4c1ad91fc2f372a6-source-gallery-0-7afa33c74791-1280.avif",
               "width": 776,
               "height": 645
             }
@@ -204,12 +204,12 @@
           "alt": "Matt3o /dev/tty Unicorn Barf 이미지 1",
           "variants": [
             {
-              "src": "/media/matt3o-dev-tty/kit-79a4dcb31f77ee64-0-640.avif",
+              "src": "/media/matt3o-dev-tty/kit-d2ea6bfd33d315ef-source-gallery-0-d07d057a3979-640.avif",
               "width": 640,
               "height": 461
             },
             {
-              "src": "/media/matt3o-dev-tty/kit-79a4dcb31f77ee64-0-1280.avif",
+              "src": "/media/matt3o-dev-tty/kit-d2ea6bfd33d315ef-source-gallery-0-d07d057a3979-1280.avif",
               "width": 885,
               "height": 638
             }
@@ -223,12 +223,12 @@
       "alt": "Matt3o /dev/tty 이미지 1",
       "variants": [
         {
-          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-0-640.avif",
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-0-1280.avif",
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -238,17 +238,17 @@
       "alt": "Matt3o /dev/tty 이미지 2",
       "variants": [
         {
-          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-640.avif",
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-640.avif",
           "width": 640,
           "height": 402
         },
         {
-          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-1280.avif",
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-1280.avif",
           "width": 1280,
           "height": 804
         },
         {
-          "src": "/media/matt3o-dev-tty/series-dcd93799a50e5229-1-2400.avif",
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-2400.avif",
           "width": 1644,
           "height": 1032
         }

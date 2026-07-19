@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "haute42-crystal",
   "title": "Haute42 Crystal",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Haute42 Crystal 사진 1",
       "variants": [
         {
-          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-0-640.avif",
+          "src": "/media/switches/haute42-crystal/30e7569909785226-source-gallery-0-9fdcbc669e0c-640.avif",
           "width": 640,
           "height": 552
         },
         {
-          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-0-1280.avif",
+          "src": "/media/switches/haute42-crystal/30e7569909785226-source-gallery-0-9fdcbc669e0c-1280.avif",
           "width": 839,
           "height": 723
         }
@@ -31,12 +49,12 @@
       "alt": "Haute42 Crystal 사진 2",
       "variants": [
         {
-          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-1-640.avif",
+          "src": "/media/switches/haute42-crystal/30e7569909785226-source-gallery-1-5a725dbf22f0-640.avif",
           "width": 640,
           "height": 701
         },
         {
-          "src": "/media/switches/haute42-crystal/1ed5b8b0c15b64ea-1-1280.avif",
+          "src": "/media/switches/haute42-crystal/30e7569909785226-source-gallery-1-5a725dbf22f0-1280.avif",
           "width": 676,
           "height": 740
         }

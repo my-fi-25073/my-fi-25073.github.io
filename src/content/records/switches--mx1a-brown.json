@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-brown",
   "title": "MX1A Brown",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Brown 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-brown/0c568f6d3b69c932-0-640.avif",
+          "src": "/media/switches/mx1a-brown/c0fc3bfb93f5a894-source-gallery-0-fb851706a9af-640.avif",
           "width": 640,
           "height": 420
         },
         {
-          "src": "/media/switches/mx1a-brown/0c568f6d3b69c932-0-1280.avif",
+          "src": "/media/switches/mx1a-brown/c0fc3bfb93f5a894-source-gallery-0-fb851706a9af-1280.avif",
           "width": 1189,
           "height": 781
         }
@@ -31,12 +49,12 @@
       "alt": "MX1A Brown 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-brown/0c568f6d3b69c932-1-640.avif",
+          "src": "/media/switches/mx1a-brown/c0fc3bfb93f5a894-source-gallery-1-03c0e701143f-640.avif",
           "width": 640,
           "height": 401
         },
         {
-          "src": "/media/switches/mx1a-brown/0c568f6d3b69c932-1-1280.avif",
+          "src": "/media/switches/mx1a-brown/c0fc3bfb93f5a894-source-gallery-1-03c0e701143f-1280.avif",
           "width": 758,
           "height": 475
         }

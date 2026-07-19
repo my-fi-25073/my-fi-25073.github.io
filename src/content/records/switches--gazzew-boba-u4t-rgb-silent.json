@@ -1,33 +1,51 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "gazzew-boba-u4t-rgb-silent",
   "title": "Gazzew Boba U4T RGB Silent",
   "category": "switches",
-  "manufacturer": "Outemu",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Outemu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 62g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Gazzew Boba U4T RGB Silent 사진 1",
       "variants": [
         {
-          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-640.avif",
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/1259ef9d637323f9-source-gallery-0-460e9c60583c-640.avif",
           "width": 640,
           "height": 355
         },
         {
-          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-1280.avif",
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/1259ef9d637323f9-source-gallery-0-460e9c60583c-1280.avif",
           "width": 1280,
           "height": 710
         },
         {
-          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-0-2400.avif",
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/1259ef9d637323f9-source-gallery-0-460e9c60583c-2400.avif",
           "width": 1487,
           "height": 825
         }
@@ -37,7 +55,7 @@
       "alt": "Gazzew Boba U4T RGB Silent 사진 2",
       "variants": [
         {
-          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/51d1bea04ed06ff5-1-640.avif",
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/1259ef9d637323f9-source-gallery-1-6bd4476c964a-640.avif",
           "width": 493,
           "height": 368
         }

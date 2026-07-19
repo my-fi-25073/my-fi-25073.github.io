@@ -30,22 +30,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-08-10",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-08-10",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "biip Extended 2048 Dark",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Charybdis Mini 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-640.avif",
+          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-1280.avif",
+          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/charybdis-mini/ea85f69a3ee2ca1a-0-2400.avif",
+          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-2400.avif",
           "width": 2400,
           "height": 1800
         }

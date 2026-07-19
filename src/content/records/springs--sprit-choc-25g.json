@@ -7,8 +7,8 @@
   "manufacturer": "Sprit",
   "series": "Choc/Alps",
   "springType": "LP",
-  "actuationForce": "???",
-  "bottomOutForce": "25g",
+  "actuationForce": "25g",
+  "bottomOutForce": null,
   "length": "11.75mm",
   "images": []
 }

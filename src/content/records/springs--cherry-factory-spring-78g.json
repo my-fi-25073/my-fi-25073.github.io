@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "cherry-factory-spring-78g",
+  "title": "Cherry Factory Spring 78g",
+  "category": "springs",
+  "manufacturer": "Cherry",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "78g",
+  "length": null,
+  "images": []
+}

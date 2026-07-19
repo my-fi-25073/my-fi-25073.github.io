@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "hmx-factory-spring-55g",
+  "title": "HMX Factory Spring 55g",
+  "category": "springs",
+  "manufacturer": "HMX",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "45g",
+  "bottomOutForce": "55g",
+  "length": null,
+  "images": []
+}

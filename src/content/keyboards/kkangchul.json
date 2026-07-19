@@ -23,22 +23,40 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-12-17",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-12-17",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "DCS Intro WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "DCS WoB 40% Mono Kit",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "KKANGCHUL 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-640.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-0-0588bd79224b-640.avif",
           "width": 640,
           "height": 447
         },
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-1280.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-0-0588bd79224b-1280.avif",
           "width": 1280,
           "height": 894
         },
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-0-2400.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-0-0588bd79224b-2400.avif",
           "width": 2400,
           "height": 1675
         }
@@ -48,17 +66,17 @@
       "alt": "KKANGCHUL 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-640.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-1-4fa8ee38e105-640.avif",
           "width": 640,
           "height": 437
         },
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-1280.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-1-4fa8ee38e105-1280.avif",
           "width": 1280,
           "height": 874
         },
         {
-          "src": "/media/keyboards/kkangchul/e5f503885d79efa4-1-2400.avif",
+          "src": "/media/keyboards/kkangchul/c2da2a51eb23a0e2-source-gallery-1-4fa8ee38e105-2400.avif",
           "width": 2400,
           "height": 1638
         }

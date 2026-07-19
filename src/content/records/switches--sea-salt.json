@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sea-salt",
   "title": "Sea Salt",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sea Salt 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sea-salt/7a197775bb9ab731-0-640.avif",
+          "src": "/media/switches/sea-salt/9ebc88f84a833064-source-gallery-0-b20c7fd497ec-640.avif",
           "width": 640,
           "height": 412
         },
         {
-          "src": "/media/switches/sea-salt/7a197775bb9ab731-0-1280.avif",
+          "src": "/media/switches/sea-salt/9ebc88f84a833064-source-gallery-0-b20c7fd497ec-1280.avif",
           "width": 1071,
           "height": 689
         }
@@ -31,17 +49,17 @@
       "alt": "Sea Salt 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-640.avif",
+          "src": "/media/switches/sea-salt/9ebc88f84a833064-source-gallery-1-c6ac5b56bba8-640.avif",
           "width": 640,
           "height": 704
         },
         {
-          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-1280.avif",
+          "src": "/media/switches/sea-salt/9ebc88f84a833064-source-gallery-1-c6ac5b56bba8-1280.avif",
           "width": 1280,
           "height": 1409
         },
         {
-          "src": "/media/switches/sea-salt/7a197775bb9ab731-1-2400.avif",
+          "src": "/media/switches/sea-salt/9ebc88f84a833064-source-gallery-1-c6ac5b56bba8-2400.avif",
           "width": 1341,
           "height": 1476
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-red-rgb",
   "title": "MX1A Red RGB",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Red RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-0-640.avif",
+          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-0-dbfa3d70451e-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-0-1280.avif",
+          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-0-dbfa3d70451e-1280.avif",
           "width": 1242,
           "height": 792
         }
@@ -31,7 +49,7 @@
       "alt": "MX1A Red RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/40388f90d3d613b2-1-640.avif",
+          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-1-54dc30e8ba63-640.avif",
           "width": 432,
           "height": 306
         }

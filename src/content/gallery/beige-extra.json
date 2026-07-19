@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:52:33Z",
+  "createdAt": "2026-03-20T11:52:33.925Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Beige Extra Beige 4.5u JIS Space Bar 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-640.avif",
+              "src": "/media/beige-extra/kit-4b16ecc36c61f8dc-source-gallery-0-d009f89b490f-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-1280.avif",
+              "src": "/media/beige-extra/kit-4b16ecc36c61f8dc-source-gallery-0-d009f89b490f-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-extra/kit-8aa0f1195bbed4d3-0-2400.avif",
+              "src": "/media/beige-extra/kit-4b16ecc36c61f8dc-source-gallery-0-d009f89b490f-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -61,17 +61,17 @@
           "alt": "Beige Extra Beige OG Space Keys 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-640.avif",
+              "src": "/media/beige-extra/kit-e919562f5222b6a8-source-gallery-0-8ff8208ccb89-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-1280.avif",
+              "src": "/media/beige-extra/kit-e919562f5222b6a8-source-gallery-0-8ff8208ccb89-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-extra/kit-dc8a24c177daedae-0-2400.avif",
+              "src": "/media/beige-extra/kit-e919562f5222b6a8-source-gallery-0-8ff8208ccb89-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -91,17 +91,17 @@
           "alt": "Beige Extra Beige System Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-640.avif",
+              "src": "/media/beige-extra/kit-3256b9a7d377d797-source-gallery-0-f6673f231705-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-1280.avif",
+              "src": "/media/beige-extra/kit-3256b9a7d377d797-source-gallery-0-f6673f231705-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-extra/kit-5bb7cffb268b6497-0-2400.avif",
+              "src": "/media/beige-extra/kit-3256b9a7d377d797-source-gallery-0-f6673f231705-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -121,17 +121,17 @@
           "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 1",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-640.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-0-9299cfdb5087-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-1280.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-0-9299cfdb5087-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-0-2400.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-0-9299cfdb5087-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -141,17 +141,17 @@
           "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 2",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-640.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-1-f40f315655b4-640.avif",
               "width": 640,
               "height": 853
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-1280.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-1-f40f315655b4-1280.avif",
               "width": 1280,
               "height": 1707
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-1-2400.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-1-f40f315655b4-2400.avif",
               "width": 2048,
               "height": 2731
             }
@@ -161,17 +161,17 @@
           "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 3",
           "variants": [
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-640.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-2-4565ac393d50-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-1280.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-2-4565ac393d50-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/beige-extra/kit-67bfafa48c06eda8-2-2400.avif",
+              "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-2-4565ac393d50-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -185,12 +185,12 @@
       "alt": "Beige Extra 이미지 1",
       "variants": [
         {
-          "src": "/media/beige-extra/series-02d16a84d521a275-0-640.avif",
+          "src": "/media/beige-extra/series-a46641c53b066298-source-gallery-0-cb53585d2b22-640.avif",
           "width": 640,
           "height": 604
         },
         {
-          "src": "/media/beige-extra/series-02d16a84d521a275-0-1280.avif",
+          "src": "/media/beige-extra/series-a46641c53b066298-source-gallery-0-cb53585d2b22-1280.avif",
           "width": 1206,
           "height": 1138
         }

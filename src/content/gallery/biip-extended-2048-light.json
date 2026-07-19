@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:10:20Z",
+  "createdAt": "2026-03-21T17:10:20.745Z",
   "materials": [
     "PBT"
   ],
@@ -29,7 +29,7 @@
           "alt": "biip Extended 2048 Light Accent Modifiers 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-31aca48baf317ea1-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-9d03833e2d37410e-source-gallery-0-6bb2a26b4840-640.avif",
               "width": 582,
               "height": 391
             }
@@ -49,7 +49,7 @@
           "alt": "biip Extended 2048 Light Accent Nomad 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-a82e1d2a3e275f18-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-246f43e41385cd63-source-gallery-0-108a862e6d5d-640.avif",
               "width": 506,
               "height": 401
             }
@@ -69,12 +69,12 @@
           "alt": "biip Extended 2048 Light Alpha 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-59359a4d92efa1ba-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-78ef216e9c82a193-source-gallery-0-3d0c58c1d366-640.avif",
               "width": 640,
               "height": 340
             },
             {
-              "src": "/media/biip-extended-2048-light/kit-59359a4d92efa1ba-0-1280.avif",
+              "src": "/media/biip-extended-2048-light/kit-78ef216e9c82a193-source-gallery-0-3d0c58c1d366-1280.avif",
               "width": 706,
               "height": 375
             }
@@ -94,7 +94,7 @@
           "alt": "biip Extended 2048 Light Ergo 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-eef94a998821e538-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-1dececb03e02f090-source-gallery-0-e1ad46e7f088-640.avif",
               "width": 587,
               "height": 383
             }
@@ -114,7 +114,7 @@
           "alt": "biip Extended 2048 Light Icono 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-20f8fd33ad2e2fd8-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-7fbe5537e845b9e5-source-gallery-0-39c3d917089f-640.avif",
               "width": 598,
               "height": 388
             }
@@ -134,12 +134,12 @@
           "alt": "biip Extended 2048 Light Media Icon 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-bef27d8c67b3c3e7-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-2a61ffea69a97474-source-gallery-0-17c63fe1872b-640.avif",
               "width": 640,
               "height": 313
             },
             {
-              "src": "/media/biip-extended-2048-light/kit-bef27d8c67b3c3e7-0-1280.avif",
+              "src": "/media/biip-extended-2048-light/kit-2a61ffea69a97474-source-gallery-0-17c63fe1872b-1280.avif",
               "width": 653,
               "height": 319
             }
@@ -159,12 +159,12 @@
           "alt": "biip Extended 2048 Light Modifiers 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-99622cc4b16d3865-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-10bf50fac265033e-source-gallery-0-b52f668771db-640.avif",
               "width": 640,
               "height": 360
             },
             {
-              "src": "/media/biip-extended-2048-light/kit-99622cc4b16d3865-0-1280.avif",
+              "src": "/media/biip-extended-2048-light/kit-10bf50fac265033e-source-gallery-0-b52f668771db-1280.avif",
               "width": 731,
               "height": 411
             }
@@ -184,7 +184,7 @@
           "alt": "biip Extended 2048 Light Nomad 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-6b9ed8805531b86b-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-7458f26fc1b1ef8f-source-gallery-0-bb1736df79c7-640.avif",
               "width": 516,
               "height": 395
             }
@@ -204,7 +204,7 @@
           "alt": "biip Extended 2048 Light Numpad 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-9d796b5e0c4f5537-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-dac2cf0b3f47a568-source-gallery-0-b80af007ce91-640.avif",
               "width": 407,
               "height": 391
             }
@@ -224,7 +224,7 @@
           "alt": "biip Extended 2048 Light Space Bars 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-extended-2048-light/kit-c8b194475437c55e-0-640.avif",
+              "src": "/media/biip-extended-2048-light/kit-15fd0e63f8b8235f-source-gallery-0-9fdcd6e78769-640.avif",
               "width": 529,
               "height": 369
             }
@@ -238,12 +238,12 @@
       "alt": "biip Extended 2048 Light 이미지 1",
       "variants": [
         {
-          "src": "/media/biip-extended-2048-light/series-908290dd1a686ab9-0-640.avif",
+          "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/biip-extended-2048-light/series-908290dd1a686ab9-0-1280.avif",
+          "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -253,17 +253,17 @@
       "alt": "biip Extended 2048 Light 이미지 2",
       "variants": [
         {
-          "src": "/media/biip-extended-2048-light/series-908290dd1a686ab9-1-640.avif",
+          "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-1-914e9ac818ad-640.avif",
           "width": 640,
           "height": 420
         },
         {
-          "src": "/media/biip-extended-2048-light/series-908290dd1a686ab9-1-1280.avif",
+          "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-1-914e9ac818ad-1280.avif",
           "width": 1280,
           "height": 841
         },
         {
-          "src": "/media/biip-extended-2048-light/series-908290dd1a686ab9-1-2400.avif",
+          "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-1-914e9ac818ad-2400.avif",
           "width": 1708,
           "height": 1122
         }

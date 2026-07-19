@@ -23,22 +23,40 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-02-11",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-02-11",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Minimal",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Classic BoW 40s (Cannon Key)",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "GB34 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/gb34/f08fc7d03f9a5cf3-0-640.avif",
+          "src": "/media/keyboards/gb34/de9c3c42db0d26f6-source-gallery-0-20c02eb6585b-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/gb34/f08fc7d03f9a5cf3-0-1280.avif",
+          "src": "/media/keyboards/gb34/de9c3c42db0d26f6-source-gallery-0-20c02eb6585b-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/gb34/f08fc7d03f9a5cf3-0-2400.avif",
+          "src": "/media/keyboards/gb34/de9c3c42db0d26f6-source-gallery-0-20c02eb6585b-2400.avif",
           "width": 2400,
           "height": 1800
         }

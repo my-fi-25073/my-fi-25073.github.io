@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "mx-black-wsye-vintage",
+  "title": "MX Black Wsye Vintage",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "35g",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MX Black Wsye Vintage 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-0-80558b3fcd34-640.avif",
+          "width": 640,
+          "height": 538
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-0-80558b3fcd34-1280.avif",
+          "width": 1280,
+          "height": 1077
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-0-80558b3fcd34-2400.avif",
+          "width": 1378,
+          "height": 1159
+        }
+      ]
+    },
+    {
+      "alt": "MX Black Wsye Vintage 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-1-80b04553dc2a-640.avif",
+          "width": 640,
+          "height": 680
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-1-80b04553dc2a-1280.avif",
+          "width": 1280,
+          "height": 1360
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-1-80b04553dc2a-2400.avif",
+          "width": 1663,
+          "height": 1767
+        }
+      ]
+    },
+    {
+      "alt": "MX Black Wsye Vintage 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-2-5557e18f6657-640.avif",
+          "width": 640,
+          "height": 624
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-2-5557e18f6657-1280.avif",
+          "width": 1280,
+          "height": 1249
+        },
+        {
+          "src": "/media/switches/mx-black-wsye-vintage/fb40c316eb42a04b-source-gallery-2-5557e18f6657-2400.avif",
+          "width": 1807,
+          "height": 1763
+        }
+      ]
+    }
+  ]
+}

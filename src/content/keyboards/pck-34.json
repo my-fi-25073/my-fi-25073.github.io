@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-02-15",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-02-15",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Engage light",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "PCK 34 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-640.avif",
+          "src": "/media/keyboards/pck-34/0cfbd1b06f5c2473-source-gallery-0-0ff6e5fd606b-640.avif",
           "width": 640,
           "height": 352
         },
         {
-          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-1280.avif",
+          "src": "/media/keyboards/pck-34/0cfbd1b06f5c2473-source-gallery-0-0ff6e5fd606b-1280.avif",
           "width": 1280,
           "height": 705
         },
         {
-          "src": "/media/keyboards/pck-34/551f2889f7c3891e-0-2400.avif",
+          "src": "/media/keyboards/pck-34/0cfbd1b06f5c2473-source-gallery-0-0ff6e5fd606b-2400.avif",
           "width": 2400,
           "height": 1321
         }

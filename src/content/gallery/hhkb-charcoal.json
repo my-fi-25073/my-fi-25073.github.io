@@ -8,7 +8,7 @@
   "profile": "OEM-Topre",
   "manufacturingProcess": "Single Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-24T15:27:50Z",
+  "createdAt": "2026-03-24T15:27:50.921Z",
   "materials": [
     "PBT"
   ],
@@ -30,17 +30,17 @@
           "alt": "HHKB Charcoal Blank Base 이미지 1",
           "variants": [
             {
-              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-640.avif",
+              "src": "/media/hhkb-charcoal/kit-3254df3335da5fbd-source-gallery-0-d15085accc75-640.avif",
               "width": 640,
               "height": 412
             },
             {
-              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-1280.avif",
+              "src": "/media/hhkb-charcoal/kit-3254df3335da5fbd-source-gallery-0-d15085accc75-1280.avif",
               "width": 1280,
               "height": 825
             },
             {
-              "src": "/media/hhkb-charcoal/kit-792898d8e6384f28-0-2400.avif",
+              "src": "/media/hhkb-charcoal/kit-3254df3335da5fbd-source-gallery-0-d15085accc75-2400.avif",
               "width": 1614,
               "height": 1040
             }
@@ -54,12 +54,12 @@
       "alt": "HHKB Charcoal 이미지 1",
       "variants": [
         {
-          "src": "/media/hhkb-charcoal/series-53d721d38ec82d13-0-640.avif",
+          "src": "/media/hhkb-charcoal/series-46445833d301e9d2-source-gallery-0-e073080fad33-640.avif",
           "width": 640,
           "height": 299
         },
         {
-          "src": "/media/hhkb-charcoal/series-53d721d38ec82d13-0-1280.avif",
+          "src": "/media/hhkb-charcoal/series-46445833d301e9d2-source-gallery-0-e073080fad33-1280.avif",
           "width": 1252,
           "height": 584
         }

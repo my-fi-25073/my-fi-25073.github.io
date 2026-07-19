@@ -7,7 +7,7 @@
   "manufacturer": "Swagkey",
   "series": "SW-Chewy",
   "springType": "Long",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "50g",
   "length": "17.5mm",
   "images": []

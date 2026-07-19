@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "coral-sea",
   "title": "Coral Sea",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★★☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Coral Sea 사진 1",
       "variants": [
         {
-          "src": "/media/switches/coral-sea/a9c50d96850fac2a-0-640.avif",
+          "src": "/media/switches/coral-sea/d92df62f4e5c83d1-source-gallery-0-61629930104e-640.avif",
           "width": 588,
           "height": 432
         }
@@ -26,12 +44,12 @@
       "alt": "Coral Sea 사진 2",
       "variants": [
         {
-          "src": "/media/switches/coral-sea/a9c50d96850fac2a-1-640.avif",
+          "src": "/media/switches/coral-sea/d92df62f4e5c83d1-source-gallery-1-5065ea3d0f59-640.avif",
           "width": 640,
           "height": 540
         },
         {
-          "src": "/media/switches/coral-sea/a9c50d96850fac2a-1-1280.avif",
+          "src": "/media/switches/coral-sea/d92df62f4e5c83d1-source-gallery-1-5065ea3d0f59-1280.avif",
           "width": 837,
           "height": 706
         }

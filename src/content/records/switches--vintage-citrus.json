@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "vintage-citrus",
   "title": "Vintage Citrus",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 48g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Vintage Citrus 사진 1",
       "variants": [
         {
-          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-0-640.avif",
+          "src": "/media/switches/vintage-citrus/4aced30a3985f010-source-gallery-0-c33213173619-640.avif",
           "width": 640,
           "height": 487
         },
         {
-          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-0-1280.avif",
+          "src": "/media/switches/vintage-citrus/4aced30a3985f010-source-gallery-0-c33213173619-1280.avif",
           "width": 742,
           "height": 565
         }
@@ -31,17 +49,17 @@
       "alt": "Vintage Citrus 사진 2",
       "variants": [
         {
-          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-640.avif",
+          "src": "/media/switches/vintage-citrus/4aced30a3985f010-source-gallery-1-549759e8ef0e-640.avif",
           "width": 640,
           "height": 583
         },
         {
-          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-1280.avif",
+          "src": "/media/switches/vintage-citrus/4aced30a3985f010-source-gallery-1-549759e8ef0e-1280.avif",
           "width": 1280,
           "height": 1167
         },
         {
-          "src": "/media/switches/vintage-citrus/f9ec9ba31315d4c3-1-2400.avif",
+          "src": "/media/switches/vintage-citrus/4aced30a3985f010-source-gallery-1-549759e8ef0e-2400.avif",
           "width": 1309,
           "height": 1193
         }

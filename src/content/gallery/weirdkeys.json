@@ -8,7 +8,7 @@
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T16:39:29Z",
+  "createdAt": "2026-03-21T16:39:29.439Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "Weirdkeys 15u Space Bar 이미지 1",
           "variants": [
             {
-              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-640.avif",
+              "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-1280.avif",
+              "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/weirdkeys/kit-5895a70e27fc5041-0-2400.avif",
+              "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -59,17 +59,17 @@
           "alt": "Weirdkeys Alice BAE 이미지 1",
           "variants": [
             {
-              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-640.avif",
+              "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-640.avif",
               "width": 640,
               "height": 481
             },
             {
-              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-1280.avif",
+              "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-1280.avif",
               "width": 1280,
               "height": 962
             },
             {
-              "src": "/media/weirdkeys/kit-fc13fe8270f0e871-0-2400.avif",
+              "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-2400.avif",
               "width": 2046,
               "height": 1538
             }
@@ -89,12 +89,12 @@
           "alt": "Weirdkeys TabLock 이미지 1",
           "variants": [
             {
-              "src": "/media/weirdkeys/kit-ff69361b52a1dc83-0-640.avif",
+              "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-640.avif",
               "width": 640,
               "height": 383
             },
             {
-              "src": "/media/weirdkeys/kit-ff69361b52a1dc83-0-1280.avif",
+              "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-1280.avif",
               "width": 992,
               "height": 594
             }
@@ -108,12 +108,12 @@
       "alt": "Weirdkeys 이미지 1",
       "variants": [
         {
-          "src": "/media/weirdkeys/series-466f60142d1780a6-0-640.avif",
+          "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-640.avif",
           "width": 640,
           "height": 594
         },
         {
-          "src": "/media/weirdkeys/series-466f60142d1780a6-0-1280.avif",
+          "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-1280.avif",
           "width": 1114,
           "height": 1034
         }

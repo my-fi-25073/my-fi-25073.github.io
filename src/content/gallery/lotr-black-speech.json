@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:09:49Z",
+  "createdAt": "2026-03-21T17:09:49.014Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "LotR Black Speech Extra 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-black-speech/kit-299a580fc9321430-0-640.avif",
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-640.avif",
               "width": 640,
               "height": 424
             },
             {
-              "src": "/media/lotr-black-speech/kit-299a580fc9321430-0-1280.avif",
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-1280.avif",
               "width": 1024,
               "height": 678
             }
@@ -55,12 +55,12 @@
           "alt": "LotR Black Speech Hardcore Base 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-black-speech/kit-e3a1fa67f3955349-0-640.avif",
+              "src": "/media/lotr-black-speech/kit-4162fccac580148c-source-gallery-0-d50fdd1ede17-640.avif",
               "width": 640,
               "height": 417
             },
             {
-              "src": "/media/lotr-black-speech/kit-e3a1fa67f3955349-0-1280.avif",
+              "src": "/media/lotr-black-speech/kit-4162fccac580148c-source-gallery-0-d50fdd1ede17-1280.avif",
               "width": 1029,
               "height": 670
             }
@@ -80,12 +80,12 @@
           "alt": "LotR Black Speech Magma 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-black-speech/kit-a75d28237d8cd11c-0-640.avif",
+              "src": "/media/lotr-black-speech/kit-0d7409ffcad52c61-source-gallery-0-08a345295df1-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/lotr-black-speech/kit-a75d28237d8cd11c-0-1280.avif",
+              "src": "/media/lotr-black-speech/kit-0d7409ffcad52c61-source-gallery-0-08a345295df1-1280.avif",
               "width": 1008,
               "height": 669
             }
@@ -105,12 +105,12 @@
           "alt": "LotR Black Speech Spacebars 이미지 1",
           "variants": [
             {
-              "src": "/media/lotr-black-speech/kit-5f74b7f4bef9d209-0-640.avif",
+              "src": "/media/lotr-black-speech/kit-9ee0178a23ae5c8c-source-gallery-0-4959cbc7bacb-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/lotr-black-speech/kit-5f74b7f4bef9d209-0-1280.avif",
+              "src": "/media/lotr-black-speech/kit-9ee0178a23ae5c8c-source-gallery-0-4959cbc7bacb-1280.avif",
               "width": 1011,
               "height": 672
             }
@@ -124,17 +124,17 @@
       "alt": "LotR Black Speech 이미지 1",
       "variants": [
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-640.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-0-3bc831fe0915-640.avif",
           "width": 640,
           "height": 360
         },
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-1280.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-0-3bc831fe0915-1280.avif",
           "width": 1280,
           "height": 720
         },
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-0-2400.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-0-3bc831fe0915-2400.avif",
           "width": 1608,
           "height": 904
         }
@@ -144,17 +144,37 @@
       "alt": "LotR Black Speech 이미지 2",
       "variants": [
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-640.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-1-65f0d4bae465-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-1280.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-1-65f0d4bae465-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/lotr-black-speech/series-252f675f40e7a1ea-1-2400.avif",
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-1-65f0d4bae465-2400.avif",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "LotR Black Speech 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-body-0-10faf9c40daa-640.avif",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-body-0-10faf9c40daa-1280.avif",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-body-0-10faf9c40daa-2400.avif",
           "width": 2048,
           "height": 1536
         }

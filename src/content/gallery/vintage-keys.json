@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T13:20:09Z",
+  "createdAt": "2026-03-20T13:20:09.942Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Vintage Keys Beige 2000s 이미지 1",
           "variants": [
             {
-              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-640.avif",
+              "src": "/media/vintage-keys/kit-d8325b2797c791e0-source-gallery-0-4d261a821eff-640.avif",
               "width": 640,
               "height": 585
             },
             {
-              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-1280.avif",
+              "src": "/media/vintage-keys/kit-d8325b2797c791e0-source-gallery-0-4d261a821eff-1280.avif",
               "width": 1280,
               "height": 1170
             },
             {
-              "src": "/media/vintage-keys/kit-6ed4201128ff9aa0-0-2400.avif",
+              "src": "/media/vintage-keys/kit-d8325b2797c791e0-source-gallery-0-4d261a821eff-2400.avif",
               "width": 1284,
               "height": 1174
             }
@@ -62,12 +62,12 @@
           "alt": "Vintage Keys Dimple 이미지 1",
           "variants": [
             {
-              "src": "/media/vintage-keys/kit-04b0b8567fe006bb-0-640.avif",
+              "src": "/media/vintage-keys/kit-658b4a2fb909972b-source-gallery-0-9a10ad26ced4-640.avif",
               "width": 640,
               "height": 585
             },
             {
-              "src": "/media/vintage-keys/kit-04b0b8567fe006bb-0-1280.avif",
+              "src": "/media/vintage-keys/kit-658b4a2fb909972b-source-gallery-0-9a10ad26ced4-1280.avif",
               "width": 1126,
               "height": 1030
             }
@@ -87,12 +87,12 @@
           "alt": "Vintage Keys Snack Pack 이미지 1",
           "variants": [
             {
-              "src": "/media/vintage-keys/kit-bd9e9ef4571076bd-0-640.avif",
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-640.avif",
               "width": 640,
               "height": 498
             },
             {
-              "src": "/media/vintage-keys/kit-bd9e9ef4571076bd-0-1280.avif",
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-1280.avif",
               "width": 1038,
               "height": 808
             }
@@ -112,12 +112,12 @@
           "alt": "Vintage Keys Vintage Bottom 이미지 1",
           "variants": [
             {
-              "src": "/media/vintage-keys/kit-a51b7ad0a3b21c17-0-640.avif",
+              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-640.avif",
               "width": 640,
               "height": 502
             },
             {
-              "src": "/media/vintage-keys/kit-a51b7ad0a3b21c17-0-1280.avif",
+              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-1280.avif",
               "width": 1200,
               "height": 942
             }
@@ -131,12 +131,12 @@
       "alt": "Vintage Keys 이미지 1",
       "variants": [
         {
-          "src": "/media/vintage-keys/series-50ce258d3252ad62-0-640.avif",
+          "src": "/media/vintage-keys/series-c270390d6f5e3f1f-source-gallery-0-1725ecd41f40-640.avif",
           "width": 640,
           "height": 439
         },
         {
-          "src": "/media/vintage-keys/series-50ce258d3252ad62-0-1280.avif",
+          "src": "/media/vintage-keys/series-c270390d6f5e3f1f-source-gallery-0-1725ecd41f40-1280.avif",
           "width": 1278,
           "height": 876
         }

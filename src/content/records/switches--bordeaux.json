@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "bordeaux",
   "title": "Bordeaux",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Bordeaux 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bordeaux/d2c17e438c2ca3f3-0-640.avif",
+          "src": "/media/switches/bordeaux/71417b2981ea3ea0-source-gallery-0-ef0992cf5c56-640.avif",
           "width": 640,
           "height": 523
         },
         {
-          "src": "/media/switches/bordeaux/d2c17e438c2ca3f3-0-1280.avif",
+          "src": "/media/switches/bordeaux/71417b2981ea3ea0-source-gallery-0-ef0992cf5c56-1280.avif",
           "width": 737,
           "height": 602
         }
@@ -31,12 +49,12 @@
       "alt": "Bordeaux 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bordeaux/d2c17e438c2ca3f3-1-640.avif",
+          "src": "/media/switches/bordeaux/71417b2981ea3ea0-source-gallery-1-2ec564997326-640.avif",
           "width": 640,
           "height": 752
         },
         {
-          "src": "/media/switches/bordeaux/d2c17e438c2ca3f3-1-1280.avif",
+          "src": "/media/switches/bordeaux/71417b2981ea3ea0-source-gallery-1-2ec564997326-1280.avif",
           "width": 1264,
           "height": 1485
         }

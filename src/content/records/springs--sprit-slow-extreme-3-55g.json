@@ -6,9 +6,9 @@
   "category": "springs",
   "manufacturer": "Sprit",
   "series": "Slow Extreme 3",
-  "springType": "Long",
-  "actuationForce": "???",
+  "springType": "Extra Long",
+  "actuationForce": null,
   "bottomOutForce": "55g",
-  "length": null,
+  "length": "19mm",
   "images": []
 }

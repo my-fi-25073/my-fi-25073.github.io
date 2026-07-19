@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "iron",
   "title": "Iron",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 51g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Iron 사진 1",
       "variants": [
         {
-          "src": "/media/switches/iron/902c2f5ec0d2f11b-0-640.avif",
+          "src": "/media/switches/iron/6666073709650ee5-source-gallery-0-f59b41b2536d-640.avif",
           "width": 592,
           "height": 462
         }
@@ -26,7 +44,7 @@
       "alt": "Iron 사진 2",
       "variants": [
         {
-          "src": "/media/switches/iron/902c2f5ec0d2f11b-1-640.avif",
+          "src": "/media/switches/iron/6666073709650ee5-source-gallery-1-4bbcde39e7b0-640.avif",
           "width": 528,
           "height": 351
         }
@@ -36,7 +54,7 @@
       "alt": "Iron 사진 3",
       "variants": [
         {
-          "src": "/media/switches/iron/902c2f5ec0d2f11b-2-640.avif",
+          "src": "/media/switches/iron/6666073709650ee5-source-gallery-2-90953326b0cc-640.avif",
           "width": 498,
           "height": 323
         }

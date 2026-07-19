@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sonja",
   "title": "SONJA",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "SONJA 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sonja/1edea58c5d6b82a3-0-640.avif",
+          "src": "/media/switches/sonja/b051fa482257ffa8-source-gallery-0-34df104015b2-640.avif",
           "width": 640,
           "height": 395
         },
         {
-          "src": "/media/switches/sonja/1edea58c5d6b82a3-0-1280.avif",
+          "src": "/media/switches/sonja/b051fa482257ffa8-source-gallery-0-34df104015b2-1280.avif",
           "width": 707,
           "height": 436
         }
@@ -31,12 +49,12 @@
       "alt": "SONJA 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sonja/1edea58c5d6b82a3-1-640.avif",
+          "src": "/media/switches/sonja/b051fa482257ffa8-source-gallery-1-c541a640831d-640.avif",
           "width": 640,
           "height": 631
         },
         {
-          "src": "/media/switches/sonja/1edea58c5d6b82a3-1-1280.avif",
+          "src": "/media/switches/sonja/b051fa482257ffa8-source-gallery-1-c541a640831d-1280.avif",
           "width": 1270,
           "height": 1253
         }

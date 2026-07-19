@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "white",
   "title": "White",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/white/9ca68e9838dcb1f0-0-640.avif",
+          "src": "/media/switches/white/5d23bcedb7124c93-source-gallery-0-05f29d935f1a-640.avif",
           "width": 640,
           "height": 571
         },
         {
-          "src": "/media/switches/white/9ca68e9838dcb1f0-0-1280.avif",
+          "src": "/media/switches/white/5d23bcedb7124c93-source-gallery-0-05f29d935f1a-1280.avif",
           "width": 836,
           "height": 746
         }

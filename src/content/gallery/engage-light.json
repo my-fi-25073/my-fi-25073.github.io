@@ -8,7 +8,7 @@
   "profile": "MBK",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:10:50Z",
+  "createdAt": "2026-03-20T18:10:50.491Z",
   "materials": [
     "PBT"
   ],
@@ -29,17 +29,17 @@
           "alt": "Engage light Nomad Base 이미지 1",
           "variants": [
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-0-640.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-0-1280.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-0-2400.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "Engage light Nomad Base 이미지 2",
           "variants": [
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-1-640.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-1-1280.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/engage-light/kit-2b5913d5fc7e0592-1-2400.avif",
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -73,17 +73,17 @@
       "alt": "Engage light 이미지 1",
       "variants": [
         {
-          "src": "/media/engage-light/series-e0d00ae1acd27746-0-640.avif",
+          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-640.avif",
           "width": 640,
           "height": 431
         },
         {
-          "src": "/media/engage-light/series-e0d00ae1acd27746-0-1280.avif",
+          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-1280.avif",
           "width": 1280,
           "height": 862
         },
         {
-          "src": "/media/engage-light/series-e0d00ae1acd27746-0-2400.avif",
+          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-2400.avif",
           "width": 1600,
           "height": 1078
         }

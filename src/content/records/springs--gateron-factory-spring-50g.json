@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-50g",
+  "title": "Gateron Factory Spring 50g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": "55g",
+  "bottomOutForce": "50g",
+  "length": "16.5mm",
+  "images": []
+}

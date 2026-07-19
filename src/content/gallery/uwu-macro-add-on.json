@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:52:48Z",
+  "createdAt": "2026-03-20T11:52:48.858Z",
   "materials": [
     "ABS"
   ],
@@ -22,7 +22,7 @@
   "kits": [
     {
       "slug": "uwu",
-      "title": "UwU",
+      "title": "UwU ",
       "kittingTypes": [
         "Accent - Meme",
         "Child - Battleship XT"
@@ -30,20 +30,20 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "UwU Macro Add On UwU 이미지 1",
+          "alt": "UwU Macro Add On UwU  이미지 1",
           "variants": [
             {
-              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-640.avif",
+              "src": "/media/uwu-macro-add-on/kit-1c2e536bce5d09d9-source-gallery-0-862bb32688aa-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-1280.avif",
+              "src": "/media/uwu-macro-add-on/kit-1c2e536bce5d09d9-source-gallery-0-862bb32688aa-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/uwu-macro-add-on/kit-0a760f1642cda54f-0-2400.avif",
+              "src": "/media/uwu-macro-add-on/kit-1c2e536bce5d09d9-source-gallery-0-862bb32688aa-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -57,17 +57,17 @@
       "alt": "UwU Macro Add On 이미지 1",
       "variants": [
         {
-          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-640.avif",
+          "src": "/media/uwu-macro-add-on/series-03320a7b26612e52-source-gallery-0-983989540327-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-1280.avif",
+          "src": "/media/uwu-macro-add-on/series-03320a7b26612e52-source-gallery-0-983989540327-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/uwu-macro-add-on/series-d8e2004265f6d41c-0-2400.avif",
+          "src": "/media/uwu-macro-add-on/series-03320a7b26612e52-source-gallery-0-983989540327-2400.avif",
           "width": 1500,
           "height": 1125
         }

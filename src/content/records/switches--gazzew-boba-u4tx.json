@@ -1,23 +1,41 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "gazzew-boba-u4tx",
   "title": "Gazzew Boba U4Tx",
   "category": "switches",
-  "manufacturer": "Outemu",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Outemu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 63.5g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Gazzew Boba U4Tx 사진 1",
       "variants": [
         {
-          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-0-640.avif",
+          "src": "/media/switches/gazzew-boba-u4tx/cfc278cab23ef575-source-gallery-0-b63ab730d365-640.avif",
           "width": 606,
           "height": 540
         }
@@ -27,12 +45,12 @@
       "alt": "Gazzew Boba U4Tx 사진 2",
       "variants": [
         {
-          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-1-640.avif",
+          "src": "/media/switches/gazzew-boba-u4tx/cfc278cab23ef575-source-gallery-1-7eaecd691bef-640.avif",
           "width": 640,
           "height": 460
         },
         {
-          "src": "/media/switches/gazzew-boba-u4tx/f5c0dfac852b49b6-1-1280.avif",
+          "src": "/media/switches/gazzew-boba-u4tx/cfc278cab23ef575-source-gallery-1-7eaecd691bef-1280.avif",
           "width": 783,
           "height": 563
         }

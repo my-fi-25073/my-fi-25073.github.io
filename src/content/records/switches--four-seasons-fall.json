@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "four-seasons-fall",
   "title": "Four Seasons Fall",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Four Seasons Fall 사진 1",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-fall/7c4f28d15c4e7450-0-640.avif",
+          "src": "/media/switches/four-seasons-fall/65303fb960ec30cb-source-gallery-0-0c00f52e8b55-640.avif",
           "width": 640,
           "height": 619
         },
         {
-          "src": "/media/switches/four-seasons-fall/7c4f28d15c4e7450-0-1280.avif",
+          "src": "/media/switches/four-seasons-fall/65303fb960ec30cb-source-gallery-0-0c00f52e8b55-1280.avif",
           "width": 723,
           "height": 699
         }
@@ -31,12 +49,12 @@
       "alt": "Four Seasons Fall 사진 2",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-fall/7c4f28d15c4e7450-1-640.avif",
+          "src": "/media/switches/four-seasons-fall/65303fb960ec30cb-source-gallery-1-a0c974a5fafa-640.avif",
           "width": 640,
           "height": 711
         },
         {
-          "src": "/media/switches/four-seasons-fall/7c4f28d15c4e7450-1-1280.avif",
+          "src": "/media/switches/four-seasons-fall/65303fb960ec30cb-source-gallery-1-a0c974a5fafa-1280.avif",
           "width": 973,
           "height": 1081
         }

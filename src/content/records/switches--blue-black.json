@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "blue-black",
   "title": "Blue Black",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 80g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Blue Black 사진 1",
       "variants": [
         {
-          "src": "/media/switches/blue-black/bc48c27d6b3fa3df-0-640.avif",
+          "src": "/media/switches/blue-black/22f5c168ee6398c2-source-gallery-0-81f109a0a65e-640.avif",
           "width": 440,
           "height": 406
         }
@@ -26,7 +44,7 @@
       "alt": "Blue Black 사진 2",
       "variants": [
         {
-          "src": "/media/switches/blue-black/bc48c27d6b3fa3df-1-640.avif",
+          "src": "/media/switches/blue-black/22f5c168ee6398c2-source-gallery-1-aa8b06708879-640.avif",
           "width": 393,
           "height": 335
         }

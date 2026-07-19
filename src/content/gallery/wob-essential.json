@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T16:57:28Z",
+  "createdAt": "2026-03-20T16:57:28.274Z",
   "materials": [
     "ABS"
   ],
@@ -31,12 +31,12 @@
           "alt": "WoB Essential CMYW 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-essential/kit-9faed2bfe8ab1ee3-0-640.avif",
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-640.avif",
               "width": 640,
               "height": 906
             },
             {
-              "src": "/media/wob-essential/kit-9faed2bfe8ab1ee3-0-1280.avif",
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-1280.avif",
               "width": 1010,
               "height": 1430
             }
@@ -56,12 +56,12 @@
           "alt": "WoB Essential Dark RGB 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-essential/kit-d657dbe2952737ee-0-640.avif",
+              "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-640.avif",
               "width": 640,
               "height": 884
             },
             {
-              "src": "/media/wob-essential/kit-d657dbe2952737ee-0-1280.avif",
+              "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-1280.avif",
               "width": 1004,
               "height": 1386
             }
@@ -82,12 +82,12 @@
           "alt": "WoB Essential Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/wob-essential/kit-5e30aa025b3aad8f-0-640.avif",
+              "src": "/media/wob-essential/kit-50d9cd6f794ef87c-source-gallery-0-9d110e8a5cfd-640.avif",
               "width": 640,
               "height": 315
             },
             {
-              "src": "/media/wob-essential/kit-5e30aa025b3aad8f-0-1280.avif",
+              "src": "/media/wob-essential/kit-50d9cd6f794ef87c-source-gallery-0-9d110e8a5cfd-1280.avif",
               "width": 1096,
               "height": 539
             }
@@ -101,17 +101,17 @@
       "alt": "WoB Essential 이미지 1",
       "variants": [
         {
-          "src": "/media/wob-essential/series-8606e09be748516a-0-640.avif",
+          "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-640.avif",
           "width": 640,
           "height": 458
         },
         {
-          "src": "/media/wob-essential/series-8606e09be748516a-0-1280.avif",
+          "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-1280.avif",
           "width": 1280,
           "height": 916
         },
         {
-          "src": "/media/wob-essential/series-8606e09be748516a-0-2400.avif",
+          "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-2400.avif",
           "width": 2048,
           "height": 1465
         }

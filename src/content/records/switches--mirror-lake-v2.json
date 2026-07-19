@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mirror-lake-v2",
   "title": "Mirror Lake V2",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 62.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Mirror Lake V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-0-640.avif",
+          "src": "/media/switches/mirror-lake-v2/9d77588272b5cb25-source-gallery-0-28d241eaef45-640.avif",
           "width": 640,
           "height": 303
         },
         {
-          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-0-1280.avif",
+          "src": "/media/switches/mirror-lake-v2/9d77588272b5cb25-source-gallery-0-28d241eaef45-1280.avif",
           "width": 744,
           "height": 352
         }
@@ -31,12 +49,12 @@
       "alt": "Mirror Lake V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-1-640.avif",
+          "src": "/media/switches/mirror-lake-v2/9d77588272b5cb25-source-gallery-1-3d4c55361628-640.avif",
           "width": 640,
           "height": 498
         },
         {
-          "src": "/media/switches/mirror-lake-v2/20e2382f28ad0adb-1-1280.avif",
+          "src": "/media/switches/mirror-lake-v2/9d77588272b5cb25-source-gallery-1-3d4c55361628-1280.avif",
           "width": 811,
           "height": 631
         }

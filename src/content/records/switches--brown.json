@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "brown",
   "title": "Brown",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Brown 사진 1",
       "variants": [
         {
-          "src": "/media/switches/brown/3bfe130b0ba3ca55-0-640.avif",
+          "src": "/media/switches/brown/563021c06e5baed2-source-gallery-0-98e36203337f-640.avif",
           "width": 640,
           "height": 573
         },
         {
-          "src": "/media/switches/brown/3bfe130b0ba3ca55-0-1280.avif",
+          "src": "/media/switches/brown/563021c06e5baed2-source-gallery-0-98e36203337f-1280.avif",
           "width": 808,
           "height": 723
         }

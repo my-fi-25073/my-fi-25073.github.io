@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "drop-invyr-holy-panda",
   "title": "Drop + Invyr Holy Panda",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory Spring 67g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Drop + Invyr Holy Panda 사진 1",
       "variants": [
         {
-          "src": "/media/switches/drop-invyr-holy-panda/c293b8577506c18a-0-640.avif",
+          "src": "/media/switches/drop-invyr-holy-panda/b509585b5c4748ae-source-gallery-0-19181ede7357-640.avif",
           "width": 640,
           "height": 389
         },
         {
-          "src": "/media/switches/drop-invyr-holy-panda/c293b8577506c18a-0-1280.avif",
+          "src": "/media/switches/drop-invyr-holy-panda/b509585b5c4748ae-source-gallery-0-19181ede7357-1280.avif",
           "width": 820,
           "height": 499
         }
@@ -31,7 +49,7 @@
       "alt": "Drop + Invyr Holy Panda 사진 2",
       "variants": [
         {
-          "src": "/media/switches/drop-invyr-holy-panda/c293b8577506c18a-1-640.avif",
+          "src": "/media/switches/drop-invyr-holy-panda/b509585b5c4748ae-source-gallery-1-31d9e6c55f70-640.avif",
           "width": 535,
           "height": 416
         }

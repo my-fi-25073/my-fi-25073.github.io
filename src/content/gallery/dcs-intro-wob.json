@@ -8,7 +8,7 @@
   "profile": "DCS",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:05:25Z",
+  "createdAt": "2026-03-20T18:05:25.195Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "DCS Intro WoB Base 이미지 1",
           "variants": [
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-640.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-0-615d848eb6c9-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-1280.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-0-615d848eb6c9-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-0-2400.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-0-615d848eb6c9-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -49,17 +49,17 @@
           "alt": "DCS Intro WoB Base 이미지 2",
           "variants": [
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-640.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-1-6f94f20f21be-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-1280.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-1-6f94f20f21be-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-1-2400.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-1-6f94f20f21be-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -69,17 +69,17 @@
           "alt": "DCS Intro WoB Base 이미지 3",
           "variants": [
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-640.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-2-4e72b4acba0c-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-1280.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-2-4e72b4acba0c-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dcs-intro-wob/kit-67095431234c7596-2-2400.avif",
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-2-4e72b4acba0c-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -93,17 +93,17 @@
       "alt": "DCS Intro WoB 이미지 1",
       "variants": [
         {
-          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-640.avif",
+          "src": "/media/dcs-intro-wob/series-4ccf163a2fede74c-source-gallery-0-58e96f5eaffc-640.avif",
           "width": 640,
           "height": 388
         },
         {
-          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-1280.avif",
+          "src": "/media/dcs-intro-wob/series-4ccf163a2fede74c-source-gallery-0-58e96f5eaffc-1280.avif",
           "width": 1280,
           "height": 776
         },
         {
-          "src": "/media/dcs-intro-wob/series-0aab92042b30994c-0-2400.avif",
+          "src": "/media/dcs-intro-wob/series-4ccf163a2fede74c-source-gallery-0-58e96f5eaffc-2400.avif",
           "width": 2048,
           "height": 1242
         }

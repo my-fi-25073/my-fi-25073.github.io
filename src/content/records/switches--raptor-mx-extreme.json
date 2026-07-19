@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "raptor-mx-extreme",
   "title": "Raptor MX Extreme",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Raptor MX Extreme 사진 1",
       "variants": [
         {
-          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-0-640.avif",
+          "src": "/media/switches/raptor-mx-extreme/217effeca1fe44ce-source-gallery-0-dc01aab02607-640.avif",
           "width": 640,
           "height": 464
         },
         {
-          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-0-1280.avif",
+          "src": "/media/switches/raptor-mx-extreme/217effeca1fe44ce-source-gallery-0-dc01aab02607-1280.avif",
           "width": 1078,
           "height": 781
         }
@@ -31,17 +49,17 @@
       "alt": "Raptor MX Extreme 사진 2",
       "variants": [
         {
-          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-640.avif",
+          "src": "/media/switches/raptor-mx-extreme/217effeca1fe44ce-source-gallery-1-c85fb87352f7-640.avif",
           "width": 640,
           "height": 541
         },
         {
-          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-1280.avif",
+          "src": "/media/switches/raptor-mx-extreme/217effeca1fe44ce-source-gallery-1-c85fb87352f7-1280.avif",
           "width": 1280,
           "height": 1081
         },
         {
-          "src": "/media/switches/raptor-mx-extreme/a59c3e62cd399887-1-2400.avif",
+          "src": "/media/switches/raptor-mx-extreme/217effeca1fe44ce-source-gallery-1-c85fb87352f7-2400.avif",
           "width": 1307,
           "height": 1104
         }

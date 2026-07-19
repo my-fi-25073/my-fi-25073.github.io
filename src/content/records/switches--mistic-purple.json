@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mistic-purple",
   "title": "Mistic Purple",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Mistic Purple 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-0-640.avif",
+          "src": "/media/switches/mistic-purple/2f210ac286b43e53-source-gallery-0-50c8724db5db-640.avif",
           "width": 640,
           "height": 441
         },
         {
-          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-0-1280.avif",
+          "src": "/media/switches/mistic-purple/2f210ac286b43e53-source-gallery-0-50c8724db5db-1280.avif",
           "width": 774,
           "height": 533
         }
@@ -31,7 +49,7 @@
       "alt": "Mistic Purple 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mistic-purple/a7e3fbdb02313b5d-1-640.avif",
+          "src": "/media/switches/mistic-purple/2f210ac286b43e53-source-gallery-1-1815197119cf-640.avif",
           "width": 446,
           "height": 292
         }

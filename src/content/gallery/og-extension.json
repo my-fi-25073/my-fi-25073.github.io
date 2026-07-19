@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T11:52:14Z",
+  "createdAt": "2026-03-20T11:52:14.271Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "OG Extension Beige OG R4 Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-640.avif",
+              "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-640.avif",
               "width": 640,
               "height": 709
             },
             {
-              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-1280.avif",
+              "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-1280.avif",
               "width": 1280,
               "height": 1418
             },
             {
-              "src": "/media/og-extension/kit-e712a968bc9e8fe6-0-2400.avif",
+              "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-2400.avif",
               "width": 1997,
               "height": 2213
             }
@@ -61,17 +61,17 @@
           "alt": "OG Extension Beige XT Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-0-640.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-0-1280.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-0-2400.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -81,17 +81,17 @@
           "alt": "OG Extension Beige XT Extension 이미지 2",
           "variants": [
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-1-640.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-1-1280.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/og-extension/kit-28bbb48e257d4457-1-2400.avif",
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -105,17 +105,17 @@
       "alt": "OG Extension 이미지 1",
       "variants": [
         {
-          "src": "/media/og-extension/series-385d2645728bc38f-0-640.avif",
+          "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-640.avif",
           "width": 640,
           "height": 386
         },
         {
-          "src": "/media/og-extension/series-385d2645728bc38f-0-1280.avif",
+          "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-1280.avif",
           "width": 1280,
           "height": 771
         },
         {
-          "src": "/media/og-extension/series-385d2645728bc38f-0-2400.avif",
+          "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-2400.avif",
           "width": 2048,
           "height": 1234
         }

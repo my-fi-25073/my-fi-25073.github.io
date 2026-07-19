@@ -4,11 +4,11 @@
   "slug": "ulp-35g",
   "title": "ULP 35g",
   "category": "springs",
-  "manufacturer": "Kalih",
+  "manufacturer": "Kailh",
   "series": "ULP",
   "springType": "ULP",
-  "actuationForce": "???",
-  "bottomOutForce": "35g",
-  "length": "N/A",
+  "actuationForce": "25g",
+  "bottomOutForce": null,
+  "length": null,
   "images": []
 }

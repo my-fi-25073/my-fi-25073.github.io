@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "zeal-pc-zealios-v2",
   "title": "Zeal PC Zealios v2",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 67g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Zeal PC Zealios v2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-0-640.avif",
+          "src": "/media/switches/zeal-pc-zealios-v2/e8167e6a431e66bb-source-gallery-0-d2c0de20c775-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-0-1280.avif",
+          "src": "/media/switches/zeal-pc-zealios-v2/e8167e6a431e66bb-source-gallery-0-d2c0de20c775-1280.avif",
           "width": 837,
           "height": 531
         }
@@ -31,12 +49,12 @@
       "alt": "Zeal PC Zealios v2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-1-640.avif",
+          "src": "/media/switches/zeal-pc-zealios-v2/e8167e6a431e66bb-source-gallery-1-4c6122155062-640.avif",
           "width": 640,
           "height": 407
         },
         {
-          "src": "/media/switches/zeal-pc-zealios-v2/e8696dda543b9c7c-1-1280.avif",
+          "src": "/media/switches/zeal-pc-zealios-v2/e8167e6a431e66bb-source-gallery-1-4c6122155062-1280.avif",
           "width": 861,
           "height": 548
         }

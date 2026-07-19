@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "milky-yellow-black",
   "title": "Milky Yellow Black",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 65g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Milky Yellow Black 사진 1",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-0-640.avif",
+          "src": "/media/switches/milky-yellow-black/01d67ddfa37cc0c0-source-gallery-0-2f8638fbb5c6-640.avif",
           "width": 640,
           "height": 460
         },
         {
-          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-0-1280.avif",
+          "src": "/media/switches/milky-yellow-black/01d67ddfa37cc0c0-source-gallery-0-2f8638fbb5c6-1280.avif",
           "width": 866,
           "height": 622
         }
@@ -31,17 +49,17 @@
       "alt": "Milky Yellow Black 사진 2",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-640.avif",
+          "src": "/media/switches/milky-yellow-black/01d67ddfa37cc0c0-source-gallery-1-91652a51f970-640.avif",
           "width": 640,
           "height": 285
         },
         {
-          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-1280.avif",
+          "src": "/media/switches/milky-yellow-black/01d67ddfa37cc0c0-source-gallery-1-91652a51f970-1280.avif",
           "width": 1280,
           "height": 570
         },
         {
-          "src": "/media/switches/milky-yellow-black/7126cb7ec9036f1a-1-2400.avif",
+          "src": "/media/switches/milky-yellow-black/01d67ddfa37cc0c0-source-gallery-1-91652a51f970-2400.avif",
           "width": 1915,
           "height": 853
         }

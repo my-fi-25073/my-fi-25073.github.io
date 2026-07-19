@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ttc-factory-spring-50g-b3c4d459e206",
+  "title": "TTC Factory Spring 50g",
+  "category": "springs",
+  "manufacturer": "TTC",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "40g",
+  "bottomOutForce": "50g",
+  "length": "21.9mm",
+  "images": []
+}

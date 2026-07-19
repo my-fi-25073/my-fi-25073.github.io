@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "geon-orbit",
   "title": "Geon Orbit",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Geon Orbit 사진 1",
       "variants": [
         {
-          "src": "/media/switches/geon-orbit/25a38715748502fb-0-640.avif",
+          "src": "/media/switches/geon-orbit/e3b6417649ba3cc0-source-gallery-0-cb42c03b91c6-640.avif",
           "width": 640,
           "height": 533
         },
         {
-          "src": "/media/switches/geon-orbit/25a38715748502fb-0-1280.avif",
+          "src": "/media/switches/geon-orbit/e3b6417649ba3cc0-source-gallery-0-cb42c03b91c6-1280.avif",
           "width": 773,
           "height": 644
         }
@@ -31,12 +49,12 @@
       "alt": "Geon Orbit 사진 2",
       "variants": [
         {
-          "src": "/media/switches/geon-orbit/25a38715748502fb-1-640.avif",
+          "src": "/media/switches/geon-orbit/e3b6417649ba3cc0-source-gallery-1-b1ad86cf748a-640.avif",
           "width": 640,
           "height": 490
         },
         {
-          "src": "/media/switches/geon-orbit/25a38715748502fb-1-1280.avif",
+          "src": "/media/switches/geon-orbit/e3b6417649ba3cc0-source-gallery-1-b1ad86cf748a-1280.avif",
           "width": 813,
           "height": 623
         }

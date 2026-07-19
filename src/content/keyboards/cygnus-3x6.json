@@ -28,22 +28,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-07-13",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-07-13",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "MT3 Serika",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Cygnus 3x6 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-0-640.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-0-604bb7bbb789-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-0-1280.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-0-604bb7bbb789-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-0-2400.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-0-604bb7bbb789-2400.avif",
           "width": 2048,
           "height": 1536
         }
@@ -53,17 +66,17 @@
       "alt": "Cygnus 3x6 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-1-640.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-1-751a70973d8f-640.avif",
           "width": 640,
           "height": 380
         },
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-1-1280.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-1-751a70973d8f-1280.avif",
           "width": 1280,
           "height": 760
         },
         {
-          "src": "/media/keyboards/cygnus-3x6/088d516701168655-1-2400.avif",
+          "src": "/media/keyboards/cygnus-3x6/f19300a11370490f-source-gallery-1-751a70973d8f-2400.avif",
           "width": 2400,
           "height": 1426
         }

@@ -24,22 +24,65 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-12-19",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-12-19",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Hiney Beige ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (GMK)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Frog Mini Leggera 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-640.avif",
+          "src": "/media/keyboards/frog-mini-leggera/8ebbcf58131091e2-source-gallery-0-2f352fa0f904-640.avif",
           "width": 640,
           "height": 432
         },
         {
-          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-1280.avif",
+          "src": "/media/keyboards/frog-mini-leggera/8ebbcf58131091e2-source-gallery-0-2f352fa0f904-1280.avif",
           "width": 1280,
           "height": 864
         },
         {
-          "src": "/media/keyboards/frog-mini-leggera/90f01b24c26d0e1c-0-2400.avif",
+          "src": "/media/keyboards/frog-mini-leggera/8ebbcf58131091e2-source-gallery-0-2f352fa0f904-2400.avif",
           "width": 2400,
           "height": 1621
         }

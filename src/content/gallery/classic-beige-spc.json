@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:47:54Z",
+  "createdAt": "2026-03-20T11:47:54.554Z",
   "materials": [
     "ABS"
   ],
@@ -20,7 +20,7 @@
   ],
   "kits": [
     {
-      "slug": "base-b5dde5e11b34",
+      "slug": "base-fe210b841ecd",
       "title": "Base",
       "kittingTypes": [
         "Base - Standard"
@@ -31,17 +31,17 @@
           "alt": "Classic Beige (SPC) Base 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-0-640.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-0-155b772fa6c0-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-0-1280.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-0-155b772fa6c0-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-0-2400.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-0-155b772fa6c0-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -51,17 +51,17 @@
           "alt": "Classic Beige (SPC) Base 이미지 2",
           "variants": [
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-1-640.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-1-18fa6914c64e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-1-1280.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-1-18fa6914c64e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-spc/kit-b5dde5e11b347182-1-2400.avif",
+              "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-1-18fa6914c64e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "slug": "base-6d0f43f2ec14",
+      "slug": "base-8bf7dc0a7e9a",
       "title": "Base",
       "kittingTypes": [
         "Base - Standard"
@@ -81,17 +81,17 @@
           "alt": "Classic Beige (SPC) Base 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-0-640.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-0-155b772fa6c0-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-0-1280.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-0-155b772fa6c0-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-0-2400.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-0-155b772fa6c0-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -101,17 +101,17 @@
           "alt": "Classic Beige (SPC) Base 이미지 2",
           "variants": [
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-1-640.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-1-18fa6914c64e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-1-1280.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-1-18fa6914c64e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-spc/kit-6d0f43f2ec14aa43-1-2400.avif",
+              "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-1-18fa6914c64e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -131,17 +131,17 @@
           "alt": "Classic Beige (SPC) Hangul 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-spc/kit-c9d9c51a7dae5738-0-640.avif",
+              "src": "/media/classic-beige-spc/kit-eee5b7bc45838009-source-gallery-0-f85ba993f382-640.avif",
               "width": 640,
               "height": 371
             },
             {
-              "src": "/media/classic-beige-spc/kit-c9d9c51a7dae5738-0-1280.avif",
+              "src": "/media/classic-beige-spc/kit-eee5b7bc45838009-source-gallery-0-f85ba993f382-1280.avif",
               "width": 1280,
               "height": 742
             },
             {
-              "src": "/media/classic-beige-spc/kit-c9d9c51a7dae5738-0-2400.avif",
+              "src": "/media/classic-beige-spc/kit-eee5b7bc45838009-source-gallery-0-f85ba993f382-2400.avif",
               "width": 1928,
               "height": 1118
             }
@@ -155,17 +155,17 @@
       "alt": "Classic Beige (SPC) 이미지 1",
       "variants": [
         {
-          "src": "/media/classic-beige-spc/series-0a26329fc61b5440-0-640.avif",
+          "src": "/media/classic-beige-spc/series-bee852b0da4feb1f-source-gallery-0-691ed35d219b-640.avif",
           "width": 640,
           "height": 552
         },
         {
-          "src": "/media/classic-beige-spc/series-0a26329fc61b5440-0-1280.avif",
+          "src": "/media/classic-beige-spc/series-bee852b0da4feb1f-source-gallery-0-691ed35d219b-1280.avif",
           "width": 1280,
           "height": 1103
         },
         {
-          "src": "/media/classic-beige-spc/series-0a26329fc61b5440-0-2400.avif",
+          "src": "/media/classic-beige-spc/series-bee852b0da4feb1f-source-gallery-0-691ed35d219b-2400.avif",
           "width": 1608,
           "height": 1386
         }

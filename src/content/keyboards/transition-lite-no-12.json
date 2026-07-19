@@ -23,17 +23,40 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-04-09",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-04-09",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "WoB Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "WoB Essential",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Mono",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.12 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-12/f3edd73b23295a43-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-12/e74c992e7cf4932c-source-gallery-0-2994d9b2b8ac-640.avif",
           "width": 640,
           "height": 409
         },
         {
-          "src": "/media/keyboards/transition-lite-no-12/f3edd73b23295a43-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-12/e74c992e7cf4932c-source-gallery-0-2994d9b2b8ac-1280.avif",
           "width": 1245,
           "height": 796
         }

@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:10:43Z",
+  "createdAt": "2026-03-21T17:10:43.362Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,12 @@
           "alt": "MT3 Skiidata Accents 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-skiidata/kit-9e6e46f5a097d582-0-640.avif",
+              "src": "/media/mt3-skiidata/kit-d56bfc49b0d84fca-source-gallery-0-52b8bd7f19ae-640.avif",
               "width": 640,
               "height": 425
             },
             {
-              "src": "/media/mt3-skiidata/kit-9e6e46f5a097d582-0-1280.avif",
+              "src": "/media/mt3-skiidata/kit-d56bfc49b0d84fca-source-gallery-0-52b8bd7f19ae-1280.avif",
               "width": 1035,
               "height": 687
             }
@@ -48,17 +48,17 @@
       "alt": "MT3 Skiidata 이미지 1",
       "variants": [
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-640.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-0-e3c193c4debc-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-1280.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-0-e3c193c4debc-1280.avif",
           "width": 1280,
           "height": 812
         },
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-0-2400.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-0-e3c193c4debc-2400.avif",
           "width": 1514,
           "height": 960
         }
@@ -68,17 +68,17 @@
       "alt": "MT3 Skiidata 이미지 2",
       "variants": [
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-640.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-1-9e71b6ee3b4a-640.avif",
           "width": 640,
           "height": 423
         },
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-1280.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-1-9e71b6ee3b4a-1280.avif",
           "width": 1280,
           "height": 845
         },
         {
-          "src": "/media/mt3-skiidata/series-b0cf9301f07c674c-1-2400.avif",
+          "src": "/media/mt3-skiidata/series-f1b0b093bcd2b958-source-gallery-1-9e71b6ee3b4a-2400.avif",
           "width": 2048,
           "height": 1352
         }

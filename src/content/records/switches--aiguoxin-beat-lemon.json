@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "aiguoxin-beat-lemon",
   "title": "Aiguoxin Beat Lemon",
   "category": "switches",
-  "manufacturer": "Unknown",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Unknown",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Aiguoxin Beat Lemon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/f92a820d931cb9b8-0-640.avif",
+          "src": "/media/switches/aiguoxin-beat-lemon/ad5718a97b0c7260-source-gallery-0-8b8f6adac38e-640.avif",
           "width": 569,
           "height": 476
         }
@@ -26,7 +44,7 @@
       "alt": "Aiguoxin Beat Lemon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/f92a820d931cb9b8-1-640.avif",
+          "src": "/media/switches/aiguoxin-beat-lemon/ad5718a97b0c7260-source-gallery-1-412698dfdc44-640.avif",
           "width": 565,
           "height": 602
         }

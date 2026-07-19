@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "keylin",
   "title": "Keylin",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 48g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Keylin 사진 1",
       "variants": [
         {
-          "src": "/media/switches/keylin/6475c46ca0df6a54-0-640.avif",
+          "src": "/media/switches/keylin/45b6ddc41f5e416d-source-gallery-0-dcc5857a3ed8-640.avif",
           "width": 640,
           "height": 508
         },
         {
-          "src": "/media/switches/keylin/6475c46ca0df6a54-0-1280.avif",
+          "src": "/media/switches/keylin/45b6ddc41f5e416d-source-gallery-0-dcc5857a3ed8-1280.avif",
           "width": 739,
           "height": 587
         }
@@ -31,12 +49,12 @@
       "alt": "Keylin 사진 2",
       "variants": [
         {
-          "src": "/media/switches/keylin/6475c46ca0df6a54-1-640.avif",
+          "src": "/media/switches/keylin/45b6ddc41f5e416d-source-gallery-1-903671d57ece-640.avif",
           "width": 640,
           "height": 514
         },
         {
-          "src": "/media/switches/keylin/6475c46ca0df6a54-1-1280.avif",
+          "src": "/media/switches/keylin/45b6ddc41f5e416d-source-gallery-1-903671d57ece-1280.avif",
           "width": 907,
           "height": 729
         }

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-55g-ff16784a2a3d",
+  "title": "Gateron Factory Spring 55g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Long",
+  "actuationForce": "48g",
+  "bottomOutForce": "55g",
+  "length": "16.5mm",
+  "images": []
+}

@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-northern-light",
   "title": "MX2A Northern Light",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 58g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Northern Light 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-0-640.avif",
+          "src": "/media/switches/mx2a-northern-light/5b5f6a140a76a83d-source-gallery-0-eaa897723970-640.avif",
           "width": 640,
           "height": 526
         },
         {
-          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-0-1280.avif",
+          "src": "/media/switches/mx2a-northern-light/5b5f6a140a76a83d-source-gallery-0-eaa897723970-1280.avif",
           "width": 1254,
           "height": 1030
         }
@@ -32,17 +50,17 @@
       "alt": "MX2A Northern Light 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-640.avif",
+          "src": "/media/switches/mx2a-northern-light/5b5f6a140a76a83d-source-gallery-1-592202e8fc36-640.avif",
           "width": 640,
           "height": 707
         },
         {
-          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-1280.avif",
+          "src": "/media/switches/mx2a-northern-light/5b5f6a140a76a83d-source-gallery-1-592202e8fc36-1280.avif",
           "width": 1280,
           "height": 1413
         },
         {
-          "src": "/media/switches/mx2a-northern-light/6167f6594ed502d7-1-2400.avif",
+          "src": "/media/switches/mx2a-northern-light/5b5f6a140a76a83d-source-gallery-1-592202e8fc36-2400.avif",
           "width": 1336,
           "height": 1475
         }

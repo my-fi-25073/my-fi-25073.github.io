@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "durock-ice-queen",
+  "title": "Durock Ice Queen",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "JWK Factory Spring 63.5g · 스템 Factory Lube · 스프링 Factory Lube",
+      "reference": false,
+      "rating": 1,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "JWK Factory Spring 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "TB 22mm 23g · 스템 Factory Lube · 스프링 Factory Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TB 22mm 23g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Durock Ice Queen 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-0-b60f515a22fa-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-0-b60f515a22fa-1280.avif",
+          "width": 737,
+          "height": 609
+        }
+      ]
+    },
+    {
+      "alt": "Durock Ice Queen 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-1-8c30d0dd87c3-640.avif",
+          "width": 640,
+          "height": 502
+        },
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-1-8c30d0dd87c3-1280.avif",
+          "width": 662,
+          "height": 519
+        }
+      ]
+    },
+    {
+      "alt": "Durock Ice Queen 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-2-44b3b98e46f9-640.avif",
+          "width": 640,
+          "height": 350
+        },
+        {
+          "src": "/media/switches/durock-ice-queen/e5bea72855d3241c-source-gallery-2-44b3b98e46f9-1280.avif",
+          "width": 838,
+          "height": 458
+        }
+      ]
+    }
+  ]
+}

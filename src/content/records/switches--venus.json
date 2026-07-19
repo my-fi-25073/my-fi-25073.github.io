@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "venus",
   "title": "Venus",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Venus 사진 1",
       "variants": [
         {
-          "src": "/media/switches/venus/69cb8232cf855b76-0-640.avif",
+          "src": "/media/switches/venus/0e7d5628a2f8d6d9-source-gallery-0-72d4674745b3-640.avif",
           "width": 640,
           "height": 427
         },
         {
-          "src": "/media/switches/venus/69cb8232cf855b76-0-1280.avif",
+          "src": "/media/switches/venus/0e7d5628a2f8d6d9-source-gallery-0-72d4674745b3-1280.avif",
           "width": 1080,
           "height": 720
         }
@@ -31,7 +49,7 @@
       "alt": "Venus 사진 2",
       "variants": [
         {
-          "src": "/media/switches/venus/69cb8232cf855b76-1-640.avif",
+          "src": "/media/switches/venus/0e7d5628a2f8d6d9-source-gallery-1-b3a3ee7445c5-640.avif",
           "width": 557,
           "height": 443
         }

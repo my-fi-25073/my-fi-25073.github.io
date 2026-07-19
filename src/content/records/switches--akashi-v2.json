@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "akashi-v2",
   "title": "Akashi v2",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 45g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Akashi v2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/akashi-v2/7947fca345663c33-0-640.avif",
+          "src": "/media/switches/akashi-v2/bbb1d6f8e723583b-source-gallery-0-758b5a157689-640.avif",
           "width": 640,
           "height": 418
         },
         {
-          "src": "/media/switches/akashi-v2/7947fca345663c33-0-1280.avif",
+          "src": "/media/switches/akashi-v2/bbb1d6f8e723583b-source-gallery-0-758b5a157689-1280.avif",
           "width": 1204,
           "height": 787
         }
@@ -31,17 +49,17 @@
       "alt": "Akashi v2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/akashi-v2/7947fca345663c33-1-640.avif",
+          "src": "/media/switches/akashi-v2/bbb1d6f8e723583b-source-gallery-1-0076eb9ebb25-640.avif",
           "width": 640,
           "height": 417
         },
         {
-          "src": "/media/switches/akashi-v2/7947fca345663c33-1-1280.avif",
+          "src": "/media/switches/akashi-v2/bbb1d6f8e723583b-source-gallery-1-0076eb9ebb25-1280.avif",
           "width": 1280,
           "height": 833
         },
         {
-          "src": "/media/switches/akashi-v2/7947fca345663c33-1-2400.avif",
+          "src": "/media/switches/akashi-v2/bbb1d6f8e723583b-source-gallery-1-0076eb9ebb25-2400.avif",
           "width": 1292,
           "height": 841
         }

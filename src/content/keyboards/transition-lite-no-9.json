@@ -24,22 +24,55 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-11-29",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-11-29",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (OCO)",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "HASRO/SAV Red Cyrilic",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.9 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-9/7e88c20d4e44839c-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-9/bc5d49f55a71d151-source-gallery-0-e5ca1fa8af04-640.avif",
           "width": 640,
           "height": 425
         },
         {
-          "src": "/media/keyboards/transition-lite-no-9/7e88c20d4e44839c-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-9/bc5d49f55a71d151-source-gallery-0-e5ca1fa8af04-1280.avif",
           "width": 1280,
           "height": 850
         },
         {
-          "src": "/media/keyboards/transition-lite-no-9/7e88c20d4e44839c-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-9/bc5d49f55a71d151-source-gallery-0-e5ca1fa8af04-2400.avif",
           "width": 2400,
           "height": 1594
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "four-seasons-spring-mini",
   "title": "Four Seasons Spring Mini",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 48g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Four Seasons Spring Mini 사진 1",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-0-640.avif",
+          "src": "/media/switches/four-seasons-spring-mini/63eb1eb1813303e6-source-gallery-0-7d63fb7d2d65-640.avif",
           "width": 640,
           "height": 534
         },
         {
-          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-0-1280.avif",
+          "src": "/media/switches/four-seasons-spring-mini/63eb1eb1813303e6-source-gallery-0-7d63fb7d2d65-1280.avif",
           "width": 723,
           "height": 603
         }
@@ -31,12 +49,12 @@
       "alt": "Four Seasons Spring Mini 사진 2",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-1-640.avif",
+          "src": "/media/switches/four-seasons-spring-mini/63eb1eb1813303e6-source-gallery-1-801f72c104d8-640.avif",
           "width": 640,
           "height": 695
         },
         {
-          "src": "/media/switches/four-seasons-spring-mini/7894c74bcfd38724-1-1280.avif",
+          "src": "/media/switches/four-seasons-spring-mini/63eb1eb1813303e6-source-gallery-1-801f72c104d8-1280.avif",
           "width": 1001,
           "height": 1087
         }

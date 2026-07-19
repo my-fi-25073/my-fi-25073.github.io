@@ -8,7 +8,7 @@
   "profile": "PFF",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-20T18:11:32Z",
+  "createdAt": "2026-03-20T18:11:32.611Z",
   "materials": [
     "PBT"
   ],
@@ -30,17 +30,17 @@
           "alt": "PFF Verdant Retro Nomad Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-2ea4f20313049bc0-0-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-640.avif",
               "width": 640,
               "height": 485
             },
             {
-              "src": "/media/pff-verdant-retro/kit-2ea4f20313049bc0-0-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-1280.avif",
               "width": 1280,
               "height": 970
             },
             {
-              "src": "/media/pff-verdant-retro/kit-2ea4f20313049bc0-0-2400.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-2400.avif",
               "width": 2048,
               "height": 1552
             }
@@ -54,17 +54,17 @@
       "alt": "PFF Verdant Retro 이미지 1",
       "variants": [
         {
-          "src": "/media/pff-verdant-retro/series-6a5e1800b1abf7ab-0-640.avif",
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-640.avif",
           "width": 640,
           "height": 485
         },
         {
-          "src": "/media/pff-verdant-retro/series-6a5e1800b1abf7ab-0-1280.avif",
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-1280.avif",
           "width": 1280,
           "height": 970
         },
         {
-          "src": "/media/pff-verdant-retro/series-6a5e1800b1abf7ab-0-2400.avif",
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-2400.avif",
           "width": 2048,
           "height": 1552
         }

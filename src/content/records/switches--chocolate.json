@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "chocolate",
   "title": "Chocolate",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Chocolate 사진 1",
       "variants": [
         {
-          "src": "/media/switches/chocolate/3c537ab66e7a4229-0-640.avif",
+          "src": "/media/switches/chocolate/e1ba0f8bd4ac9cad-source-gallery-0-c393e3534a80-640.avif",
           "width": 483,
           "height": 382
         }
@@ -26,7 +44,7 @@
       "alt": "Chocolate 사진 2",
       "variants": [
         {
-          "src": "/media/switches/chocolate/3c537ab66e7a4229-1-640.avif",
+          "src": "/media/switches/chocolate/e1ba0f8bd4ac9cad-source-gallery-1-7f0ebdcfc1ab-640.avif",
           "width": 354,
           "height": 283
         }

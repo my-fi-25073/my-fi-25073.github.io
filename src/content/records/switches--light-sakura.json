@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "light-sakura",
   "title": "Light Sakura",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 43g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Light Sakura 사진 1",
       "variants": [
         {
-          "src": "/media/switches/light-sakura/c7980f0ee1350156-0-640.avif",
+          "src": "/media/switches/light-sakura/b86d6e99f19fea29-source-gallery-0-15edc94d831c-640.avif",
           "width": 640,
           "height": 417
         },
         {
-          "src": "/media/switches/light-sakura/c7980f0ee1350156-0-1280.avif",
+          "src": "/media/switches/light-sakura/b86d6e99f19fea29-source-gallery-0-15edc94d831c-1280.avif",
           "width": 738,
           "height": 481
         }
@@ -32,12 +50,12 @@
       "alt": "Light Sakura 사진 2",
       "variants": [
         {
-          "src": "/media/switches/light-sakura/c7980f0ee1350156-1-640.avif",
+          "src": "/media/switches/light-sakura/b86d6e99f19fea29-source-gallery-1-0c06d624edcb-640.avif",
           "width": 640,
           "height": 441
         },
         {
-          "src": "/media/switches/light-sakura/c7980f0ee1350156-1-1280.avif",
+          "src": "/media/switches/light-sakura/b86d6e99f19fea29-source-gallery-1-0c06d624edcb-1280.avif",
           "width": 840,
           "height": 579
         }

@@ -22,22 +22,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-01-11",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-01-11",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "ULP Flat Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Castor Harley Quinn ULP 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-640.avif",
+          "src": "/media/keyboards/castor-harley-quinn-ulp/36832052548894e3-source-gallery-0-729555daf41a-640.avif",
           "width": 640,
           "height": 391
         },
         {
-          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-1280.avif",
+          "src": "/media/keyboards/castor-harley-quinn-ulp/36832052548894e3-source-gallery-0-729555daf41a-1280.avif",
           "width": 1280,
           "height": 782
         },
         {
-          "src": "/media/keyboards/castor-harley-quinn-ulp/ef16d4bead62468f-0-2400.avif",
+          "src": "/media/keyboards/castor-harley-quinn-ulp/36832052548894e3-source-gallery-0-729555daf41a-2400.avif",
           "width": 2400,
           "height": 1467
         }

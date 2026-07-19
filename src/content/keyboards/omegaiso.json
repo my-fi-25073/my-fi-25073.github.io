@@ -23,22 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-11-21",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-11-21",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Blanks ISO",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "OmegaISO 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-640.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-0-7c984b8ff052-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-1280.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-0-7c984b8ff052-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-0-2400.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-0-7c984b8ff052-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -48,17 +61,17 @@
       "alt": "OmegaISO 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-640.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-1-b8957cee0e60-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-1280.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-1-b8957cee0e60-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-1-2400.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-1-b8957cee0e60-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -68,17 +81,17 @@
       "alt": "OmegaISO 사진 3",
       "variants": [
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-640.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-2-dca6166e3c30-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-1280.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-2-dca6166e3c30-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-2-2400.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-2-dca6166e3c30-2400.avif",
           "width": 2048,
           "height": 1536
         }
@@ -88,17 +101,17 @@
       "alt": "OmegaISO 사진 4",
       "variants": [
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-640.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-3-c395ae4621ba-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-1280.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-3-c395ae4621ba-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/omegaiso/fa7b84cfb2f9c3e2-3-2400.avif",
+          "src": "/media/keyboards/omegaiso/ecca86c17ce2cd06-source-gallery-3-c395ae4621ba-2400.avif",
           "width": 2400,
           "height": 1800
         }

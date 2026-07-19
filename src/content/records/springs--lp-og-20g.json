@@ -4,11 +4,11 @@
   "slug": "lp-og-20g",
   "title": "LP OG 20g",
   "category": "springs",
-  "manufacturer": "Kalih",
+  "manufacturer": "Kailh",
   "series": "Choc/Alps",
   "springType": "LP",
-  "actuationForce": "???",
-  "bottomOutForce": "20g",
-  "length": "N/A",
+  "actuationForce": "20g",
+  "bottomOutForce": null,
+  "length": null,
   "images": []
 }

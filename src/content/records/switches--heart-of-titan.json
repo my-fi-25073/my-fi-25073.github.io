@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "heart-of-titan",
   "title": "Heart of Titan",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 52g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Heart of Titan 사진 1",
       "variants": [
         {
-          "src": "/media/switches/heart-of-titan/eb0c7542f77fc531-0-640.avif",
+          "src": "/media/switches/heart-of-titan/3690770019884984-source-gallery-0-cc1d0dbcf778-640.avif",
           "width": 628,
           "height": 423
         }

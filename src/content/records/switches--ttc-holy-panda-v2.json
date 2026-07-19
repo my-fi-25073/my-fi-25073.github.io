@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ttc-holy-panda-v2",
   "title": "TTC Holy Panda V2",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 65g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "TTC Holy Panda V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-0-640.avif",
+          "src": "/media/switches/ttc-holy-panda-v2/d31040f34b6004ec-source-gallery-0-e700e6a62888-640.avif",
           "width": 640,
           "height": 502
         },
         {
-          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-0-1280.avif",
+          "src": "/media/switches/ttc-holy-panda-v2/d31040f34b6004ec-source-gallery-0-e700e6a62888-1280.avif",
           "width": 702,
           "height": 551
         }
@@ -31,7 +49,7 @@
       "alt": "TTC Holy Panda V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/ttc-holy-panda-v2/608dc27c75b17bb0-1-640.avif",
+          "src": "/media/switches/ttc-holy-panda-v2/d31040f34b6004ec-source-gallery-1-5222fc6ae41c-640.avif",
           "width": 399,
           "height": 190
         }

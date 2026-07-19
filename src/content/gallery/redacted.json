@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:04:57Z",
+  "createdAt": "2026-03-20T17:04:57.500Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Redacted Base 이미지 1",
           "variants": [
             {
-              "src": "/media/redacted/kit-86f48634938813b2-0-640.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-0-f028335c04b0-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/redacted/kit-86f48634938813b2-0-1280.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-0-f028335c04b0-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/redacted/kit-86f48634938813b2-0-2400.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-0-f028335c04b0-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -52,17 +52,17 @@
           "alt": "Redacted Base 이미지 2",
           "variants": [
             {
-              "src": "/media/redacted/kit-86f48634938813b2-1-640.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-1-fe8322feb0f6-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/redacted/kit-86f48634938813b2-1-1280.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-1-fe8322feb0f6-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/redacted/kit-86f48634938813b2-1-2400.avif",
+              "src": "/media/redacted/kit-562f75129184df41-source-gallery-1-fe8322feb0f6-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -82,17 +82,17 @@
           "alt": "Redacted Classified 이미지 1",
           "variants": [
             {
-              "src": "/media/redacted/kit-62998b5b15036923-0-640.avif",
+              "src": "/media/redacted/kit-0ce251e6fb425986-source-gallery-0-98853eb9ec65-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/redacted/kit-62998b5b15036923-0-1280.avif",
+              "src": "/media/redacted/kit-0ce251e6fb425986-source-gallery-0-98853eb9ec65-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/redacted/kit-62998b5b15036923-0-2400.avif",
+              "src": "/media/redacted/kit-0ce251e6fb425986-source-gallery-0-98853eb9ec65-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -112,17 +112,17 @@
           "alt": "Redacted Eyes Only 이미지 1",
           "variants": [
             {
-              "src": "/media/redacted/kit-7e32f6987a58e517-0-640.avif",
+              "src": "/media/redacted/kit-de7833778024520b-source-gallery-0-95aa5ebb7365-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/redacted/kit-7e32f6987a58e517-0-1280.avif",
+              "src": "/media/redacted/kit-de7833778024520b-source-gallery-0-95aa5ebb7365-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/redacted/kit-7e32f6987a58e517-0-2400.avif",
+              "src": "/media/redacted/kit-de7833778024520b-source-gallery-0-95aa5ebb7365-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -136,17 +136,17 @@
       "alt": "Redacted 이미지 1",
       "variants": [
         {
-          "src": "/media/redacted/series-ad44cbe711fe81e0-0-640.avif",
+          "src": "/media/redacted/series-f0bc5a5ad67c9b6a-source-gallery-0-851d68667a35-640.avif",
           "width": 640,
           "height": 560
         },
         {
-          "src": "/media/redacted/series-ad44cbe711fe81e0-0-1280.avif",
+          "src": "/media/redacted/series-f0bc5a5ad67c9b6a-source-gallery-0-851d68667a35-1280.avif",
           "width": 1280,
           "height": 1119
         },
         {
-          "src": "/media/redacted/series-ad44cbe711fe81e0-0-2400.avif",
+          "src": "/media/redacted/series-f0bc5a5ad67c9b6a-source-gallery-0-851d68667a35-2400.avif",
           "width": 1624,
           "height": 1420
         }

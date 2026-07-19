@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "strawberry-bunny",
   "title": "Strawberry Bunny",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 35g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Strawberry Bunny 사진 1",
       "variants": [
         {
-          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-0-640.avif",
+          "src": "/media/switches/strawberry-bunny/2f6949b5c0d0f734-source-gallery-0-318d04d3e720-640.avif",
           "width": 640,
           "height": 484
         },
         {
-          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-0-1280.avif",
+          "src": "/media/switches/strawberry-bunny/2f6949b5c0d0f734-source-gallery-0-318d04d3e720-1280.avif",
           "width": 724,
           "height": 547
         }
@@ -31,17 +49,17 @@
       "alt": "Strawberry Bunny 사진 2",
       "variants": [
         {
-          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-640.avif",
+          "src": "/media/switches/strawberry-bunny/2f6949b5c0d0f734-source-gallery-1-6ed89f902781-640.avif",
           "width": 640,
           "height": 575
         },
         {
-          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-1280.avif",
+          "src": "/media/switches/strawberry-bunny/2f6949b5c0d0f734-source-gallery-1-6ed89f902781-1280.avif",
           "width": 1280,
           "height": 1151
         },
         {
-          "src": "/media/switches/strawberry-bunny/e9bbd208821c26dc-1-2400.avif",
+          "src": "/media/switches/strawberry-bunny/2f6949b5c0d0f734-source-gallery-1-6ed89f902781-2400.avif",
           "width": 1365,
           "height": 1227
         }

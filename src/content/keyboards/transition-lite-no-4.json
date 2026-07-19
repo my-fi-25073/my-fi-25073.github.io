@@ -24,22 +24,70 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-09-05",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-09-05",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Norde Beige",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "UwU Macro Add On",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Transition Lite No.4 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/transition-lite-no-4/c05b658c4bac0f91-0-640.avif",
+          "src": "/media/keyboards/transition-lite-no-4/a98defd7f407f49a-source-gallery-0-f330c2a5e403-640.avif",
           "width": 640,
           "height": 443
         },
         {
-          "src": "/media/keyboards/transition-lite-no-4/c05b658c4bac0f91-0-1280.avif",
+          "src": "/media/keyboards/transition-lite-no-4/a98defd7f407f49a-source-gallery-0-f330c2a5e403-1280.avif",
           "width": 1280,
           "height": 886
         },
         {
-          "src": "/media/keyboards/transition-lite-no-4/c05b658c4bac0f91-0-2400.avif",
+          "src": "/media/keyboards/transition-lite-no-4/a98defd7f407f49a-source-gallery-0-f330c2a5e403-2400.avif",
           "width": 2400,
           "height": 1662
         }

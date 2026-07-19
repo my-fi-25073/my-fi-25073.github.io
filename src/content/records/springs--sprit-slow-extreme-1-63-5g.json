@@ -6,9 +6,9 @@
   "category": "springs",
   "manufacturer": "Sprit",
   "series": "Slow Extreme 1",
-  "springType": "Long",
+  "springType": "Middle",
   "actuationForce": null,
   "bottomOutForce": "63.5g",
-  "length": null,
+  "length": "15.6mm",
   "images": []
 }

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "swk-factory-spring-58g",
+  "title": "SWK Factory Spring 58g",
+  "category": "springs",
+  "manufacturer": "SWK",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "58g",
+  "length": "20±1mm",
+  "images": []
+}

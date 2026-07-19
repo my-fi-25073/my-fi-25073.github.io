@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "four-seasons-winter",
   "title": "Four Seasons Winter",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Four Seasons Winter 사진 1",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-winter/0710ff04c6ce25ac-0-640.avif",
+          "src": "/media/switches/four-seasons-winter/1b40f5505dcdc378-source-gallery-0-8ad06de1ae03-640.avif",
           "width": 640,
           "height": 573
         },
         {
-          "src": "/media/switches/four-seasons-winter/0710ff04c6ce25ac-0-1280.avif",
+          "src": "/media/switches/four-seasons-winter/1b40f5505dcdc378-source-gallery-0-8ad06de1ae03-1280.avif",
           "width": 719,
           "height": 644
         }
@@ -31,12 +49,12 @@
       "alt": "Four Seasons Winter 사진 2",
       "variants": [
         {
-          "src": "/media/switches/four-seasons-winter/0710ff04c6ce25ac-1-640.avif",
+          "src": "/media/switches/four-seasons-winter/1b40f5505dcdc378-source-gallery-1-30ec6b573540-640.avif",
           "width": 640,
           "height": 642
         },
         {
-          "src": "/media/switches/four-seasons-winter/0710ff04c6ce25ac-1-1280.avif",
+          "src": "/media/switches/four-seasons-winter/1b40f5505dcdc378-source-gallery-1-30ec6b573540-1280.avif",
           "width": 1059,
           "height": 1063
         }

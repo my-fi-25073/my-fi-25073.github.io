@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-falcon",
   "title": "MX2A Falcon",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 100g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Falcon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-0-640.avif",
+          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-0-3d04f8ef158f-640.avif",
           "width": 640,
           "height": 386
         },
         {
-          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-0-1280.avif",
+          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-0-3d04f8ef158f-1280.avif",
           "width": 785,
           "height": 474
         }
@@ -31,12 +49,12 @@
       "alt": "MX2A Falcon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-1-640.avif",
+          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-1-95fcacb9b97e-640.avif",
           "width": 640,
           "height": 678
         },
         {
-          "src": "/media/switches/mx2a-falcon/7cdc39b62467ece1-1-1280.avif",
+          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-1-95fcacb9b97e-1280.avif",
           "width": 1229,
           "height": 1302
         }

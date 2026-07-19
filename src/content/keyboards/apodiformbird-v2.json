@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-09-01",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-09-01",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "PBS Blanks Black",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Apodiformbird v2 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-0-640.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-0-184e6ec4b0db-640.avif",
           "width": 640,
           "height": 388
         },
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-0-1280.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-0-184e6ec4b0db-1280.avif",
           "width": 1280,
           "height": 776
         },
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-0-2400.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-0-184e6ec4b0db-2400.avif",
           "width": 2400,
           "height": 1455
         }
@@ -49,17 +62,17 @@
       "alt": "Apodiformbird v2 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-1-640.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-1-79fbc14de7ed-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-1-1280.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-1-79fbc14de7ed-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/apodiformbird-v2/a777bad8bc0f3405-1-2400.avif",
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-1-79fbc14de7ed-2400.avif",
           "width": 2400,
           "height": 1800
         }

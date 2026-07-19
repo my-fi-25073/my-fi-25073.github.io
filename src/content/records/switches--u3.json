@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "u3",
   "title": "U3",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 48g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "U3 사진 1",
       "variants": [
         {
-          "src": "/media/switches/u3/1ddf61dfd2cd3019-0-640.avif",
+          "src": "/media/switches/u3/8511db69d070e206-source-gallery-0-8ef263f18032-640.avif",
           "width": 640,
           "height": 461
         },
         {
-          "src": "/media/switches/u3/1ddf61dfd2cd3019-0-1280.avif",
+          "src": "/media/switches/u3/8511db69d070e206-source-gallery-0-8ef263f18032-1280.avif",
           "width": 739,
           "height": 532
         }
@@ -32,17 +50,17 @@
       "alt": "U3 사진 2",
       "variants": [
         {
-          "src": "/media/switches/u3/1ddf61dfd2cd3019-1-640.avif",
+          "src": "/media/switches/u3/8511db69d070e206-source-gallery-1-c528fb7b3263-640.avif",
           "width": 640,
           "height": 656
         },
         {
-          "src": "/media/switches/u3/1ddf61dfd2cd3019-1-1280.avif",
+          "src": "/media/switches/u3/8511db69d070e206-source-gallery-1-c528fb7b3263-1280.avif",
           "width": 1280,
           "height": 1312
         },
         {
-          "src": "/media/switches/u3/1ddf61dfd2cd3019-1-2400.avif",
+          "src": "/media/switches/u3/8511db69d070e206-source-gallery-1-c528fb7b3263-2400.avif",
           "width": 1464,
           "height": 1501
         }

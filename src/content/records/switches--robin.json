@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "robin",
   "title": "Robin",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 47g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Robin 사진 1",
       "variants": [
         {
-          "src": "/media/switches/robin/8b119ab851491bdf-0-640.avif",
+          "src": "/media/switches/robin/43dfb19fb3410387-source-gallery-0-8d8513764c36-640.avif",
           "width": 640,
           "height": 622
         },
         {
-          "src": "/media/switches/robin/8b119ab851491bdf-0-1280.avif",
+          "src": "/media/switches/robin/43dfb19fb3410387-source-gallery-0-8d8513764c36-1280.avif",
           "width": 687,
           "height": 668
         }

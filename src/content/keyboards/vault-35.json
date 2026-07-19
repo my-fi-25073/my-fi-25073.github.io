@@ -23,22 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-11-16",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-11-16",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Custom QAZ Lavender",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Vault 35 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-640.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-0-bb0914b3ba93-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-1280.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-0-bb0914b3ba93-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-0-2400.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-0-bb0914b3ba93-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -48,17 +61,17 @@
       "alt": "Vault 35 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-640.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-1-5151eecbd57e-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-1280.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-1-5151eecbd57e-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/vault-35/7f371b2e7d1c170b-1-2400.avif",
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-1-5151eecbd57e-2400.avif",
           "width": 2400,
           "height": 1800
         }

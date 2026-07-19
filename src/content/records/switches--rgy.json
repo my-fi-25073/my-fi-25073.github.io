@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "rgy",
   "title": "RGY",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "RGY 사진 1",
       "variants": [
         {
-          "src": "/media/switches/rgy/205bcc1859bd5806-0-640.avif",
+          "src": "/media/switches/rgy/1ec05d25eeb79a81-source-gallery-0-3fc090464c5e-640.avif",
           "width": 602,
           "height": 442
         }
@@ -26,7 +44,7 @@
       "alt": "RGY 사진 2",
       "variants": [
         {
-          "src": "/media/switches/rgy/205bcc1859bd5806-1-640.avif",
+          "src": "/media/switches/rgy/1ec05d25eeb79a81-source-gallery-1-32217b7c4b3a-640.avif",
           "width": 334,
           "height": 341
         }
@@ -36,7 +54,7 @@
       "alt": "RGY 사진 3",
       "variants": [
         {
-          "src": "/media/switches/rgy/205bcc1859bd5806-2-640.avif",
+          "src": "/media/switches/rgy/1ec05d25eeb79a81-source-gallery-2-383136970a88-640.avif",
           "width": 357,
           "height": 252
         }

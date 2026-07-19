@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "tt-red",
   "title": "TT Red",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "TT Red 사진 1",
       "variants": [
         {
-          "src": "/media/switches/tt-red/8b94aa6898a31dfb-0-640.avif",
+          "src": "/media/switches/tt-red/928db285508a417a-source-gallery-0-4dab4e262c98-640.avif",
           "width": 640,
           "height": 420
         },
         {
-          "src": "/media/switches/tt-red/8b94aa6898a31dfb-0-1280.avif",
+          "src": "/media/switches/tt-red/928db285508a417a-source-gallery-0-4dab4e262c98-1280.avif",
           "width": 1103,
           "height": 724
         }
@@ -31,12 +49,12 @@
       "alt": "TT Red 사진 2",
       "variants": [
         {
-          "src": "/media/switches/tt-red/8b94aa6898a31dfb-1-640.avif",
+          "src": "/media/switches/tt-red/928db285508a417a-source-gallery-1-5772abac079f-640.avif",
           "width": 640,
           "height": 652
         },
         {
-          "src": "/media/switches/tt-red/8b94aa6898a31dfb-1-1280.avif",
+          "src": "/media/switches/tt-red/928db285508a417a-source-gallery-1-5772abac079f-1280.avif",
           "width": 818,
           "height": 833
         }

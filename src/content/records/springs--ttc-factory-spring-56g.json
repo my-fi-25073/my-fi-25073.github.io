@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ttc-factory-spring-56g",
+  "title": "TTC Factory Spring 56g",
+  "category": "springs",
+  "manufacturer": "TTC",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": null,
+  "bottomOutForce": "56g",
+  "length": "20mm",
+  "images": []
+}

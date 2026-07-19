@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "game1989-v1",
   "title": "Game1989 v1",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 53g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Game1989 v1 사진 1",
       "variants": [
         {
-          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-0-640.avif",
+          "src": "/media/switches/game1989-v1/d809194bcfdf64e3-source-gallery-0-083ca046e5c8-640.avif",
           "width": 640,
           "height": 500
         },
         {
-          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-0-1280.avif",
+          "src": "/media/switches/game1989-v1/d809194bcfdf64e3-source-gallery-0-083ca046e5c8-1280.avif",
           "width": 1226,
           "height": 957
         }
@@ -31,7 +49,7 @@
       "alt": "Game1989 v1 사진 2",
       "variants": [
         {
-          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-1-640.avif",
+          "src": "/media/switches/game1989-v1/d809194bcfdf64e3-source-gallery-1-36de7e0b916f-640.avif",
           "width": 629,
           "height": 554
         }
@@ -41,12 +59,12 @@
       "alt": "Game1989 v1 사진 3",
       "variants": [
         {
-          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-2-640.avif",
+          "src": "/media/switches/game1989-v1/d809194bcfdf64e3-source-gallery-2-4b7ac6c39c44-640.avif",
           "width": 640,
           "height": 439
         },
         {
-          "src": "/media/switches/game1989-v1/ec6281e701e3fafd-2-1280.avif",
+          "src": "/media/switches/game1989-v1/d809194bcfdf64e3-source-gallery-2-4b7ac6c39c44-1280.avif",
           "width": 1218,
           "height": 836
         }

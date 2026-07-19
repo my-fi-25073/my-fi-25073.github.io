@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "bcp",
   "title": "BCP",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory Spring 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "BCP 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bcp/de29adb7afee4e94-0-640.avif",
+          "src": "/media/switches/bcp/67d72ebb88cf7cbc-source-gallery-0-2e0a021bd8ab-640.avif",
           "width": 640,
           "height": 368
         },
         {
-          "src": "/media/switches/bcp/de29adb7afee4e94-0-1280.avif",
+          "src": "/media/switches/bcp/67d72ebb88cf7cbc-source-gallery-0-2e0a021bd8ab-1280.avif",
           "width": 699,
           "height": 402
         }
@@ -31,17 +49,17 @@
       "alt": "BCP 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bcp/de29adb7afee4e94-1-640.avif",
+          "src": "/media/switches/bcp/67d72ebb88cf7cbc-source-gallery-1-0fb1d717d56a-640.avif",
           "width": 640,
           "height": 604
         },
         {
-          "src": "/media/switches/bcp/de29adb7afee4e94-1-1280.avif",
+          "src": "/media/switches/bcp/67d72ebb88cf7cbc-source-gallery-1-0fb1d717d56a-1280.avif",
           "width": 1280,
           "height": 1208
         },
         {
-          "src": "/media/switches/bcp/de29adb7afee4e94-1-2400.avif",
+          "src": "/media/switches/bcp/67d72ebb88cf7cbc-source-gallery-1-0fb1d717d56a-2400.avif",
           "width": 1284,
           "height": 1212
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "snow-crash",
   "title": "Snow Crash",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 58g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Snow Crash 사진 1",
       "variants": [
         {
-          "src": "/media/switches/snow-crash/66c11370243d9d4a-0-640.avif",
+          "src": "/media/switches/snow-crash/e9ab0eff7942bf47-source-gallery-0-af08d50e02b2-640.avif",
           "width": 640,
           "height": 507
         },
         {
-          "src": "/media/switches/snow-crash/66c11370243d9d4a-0-1280.avif",
+          "src": "/media/switches/snow-crash/e9ab0eff7942bf47-source-gallery-0-af08d50e02b2-1280.avif",
           "width": 1099,
           "height": 871
         }
@@ -31,17 +49,17 @@
       "alt": "Snow Crash 사진 2",
       "variants": [
         {
-          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-640.avif",
+          "src": "/media/switches/snow-crash/e9ab0eff7942bf47-source-gallery-1-56a98549fcbf-640.avif",
           "width": 640,
           "height": 602
         },
         {
-          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-1280.avif",
+          "src": "/media/switches/snow-crash/e9ab0eff7942bf47-source-gallery-1-56a98549fcbf-1280.avif",
           "width": 1280,
           "height": 1204
         },
         {
-          "src": "/media/switches/snow-crash/66c11370243d9d4a-1-2400.avif",
+          "src": "/media/switches/snow-crash/e9ab0eff7942bf47-source-gallery-1-56a98549fcbf-2400.avif",
           "width": 1315,
           "height": 1237
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mp-linear",
   "title": "MP Linear",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MP Linear 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mp-linear/eeedf8921f478181-0-640.avif",
+          "src": "/media/switches/mp-linear/519019817417fff5-source-gallery-0-446bc66c4064-640.avif",
           "width": 640,
           "height": 548
         },
         {
-          "src": "/media/switches/mp-linear/eeedf8921f478181-0-1280.avif",
+          "src": "/media/switches/mp-linear/519019817417fff5-source-gallery-0-446bc66c4064-1280.avif",
           "width": 1141,
           "height": 977
         }
@@ -31,12 +49,12 @@
       "alt": "MP Linear 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mp-linear/eeedf8921f478181-1-640.avif",
+          "src": "/media/switches/mp-linear/519019817417fff5-source-gallery-1-56b95c04421a-640.avif",
           "width": 640,
           "height": 767
         },
         {
-          "src": "/media/switches/mp-linear/eeedf8921f478181-1-1280.avif",
+          "src": "/media/switches/mp-linear/519019817417fff5-source-gallery-1-56b95c04421a-1280.avif",
           "width": 1245,
           "height": 1493
         }

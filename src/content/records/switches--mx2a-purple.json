@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-purple",
   "title": "MX2A Purple",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Purple 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-0-640.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-0-5d951987f684-640.avif",
           "width": 447,
           "height": 425
         }
@@ -26,17 +44,17 @@
       "alt": "MX2A Purple 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-640.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-1-ea2c1eabcb2f-640.avif",
           "width": 640,
           "height": 236
         },
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-1280.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-1-ea2c1eabcb2f-1280.avif",
           "width": 1280,
           "height": 472
         },
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-1-2400.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-1-ea2c1eabcb2f-2400.avif",
           "width": 1510,
           "height": 557
         }
@@ -46,17 +64,17 @@
       "alt": "MX2A Purple 사진 3",
       "variants": [
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-640.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-2-be1b5a8148e4-640.avif",
           "width": 640,
           "height": 361
         },
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-1280.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-2-be1b5a8148e4-1280.avif",
           "width": 1280,
           "height": 722
         },
         {
-          "src": "/media/switches/mx2a-purple/d00ef55bf8bee8f8-2-2400.avif",
+          "src": "/media/switches/mx2a-purple/6631372e665fe768-source-gallery-2-be1b5a8148e4-2400.avif",
           "width": 1382,
           "height": 779
         }

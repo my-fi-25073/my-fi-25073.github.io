@@ -22,22 +22,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-01-12",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-01-12",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "CLP Custom Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Castor Clear LP 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-640.avif",
+          "src": "/media/keyboards/castor-clear-lp/ac103a9f104b2ab1-source-gallery-0-08b1c33227e2-640.avif",
           "width": 640,
           "height": 357
         },
         {
-          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-1280.avif",
+          "src": "/media/keyboards/castor-clear-lp/ac103a9f104b2ab1-source-gallery-0-08b1c33227e2-1280.avif",
           "width": 1280,
           "height": 714
         },
         {
-          "src": "/media/keyboards/castor-clear-lp/3e92c18c1ab04522-0-2400.avif",
+          "src": "/media/keyboards/castor-clear-lp/ac103a9f104b2ab1-source-gallery-0-08b1c33227e2-2400.avif",
           "width": 2400,
           "height": 1338
         }

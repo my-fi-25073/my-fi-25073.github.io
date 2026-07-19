@@ -7,8 +7,8 @@
   "manufacturer": "Cherry",
   "series": "ULP",
   "springType": "ULP",
-  "actuationForce": "???",
-  "bottomOutForce": "65g",
-  "length": "N/A",
+  "actuationForce": "52g",
+  "bottomOutForce": "200g",
+  "length": null,
   "images": []
 }

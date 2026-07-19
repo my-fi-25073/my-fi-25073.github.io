@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "lofree-pulse",
+  "title": "Lofree Pulse",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "25g",
+      "reference": true,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 25g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Lofree Pulse 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/lofree-pulse/ee7ec4c6ae680613-source-gallery-0-e05f14d3c9e4-640.avif",
+          "width": 640,
+          "height": 582
+        },
+        {
+          "src": "/media/switches/lofree-pulse/ee7ec4c6ae680613-source-gallery-0-e05f14d3c9e4-1280.avif",
+          "width": 1280,
+          "height": 1164
+        },
+        {
+          "src": "/media/switches/lofree-pulse/ee7ec4c6ae680613-source-gallery-0-e05f14d3c9e4-2400.avif",
+          "width": 1342,
+          "height": 1220
+        }
+      ]
+    }
+  ]
+}

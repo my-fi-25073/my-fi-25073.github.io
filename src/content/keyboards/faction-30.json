@@ -25,22 +25,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-10-19",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-10-19",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "PBS Blanks Black",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Faction 30 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-640.avif",
+          "src": "/media/keyboards/faction-30/73089417fe445cb3-source-gallery-0-edd8513fa170-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-1280.avif",
+          "src": "/media/keyboards/faction-30/73089417fe445cb3-source-gallery-0-edd8513fa170-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/faction-30/86b49ffeae4469da-0-2400.avif",
+          "src": "/media/keyboards/faction-30/73089417fe445cb3-source-gallery-0-edd8513fa170-2400.avif",
           "width": 2048,
           "height": 1536
         }

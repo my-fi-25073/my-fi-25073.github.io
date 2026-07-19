@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ice-clear",
   "title": "Ice Clear",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Ice Clear 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ice-clear/5a2a106f91e33ee0-0-640.avif",
+          "src": "/media/switches/ice-clear/bb4c8091ed324a7c-source-gallery-0-92b52eb089ae-640.avif",
           "width": 640,
           "height": 428
         },
         {
-          "src": "/media/switches/ice-clear/5a2a106f91e33ee0-0-1280.avif",
+          "src": "/media/switches/ice-clear/bb4c8091ed324a7c-source-gallery-0-92b52eb089ae-1280.avif",
           "width": 738,
           "height": 493
         }
@@ -31,17 +49,17 @@
       "alt": "Ice Clear 사진 2",
       "variants": [
         {
-          "src": "/media/switches/ice-clear/5a2a106f91e33ee0-1-640.avif",
+          "src": "/media/switches/ice-clear/bb4c8091ed324a7c-source-gallery-1-f112ee625908-640.avif",
           "width": 640,
           "height": 679
         },
         {
-          "src": "/media/switches/ice-clear/5a2a106f91e33ee0-1-1280.avif",
+          "src": "/media/switches/ice-clear/bb4c8091ed324a7c-source-gallery-1-f112ee625908-1280.avif",
           "width": 1280,
           "height": 1359
         },
         {
-          "src": "/media/switches/ice-clear/5a2a106f91e33ee0-1-2400.avif",
+          "src": "/media/switches/ice-clear/bb4c8091ed324a7c-source-gallery-1-f112ee625908-2400.avif",
           "width": 1397,
           "height": 1483
         }

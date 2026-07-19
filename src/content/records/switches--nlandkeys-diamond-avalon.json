@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "nlandkeys-diamond-avalon",
   "title": "NLandkeys Diamond Avalon",
   "category": "switches",
-  "manufacturer": "Unknown",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Unknown",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "NLandkeys Diamond Avalon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-0-640.avif",
+          "src": "/media/switches/nlandkeys-diamond-avalon/58120dddec58114f-source-gallery-0-40da697e6323-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-0-1280.avif",
+          "src": "/media/switches/nlandkeys-diamond-avalon/58120dddec58114f-source-gallery-0-40da697e6323-1280.avif",
           "width": 1200,
           "height": 1200
         }
@@ -31,12 +49,12 @@
       "alt": "NLandkeys Diamond Avalon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-1-640.avif",
+          "src": "/media/switches/nlandkeys-diamond-avalon/58120dddec58114f-source-gallery-1-4c3b081d1dca-640.avif",
           "width": 640,
           "height": 379
         },
         {
-          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-1-1280.avif",
+          "src": "/media/switches/nlandkeys-diamond-avalon/58120dddec58114f-source-gallery-1-4c3b081d1dca-1280.avif",
           "width": 985,
           "height": 583
         }
@@ -46,7 +64,7 @@
       "alt": "NLandkeys Diamond Avalon 사진 3",
       "variants": [
         {
-          "src": "/media/switches/nlandkeys-diamond-avalon/a6c38e38f8bcec42-2-640.avif",
+          "src": "/media/switches/nlandkeys-diamond-avalon/58120dddec58114f-source-gallery-2-e858276ada6e-640.avif",
           "width": 479,
           "height": 321
         }

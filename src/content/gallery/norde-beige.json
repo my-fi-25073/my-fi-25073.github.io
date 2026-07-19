@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:48:44Z",
+  "createdAt": "2026-03-20T11:48:44.838Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Norde Beige Base 이미지 1",
           "variants": [
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-0-640.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-0-41b818963d7f-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-0-1280.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-0-41b818963d7f-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-0-2400.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-0-41b818963d7f-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -52,17 +52,17 @@
           "alt": "Norde Beige Base 이미지 2",
           "variants": [
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-1-640.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-1-cfc650b25f97-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-1-1280.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-1-cfc650b25f97-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/norde-beige/kit-10ca7f5167355664-1-2400.avif",
+              "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-1-cfc650b25f97-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -76,17 +76,17 @@
       "alt": "Norde Beige 이미지 1",
       "variants": [
         {
-          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-640.avif",
+          "src": "/media/norde-beige/series-e300f350364df51f-source-gallery-0-2740a8915276-640.avif",
           "width": 640,
           "height": 542
         },
         {
-          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-1280.avif",
+          "src": "/media/norde-beige/series-e300f350364df51f-source-gallery-0-2740a8915276-1280.avif",
           "width": 1280,
           "height": 1084
         },
         {
-          "src": "/media/norde-beige/series-6d34fc62678a6b51-0-2400.avif",
+          "src": "/media/norde-beige/series-e300f350364df51f-source-gallery-0-2740a8915276-2400.avif",
           "width": 1608,
           "height": 1362
         }

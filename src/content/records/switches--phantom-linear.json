@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "phantom-linear",
   "title": "Phantom Linear",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 37g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Phantom Linear 사진 1",
       "variants": [
         {
-          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-0-640.avif",
+          "src": "/media/switches/phantom-linear/90ed5bbad635b7f0-source-gallery-0-0b20630958f4-640.avif",
           "width": 524,
           "height": 319
         }
@@ -26,12 +44,12 @@
       "alt": "Phantom Linear 사진 2",
       "variants": [
         {
-          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-1-640.avif",
+          "src": "/media/switches/phantom-linear/90ed5bbad635b7f0-source-gallery-1-2d1f4203ce9c-640.avif",
           "width": 640,
           "height": 457
         },
         {
-          "src": "/media/switches/phantom-linear/01d82186cfb9fbcb-1-1280.avif",
+          "src": "/media/switches/phantom-linear/90ed5bbad635b7f0-source-gallery-1-2d1f4203ce9c-1280.avif",
           "width": 746,
           "height": 533
         }

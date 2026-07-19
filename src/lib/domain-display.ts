@@ -4,7 +4,7 @@ import type { DisplayField } from './gallery-display';
 export type DomainRecord = CollectionEntry<'records'>['data'];
 
 const labels = {
-  switch: { singular: 'Switch', korean: '스위치', archive: '스위치 아카이브' },
+  'switch-family': { singular: 'Switch Family', korean: '스위치', archive: '스위치 아카이브' },
   spring: { singular: 'Spring', korean: '스프링', archive: '스프링 아카이브' },
   lubricant: { singular: 'Lubricant', korean: '윤활제', archive: '윤활제 아카이브' },
   vendor: { singular: 'Vendor', korean: '벤더', archive: '벤더 아카이브' },
@@ -25,13 +25,21 @@ export function domainLabels(record: DomainRecord) {
 }
 
 export function buildDomainFields(record: DomainRecord, compact = false): DisplayField[] {
-  if (record.kind === 'switch') {
+  if (record.kind === 'switch-family') {
+    const familyKind = {
+      commercial: '기성',
+      franken: '프랑켄',
+      unclassified: '미분류',
+    }[record.familyKind];
+    const manufacturers = [...new Set(record.variants
+      .map((variant) => variant.manufacturer)
+      .filter((value): value is string => Boolean(value)))];
     const fields = [
-      ...textField('manufacturer', '제조사', record.manufacturer),
-      ...listField('switchTypes', '타입', record.switchTypes),
-      ...textField('footprintType', '풋프린트', record.footprintType),
-      ...textField('rating', '평가', record.rating),
-      ...textField('film', '필름', record.film),
+      ...textField('familyKind', '구분', familyKind),
+      ...(record.variants.length > 0
+        ? [{ key: 'variants', label: '구성', value: `${record.variants.length}개` }]
+        : []),
+      ...listField('manufacturers', '제조사', manufacturers),
     ];
     return compact ? fields.slice(0, 3) : fields;
   }
@@ -75,11 +83,26 @@ export function domainSummary(record: DomainRecord) {
   const label = domainLabels(record).korean;
   if (record.kind === 'vendor') return `${record.title}의 위치와 공식 링크를 정리한 벤더 기록입니다.`;
   if (record.kind === 'legacy-keycap') return `${record.title}의 기존 Keycap DB 속성을 보존한 키캡 기록입니다.`;
+  if (record.kind === 'switch-family') return `${record.title} Family의 Variant와 구성 상태를 정리한 스위치 기록입니다.`;
   return `${record.title}의 주요 속성과 이미지를 정리한 ${label} 기록입니다.`;
 }
 
 export function domainSearchText(record: DomainRecord) {
-  return [record.title, domainLabels(record).korean, ...buildDomainFields(record).map((field) => field.value)]
+  const switchText = record.kind === 'switch-family'
+    ? record.variants.flatMap((variant) => [
+      variant.label,
+      variant.manufacturer ?? '',
+      variant.footprintType ?? '',
+      ...variant.switchTypes,
+      variant.spring.name ?? '',
+    ]).concat(record.parts.map((part) => part.donor))
+    : [];
+  return [
+    record.title,
+    domainLabels(record).korean,
+    ...buildDomainFields(record).map((field) => field.value),
+    ...switchText,
+  ]
     .join(' ')
     .toLocaleLowerCase('ko');
 }

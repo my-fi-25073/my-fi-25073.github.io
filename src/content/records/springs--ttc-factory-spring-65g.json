@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "ttc-factory-spring-65g",
+  "title": "TTC Factory Spring 65g",
+  "category": "springs",
+  "manufacturer": "TTC",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": null,
+  "bottomOutForce": "65g",
+  "length": null,
+  "images": []
+}

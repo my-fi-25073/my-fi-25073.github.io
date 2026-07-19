@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "red-white",
   "title": "Red White",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Red White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/red-white/47c1152c37c72447-0-640.avif",
+          "src": "/media/switches/red-white/5340f8d8383941e4-source-gallery-0-1590e37cd8fb-640.avif",
           "width": 488,
           "height": 424
         }
@@ -26,12 +44,12 @@
       "alt": "Red White 사진 2",
       "variants": [
         {
-          "src": "/media/switches/red-white/47c1152c37c72447-1-640.avif",
+          "src": "/media/switches/red-white/5340f8d8383941e4-source-gallery-1-d1b14145fb06-640.avif",
           "width": 640,
           "height": 298
         },
         {
-          "src": "/media/switches/red-white/47c1152c37c72447-1-1280.avif",
+          "src": "/media/switches/red-white/5340f8d8383941e4-source-gallery-1-d1b14145fb06-1280.avif",
           "width": 1248,
           "height": 581
         }

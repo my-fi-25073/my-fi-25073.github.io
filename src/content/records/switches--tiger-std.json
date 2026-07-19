@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "tiger-std",
   "title": "Tiger STD",
   "category": "switches",
-  "manufacturer": "TTC",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "TTC",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Tiger STD 사진 1",
       "variants": [
         {
-          "src": "/media/switches/tiger-std/6c771135185d517c-0-640.avif",
+          "src": "/media/switches/tiger-std/6fd8614efdfd8499-source-gallery-0-5b62ddc5c548-640.avif",
           "width": 640,
           "height": 455
         },
         {
-          "src": "/media/switches/tiger-std/6c771135185d517c-0-1280.avif",
+          "src": "/media/switches/tiger-std/6fd8614efdfd8499-source-gallery-0-5b62ddc5c548-1280.avif",
           "width": 726,
           "height": 516
         }
@@ -31,7 +49,7 @@
       "alt": "Tiger STD 사진 2",
       "variants": [
         {
-          "src": "/media/switches/tiger-std/6c771135185d517c-1-640.avif",
+          "src": "/media/switches/tiger-std/6fd8614efdfd8499-source-gallery-1-d59dfbc500f3-640.avif",
           "width": 285,
           "height": 293
         }

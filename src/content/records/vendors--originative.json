@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "vendor",
+  "slug": "originative",
+  "title": "Originative",
+  "category": "vendors",
+  "location": null,
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://originative.co/"
+    }
+  ],
+  "images": []
+}

@@ -7,7 +7,7 @@
   "manufacturer": "Geon",
   "series": "Geon-Spring",
   "springType": "Short",
-  "actuationForce": "???",
+  "actuationForce": null,
   "bottomOutForce": "45g",
   "length": "14mm",
   "images": []

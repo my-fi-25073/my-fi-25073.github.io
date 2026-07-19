@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-black-rgb",
   "title": "MX1A Black RGB",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "commercial",
+  "recipeStatus": "not_applicable",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 80g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Black RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black-rgb/9e3ed310f8d579e0-0-640.avif",
+          "src": "/media/switches/mx1a-black-rgb/c53b3c69345f3155-source-gallery-0-4a9d6eca98b0-640.avif",
           "width": 640,
           "height": 399
         },
         {
-          "src": "/media/switches/mx1a-black-rgb/9e3ed310f8d579e0-0-1280.avif",
+          "src": "/media/switches/mx1a-black-rgb/c53b3c69345f3155-source-gallery-0-4a9d6eca98b0-1280.avif",
           "width": 1240,
           "height": 773
         }
@@ -31,7 +49,7 @@
       "alt": "MX1A Black RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black-rgb/9e3ed310f8d579e0-1-640.avif",
+          "src": "/media/switches/mx1a-black-rgb/c53b3c69345f3155-source-gallery-1-55e0cece456e-640.avif",
           "width": 457,
           "height": 293
         }

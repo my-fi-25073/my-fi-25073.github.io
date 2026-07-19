@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:49:35Z",
+  "createdAt": "2026-03-20T11:49:35.857Z",
   "materials": [
     "ABS"
   ],
@@ -32,17 +32,17 @@
           "alt": "Classic Arabic Base 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-0-640.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-0-d878e977d50c-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-0-1280.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-0-d878e977d50c-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-0-2400.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-0-d878e977d50c-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -52,17 +52,17 @@
           "alt": "Classic Arabic Base 이미지 2",
           "variants": [
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-1-640.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-1-5193edef28e2-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-1-1280.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-1-5193edef28e2-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-arabic/kit-3b574115d98d5a76-1-2400.avif",
+              "src": "/media/classic-arabic/kit-de44aa5bc712b13c-source-gallery-1-5193edef28e2-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -82,17 +82,17 @@
           "alt": "Classic Arabic Blue Accent 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-arabic/kit-85b1874b72270a1e-0-640.avif",
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-arabic/kit-85b1874b72270a1e-0-1280.avif",
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-arabic/kit-85b1874b72270a1e-0-2400.avif",
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -112,17 +112,17 @@
           "alt": "Classic Arabic Blue Greek Addon 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-arabic/kit-4fa502aea08e4324-0-640.avif",
+              "src": "/media/classic-arabic/kit-9b17d4b1602e4cc3-source-gallery-0-7361ed37047f-640.avif",
               "width": 640,
               "height": 343
             },
             {
-              "src": "/media/classic-arabic/kit-4fa502aea08e4324-0-1280.avif",
+              "src": "/media/classic-arabic/kit-9b17d4b1602e4cc3-source-gallery-0-7361ed37047f-1280.avif",
               "width": 1280,
               "height": 686
             },
             {
-              "src": "/media/classic-arabic/kit-4fa502aea08e4324-0-2400.avif",
+              "src": "/media/classic-arabic/kit-9b17d4b1602e4cc3-source-gallery-0-7361ed37047f-2400.avif",
               "width": 2048,
               "height": 1097
             }
@@ -136,17 +136,17 @@
       "alt": "Classic Arabic 이미지 1",
       "variants": [
         {
-          "src": "/media/classic-arabic/series-e49907a6ccce122e-0-640.avif",
+          "src": "/media/classic-arabic/series-f03de66129495360-source-gallery-0-391409bbd1d7-640.avif",
           "width": 640,
           "height": 546
         },
         {
-          "src": "/media/classic-arabic/series-e49907a6ccce122e-0-1280.avif",
+          "src": "/media/classic-arabic/series-f03de66129495360-source-gallery-0-391409bbd1d7-1280.avif",
           "width": 1280,
           "height": 1093
         },
         {
-          "src": "/media/classic-arabic/series-e49907a6ccce122e-0-2400.avif",
+          "src": "/media/classic-arabic/series-f03de66129495360-source-gallery-0-391409bbd1d7-2400.avif",
           "width": 1588,
           "height": 1356
         }

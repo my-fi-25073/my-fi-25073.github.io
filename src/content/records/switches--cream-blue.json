@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "cream-blue",
   "title": "Cream Blue",
   "category": "switches",
-  "manufacturer": "Akko",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Akko",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Cream Blue 사진 1",
       "variants": [
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-640.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-0-5ed64db30ca0-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-1280.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-0-5ed64db30ca0-1280.avif",
           "width": 1280,
           "height": 1280
         },
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-0-2400.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-0-5ed64db30ca0-2400.avif",
           "width": 1500,
           "height": 1500
         }
@@ -36,17 +54,17 @@
       "alt": "Cream Blue 사진 2",
       "variants": [
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-640.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-1-08db18d05894-640.avif",
           "width": 640,
           "height": 332
         },
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-1280.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-1-08db18d05894-1280.avif",
           "width": 1280,
           "height": 664
         },
         {
-          "src": "/media/switches/cream-blue/33f7628818e9f1eb-1-2400.avif",
+          "src": "/media/switches/cream-blue/8c1041399c41a94e-source-gallery-1-08db18d05894-2400.avif",
           "width": 1828,
           "height": 948
         }

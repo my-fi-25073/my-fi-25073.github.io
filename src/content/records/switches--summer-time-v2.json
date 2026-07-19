@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "summer-time-v2",
   "title": "Summer Time V2",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 63g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Summer Time V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-640.avif",
+          "src": "/media/switches/summer-time-v2/b67c48ed921978c0-source-gallery-0-da0ea89ec699-640.avif",
           "width": 640,
           "height": 373
         },
         {
-          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-1280.avif",
+          "src": "/media/switches/summer-time-v2/b67c48ed921978c0-source-gallery-0-da0ea89ec699-1280.avif",
           "width": 1280,
           "height": 746
         },
         {
-          "src": "/media/switches/summer-time-v2/440f17fc081e4533-0-2400.avif",
+          "src": "/media/switches/summer-time-v2/b67c48ed921978c0-source-gallery-0-da0ea89ec699-2400.avif",
           "width": 1712,
           "height": 998
         }
@@ -36,7 +54,7 @@
       "alt": "Summer Time V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/summer-time-v2/440f17fc081e4533-1-640.avif",
+          "src": "/media/switches/summer-time-v2/b67c48ed921978c0-source-gallery-1-755b682901a0-640.avif",
           "width": 615,
           "height": 471
         }

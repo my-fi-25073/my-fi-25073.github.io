@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "ambients-silent-bokeh",
   "title": "Ambients Silent Bokeh",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Ambients Silent Bokeh 사진 1",
       "variants": [
         {
-          "src": "/media/switches/ambients-silent-bokeh/1131ac3c9e3b4e94-0-640.avif",
+          "src": "/media/switches/ambients-silent-bokeh/720f8f2432245eb6-source-gallery-0-b8ac167c10b9-640.avif",
           "width": 640,
           "height": 640
         },
         {
-          "src": "/media/switches/ambients-silent-bokeh/1131ac3c9e3b4e94-0-1280.avif",
+          "src": "/media/switches/ambients-silent-bokeh/720f8f2432245eb6-source-gallery-0-b8ac167c10b9-1280.avif",
           "width": 1024,
           "height": 1024
         }

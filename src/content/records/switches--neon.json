@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "neon",
   "title": "Neon",
   "category": "switches",
-  "manufacturer": "SWK",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "SWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "SWK Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Neon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/neon/acdbab2980348d8a-0-640.avif",
+          "src": "/media/switches/neon/8139483ba00d4831-source-gallery-0-f69144ac81e1-640.avif",
           "width": 640,
           "height": 526
         },
         {
-          "src": "/media/switches/neon/acdbab2980348d8a-0-1280.avif",
+          "src": "/media/switches/neon/8139483ba00d4831-source-gallery-0-f69144ac81e1-1280.avif",
           "width": 1203,
           "height": 989
         }
@@ -31,17 +49,17 @@
       "alt": "Neon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/neon/acdbab2980348d8a-1-640.avif",
+          "src": "/media/switches/neon/8139483ba00d4831-source-gallery-1-b805877ed806-640.avif",
           "width": 640,
           "height": 668
         },
         {
-          "src": "/media/switches/neon/acdbab2980348d8a-1-1280.avif",
+          "src": "/media/switches/neon/8139483ba00d4831-source-gallery-1-b805877ed806-1280.avif",
           "width": 1280,
           "height": 1336
         },
         {
-          "src": "/media/switches/neon/acdbab2980348d8a-1-2400.avif",
+          "src": "/media/switches/neon/8139483ba00d4831-source-gallery-1-b805877ed806-2400.avif",
           "width": 1406,
           "height": 1468
         }

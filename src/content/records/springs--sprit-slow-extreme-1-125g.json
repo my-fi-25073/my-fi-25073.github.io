@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "sprit-slow-extreme-1-125g",
+  "title": "Sprit Slow Extreme 1 125g",
+  "category": "springs",
+  "manufacturer": "Sprit",
+  "series": "Slow Extreme 1",
+  "springType": "Middle",
+  "actuationForce": null,
+  "bottomOutForce": "125g",
+  "length": "15.6mm",
+  "images": []
+}

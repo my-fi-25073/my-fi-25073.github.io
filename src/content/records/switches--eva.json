@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "eva",
   "title": "EVA",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 48.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "EVA 사진 1",
       "variants": [
         {
-          "src": "/media/switches/eva/24a70d13884b004e-0-640.avif",
+          "src": "/media/switches/eva/5c8030b54e731206-source-gallery-0-1898cf5ac101-640.avif",
           "width": 640,
           "height": 471
         },
         {
-          "src": "/media/switches/eva/24a70d13884b004e-0-1280.avif",
+          "src": "/media/switches/eva/5c8030b54e731206-source-gallery-0-1898cf5ac101-1280.avif",
           "width": 742,
           "height": 546
         }
@@ -31,17 +49,17 @@
       "alt": "EVA 사진 2",
       "variants": [
         {
-          "src": "/media/switches/eva/24a70d13884b004e-1-640.avif",
+          "src": "/media/switches/eva/5c8030b54e731206-source-gallery-1-6a65331fefda-640.avif",
           "width": 640,
           "height": 581
         },
         {
-          "src": "/media/switches/eva/24a70d13884b004e-1-1280.avif",
+          "src": "/media/switches/eva/5c8030b54e731206-source-gallery-1-6a65331fefda-1280.avif",
           "width": 1280,
           "height": 1161
         },
         {
-          "src": "/media/switches/eva/24a70d13884b004e-1-2400.avif",
+          "src": "/media/switches/eva/5c8030b54e731206-source-gallery-1-6a65331fefda-2400.avif",
           "width": 1357,
           "height": 1231
         }

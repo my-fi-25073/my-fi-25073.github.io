@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "keygeek-factory-spring-53g-90bf736435b6",
+  "title": "Keygeek Factory Spring 53g",
+  "category": "springs",
+  "manufacturer": "Keygeek",
+  "series": "Factory",
+  "springType": "Extra Long",
+  "actuationForce": "45g",
+  "bottomOutForce": "53g",
+  "length": "18mm",
+  "images": []
+}

@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:11:05Z",
+  "createdAt": "2026-03-21T17:11:05.032Z",
   "materials": [
     "PBT"
   ],
@@ -29,12 +29,12 @@
           "alt": "biip Operator Base 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-operator/kit-3216aeb1000efe06-0-640.avif",
+              "src": "/media/biip-operator/kit-767c4cc0534b8001-source-gallery-0-a71169cd4409-640.avif",
               "width": 640,
               "height": 364
             },
             {
-              "src": "/media/biip-operator/kit-3216aeb1000efe06-0-1280.avif",
+              "src": "/media/biip-operator/kit-767c4cc0534b8001-source-gallery-0-a71169cd4409-1280.avif",
               "width": 773,
               "height": 440
             }
@@ -55,12 +55,12 @@
           "alt": "biip Operator Function 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-operator/kit-f12fe1420e7405d9-0-640.avif",
+              "src": "/media/biip-operator/kit-93e80fed562fd4c9-source-gallery-0-2d368be42f53-640.avif",
               "width": 640,
               "height": 362
             },
             {
-              "src": "/media/biip-operator/kit-f12fe1420e7405d9-0-1280.avif",
+              "src": "/media/biip-operator/kit-93e80fed562fd4c9-source-gallery-0-2d368be42f53-1280.avif",
               "width": 672,
               "height": 380
             }
@@ -80,12 +80,12 @@
           "alt": "biip Operator Nomad Base 이미지 1",
           "variants": [
             {
-              "src": "/media/biip-operator/kit-8a2ead21101bf243-0-640.avif",
+              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-640.avif",
               "width": 640,
               "height": 400
             },
             {
-              "src": "/media/biip-operator/kit-8a2ead21101bf243-0-1280.avif",
+              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-1280.avif",
               "width": 668,
               "height": 418
             }
@@ -99,12 +99,12 @@
       "alt": "biip Operator 이미지 1",
       "variants": [
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-0-640.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-0-1280.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -114,17 +114,17 @@
       "alt": "biip Operator 이미지 2",
       "variants": [
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-1-640.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-1-ff9a978b3fed-640.avif",
           "width": 640,
           "height": 390
         },
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-1-1280.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-1-ff9a978b3fed-1280.avif",
           "width": 1280,
           "height": 781
         },
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-1-2400.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-1-ff9a978b3fed-2400.avif",
           "width": 2004,
           "height": 1222
         }
@@ -134,17 +134,17 @@
       "alt": "biip Operator 이미지 3",
       "variants": [
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-2-640.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-2-dae598795d82-640.avif",
           "width": 640,
           "height": 328
         },
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-2-1280.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-2-dae598795d82-1280.avif",
           "width": 1280,
           "height": 657
         },
         {
-          "src": "/media/biip-operator/series-c742eb2e604485e5-2-2400.avif",
+          "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-2-dae598795d82-2400.avif",
           "width": 2004,
           "height": 1028
         }

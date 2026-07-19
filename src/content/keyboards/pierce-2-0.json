@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-09-04",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-09-04",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "PBS Blanks Black",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Pierce 2.0 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/pierce-2-0/4cf0925deaa5b0f2-0-640.avif",
+          "src": "/media/keyboards/pierce-2-0/71279a421c123772-source-gallery-0-9ec5fb2a10b4-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/pierce-2-0/4cf0925deaa5b0f2-0-1280.avif",
+          "src": "/media/keyboards/pierce-2-0/71279a421c123772-source-gallery-0-9ec5fb2a10b4-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/pierce-2-0/4cf0925deaa5b0f2-0-2400.avif",
+          "src": "/media/keyboards/pierce-2-0/71279a421c123772-source-gallery-0-9ec5fb2a10b4-2400.avif",
           "width": 2400,
           "height": 1800
         }

@@ -6,8 +6,8 @@
   "category": "springs",
   "manufacturer": "Swagkey",
   "series": "SW-Classic",
-  "springType": "Middle",
-  "actuationForce": "???",
+  "springType": "Short",
+  "actuationForce": null,
   "bottomOutForce": "50g",
   "length": "14.5mm",
   "images": []

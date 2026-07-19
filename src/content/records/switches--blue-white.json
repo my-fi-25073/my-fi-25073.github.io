@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "blue-white",
   "title": "Blue White",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Gateron LP",
-  "switchTypes": [
-    "Click"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Gateron",
+      "footprintType": "Gateron LP",
+      "switchTypes": [
+        "Click"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 65g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Blue White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-0-640.avif",
+          "src": "/media/switches/blue-white/3f15604f8d24cc1d-source-gallery-0-500da874f38e-640.avif",
           "width": 572,
           "height": 432
         }
@@ -26,12 +44,12 @@
       "alt": "Blue White 사진 2",
       "variants": [
         {
-          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-1-640.avif",
+          "src": "/media/switches/blue-white/3f15604f8d24cc1d-source-gallery-1-d1b14145fb06-640.avif",
           "width": 640,
           "height": 298
         },
         {
-          "src": "/media/switches/blue-white/efcc6e621f7d3f9b-1-1280.avif",
+          "src": "/media/switches/blue-white/3f15604f8d24cc1d-source-gallery-1-d1b14145fb06-1280.avif",
           "width": 1248,
           "height": 581
         }

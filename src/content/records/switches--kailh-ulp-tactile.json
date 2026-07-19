@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "kailh-ulp-tactile",
+  "title": "Kailh ULP Tactile",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "35g",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh ULP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "60g",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh ULP",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh ULP Tactile 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-0-3d8b90a7dea8-640.avif",
+          "width": 640,
+          "height": 433
+        },
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-0-3d8b90a7dea8-1280.avif",
+          "width": 740,
+          "height": 501
+        }
+      ]
+    },
+    {
+      "alt": "Kailh ULP Tactile 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-1-80037c24d607-640.avif",
+          "width": 559,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "alt": "Kailh ULP Tactile 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-2-4888afc34eb7-640.avif",
+          "width": 640,
+          "height": 380
+        },
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-2-4888afc34eb7-1280.avif",
+          "width": 683,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "alt": "Kailh ULP Tactile 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-3-09d4121989b6-640.avif",
+          "width": 640,
+          "height": 438
+        },
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-3-09d4121989b6-1280.avif",
+          "width": 898,
+          "height": 614
+        }
+      ]
+    },
+    {
+      "alt": "Kailh ULP Tactile 사진 5",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-0-f818d94ffcca-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-ulp-tactile/d93ee8f74c02a96d-source-gallery-0-f818d94ffcca-1280.avif",
+          "width": 730,
+          "height": 730
+        }
+      ]
+    }
+  ]
+}

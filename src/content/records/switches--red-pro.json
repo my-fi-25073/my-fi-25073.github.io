@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "red-pro",
   "title": "Red Pro",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Red Pro 사진 1",
       "variants": [
         {
-          "src": "/media/switches/red-pro/831954f62c887060-0-640.avif",
+          "src": "/media/switches/red-pro/866d54ab2556984a-source-gallery-0-94bafff146d1-640.avif",
           "width": 640,
           "height": 628
         },
         {
-          "src": "/media/switches/red-pro/831954f62c887060-0-1280.avif",
+          "src": "/media/switches/red-pro/866d54ab2556984a-source-gallery-0-94bafff146d1-1280.avif",
           "width": 723,
           "height": 709
         }

@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "cloud-v2",
   "title": "Cloud V2",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Cloud V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-0-640.avif",
+          "src": "/media/switches/cloud-v2/52156912b8ec8847-source-gallery-0-04165f77061d-640.avif",
           "width": 640,
           "height": 436
         },
         {
-          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-0-1280.avif",
+          "src": "/media/switches/cloud-v2/52156912b8ec8847-source-gallery-0-04165f77061d-1280.avif",
           "width": 717,
           "height": 488
         }
@@ -31,12 +49,12 @@
       "alt": "Cloud V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-1-640.avif",
+          "src": "/media/switches/cloud-v2/52156912b8ec8847-source-gallery-1-394e5af0bd7f-640.avif",
           "width": 640,
           "height": 649
         },
         {
-          "src": "/media/switches/cloud-v2/de651bfcd6cb7f69-1-1280.avif",
+          "src": "/media/switches/cloud-v2/52156912b8ec8847-source-gallery-1-394e5af0bd7f-1280.avif",
           "width": 1261,
           "height": 1278
         }

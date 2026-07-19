@@ -22,22 +22,35 @@
   "foams": [
     "하우징 폼"
   ],
+  "build": {
+    "label": "2025-02-26",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-02-26",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Serika",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "BM43 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-640.avif",
+          "src": "/media/keyboards/bm43/b3e5cf57a108e6fd-source-gallery-0-8eac0597e323-640.avif",
           "width": 640,
           "height": 495
         },
         {
-          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-1280.avif",
+          "src": "/media/keyboards/bm43/b3e5cf57a108e6fd-source-gallery-0-8eac0597e323-1280.avif",
           "width": 1280,
           "height": 990
         },
         {
-          "src": "/media/keyboards/bm43/0a2a067e28e4aee9-0-2400.avif",
+          "src": "/media/keyboards/bm43/b3e5cf57a108e6fd-source-gallery-0-8eac0597e323-2400.avif",
           "width": 2400,
           "height": 1857
         }

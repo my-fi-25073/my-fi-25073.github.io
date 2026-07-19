@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sunset-tactile",
   "title": "Sunset Tactile",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 55g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sunset Tactile 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sunset-tactile/928e8689e3494ad1-0-640.avif",
+          "src": "/media/switches/sunset-tactile/a2ec2ba40d0c8716-source-gallery-0-8a3c70e56206-640.avif",
           "width": 640,
           "height": 623
         },
         {
-          "src": "/media/switches/sunset-tactile/928e8689e3494ad1-0-1280.avif",
+          "src": "/media/switches/sunset-tactile/a2ec2ba40d0c8716-source-gallery-0-8a3c70e56206-1280.avif",
           "width": 772,
           "height": 751
         }
@@ -31,7 +49,7 @@
       "alt": "Sunset Tactile 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sunset-tactile/928e8689e3494ad1-1-640.avif",
+          "src": "/media/switches/sunset-tactile/a2ec2ba40d0c8716-source-gallery-1-1e3136a3e76b-640.avif",
           "width": 589,
           "height": 584
         }

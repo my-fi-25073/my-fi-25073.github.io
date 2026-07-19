@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "jwk-factory-spring-67g",
+  "title": "JWK Factory Spring 67g",
+  "category": "springs",
+  "manufacturer": "JWK",
+  "series": "Factory",
+  "springType": null,
+  "actuationForce": "67g",
+  "bottomOutForce": null,
+  "length": null,
+  "images": []
+}

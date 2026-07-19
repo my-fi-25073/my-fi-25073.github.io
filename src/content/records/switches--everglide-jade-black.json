@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "everglide-jade-black",
   "title": "Everglide Jade Black",
   "category": "switches",
-  "manufacturer": "JWK",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "JWK",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "JWK Factory Spring 67g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Everglide Jade Black 사진 1",
       "variants": [
         {
-          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-0-640.avif",
+          "src": "/media/switches/everglide-jade-black/6d26715e4af4a95e-source-gallery-0-930c0a7b9ea8-640.avif",
           "width": 640,
           "height": 427
         },
         {
-          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-0-1280.avif",
+          "src": "/media/switches/everglide-jade-black/6d26715e4af4a95e-source-gallery-0-930c0a7b9ea8-1280.avif",
           "width": 820,
           "height": 547
         }
@@ -31,12 +49,12 @@
       "alt": "Everglide Jade Black 사진 2",
       "variants": [
         {
-          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-1-640.avif",
+          "src": "/media/switches/everglide-jade-black/6d26715e4af4a95e-source-gallery-1-1144797ca0b3-640.avif",
           "width": 640,
           "height": 455
         },
         {
-          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-1-1280.avif",
+          "src": "/media/switches/everglide-jade-black/6d26715e4af4a95e-source-gallery-1-1144797ca0b3-1280.avif",
           "width": 914,
           "height": 650
         }
@@ -46,7 +64,7 @@
       "alt": "Everglide Jade Black 사진 3",
       "variants": [
         {
-          "src": "/media/switches/everglide-jade-black/545b46b1e01149b5-2-640.avif",
+          "src": "/media/switches/everglide-jade-black/6d26715e4af4a95e-source-gallery-2-8525b65fcdbf-640.avif",
           "width": 585,
           "height": 571
         }

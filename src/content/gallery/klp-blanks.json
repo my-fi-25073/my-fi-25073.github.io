@@ -8,7 +8,7 @@
   "profile": "KLP",
   "manufacturingProcess": "3D Print",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-24T12:25:07Z",
+  "createdAt": "2026-03-24T12:25:07.734Z",
   "materials": [],
   "colors": [],
   "compatibility": [
@@ -27,17 +27,37 @@
           "alt": "KLP Blanks KLP Custom Black Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-640.avif",
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-gallery-0-1ef31a531a7b-640.avif",
               "width": 640,
               "height": 450
             },
             {
-              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-1280.avif",
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-gallery-0-1ef31a531a7b-1280.avif",
               "width": 1280,
               "height": 900
             },
             {
-              "src": "/media/klp-blanks/kit-1fb3956d0c50112d-0-2400.avif",
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-gallery-0-1ef31a531a7b-2400.avif",
+              "width": 1394,
+              "height": 980
+            }
+          ]
+        },
+        {
+          "alt": "KLP Blanks KLP Custom Black Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-body-0-af311fe339e5-640.avif",
+              "width": 640,
+              "height": 450
+            },
+            {
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-body-0-af311fe339e5-1280.avif",
+              "width": 1280,
+              "height": 900
+            },
+            {
+              "src": "/media/klp-blanks/kit-4b8caf8dc11784fb-source-body-0-af311fe339e5-2400.avif",
               "width": 1394,
               "height": 980
             }
@@ -57,17 +77,37 @@
           "alt": "KLP Blanks KLP Custom Transparent Blanks 이미지 1",
           "variants": [
             {
-              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-640.avif",
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-gallery-0-0a7296398fee-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-1280.avif",
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-gallery-0-0a7296398fee-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/klp-blanks/kit-8c04e3b9eeadc96d-0-2400.avif",
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-gallery-0-0a7296398fee-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "KLP Blanks KLP Custom Transparent Blanks 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-body-0-9311123d3a2e-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-body-0-9311123d3a2e-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/klp-blanks/kit-69608a8cf24c5731-source-body-0-9311123d3a2e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -81,17 +121,17 @@
       "alt": "KLP Blanks 이미지 1",
       "variants": [
         {
-          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-640.avif",
+          "src": "/media/klp-blanks/series-e8124e942c75412a-source-gallery-0-35b95939862c-640.avif",
           "width": 640,
           "height": 437
         },
         {
-          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-1280.avif",
+          "src": "/media/klp-blanks/series-e8124e942c75412a-source-gallery-0-35b95939862c-1280.avif",
           "width": 1280,
           "height": 875
         },
         {
-          "src": "/media/klp-blanks/series-9a7b886dfd520903-0-2400.avif",
+          "src": "/media/klp-blanks/series-e8124e942c75412a-source-gallery-0-35b95939862c-2400.avif",
           "width": 1636,
           "height": 1118
         }

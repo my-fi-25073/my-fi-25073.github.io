@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-nixie",
   "title": "MX2A Nixie",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★★★★☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    }
   ],
-  "film": "TX PET 필름 0.125mm",
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Nixie 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-nixie/c47614659e455974-0-640.avif",
+          "src": "/media/switches/mx2a-nixie/4763da2130be1087-source-gallery-0-e4b451d7f744-640.avif",
           "width": 640,
           "height": 543
         },
         {
-          "src": "/media/switches/mx2a-nixie/c47614659e455974-0-1280.avif",
+          "src": "/media/switches/mx2a-nixie/4763da2130be1087-source-gallery-0-e4b451d7f744-1280.avif",
           "width": 1280,
           "height": 1086
         },
         {
-          "src": "/media/switches/mx2a-nixie/c47614659e455974-0-2400.avif",
+          "src": "/media/switches/mx2a-nixie/4763da2130be1087-source-gallery-0-e4b451d7f744-2400.avif",
           "width": 1962,
           "height": 1665
         }
@@ -36,7 +54,7 @@
       "alt": "MX2A Nixie 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-nixie/c47614659e455974-1-640.avif",
+          "src": "/media/switches/mx2a-nixie/4763da2130be1087-source-gallery-1-d4e0ac7f0fbc-640.avif",
           "width": 533,
           "height": 532
         }

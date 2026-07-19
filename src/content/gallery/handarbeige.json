@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:56:57Z",
+  "createdAt": "2026-03-20T11:56:57.024Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Handarbeige+ Base 이미지 1",
           "variants": [
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-0-640.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-0-71bdf2739838-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-0-1280.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-0-71bdf2739838-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-0-2400.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-0-71bdf2739838-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -51,17 +51,17 @@
           "alt": "Handarbeige+ Base 이미지 2",
           "variants": [
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-1-640.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-1-2cabe1077466-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-1-1280.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-1-2cabe1077466-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/handarbeige/kit-08af4576e60abad7-1-2400.avif",
+              "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-1-2cabe1077466-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -81,17 +81,17 @@
           "alt": "Handarbeige+ Row 5 이미지 1",
           "variants": [
             {
-              "src": "/media/handarbeige/kit-afc25160ad5aa850-0-640.avif",
+              "src": "/media/handarbeige/kit-a947e58e6e440d65-source-gallery-0-1216cc5b0e2a-640.avif",
               "width": 640,
               "height": 485
             },
             {
-              "src": "/media/handarbeige/kit-afc25160ad5aa850-0-1280.avif",
+              "src": "/media/handarbeige/kit-a947e58e6e440d65-source-gallery-0-1216cc5b0e2a-1280.avif",
               "width": 1280,
               "height": 970
             },
             {
-              "src": "/media/handarbeige/kit-afc25160ad5aa850-0-2400.avif",
+              "src": "/media/handarbeige/kit-a947e58e6e440d65-source-gallery-0-1216cc5b0e2a-2400.avif",
               "width": 2038,
               "height": 1544
             }
@@ -105,17 +105,17 @@
       "alt": "Handarbeige+ 이미지 1",
       "variants": [
         {
-          "src": "/media/handarbeige/series-fe347de1ae6ba1aa-0-640.avif",
+          "src": "/media/handarbeige/series-f4b838a6ddbcafd5-source-gallery-0-6ea38da77efb-640.avif",
           "width": 640,
           "height": 549
         },
         {
-          "src": "/media/handarbeige/series-fe347de1ae6ba1aa-0-1280.avif",
+          "src": "/media/handarbeige/series-f4b838a6ddbcafd5-source-gallery-0-6ea38da77efb-1280.avif",
           "width": 1280,
           "height": 1097
         },
         {
-          "src": "/media/handarbeige/series-fe347de1ae6ba1aa-0-2400.avif",
+          "src": "/media/handarbeige/series-f4b838a6ddbcafd5-source-gallery-0-6ea38da77efb-2400.avif",
           "width": 1598,
           "height": 1370
         }

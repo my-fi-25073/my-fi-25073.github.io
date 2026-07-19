@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-80g-760b278d7d6a",
+  "title": "Gateron Factory Spring 80g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "LP",
+  "actuationForce": "65g",
+  "bottomOutForce": "80g",
+  "length": "11.5mm",
+  "images": []
+}

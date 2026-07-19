@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-63g",
+  "title": "Gateron Factory Spring 63g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Multi-Stage",
+  "actuationForce": "63g",
+  "bottomOutForce": null,
+  "length": "20mm",
+  "images": []
+}

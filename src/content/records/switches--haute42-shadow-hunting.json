@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "haute42-shadow-hunting",
   "title": "Haute42 Shadow Hunting",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Haute42 Shadow Hunting 사진 1",
       "variants": [
         {
-          "src": "/media/switches/haute42-shadow-hunting/c3689c2dea7c9012-0-640.avif",
+          "src": "/media/switches/haute42-shadow-hunting/affb72dee7f879ca-source-gallery-0-82abb97f91f4-640.avif",
           "width": 528,
           "height": 522
         }
@@ -26,12 +44,12 @@
       "alt": "Haute42 Shadow Hunting 사진 2",
       "variants": [
         {
-          "src": "/media/switches/haute42-shadow-hunting/c3689c2dea7c9012-1-640.avif",
+          "src": "/media/switches/haute42-shadow-hunting/affb72dee7f879ca-source-gallery-1-58b43a10f93b-640.avif",
           "width": 640,
           "height": 639
         },
         {
-          "src": "/media/switches/haute42-shadow-hunting/c3689c2dea7c9012-1-1280.avif",
+          "src": "/media/switches/haute42-shadow-hunting/affb72dee7f879ca-source-gallery-1-58b43a10f93b-1280.avif",
           "width": 1000,
           "height": 998
         }

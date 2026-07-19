@@ -1,28 +1,67 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "deep-sea-silent-whale-brown",
   "title": "Deep Sea Silent Whale Brown",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★★",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Tactile",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "35g",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 35g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "기본 구성",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Tactile",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Deep Sea Silent Whale Brown 사진 1",
       "variants": [
         {
-          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-0-640.avif",
+          "src": "/media/switches/deep-sea-silent-whale-brown/fadc998b7e1dd8d5-source-gallery-0-ebd4916c3c4b-640.avif",
           "width": 640,
           "height": 393
         },
         {
-          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-0-1280.avif",
+          "src": "/media/switches/deep-sea-silent-whale-brown/fadc998b7e1dd8d5-source-gallery-0-ebd4916c3c4b-1280.avif",
           "width": 1258,
           "height": 773
         }
@@ -32,12 +71,12 @@
       "alt": "Deep Sea Silent Whale Brown 사진 2",
       "variants": [
         {
-          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-1-640.avif",
+          "src": "/media/switches/deep-sea-silent-whale-brown/fadc998b7e1dd8d5-source-gallery-1-8c7c78fb2cd0-640.avif",
           "width": 640,
           "height": 1001
         },
         {
-          "src": "/media/switches/deep-sea-silent-whale-brown/3b03771ff8d2c6d9-1-1280.avif",
+          "src": "/media/switches/deep-sea-silent-whale-brown/fadc998b7e1dd8d5-source-gallery-1-8c7c78fb2cd0-1280.avif",
           "width": 1084,
           "height": 1696
         }

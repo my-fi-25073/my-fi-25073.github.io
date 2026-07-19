@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-01-31",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-01-31",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "ULP Flat Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Corne ULP v3 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-640.avif",
+          "src": "/media/keyboards/corne-ulp-v3/04272ce0c9363c24-source-gallery-0-1c1d63efc16f-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-1280.avif",
+          "src": "/media/keyboards/corne-ulp-v3/04272ce0c9363c24-source-gallery-0-1c1d63efc16f-1280.avif",
           "width": 1280,
           "height": 817
         },
         {
-          "src": "/media/keyboards/corne-ulp-v3/175b73112e92e570-0-2400.avif",
+          "src": "/media/keyboards/corne-ulp-v3/04272ce0c9363c24-source-gallery-0-1c1d63efc16f-2400.avif",
           "width": 2400,
           "height": 1531
         }

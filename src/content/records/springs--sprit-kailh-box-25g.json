@@ -6,9 +6,9 @@
   "category": "springs",
   "manufacturer": "Sprit",
   "series": "Kailh Box",
-  "springType": "Short",
-  "actuationForce": "???",
-  "bottomOutForce": "25g",
+  "springType": null,
+  "actuationForce": "25g",
+  "bottomOutForce": null,
   "length": null,
   "images": []
 }

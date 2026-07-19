@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "cheese",
   "title": "Cheese",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 46g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Cheese 사진 1",
       "variants": [
         {
-          "src": "/media/switches/cheese/df409e447f0a287f-0-640.avif",
+          "src": "/media/switches/cheese/c699eb2ea0892fc5-source-gallery-0-9ec7215ba1b3-640.avif",
           "width": 640,
           "height": 417
         },
         {
-          "src": "/media/switches/cheese/df409e447f0a287f-0-1280.avif",
+          "src": "/media/switches/cheese/c699eb2ea0892fc5-source-gallery-0-9ec7215ba1b3-1280.avif",
           "width": 1035,
           "height": 674
         }
@@ -31,12 +49,12 @@
       "alt": "Cheese 사진 2",
       "variants": [
         {
-          "src": "/media/switches/cheese/df409e447f0a287f-1-640.avif",
+          "src": "/media/switches/cheese/c699eb2ea0892fc5-source-gallery-1-28bbb08dfc60-640.avif",
           "width": 640,
           "height": 579
         },
         {
-          "src": "/media/switches/cheese/df409e447f0a287f-1-1280.avif",
+          "src": "/media/switches/cheese/c699eb2ea0892fc5-source-gallery-1-28bbb08dfc60-1280.avif",
           "width": 1261,
           "height": 1141
         }

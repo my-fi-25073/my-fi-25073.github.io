@@ -27,22 +27,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-02-03",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-02-03",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Oblivion",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Dilemma Max 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-640.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-1280.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-0-2400.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-2400.avif",
           "width": 2400,
           "height": 1800
         }
@@ -52,17 +65,17 @@
       "alt": "Dilemma Max 사진 2",
       "variants": [
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-640.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-1280.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/dilemma-max/1bff9d901c15cfba-1-2400.avif",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-2400.avif",
           "width": 2048,
           "height": 1536
         }

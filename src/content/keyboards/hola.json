@@ -23,22 +23,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-11-14",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-11-14",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Oblivion",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Hola 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/hola/1f600af1d10e6551-0-640.avif",
+          "src": "/media/keyboards/hola/ffefaf03810d1a81-source-gallery-0-557ac3445cc5-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/hola/1f600af1d10e6551-0-1280.avif",
+          "src": "/media/keyboards/hola/ffefaf03810d1a81-source-gallery-0-557ac3445cc5-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/hola/1f600af1d10e6551-0-2400.avif",
+          "src": "/media/keyboards/hola/ffefaf03810d1a81-source-gallery-0-557ac3445cc5-2400.avif",
           "width": 2400,
           "height": 1800
         }

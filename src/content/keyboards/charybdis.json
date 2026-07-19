@@ -30,22 +30,40 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-01-08",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-01-08",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "biip Extended 2048 Light",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "biip Extended 2048 Dark",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Charybdis 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/charybdis/df9776af850415bf-0-640.avif",
+          "src": "/media/keyboards/charybdis/07da8e1d17a0d9a0-source-gallery-0-75e76131863f-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/charybdis/df9776af850415bf-0-1280.avif",
+          "src": "/media/keyboards/charybdis/07da8e1d17a0d9a0-source-gallery-0-75e76131863f-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/charybdis/df9776af850415bf-0-2400.avif",
+          "src": "/media/keyboards/charybdis/07da8e1d17a0d9a0-source-gallery-0-75e76131863f-2400.avif",
           "width": 2048,
           "height": 1536
         }

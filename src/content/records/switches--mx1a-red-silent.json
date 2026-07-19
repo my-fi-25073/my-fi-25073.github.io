@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-red-silent",
   "title": "MX1A Red Silent",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Red Silent 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-0-640.avif",
+          "src": "/media/switches/mx1a-red-silent/192848e1157c6e4c-source-gallery-0-6f782cc8d276-640.avif",
           "width": 640,
           "height": 415
         },
         {
-          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-0-1280.avif",
+          "src": "/media/switches/mx1a-red-silent/192848e1157c6e4c-source-gallery-0-6f782cc8d276-1280.avif",
           "width": 1160,
           "height": 752
         }
@@ -32,12 +50,12 @@
       "alt": "MX1A Red Silent 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-1-640.avif",
+          "src": "/media/switches/mx1a-red-silent/192848e1157c6e4c-source-gallery-1-6c37be38e8e3-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/mx1a-red-silent/dfcdf8874aa5c395-1-1280.avif",
+          "src": "/media/switches/mx1a-red-silent/192848e1157c6e4c-source-gallery-1-6c37be38e8e3-1280.avif",
           "width": 691,
           "height": 460
         }

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-family",
+  "slug": "sr-yeti",
+  "title": "SR YETI",
+  "category": "switches",
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "Bsun Factory Spring 44g · 스템 Factory Lube · 스프링 Factory Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 44g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "Sprit Supreme 12g · 스템 Factory Lube · 스프링 No-Lube",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 12g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "SR YETI 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-0-c8f7a37a5ece-640.avif",
+          "width": 640,
+          "height": 419
+        },
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-0-c8f7a37a5ece-1280.avif",
+          "width": 1248,
+          "height": 818
+        }
+      ]
+    },
+    {
+      "alt": "SR YETI 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-1-d6df626e493f-640.avif",
+          "width": 640,
+          "height": 505
+        },
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-1-d6df626e493f-1280.avif",
+          "width": 1280,
+          "height": 1011
+        },
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-1-d6df626e493f-2400.avif",
+          "width": 1293,
+          "height": 1021
+        }
+      ]
+    },
+    {
+      "alt": "SR YETI 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-0-b077b229d2e9-640.avif",
+          "width": 640,
+          "height": 403
+        },
+        {
+          "src": "/media/switches/sr-yeti/d1bcdbc02042c679-source-gallery-0-b077b229d2e9-1280.avif",
+          "width": 708,
+          "height": 446
+        }
+      ]
+    }
+  ]
+}

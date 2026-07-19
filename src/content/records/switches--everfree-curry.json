@@ -1,32 +1,50 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "everfree-curry",
   "title": "Everfree Curry",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 60g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Everfree Curry 사진 1",
       "variants": [
         {
-          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-640.avif",
+          "src": "/media/switches/everfree-curry/9181673c63ea0161-source-gallery-0-e601c6c9167d-640.avif",
           "width": 640,
           "height": 446
         },
         {
-          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-1280.avif",
+          "src": "/media/switches/everfree-curry/9181673c63ea0161-source-gallery-0-e601c6c9167d-1280.avif",
           "width": 1280,
           "height": 892
         },
         {
-          "src": "/media/switches/everfree-curry/2a67392a1d37b402-0-2400.avif",
+          "src": "/media/switches/everfree-curry/9181673c63ea0161-source-gallery-0-e601c6c9167d-2400.avif",
           "width": 1500,
           "height": 1045
         }
@@ -36,7 +54,7 @@
       "alt": "Everfree Curry 사진 2",
       "variants": [
         {
-          "src": "/media/switches/everfree-curry/2a67392a1d37b402-1-640.avif",
+          "src": "/media/switches/everfree-curry/9181673c63ea0161-source-gallery-1-4072a47e0a66-640.avif",
           "width": 600,
           "height": 419
         }

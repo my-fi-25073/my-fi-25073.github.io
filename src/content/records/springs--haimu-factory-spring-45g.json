@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "haimu-factory-spring-45g",
+  "title": "Haimu Factory Spring 45g",
+  "category": "springs",
+  "manufacturer": "Haimu",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "37g",
+  "bottomOutForce": "45g",
+  "length": "22mm",
+  "images": []
+}

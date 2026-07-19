@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "red",
   "title": "Red",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★☆☆☆",
-  "footprintType": "Kailh Choc v1",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v1",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "LP OG 50g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Red 사진 1",
       "variants": [
         {
-          "src": "/media/switches/red/f56b6765de4b9588-0-640.avif",
+          "src": "/media/switches/red/9e86b98c20192743-source-gallery-0-5665f82aff65-640.avif",
           "width": 640,
           "height": 540
         },
         {
-          "src": "/media/switches/red/f56b6765de4b9588-0-1280.avif",
+          "src": "/media/switches/red/9e86b98c20192743-source-gallery-0-5665f82aff65-1280.avif",
           "width": 784,
           "height": 662
         }

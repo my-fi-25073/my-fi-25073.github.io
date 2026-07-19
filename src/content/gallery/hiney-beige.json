@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "hiney-beige",
-  "title": "Hiney Beige",
+  "title": "Hiney Beige ",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:48:52Z",
+  "createdAt": "2026-03-20T11:48:52.414Z",
   "materials": [
     "ABS"
   ],
@@ -28,40 +28,40 @@
       "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Hiney Beige Base 이미지 1",
+          "alt": "Hiney Beige  Base 이미지 1",
           "variants": [
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-0-640.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-0-a8ede7bae8ec-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-0-1280.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-0-a8ede7bae8ec-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-0-2400.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-0-a8ede7bae8ec-2400.avif",
               "width": 2048,
               "height": 1536
             }
           ]
         },
         {
-          "alt": "Hiney Beige Base 이미지 2",
+          "alt": "Hiney Beige  Base 이미지 2",
           "variants": [
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-1-640.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-1-0fada28a92a9-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-1-1280.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-1-0fada28a92a9-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/hiney-beige/kit-791e6717235d6161-1-2400.avif",
+              "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-1-0fada28a92a9-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -72,20 +72,20 @@
   ],
   "images": [
     {
-      "alt": "Hiney Beige 이미지 1",
+      "alt": "Hiney Beige  이미지 1",
       "variants": [
         {
-          "src": "/media/hiney-beige/series-cfbb20d2888a896e-0-640.avif",
+          "src": "/media/hiney-beige/series-683af9ef88cdcc39-source-gallery-0-91e4439c6809-640.avif",
           "width": 640,
           "height": 539
         },
         {
-          "src": "/media/hiney-beige/series-cfbb20d2888a896e-0-1280.avif",
+          "src": "/media/hiney-beige/series-683af9ef88cdcc39-source-gallery-0-91e4439c6809-1280.avif",
           "width": 1280,
           "height": 1078
         },
         {
-          "src": "/media/hiney-beige/series-cfbb20d2888a896e-0-2400.avif",
+          "src": "/media/hiney-beige/series-683af9ef88cdcc39-source-gallery-0-91e4439c6809-2400.avif",
           "width": 1598,
           "height": 1346
         }

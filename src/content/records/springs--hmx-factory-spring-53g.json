@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "hmx-factory-spring-53g",
+  "title": "HMX Factory Spring 53g",
+  "category": "springs",
+  "manufacturer": "HMX",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": "45g",
+  "bottomOutForce": "53g",
+  "length": "22mm",
+  "images": []
+}

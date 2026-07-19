@@ -8,7 +8,7 @@
   "profile": "MT3",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
-  "createdAt": "2026-03-21T17:11:25Z",
+  "createdAt": "2026-03-21T17:11:25.146Z",
   "materials": [
     "ABS"
   ],
@@ -29,12 +29,12 @@
           "alt": "MT3 Fairlane Base 이미지 1",
           "variants": [
             {
-              "src": "/media/mt3-fairlane/kit-c9c85f560dadb9e2-0-640.avif",
+              "src": "/media/mt3-fairlane/kit-54d510c6070028a3-source-gallery-0-22916cd4c3f2-640.avif",
               "width": 640,
               "height": 423
             },
             {
-              "src": "/media/mt3-fairlane/kit-c9c85f560dadb9e2-0-1280.avif",
+              "src": "/media/mt3-fairlane/kit-54d510c6070028a3-source-gallery-0-22916cd4c3f2-1280.avif",
               "width": 1043,
               "height": 690
             }
@@ -48,12 +48,12 @@
       "alt": "MT3 Fairlane 이미지 1",
       "variants": [
         {
-          "src": "/media/mt3-fairlane/series-6fb9ccce653c1491-0-640.avif",
+          "src": "/media/mt3-fairlane/series-6d26b7ac8fb069c2-source-gallery-0-4902c8937db6-640.avif",
           "width": 640,
           "height": 406
         },
         {
-          "src": "/media/mt3-fairlane/series-6fb9ccce653c1491-0-1280.avif",
+          "src": "/media/mt3-fairlane/series-6d26b7ac8fb069c2-source-gallery-0-4902c8937db6-1280.avif",
           "width": 1024,
           "height": 649
         }
@@ -63,17 +63,17 @@
       "alt": "MT3 Fairlane 이미지 2",
       "variants": [
         {
-          "src": "/media/mt3-fairlane/series-6fb9ccce653c1491-1-640.avif",
+          "src": "/media/mt3-fairlane/series-6d26b7ac8fb069c2-source-gallery-1-e0b6bb8225c8-640.avif",
           "width": 640,
           "height": 390
         },
         {
-          "src": "/media/mt3-fairlane/series-6fb9ccce653c1491-1-1280.avif",
+          "src": "/media/mt3-fairlane/series-6d26b7ac8fb069c2-source-gallery-1-e0b6bb8225c8-1280.avif",
           "width": 1280,
           "height": 781
         },
         {
-          "src": "/media/mt3-fairlane/series-6fb9ccce653c1491-1-2400.avif",
+          "src": "/media/mt3-fairlane/series-6d26b7ac8fb069c2-source-gallery-1-e0b6bb8225c8-2400.avif",
           "width": 1984,
           "height": 1210
         }

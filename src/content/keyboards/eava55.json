@@ -25,22 +25,75 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2025-07-10",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2025-07-10",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "Classic Beige (SPC)",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Hiney Beige ",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Black Snail",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Extra",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Norde Beige",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Beige Add On ",
+        "quantity": null
+      },
+      {
+        "kind": "kit",
+        "title": "Beige/WoB",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Classic Arabic",
+        "quantity": null
+      },
+      {
+        "kind": "series",
+        "title": "Any Key",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Eava55 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-640.avif",
+          "src": "/media/keyboards/eava55/66f273f0c1107292-source-gallery-0-db74ced7bfca-640.avif",
           "width": 640,
           "height": 383
         },
         {
-          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-1280.avif",
+          "src": "/media/keyboards/eava55/66f273f0c1107292-source-gallery-0-db74ced7bfca-1280.avif",
           "width": 1280,
           "height": 767
         },
         {
-          "src": "/media/keyboards/eava55/d3347f5310e63acb-0-2400.avif",
+          "src": "/media/keyboards/eava55/66f273f0c1107292-source-gallery-0-db74ced7bfca-2400.avif",
           "width": 2400,
           "height": 1438
         }

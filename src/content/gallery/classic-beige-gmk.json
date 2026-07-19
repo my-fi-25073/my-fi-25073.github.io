@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T11:47:32Z",
+  "createdAt": "2026-03-20T11:47:32.292Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "Classic Beige (GMK) Colevrak 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-93b6f52569edd63e-source-gallery-0-ce43998553a7-640.avif",
               "width": 640,
               "height": 473
             },
             {
-              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-93b6f52569edd63e-source-gallery-0-ce43998553a7-1280.avif",
               "width": 1280,
               "height": 946
             },
             {
-              "src": "/media/classic-beige-gmk/kit-ba280898890a804a-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-93b6f52569edd63e-source-gallery-0-ce43998553a7-2400.avif",
               "width": 2048,
               "height": 1514
             }
@@ -61,17 +61,17 @@
           "alt": "Classic Beige (GMK) Command 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-c1475f5c33894c46-source-gallery-0-9a9dff80a0a6-640.avif",
               "width": 640,
               "height": 488
             },
             {
-              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-c1475f5c33894c46-source-gallery-0-9a9dff80a0a6-1280.avif",
               "width": 1280,
               "height": 976
             },
             {
-              "src": "/media/classic-beige-gmk/kit-ea76dc427110b5a1-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-c1475f5c33894c46-source-gallery-0-9a9dff80a0a6-2400.avif",
               "width": 2048,
               "height": 1562
             }
@@ -91,17 +91,17 @@
           "alt": "Classic Beige (GMK) Exotic Base 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-0-a121e77c9357-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-0-a121e77c9357-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-0-a121e77c9357-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -111,17 +111,17 @@
           "alt": "Classic Beige (GMK) Exotic Base 이미지 2",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-640.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-1-06192ca093b0-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-1-06192ca093b0-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-gmk/kit-951aa8db3faa5a01-1-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-1-06192ca093b0-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -141,17 +141,17 @@
           "alt": "Classic Beige (GMK) France 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-d36907539b2194a3-source-gallery-0-1fb0cca34ab1-640.avif",
               "width": 640,
               "height": 723
             },
             {
-              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-d36907539b2194a3-source-gallery-0-1fb0cca34ab1-1280.avif",
               "width": 1280,
               "height": 1445
             },
             {
-              "src": "/media/classic-beige-gmk/kit-843831ca16c7fbb0-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-d36907539b2194a3-source-gallery-0-1fb0cca34ab1-2400.avif",
               "width": 1516,
               "height": 1712
             }
@@ -171,17 +171,17 @@
           "alt": "Classic Beige (GMK) Hiragana 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-d33af1d54090048a-source-gallery-0-1c32f7433dfd-640.avif",
               "width": 640,
               "height": 911
             },
             {
-              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-d33af1d54090048a-source-gallery-0-1c32f7433dfd-1280.avif",
               "width": 1280,
               "height": 1822
             },
             {
-              "src": "/media/classic-beige-gmk/kit-e37c9cba6e0a3651-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-d33af1d54090048a-source-gallery-0-1c32f7433dfd-2400.avif",
               "width": 1380,
               "height": 1964
             }
@@ -201,17 +201,17 @@
           "alt": "Classic Beige (GMK) Icon Mod 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-254cb0eee3d84f28-source-gallery-0-78df53e4f540-640.avif",
               "width": 640,
               "height": 728
             },
             {
-              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-254cb0eee3d84f28-source-gallery-0-78df53e4f540-1280.avif",
               "width": 1280,
               "height": 1456
             },
             {
-              "src": "/media/classic-beige-gmk/kit-d9923aee67c990a6-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-254cb0eee3d84f28-source-gallery-0-78df53e4f540-2400.avif",
               "width": 1670,
               "height": 1900
             }
@@ -231,17 +231,17 @@
           "alt": "Classic Beige (GMK) Italy 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-3cd1a239d9310cd8-source-gallery-0-defa33636c02-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-3cd1a239d9310cd8-source-gallery-0-defa33636c02-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-gmk/kit-22f73b001f491e73-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-3cd1a239d9310cd8-source-gallery-0-defa33636c02-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -261,17 +261,17 @@
           "alt": "Classic Beige (GMK) Katakana 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-60624a59cca024bd-source-gallery-0-fbb4c922741c-640.avif",
               "width": 640,
               "height": 889
             },
             {
-              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-60624a59cca024bd-source-gallery-0-fbb4c922741c-1280.avif",
               "width": 1280,
               "height": 1778
             },
             {
-              "src": "/media/classic-beige-gmk/kit-548a7a0819e088fb-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-60624a59cca024bd-source-gallery-0-fbb4c922741c-2400.avif",
               "width": 1414,
               "height": 1964
             }
@@ -291,17 +291,17 @@
           "alt": "Classic Beige (GMK) Row 5 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-73704484595b9d8f-source-gallery-0-51af376b653b-640.avif",
               "width": 640,
               "height": 756
             },
             {
-              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-73704484595b9d8f-source-gallery-0-51af376b653b-1280.avif",
               "width": 1280,
               "height": 1512
             },
             {
-              "src": "/media/classic-beige-gmk/kit-d7b322bcafe1e9fc-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-73704484595b9d8f-source-gallery-0-51af376b653b-2400.avif",
               "width": 1446,
               "height": 1708
             }
@@ -321,17 +321,17 @@
           "alt": "Classic Beige (GMK) UK 이미지 1",
           "variants": [
             {
-              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-640.avif",
+              "src": "/media/classic-beige-gmk/kit-5f6af761ce05e287-source-gallery-0-78cefa9fe055-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-1280.avif",
+              "src": "/media/classic-beige-gmk/kit-5f6af761ce05e287-source-gallery-0-78cefa9fe055-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/classic-beige-gmk/kit-dc58ea0994b103c5-0-2400.avif",
+              "src": "/media/classic-beige-gmk/kit-5f6af761ce05e287-source-gallery-0-78cefa9fe055-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -345,17 +345,17 @@
       "alt": "Classic Beige (GMK) 이미지 1",
       "variants": [
         {
-          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-640.avif",
+          "src": "/media/classic-beige-gmk/series-96efa854d14c287e-source-gallery-0-35407ca04146-640.avif",
           "width": 640,
           "height": 545
         },
         {
-          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-1280.avif",
+          "src": "/media/classic-beige-gmk/series-96efa854d14c287e-source-gallery-0-35407ca04146-1280.avif",
           "width": 1280,
           "height": 1089
         },
         {
-          "src": "/media/classic-beige-gmk/series-f6d415a4772a9c45-0-2400.avif",
+          "src": "/media/classic-beige-gmk/series-96efa854d14c287e-source-gallery-0-35407ca04146-2400.avif",
           "width": 1610,
           "height": 1370
         }

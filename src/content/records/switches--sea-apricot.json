@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sea-apricot",
   "title": "Sea Apricot",
   "category": "switches",
-  "manufacturer": "Haimu",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Haimu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 45g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sea Apricot 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sea-apricot/3e33663a635d51c3-0-640.avif",
+          "src": "/media/switches/sea-apricot/6933525d1b41101f-source-gallery-0-a2acc09199d9-640.avif",
           "width": 640,
           "height": 530
         },
         {
-          "src": "/media/switches/sea-apricot/3e33663a635d51c3-0-1280.avif",
+          "src": "/media/switches/sea-apricot/6933525d1b41101f-source-gallery-0-a2acc09199d9-1280.avif",
           "width": 1157,
           "height": 958
         }
@@ -31,12 +49,12 @@
       "alt": "Sea Apricot 사진 2",
       "variants": [
         {
-          "src": "/media/switches/sea-apricot/3e33663a635d51c3-1-640.avif",
+          "src": "/media/switches/sea-apricot/6933525d1b41101f-source-gallery-1-3a87ca7c04ff-640.avif",
           "width": 640,
           "height": 948
         },
         {
-          "src": "/media/switches/sea-apricot/3e33663a635d51c3-1-1280.avif",
+          "src": "/media/switches/sea-apricot/6933525d1b41101f-source-gallery-1-3a87ca7c04ff-1280.avif",
           "width": 919,
           "height": 1361
         }

@@ -23,17 +23,24 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-05-10",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-05-10",
+    "keycaps": []
+  },
   "images": [
     {
       "alt": "Castor White LP 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-white-lp/36309a0c6d139af1-0-640.avif",
+          "src": "/media/keyboards/castor-white-lp/229a8750d2658066-source-gallery-0-8cb2510b06ca-640.avif",
           "width": 640,
           "height": 441
         },
         {
-          "src": "/media/keyboards/castor-white-lp/36309a0c6d139af1-0-1280.avif",
+          "src": "/media/keyboards/castor-white-lp/229a8750d2658066-source-gallery-0-8cb2510b06ca-1280.avif",
           "width": 1025,
           "height": 706
         }

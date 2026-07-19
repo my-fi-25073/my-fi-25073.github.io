@@ -25,22 +25,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-01-13",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-01-13",
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "LotR Dwarvish",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "QK 75N 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/qk-75n/31189210da3375a9-0-640.avif",
+          "src": "/media/keyboards/qk-75n/aa102851955fc069-source-gallery-0-6ad64d3aeec9-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/qk-75n/31189210da3375a9-0-1280.avif",
+          "src": "/media/keyboards/qk-75n/aa102851955fc069-source-gallery-0-6ad64d3aeec9-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/qk-75n/31189210da3375a9-0-2400.avif",
+          "src": "/media/keyboards/qk-75n/aa102851955fc069-source-gallery-0-6ad64d3aeec9-2400.avif",
           "width": 2048,
           "height": 1536
         }

@@ -24,22 +24,35 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2024-10-19",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2024-10-19",
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "KLP Custom Transparent Blanks",
+        "quantity": null
+      }
+    ]
+  },
   "images": [
     {
       "alt": "Waffle87 Sweep 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-640.avif",
+          "src": "/media/keyboards/waffle87-sweep/1828796eeeafe414-source-gallery-0-70451968dc8d-640.avif",
           "width": 640,
           "height": 480
         },
         {
-          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-1280.avif",
+          "src": "/media/keyboards/waffle87-sweep/1828796eeeafe414-source-gallery-0-70451968dc8d-1280.avif",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "/media/keyboards/waffle87-sweep/910fc2d845cc01bd-0-2400.avif",
+          "src": "/media/keyboards/waffle87-sweep/1828796eeeafe414-source-gallery-0-70451968dc8d-2400.avif",
           "width": 2048,
           "height": 1536
         }

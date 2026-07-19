@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "milky-yellow",
   "title": "Milky Yellow",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 63.5g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Milky Yellow 사진 1",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-0-640.avif",
+          "src": "/media/switches/milky-yellow/4f88207eccd872c8-source-gallery-0-352e45b5e38a-640.avif",
           "width": 640,
           "height": 546
         },
         {
-          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-0-1280.avif",
+          "src": "/media/switches/milky-yellow/4f88207eccd872c8-source-gallery-0-352e45b5e38a-1280.avif",
           "width": 708,
           "height": 604
         }
@@ -31,7 +49,7 @@
       "alt": "Milky Yellow 사진 2",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-1-640.avif",
+          "src": "/media/switches/milky-yellow/4f88207eccd872c8-source-gallery-1-3dc4a2e94cd1-640.avif",
           "width": 514,
           "height": 430
         }
@@ -41,7 +59,7 @@
       "alt": "Milky Yellow 사진 3",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-2-640.avif",
+          "src": "/media/switches/milky-yellow/4f88207eccd872c8-source-gallery-2-db0a6f28d839-640.avif",
           "width": 612,
           "height": 469
         }
@@ -51,7 +69,7 @@
       "alt": "Milky Yellow 사진 4",
       "variants": [
         {
-          "src": "/media/switches/milky-yellow/baf6988a4cf2eedf-3-640.avif",
+          "src": "/media/switches/milky-yellow/4f88207eccd872c8-source-gallery-3-12f2b62f5b41-640.avif",
           "width": 556,
           "height": 521
         }

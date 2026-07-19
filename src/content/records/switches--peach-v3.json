@@ -1,28 +1,46 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "peach-v3",
   "title": "Peach V3",
   "category": "switches",
-  "manufacturer": "Outemu",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "Outemu",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Peach V3 사진 1",
       "variants": [
         {
-          "src": "/media/switches/peach-v3/622b5949b4ebf625-0-640.avif",
+          "src": "/media/switches/peach-v3/d5f1294176320aa1-source-gallery-0-5f7c097e5bea-640.avif",
           "width": 640,
           "height": 477
         },
         {
-          "src": "/media/switches/peach-v3/622b5949b4ebf625-0-1280.avif",
+          "src": "/media/switches/peach-v3/d5f1294176320aa1-source-gallery-0-5f7c097e5bea-1280.avif",
           "width": 655,
           "height": 488
         }
@@ -32,17 +50,17 @@
       "alt": "Peach V3 사진 2",
       "variants": [
         {
-          "src": "/media/switches/peach-v3/622b5949b4ebf625-1-640.avif",
+          "src": "/media/switches/peach-v3/d5f1294176320aa1-source-gallery-1-90f4ccfdbcfd-640.avif",
           "width": 640,
           "height": 682
         },
         {
-          "src": "/media/switches/peach-v3/622b5949b4ebf625-1-1280.avif",
+          "src": "/media/switches/peach-v3/d5f1294176320aa1-source-gallery-1-90f4ccfdbcfd-1280.avif",
           "width": 1280,
           "height": 1365
         },
         {
-          "src": "/media/switches/peach-v3/622b5949b4ebf625-1-2400.avif",
+          "src": "/media/switches/peach-v3/d5f1294176320aa1-source-gallery-1-90f4ccfdbcfd-2400.avif",
           "width": 1391,
           "height": 1483
         }

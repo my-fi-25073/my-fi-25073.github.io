@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "saker-mini",
   "title": "Saker Mini",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 47g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Saker Mini 사진 1",
       "variants": [
         {
-          "src": "/media/switches/saker-mini/dcc95172de57f0d7-0-640.avif",
+          "src": "/media/switches/saker-mini/ed1993d3c4261d5d-source-gallery-0-45df63001953-640.avif",
           "width": 640,
           "height": 492
         },
         {
-          "src": "/media/switches/saker-mini/dcc95172de57f0d7-0-1280.avif",
+          "src": "/media/switches/saker-mini/ed1993d3c4261d5d-source-gallery-0-45df63001953-1280.avif",
           "width": 1280,
           "height": 984
         }
@@ -31,17 +49,17 @@
       "alt": "Saker Mini 사진 2",
       "variants": [
         {
-          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-640.avif",
+          "src": "/media/switches/saker-mini/ed1993d3c4261d5d-source-gallery-1-0ad0054ee215-640.avif",
           "width": 640,
           "height": 673
         },
         {
-          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-1280.avif",
+          "src": "/media/switches/saker-mini/ed1993d3c4261d5d-source-gallery-1-0ad0054ee215-1280.avif",
           "width": 1280,
           "height": 1346
         },
         {
-          "src": "/media/switches/saker-mini/dcc95172de57f0d7-1-2400.avif",
+          "src": "/media/switches/saker-mini/ed1993d3c4261d5d-source-gallery-1-0ad0054ee215-2400.avif",
           "width": 1540,
           "height": 1620
         }

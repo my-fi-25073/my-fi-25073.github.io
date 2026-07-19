@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "drop-holy-panda-x",
   "title": "Drop Holy Panda X",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Drop Holy Panda X 사진 1",
       "variants": [
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-0-640.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-0-3281bcc8d09c-640.avif",
           "width": 640,
           "height": 370
         },
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-0-1280.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-0-3281bcc8d09c-1280.avif",
           "width": 1034,
           "height": 597
         }
@@ -31,12 +49,12 @@
       "alt": "Drop Holy Panda X 사진 2",
       "variants": [
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-1-640.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-1-0270052abbe8-640.avif",
           "width": 640,
           "height": 429
         },
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-1-1280.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-1-0270052abbe8-1280.avif",
           "width": 1029,
           "height": 689
         }
@@ -46,12 +64,12 @@
       "alt": "Drop Holy Panda X 사진 3",
       "variants": [
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-2-640.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-2-fb01091e9686-640.avif",
           "width": 640,
           "height": 419
         },
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-2-1280.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-2-fb01091e9686-1280.avif",
           "width": 1038,
           "height": 680
         }
@@ -61,7 +79,7 @@
       "alt": "Drop Holy Panda X 사진 4",
       "variants": [
         {
-          "src": "/media/switches/drop-holy-panda-x/2c066f603b1f8373-3-640.avif",
+          "src": "/media/switches/drop-holy-panda-x/055fc410583fd519-source-gallery-3-e56392a691bb-640.avif",
           "width": 446,
           "height": 377
         }

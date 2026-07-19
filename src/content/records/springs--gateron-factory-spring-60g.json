@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "gateron-factory-spring-60g",
+  "title": "Gateron Factory Spring 60g",
+  "category": "springs",
+  "manufacturer": "Gateron",
+  "series": "Factory",
+  "springType": "Middle",
+  "actuationForce": "50g",
+  "bottomOutForce": "60g",
+  "length": "15mm",
+  "images": []
+}

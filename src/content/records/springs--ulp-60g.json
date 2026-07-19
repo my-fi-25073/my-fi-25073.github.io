@@ -4,11 +4,11 @@
   "slug": "ulp-60g",
   "title": "ULP 60g",
   "category": "springs",
-  "manufacturer": "Kalih",
+  "manufacturer": "Kailh",
   "series": "ULP",
   "springType": "ULP",
-  "actuationForce": "???",
-  "bottomOutForce": "60g",
-  "length": "N/A",
+  "actuationForce": "32g",
+  "bottomOutForce": null,
+  "length": null,
   "images": []
 }

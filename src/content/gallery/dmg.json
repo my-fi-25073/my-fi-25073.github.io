@@ -8,7 +8,7 @@
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T17:04:52Z",
+  "createdAt": "2026-03-20T17:04:52.925Z",
   "materials": [
     "ABS"
   ],
@@ -31,17 +31,17 @@
           "alt": "DMG Addition 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-640.avif",
+              "src": "/media/dmg/kit-9b4ca5d8a3b92d02-source-gallery-0-ced0e86b4984-640.avif",
               "width": 640,
               "height": 287
             },
             {
-              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-1280.avif",
+              "src": "/media/dmg/kit-9b4ca5d8a3b92d02-source-gallery-0-ced0e86b4984-1280.avif",
               "width": 1280,
               "height": 574
             },
             {
-              "src": "/media/dmg/kit-a4b44e251aa0c8a0-0-2400.avif",
+              "src": "/media/dmg/kit-9b4ca5d8a3b92d02-source-gallery-0-ced0e86b4984-2400.avif",
               "width": 1306,
               "height": 586
             }
@@ -61,17 +61,17 @@
           "alt": "DMG Aesthetic 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-640.avif",
+              "src": "/media/dmg/kit-ade2c98bdaa4b3e5-source-gallery-0-f2a0ae9fabac-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-1280.avif",
+              "src": "/media/dmg/kit-ade2c98bdaa4b3e5-source-gallery-0-f2a0ae9fabac-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-a1a6a21c50b814ba-0-2400.avif",
+              "src": "/media/dmg/kit-ade2c98bdaa4b3e5-source-gallery-0-f2a0ae9fabac-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -91,17 +91,17 @@
           "alt": "DMG Command 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-640.avif",
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-1280.avif",
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-4ce6ca9f2490b0ee-0-2400.avif",
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -121,17 +121,17 @@
           "alt": "DMG Latin Base 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-0-640.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-0-1280.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-0-2400.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -141,17 +141,17 @@
           "alt": "DMG Latin Base 이미지 2",
           "variants": [
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-1-640.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-1-1280.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-05f61cad73b39adf-1-2400.avif",
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -171,17 +171,17 @@
           "alt": "DMG Novelty 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-640.avif",
+              "src": "/media/dmg/kit-5a54a1b12a809ad5-source-gallery-0-c4d1800d617f-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-1280.avif",
+              "src": "/media/dmg/kit-5a54a1b12a809ad5-source-gallery-0-c4d1800d617f-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-c85d3e6361d5dd3a-0-2400.avif",
+              "src": "/media/dmg/kit-5a54a1b12a809ad5-source-gallery-0-c4d1800d617f-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -201,17 +201,17 @@
           "alt": "DMG Obscure 이미지 1",
           "variants": [
             {
-              "src": "/media/dmg/kit-d552cea48178542c-0-640.avif",
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/dmg/kit-d552cea48178542c-0-1280.avif",
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/dmg/kit-d552cea48178542c-0-2400.avif",
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -225,17 +225,17 @@
       "alt": "DMG 이미지 1",
       "variants": [
         {
-          "src": "/media/dmg/series-9bcb5baeedb00cda-0-640.avif",
+          "src": "/media/dmg/series-aa173146acc1f895-source-gallery-0-3b479d1ff1b3-640.avif",
           "width": 640,
           "height": 565
         },
         {
-          "src": "/media/dmg/series-9bcb5baeedb00cda-0-1280.avif",
+          "src": "/media/dmg/series-aa173146acc1f895-source-gallery-0-3b479d1ff1b3-1280.avif",
           "width": 1280,
           "height": 1131
         },
         {
-          "src": "/media/dmg/series-9bcb5baeedb00cda-0-2400.avif",
+          "src": "/media/dmg/series-aa173146acc1f895-source-gallery-0-3b479d1ff1b3-2400.avif",
           "width": 1528,
           "height": 1350
         }

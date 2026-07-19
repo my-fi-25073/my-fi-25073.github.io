@@ -57,6 +57,17 @@ const keyboards = defineCollection({
     layouts: z.array(z.string()),
     mounts: z.array(z.string()),
     foams: z.array(z.string()),
+    build: z.object({
+      label: z.string().min(1),
+      state: z.enum(['draft', 'approved', 'retired']),
+      startedAt: z.string().nullable(),
+      completedAt: z.string().nullable(),
+      keycaps: z.array(z.object({
+        kind: z.enum(['series', 'kit']),
+        title: z.string().min(1),
+        quantity: z.number().positive().nullable(),
+      })),
+    }),
     images: z.array(galleryImage).min(1),
   }),
 });
@@ -73,13 +84,32 @@ const records = defineCollection({
   schema: z.discriminatedUnion('kind', [
     z.object({
       ...recordBase,
-      kind: z.literal('switch'),
+      kind: z.literal('switch-family'),
       category: z.literal('switches'),
-      manufacturer: z.string().nullable(),
-      rating: z.string().nullable(),
-      footprintType: z.string().nullable(),
-      switchTypes: z.array(z.string()),
-      film: z.string().nullable(),
+      familyKind: z.enum(['commercial', 'franken', 'unclassified']),
+      recipeStatus: z.enum(['not_applicable', 'not_assessed', 'unresolved', 'complete']),
+      variants: z.array(z.object({
+        label: z.string().min(1),
+        reference: z.boolean(),
+        rating: z.number().min(0).max(5).nullable(),
+        manufacturer: z.string().nullable(),
+        footprintType: z.string().nullable(),
+        switchTypes: z.array(z.string()),
+        spring: z.object({
+          resolution: z.enum(['inherit', 'selected', 'stock_unresolved', 'unknown']),
+          name: z.string().nullable(),
+          status: z.enum(['unresolved', 'partial', 'conflict']).nullable(),
+        }),
+        housingFit: z.object({
+          state: z.enum(['inherit', 'none', 'applied', 'unknown']),
+          method: z.string().nullable(),
+          material: z.string().nullable(),
+        }),
+      })),
+      parts: z.array(z.object({
+        role: z.enum(['stem', 'bottom_housing', 'top_housing']),
+        donor: z.string().min(1),
+      })),
     }),
     z.object({
       ...recordBase,

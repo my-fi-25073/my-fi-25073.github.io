@@ -1,22 +1,40 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "lofree-ghost",
   "title": "Lofree Ghost",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★☆☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Lofree Ghost 사진 1",
       "variants": [
         {
-          "src": "/media/switches/lofree-ghost/256f6557616d7a1f-0-640.avif",
+          "src": "/media/switches/lofree-ghost/c435dab96f1057bf-source-gallery-0-b16eccdf0b55-640.avif",
           "width": 514,
           "height": 464
         }
@@ -26,7 +44,7 @@
       "alt": "Lofree Ghost 사진 2",
       "variants": [
         {
-          "src": "/media/switches/lofree-ghost/256f6557616d7a1f-1-640.avif",
+          "src": "/media/switches/lofree-ghost/c435dab96f1057bf-source-gallery-1-6acf511fcc37-640.avif",
           "width": 533,
           "height": 261
         }
@@ -36,12 +54,12 @@
       "alt": "Lofree Ghost 사진 3",
       "variants": [
         {
-          "src": "/media/switches/lofree-ghost/256f6557616d7a1f-2-640.avif",
+          "src": "/media/switches/lofree-ghost/c435dab96f1057bf-source-gallery-2-4823d940c86a-640.avif",
           "width": 640,
           "height": 1364
         },
         {
-          "src": "/media/switches/lofree-ghost/256f6557616d7a1f-2-1280.avif",
+          "src": "/media/switches/lofree-ghost/c435dab96f1057bf-source-gallery-2-4823d940c86a-1280.avif",
           "width": 961,
           "height": 2048
         }

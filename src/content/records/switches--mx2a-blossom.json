@@ -1,27 +1,65 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx2a-blossom",
   "title": "MX2A Blossom",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "30g",
+      "reference": false,
+      "rating": 3,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 30g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.125mm"
+      }
+    },
+    {
+      "label": "기본 구성",
+      "reference": false,
+      "rating": 2,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX2A Blossom 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blossom/5498974c1d646556-0-640.avif",
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-0-c1f423d3a91b-640.avif",
           "width": 640,
           "height": 503
         },
         {
-          "src": "/media/switches/mx2a-blossom/5498974c1d646556-0-1280.avif",
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-0-c1f423d3a91b-1280.avif",
           "width": 1231,
           "height": 967
         }
@@ -31,12 +69,42 @@
       "alt": "MX2A Blossom 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blossom/5498974c1d646556-1-640.avif",
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-1-831e37329064-640.avif",
           "width": 640,
           "height": 745
         },
         {
-          "src": "/media/switches/mx2a-blossom/5498974c1d646556-1-1280.avif",
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-1-831e37329064-1280.avif",
+          "width": 1255,
+          "height": 1460
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Blossom 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-0-96e94997534e-640.avif",
+          "width": 640,
+          "height": 503
+        },
+        {
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-0-96e94997534e-1280.avif",
+          "width": 1231,
+          "height": 967
+        }
+      ]
+    },
+    {
+      "alt": "MX2A Blossom 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-1-cc09db7e2dca-640.avif",
+          "width": 640,
+          "height": 745
+        },
+        {
+          "src": "/media/switches/mx2a-blossom/3e28b2496d31fead-source-gallery-1-cc09db7e2dca-1280.avif",
           "width": 1255,
           "height": 1460
         }

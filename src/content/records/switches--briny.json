@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "briny",
   "title": "Briny",
   "category": "switches",
-  "manufacturer": "Keygeek",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "Keygeek",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 40g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Briny 사진 1",
       "variants": [
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-0-640.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-0-bb5e62300105-640.avif",
           "width": 640,
           "height": 447
         },
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-0-1280.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-0-bb5e62300105-1280.avif",
           "width": 698,
           "height": 487
         }
@@ -31,12 +49,12 @@
       "alt": "Briny 사진 2",
       "variants": [
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-1-640.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-1-34b65a7666c8-640.avif",
           "width": 640,
           "height": 944
         },
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-1-1280.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-1-34b65a7666c8-1280.avif",
           "width": 1166,
           "height": 1719
         }
@@ -46,12 +64,12 @@
       "alt": "Briny 사진 3",
       "variants": [
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-2-640.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-2-9b4b5930f36d-640.avif",
           "width": 640,
           "height": 280
         },
         {
-          "src": "/media/switches/briny/db9bd2e67eb35f92-2-1280.avif",
+          "src": "/media/switches/briny/527571299e35154a-source-gallery-2-9b4b5930f36d-1280.avif",
           "width": 1065,
           "height": 466
         }

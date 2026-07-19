@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "kind": "spring",
+  "slug": "swk-factory-spring-62g-9b37b6620fb5",
+  "title": "SWK Factory Spring 62g",
+  "category": "springs",
+  "manufacturer": "SWK",
+  "series": "Factory",
+  "springType": "Ultra Long",
+  "actuationForce": null,
+  "bottomOutForce": "62g",
+  "length": "20mm",
+  "images": []
+}

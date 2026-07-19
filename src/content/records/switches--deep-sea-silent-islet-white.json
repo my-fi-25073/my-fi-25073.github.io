@@ -1,28 +1,67 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "deep-sea-silent-islet-white",
   "title": "Deep Sea Silent Islet White",
   "category": "switches",
-  "manufacturer": "Kailh",
-  "rating": "★★★★☆",
-  "footprintType": "Kailh Choc v2",
-  "switchTypes": [
-    "Linear",
-    "Silent"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "20g",
+      "reference": false,
+      "rating": 5,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 20g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    },
+    {
+      "label": "기본 구성",
+      "reference": false,
+      "rating": 4,
+      "manufacturer": "Kailh",
+      "footprintType": "Kailh Choc v2",
+      "switchTypes": [
+        "Linear",
+        "Silent"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Deep Sea Silent Islet White 사진 1",
       "variants": [
         {
-          "src": "/media/switches/deep-sea-silent-islet-white/ef71109b56d15d17-0-640.avif",
+          "src": "/media/switches/deep-sea-silent-islet-white/1b651a9260a38697-source-gallery-0-cd0f872e7a73-640.avif",
           "width": 640,
           "height": 461
         },
         {
-          "src": "/media/switches/deep-sea-silent-islet-white/ef71109b56d15d17-0-1280.avif",
+          "src": "/media/switches/deep-sea-silent-islet-white/1b651a9260a38697-source-gallery-0-cd0f872e7a73-1280.avif",
           "width": 1154,
           "height": 832
         }
@@ -32,12 +71,12 @@
       "alt": "Deep Sea Silent Islet White 사진 2",
       "variants": [
         {
-          "src": "/media/switches/deep-sea-silent-islet-white/ef71109b56d15d17-1-640.avif",
+          "src": "/media/switches/deep-sea-silent-islet-white/1b651a9260a38697-source-gallery-1-92c3a96ab814-640.avif",
           "width": 640,
           "height": 953
         },
         {
-          "src": "/media/switches/deep-sea-silent-islet-white/ef71109b56d15d17-1-1280.avif",
+          "src": "/media/switches/deep-sea-silent-islet-white/1b651a9260a38697-source-gallery-1-92c3a96ab814-1280.avif",
           "width": 1054,
           "height": 1569
         }

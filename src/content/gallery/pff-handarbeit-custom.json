@@ -8,7 +8,7 @@
   "profile": "PFF",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:11:50Z",
+  "createdAt": "2026-03-20T18:11:50.647Z",
   "materials": [
     "PBT"
   ],
@@ -31,17 +31,17 @@
           "alt": "PFF Handarbeit Custom Castor Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-640.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-640.avif",
               "width": 640,
               "height": 498
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-1280.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-1280.avif",
               "width": 1280,
               "height": 995
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-0-2400.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-2400.avif",
               "width": 2048,
               "height": 1592
             }
@@ -51,17 +51,17 @@
           "alt": "PFF Handarbeit Custom Castor Base 이미지 2",
           "variants": [
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-640.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-640.avif",
               "width": 640,
               "height": 404
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-1280.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-1280.avif",
               "width": 1280,
               "height": 808
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-9fb987bc50e928ff-1-2400.avif",
+              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-2400.avif",
               "width": 2048,
               "height": 1292
             }
@@ -75,17 +75,17 @@
       "alt": "PFF Handarbeit Custom 이미지 1",
       "variants": [
         {
-          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-640.avif",
+          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-1280.avif",
+          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/pff-handarbeit-custom/series-056201a05e556488-0-2400.avif",
+          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }

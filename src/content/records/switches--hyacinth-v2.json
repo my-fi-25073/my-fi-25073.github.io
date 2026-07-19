@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "hyacinth-v2",
   "title": "Hyacinth V2",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★★☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 3,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Hyacinth V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/hyacinth-v2/c8dca06bad7d0bce-0-640.avif",
+          "src": "/media/switches/hyacinth-v2/084ef28ff8d63718-source-gallery-0-8615bbfdad1b-640.avif",
           "width": 640,
           "height": 484
         },
         {
-          "src": "/media/switches/hyacinth-v2/c8dca06bad7d0bce-0-1280.avif",
+          "src": "/media/switches/hyacinth-v2/084ef28ff8d63718-source-gallery-0-8615bbfdad1b-1280.avif",
           "width": 1007,
           "height": 761
         }
@@ -31,17 +49,17 @@
       "alt": "Hyacinth V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/hyacinth-v2/c8dca06bad7d0bce-1-640.avif",
+          "src": "/media/switches/hyacinth-v2/084ef28ff8d63718-source-gallery-1-a58f588dc2d9-640.avif",
           "width": 640,
           "height": 559
         },
         {
-          "src": "/media/switches/hyacinth-v2/c8dca06bad7d0bce-1-1280.avif",
+          "src": "/media/switches/hyacinth-v2/084ef28ff8d63718-source-gallery-1-a58f588dc2d9-1280.avif",
           "width": 1280,
           "height": 1118
         },
         {
-          "src": "/media/switches/hyacinth-v2/c8dca06bad7d0bce-1-2400.avif",
+          "src": "/media/switches/hyacinth-v2/084ef28ff8d63718-source-gallery-1-a58f588dc2d9-2400.avif",
           "width": 1292,
           "height": 1128
         }

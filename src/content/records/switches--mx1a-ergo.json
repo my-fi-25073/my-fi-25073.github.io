@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "mx1a-ergo",
   "title": "MX1A Ergo",
   "category": "switches",
-  "manufacturer": "Cherry",
-  "rating": "☆☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Tactile"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 0,
+      "manufacturer": "Cherry",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Tactile"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 78g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "MX1A Ergo 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-ergo/abbd3c97579ea0bb-0-640.avif",
+          "src": "/media/switches/mx1a-ergo/554bac131b2e2ea5-source-gallery-0-4253100b499f-640.avif",
           "width": 640,
           "height": 365
         },
         {
-          "src": "/media/switches/mx1a-ergo/abbd3c97579ea0bb-0-1280.avif",
+          "src": "/media/switches/mx1a-ergo/554bac131b2e2ea5-source-gallery-0-4253100b499f-1280.avif",
           "width": 1092,
           "height": 622
         }
@@ -31,17 +49,17 @@
       "alt": "MX1A Ergo 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-ergo/abbd3c97579ea0bb-1-640.avif",
+          "src": "/media/switches/mx1a-ergo/554bac131b2e2ea5-source-gallery-1-2a4f0fa300ec-640.avif",
           "width": 640,
           "height": 504
         },
         {
-          "src": "/media/switches/mx1a-ergo/abbd3c97579ea0bb-1-1280.avif",
+          "src": "/media/switches/mx1a-ergo/554bac131b2e2ea5-source-gallery-1-2a4f0fa300ec-1280.avif",
           "width": 1280,
           "height": 1008
         },
         {
-          "src": "/media/switches/mx1a-ergo/abbd3c97579ea0bb-1-2400.avif",
+          "src": "/media/switches/mx1a-ergo/554bac131b2e2ea5-source-gallery-1-2a4f0fa300ec-2400.avif",
           "width": 1429,
           "height": 1125
         }

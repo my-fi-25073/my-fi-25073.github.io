@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "bowl-fade",
   "title": "Bowl Fade",
   "category": "switches",
-  "manufacturer": "Gateron",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Gateron",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 62g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Bowl Fade 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bowl-fade/bed6f69836c01631-0-640.avif",
+          "src": "/media/switches/bowl-fade/3850f8b537f18e5c-source-gallery-0-8e408d2f6e47-640.avif",
           "width": 640,
           "height": 397
         },
         {
-          "src": "/media/switches/bowl-fade/bed6f69836c01631-0-1280.avif",
+          "src": "/media/switches/bowl-fade/3850f8b537f18e5c-source-gallery-0-8e408d2f6e47-1280.avif",
           "width": 923,
           "height": 573
         }
@@ -31,12 +49,12 @@
       "alt": "Bowl Fade 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bowl-fade/bed6f69836c01631-1-640.avif",
+          "src": "/media/switches/bowl-fade/3850f8b537f18e5c-source-gallery-1-cfe31222c6a2-640.avif",
           "width": 640,
           "height": 392
         },
         {
-          "src": "/media/switches/bowl-fade/bed6f69836c01631-1-1280.avif",
+          "src": "/media/switches/bowl-fade/3850f8b537f18e5c-source-gallery-1-cfe31222c6a2-1280.avif",
           "width": 778,
           "height": 477
         }

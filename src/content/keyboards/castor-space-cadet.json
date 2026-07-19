@@ -23,22 +23,29 @@
   "foams": [
     "노폼"
   ],
+  "build": {
+    "label": "2026-05-10",
+    "state": "approved",
+    "startedAt": null,
+    "completedAt": "2026-05-10",
+    "keycaps": []
+  },
   "images": [
     {
       "alt": "Castor Space Cadet 사진 1",
       "variants": [
         {
-          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-640.avif",
+          "src": "/media/keyboards/castor-space-cadet/7e694cd9ea8e531a-source-gallery-0-192f9454f866-640.avif",
           "width": 640,
           "height": 328
         },
         {
-          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-1280.avif",
+          "src": "/media/keyboards/castor-space-cadet/7e694cd9ea8e531a-source-gallery-0-192f9454f866-1280.avif",
           "width": 1280,
           "height": 655
         },
         {
-          "src": "/media/keyboards/castor-space-cadet/e90c0ffa0ee371b3-0-2400.avif",
+          "src": "/media/keyboards/castor-space-cadet/7e694cd9ea8e531a-source-gallery-0-192f9454f866-2400.avif",
           "width": 1338,
           "height": 685
         }

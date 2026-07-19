@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "duck-duck-3-9",
   "title": "Duck Duck 3.9",
   "category": "switches",
-  "manufacturer": "HMX",
-  "rating": "★★☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 2,
+      "manufacturer": "HMX",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 56g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Duck Duck 3.9 사진 1",
       "variants": [
         {
-          "src": "/media/switches/duck-duck-3-9/c5923136d88c8959-0-640.avif",
+          "src": "/media/switches/duck-duck-3-9/a49ad64c1d26a772-source-gallery-0-52055cc0ddac-640.avif",
           "width": 640,
           "height": 437
         },
         {
-          "src": "/media/switches/duck-duck-3-9/c5923136d88c8959-0-1280.avif",
+          "src": "/media/switches/duck-duck-3-9/a49ad64c1d26a772-source-gallery-0-52055cc0ddac-1280.avif",
           "width": 1014,
           "height": 692
         }
@@ -31,17 +49,17 @@
       "alt": "Duck Duck 3.9 사진 2",
       "variants": [
         {
-          "src": "/media/switches/duck-duck-3-9/c5923136d88c8959-1-640.avif",
+          "src": "/media/switches/duck-duck-3-9/a49ad64c1d26a772-source-gallery-1-de91a4f9b735-640.avif",
           "width": 640,
           "height": 669
         },
         {
-          "src": "/media/switches/duck-duck-3-9/c5923136d88c8959-1-1280.avif",
+          "src": "/media/switches/duck-duck-3-9/a49ad64c1d26a772-source-gallery-1-de91a4f9b735-1280.avif",
           "width": 1280,
           "height": 1339
         },
         {
-          "src": "/media/switches/duck-duck-3-9/c5923136d88c8959-1-2400.avif",
+          "src": "/media/switches/duck-duck-3-9/a49ad64c1d26a772-source-gallery-1-de91a4f9b735-2400.avif",
           "width": 1415,
           "height": 1480
         }

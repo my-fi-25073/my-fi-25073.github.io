@@ -8,7 +8,7 @@
   "profile": "PFF",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-24T10:26:41Z",
+  "createdAt": "2026-03-24T10:26:41.055Z",
   "materials": [
     "PBT"
   ],
@@ -31,17 +31,17 @@
           "alt": "PFF Space Cadet Custom Castor Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-640.avif",
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-640.avif",
               "width": 640,
               "height": 394
             },
             {
-              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-1280.avif",
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-1280.avif",
               "width": 1280,
               "height": 788
             },
             {
-              "src": "/media/pff-space-cadet-custom/kit-e6c69ef925b88f22-0-2400.avif",
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-2400.avif",
               "width": 2048,
               "height": 1261
             }
@@ -55,17 +55,17 @@
       "alt": "PFF Space Cadet Custom 이미지 1",
       "variants": [
         {
-          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-640.avif",
+          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-1280.avif",
+          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/pff-space-cadet-custom/series-af76d67c21e4acbd-0-2400.avif",
+          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-2400.avif",
           "width": 1568,
           "height": 1164
         }

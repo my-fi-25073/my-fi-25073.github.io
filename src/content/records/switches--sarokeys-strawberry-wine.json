@@ -1,27 +1,45 @@
 {
   "schemaVersion": 1,
-  "kind": "switch",
+  "kind": "switch-family",
   "slug": "sarokeys-strawberry-wine",
   "title": "Sarokeys Strawberry Wine",
   "category": "switches",
-  "manufacturer": "Bsun",
-  "rating": "★☆☆☆☆",
-  "footprintType": "Cherry MX",
-  "switchTypes": [
-    "Linear"
+  "familyKind": "unclassified",
+  "recipeStatus": "not_assessed",
+  "variants": [
+    {
+      "label": "기본 구성",
+      "reference": true,
+      "rating": 1,
+      "manufacturer": "Bsun",
+      "footprintType": "Cherry MX",
+      "switchTypes": [
+        "Linear"
+      ],
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      }
+    }
   ],
-  "film": null,
+  "parts": [],
   "images": [
     {
       "alt": "Sarokeys Strawberry Wine 사진 1",
       "variants": [
         {
-          "src": "/media/switches/sarokeys-strawberry-wine/b0c4f7fbc2076bd3-0-640.avif",
+          "src": "/media/switches/sarokeys-strawberry-wine/e9a1849cb638cc41-source-gallery-0-7ad58c5fb4af-640.avif",
           "width": 640,
           "height": 465
         },
         {
-          "src": "/media/switches/sarokeys-strawberry-wine/b0c4f7fbc2076bd3-0-1280.avif",
+          "src": "/media/switches/sarokeys-strawberry-wine/e9a1849cb638cc41-source-gallery-0-7ad58c5fb4af-1280.avif",
           "width": 1088,
           "height": 790
         }

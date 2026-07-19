@@ -8,7 +8,7 @@
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:07:00Z",
+  "createdAt": "2026-03-20T18:07:00.002Z",
   "materials": [
     "ABS"
   ],
@@ -29,17 +29,17 @@
           "alt": "Retro Black (Tomak) Base 이미지 1",
           "variants": [
             {
-              "src": "/media/retro-black-tomak/kit-42cca963a7eb8acb-0-640.avif",
+              "src": "/media/retro-black-tomak/kit-c07a9dc0b85fc33d-source-gallery-0-834628af949d-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/retro-black-tomak/kit-42cca963a7eb8acb-0-1280.avif",
+              "src": "/media/retro-black-tomak/kit-c07a9dc0b85fc33d-source-gallery-0-834628af949d-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/retro-black-tomak/kit-42cca963a7eb8acb-0-2400.avif",
+              "src": "/media/retro-black-tomak/kit-c07a9dc0b85fc33d-source-gallery-0-834628af949d-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -53,17 +53,17 @@
       "alt": "Retro Black (Tomak) 이미지 1",
       "variants": [
         {
-          "src": "/media/retro-black-tomak/series-12ad0522af8a1354-0-640.avif",
+          "src": "/media/retro-black-tomak/series-9c6c36b59d09946e-source-gallery-0-f78d9db2341d-640.avif",
           "width": 640,
           "height": 554
         },
         {
-          "src": "/media/retro-black-tomak/series-12ad0522af8a1354-0-1280.avif",
+          "src": "/media/retro-black-tomak/series-9c6c36b59d09946e-source-gallery-0-f78d9db2341d-1280.avif",
           "width": 1280,
           "height": 1107
         },
         {
-          "src": "/media/retro-black-tomak/series-12ad0522af8a1354-0-2400.avif",
+          "src": "/media/retro-black-tomak/series-9c6c36b59d09946e-source-gallery-0-f78d9db2341d-2400.avif",
           "width": 1364,
           "height": 1180
         }

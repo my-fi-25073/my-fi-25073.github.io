@@ -8,7 +8,7 @@
   "profile": "KAM",
   "manufacturingProcess": "Dye Sub",
   "sleeveStatus": "슬리브 있음",
-  "createdAt": "2026-03-20T18:09:54Z",
+  "createdAt": "2026-03-20T18:09:54.216Z",
   "materials": [
     "PBT"
   ],
@@ -31,12 +31,12 @@
           "alt": "Custom Gondola Blue Hangul Gondola Base 이미지 1",
           "variants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-0-640.avif",
+              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-640.avif",
               "width": 640,
               "height": 483
             },
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-0-1280.avif",
+              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-1280.avif",
               "width": 1024,
               "height": 773
             }
@@ -46,12 +46,12 @@
           "alt": "Custom Gondola Blue Hangul Gondola Base 이미지 2",
           "variants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-1-640.avif",
+              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-640.avif",
               "width": 640,
               "height": 483
             },
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-216109612bf5a813-1-1280.avif",
+              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-1280.avif",
               "width": 1024,
               "height": 772
             }
@@ -65,17 +65,17 @@
       "alt": "Custom Gondola Blue Hangul 이미지 1",
       "variants": [
         {
-          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-640.avif",
+          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-1280.avif",
+          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/custom-gondola-blue-hangul/series-150f65aae9021ded-0-2400.avif",
+          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }
