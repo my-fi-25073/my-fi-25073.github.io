@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import TaxonomyNav from '../../components/TaxonomyNav.astro';
 import collectionData from '../../data/collections.json';
+import activityFeed from '../../data/activity.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import {
   recordsForCollectionView,
@@ -10,6 +11,7 @@ import {
 
 const manifest = collectionData as CollectionManifest;
 const keyboards = (await getCollection('keyboards')).map((entry) => entry.data);
+const hasPublishedActivities = activityFeed.activities.length > 0;
 const recaps = [2025, 2024].map((year) => {
   const records = recordsForCollectionView(keyboards, manifest, `recap-${year}-gallery`);
   const months = new Set(records.map((record) => record.lastBuiltAt?.slice(0, 7))).size;
@@ -37,17 +39,18 @@ const recaps = [2025, 2024].map((year) => {
         <span>{recap.year}</span>
         <div>
           <h2>{recap.count}개 빌드</h2>
-          <p>기록이 있는 달 {recap.months}개월 · 월별 갤러리 · 구매처</p>
+          <p>기록이 있는 달 {recap.months}개월</p>
         </div>
         <strong aria-hidden="true">→</strong>
       </a>
     ))}
   </section>
 
-  <section class="recap-log-callout shell" aria-labelledby="practice-log-title">
-    <p class="eyebrow">Activity</p>
-    <h2 id="practice-log-title">작업 기록</h2>
-    <p>제작, 장착, 정비 기록은 날짜순으로 따로 모았습니다.</p>
-    <a href="/activity/">활동 기록 보기 →</a>
-  </section>
+  {hasPublishedActivities && (
+    <section class="recap-log-callout shell" aria-labelledby="practice-log-title">
+      <p class="eyebrow">Activity</p>
+      <h2 id="practice-log-title">작업 기록</h2>
+      <a href="/activity/">활동 기록 보기 →</a>
+    </section>
+  )}
 </SiteLayout>

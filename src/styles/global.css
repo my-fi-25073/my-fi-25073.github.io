@@ -149,7 +149,6 @@ img { display: block; max-width: 100%; }
 .recap-portals a:hover { background: rgba(255,255,255,.52); }
 .recap-portals span { font-family: Georgia, "Times New Roman", serif; font-size: clamp(48px, 7vw, 100px); letter-spacing: -.05em; line-height: 1; }
 .recap-portals strong { margin-top: auto; font-size: 18px; font-weight: 560; }
-.recap-portals small { margin-top: 8px; color: var(--color-muted); font-size: 11px; }
 
 .recap-index { padding-top: 18px; padding-bottom: var(--space-section); }
 .recap-year-card { min-height: clamp(170px, 18vw, 280px); display: grid; grid-template-columns: minmax(150px, .65fr) minmax(0, 1.35fr) auto; align-items: center; gap: clamp(24px, 5vw, 88px); border-bottom: 1px solid var(--color-rule); }
