@@ -8,7 +8,7 @@ const labels = {
   spring: { singular: 'Spring', korean: '스프링', archive: '스프링 아카이브' },
   lubricant: { singular: 'Lubricant', korean: '윤활제', archive: '윤활제 아카이브' },
   vendor: { singular: 'Vendor', korean: '벤더', archive: '벤더 아카이브' },
-  'legacy-keycap': { singular: 'Keycap DB', korean: '기존 키캡', archive: '키캡 아카이브' },
+  'legacy-keycap': { singular: 'Keycap', korean: '키캡', archive: '키캡 아카이브' },
 } as const;
 
 function textField(key: string, label: string, value: string | null | undefined) {
@@ -95,10 +95,10 @@ export function buildDomainFields(record: DomainRecord, compact = false): Displa
 
 export function domainSummary(record: DomainRecord) {
   const label = domainLabels(record).korean;
-  if (record.kind === 'vendor') return `${record.title}의 위치와 공식 링크를 정리한 벤더 기록입니다.`;
-  if (record.kind === 'legacy-keycap') return `${record.title}의 기존 Keycap DB 속성을 보존한 키캡 기록입니다.`;
-  if (record.kind === 'switch-family') return `${record.title} Family의 Variant와 구성 상태를 정리한 스위치 기록입니다.`;
-  return `${record.title}의 주요 속성과 이미지를 정리한 ${label} 기록입니다.`;
+  if (record.kind === 'vendor') return `${record.title}의 위치와 공식 링크입니다.`;
+  if (record.kind === 'legacy-keycap') return `${record.title} 키캡의 기본 정보입니다.`;
+  if (record.kind === 'switch-family') return `${record.title}의 구성과 스위치 사양입니다.`;
+  return `${record.title} ${label}의 기본 정보입니다.`;
 }
 
 export function domainSearchText(record: DomainRecord) {

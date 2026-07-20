@@ -21,7 +21,7 @@ interface Props {
 const { entry } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
-const summary = `${keyboard.title}의 빌드 구성과 사용 기록을 사진 중심으로 정리했습니다.`;
+const summary = '현재 빌드 구성과 사용 기록입니다.';
 ---
 
 <SiteLayout title={keyboard.title} description={`${keyboard.title} 키보드 기록`}>

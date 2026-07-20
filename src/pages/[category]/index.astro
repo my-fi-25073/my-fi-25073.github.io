@@ -24,18 +24,18 @@ const domainRecords = await getCollection('records', (entry) => entry.data.categ
 const referenceCopy = {
   springs: {
     eyebrow: 'Reference · Springs',
-    title: '스프링 사양과 선택 기록.',
-    description: '빌드와 스위치 구성에서 참조하는 스프링을 제조사, 압력, 길이 기준으로 정리합니다.',
+    title: '스프링',
+    description: '사용 중인 스프링을 제조사, 압력, 길이별로 정리했습니다.',
   },
   lubricants: {
     eyebrow: 'Reference · Lubricants',
-    title: '윤활제와 용도 기록.',
-    description: '스위치와 스프링 작업에 사용한 윤활제를 타입과 제조사 기준으로 정리합니다.',
+    title: '윤활제',
+    description: '스위치와 스프링 작업에 사용한 윤활제를 타입과 제조사별로 정리했습니다.',
   },
   vendors: {
     eyebrow: 'Reference · Vendors',
-    title: '제작과 구매의 연결점.',
-    description: 'Keyboard와 Recap에서 연결되는 Vendor의 위치와 공식 링크를 모았습니다.',
+    title: '구매처',
+    description: '키보드와 부품을 구매하거나 제작을 맡긴 업체의 위치와 공식 링크를 모았습니다.',
   },
 } as const;
 ---

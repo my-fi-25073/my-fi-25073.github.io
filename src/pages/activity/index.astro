@@ -43,10 +43,10 @@ const formatDate = (value: string) => new Intl.DateTimeFormat('ko-KR', {
   description="키보드를 만들고 바꾸고 관리한 공개 활동 기록"
 >
   <section class="archive-intro shell" aria-labelledby="activity-title">
-    <p class="eyebrow">Practice log, 2024—</p>
-    <h1 id="activity-title">만들고 바꾼<br />시간의 기록.</h1>
+    <p class="eyebrow">Activity</p>
+    <h1 id="activity-title">활동 기록</h1>
     <p class="archive-description">
-      명시적으로 공개한 제작, 장착, 정비 기록만 시간순으로 정리합니다.
+      공개한 제작, 장착, 정비 기록을 날짜순으로 모았습니다.
     </p>
   </section>
 
@@ -59,7 +59,7 @@ const formatDate = (value: string) => new Intl.DateTimeFormat('ko-KR', {
     {activities.length === 0 ? (
       <div class="activity-feed-empty">
         <p>아직 공개한 활동 기록이 없습니다.</p>
-        <span>Studio에서 PUBLIC으로 지정한 기록만 이곳에 표시됩니다.</span>
+        <span>공개할 기록을 추가하면 이곳에 표시됩니다.</span>
       </div>
     ) : (
       <ol>

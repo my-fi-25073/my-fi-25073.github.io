@@ -21,7 +21,7 @@ interface Props {
 
 const { entry } = Astro.props;
 const gallery = entry.data;
-const summary = `${gallery.title} 키캡 시리즈의 구성과 보관 상태를 사진 중심으로 정리한 기록입니다.`;
+const summary = '키캡 시리즈 구성과 보관 기록입니다.';
 const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
 ---
 

@@ -34,10 +34,10 @@ const filters = [
 
 <SiteLayout title="키보드 아카이브">
   <section class="archive-intro shell" aria-labelledby="keyboard-title">
-    <p class="eyebrow">Completed builds, 2024—</p>
-    <h1 id="keyboard-title">완성한 빌드를<br />최근 순서대로.</h1>
+    <p class="eyebrow">Keyboard</p>
+    <h1 id="keyboard-title">키보드</h1>
     <p class="archive-description">
-      빌드 완료 상태만 공개하며, Types와 Layouts는 같은 키보드 기록을 목적에 맞게 다시 보는 View입니다.
+      완성한 빌드를 최근 작업일 순으로 정리했습니다. 유형과 배열별로 볼 수 있습니다.
     </p>
   </section>
 
@@ -46,7 +46,7 @@ const filters = [
     <p class="archive-count">{records.length} completed builds</p>
   </div>
 
-  <CollectionFilter groups={filters} defaultGroup="all" label="Keyboard views" />
+  <CollectionFilter groups={filters} defaultGroup="all" label="키보드 분류" />
   <ArchiveSearch />
 
   <section class="gallery-grid shell" aria-label="완성한 키보드 빌드">

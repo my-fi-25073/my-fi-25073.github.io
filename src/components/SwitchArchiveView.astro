@@ -38,10 +38,10 @@ if (!defaultGroup) throw new Error('Switch Collection View has no visible groups
 ---
 
 <section class="archive-intro shell" aria-labelledby="switch-title">
-  <p class="eyebrow">Families, variants, recipes</p>
-  <h1 id="switch-title">제조사와 평가로 보고,<br />프랑켄은 따로.</h1>
+  <p class="eyebrow">Switch</p>
+  <h1 id="switch-title">스위치</h1>
   <p class="archive-description">
-    공개 단위는 Switch Family입니다. Variant의 제조사와 평가로 탐색하고, 직접 조합한 Franken Recipe는 별도 영역에 둡니다.
+    스위치 패밀리를 제조사와 평점별로 정리했습니다. 직접 조합한 스위치는 Franken Recipes에 따로 모았습니다.
   </p>
 </section>
 
@@ -50,7 +50,7 @@ if (!defaultGroup) throw new Error('Switch Collection View has no visible groups
   <p class="archive-count">{switches.length} families · {frankenRecipes.length} Franken</p>
 </div>
 
-<CollectionFilter groups={groups} defaultGroup={defaultGroup} label="Switch views" />
+<CollectionFilter groups={groups} defaultGroup={defaultGroup} label="스위치 분류" />
 <ArchiveSearch />
 
 <div class="archive-sections">
