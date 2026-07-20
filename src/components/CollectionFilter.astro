@@ -44,7 +44,18 @@ const labelId = `collection-filter-${defaultGroup}`;
   for (const root of document.querySelectorAll<HTMLElement>('[data-collection-filter]')) {
     const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-collection-filter-button]')];
     const cards = [...document.querySelectorAll<HTMLElement>('[data-archive-card]')];
-    const apply = (groupId: string) => {
+    const validGroupIds = new Set(buttons.map((button) => button.dataset.collectionFilterButton));
+    const defaultGroup = root.dataset.defaultGroup ?? 'all';
+    const requestedGroup = new URL(window.location.href).searchParams.get('collection');
+    const initialGroup = requestedGroup && validGroupIds.has(requestedGroup)
+      ? requestedGroup
+      : defaultGroup;
+    if (requestedGroup && !validGroupIds.has(requestedGroup)) {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('collection');
+      window.history.replaceState(null, '', url);
+    }
+    const apply = (groupId: string, updateUrl = false) => {
       for (const button of buttons) {
         const active = button.dataset.collectionFilterButton === groupId;
         button.classList.toggle('is-active', active);
@@ -63,11 +74,20 @@ const labelId = `collection-filter-${defaultGroup}`;
         }
         card.dataset.groupMatch = String(groupId === 'all' || groups.includes(groupId));
       }
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        if (groupId === defaultGroup) url.searchParams.delete('collection');
+        else url.searchParams.set('collection', groupId);
+        window.history.replaceState(null, '', url);
+      }
       window.dispatchEvent(new CustomEvent('keylog:group-filter'));
     };
     for (const button of buttons) {
-      button.addEventListener('click', () => apply(button.dataset.collectionFilterButton ?? 'all'));
+      button.addEventListener('click', () => {
+        const groupId = button.dataset.collectionFilterButton;
+        if (groupId && validGroupIds.has(groupId)) apply(groupId, true);
+      });
     }
-    apply(root.dataset.defaultGroup ?? 'all');
+    apply(initialGroup);
   }
 </script>
