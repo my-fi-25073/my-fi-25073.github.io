@@ -26,13 +26,13 @@ const typeGroups = groupsWithCounts(records, manifest, ['keyboard-types'])
 const layoutGroups = groupsWithCounts(records, manifest, ['keyboard-layouts'])
   .map((group) => ({ ...group, label: `Layout · ${group.label}` }));
 const filters = [
-  { id: 'all', label: 'Latest Builds', count: records.length },
+  { id: 'all', label: '최근 빌드', count: records.length },
   ...typeGroups,
   ...layoutGroups,
 ];
 ---
 
-<SiteLayout title="키보드 아카이브">
+<SiteLayout title="Keyboard">
   <section class="archive-intro shell" aria-labelledby="keyboard-title">
     <p class="eyebrow">Keyboard</p>
     <h1 id="keyboard-title">키보드</h1>
@@ -43,7 +43,7 @@ const filters = [
 
   <div class="shell archive-controls">
     <TaxonomyNav current="keyboards" />
-    <p class="archive-count">{records.length} completed builds</p>
+    <p class="archive-count">{records.length}개 빌드</p>
   </div>
 
   <CollectionFilter groups={filters} defaultGroup="all" label="키보드 분류" />

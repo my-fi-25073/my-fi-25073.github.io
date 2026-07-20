@@ -28,7 +28,7 @@ const recaps = [2025, 2024].map((year) => {
 
   <div class="shell archive-controls">
     <TaxonomyNav current="recap" />
-    <p class="archive-count">{recaps.length} yearly recaps</p>
+    <p class="archive-count">{recaps.length}개 연도</p>
   </div>
 
   <section class="recap-index shell" aria-label="연도별 Recap">
@@ -36,7 +36,7 @@ const recaps = [2025, 2024].map((year) => {
       <a href={`/recap/${recap.year}/`} class="recap-year-card">
         <span>{recap.year}</span>
         <div>
-          <h2>{recap.count} builds</h2>
+          <h2>{recap.count}개 빌드</h2>
           <p>기록이 있는 달 {recap.months}개월 · 월별 갤러리 · 구매처</p>
         </div>
         <strong aria-hidden="true">→</strong>

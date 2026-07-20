@@ -6,9 +6,9 @@ import ReferenceArchiveView from '../../components/ReferenceArchiveView.astro';
 
 export async function getStaticPaths() {
   const categories = [
-    ['switches', '스위치 아카이브'],
-    ['springs', '스프링 아카이브'],
-    ['lubricants', '윤활제 아카이브'],
+    ['switches', 'Switch'],
+    ['springs', 'Springs'],
+    ['lubricants', 'Lubricants'],
     ['vendors', 'Vendors'],
   ] as const;
   return categories.map(([category, title]) => ({

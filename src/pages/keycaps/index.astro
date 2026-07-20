@@ -26,7 +26,7 @@ const defaultGroup = groups[0]?.id;
 if (!defaultGroup) throw new Error('Keycap Collection View has no visible groups.');
 ---
 
-<SiteLayout title="키캡 아카이브">
+<SiteLayout title="Keycap">
   <section class="archive-intro shell" aria-labelledby="keycap-title">
     <p class="eyebrow">Keycap</p>
     <h1 id="keycap-title">키캡</h1>
@@ -37,7 +37,7 @@ if (!defaultGroup) throw new Error('Keycap Collection View has no visible groups
 
   <div class="shell archive-controls">
     <TaxonomyNav current="keycaps" />
-    <p class="archive-count">{groups.length} collections · {records.length} series</p>
+    <p class="archive-count">{groups.length}개 컬렉션 · {records.length}개 시리즈</p>
   </div>
 
   <CollectionFilter groups={groups} defaultGroup={defaultGroup} label="키캡 분류" />

@@ -27,16 +27,16 @@ const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
 
 <SiteLayout title={gallery.title} description={`${gallery.title} 키캡 시리즈 기록`}>
   <article class="detail shell">
-    <a class="back-link" href="/">← 전체 아카이브</a>
+    <a class="back-link" href="/keycaps/">← Keycap</a>
     <header class="detail-header">
-      <p class="eyebrow">Keycap series</p>
+      <p class="eyebrow">Keycap</p>
       <h1>{gallery.title}</h1>
       <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="series-properties-heading">
       <div class="section-heading">
-        <h2 id="series-properties-heading">Details</h2>
+        <h2 id="series-properties-heading">상세 정보</h2>
       </div>
       <DisplayFields fields={detailFields} variant="detail" />
     </section>
@@ -45,8 +45,8 @@ const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
 
     {gallery.images.length > 0 && <section class="record-section" aria-labelledby="image-heading">
       <div class="section-heading">
-        <h2 id="image-heading">Images</h2>
-        <p>{gallery.images.length} published</p>
+        <h2 id="image-heading">사진</h2>
+        <p>{gallery.images.length}장</p>
       </div>
       <div class="detail-images">
           {gallery.images.map((item, index) => {

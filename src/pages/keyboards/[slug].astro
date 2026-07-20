@@ -26,16 +26,16 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
 
 <SiteLayout title={keyboard.title} description={`${keyboard.title} 키보드 기록`}>
   <article class="detail shell">
-    <a class="back-link" href="/keyboards/">← 키보드 아카이브</a>
+    <a class="back-link" href="/keyboards/">← Keyboard</a>
     <header class="detail-header">
-      <p class="eyebrow">Keyboard build</p>
+      <p class="eyebrow">Keyboard</p>
       <h1>{keyboard.title}</h1>
       <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="keyboard-properties-heading">
       <div class="section-heading">
-        <h2 id="keyboard-properties-heading">Build details</h2>
+        <h2 id="keyboard-properties-heading">빌드 정보</h2>
       </div>
       <DisplayFields fields={fields} variant="detail" />
     </section>
@@ -43,8 +43,8 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
     {keyboard.build.keycaps.length > 0 && (
       <section class="record-section build-keycaps" aria-labelledby="keyboard-keycaps-heading">
         <div class="section-heading">
-          <h2 id="keyboard-keycaps-heading">Current Keycaps</h2>
-          <p>{keyboard.build.keycaps.length} mounted</p>
+          <h2 id="keyboard-keycaps-heading">현재 키캡</h2>
+          <p>{keyboard.build.keycaps.length}개</p>
         </div>
         <ul>
           {keyboard.build.keycaps.map((keycap) => (
@@ -61,8 +61,8 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
     {keyboard.build.switches.length > 0 && (
       <section class="record-section build-keycaps" aria-labelledby="keyboard-switches-heading">
         <div class="section-heading">
-          <h2 id="keyboard-switches-heading">Current Switches</h2>
-          <p>{keyboard.build.switches.length} families</p>
+          <h2 id="keyboard-switches-heading">현재 스위치</h2>
+          <p>{keyboard.build.switches.length}개</p>
         </div>
         <ul>
           {keyboard.build.switches.map((item) => (
@@ -79,7 +79,7 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
       <section class="record-section build-keycaps" aria-labelledby="keyboard-vendors-heading">
         <div class="section-heading">
           <h2 id="keyboard-vendors-heading">Vendors</h2>
-          <p>{keyboard.build.vendors.length} related</p>
+          <p>{keyboard.build.vendors.length}개</p>
         </div>
         <ul>
           {keyboard.build.vendors.map((item) => (
@@ -94,8 +94,8 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
 
     <section class="record-section" aria-labelledby="keyboard-images-heading">
       <div class="section-heading">
-        <h2 id="keyboard-images-heading">Images</h2>
-        <p>{keyboard.images.length} published</p>
+        <h2 id="keyboard-images-heading">사진</h2>
+        <p>{keyboard.images.length}장</p>
       </div>
       <div class="detail-images keyboard-images">
         {keyboard.images.map((item, index) => {

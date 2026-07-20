@@ -55,7 +55,7 @@ const formatDate = (value: string | null) => value
 <SiteLayout title={`${year} Recap`}>
   <section class="archive-intro recap-intro shell" aria-labelledby="recap-year-title">
     <p class="eyebrow">My-Fi Recap</p>
-    <h1 id="recap-year-title" aria-label={`${year}, ${records.length} builds`}>{year}<br />{records.length} builds.</h1>
+    <h1 id="recap-year-title" aria-label={`${year}년, ${records.length}개 빌드`}>{year}<br />{records.length}개 빌드</h1>
     <p class="archive-description">
       {year}년에 완성한 키보드 {records.length}개를 월별로 정리했습니다.
     </p>
@@ -63,13 +63,13 @@ const formatDate = (value: string | null) => value
 
   <div class="shell archive-controls">
     <TaxonomyNav current="recap" />
-    <p class="archive-count">{activeMonths.length} active months</p>
+    <p class="archive-count">기록이 있는 달 {activeMonths.length}개월</p>
   </div>
 
   <section class="recap-chart shell" aria-labelledby="monthly-count-title">
     <div class="section-heading">
-      <h2 id="monthly-count-title">Monthly Count</h2>
-      <p>{records.length} total</p>
+      <h2 id="monthly-count-title">월별 빌드</h2>
+      <p>{records.length}개</p>
     </div>
     <div class="recap-bars" aria-hidden="true">
       {months.map((month) => (
@@ -97,7 +97,7 @@ const formatDate = (value: string | null) => value
       <section class="archive-section shell" aria-labelledby={`month-${month.month}`} data-archive-group>
         <div class="section-heading">
           <h2 id={`month-${month.month}`}>{month.label}</h2>
-          <p>{month.records.length} builds</p>
+          <p>{month.records.length}개</p>
         </div>
         <div class="gallery-grid archive-section-grid">
           {month.records.map((keyboard, index) => {
@@ -113,7 +113,6 @@ const formatDate = (value: string | null) => value
   <section class="recap-timeline shell" aria-labelledby="vendor-timeline-title">
     <div class="section-heading">
       <h2 id="vendor-timeline-title">Vendor Timeline</h2>
-      <p>Chronology</p>
     </div>
     <ol>
       {chronology.map((keyboard) => (

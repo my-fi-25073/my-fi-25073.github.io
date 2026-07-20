@@ -44,14 +44,14 @@ const springResolutionLabels = {
   <article class="detail shell">
     <a class="back-link" href={`/${record.category}/`}>← {labels.archive}</a>
     <header class="detail-header">
-      <p class="eyebrow">{labels.singular} record</p>
+      <p class="eyebrow">{labels.singular}</p>
       <h1>{record.title}</h1>
       <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="domain-properties-heading">
       <div class="section-heading">
-        <h2 id="domain-properties-heading">Details</h2>
+        <h2 id="domain-properties-heading">상세 정보</h2>
       </div>
       <DisplayFields fields={fields} variant="detail" />
     </section>
@@ -60,7 +60,7 @@ const springResolutionLabels = {
       <section class="record-section switch-variants" aria-labelledby="switch-variants-heading">
         <div class="section-heading">
           <h2 id="switch-variants-heading">Variants</h2>
-          <p>{record.variants.length} configurations</p>
+          <p>{record.variants.length}개 구성</p>
         </div>
         <div class="switch-variant-grid">
           {record.variants.map((variant) => (
@@ -103,7 +103,7 @@ const springResolutionLabels = {
     {record.kind === 'vendor' && record.links.length > 0 && (
       <section class="record-section vendor-links" aria-labelledby="vendor-links-heading">
         <div class="section-heading">
-          <h2 id="vendor-links-heading">Links</h2>
+          <h2 id="vendor-links-heading">링크</h2>
         </div>
         <ul>
           {record.links.map((link) => (
@@ -116,8 +116,8 @@ const springResolutionLabels = {
     {record.images.length > 0 && (
       <section class="record-section" aria-labelledby="domain-images-heading">
         <div class="section-heading">
-          <h2 id="domain-images-heading">Images</h2>
-          <p>{record.images.length} published</p>
+          <h2 id="domain-images-heading">사진</h2>
+          <p>{record.images.length}장</p>
         </div>
         <div class="detail-images domain-images">
           {record.images.map((item, index) => {

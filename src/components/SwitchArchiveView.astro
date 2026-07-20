@@ -47,7 +47,7 @@ if (!defaultGroup) throw new Error('Switch Collection View has no visible groups
 
 <div class="shell archive-controls">
   <TaxonomyNav current="switches" />
-  <p class="archive-count">{switches.length} families · {frankenRecipes.length} Franken</p>
+  <p class="archive-count">{switches.length}개 패밀리 · Franken {frankenRecipes.length}개</p>
 </div>
 
 <CollectionFilter groups={groups} defaultGroup={defaultGroup} label="스위치 분류" />
@@ -57,7 +57,7 @@ if (!defaultGroup) throw new Error('Switch Collection View has no visible groups
   <section class="archive-section shell" aria-labelledby="switch-collection-heading" data-archive-group>
     <div class="section-heading">
       <h2 id="switch-collection-heading">Switch Families</h2>
-      <p>Maker / Rating</p>
+      <p>제조사 · 평점</p>
     </div>
     <div class="gallery-grid archive-section-grid" aria-label="스위치 Family 목록">
       {switches.map((record, index) => (
@@ -75,7 +75,7 @@ if (!defaultGroup) throw new Error('Switch Collection View has no visible groups
     <section class="archive-section shell" aria-labelledby="franken-collection-heading" data-archive-group>
       <div class="section-heading">
         <h2 id="franken-collection-heading">Franken Recipes</h2>
-        <p>{frankenRecipes.length} recipes</p>
+        <p>{frankenRecipes.length}개</p>
       </div>
       <div class="gallery-grid archive-section-grid" aria-label="프랑켄 스위치 레시피 목록">
         {frankenRecipes.map((record, index) => (

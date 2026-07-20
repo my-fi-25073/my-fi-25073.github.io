@@ -33,7 +33,7 @@ const { seriesTitle, kits } = Astro.props;
 <section class="kit-gallery-section record-section" aria-labelledby="kit-gallery-heading">
   <div class="section-heading">
     <h2 id="kit-gallery-heading">Kits</h2>
-    <p>{kits.length} recorded</p>
+    <p>{kits.length}개</p>
   </div>
   <div class="kit-gallery">
     {kits.map((kit, index) => {
@@ -74,7 +74,7 @@ const { seriesTitle, kits } = Astro.props;
                     </button>
                   );
                 })}
-                {kit.images.length > 1 && <span class="kit-image-count">{kit.images.length} photos</span>}
+                {kit.images.length > 1 && <span class="kit-image-count">{kit.images.length}장</span>}
               </div>
             ) : (
               <div class="kit-placeholder" aria-label="킷 이미지 연결 전">
