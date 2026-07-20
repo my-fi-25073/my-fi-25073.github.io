@@ -77,6 +77,9 @@ img { display: block; max-width: 100%; }
 .archive-search-line p { min-width: 72px; margin: 0 0 0 auto; color: var(--color-muted); font-size: 11px; text-align: right; }
 
 .gallery-grid { display: grid; grid-template-columns: 1fr; gap: 18px; padding-top: 18px; padding-bottom: 120px; }
+.archive-sections { padding-top: 18px; padding-bottom: 120px; }
+.archive-section + .archive-section { margin-top: 80px; }
+.archive-section-grid { padding-inline: 0; padding-bottom: 0; }
 .gallery-card { content-visibility: auto; contain-intrinsic-size: auto 420px; opacity: 0; animation: card-in 480ms cubic-bezier(.2,.7,.2,1) forwards; animation-delay: calc(var(--card-index) * 70ms); }
 .gallery-card-link { display: block; height: 100%; overflow: hidden; border: 1px solid var(--color-rule); border-radius: 4px; background: rgba(255, 255, 255, .38); transition: border-color 180ms ease, background-color 180ms ease, transform 180ms ease; }
 .gallery-card-link:hover { border-color: #9c988f; background: rgba(255, 255, 255, .62); transform: translateY(-3px); }
@@ -90,6 +93,9 @@ img { display: block; max-width: 100%; }
 .placeholder-number { top: 16px; left: 16px; }
 .placeholder-label { right: 16px; bottom: 16px; color: #f4f2ed; text-transform: uppercase; }
 .placeholder-monogram { position: absolute; inset: 0; display: grid; place-items: center; color: rgba(23,23,22,.78); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 420; letter-spacing: -.12em; text-transform: uppercase; }
+.placeholder-art.is-franken-recipe { background: linear-gradient(145deg, #e5e1d8, #d2cdc2); }
+.placeholder-art.is-franken-recipe .placeholder-monogram { font-size: clamp(1.35rem, 2.4vw, 2.2rem); letter-spacing: .12em; }
+.placeholder-art.is-franken-recipe .placeholder-label { color: var(--color-muted); }
 .domain-card:not(.has-image) .placeholder-art { background: #e5e2db; }
 .domain-card:not(.has-image) .placeholder-art::after { width: 54%; right: -7%; top: -34%; border-color: rgba(23,23,22,.16); }
 .domain-card:not(.has-image) .placeholder-label { color: var(--color-muted); }
@@ -99,7 +105,7 @@ img { display: block; max-width: 100%; }
 .gallery-card-copy { padding: 16px 14px 15px; }
 .card-kind { margin: 0 0 7px; color: var(--color-muted); font-size: 9px; font-weight: 620; letter-spacing: .1em; text-transform: uppercase; }
 .gallery-card-titleline, .kit-card-titleline { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
-.gallery-card-copy h2 { margin: 0; font-size: 17px; font-weight: 640; letter-spacing: -.015em; line-height: 1.25; }
+.gallery-card-copy h2, .gallery-card-copy h3 { margin: 0; font-size: 17px; font-weight: 640; letter-spacing: -.015em; line-height: 1.25; }
 .record-number { flex: 0 0 auto; color: #918e86; font-size: 10px; font-variant-numeric: tabular-nums; letter-spacing: .1em; }
 .display-fields { margin: 0; }
 .display-field { min-width: 0; }

@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import ArchiveView from '../../components/ArchiveView.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import SwitchArchiveView from '../../components/SwitchArchiveView.astro';
 
 export async function getStaticPaths() {
   const categories = [
@@ -28,10 +29,14 @@ const domainRecords = await getCollection('records', (entry) => entry.data.categ
 ---
 
 <SiteLayout title={title}>
-  <ArchiveView
-    current={category}
-    keycaps={[]}
-    keyboards={[]}
-    domainRecords={domainRecords}
-  />
+  {category === 'switches' ? (
+    <SwitchArchiveView records={domainRecords} />
+  ) : (
+    <ArchiveView
+      current={category}
+      keycaps={[]}
+      keyboards={[]}
+      domainRecords={domainRecords}
+    />
+  )}
 </SiteLayout>

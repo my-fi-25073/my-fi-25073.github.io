@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "bd9719b231e389cde13481ed7d8c912ae3ae9c5ead415848e894afd612e593db",
+  "releaseId": "bfb4c74c1f396a262dfe69f751230eae53fc1cfd5db9b46b03c7c2af54a2edd7",
   "files": [
     {
       "path": "content/gallery/800.json",
@@ -2205,7 +2205,7 @@
     {
       "path": "content/records/switches--jieum-v2.json",
       "bytes": 1691,
-      "sha256": "7f45f8ddc355e96ced1447bff711ebfc89bcee483ceee5785f2ad61d2edfbeb1"
+      "sha256": "303d5c004edcaa58cefaa510005275ceae5cbbe02e067b8f62fd279c40814f66"
     },
     {
       "path": "content/records/switches--kailh-ulp-tactile.json",
@@ -2879,13 +2879,8 @@
     },
     {
       "path": "content/records/switches--용신음.json",
-      "bytes": 820,
-      "sha256": "b678a8d864de1df43e0c295867e80f92764319ff08f5e256cced8f8ba190e14f"
-    },
-    {
-      "path": "content/records/switches--지음.json",
-      "bytes": 234,
-      "sha256": "0642199ba6368b7324c855e3289974e51b99c1bd5d828d4fe52da4eb0bc0cbd1"
+      "bytes": 822,
+      "sha256": "9ec45c927bae328b401e8a8449bfe1a80e5232d225f9c98de671e3552f6f675e"
     },
     {
       "path": "content/records/vendors--ashkeebs.json",
@@ -11943,27 +11938,27 @@
       "sha256": "9a1d084b0d77fad81312a1a9c95f1df439391ebf0c2627744d3e1184f87afdd6"
     },
     {
-      "path": "media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-0-11972982c0f7-1280.avif",
+      "path": "media/switches/jieum-v2/26090f1c6b71e694-source-gallery-0-11972982c0f7-1280.avif",
       "bytes": 11673,
       "sha256": "cc5b76fae53a6efbf3ddeae2986fc4e7e3ab8d092507a3c7727d26f928f04a7c"
     },
     {
-      "path": "media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-0-11972982c0f7-640.avif",
+      "path": "media/switches/jieum-v2/26090f1c6b71e694-source-gallery-0-11972982c0f7-640.avif",
       "bytes": 6458,
       "sha256": "c407090a3fafe052242a005a041a7b55dfb814964c30a01ea36efb53e036296a"
     },
     {
-      "path": "media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-1280.avif",
+      "path": "media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-1280.avif",
       "bytes": 24148,
       "sha256": "300f1d86c0e854c2a036a8b9e34b57bf9881f4e31aeba03454930f92fa0ceae4"
     },
     {
-      "path": "media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-2400.avif",
+      "path": "media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-2400.avif",
       "bytes": 25066,
       "sha256": "2c1ba4cdfb3017c8d8e2da9feb441de58c7eafd3a41c9b193505b77184003382"
     },
     {
-      "path": "media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-640.avif",
+      "path": "media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-640.avif",
       "bytes": 13817,
       "sha256": "604ababf2705669df31e7e0c8d480f4fa1638c8c9cedf33c5e8898c6821d91f9"
     },

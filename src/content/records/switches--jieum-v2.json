@@ -4,8 +4,8 @@
   "slug": "jieum-v2",
   "title": "Jieum V2",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
+  "familyKind": "commercial",
+  "recipeStatus": "not_applicable",
   "variants": [
     {
       "label": "기본 구성",
@@ -34,12 +34,12 @@
       "alt": "Jieum V2 사진 1",
       "variants": [
         {
-          "src": "/media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-0-11972982c0f7-640.avif",
+          "src": "/media/switches/jieum-v2/26090f1c6b71e694-source-gallery-0-11972982c0f7-640.avif",
           "width": 640,
           "height": 401
         },
         {
-          "src": "/media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-0-11972982c0f7-1280.avif",
+          "src": "/media/switches/jieum-v2/26090f1c6b71e694-source-gallery-0-11972982c0f7-1280.avif",
           "width": 1084,
           "height": 680
         }
@@ -49,17 +49,17 @@
       "alt": "Jieum V2 사진 2",
       "variants": [
         {
-          "src": "/media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-640.avif",
+          "src": "/media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-640.avif",
           "width": 640,
           "height": 742
         },
         {
-          "src": "/media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-1280.avif",
+          "src": "/media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-1280.avif",
           "width": 1280,
           "height": 1483
         },
         {
-          "src": "/media/switches/jieum-v2/802cf5293cc8fa40-source-gallery-1-74e9951f83bc-2400.avif",
+          "src": "/media/switches/jieum-v2/26090f1c6b71e694-source-gallery-1-74e9951f83bc-2400.avif",
           "width": 1311,
           "height": 1519
         }

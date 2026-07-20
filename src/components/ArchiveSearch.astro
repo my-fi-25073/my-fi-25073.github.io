@@ -16,6 +16,7 @@
   const input = document.querySelector<HTMLInputElement>('[data-archive-search]');
   const result = document.querySelector<HTMLElement>('[data-search-result]');
   const cards = [...document.querySelectorAll<HTMLElement>('[data-archive-card]')];
+  const groups = [...document.querySelectorAll<HTMLElement>('[data-archive-group]')];
   if (input && result) {
     const update = () => {
       const query = input.value.trim().toLocaleLowerCase('ko');
@@ -24,6 +25,10 @@
         const matches = !query || (card.dataset.search ?? '').includes(query);
         card.hidden = !matches;
         if (matches) visible += 1;
+      }
+      for (const group of groups) {
+        const groupCards = [...group.querySelectorAll<HTMLElement>('[data-archive-card]')];
+        group.hidden = Boolean(query) && groupCards.every((card) => card.hidden);
       }
       result.textContent = query ? `${visible}개 결과` : '';
     };

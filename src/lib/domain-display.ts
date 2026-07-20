@@ -26,6 +26,20 @@ export function domainLabels(record: DomainRecord) {
 
 export function buildDomainFields(record: DomainRecord, compact = false): DisplayField[] {
   if (record.kind === 'switch-family') {
+    if (compact && record.familyKind === 'franken') {
+      const recipeStatus = {
+        not_applicable: '해당 없음',
+        not_assessed: '검토 전',
+        unresolved: '미해결',
+        complete: '완성',
+      }[record.recipeStatus];
+      return [
+        ...textField('recipeStatus', '레시피', recipeStatus),
+        ...(record.parts.length > 0
+          ? [{ key: 'donors', label: 'Donor', value: record.parts.map((part) => part.donor).join(' · ') }]
+          : []),
+      ];
+    }
     const familyKind = {
       commercial: '기성',
       franken: '프랑켄',
