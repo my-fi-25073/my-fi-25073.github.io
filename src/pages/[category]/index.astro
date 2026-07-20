@@ -9,7 +9,7 @@ export async function getStaticPaths() {
     ['switches', '스위치 아카이브'],
     ['springs', '스프링 아카이브'],
     ['lubricants', '윤활제 아카이브'],
-    ['vendors', '벤더 아카이브'],
+    ['vendors', 'Vendors'],
   ] as const;
   return categories.map(([category, title]) => ({
     params: { category },
@@ -34,8 +34,8 @@ const referenceCopy = {
   },
   vendors: {
     eyebrow: 'Reference · Vendors',
-    title: '구매처',
-    description: '키보드와 부품을 구매하거나 제작을 맡긴 업체의 위치와 공식 링크를 모았습니다.',
+    title: 'Vendors',
+    description: '위치 · 공식 링크',
   },
 } as const;
 ---

@@ -7,7 +7,7 @@ const labels = {
   'switch-family': { singular: 'Switch Family', korean: '스위치', archive: '스위치 아카이브' },
   spring: { singular: 'Spring', korean: '스프링', archive: '스프링 아카이브' },
   lubricant: { singular: 'Lubricant', korean: '윤활제', archive: '윤활제 아카이브' },
-  vendor: { singular: 'Vendor', korean: '벤더', archive: '벤더 아카이브' },
+  vendor: { singular: 'Vendor', korean: '벤더', archive: 'Vendors' },
   'legacy-keycap': { singular: 'Keycap', korean: '키캡', archive: '키캡 아카이브' },
 } as const;
 
