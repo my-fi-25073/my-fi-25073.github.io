@@ -202,7 +202,6 @@ img { display: block; max-width: 100%; }
 .back-link { display: inline-flex; min-height: 44px; align-items: center; color: var(--color-muted); font-size: 13px; }
 .detail-header { padding-top: clamp(44px, 6vw, 84px); padding-bottom: clamp(44px, 5vw, 72px); }
 .detail-header h1 { font-size: clamp(3rem, 6vw, 6rem); }
-.detail-summary { max-width: 620px; margin: 34px 0 0 auto; color: var(--color-muted); font-size: 16px; line-height: 1.7; }
 .record-section { margin-top: 80px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 14px; border-bottom: 1px solid var(--color-text); }
 .section-heading h2 { margin: 0; font-size: 18px; font-weight: 600; }
@@ -306,7 +305,6 @@ img { display: block; max-width: 100%; }
   .recap-year-card > strong { grid-column: 2; grid-row: 1; }
   .recap-bars { gap: 4px; }
   .recap-timeline li { grid-template-columns: 1fr; gap: 7px; padding: 18px 0; }
-  .detail-summary { margin-left: 0; }
   .record-section { margin-top: 72px; }
   .kit-gallery { grid-template-columns: 1fr; }
   .detail-images { gap: 32px; }

@@ -21,7 +21,6 @@ interface Props {
 const { entry } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
-const summary = '현재 빌드 구성과 사용 기록입니다.';
 ---
 
 <SiteLayout title={keyboard.title} description={`${keyboard.title} 키보드 기록`}>
@@ -30,7 +29,6 @@ const summary = '현재 빌드 구성과 사용 기록입니다.';
     <header class="detail-header">
       <p class="eyebrow">Keyboard</p>
       <h1>{keyboard.title}</h1>
-      <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="keyboard-properties-heading">

@@ -21,7 +21,6 @@ interface Props {
 
 const { entry } = Astro.props;
 const gallery = entry.data;
-const summary = '키캡 시리즈 구성과 보관 기록입니다.';
 const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
 ---
 
@@ -31,7 +30,6 @@ const detailFields = buildSeriesFields(gallery, galleryDisplay.seriesDetail);
     <header class="detail-header">
       <p class="eyebrow">Keycap</p>
       <h1>{gallery.title}</h1>
-      <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="series-properties-heading">

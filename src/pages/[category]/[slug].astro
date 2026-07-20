@@ -7,7 +7,6 @@ import SiteLayout from '../../layouts/SiteLayout.astro';
 import {
   buildDomainFields,
   domainLabels,
-  domainSummary,
 } from '../../lib/domain-display';
 
 export async function getStaticPaths() {
@@ -26,7 +25,6 @@ const { entry } = Astro.props;
 const record = entry.data;
 const labels = domainLabels(record);
 const fields = buildDomainFields(record);
-const summary = domainSummary(record);
 const partLabels = {
   stem: 'Stem',
   bottom_housing: 'Bottom housing',
@@ -46,7 +44,6 @@ const springResolutionLabels = {
     <header class="detail-header">
       <p class="eyebrow">{labels.singular}</p>
       <h1>{record.title}</h1>
-      <p class="detail-summary">{summary}</p>
     </header>
 
     <section class="series-properties" aria-labelledby="domain-properties-heading">

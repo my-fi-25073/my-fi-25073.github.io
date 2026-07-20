@@ -93,14 +93,6 @@ export function buildDomainFields(record: DomainRecord, compact = false): Displa
   ];
 }
 
-export function domainSummary(record: DomainRecord) {
-  const label = domainLabels(record).korean;
-  if (record.kind === 'vendor') return `${record.title}의 위치와 공식 링크입니다.`;
-  if (record.kind === 'legacy-keycap') return `${record.title} 키캡의 기본 정보입니다.`;
-  if (record.kind === 'switch-family') return `${record.title}의 구성과 스위치 사양입니다.`;
-  return `${record.title} ${label}의 기본 정보입니다.`;
-}
-
 export function domainSearchText(record: DomainRecord) {
   const switchText = record.kind === 'switch-family'
     ? record.variants.flatMap((variant) => [
