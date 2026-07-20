@@ -34,32 +34,50 @@
       {
         "kind": "kit",
         "title": "Sixes Ogre (Ergo kit)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/#sixes-ogre-ergo-kit"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "Classic Retro Zhuyin",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-retro-zhuyin/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MZ y3",
+        "href": "/switches/mz-y3/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Geonworks",
+        "href": "/vendors/geonworks/"
       }
     ]
   },

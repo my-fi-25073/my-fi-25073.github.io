@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 1,
+  "kind": "collection-manifest",
+  "navigation": [
+    {
+      "id": "home",
+      "label": "Home",
+      "href": "/",
+      "order": 0
+    },
+    {
+      "id": "keyboards",
+      "label": "Keyboard",
+      "href": "/keyboards/",
+      "order": 10
+    },
+    {
+      "id": "keycaps",
+      "label": "Keycap",
+      "href": "/keycaps/",
+      "order": 20
+    },
+    {
+      "id": "switches",
+      "label": "Switch",
+      "href": "/switches/",
+      "order": 30
+    },
+    {
+      "id": "recap",
+      "label": "Recap",
+      "href": "/recap/",
+      "order": 40
+    },
+    {
+      "id": "reference",
+      "label": "Reference",
+      "href": "/reference/",
+      "order": 50
+    }
+  ],
+  "queries": [
+    {
+      "id": "public-home-keyboards",
+      "name": "Home · Recent Keyboards",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "desc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": null,
+      "revision": 1
+    },
+    {
+      "id": "public-keyboard-layouts",
+      "name": "Keyboard · Layout Sizes",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "desc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "groups": [
+          {
+            "id": "80",
+            "label": "80%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "80%",
+                "75%",
+                "70%",
+                "6x17"
+              ]
+            }
+          },
+          {
+            "id": "60",
+            "label": "60%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "65%",
+                "60%",
+                "HHKB"
+              ]
+            }
+          },
+          {
+            "id": "50",
+            "label": "50%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "50%"
+              ]
+            }
+          },
+          {
+            "id": "40",
+            "label": "40%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "40%",
+                "4x12",
+                "4x6"
+              ]
+            }
+          },
+          {
+            "id": "30",
+            "label": "30%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "30%",
+                "3x5",
+                "3x6"
+              ]
+            }
+          },
+          {
+            "id": "20",
+            "label": "20%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "25%",
+                "2x3"
+              ]
+            }
+          }
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keyboards",
+      "name": "Keyboard · Completed Builds",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "desc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "groups": [
+          {
+            "id": "true-split",
+            "label": "트루 스플릿",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "트루 스플릿"
+              ]
+            }
+          },
+          {
+            "id": "mono-split",
+            "label": "모노 스플릿",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "모노블럭 스플릿",
+                "유니바디 스플릿"
+              ]
+            }
+          },
+          {
+            "id": "monoblock",
+            "label": "모노블럭",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "모노블럭"
+              ]
+            }
+          },
+          {
+            "id": "low-stagger",
+            "label": "로우스태거",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "로우스태거"
+              ]
+            }
+          },
+          {
+            "id": "column-stagger",
+            "label": "칼럼스태거",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "칼럼스태거"
+              ]
+            }
+          },
+          {
+            "id": "ortholinear",
+            "label": "오쏘리니어",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "오쏘리니어"
+              ]
+            }
+          }
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycaps",
+      "name": "Keycap · Curated Collections",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": []
+      },
+      "sort": [
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "groups": [
+          {
+            "id": "gmk",
+            "label": "GMK",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "GMK"
+            }
+          },
+          {
+            "id": "cherry-clone",
+            "label": "Cherry-Clone",
+            "match": {
+              "field": "profile",
+              "operator": "equals",
+              "value": "Cherry-Clone"
+            }
+          },
+          {
+            "id": "signature-plastics",
+            "label": "Signature Plastics",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "SP"
+            }
+          },
+          {
+            "id": "keyreative",
+            "label": "Keyreative",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Keyreative"
+            }
+          },
+          {
+            "id": "fkcaps",
+            "label": "FKCaps",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "FKCaps"
+            }
+          },
+          {
+            "id": "low-profiles",
+            "label": "Low Profiles",
+            "match": {
+              "field": "profile",
+              "operator": "in",
+              "values": [
+                "CFX",
+                "CLP",
+                "KLP",
+                "LCK",
+                "LAK",
+                "MBK",
+                "OEM-ULP",
+                "OEM-Topre",
+                "URSA"
+              ]
+            }
+          },
+          {
+            "id": "matt3o",
+            "label": "Matt3o",
+            "match": {
+              "field": "profile",
+              "operator": "in",
+              "values": [
+                "MT3",
+                "MTNU"
+              ]
+            }
+          },
+          {
+            "id": "beiges",
+            "label": "Beiges",
+            "match": {
+              "field": "title",
+              "operator": "containsAny",
+              "values": [
+                "beige",
+                "9009"
+              ]
+            }
+          }
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-recap-2024",
+      "name": "Recap · 2024",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          },
+          {
+            "field": "lastBuiltAt",
+            "operator": "year",
+            "value": 2024
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "asc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "lastBuiltAt",
+        "unit": "month"
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-recap-2025",
+      "name": "Recap · 2025",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          },
+          {
+            "field": "lastBuiltAt",
+            "operator": "year",
+            "value": 2025
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "asc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "lastBuiltAt",
+        "unit": "month"
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-reference-lubricants",
+      "name": "Reference · Lubricants",
+      "entityKind": "lubricant",
+      "predicate": {
+        "all": []
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": null,
+      "revision": 1
+    },
+    {
+      "id": "public-reference-springs",
+      "name": "Reference · Springs",
+      "entityKind": "spring",
+      "predicate": {
+        "all": []
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": null,
+      "revision": 1
+    },
+    {
+      "id": "public-reference-vendors",
+      "name": "Reference · Vendors",
+      "entityKind": "party",
+      "predicate": {
+        "all": []
+      },
+      "sort": [
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": null,
+      "revision": 1
+    },
+    {
+      "id": "public-switches",
+      "name": "Switch · Families",
+      "entityKind": "switch_family",
+      "predicate": {
+        "all": []
+      },
+      "sort": [
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "groups": [
+          {
+            "id": "cherry",
+            "label": "Cherry",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "Cherry"
+            }
+          },
+          {
+            "id": "keygeek",
+            "label": "Keygeek",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "Keygeek"
+            }
+          },
+          {
+            "id": "hmx",
+            "label": "HMX",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "HMX"
+            }
+          },
+          {
+            "id": "bsun",
+            "label": "Bsun",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "Bsun"
+            }
+          },
+          {
+            "id": "kailh",
+            "label": "Kailh",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "Kailh"
+            }
+          },
+          {
+            "id": "gateron",
+            "label": "Gateron",
+            "match": {
+              "field": "variants[].manufacturer",
+              "operator": "equals",
+              "value": "Gateron"
+            }
+          },
+          {
+            "id": "rating-5",
+            "label": "★ 5",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "equals",
+              "value": 5
+            }
+          },
+          {
+            "id": "rating-4",
+            "label": "★ 4",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "equals",
+              "value": 4
+            }
+          },
+          {
+            "id": "rating-3",
+            "label": "★ 3",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "equals",
+              "value": 3
+            }
+          },
+          {
+            "id": "rating-2",
+            "label": "★ 2",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "equals",
+              "value": 2
+            }
+          },
+          {
+            "id": "rating-1",
+            "label": "★ 1",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "equals",
+              "value": 1
+            }
+          },
+          {
+            "id": "rating-0",
+            "label": "미평가",
+            "match": {
+              "field": "variants[].rating",
+              "operator": "in",
+              "values": [
+                0,
+                null
+              ]
+            }
+          }
+        ]
+      },
+      "revision": 1
+    }
+  ],
+  "views": [
+    {
+      "id": "home-latest",
+      "queryId": "public-home-keyboards",
+      "name": "Recent Builds",
+      "layout": "gallery",
+      "projection": {
+        "route": "/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ],
+        "limit": 6,
+        "navigation": {
+          "id": "home",
+          "label": "Home",
+          "href": "/",
+          "order": 0
+        }
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "keyboard-all",
+      "queryId": "public-keyboards",
+      "name": "Latest Builds",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keyboards/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ],
+        "navigation": {
+          "id": "keyboards",
+          "label": "Keyboard",
+          "href": "/keyboards/",
+          "order": 10
+        }
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "keyboard-layouts",
+      "queryId": "public-keyboard-layouts",
+      "name": "Layouts",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keyboards/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "keyboard-types",
+      "queryId": "public-keyboards",
+      "name": "Types",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keyboards/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "keycap-collections",
+      "queryId": "public-keycaps",
+      "name": "Collections",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ],
+        "navigation": {
+          "id": "keycaps",
+          "label": "Keycap",
+          "href": "/keycaps/",
+          "order": 20
+        }
+      },
+      "eligibility": {
+        "requireImages": false
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2024-chart",
+      "queryId": "public-recap-2024",
+      "name": "2024 Monthly Count",
+      "layout": "chart",
+      "projection": {
+        "route": "/recap/2024/",
+        "value": "count",
+        "groupBy": "month"
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2024-gallery",
+      "queryId": "public-recap-2024",
+      "name": "2024 Monthly Gallery",
+      "layout": "gallery",
+      "projection": {
+        "route": "/recap/2024/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2024-timeline",
+      "queryId": "public-recap-2024",
+      "name": "2024 Vendor Timeline",
+      "layout": "timeline",
+      "projection": {
+        "route": "/recap/2024/",
+        "fields": [
+          "lastBuiltAt",
+          "title",
+          "vendors"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2025-chart",
+      "queryId": "public-recap-2025",
+      "name": "2025 Monthly Count",
+      "layout": "chart",
+      "projection": {
+        "route": "/recap/2025/",
+        "value": "count",
+        "groupBy": "month"
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2025-gallery",
+      "queryId": "public-recap-2025",
+      "name": "2025 Monthly Gallery",
+      "layout": "gallery",
+      "projection": {
+        "route": "/recap/2025/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ],
+        "navigation": {
+          "id": "recap",
+          "label": "Recap",
+          "href": "/recap/",
+          "order": 40
+        }
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "recap-2025-timeline",
+      "queryId": "public-recap-2025",
+      "name": "2025 Vendor Timeline",
+      "layout": "timeline",
+      "projection": {
+        "route": "/recap/2025/",
+        "fields": [
+          "lastBuiltAt",
+          "title",
+          "vendors"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "reference-lubricants",
+      "queryId": "public-reference-lubricants",
+      "name": "Lubricants",
+      "layout": "table",
+      "projection": {
+        "route": "/lubricants/",
+        "fields": [
+          "title",
+          "manufacturer",
+          "lubricantType"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "reference-springs",
+      "queryId": "public-reference-springs",
+      "name": "Springs",
+      "layout": "table",
+      "projection": {
+        "route": "/springs/",
+        "fields": [
+          "title",
+          "manufacturer",
+          "bottomOutForce",
+          "length"
+        ],
+        "navigation": {
+          "id": "reference",
+          "label": "Reference",
+          "href": "/reference/",
+          "order": 50
+        }
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "reference-vendors",
+      "queryId": "public-reference-vendors",
+      "name": "Vendors",
+      "layout": "table",
+      "projection": {
+        "route": "/vendors/",
+        "fields": [
+          "title",
+          "location",
+          "links"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "switch-franken",
+      "queryId": "public-switches",
+      "name": "Franken Recipes",
+      "layout": "gallery",
+      "projection": {
+        "route": "/switches/",
+        "cardFields": [
+          "title",
+          "parts"
+        ]
+      },
+      "eligibility": {
+        "familyKinds": [
+          "franken"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "switch-manufacturers",
+      "queryId": "public-switches",
+      "name": "Makers",
+      "layout": "gallery",
+      "projection": {
+        "route": "/switches/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "rating"
+        ],
+        "navigation": {
+          "id": "switches",
+          "label": "Switch",
+          "href": "/switches/",
+          "order": 30
+        }
+      },
+      "eligibility": {
+        "requireVariants": true,
+        "excludeFamilyKinds": [
+          "franken"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "switch-ratings",
+      "queryId": "public-switches",
+      "name": "Ratings",
+      "layout": "gallery",
+      "projection": {
+        "route": "/switches/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "rating"
+        ]
+      },
+      "eligibility": {
+        "requireVariants": true,
+        "excludeFamilyKinds": [
+          "franken"
+        ]
+      },
+      "revision": 1
+    }
+  ]
+}

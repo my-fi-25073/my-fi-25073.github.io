@@ -1,0 +1,73 @@
+---
+interface FilterGroup {
+  id: string;
+  label: string;
+  count: number;
+}
+
+interface Props {
+  groups: FilterGroup[];
+  defaultGroup: string;
+  label?: string;
+}
+
+const {
+  groups,
+  defaultGroup,
+  label = 'Collection view',
+} = Astro.props;
+const labelId = `collection-filter-${defaultGroup}`;
+---
+
+<div
+  class="collection-filter shell"
+  data-collection-filter
+  data-default-group={defaultGroup}
+>
+  <p id={labelId}>{label}</p>
+  <div class="collection-filter-options" role="group" aria-labelledby={labelId}>
+    {groups.map((group) => (
+      <button
+        type="button"
+        class:list={['collection-filter-button', { 'is-active': group.id === defaultGroup }]}
+        data-collection-filter-button={group.id}
+        aria-pressed={group.id === defaultGroup ? 'true' : 'false'}
+      >
+        <span>{group.label}</span>
+        <small>{group.count}</small>
+      </button>
+    ))}
+  </div>
+</div>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-collection-filter]')) {
+    const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-collection-filter-button]')];
+    const cards = [...document.querySelectorAll<HTMLElement>('[data-archive-card]')];
+    const apply = (groupId: string) => {
+      for (const button of buttons) {
+        const active = button.dataset.collectionFilterButton === groupId;
+        button.classList.toggle('is-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      }
+      for (const card of cards) {
+        if (card.dataset.filterStatic === 'true') {
+          card.dataset.groupMatch = 'true';
+          continue;
+        }
+        let groups: string[] = [];
+        try {
+          groups = JSON.parse(card.dataset.groups ?? '[]');
+        } catch {
+          groups = [];
+        }
+        card.dataset.groupMatch = String(groupId === 'all' || groups.includes(groupId));
+      }
+      window.dispatchEvent(new CustomEvent('keylog:group-filter'));
+    };
+    for (const button of buttons) {
+      button.addEventListener('click', () => apply(button.dataset.collectionFilterButton ?? 'all'));
+    }
+    apply(root.dataset.defaultGroup ?? 'all');
+  }
+</script>

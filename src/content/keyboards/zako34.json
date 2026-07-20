@@ -34,7 +34,20 @@
       {
         "kind": "series",
         "title": "Susu",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/susu/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Candy Red",
+        "href": "/switches/candy-red/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

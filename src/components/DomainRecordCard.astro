@@ -11,9 +11,17 @@ interface Props {
   record: CollectionEntry<'records'>['data'];
   index: number;
   headingLevel?: 2 | 3;
+  groups?: string[];
+  filterStatic?: boolean;
 }
 
-const { record, index, headingLevel = 2 } = Astro.props;
+const {
+  record,
+  index,
+  headingLevel = 2,
+  groups = [],
+  filterStatic = false,
+} = Astro.props;
 const cover = record.images[0];
 const variants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
 const source = variants[0];
@@ -31,6 +39,8 @@ const placeholderMonogram = isFranken ? 'FRANKEN' : record.title.slice(0, 2);
   style={`--card-index:${Math.min(index, 12)}`}
   data-archive-card
   data-search={domainSearchText(record)}
+  data-groups={JSON.stringify(groups)}
+  data-filter-static={filterStatic ? 'true' : undefined}
 >
   <a class="gallery-card-link" href={`/${record.category}/${record.slug}/`}>
     <div class="gallery-card-media">

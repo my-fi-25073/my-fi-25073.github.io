@@ -33,7 +33,20 @@
       {
         "kind": "series",
         "title": "Engage light",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/engage-light/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Pink Pro",
+        "href": "/switches/pink-pro/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

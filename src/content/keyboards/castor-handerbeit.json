@@ -28,7 +28,19 @@
     "state": "approved",
     "startedAt": null,
     "completedAt": "2026-05-14",
-    "keycaps": []
+    "keycaps": [],
+    "switches": [
+      {
+        "title": "Lofree Phatom",
+        "href": "/switches/lofree-phatom/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
+      }
+    ]
   },
   "images": [
     {

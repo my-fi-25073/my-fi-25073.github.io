@@ -33,42 +33,62 @@
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
       },
       {
         "kind": "kit",
         "title": "Beige/WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "UwU Macro Add On",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/uwu-macro-add-on/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Sunflower",
+        "href": "/switches/sunflower/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

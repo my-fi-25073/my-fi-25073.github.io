@@ -37,7 +37,20 @@
       {
         "kind": "series",
         "title": "MT3 Serika",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/mt3-serika/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Geon Raw Zero",
+        "href": "/switches/geon-raw-zero/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

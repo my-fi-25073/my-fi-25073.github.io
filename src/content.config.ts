@@ -66,6 +66,15 @@ const keyboards = defineCollection({
         kind: z.enum(['series', 'kit']),
         title: z.string().min(1),
         quantity: z.number().positive().nullable(),
+        href: z.string().startsWith('/gallery/'),
+      })),
+      switches: z.array(z.object({
+        title: z.string().min(1),
+        href: z.string().startsWith('/switches/'),
+      })),
+      vendors: z.array(z.object({
+        title: z.string().min(1),
+        href: z.string().startsWith('/vendors/'),
       })),
     }),
     images: z.array(galleryImage).min(1),

@@ -32,22 +32,38 @@
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "kit",
         "title": "Beige OG Space Keys",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/#beige-og-space-keys"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX1A Black",
+        "href": "/switches/mx1a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Drop",
+        "href": "/vendors/drop/"
       }
     ]
   },

@@ -36,7 +36,24 @@
       {
         "kind": "kit",
         "title": "CLP Custom Black Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Game1989 v1",
+        "href": "/switches/game1989-v1/"
+      },
+      {
+        "title": "Duck Duck 3.9",
+        "href": "/switches/duck-duck-3-9/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "Verdant Retro",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/verdant-retro/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Black",
+        "href": "/switches/mx2a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Geonworks",
+        "href": "/vendors/geonworks/"
       }
     ]
   },

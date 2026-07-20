@@ -1,0 +1,46 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import collectionData from '../data/collections.json';
+import {
+  recordsForCollectionView,
+  type CollectionManifest,
+} from '../lib/collection-views';
+import ArchiveSearch from './ArchiveSearch.astro';
+import DomainRecordCard from './DomainRecordCard.astro';
+import TaxonomyNav from './TaxonomyNav.astro';
+
+interface Props {
+  records: CollectionEntry<'records'>[];
+  viewId: string;
+  eyebrow: string;
+  title: string;
+  description: string;
+}
+
+const { records, viewId, eyebrow, title, description } = Astro.props;
+const manifest = collectionData as CollectionManifest;
+const visible = recordsForCollectionView(
+  records.map((entry) => entry.data),
+  manifest,
+  viewId,
+);
+---
+
+<section class="archive-intro shell" aria-labelledby="reference-collection-title">
+  <p class="eyebrow">{eyebrow}</p>
+  <h1 id="reference-collection-title">{title}</h1>
+  <p class="archive-description">{description}</p>
+</section>
+
+<div class="shell archive-controls">
+  <TaxonomyNav current="reference" />
+  <p class="archive-count">{visible.length} reference records</p>
+</div>
+
+<ArchiveSearch />
+
+<section class="gallery-grid shell" aria-label={`${title} 목록`}>
+  {visible.map((record, index) => (
+    <DomainRecordCard record={record} index={index} />
+  ))}
+</section>

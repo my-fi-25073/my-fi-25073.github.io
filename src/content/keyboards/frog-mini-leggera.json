@@ -33,37 +33,56 @@
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Hiney Beige ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (GMK)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Black",
+        "href": "/switches/mx2a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Geonworks",
+        "href": "/vendors/geonworks/"
       }
     ]
   },

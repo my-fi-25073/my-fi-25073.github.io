@@ -33,22 +33,38 @@
       {
         "kind": "series",
         "title": "Cherry Vintage",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/cherry-vintage/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (GMK)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Black",
+        "href": "/switches/mx2a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

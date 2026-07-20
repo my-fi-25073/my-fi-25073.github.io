@@ -33,42 +33,62 @@
       {
         "kind": "series",
         "title": "Classic Beige (GMK)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "kit",
         "title": "5u Space Bar",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-space-bars/#5u-space-bar"
       },
       {
         "kind": "series",
         "title": "BAE Add On",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/bae-add-on/"
       },
       {
         "kind": "series",
         "title": "Verdant Retro",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/verdant-retro/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Nixie",
+        "href": "/switches/mx2a-nixie/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

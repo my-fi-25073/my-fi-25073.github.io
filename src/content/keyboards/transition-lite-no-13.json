@@ -32,12 +32,26 @@
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Black",
+        "href": "/switches/mx2a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

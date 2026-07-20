@@ -34,7 +34,20 @@
       {
         "kind": "series",
         "title": "Colorchorome",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/colorchorome/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Milky White v2",
+        "href": "/switches/milky-white-v2/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

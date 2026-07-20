@@ -32,17 +32,32 @@
       {
         "kind": "series",
         "title": "WoB Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/wob-extra/"
       },
       {
         "kind": "series",
         "title": "WoB Essential",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/wob-essential/"
       },
       {
         "kind": "series",
         "title": "Mono",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/mono/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Snowfall",
+        "href": "/switches/snowfall/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

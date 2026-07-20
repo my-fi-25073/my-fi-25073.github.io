@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "Oblivion",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/oblivion/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Candy Red",
+        "href": "/switches/candy-red/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Wind Studio",
+        "href": "/vendors/wind-studio/"
       }
     ]
   },

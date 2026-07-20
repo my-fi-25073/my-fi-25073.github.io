@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "Oblivion",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/oblivion/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Snow Crash",
+        "href": "/switches/snow-crash/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

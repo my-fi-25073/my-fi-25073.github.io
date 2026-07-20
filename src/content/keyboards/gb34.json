@@ -32,12 +32,26 @@
       {
         "kind": "series",
         "title": "Minimal",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/minimal/"
       },
       {
         "kind": "kit",
         "title": "Classic BoW 40s (Cannon Key)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/minimal/#classic-bow-40s-cannon-key"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Snow Crash",
+        "href": "/switches/snow-crash/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "NiuNiu",
+        "href": "/vendors/niuniu/"
       }
     ]
   },

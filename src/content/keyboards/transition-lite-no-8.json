@@ -33,37 +33,56 @@
       {
         "kind": "kit",
         "title": "Beige/WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Hiney Beige ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (GMK)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Blossom",
+        "href": "/switches/mx2a-blossom/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

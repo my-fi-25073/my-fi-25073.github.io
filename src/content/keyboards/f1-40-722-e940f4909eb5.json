@@ -33,22 +33,38 @@
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "UwU Macro Add On",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/uwu-macro-add-on/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A Black",
+        "href": "/switches/mx2a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Geonworks",
+        "href": "/vendors/geonworks/"
       }
     ]
   },

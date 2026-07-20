@@ -34,7 +34,24 @@
       {
         "kind": "series",
         "title": "LotR Elvish",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/lotr-elvish/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Duck Duck 3.5",
+        "href": "/switches/duck-duck-3-5/"
+      },
+      {
+        "title": "Duck Duck 3.9",
+        "href": "/switches/duck-duck-3-9/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

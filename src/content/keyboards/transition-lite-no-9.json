@@ -33,27 +33,44 @@
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "Classic Beige (OCO)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-oco/"
       },
       {
         "kind": "kit",
         "title": "HASRO/SAV Red Cyrilic",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/#hasro-sav-red-cyrilic"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Coral Sea",
+        "href": "/switches/coral-sea/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

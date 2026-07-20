@@ -28,7 +28,19 @@
     "state": "approved",
     "startedAt": null,
     "completedAt": "2026-05-10",
-    "keycaps": []
+    "keycaps": [],
+    "switches": [
+      {
+        "title": "Lofree Surfer",
+        "href": "/switches/lofree-surfer/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
+      }
+    ]
   },
   "images": [
     {

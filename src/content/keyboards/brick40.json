@@ -32,17 +32,32 @@
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Yogurt",
+        "href": "/switches/yogurt/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "NiuNiu",
+        "href": "/vendors/niuniu/"
       }
     ]
   },

@@ -34,22 +34,38 @@
       {
         "kind": "series",
         "title": "WoB Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/wob-extra/"
       },
       {
         "kind": "series",
         "title": "WoB Essential",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/wob-essential/"
       },
       {
         "kind": "series",
         "title": "Colorchorome",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/colorchorome/"
       },
       {
         "kind": "kit",
         "title": "Mictlan Space Bar",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/wob-extra/#mictlan-space-bar-dd6056e9c61a"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MZ y3",
+        "href": "/switches/mz-y3/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

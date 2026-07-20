@@ -31,7 +31,20 @@
       {
         "kind": "kit",
         "title": "CLP Custom Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/clp-blanks/#clp-custom-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Deep Sea Silent Islet White",
+        "href": "/switches/deep-sea-silent-islet-white/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
       }
     ]
   },

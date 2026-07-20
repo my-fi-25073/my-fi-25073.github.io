@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "LotR Black Speech",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/lotr-black-speech/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Lucky",
+        "href": "/switches/lucky/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

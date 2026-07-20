@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "Custom QAZ Lavender",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/custom-qaz-lavender/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "HMX Catmint",
+        "href": "/switches/hmx-catmint/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Mech Vault",
+        "href": "/vendors/mech-vault/"
       }
     ]
   },

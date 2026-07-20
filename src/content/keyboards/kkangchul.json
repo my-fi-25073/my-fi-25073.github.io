@@ -32,12 +32,26 @@
       {
         "kind": "series",
         "title": "DCS Intro WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-intro-wob/"
       },
       {
         "kind": "series",
         "title": "DCS WoB 40% Mono Kit",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-wob-40-mono-kit/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX2A HolyBXB",
+        "href": "/switches/mx2a-holybxb/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
       }
     ]
   },

@@ -39,7 +39,20 @@
       {
         "kind": "series",
         "title": "biip Extended 2048 Dark",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/biip-extended-2048-dark/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Xinhai",
+        "href": "/switches/xinhai/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Bastard KB",
+        "href": "/vendors/bastard-kb/"
       }
     ]
   },

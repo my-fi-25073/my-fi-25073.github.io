@@ -1,19 +1,59 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveView from '../../components/ArchiveView.astro';
+import ArchiveSearch from '../../components/ArchiveSearch.astro';
+import CollectionFilter from '../../components/CollectionFilter.astro';
+import GalleryCard from '../../components/GalleryCard.astro';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  groupIdsForRecord,
+  groupsWithCounts,
+  recordsForCollectionView,
+  type CollectionManifest,
+} from '../../lib/collection-views';
 
-const [keycaps, legacyKeycaps] = await Promise.all([
-  getCollection('gallery'),
-  getCollection('records', (entry) => entry.data.category === 'keycaps'),
-]);
+const manifest = collectionData as CollectionManifest;
+const entries = await getCollection('gallery');
+const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
+const records = recordsForCollectionView(
+  entries.map((entry) => entry.data),
+  manifest,
+  'keycap-collections',
+);
+const groups = groupsWithCounts(records, manifest, ['keycap-collections']);
+const defaultGroup = groups[0]?.id;
+if (!defaultGroup) throw new Error('Keycap Collection View has no visible groups.');
 ---
 
 <SiteLayout title="키캡 아카이브">
-  <ArchiveView
-    current="keycaps"
-    keycaps={keycaps}
-    keyboards={[]}
-    domainRecords={legacyKeycaps}
-  />
+  <section class="archive-intro shell" aria-labelledby="keycap-title">
+    <p class="eyebrow">Series and kits</p>
+    <h1 id="keycap-title">DB 목록이 아니라<br />컬렉션으로 보는 키캡.</h1>
+    <p class="archive-description">
+      canonical Series와 Kit는 그대로 유지하고, GMK·프로파일·제조 방식 등 공개 탐색 목적에 맞춰 묶었습니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="keycaps" />
+    <p class="archive-count">{groups.length} collections · {records.length} series</p>
+  </div>
+
+  <CollectionFilter groups={groups} defaultGroup={defaultGroup} label="Keycap collections" />
+  <ArchiveSearch />
+
+  <section class="gallery-grid shell" aria-label="키캡 컬렉션">
+    {records.map((gallery, index) => {
+      const entry = entryBySlug.get(gallery.slug);
+      if (!entry) throw new Error(`Keycap entry is missing: ${gallery.slug}`);
+      return (
+        <GalleryCard
+          gallery={entry.data}
+          index={index}
+          groups={groupIdsForRecord(gallery, manifest, ['keycap-collections'])}
+        />
+      );
+    })}
+  </section>
 </SiteLayout>

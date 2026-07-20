@@ -35,7 +35,20 @@
       {
         "kind": "series",
         "title": "Custom Gondola Blue Hangul",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/custom-gondola-blue-hangul/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Mirror Lake V2",
+        "href": "/switches/mirror-lake-v2/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Geonworks",
+        "href": "/vendors/geonworks/"
       }
     ]
   },

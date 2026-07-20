@@ -35,7 +35,20 @@
       {
         "kind": "kit",
         "title": "KLP Custom Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/klp-blanks/#klp-custom-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Sunset Tactile",
+        "href": "/switches/sunset-tactile/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

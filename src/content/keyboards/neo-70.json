@@ -33,7 +33,20 @@
       {
         "kind": "series",
         "title": "Oblivion",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/oblivion/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Bsun Raw",
+        "href": "/switches/bsun-raw/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

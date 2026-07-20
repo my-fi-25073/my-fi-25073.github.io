@@ -1,8 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveView from '../../components/ArchiveView.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import SwitchArchiveView from '../../components/SwitchArchiveView.astro';
+import ReferenceArchiveView from '../../components/ReferenceArchiveView.astro';
 
 export async function getStaticPaths() {
   const categories = [
@@ -19,24 +19,35 @@ export async function getStaticPaths() {
 
 type DomainCategory = 'switches' | 'springs' | 'lubricants' | 'vendors';
 
-interface Props {
-  category: DomainCategory;
-  title: string;
-}
-
-const { category, title } = Astro.props;
+const { category, title } = Astro.props as { category: DomainCategory; title: string };
 const domainRecords = await getCollection('records', (entry) => entry.data.category === category);
+const referenceCopy = {
+  springs: {
+    eyebrow: 'Reference · Springs',
+    title: '스프링 사양과 선택 기록.',
+    description: '빌드와 스위치 구성에서 참조하는 스프링을 제조사, 압력, 길이 기준으로 정리합니다.',
+  },
+  lubricants: {
+    eyebrow: 'Reference · Lubricants',
+    title: '윤활제와 용도 기록.',
+    description: '스위치와 스프링 작업에 사용한 윤활제를 타입과 제조사 기준으로 정리합니다.',
+  },
+  vendors: {
+    eyebrow: 'Reference · Vendors',
+    title: '제작과 구매의 연결점.',
+    description: 'Keyboard와 Recap에서 연결되는 Vendor의 위치와 공식 링크를 모았습니다.',
+  },
+} as const;
 ---
 
 <SiteLayout title={title}>
   {category === 'switches' ? (
     <SwitchArchiveView records={domainRecords} />
   ) : (
-    <ArchiveView
-      current={category}
-      keycaps={[]}
-      keyboards={[]}
-      domainRecords={domainRecords}
+    <ReferenceArchiveView
+      records={domainRecords}
+      viewId={`reference-${category}`}
+      {...referenceCopy[category]}
     />
   )}
 </SiteLayout>

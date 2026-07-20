@@ -32,32 +32,50 @@
       {
         "kind": "series",
         "title": "Classic Beige (GMK)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "kit",
         "title": "10u Space Bar",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-space-bars/#10u-space-bar"
       },
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX1A Black",
+        "href": "/switches/mx1a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

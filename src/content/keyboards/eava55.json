@@ -34,47 +34,68 @@
       {
         "kind": "series",
         "title": "Classic Beige (SPC)",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
         "title": "Hiney Beige ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "Beige Extra",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
         "title": "Norde Beige",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "kit",
         "title": "Beige/WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
         "title": "Classic Arabic",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-arabic/"
       },
       {
         "kind": "series",
         "title": "Any Key",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/any-key/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX1A Black",
+        "href": "/switches/mx1a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

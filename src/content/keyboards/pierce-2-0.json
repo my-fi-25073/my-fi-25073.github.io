@@ -33,7 +33,20 @@
       {
         "kind": "series",
         "title": "PBS Blanks Black",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/pbs-blanks-black/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Drop + Invyr Holy Panda",
+        "href": "/switches/drop-invyr-holy-panda/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

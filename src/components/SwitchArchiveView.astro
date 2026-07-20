@@ -1,6 +1,14 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import collectionData from '../data/collections.json';
+import {
+  groupIdsForRecord,
+  groupsWithCounts,
+  recordsForCollectionView,
+  type CollectionManifest,
+} from '../lib/collection-views';
 import ArchiveSearch from './ArchiveSearch.astro';
+import CollectionFilter from './CollectionFilter.astro';
 import DomainRecordCard from './DomainRecordCard.astro';
 import TaxonomyNav from './TaxonomyNav.astro';
 
@@ -10,52 +18,58 @@ interface Props {
 
 type DomainEntry = CollectionEntry<'records'>;
 type SwitchFamilyData = Extract<DomainEntry['data'], { kind: 'switch-family' }>;
-type SwitchFamilyEntry = Omit<DomainEntry, 'data'> & { data: SwitchFamilyData };
-
-function isSwitchFamily(entry: DomainEntry): entry is SwitchFamilyEntry {
-  return entry.data.kind === 'switch-family';
-}
 
 const { records } = Astro.props;
+const manifest = collectionData as CollectionManifest;
 const families = records
-  .filter(isSwitchFamily)
-  .toSorted((a, b) => a.data.title.localeCompare(b.data.title, 'ko'));
-const switches = families.filter((entry) => (
-  entry.data.familyKind !== 'franken' && entry.data.variants.length > 0
-));
-const frankenRecipes = families.filter((entry) => entry.data.familyKind === 'franken');
-const countLabel = `${switches.length} switches · ${frankenRecipes.length} Franken`;
+  .map((entry) => entry.data)
+  .filter((record): record is SwitchFamilyData => record.kind === 'switch-family');
+const switches = recordsForCollectionView(families, manifest, 'switch-manufacturers');
+const frankenRecipes = recordsForCollectionView(families, manifest, 'switch-franken');
+const allGroups = groupsWithCounts(switches, manifest, ['switch-manufacturers']);
+const groups = allGroups.map((group) => ({
+  ...group,
+  label: group.id.startsWith('rating-')
+    ? `Rating · ${group.label}`
+    : `Maker · ${group.label}`,
+}));
+const defaultGroup = groups.find((group) => group.id === 'cherry')?.id ?? groups[0]?.id;
+if (!defaultGroup) throw new Error('Switch Collection View has no visible groups.');
 ---
 
-<section class="archive-intro shell" aria-labelledby="archive-title">
-  <p class="eyebrow">Keyboard practice, 2024—</p>
-  <h1 id="archive-title">만들고, 바꾸고,<br />오래 기록하는 키보드.</h1>
+<section class="archive-intro shell" aria-labelledby="switch-title">
+  <p class="eyebrow">Families, variants, recipes</p>
+  <h1 id="switch-title">제조사와 평가로 보고,<br />프랑켄은 따로.</h1>
   <p class="archive-description">
-    기성 스위치와 직접 조합한 프랑켄 레시피를 구분해 기록합니다.
+    공개 단위는 Switch Family입니다. Variant의 제조사와 평가로 탐색하고, 직접 조합한 Franken Recipe는 별도 영역에 둡니다.
   </p>
 </section>
 
 <div class="shell archive-controls">
   <TaxonomyNav current="switches" />
-  <p class="archive-count">{countLabel}</p>
+  <p class="archive-count">{switches.length} families · {frankenRecipes.length} Franken</p>
 </div>
 
+<CollectionFilter groups={groups} defaultGroup={defaultGroup} label="Switch views" />
 <ArchiveSearch />
 
 <div class="archive-sections">
-  {switches.length > 0 && (
-    <section class="archive-section shell" aria-labelledby="switch-collection-heading" data-archive-group>
-      <div class="section-heading">
-        <h2 id="switch-collection-heading">Switches</h2>
-        <p>{switches.length} families</p>
-      </div>
-      <div class="gallery-grid archive-section-grid" aria-label="일반 스위치 목록">
-        {switches.map((record, index) => (
-          <DomainRecordCard record={record.data} index={index} headingLevel={3} />
-        ))}
-      </div>
-    </section>
-  )}
+  <section class="archive-section shell" aria-labelledby="switch-collection-heading" data-archive-group>
+    <div class="section-heading">
+      <h2 id="switch-collection-heading">Switch Families</h2>
+      <p>Maker / Rating</p>
+    </div>
+    <div class="gallery-grid archive-section-grid" aria-label="스위치 Family 목록">
+      {switches.map((record, index) => (
+        <DomainRecordCard
+          record={record}
+          index={index}
+          headingLevel={3}
+          groups={groupIdsForRecord(record, manifest, ['switch-manufacturers'])}
+        />
+      ))}
+    </div>
+  </section>
 
   {frankenRecipes.length > 0 && (
     <section class="archive-section shell" aria-labelledby="franken-collection-heading" data-archive-group>
@@ -65,7 +79,12 @@ const countLabel = `${switches.length} switches · ${frankenRecipes.length} Fran
       </div>
       <div class="gallery-grid archive-section-grid" aria-label="프랑켄 스위치 레시피 목록">
         {frankenRecipes.map((record, index) => (
-          <DomainRecordCard record={record.data} index={index} headingLevel={3} />
+          <DomainRecordCard
+            record={record}
+            index={index}
+            headingLevel={3}
+            filterStatic
+          />
         ))}
       </div>
     </section>

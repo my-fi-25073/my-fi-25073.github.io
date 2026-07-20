@@ -35,7 +35,20 @@
       {
         "kind": "kit",
         "title": "CLP Custom Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/clp-blanks/#clp-custom-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "SR YETI",
+        "href": "/switches/sr-yeti/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

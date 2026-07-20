@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import collectionData from '../../data/collections.json';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  recordsForCollectionView,
+  type CollectionManifest,
+} from '../../lib/collection-views';
+
+const manifest = collectionData as CollectionManifest;
+const keyboards = (await getCollection('keyboards')).map((entry) => entry.data);
+const recaps = [2025, 2024].map((year) => {
+  const records = recordsForCollectionView(keyboards, manifest, `recap-${year}-gallery`);
+  const months = new Set(records.map((record) => record.lastBuiltAt?.slice(0, 7))).size;
+  return { year, count: records.length, months };
+});
+---
+
+<SiteLayout title="Recap">
+  <section class="archive-intro shell" aria-labelledby="recap-title">
+    <p class="eyebrow">Yearly build archive</p>
+    <h1 id="recap-title">한 해의 빌드를<br />월과 관계로 다시 보기.</h1>
+    <p class="archive-description">
+      Keyboard 사실을 복제하지 않고, 같은 연도 조건에서 월별 Gallery·Count·Vendor Timeline을 함께 만듭니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="recap" />
+    <p class="archive-count">{recaps.length} yearly recaps</p>
+  </div>
+
+  <section class="recap-index shell" aria-label="연도별 Recap">
+    {recaps.map((recap) => (
+      <a href={`/recap/${recap.year}/`} class="recap-year-card">
+        <span>{recap.year}</span>
+        <div>
+          <h2>{recap.count} builds</h2>
+          <p>{recap.months} active months · Gallery · Count · Vendor Timeline</p>
+        </div>
+        <strong aria-hidden="true">→</strong>
+      </a>
+    ))}
+  </section>
+
+  <section class="recap-log-callout shell" aria-labelledby="practice-log-title">
+    <p class="eyebrow">Ongoing chronology</p>
+    <h2 id="practice-log-title">연도 요약 밖의 작업 기록</h2>
+    <p>명시적으로 공개한 제작·장착·정비 이벤트는 Activity log에서 이어집니다.</p>
+    <a href="/activity/">Activity log 보기 →</a>
+  </section>
+</SiteLayout>

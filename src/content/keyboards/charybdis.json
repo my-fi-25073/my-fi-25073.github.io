@@ -39,12 +39,26 @@
       {
         "kind": "series",
         "title": "biip Extended 2048 Light",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/biip-extended-2048-light/"
       },
       {
         "kind": "series",
         "title": "biip Extended 2048 Dark",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/biip-extended-2048-dark/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Gazzew Boba U4T RGB Silent",
+        "href": "/switches/gazzew-boba-u4t-rgb-silent/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Bastard KB",
+        "href": "/vendors/bastard-kb/"
       }
     ]
   },

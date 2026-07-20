@@ -35,7 +35,20 @@
       {
         "kind": "kit",
         "title": "KLP Custom Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/klp-blanks/#klp-custom-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Purpz",
+        "href": "/switches/purpz/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

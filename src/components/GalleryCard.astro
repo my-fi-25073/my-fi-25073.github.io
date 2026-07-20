@@ -34,9 +34,10 @@ interface Gallery {
 interface Props {
   gallery: Gallery;
   index: number;
+  groups?: string[];
 }
 
-const { gallery, index } = Astro.props;
+const { gallery, index, groups = [] } = Astro.props;
 const cover = gallery.images[0];
 const coverVariants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
 const coverSource = coverVariants[0];
@@ -53,6 +54,7 @@ const searchText = [gallery.title, ...fields.map((field) => field.value)]
   style={`--card-index:${Math.min(index, 12)}`}
   data-archive-card
   data-search={searchText}
+  data-groups={JSON.stringify(groups)}
 >
   <a class="gallery-card-link" href={`/gallery/${gallery.slug}/`}>
     <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource }] }>

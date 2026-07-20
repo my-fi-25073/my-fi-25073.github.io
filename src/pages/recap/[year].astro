@@ -1,0 +1,132 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveSearch from '../../components/ArchiveSearch.astro';
+import KeyboardCard from '../../components/KeyboardCard.astro';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import collectionData from '../../data/collections.json';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  recordsForCollectionView,
+  requiredCollectionView,
+  type CollectionManifest,
+} from '../../lib/collection-views';
+
+export function getStaticPaths() {
+  const staticManifest = collectionData as CollectionManifest;
+  const recapYears = staticManifest.views
+    .map((view) => /^recap-(\d{4})-gallery$/u.exec(view.id)?.[1])
+    .filter((year): year is string => Boolean(year))
+    .toSorted((left, right) => Number(right) - Number(left));
+  return recapYears.map((year) => ({ params: { year }, props: { year } }));
+}
+
+const { year } = Astro.props;
+const manifest = collectionData as CollectionManifest;
+const viewIds = [`recap-${year}-gallery`, `recap-${year}-chart`, `recap-${year}-timeline`];
+const queryIds = new Set(viewIds.map((viewId) => requiredCollectionView(manifest, viewId).view.queryId));
+if (queryIds.size !== 1) throw new Error(`Recap ${year} Views do not share one query.`);
+
+const entries = await getCollection('keyboards');
+const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
+const records = recordsForCollectionView(
+  entries.map((entry) => entry.data),
+  manifest,
+  `recap-${year}-gallery`,
+);
+const months = Array.from({ length: 12 }, (_, index) => {
+  const month = String(index + 1).padStart(2, '0');
+  return {
+    month,
+    label: `${index + 1}월`,
+    records: records.filter((record) => record.lastBuiltAt?.slice(5, 7) === month),
+  };
+});
+const activeMonths = months.filter((month) => month.records.length > 0);
+const maxMonthCount = Math.max(...months.map((month) => month.records.length), 1);
+const chronology = records.toSorted((left, right) => (
+  String(right.lastBuiltAt).localeCompare(String(left.lastBuiltAt), 'ko')
+));
+const formatDate = (value: string | null) => value
+  ? new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'UTC' })
+    .format(new Date(`${value}T00:00:00Z`))
+  : '';
+---
+
+<SiteLayout title={`${year} Recap`}>
+  <section class="archive-intro recap-intro shell" aria-labelledby="recap-year-title">
+    <p class="eyebrow">My-Fi Recap</p>
+    <h1 id="recap-year-title" aria-label={`${year}, ${records.length} builds`}>{year}<br />{records.length} builds.</h1>
+    <p class="archive-description">
+      같은 {year}년 완료 빌드 집합을 월별 사진, 월별 건수, Vendor chronology 세 방식으로 읽습니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="recap" />
+    <p class="archive-count">{activeMonths.length} active months</p>
+  </div>
+
+  <section class="recap-chart shell" aria-labelledby="monthly-count-title">
+    <div class="section-heading">
+      <h2 id="monthly-count-title">Monthly Count</h2>
+      <p>{records.length} total</p>
+    </div>
+    <div class="recap-bars" aria-hidden="true">
+      {months.map((month) => (
+        <div>
+          <span style={`--bar-height:${(month.records.length / maxMonthCount) * 100}%`} />
+          <small>{month.month}</small>
+        </div>
+      ))}
+    </div>
+    <table class="recap-count-table">
+      <caption class="visually-hidden">{year}년 월별 빌드 건수</caption>
+      <thead><tr><th scope="col">월</th><th scope="col">빌드</th></tr></thead>
+      <tbody>
+        {months.map((month) => (
+          <tr><th scope="row">{month.label}</th><td>{month.records.length}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <ArchiveSearch />
+
+  <div class="recap-months">
+    {activeMonths.map((month) => (
+      <section class="archive-section shell" aria-labelledby={`month-${month.month}`} data-archive-group>
+        <div class="section-heading">
+          <h2 id={`month-${month.month}`}>{month.label}</h2>
+          <p>{month.records.length} builds</p>
+        </div>
+        <div class="gallery-grid archive-section-grid">
+          {month.records.map((keyboard, index) => {
+            const entry = entryBySlug.get(keyboard.slug);
+            if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+            return <KeyboardCard keyboard={entry.data} index={index} headingLevel={3} />;
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <section class="recap-timeline shell" aria-labelledby="vendor-timeline-title">
+    <div class="section-heading">
+      <h2 id="vendor-timeline-title">Vendor Timeline</h2>
+      <p>Chronology</p>
+    </div>
+    <ol>
+      {chronology.map((keyboard) => (
+        <li>
+          <time datetime={keyboard.lastBuiltAt ?? undefined}>{formatDate(keyboard.lastBuiltAt)}</time>
+          <a class="recap-timeline-keyboard" href={`/keyboards/${keyboard.slug}/`}>{keyboard.title}</a>
+          <span>
+            {keyboard.build.vendors.map((vendor, index) => (
+              <><a href={vendor.href}>{vendor.title}</a>{index < keyboard.build.vendors.length - 1 ? ' · ' : ''}</>
+            ))}
+          </span>
+        </li>
+      ))}
+    </ol>
+  </section>
+</SiteLayout>

@@ -32,27 +32,44 @@
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "OG Extension",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/og-extension/"
       },
       {
         "kind": "series",
         "title": "Black Snail",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
         "title": "Relegendables+",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/relegendables/"
       },
       {
         "kind": "series",
         "title": "Classic Arabic",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-arabic/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MZ y3",
+        "href": "/switches/mz-y3/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

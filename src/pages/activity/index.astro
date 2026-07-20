@@ -1,0 +1,82 @@
+---
+import activityFeed from '../../data/activity.json';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const eventLabels = {
+  acquisition: '취득',
+  sale: '판매',
+  gift: '나눔',
+  discard: '폐기',
+  build: '빌드',
+  install: '장착',
+  remove: '분리',
+  preparation: '가공',
+  maintenance: '정비',
+  adjustment: '재고 조정',
+};
+const subjectLabels = {
+  keyboard: 'Keyboard',
+  keycap: 'Keycap',
+  switch: 'Switch',
+  spring: 'Spring',
+  lubricant: 'Lubricant',
+  vendor: 'Vendor',
+};
+type ActivityEventType = keyof typeof eventLabels;
+type ActivitySubjectKind = keyof typeof subjectLabels;
+const activities = activityFeed.activities as Array<{
+  date: string;
+  eventType: ActivityEventType;
+  subjectKind: ActivitySubjectKind;
+  subjectTitle: string;
+  summary: string | null;
+}>;
+const formatDate = (value: string) => new Intl.DateTimeFormat('ko-KR', {
+  dateStyle: 'long',
+  timeZone: 'UTC',
+}).format(new Date(`${value}T00:00:00Z`));
+---
+
+<SiteLayout
+  title="활동 기록"
+  description="키보드를 만들고 바꾸고 관리한 공개 활동 기록"
+>
+  <section class="archive-intro shell" aria-labelledby="activity-title">
+    <p class="eyebrow">Practice log, 2024—</p>
+    <h1 id="activity-title">만들고 바꾼<br />시간의 기록.</h1>
+    <p class="archive-description">
+      명시적으로 공개한 제작, 장착, 정비 기록만 시간순으로 정리합니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="recap" />
+    <p class="archive-count">{activities.length} activities</p>
+  </div>
+
+  <section class="activity-feed shell" aria-label="공개 활동 목록">
+    {activities.length === 0 ? (
+      <div class="activity-feed-empty">
+        <p>아직 공개한 활동 기록이 없습니다.</p>
+        <span>Studio에서 PUBLIC으로 지정한 기록만 이곳에 표시됩니다.</span>
+      </div>
+    ) : (
+      <ol>
+        {activities.map((activity) => (
+          <li>
+            <time datetime={activity.date}>{formatDate(activity.date)}</time>
+            <article>
+              <p class="activity-feed-meta">
+                <span>{subjectLabels[activity.subjectKind]}</span>
+                <span>{eventLabels[activity.eventType]}</span>
+              </p>
+              <h2>{activity.subjectTitle}</h2>
+              {activity.summary && <p class="activity-feed-summary">{activity.summary}</p>}
+            </article>
+          </li>
+        ))}
+      </ol>
+    )}
+  </section>
+</SiteLayout>

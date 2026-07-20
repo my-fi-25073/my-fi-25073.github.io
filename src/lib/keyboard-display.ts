@@ -18,7 +18,10 @@ export interface KeyboardRecord {
       kind: 'series' | 'kit';
       title: string;
       quantity: number | null;
+      href: string;
     }>;
+    switches: Array<{ title: string; href: string }>;
+    vendors: Array<{ title: string; href: string }>;
   };
 }
 
@@ -44,8 +47,7 @@ function dateField(value: string | null) {
 export function buildKeyboardCardFields(record: KeyboardRecord): DisplayField[] {
   return [
     ...listField('layouts', '배열', record.layouts),
-    ...listField('plates', '보강판', record.plates),
-    ...dateField(record.lastBuiltAt),
+    ...listField('keycaps', '키캡', record.build.keycaps.map((keycap) => keycap.title)),
   ];
 }
 

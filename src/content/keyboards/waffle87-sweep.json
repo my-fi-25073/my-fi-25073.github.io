@@ -33,7 +33,20 @@
       {
         "kind": "kit",
         "title": "KLP Custom Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/klp-blanks/#klp-custom-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Ambients Silent Twilight",
+        "href": "/switches/ambients-silent-twilight/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

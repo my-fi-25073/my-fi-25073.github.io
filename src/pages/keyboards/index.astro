@@ -1,11 +1,60 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveView from '../../components/ArchiveView.astro';
+import ArchiveSearch from '../../components/ArchiveSearch.astro';
+import CollectionFilter from '../../components/CollectionFilter.astro';
+import KeyboardCard from '../../components/KeyboardCard.astro';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  groupIdsForRecord,
+  groupsWithCounts,
+  recordsForCollectionView,
+  type CollectionManifest,
+} from '../../lib/collection-views';
 
-const keyboards = await getCollection('keyboards');
+const manifest = collectionData as CollectionManifest;
+const entries = await getCollection('keyboards');
+const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
+const records = recordsForCollectionView(
+  entries.map((entry) => entry.data),
+  manifest,
+  'keyboard-all',
+);
+const typeGroups = groupsWithCounts(records, manifest, ['keyboard-types'])
+  .map((group) => ({ ...group, label: `Type · ${group.label}` }));
+const layoutGroups = groupsWithCounts(records, manifest, ['keyboard-layouts'])
+  .map((group) => ({ ...group, label: `Layout · ${group.label}` }));
+const filters = [
+  { id: 'all', label: 'Latest Builds', count: records.length },
+  ...typeGroups,
+  ...layoutGroups,
+];
 ---
 
 <SiteLayout title="키보드 아카이브">
-  <ArchiveView current="keyboards" keycaps={[]} keyboards={keyboards} domainRecords={[]} />
+  <section class="archive-intro shell" aria-labelledby="keyboard-title">
+    <p class="eyebrow">Completed builds, 2024—</p>
+    <h1 id="keyboard-title">완성한 빌드를<br />최근 순서대로.</h1>
+    <p class="archive-description">
+      빌드 완료 상태만 공개하며, Types와 Layouts는 같은 키보드 기록을 목적에 맞게 다시 보는 View입니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="keyboards" />
+    <p class="archive-count">{records.length} completed builds</p>
+  </div>
+
+  <CollectionFilter groups={filters} defaultGroup="all" label="Keyboard views" />
+  <ArchiveSearch />
+
+  <section class="gallery-grid shell" aria-label="완성한 키보드 빌드">
+    {records.map((keyboard, index) => {
+      const entry = entryBySlug.get(keyboard.slug);
+      if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+      const groups = groupIdsForRecord(keyboard, manifest, ['keyboard-types', 'keyboard-layouts']);
+      return <KeyboardCard keyboard={entry.data} index={index} groups={groups} />;
+    })}
+  </section>
 </SiteLayout>

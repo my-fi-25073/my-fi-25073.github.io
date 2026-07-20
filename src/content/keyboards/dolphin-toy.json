@@ -32,12 +32,26 @@
       {
         "kind": "series",
         "title": "DCS WoB 40% Mono Kit",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-wob-40-mono-kit/"
       },
       {
         "kind": "series",
         "title": "DCS Intro WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dcs-intro-wob/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX1A Nixie",
+        "href": "/switches/mx1a-nixie/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Linworks",
+        "href": "/vendors/linworks/"
       }
     ]
   },

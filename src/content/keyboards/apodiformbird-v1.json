@@ -33,7 +33,20 @@
       {
         "kind": "kit",
         "title": "CLP Custom Black Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX1A Black",
+        "href": "/switches/mx1a-black/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "GitHub",
+        "href": "/vendors/github/"
       }
     ]
   },

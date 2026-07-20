@@ -36,7 +36,20 @@
       {
         "kind": "series",
         "title": "Oblivion",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/oblivion/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Milky Yellow",
+        "href": "/switches/milky-yellow/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Bastard KB",
+        "href": "/vendors/bastard-kb/"
       }
     ]
   },

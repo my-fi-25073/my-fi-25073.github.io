@@ -33,7 +33,20 @@
       {
         "kind": "series",
         "title": "Serika",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/serika/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Zeal PC Zealios v2",
+        "href": "/switches/zeal-pc-zealios-v2/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

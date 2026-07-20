@@ -1,20 +1,102 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveView from '../components/ArchiveView.astro';
+import KeyboardCard from '../components/KeyboardCard.astro';
+import TaxonomyNav from '../components/TaxonomyNav.astro';
+import collectionData from '../data/collections.json';
 import SiteLayout from '../layouts/SiteLayout.astro';
+import {
+  recordsForCollectionView,
+  requiredCollectionView,
+  type CollectionManifest,
+} from '../lib/collection-views';
 
-const [keycaps, keyboards, domainRecords] = await Promise.all([
-  getCollection('gallery'),
+const manifest = collectionData as CollectionManifest;
+const [keyboardEntries, keycapEntries, domainEntries] = await Promise.all([
   getCollection('keyboards'),
+  getCollection('gallery'),
   getCollection('records'),
 ]);
+const keyboards = keyboardEntries.map((entry) => entry.data);
+const entryBySlug = new Map(keyboardEntries.map((entry) => [entry.data.slug, entry]));
+const homeView = requiredCollectionView(manifest, 'home-latest').view;
+const recentLimit = typeof homeView.projection.limit === 'number' ? homeView.projection.limit : 6;
+const recent = recordsForCollectionView(keyboards, manifest, 'home-latest').slice(0, recentLimit);
+const completed = recordsForCollectionView(keyboards, manifest, 'keyboard-all');
+const keycaps = recordsForCollectionView(
+  keycapEntries.map((entry) => entry.data),
+  manifest,
+  'keycap-collections',
+);
+const switchFamilies = domainEntries
+  .map((entry) => entry.data)
+  .filter((record) => record.kind === 'switch-family');
+const switches = recordsForCollectionView(switchFamilies, manifest, 'switch-manufacturers');
+const recapYears = [2025, 2024].map((year) => ({
+  year,
+  count: recordsForCollectionView(keyboards, manifest, `recap-${year}-gallery`).length,
+}));
+const portals = [
+  { label: 'Keyboard', href: '/keyboards/', count: completed.length, note: 'Completed builds' },
+  { label: 'Keycap', href: '/keycaps/', count: keycaps.length, note: 'Series in curated views' },
+  { label: 'Switch', href: '/switches/', count: switches.length, note: 'Families and variants' },
+  { label: 'Recap', href: '/recap/', count: recapYears.length, note: 'Yearly collections' },
+];
 ---
 
 <SiteLayout>
-  <ArchiveView
-    current="all"
-    keycaps={keycaps}
-    keyboards={keyboards}
-    domainRecords={domainRecords}
-  />
+  <section class="archive-intro home-intro shell" aria-labelledby="home-title">
+    <p class="eyebrow">Keyboard practice, 2024—</p>
+    <h1 id="home-title">만들고, 바꾸고,<br />오래 기록하는 키보드.</h1>
+    <p class="archive-description">
+      원본 DB 전체가 아니라, 완성한 Keyboard와 목적별 Keycap·Switch Collection, 연도별 Recap을 공개합니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="home" />
+    <p class="archive-count">Curated public archive</p>
+  </div>
+
+  <section class="collection-portals shell" aria-label="주요 컬렉션">
+    {portals.map((portal, index) => (
+      <a href={portal.href} class="collection-portal">
+        <span>{String(index + 1).padStart(2, '0')}</span>
+        <div>
+          <h2>{portal.label}</h2>
+          <p>{portal.note}</p>
+        </div>
+        <strong>{portal.count}</strong>
+      </a>
+    ))}
+  </section>
+
+  <section class="home-section shell" aria-labelledby="recent-builds-title">
+    <div class="section-heading">
+      <h2 id="recent-builds-title">Recent Builds</h2>
+      <a href="/keyboards/">전체 Keyboard →</a>
+    </div>
+    <div class="gallery-grid home-grid">
+      {recent.map((keyboard, index) => {
+        const entry = entryBySlug.get(keyboard.slug);
+        if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+        return <KeyboardCard keyboard={entry.data} index={index} headingLevel={3} />;
+      })}
+    </div>
+  </section>
+
+  <section class="home-section shell" aria-labelledby="recap-home-title">
+    <div class="section-heading">
+      <h2 id="recap-home-title">Recap</h2>
+      <a href="/recap/">연도별 보기 →</a>
+    </div>
+    <div class="recap-portals">
+      {recapYears.map((recap) => (
+        <a href={`/recap/${recap.year}/`}>
+          <span>{recap.year}</span>
+          <strong>{recap.count} builds</strong>
+          <small>Monthly gallery · count · vendor timeline</small>
+        </a>
+      ))}
+    </div>
+  </section>
 </SiteLayout>

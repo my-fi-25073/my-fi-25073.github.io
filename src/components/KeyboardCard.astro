@@ -24,7 +24,14 @@ interface Keyboard {
     state: 'draft' | 'approved' | 'retired';
     startedAt: string | null;
     completedAt: string | null;
-    keycaps: Array<{ kind: 'series' | 'kit'; title: string; quantity: number | null }>;
+    keycaps: Array<{
+      kind: 'series' | 'kit';
+      title: string;
+      quantity: number | null;
+      href: string;
+    }>;
+    switches: Array<{ title: string; href: string }>;
+    vendors: Array<{ title: string; href: string }>;
   };
   images: Array<{ alt: string; variants: ImageVariant[] }>;
 }
@@ -32,9 +39,11 @@ interface Keyboard {
 interface Props {
   keyboard: Keyboard;
   index: number;
+  groups?: string[];
+  headingLevel?: 2 | 3;
 }
 
-const { keyboard, index } = Astro.props;
+const { keyboard, index, groups = [], headingLevel = 2 } = Astro.props;
 const cover = keyboard.images[0];
 const variants = cover.variants.toSorted((a, b) => a.width - b.width);
 const source = variants[0];
@@ -51,6 +60,7 @@ const searchText = [keyboard.title, ...fields.map((field) => field.value)]
   style={`--card-index:${Math.min(index, 12)}`}
   data-archive-card
   data-search={searchText}
+  data-groups={JSON.stringify(groups)}
 >
   <a class="gallery-card-link" href={`/keyboards/${keyboard.slug}/`}>
     <div class="gallery-card-media">
@@ -68,7 +78,7 @@ const searchText = [keyboard.title, ...fields.map((field) => field.value)]
     <div class="gallery-card-copy">
       <p class="card-kind">Keyboard</p>
       <div class="gallery-card-titleline">
-        <h2>{keyboard.title}</h2>
+        {headingLevel === 3 ? <h3>{keyboard.title}</h3> : <h2>{keyboard.title}</h2>}
         <span class="record-number" aria-label={`${index + 1}번째 기록`}>{recordNumber}</span>
       </div>
       <DisplayFields fields={fields} variant="card" />

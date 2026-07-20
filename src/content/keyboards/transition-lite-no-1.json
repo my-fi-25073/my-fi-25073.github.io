@@ -34,32 +34,50 @@
       {
         "kind": "series",
         "title": "BAE Add On",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/bae-add-on/"
       },
       {
         "kind": "series",
         "title": "OG Extension",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/og-extension/"
       },
       {
         "kind": "kit",
         "title": "Beige/WoB",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
         "title": "Beige Add On ",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
         "title": "UwU Macro Add On",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/uwu-macro-add-on/"
       },
       {
         "kind": "series",
         "title": "Classic Retro Zhuyin",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/classic-retro-zhuyin/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MZ y3",
+        "href": "/switches/mz-y3/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Swagkey",
+        "href": "/vendors/swagkey/"
       }
     ]
   },

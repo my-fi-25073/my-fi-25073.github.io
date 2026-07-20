@@ -31,7 +31,20 @@
       {
         "kind": "series",
         "title": "Serika",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/serika/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Bumblebee",
+        "href": "/switches/bumblebee/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KPrepublic",
+        "href": "/vendors/kprepublic/"
       }
     ]
   },

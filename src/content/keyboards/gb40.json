@@ -32,7 +32,20 @@
       {
         "kind": "series",
         "title": "DMG",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/dmg/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "RGY",
+        "href": "/switches/rgy/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "Funkeys",
+        "href": "/vendors/funkeys/"
       }
     ]
   },

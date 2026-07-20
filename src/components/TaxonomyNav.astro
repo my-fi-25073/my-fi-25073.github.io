@@ -1,21 +1,16 @@
 ---
+import collectionData from '../data/collections.json';
+import type { CollectionManifest } from '../lib/collection-views';
+
 interface Props {
   current?: string;
 }
 
-const { current = 'all' } = Astro.props;
-const items = [
-  { id: 'all', label: '전체', href: '/' },
-  { id: 'keycaps', label: '키캡', href: '/keycaps/' },
-  { id: 'keyboards', label: '키보드', href: '/keyboards/' },
-  { id: 'switches', label: '스위치', href: '/switches/' },
-  { id: 'springs', label: '스프링', href: '/springs/' },
-  { id: 'lubricants', label: '윤활제', href: '/lubricants/' },
-  { id: 'vendors', label: '벤더', href: '/vendors/' },
-];
+const { current = 'home' } = Astro.props;
+const items = (collectionData as CollectionManifest).navigation;
 ---
 
-<nav class="taxonomy" aria-label="아카이브 분류">
+<nav class="taxonomy" aria-label="공개 컬렉션">
   <ul>
     {items.map((item) => (
       <li>

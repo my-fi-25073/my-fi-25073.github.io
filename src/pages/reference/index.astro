@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import TaxonomyNav from '../../components/TaxonomyNav.astro';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+
+const records = await getCollection('records');
+const references = [
+  {
+    id: 'springs',
+    label: 'Springs',
+    href: '/springs/',
+    count: records.filter((entry) => entry.data.category === 'springs').length,
+    description: '제조사, 압력, 길이와 타입',
+  },
+  {
+    id: 'lubricants',
+    label: 'Lubricants',
+    href: '/lubricants/',
+    count: records.filter((entry) => entry.data.category === 'lubricants').length,
+    description: '윤활제 타입과 사용 기준',
+  },
+  {
+    id: 'vendors',
+    label: 'Vendors',
+    href: '/vendors/',
+    count: records.filter((entry) => entry.data.category === 'vendors').length,
+    description: '빌드와 구매처의 관계',
+  },
+];
+---
+
+<SiteLayout title="Reference">
+  <section class="archive-intro shell" aria-labelledby="reference-title">
+    <p class="eyebrow">Supporting records</p>
+    <h1 id="reference-title">주인공이 아니라<br />관계를 설명하는 기록.</h1>
+    <p class="archive-description">
+      Spring, Lubricant, Vendor는 독립 아카이브 메뉴가 아니라 Keyboard·Switch·Recap을 이해하기 위한 Reference로 둡니다.
+    </p>
+  </section>
+
+  <div class="shell archive-controls">
+    <TaxonomyNav current="reference" />
+    <p class="archive-count">3 reference collections</p>
+  </div>
+
+  <section class="collection-portals shell" aria-label="Reference 컬렉션">
+    {references.map((reference, index) => (
+      <a href={reference.href} class="collection-portal">
+        <span>{String(index + 1).padStart(2, '0')}</span>
+        <div>
+          <h2>{reference.label}</h2>
+          <p>{reference.description}</p>
+        </div>
+        <strong>{reference.count}</strong>
+      </a>
+    ))}
+  </section>
+</SiteLayout>

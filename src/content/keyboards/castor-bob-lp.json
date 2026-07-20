@@ -31,7 +31,20 @@
       {
         "kind": "series",
         "title": "LAK Gold On Black",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/lak-gold-on-black/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Lofree Pulse",
+        "href": "/switches/lofree-pulse/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
       }
     ]
   },

@@ -31,7 +31,20 @@
       {
         "kind": "kit",
         "title": "ULP Flat Transparent Blanks",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/ulp-flat-blanks/#ulp-flat-transparent-blanks"
+      }
+    ],
+    "switches": [
+      {
+        "title": "MX ULP Tactile",
+        "href": "/switches/mx-ulp-tactile/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
       }
     ]
   },

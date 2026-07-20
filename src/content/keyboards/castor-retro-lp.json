@@ -31,7 +31,20 @@
       {
         "kind": "series",
         "title": "LCK Retro",
-        "quantity": null
+        "quantity": null,
+        "href": "/gallery/lck-retro/"
+      }
+    ],
+    "switches": [
+      {
+        "title": "Deep Sea Silent Whale Brown",
+        "href": "/switches/deep-sea-silent-whale-brown/"
+      }
+    ],
+    "vendors": [
+      {
+        "title": "KKLabs",
+        "href": "/vendors/kklabs/"
       }
     ]
   },
