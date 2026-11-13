@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-silver-white",
+  "title": "Gateron LP Silver White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP Silver White 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-0-cef7cf546d2b-640.avif",
+              "width": 468,
+              "height": 415
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP Silver White 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-1-d1b14145fb06-640.avif",
+              "width": 640,
+              "height": 298
+            },
+            {
+              "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-1-d1b14145fb06-1280.avif",
+              "width": 1248,
+              "height": 581
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP Silver White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-0-cef7cf546d2b-640.avif",
+          "width": 468,
+          "height": 415
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP Silver White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-1-d1b14145fb06-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/gateron-lp-silver-white/d222a25fbe65105b-507cc6a11b84-source-gallery-1-d1b14145fb06-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

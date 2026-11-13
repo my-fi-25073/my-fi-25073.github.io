@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-ocean",
+  "title": "Bsun Ocean",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 57.5g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "57.5g",
+          "length": "21mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Ocean 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-0-1953906d707b-640.avif",
+              "width": 640,
+              "height": 440
+            },
+            {
+              "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-0-1953906d707b-1280.avif",
+              "width": 736,
+              "height": 506
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Ocean 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-1-ad4aba44e68d-640.avif",
+              "width": 640,
+              "height": 637
+            },
+            {
+              "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-1-ad4aba44e68d-1280.avif",
+              "width": 1249,
+              "height": 1244
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Ocean 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-0-1953906d707b-640.avif",
+          "width": 640,
+          "height": 440
+        },
+        {
+          "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-0-1953906d707b-1280.avif",
+          "width": 736,
+          "height": 506
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Ocean 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-1-ad4aba44e68d-640.avif",
+          "width": 640,
+          "height": 637
+        },
+        {
+          "src": "/media/switches/bsun-ocean/a139a38d7bd2b1c1-ec9efece69a8-source-gallery-1-ad4aba44e68d-1280.avif",
+          "width": 1249,
+          "height": 1244
+        }
+      ]
+    }
+  ]
+}

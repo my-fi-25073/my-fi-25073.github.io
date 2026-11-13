@@ -31,13 +31,13 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       }
@@ -46,12 +46,6 @@
       {
         "title": "MX2A Black",
         "href": "/switches/mx2a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
       }
     ]
   },

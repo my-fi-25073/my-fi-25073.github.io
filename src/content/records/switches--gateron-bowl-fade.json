@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-bowl-fade",
+  "title": "Gateron Bowl Fade",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "18mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron Bowl Fade 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-0-8e408d2f6e47-640.avif",
+              "width": 640,
+              "height": 397
+            },
+            {
+              "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-0-8e408d2f6e47-1280.avif",
+              "width": 923,
+              "height": 573
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Bowl Fade 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-1-cfe31222c6a2-640.avif",
+              "width": 640,
+              "height": 392
+            },
+            {
+              "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-1-cfe31222c6a2-1280.avif",
+              "width": 778,
+              "height": 477
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron Bowl Fade 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-0-8e408d2f6e47-640.avif",
+          "width": 640,
+          "height": 397
+        },
+        {
+          "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-0-8e408d2f6e47-1280.avif",
+          "width": 923,
+          "height": 573
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Bowl Fade 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-1-cfe31222c6a2-640.avif",
+          "width": 640,
+          "height": 392
+        },
+        {
+          "src": "/media/switches/gateron-bowl-fade/0185b5770132be87-620f241bf4fa-source-gallery-1-cfe31222c6a2-1280.avif",
+          "width": 778,
+          "height": 477
+        }
+      ]
+    }
+  ]
+}

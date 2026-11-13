@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "outemu-lime-v3",
+  "title": "Outemu Lime V3",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Silent",
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "35.0g",
+          "length": "21.0mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Outemu Lime V3 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-0-346eecb3cbe8-640.avif",
+              "width": 640,
+              "height": 468
+            },
+            {
+              "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-0-346eecb3cbe8-1280.avif",
+              "width": 690,
+              "height": 505
+            }
+          ]
+        },
+        {
+          "alt": "Outemu Lime V3 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-640.avif",
+              "width": 640,
+              "height": 720
+            },
+            {
+              "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-1280.avif",
+              "width": 1280,
+              "height": 1441
+            },
+            {
+              "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-2400.avif",
+              "width": 1322,
+              "height": 1488
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Outemu Lime V3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-0-346eecb3cbe8-640.avif",
+          "width": 640,
+          "height": 468
+        },
+        {
+          "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-0-346eecb3cbe8-1280.avif",
+          "width": 690,
+          "height": 505
+        }
+      ]
+    },
+    {
+      "alt": "Outemu Lime V3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-640.avif",
+          "width": 640,
+          "height": 720
+        },
+        {
+          "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-1280.avif",
+          "width": 1280,
+          "height": 1441
+        },
+        {
+          "src": "/media/switches/outemu-lime-v3/02b8c7d44ad3f162-a9a5149831e2-source-gallery-1-3d02828651c6-2400.avif",
+          "width": 1322,
+          "height": 1488
+        }
+      ]
+    }
+  ]
+}

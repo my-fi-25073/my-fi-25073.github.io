@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "granite",
-  "title": "Granite",
+  "title": "GMK MTNU Granite",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "MTNU",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Granite Base 이미지 1",
+          "alt": "GMK MTNU Granite Base 이미지 1",
           "variants": [
             {
               "src": "/media/granite/kit-33c87168657e2743-source-gallery-0-2ec4c2a5aa88-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "Granite Base 이미지 2",
+          "alt": "GMK MTNU Granite Base 이미지 2",
           "variants": [
             {
               "src": "/media/granite/kit-33c87168657e2743-source-gallery-1-8c80e8e90464-640.avif",
@@ -74,10 +73,9 @@
         "Modifier - Obscure",
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Granite Extension 이미지 1",
+          "alt": "GMK MTNU Granite Extension 이미지 1",
           "variants": [
             {
               "src": "/media/granite/kit-9236a3c93cc1b9a3-source-gallery-0-65d96e6337bf-640.avif",
@@ -96,7 +94,7 @@
   ],
   "images": [
     {
-      "alt": "Granite 이미지 1",
+      "alt": "GMK MTNU Granite 이미지 1",
       "variants": [
         {
           "src": "/media/granite/series-ccb72a7cc34c7feb-source-gallery-0-714757faac77-640.avif",

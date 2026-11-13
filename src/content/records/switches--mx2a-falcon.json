@@ -1,31 +1,78 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx2a-falcon",
   "title": "MX2A Falcon",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 1,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Tactile"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 100g",
-        "status": "partial"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "40 cN",
+          "actuation_force": "50 cN",
+          "final_force": "100 cN",
+          "length": "15.3mm",
+          "spring_stage": "single-stage"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX2A Falcon 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-0-3d04f8ef158f-640.avif",
+              "width": 640,
+              "height": 386
+            },
+            {
+              "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-0-3d04f8ef158f-1280.avif",
+              "width": 785,
+              "height": 474
+            }
+          ]
+        },
+        {
+          "alt": "MX2A Falcon 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-1-95fcacb9b97e-640.avif",
+              "width": 640,
+              "height": 678
+            },
+            {
+              "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-1-95fcacb9b97e-1280.avif",
+              "width": 1229,
+              "height": 1302
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +81,12 @@
       "alt": "MX2A Falcon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-0-3d04f8ef158f-640.avif",
+          "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-0-3d04f8ef158f-640.avif",
           "width": 640,
           "height": 386
         },
         {
-          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-0-3d04f8ef158f-1280.avif",
+          "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-0-3d04f8ef158f-1280.avif",
           "width": 785,
           "height": 474
         }
@@ -49,12 +96,12 @@
       "alt": "MX2A Falcon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-1-95fcacb9b97e-640.avif",
+          "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-1-95fcacb9b97e-640.avif",
           "width": 640,
           "height": 678
         },
         {
-          "src": "/media/switches/mx2a-falcon/8aa927e34afd8b62-source-gallery-1-95fcacb9b97e-1280.avif",
+          "src": "/media/switches/mx2a-falcon/cdb0f99bf72905a2-98d2bb94003a-source-gallery-1-95fcacb9b97e-1280.avif",
           "width": 1229,
           "height": 1302
         }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "hhkb-snow",
-  "title": "HHKB Snow",
+  "title": "Topre Topre HHKB Snow",
   "category": "keycaps",
   "manufacturer": "Topre",
   "profile": "OEM-Topre",
@@ -24,10 +24,9 @@
         "Base - Simple",
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB Snow Blank Base 이미지 1",
+          "alt": "Topre Topre HHKB Snow Blank Base 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-snow/kit-4c860b9f1ce337bf-source-gallery-0-8284c9f7a986-640.avif",
@@ -51,7 +50,7 @@
   ],
   "images": [
     {
-      "alt": "HHKB Snow 이미지 1",
+      "alt": "Topre Topre HHKB Snow 이미지 1",
       "variants": [
         {
           "src": "/media/hhkb-snow/series-b2f2eafa9dbc0833-source-gallery-0-e073080fad33-640.avif",

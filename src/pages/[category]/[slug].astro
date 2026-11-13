@@ -2,17 +2,16 @@
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
 import DisplayFields from '../../components/DisplayFields.astro';
+import ImageGallery from '../../components/ImageGallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import {
-  buildDomainFields,
-  domainLabels,
-} from '../../lib/domain-display';
+import { buildDomainFields } from '../../lib/domain-display';
+import { publicSwitchTunings } from '../../lib/switch-tuning-display';
 
 export async function getStaticPaths() {
   const records = await getCollection('records');
   return records.map((entry) => ({
-    params: { category: entry.data.category, slug: entry.data.slug },
+    params: { category: 'switches', slug: entry.data.slug },
     props: { entry },
   }));
 }
@@ -23,133 +22,117 @@ interface Props {
 
 const { entry } = Astro.props;
 const record = entry.data;
-const labels = domainLabels(record);
 const fields = buildDomainFields(record);
+const tunings = publicSwitchTunings(record);
+function lubeLabel(lube: (typeof record.tunings)[number]['lubrication']['stem']) {
+  if (lube.state === 'factory') return 'Factory';
+  if (lube.state === 'none') return 'Unlubed';
+  return lube.name;
+}
 const partLabels = {
-  stem: 'Stem',
-  bottom_housing: 'Bottom housing',
-  top_housing: 'Top housing',
+  stem: '스템',
+  bottom_housing: '하부 하우징',
+  top_housing: '상부 하우징',
 };
-const springResolutionLabels = {
-  inherit: '기준 구성 상속',
-  selected: '선택됨',
-  stock_unresolved: '순정 스프링 미해결',
-  unknown: '알 수 없음',
-};
+const tuningImageSources = new Set(record.tunings.flatMap((tuning) => (
+  tuning.images.flatMap((image) => image.variants.map(({ src }) => src))
+)));
+const directProductImages = record.images.filter((image) => (
+  !image.variants.some(({ src }) => tuningImageSources.has(src))
+));
 ---
 
-<SiteLayout title={record.title} description={`${record.title} ${labels.korean} 기록`}>
+<SiteLayout title={record.title}>
   <article class="detail shell">
-    <a class="back-link" href={`/${record.category}/`}>← {labels.archive}</a>
     <header class="detail-header">
-      <p class="eyebrow">{labels.singular}</p>
       <h1>{record.title}</h1>
     </header>
 
-    <section class="series-properties" aria-labelledby="domain-properties-heading">
-      <div class="section-heading">
-        <h2 id="domain-properties-heading">상세 정보</h2>
-      </div>
-      <DisplayFields fields={fields} variant="detail" />
-    </section>
+    <ImageGallery images={directProductImages} label={record.title} />
 
-    {record.kind === 'switch-family' && record.variants.length > 0 && (
-      <section class="record-section switch-variants" aria-labelledby="switch-variants-heading">
-        <div class="section-heading">
-          <h2 id="switch-variants-heading">Variants</h2>
-          <p>{record.variants.length}개 구성</p>
-        </div>
-        <div class="switch-variant-grid">
-          {record.variants.map((variant) => (
-            <article>
-              <header>
-                <h3>{variant.label}</h3>
-                {variant.reference && <span>Reference</span>}
-              </header>
-              <dl>
-                {variant.manufacturer && <><dt>제조사</dt><dd>{variant.manufacturer}</dd></>}
-                {variant.switchTypes.length > 0 && <><dt>타입</dt><dd>{variant.switchTypes.join(' · ')}</dd></>}
-                {variant.footprintType && <><dt>풋프린트</dt><dd>{variant.footprintType}</dd></>}
-                {variant.rating !== null && <><dt>평가</dt><dd>{variant.rating}/5</dd></>}
-                <dt>스프링</dt>
-                <dd>{variant.spring.name ?? springResolutionLabels[variant.spring.resolution]}</dd>
-                <dt>하우징 처리</dt>
-                <dd>{variant.housingFit.state === 'applied'
-                  ? [variant.housingFit.method, variant.housingFit.material].filter(Boolean).join(' · ')
-                  : variant.housingFit.state}</dd>
-              </dl>
-            </article>
-          ))}
-        </div>
-      </section>
+    {record.parts.length > 0 && (
+      <dl class="product-parts" aria-label="프랑켄 조합">
+        {record.parts.map((part) => (
+          <div><dt>{partLabels[part.role]}</dt><dd>{part.donor}</dd></div>
+        ))}
+      </dl>
     )}
 
-    {record.kind === 'switch-family' && record.parts.length > 0 && (
-      <section class="record-section switch-parts" aria-labelledby="switch-parts-heading">
+    {tunings.length > 0 && (
+      <section class="record-section switch-tunings" aria-labelledby="switch-tunings-heading">
         <div class="section-heading">
-          <h2 id="switch-parts-heading">Franken Recipe</h2>
+          <h2 id="switch-tunings-heading">Tuning Specs</h2>
         </div>
-        <ul>
-          {record.parts.map((part) => (
-            <li><span>{partLabels[part.role]}</span><strong>{part.donor}</strong></li>
-          ))}
-        </ul>
-      </section>
-    )}
-
-    {record.kind === 'vendor' && record.links.length > 0 && (
-      <section class="record-section vendor-links" aria-labelledby="vendor-links-heading">
-        <div class="section-heading">
-          <h2 id="vendor-links-heading">링크</h2>
-        </div>
-        <ul>
-          {record.links.map((link) => (
-            <li><a href={link.url} target="_blank" rel="noreferrer">{link.label} ↗</a></li>
-          ))}
-        </ul>
-      </section>
-    )}
-
-    {record.images.length > 0 && (
-      <section class="record-section" aria-labelledby="domain-images-heading">
-        <div class="section-heading">
-          <h2 id="domain-images-heading">사진</h2>
-          <p>{record.images.length}장</p>
-        </div>
-        <div class="detail-images domain-images">
-          {record.images.map((item, index) => {
-            const variants = item.variants.toSorted((a, b) => a.width - b.width);
-            const display = variants[0];
-            const full = variants.at(-1) ?? display;
-            const srcset = variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
+        <ul class="switch-tuning-list">
+          {tunings.map(({ label, href, tuning }) => {
+            const photo = tuning.images[0]?.variants[0];
+            const details = [
+              ['Spring', tuning.spring.name],
+              ['Stem lube', lubeLabel(tuning.lubrication.stem)],
+              ['Spring lube', lubeLabel(tuning.lubrication.spring)],
+            ];
             return (
-              <figure>
-                <button
-                  class="detail-image-button"
-                  type="button"
-                  data-lightbox-open
-                  data-full={full.src}
-                  data-alt={item.alt}
-                  data-caption={`${record.title} · ${index + 1}`}
-                  aria-label={`${index + 1}번째 이미지 확대`}
-                >
-                  <img
-                    src={display.src}
-                    srcset={srcset}
-                    sizes="(min-width: 960px) 50vw, 100vw"
-                    width={display.width}
-                    height={display.height}
-                    alt={item.alt}
-                    loading={index === 0 ? 'eager' : 'lazy'}
-                    decoding="async"
-                  />
-                </button>
-              </figure>
+              <li>
+                <a href={href}>
+                  {photo && <img src={photo.src} width={photo.width} height={photo.height} alt="" loading="lazy" />}
+                  <div class="tuning-link-detail">
+                    <h3>{label}</h3>
+                    <dl>
+                      {details.map(([key, value]) => <div><dt>{key}</dt><dd>{value ?? '—'}</dd></div>)}
+                    </dl>
+                  </div>
+                </a>
+              </li>
             );
           })}
-        </div>
+        </ul>
+      </section>
+    )}
+    {fields.length > 0 && (
+      <section class="series-properties" aria-label="스위치 정보">
+        <DisplayFields fields={fields} variant="detail" />
       </section>
     )}
   </article>
   <Lightbox />
 </SiteLayout>
+
+<style>
+  .switch-tuning-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .switch-tuning-list a {
+    display: block;
+    height: 100%;
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-card);
+    background: var(--color-panel);
+  }
+
+  .switch-tuning-list img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    background: var(--color-surface);
+    border-radius: var(--radius-card) var(--radius-card) 0 0;
+  }
+
+  .tuning-link-detail { min-width: 0; padding: 12px; overflow-wrap: anywhere; }
+  .tuning-link-detail h3 { margin: 0; font-size: 15px; }
+  .tuning-link-detail dl { display: grid; gap: 4px; margin: 8px 0 0; font-size: 13px; }
+  .tuning-link-detail dl > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 8px; }
+  .tuning-link-detail dt { color: var(--color-muted); }
+  .tuning-link-detail dd { margin: 0; }
+
+  .switch-tuning-list a:hover h3 {
+    text-decoration: underline;
+    text-underline-offset: .18em;
+  }
+</style>

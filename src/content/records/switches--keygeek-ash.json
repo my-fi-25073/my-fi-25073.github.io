@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-ash",
+  "title": "Keygeek Ash",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 52g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "52g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Ash 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-0-96d4e33f7dd9-640.avif",
+              "width": 640,
+              "height": 477
+            },
+            {
+              "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-0-96d4e33f7dd9-1280.avif",
+              "width": 712,
+              "height": 531
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Ash 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-1-1982ed1f0337-640.avif",
+              "width": 640,
+              "height": 783
+            },
+            {
+              "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-1-1982ed1f0337-1280.avif",
+              "width": 1214,
+              "height": 1486
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Ash 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-0-96d4e33f7dd9-640.avif",
+          "width": 640,
+          "height": 477
+        },
+        {
+          "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-0-96d4e33f7dd9-1280.avif",
+          "width": 712,
+          "height": 531
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Ash 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-1-1982ed1f0337-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/keygeek-ash/4e97b115a967282b-fdd410b82727-source-gallery-1-1982ed1f0337-1280.avif",
+          "width": 1214,
+          "height": 1486
+        }
+      ]
+    }
+  ]
+}

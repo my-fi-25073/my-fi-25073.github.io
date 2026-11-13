@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-mz-y3",
+  "title": "Keygeek MZ y3",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory OG 37g(partial) · 스템 공장 윤활 · 스프링 공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 37g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "37g",
+          "length": "20.0mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek MZ y3 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-640.avif",
+              "width": 640,
+              "height": 401
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-1280.avif",
+              "width": 1030,
+              "height": 645
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek MZ y3 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-640.avif",
+              "width": 640,
+              "height": 588
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-1280.avif",
+              "width": 1280,
+              "height": 1175
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-2400.avif",
+              "width": 1322,
+              "height": 1214
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Sprit Supreme 30g · 스템 공장 윤활 · 스프링 무윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 30g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "30g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek MZ y3 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-640.avif",
+              "width": 640,
+              "height": 393
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-1280.avif",
+              "width": 1059,
+              "height": 650
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek MZ y3 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-1-88dffb85dfed-640.avif",
+              "width": 640,
+              "height": 588
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-1-88dffb85dfed-1280.avif",
+              "width": 1280,
+              "height": 1175
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-1-88dffb85dfed-2400.avif",
+              "width": 1322,
+              "height": 1214
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Factory OG 45g · 스템 공장 윤활 · 스프링 공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "partial",
+        "specifications": {
+          "length": "18mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek MZ y3 사진 5",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-640.avif",
+              "width": 640,
+              "height": 517
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-1280.avif",
+              "width": 705,
+              "height": 570
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek MZ y3 사진 6",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-640.avif",
+              "width": 640,
+              "height": 811
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-1280.avif",
+              "width": 1161,
+              "height": 1471
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek MZ y3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-1280.avif",
+          "width": 1030,
+          "height": 645
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek MZ y3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-640.avif",
+          "width": 640,
+          "height": 588
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-1280.avif",
+          "width": 1280,
+          "height": 1175
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-2400.avif",
+          "width": 1322,
+          "height": 1214
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek MZ y3 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-640.avif",
+          "width": 640,
+          "height": 393
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-1280.avif",
+          "width": 1059,
+          "height": 650
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek MZ y3 사진 5",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-640.avif",
+          "width": 640,
+          "height": 517
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-1280.avif",
+          "width": 705,
+          "height": 570
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek MZ y3 사진 6",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-640.avif",
+          "width": 640,
+          "height": 811
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-1280.avif",
+          "width": 1161,
+          "height": 1471
+        }
+      ]
+    }
+  ]
+}

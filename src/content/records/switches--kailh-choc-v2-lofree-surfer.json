@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-lofree-surfer",
+  "title": "Kailh Choc v2 Lofree Surfer",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 4,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40g ± 10g",
+          "length": "15.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Surfer 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-1280.avif",
+              "width": 1280,
+              "height": 1166
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-2400.avif",
+              "width": 1304,
+              "height": 1188
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Surfer 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-640.avif",
+              "width": 640,
+              "height": 472
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-1280.avif",
+              "width": 1192,
+              "height": 880
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "25g",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Surfer 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-1280.avif",
+              "width": 1280,
+              "height": 1166
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-2400.avif",
+              "width": 1304,
+              "height": 1188
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Surfer 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-1-d1fe7eb207a2-640.avif",
+              "width": 640,
+              "height": 472
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-1-d1fe7eb207a2-1280.avif",
+              "width": 1192,
+              "height": 880
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Lofree Surfer 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-1280.avif",
+          "width": 1280,
+          "height": 1166
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-2400.avif",
+          "width": 1304,
+          "height": 1188
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Surfer 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-640.avif",
+          "width": 640,
+          "height": 472
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-1280.avif",
+          "width": 1192,
+          "height": 880
+        }
+      ]
+    }
+  ]
+}

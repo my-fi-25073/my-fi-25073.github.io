@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-og-rabbit",
+  "title": "TTC OG Rabbit",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 52g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "42gf"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC OG Rabbit 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-og-rabbit/4ebc1015917889cc-7fb91d7d69a8-source-gallery-0-dd8926778017-640.avif",
+              "width": 640,
+              "height": 443
+            },
+            {
+              "src": "/media/switches/ttc-og-rabbit/4ebc1015917889cc-7fb91d7d69a8-source-gallery-0-dd8926778017-1280.avif",
+              "width": 687,
+              "height": 476
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC OG Rabbit 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-og-rabbit/4ebc1015917889cc-7fb91d7d69a8-source-gallery-0-dd8926778017-640.avif",
+          "width": 640,
+          "height": 443
+        },
+        {
+          "src": "/media/switches/ttc-og-rabbit/4ebc1015917889cc-7fb91d7d69a8-source-gallery-0-dd8926778017-1280.avif",
+          "width": 687,
+          "height": 476
+        }
+      ]
+    }
+  ]
+}

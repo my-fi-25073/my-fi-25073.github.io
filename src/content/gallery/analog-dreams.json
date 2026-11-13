@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "analog-dreams",
-  "title": "Analog Dreams",
+  "title": "GMK CYL Analog Dreams",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,13 +26,12 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": []
     }
   ],
   "images": [
     {
-      "alt": "Analog Dreams 이미지 1",
+      "alt": "GMK CYL Analog Dreams 이미지 1",
       "variants": [
         {
           "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-640.avif",

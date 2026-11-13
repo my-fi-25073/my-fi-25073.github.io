@@ -1,31 +1,70 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx2a-blue",
   "title": "MX2A Blue",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 1,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Click"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "25 cN",
+          "actuation_force": "50 cN"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX2A Blue 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-0-05aacfc0c2b5-640.avif",
+              "width": 201,
+              "height": 206
+            }
+          ]
+        },
+        {
+          "alt": "MX2A Blue 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-1-5f164c5b6cfe-640.avif",
+              "width": 640,
+              "height": 756
+            },
+            {
+              "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-1-5f164c5b6cfe-1280.avif",
+              "width": 1223,
+              "height": 1445
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,7 +73,7 @@
       "alt": "MX2A Blue 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-0-05aacfc0c2b5-640.avif",
+          "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-0-05aacfc0c2b5-640.avif",
           "width": 201,
           "height": 206
         }
@@ -44,12 +83,12 @@
       "alt": "MX2A Blue 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-1-5f164c5b6cfe-640.avif",
+          "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-1-5f164c5b6cfe-640.avif",
           "width": 640,
           "height": 756
         },
         {
-          "src": "/media/switches/mx2a-blue/1ee21adac058baa7-source-gallery-1-5f164c5b6cfe-1280.avif",
+          "src": "/media/switches/mx2a-blue/249bbbf01421a90f-400832a443ae-source-gallery-1-5f164c5b6cfe-1280.avif",
           "width": 1223,
           "height": 1445
         }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pbtfans-bow",
-  "title": "PBTFans BoW",
+  "title": "PBTFans Cherry BoW",
   "category": "keycaps",
   "manufacturer": "PBTFans",
   "profile": "Cherry-Clone",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "PBTFans BoW Icon Base 이미지 1",
+          "alt": "PBTFans Cherry BoW Icon Base 이미지 1",
           "variants": [
             {
               "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-0-1e50bbc83650-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "PBTFans BoW Icon Base 이미지 2",
+          "alt": "PBTFans Cherry BoW Icon Base 이미지 2",
           "variants": [
             {
               "src": "/media/pbtfans-bow/kit-bea0655ab8bef7e3-source-gallery-1-aa2300ceb784-640.avif",
@@ -73,10 +72,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "PBTFans BoW SpaceBar 이미지 1",
+          "alt": "PBTFans Cherry BoW SpaceBar 이미지 1",
           "variants": [
             {
               "src": "/media/pbtfans-bow/kit-6584b83e8884099a-source-gallery-0-a937c20edbef-640.avif",
@@ -100,7 +98,7 @@
   ],
   "images": [
     {
-      "alt": "PBTFans BoW 이미지 1",
+      "alt": "PBTFans Cherry BoW 이미지 1",
       "variants": [
         {
           "src": "/media/pbtfans-bow/series-5cce953ff14786af-source-gallery-0-8b5a57cdcdb6-640.avif",

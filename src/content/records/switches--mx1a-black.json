@@ -1,131 +1,485 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx1a-black",
   "title": "MX1A Black",
   "category": "switches",
-  "familyKind": "commercial",
-  "recipeStatus": "not_applicable",
-  "variants": [
-    {
-      "label": "25g · stem 205g0",
-      "reference": false,
-      "rating": 3,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
-      "spring": {
-        "resolution": "selected",
-        "name": "Sprit Supreme 25g",
-        "status": null
-      },
-      "housingFit": {
-        "state": "applied",
-        "method": "film",
-        "material": "TX PET 필름 0.150mm"
-      }
-    },
-    {
-      "label": "25g · stem 205g2",
-      "reference": false,
-      "rating": 4,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
-      "spring": {
-        "resolution": "selected",
-        "name": "Sprit Supreme 25g",
-        "status": null
-      },
-      "housingFit": {
-        "state": "applied",
-        "method": "film",
-        "material": "TX PET 필름 0.150mm"
-      }
-    },
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
       "label": "30g",
-      "reference": false,
       "rating": 4,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
-        "status": null
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "30g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
       },
       "housingFit": {
         "state": "applied",
         "method": "film",
         "material": "TX PET 필름 0.150mm"
-      }
-    },
-    {
-      "label": "DG 25g",
-      "reference": false,
-      "rating": 5,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
-      "spring": {
-        "resolution": "selected",
-        "name": "Sprit Supreme 25g",
-        "status": null
       },
-      "housingFit": {
-        "state": "applied",
-        "method": "film",
-        "material": "TX PET 필름 0.150mm"
-      }
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-640.avif",
+              "width": 640,
+              "height": 582
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-1280.avif",
+              "width": 1280,
+              "height": 1164
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-2400.avif",
+              "width": 1540,
+              "height": 1401
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-640.avif",
+              "width": 484,
+              "height": 489
+            }
+          ]
+        }
+      ]
     },
     {
-      "label": "DG 35g",
-      "reference": false,
+      "label": "35g · Dia Glide",
       "rating": 4,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
-        "status": null
+        "status": null,
+        "specifications": {
+          "actuation_force": "25g",
+          "bottom_out_force": "35g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
       },
       "housingFit": {
         "state": "applied",
         "method": "film",
         "material": "TX PET 필름 0.150mm"
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-640.avif",
+              "width": 640,
+              "height": 592
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-1280.avif",
+              "width": 1280,
+              "height": 1184
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-2400.avif",
+              "width": 1634,
+              "height": 1511
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-640.avif",
+              "width": 640,
+              "height": 509
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-1280.avif",
+              "width": 1280,
+              "height": 1018
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-2400.avif",
+              "width": 1395,
+              "height": 1109
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 5",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-640.avif",
+              "width": 640,
+              "height": 615
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-1280.avif",
+              "width": 1280,
+              "height": 1230
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-2400.avif",
+              "width": 1779,
+              "height": 1710
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 6",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-640.avif",
+              "width": 640,
+              "height": 618
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-1280.avif",
+              "width": 1280,
+              "height": 1237
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-2400.avif",
+              "width": 1298,
+              "height": 1254
+            }
+          ]
+        }
+      ]
     },
     {
-      "label": "DG 50g",
-      "reference": false,
+      "label": "25g · Krytox GPL 205 Grade 0",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 7",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
+              "width": 640,
+              "height": 410
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-1280.avif",
+              "width": 912,
+              "height": 584
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 8",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
+              "width": 640,
+              "height": 526
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-1280.avif",
+              "width": 1280,
+              "height": 1053
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-2400.avif",
+              "width": 1357,
+              "height": 1116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "25g · Krytox GPL 205 Grade 2",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 2"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 9",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
+              "width": 640,
+              "height": 433
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-1280.avif",
+              "width": 1022,
+              "height": 692
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 10",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
+              "width": 640,
+              "height": 669
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-1280.avif",
+              "width": 1280,
+              "height": 1337
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-2400.avif",
+              "width": 1434,
+              "height": 1498
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "50g · Dia Glide",
       "rating": 2,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "selected",
         "name": "TX Middle 50g",
-        "status": null
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "15mm"
+        }
       },
       "housingFit": {
         "state": "applied",
         "method": "film",
         "material": "SW 폼 필름 v2"
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 11",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-640.avif",
+              "width": 640,
+              "height": 444
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-1280.avif",
+              "width": 1280,
+              "height": 888
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-2400.avif",
+              "width": 1549,
+              "height": 1075
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 12",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-640.avif",
+              "width": 640,
+              "height": 592
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-1280.avif",
+              "width": 1280,
+              "height": 1184
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-2400.avif",
+              "width": 1634,
+              "height": 1511
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 13",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-640.avif",
+              "width": 640,
+              "height": 509
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-1280.avif",
+              "width": 1280,
+              "height": 1018
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-2400.avif",
+              "width": 1395,
+              "height": 1109
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "25g · Dia Glide",
+      "rating": 5,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 14",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-640.avif",
+              "width": 640,
+              "height": 592
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-1280.avif",
+              "width": 1280,
+              "height": 1184
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-2400.avif",
+              "width": 1634,
+              "height": 1511
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Black 사진 15",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-640.avif",
+              "width": 640,
+              "height": 509
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-1280.avif",
+              "width": 1280,
+              "height": 1018
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-2400.avif",
+              "width": 1395,
+              "height": 1109
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -134,14 +488,19 @@
       "alt": "MX1A Black 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-b60009059573-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-640.avif",
           "width": 640,
-          "height": 410
+          "height": 582
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-b60009059573-1280.avif",
-          "width": 912,
-          "height": 584
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-1280.avif",
+          "width": 1280,
+          "height": 1164
+        },
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-2400.avif",
+          "width": 1540,
+          "height": 1401
         }
       ]
     },
@@ -149,19 +508,9 @@
       "alt": "MX1A Black 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-dc4706735eb4-640.avif",
-          "width": 640,
-          "height": 526
-        },
-        {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-dc4706735eb4-1280.avif",
-          "width": 1280,
-          "height": 1053
-        },
-        {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-dc4706735eb4-2400.avif",
-          "width": 1357,
-          "height": 1116
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-640.avif",
+          "width": 484,
+          "height": 489
         }
       ]
     },
@@ -169,14 +518,19 @@
       "alt": "MX1A Black 사진 3",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-d3f6fd2b2b78-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-640.avif",
           "width": 640,
-          "height": 433
+          "height": 592
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-d3f6fd2b2b78-1280.avif",
-          "width": 1022,
-          "height": 692
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-1280.avif",
+          "width": 1280,
+          "height": 1184
+        },
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-2400.avif",
+          "width": 1634,
+          "height": 1511
         }
       ]
     },
@@ -184,19 +538,19 @@
       "alt": "MX1A Black 사진 4",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-410891084a55-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-640.avif",
           "width": 640,
-          "height": 669
+          "height": 509
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-410891084a55-1280.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-1280.avif",
           "width": 1280,
-          "height": 1337
+          "height": 1018
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-410891084a55-2400.avif",
-          "width": 1434,
-          "height": 1498
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-2400.avif",
+          "width": 1395,
+          "height": 1109
         }
       ]
     },
@@ -204,19 +558,19 @@
       "alt": "MX1A Black 사진 5",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-aaf50a47cf7a-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-640.avif",
           "width": 640,
-          "height": 582
+          "height": 615
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-aaf50a47cf7a-1280.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-1280.avif",
           "width": 1280,
-          "height": 1164
+          "height": 1230
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-aaf50a47cf7a-2400.avif",
-          "width": 1540,
-          "height": 1401
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-2400.avif",
+          "width": 1779,
+          "height": 1710
         }
       ]
     },
@@ -224,9 +578,19 @@
       "alt": "MX1A Black 사진 6",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-4b5dae16bb5c-640.avif",
-          "width": 484,
-          "height": 489
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-640.avif",
+          "width": 640,
+          "height": 618
+        },
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-1280.avif",
+          "width": 1280,
+          "height": 1237
+        },
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-2400.avif",
+          "width": 1298,
+          "height": 1254
         }
       ]
     },
@@ -234,19 +598,14 @@
       "alt": "MX1A Black 사진 7",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-3bd9c0696667-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
           "width": 640,
-          "height": 592
+          "height": 410
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-3bd9c0696667-1280.avif",
-          "width": 1280,
-          "height": 1184
-        },
-        {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-3bd9c0696667-2400.avif",
-          "width": 1634,
-          "height": 1511
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-1280.avif",
+          "width": 912,
+          "height": 584
         }
       ]
     },
@@ -254,19 +613,19 @@
       "alt": "MX1A Black 사진 8",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-ea9314929616-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
           "width": 640,
-          "height": 509
+          "height": 526
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-ea9314929616-1280.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-1280.avif",
           "width": 1280,
-          "height": 1018
+          "height": 1053
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-1-ea9314929616-2400.avif",
-          "width": 1395,
-          "height": 1109
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-2400.avif",
+          "width": 1357,
+          "height": 1116
         }
       ]
     },
@@ -274,19 +633,14 @@
       "alt": "MX1A Black 사진 9",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-2-e4de767ac9ae-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
           "width": 640,
-          "height": 615
+          "height": 433
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-2-e4de767ac9ae-1280.avif",
-          "width": 1280,
-          "height": 1230
-        },
-        {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-2-e4de767ac9ae-2400.avif",
-          "width": 1779,
-          "height": 1710
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-1280.avif",
+          "width": 1022,
+          "height": 692
         }
       ]
     },
@@ -294,19 +648,19 @@
       "alt": "MX1A Black 사진 10",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-3-8ff77b5ccf74-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
           "width": 640,
-          "height": 618
+          "height": 669
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-3-8ff77b5ccf74-1280.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-1280.avif",
           "width": 1280,
-          "height": 1237
+          "height": 1337
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-3-8ff77b5ccf74-2400.avif",
-          "width": 1298,
-          "height": 1254
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-2400.avif",
+          "width": 1434,
+          "height": 1498
         }
       ]
     },
@@ -314,17 +668,17 @@
       "alt": "MX1A Black 사진 11",
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-035cd47cabc7-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-640.avif",
           "width": 640,
           "height": 444
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-035cd47cabc7-1280.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-1280.avif",
           "width": 1280,
           "height": 888
         },
         {
-          "src": "/media/switches/mx1a-black/70900d43cad11918-source-gallery-0-035cd47cabc7-2400.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-2400.avif",
           "width": 1549,
           "height": 1075
         }

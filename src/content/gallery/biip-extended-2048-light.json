@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "biip-extended-2048-light",
-  "title": "biip Extended 2048 Light",
+  "title": "Drop MT3 biip Extended 2048 Light",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent - Modifiers"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Accent Modifiers 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Accent Modifiers 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-9d03833e2d37410e-source-gallery-0-6bb2a26b4840-640.avif",
@@ -43,10 +42,9 @@
       "kittingTypes": [
         "Accent - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Accent Nomad 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Accent Nomad 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-246f43e41385cd63-source-gallery-0-108a862e6d5d-640.avif",
@@ -63,10 +61,9 @@
       "kittingTypes": [
         "Alpha - Latin"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Alpha 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-78ef216e9c82a193-source-gallery-0-3d0c58c1d366-640.avif",
@@ -88,10 +85,9 @@
       "kittingTypes": [
         "Modifier - Assembly"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Ergo 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Ergo 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-1dececb03e02f090-source-gallery-0-e1ad46e7f088-640.avif",
@@ -108,10 +104,9 @@
       "kittingTypes": [
         "Accent - Icon"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Icono 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Icono 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-7fbe5537e845b9e5-source-gallery-0-39c3d917089f-640.avif",
@@ -128,10 +123,9 @@
       "kittingTypes": [
         "Accent - Function"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Media Icon 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Media Icon 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-2a61ffea69a97474-source-gallery-0-17c63fe1872b-640.avif",
@@ -153,10 +147,9 @@
       "kittingTypes": [
         "Modifier - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Modifiers 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Modifiers 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-10bf50fac265033e-source-gallery-0-b52f668771db-640.avif",
@@ -178,10 +171,9 @@
       "kittingTypes": [
         "Modifier - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Nomad 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Nomad 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-7458f26fc1b1ef8f-source-gallery-0-bb1736df79c7-640.avif",
@@ -198,10 +190,9 @@
       "kittingTypes": [
         "Child - Numpad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Numpad 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Numpad 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-dac2cf0b3f47a568-source-gallery-0-b80af007ce91-640.avif",
@@ -218,10 +209,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Light Space Bars 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Light Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-light/kit-15fd0e63f8b8235f-source-gallery-0-9fdcd6e78769-640.avif",
@@ -235,7 +225,7 @@
   ],
   "images": [
     {
-      "alt": "biip Extended 2048 Light 이미지 1",
+      "alt": "Drop MT3 biip Extended 2048 Light 이미지 1",
       "variants": [
         {
           "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-0-4902c8937db6-640.avif",
@@ -250,7 +240,7 @@
       ]
     },
     {
-      "alt": "biip Extended 2048 Light 이미지 2",
+      "alt": "Drop MT3 biip Extended 2048 Light 이미지 2",
       "variants": [
         {
           "src": "/media/biip-extended-2048-light/series-e6587f188d045cad-source-gallery-1-914e9ac818ad-640.avif",

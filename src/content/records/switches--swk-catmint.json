@@ -1,31 +1,80 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "swk-catmint",
   "title": "SWK Catmint",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "SWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 1,
-      "manufacturer": "SWK",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "selected",
         "name": "SWK Factory Spring 50g",
-        "status": null
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "20mm"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "SWK Catmint 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-640.avif",
+              "width": 640,
+              "height": 418
+            },
+            {
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-1280.avif",
+              "width": 1066,
+              "height": 697
+            }
+          ]
+        },
+        {
+          "alt": "SWK Catmint 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-640.avif",
+              "width": 640,
+              "height": 705
+            },
+            {
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-1280.avif",
+              "width": 1280,
+              "height": 1409
+            },
+            {
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-2400.avif",
+              "width": 1308,
+              "height": 1440
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +83,12 @@
       "alt": "SWK Catmint 사진 1",
       "variants": [
         {
-          "src": "/media/switches/swk-catmint/c0f038309676e9f9-source-gallery-0-307e7bddae0f-640.avif",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-640.avif",
           "width": 640,
           "height": 418
         },
         {
-          "src": "/media/switches/swk-catmint/c0f038309676e9f9-source-gallery-0-307e7bddae0f-1280.avif",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-1280.avif",
           "width": 1066,
           "height": 697
         }
@@ -49,17 +98,17 @@
       "alt": "SWK Catmint 사진 2",
       "variants": [
         {
-          "src": "/media/switches/swk-catmint/c0f038309676e9f9-source-gallery-1-ccc2bec57703-640.avif",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-640.avif",
           "width": 640,
           "height": 705
         },
         {
-          "src": "/media/switches/swk-catmint/c0f038309676e9f9-source-gallery-1-ccc2bec57703-1280.avif",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-1280.avif",
           "width": 1280,
           "height": 1409
         },
         {
-          "src": "/media/switches/swk-catmint/c0f038309676e9f9-source-gallery-1-ccc2bec57703-2400.avif",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-2400.avif",
           "width": 1308,
           "height": 1440
         }

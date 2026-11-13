@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-four-seasons-spring-mini",
+  "title": "Kailh Choc v2 Four Seasons Spring Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 48g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40gf"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Four Seasons Spring Mini 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-640.avif",
+              "width": 640,
+              "height": 534
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-1280.avif",
+              "width": 723,
+              "height": 603
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Four Seasons Spring Mini 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-1-801f72c104d8-640.avif",
+              "width": 640,
+              "height": 695
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-1-801f72c104d8-1280.avif",
+              "width": 1001,
+              "height": 1087
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Four Seasons Spring Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-640.avif",
+          "width": 640,
+          "height": 534
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-1280.avif",
+          "width": 723,
+          "height": 603
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Four Seasons Spring Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-1-801f72c104d8-640.avif",
+          "width": 640,
+          "height": 695
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-1-801f72c104d8-1280.avif",
+          "width": 1001,
+          "height": 1087
+        }
+      ]
+    }
+  ]
+}

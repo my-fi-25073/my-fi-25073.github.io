@@ -31,18 +31,12 @@
       "label": "Recap",
       "href": "/recap/",
       "order": 40
-    },
-    {
-      "id": "reference",
-      "label": "Reference",
-      "href": "/reference/",
-      "order": 50
     }
   ],
   "queries": [
     {
       "id": "public-home-keyboards",
-      "name": "Home · Recent Keyboards",
+      "name": "Home",
       "entityKind": "keyboard",
       "predicate": {
         "all": [
@@ -67,8 +61,64 @@
       "revision": 1
     },
     {
-      "id": "public-keyboard-layouts",
-      "name": "Keyboard · Layout Sizes",
+      "id": "public-keyboard-arrangements",
+      "name": "Keyboard Arrangements",
+      "entityKind": "keyboard",
+      "predicate": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "equals",
+            "value": "빌드 완료"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "lastBuiltAt",
+          "direction": "desc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "groups": [
+          {
+            "id": "low-stagger",
+            "label": "로우스태거",
+            "match": {
+              "field": "layouts[]",
+              "operator": "equals",
+              "value": "로우스태거"
+            }
+          },
+          {
+            "id": "column-stagger",
+            "label": "칼럼스태거",
+            "match": {
+              "field": "layouts[]",
+              "operator": "equals",
+              "value": "칼럼스태거"
+            }
+          },
+          {
+            "id": "ortholinear",
+            "label": "오쏘리니어",
+            "match": {
+              "field": "layouts[]",
+              "operator": "equals",
+              "value": "오쏘리니어"
+            }
+          }
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keyboard-sizes",
+      "name": "Keyboard Sizes",
       "entityKind": "keyboard",
       "predicate": {
         "all": [
@@ -93,28 +143,27 @@
         "groups": [
           {
             "id": "80",
-            "label": "80%",
+            "label": "75·80%",
             "match": {
               "field": "layouts[]",
               "operator": "in",
               "values": [
                 "80%",
                 "75%",
-                "70%",
                 "6x17"
               ]
             }
           },
           {
             "id": "60",
-            "label": "60%",
+            "label": "60·65·70%",
             "match": {
               "field": "layouts[]",
               "operator": "in",
               "values": [
-                "65%",
                 "60%",
-                "HHKB"
+                "65%",
+                "70%"
               ]
             }
           },
@@ -173,7 +222,7 @@
     },
     {
       "id": "public-keyboards",
-      "name": "Keyboard · Completed Builds",
+      "name": "Keyboard",
       "entityKind": "keyboard",
       "predicate": {
         "all": [
@@ -201,10 +250,8 @@
             "label": "트루 스플릿",
             "match": {
               "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "트루 스플릿"
-              ]
+              "operator": "equals",
+              "value": "트루 스플릿"
             }
           },
           {
@@ -212,11 +259,8 @@
             "label": "모노 스플릿",
             "match": {
               "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "모노블럭 스플릿",
-                "유니바디 스플릿"
-              ]
+              "operator": "equals",
+              "value": "모노 스플릿"
             }
           },
           {
@@ -224,43 +268,8 @@
             "label": "모노블럭",
             "match": {
               "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "모노블럭"
-              ]
-            }
-          },
-          {
-            "id": "low-stagger",
-            "label": "로우스태거",
-            "match": {
-              "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "로우스태거"
-              ]
-            }
-          },
-          {
-            "id": "column-stagger",
-            "label": "칼럼스태거",
-            "match": {
-              "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "칼럼스태거"
-              ]
-            }
-          },
-          {
-            "id": "ortholinear",
-            "label": "오쏘리니어",
-            "match": {
-              "field": "layouts[]",
-              "operator": "in",
-              "values": [
-                "오쏘리니어"
-              ]
+              "operator": "equals",
+              "value": "모노블럭"
             }
           }
         ]
@@ -268,8 +277,373 @@
       "revision": 1
     },
     {
+      "id": "public-keycap-beiges",
+      "name": "Beiges",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "colors[]",
+            "operator": "contains",
+            "value": "Beige"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        },
+        {
+          "field": "kits[].kittingTypes[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "Cherry-CYL",
+          "Cherry-Clone",
+          "DCS",
+          "LCK",
+          "MBK",
+          "MT3",
+          "MTNU",
+          "PFF",
+          "URSA"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-cherry-clone",
+      "name": "Cherry-Clone",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "Cherry-Clone",
+              "DCX"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "manufacturer",
+        "unit": "value",
+        "order": [
+          "LMK",
+          "PBTFans",
+          "Keyreative",
+          "Drop",
+          "Others",
+          "RDW",
+          "SWG"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-fkcaps",
+      "name": "FKCaps",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "MBK",
+              "URSA"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "MBK",
+          "URSA"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-gmk",
+      "name": "GMK",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "manufacturer",
+            "operator": "equals",
+            "value": "GMK"
+          },
+          {
+            "field": "profile",
+            "operator": "equals",
+            "value": "Cherry-CYL"
+          },
+          {
+            "field": "kits[].kittingTypes[]",
+            "operator": "contains",
+            "value": "Base - Standard"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "colors[]",
+        "unit": "value",
+        "order": [
+          "Beige",
+          "Black",
+          "White",
+          "Dolch",
+          "Gray",
+          "Green",
+          "Purple",
+          "Yellow"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-keyreative",
+      "name": "Keyreative",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "KAM",
+              "PBS",
+              "KAT"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "KAM",
+          "PBS"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-low-profiles",
+      "name": "Low Profiles",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "CLP",
+              "KLP",
+              "MBK",
+              "DOYS",
+              "OEM-ULP",
+              "LCK",
+              "CFX",
+              "LAK"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "KLP",
+          "CLP",
+          "MBK",
+          "OEM-ULP",
+          "CFX",
+          "LCK",
+          "DOYS",
+          "LAK",
+          "PFF"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-matt3o",
+      "name": "Matt3o",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "MT3",
+              "MT4",
+              "PBS",
+              "MTNU"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "MTNU",
+          "PBS",
+          "MT3"
+        ]
+      },
+      "revision": 1
+    },
+    {
+      "id": "public-keycap-signature-plastics",
+      "name": "Signature Plastics",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "profile",
+            "operator": "in",
+            "value": [
+              "SA",
+              "DCS",
+              "DSS",
+              "DSA"
+            ]
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "colors[]",
+          "direction": "asc"
+        }
+      ],
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "DCS",
+          "SA"
+        ]
+      },
+      "revision": 1
+    },
+    {
       "id": "public-keycaps",
-      "name": "Keycap · Curated Collections",
+      "name": "Keycap",
       "entityKind": "keycap_series",
       "predicate": {
         "all": []
@@ -280,103 +654,12 @@
           "direction": "asc"
         }
       ],
-      "group": {
-        "groups": [
-          {
-            "id": "gmk",
-            "label": "GMK",
-            "match": {
-              "field": "manufacturer",
-              "operator": "equals",
-              "value": "GMK"
-            }
-          },
-          {
-            "id": "cherry-clone",
-            "label": "Cherry-Clone",
-            "match": {
-              "field": "profile",
-              "operator": "equals",
-              "value": "Cherry-Clone"
-            }
-          },
-          {
-            "id": "signature-plastics",
-            "label": "Signature Plastics",
-            "match": {
-              "field": "manufacturer",
-              "operator": "equals",
-              "value": "SP"
-            }
-          },
-          {
-            "id": "keyreative",
-            "label": "Keyreative",
-            "match": {
-              "field": "manufacturer",
-              "operator": "equals",
-              "value": "Keyreative"
-            }
-          },
-          {
-            "id": "fkcaps",
-            "label": "FKCaps",
-            "match": {
-              "field": "manufacturer",
-              "operator": "equals",
-              "value": "FKCaps"
-            }
-          },
-          {
-            "id": "low-profiles",
-            "label": "Low Profiles",
-            "match": {
-              "field": "profile",
-              "operator": "in",
-              "values": [
-                "CFX",
-                "CLP",
-                "KLP",
-                "LCK",
-                "LAK",
-                "MBK",
-                "OEM-ULP",
-                "OEM-Topre",
-                "URSA"
-              ]
-            }
-          },
-          {
-            "id": "matt3o",
-            "label": "Matt3o",
-            "match": {
-              "field": "profile",
-              "operator": "in",
-              "values": [
-                "MT3",
-                "MTNU"
-              ]
-            }
-          },
-          {
-            "id": "beiges",
-            "label": "Beiges",
-            "match": {
-              "field": "title",
-              "operator": "containsAny",
-              "values": [
-                "beige",
-                "9009"
-              ]
-            }
-          }
-        ]
-      },
+      "group": null,
       "revision": 1
     },
     {
       "id": "public-recap-2024",
-      "name": "Recap · 2024",
+      "name": "Recap 2024",
       "entityKind": "keyboard",
       "predicate": {
         "all": [
@@ -410,7 +693,7 @@
     },
     {
       "id": "public-recap-2025",
-      "name": "Recap · 2025",
+      "name": "Recap 2025",
       "entityKind": "keyboard",
       "predicate": {
         "all": [
@@ -443,69 +726,17 @@
       "revision": 1
     },
     {
-      "id": "public-reference-lubricants",
-      "name": "Reference · Lubricants",
-      "entityKind": "lubricant",
-      "predicate": {
-        "all": []
-      },
-      "sort": [
-        {
-          "field": "manufacturer",
-          "direction": "asc"
-        },
-        {
-          "field": "title",
-          "direction": "asc"
-        }
-      ],
-      "group": null,
-      "revision": 1
-    },
-    {
-      "id": "public-reference-springs",
-      "name": "Reference · Springs",
-      "entityKind": "spring",
-      "predicate": {
-        "all": []
-      },
-      "sort": [
-        {
-          "field": "manufacturer",
-          "direction": "asc"
-        },
-        {
-          "field": "title",
-          "direction": "asc"
-        }
-      ],
-      "group": null,
-      "revision": 1
-    },
-    {
-      "id": "public-reference-vendors",
-      "name": "Reference · Vendors",
-      "entityKind": "party",
-      "predicate": {
-        "all": []
-      },
-      "sort": [
-        {
-          "field": "title",
-          "direction": "asc"
-        }
-      ],
-      "group": null,
-      "revision": 1
-    },
-    {
       "id": "public-switches",
-      "name": "Switch · Families",
-      "entityKind": "switch_family",
+      "name": "Switch",
+      "entityKind": "switch_product",
       "predicate": {
         "all": []
       },
       "sort": [
+        {
+          "field": "manufacturer",
+          "direction": "asc"
+        },
         {
           "field": "title",
           "direction": "asc"
@@ -517,7 +748,7 @@
             "id": "cherry",
             "label": "Cherry",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "Cherry"
             }
@@ -526,7 +757,7 @@
             "id": "keygeek",
             "label": "Keygeek",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "Keygeek"
             }
@@ -535,7 +766,7 @@
             "id": "hmx",
             "label": "HMX",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "HMX"
             }
@@ -544,7 +775,7 @@
             "id": "bsun",
             "label": "Bsun",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "Bsun"
             }
@@ -553,7 +784,7 @@
             "id": "kailh",
             "label": "Kailh",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "Kailh"
             }
@@ -562,66 +793,18 @@
             "id": "gateron",
             "label": "Gateron",
             "match": {
-              "field": "variants[].manufacturer",
+              "field": "manufacturer",
               "operator": "equals",
               "value": "Gateron"
             }
           },
           {
-            "id": "rating-5",
-            "label": "★ 5",
+            "id": "swk",
+            "label": "SWK",
             "match": {
-              "field": "variants[].rating",
+              "field": "manufacturer",
               "operator": "equals",
-              "value": 5
-            }
-          },
-          {
-            "id": "rating-4",
-            "label": "★ 4",
-            "match": {
-              "field": "variants[].rating",
-              "operator": "equals",
-              "value": 4
-            }
-          },
-          {
-            "id": "rating-3",
-            "label": "★ 3",
-            "match": {
-              "field": "variants[].rating",
-              "operator": "equals",
-              "value": 3
-            }
-          },
-          {
-            "id": "rating-2",
-            "label": "★ 2",
-            "match": {
-              "field": "variants[].rating",
-              "operator": "equals",
-              "value": 2
-            }
-          },
-          {
-            "id": "rating-1",
-            "label": "★ 1",
-            "match": {
-              "field": "variants[].rating",
-              "operator": "equals",
-              "value": 1
-            }
-          },
-          {
-            "id": "rating-0",
-            "label": "미평가",
-            "match": {
-              "field": "variants[].rating",
-              "operator": "in",
-              "values": [
-                0,
-                null
-              ]
+              "value": "SWK"
             }
           }
         ]
@@ -633,7 +816,7 @@
     {
       "id": "home-latest",
       "queryId": "public-home-keyboards",
-      "name": "Recent Builds",
+      "name": "Home",
       "layout": "gallery",
       "projection": {
         "route": "/",
@@ -658,7 +841,7 @@
     {
       "id": "keyboard-all",
       "queryId": "public-keyboards",
-      "name": "Latest Builds",
+      "name": "Keyboard",
       "layout": "gallery",
       "projection": {
         "route": "/keyboards/",
@@ -680,9 +863,9 @@
       "revision": 1
     },
     {
-      "id": "keyboard-layouts",
-      "queryId": "public-keyboard-layouts",
-      "name": "Layouts",
+      "id": "keyboard-arrangements",
+      "queryId": "public-keyboard-arrangements",
+      "name": "Arrangements",
       "layout": "gallery",
       "projection": {
         "route": "/keyboards/",
@@ -698,9 +881,9 @@
       "revision": 1
     },
     {
-      "id": "keyboard-types",
-      "queryId": "public-keyboards",
-      "name": "Types",
+      "id": "keyboard-sizes",
+      "queryId": "public-keyboard-sizes",
+      "name": "Sizes",
       "layout": "gallery",
       "projection": {
         "route": "/keyboards/",
@@ -713,12 +896,62 @@
       "eligibility": {
         "requireImages": true
       },
+      "revision": 1
+    },
+    {
+      "id": "keyboard-structures",
+      "queryId": "public-keyboards",
+      "name": "Structures",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keyboards/",
+        "cardFields": [
+          "title",
+          "layouts",
+          "keycaps"
+        ]
+      },
+      "eligibility": {
+        "requireImages": true
+      },
+      "revision": 1
+    },
+    {
+      "id": "keycap-beiges",
+      "queryId": "public-keycap-beiges",
+      "name": "Beiges",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-cherry-clone",
+      "queryId": "public-keycap-cherry-clone",
+      "name": "Cherry-Clone",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
       "revision": 1
     },
     {
       "id": "keycap-collections",
       "queryId": "public-keycaps",
-      "name": "Collections",
+      "name": "Keycap",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -732,17 +965,121 @@
           "label": "Keycap",
           "href": "/keycaps/",
           "order": 20
-        }
+        },
+        "views": [
+          "keycap-gmk",
+          "keycap-cherry-clone",
+          "keycap-signature-plastics",
+          "keycap-keyreative",
+          "keycap-fkcaps",
+          "keycap-low-profiles",
+          "keycap-matt3o",
+          "keycap-beiges"
+        ]
       },
-      "eligibility": {
-        "requireImages": false
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-fkcaps",
+      "queryId": "public-keycap-fkcaps",
+      "name": "FKCaps",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
       },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-gmk",
+      "queryId": "public-keycap-gmk",
+      "name": "GMK",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-keyreative",
+      "queryId": "public-keycap-keyreative",
+      "name": "Keyreative",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-low-profiles",
+      "queryId": "public-keycap-low-profiles",
+      "name": "Low Profiles",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-matt3o",
+      "queryId": "public-keycap-matt3o",
+      "name": "Matt3o",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 1
+    },
+    {
+      "id": "keycap-signature-plastics",
+      "queryId": "public-keycap-signature-plastics",
+      "name": "Signature Plastics",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
       "revision": 1
     },
     {
       "id": "recap-2024-chart",
       "queryId": "public-recap-2024",
-      "name": "2024 Monthly Count",
+      "name": "2024 Count",
       "layout": "chart",
       "projection": {
         "route": "/recap/2024/",
@@ -757,7 +1094,7 @@
     {
       "id": "recap-2024-gallery",
       "queryId": "public-recap-2024",
-      "name": "2024 Monthly Gallery",
+      "name": "2024",
       "layout": "gallery",
       "projection": {
         "route": "/recap/2024/",
@@ -775,14 +1112,14 @@
     {
       "id": "recap-2024-timeline",
       "queryId": "public-recap-2024",
-      "name": "2024 Vendor Timeline",
+      "name": "2024 Timeline",
       "layout": "timeline",
       "projection": {
         "route": "/recap/2024/",
         "fields": [
           "lastBuiltAt",
           "title",
-          "vendors"
+          "switches"
         ]
       },
       "eligibility": {
@@ -793,7 +1130,7 @@
     {
       "id": "recap-2025-chart",
       "queryId": "public-recap-2025",
-      "name": "2025 Monthly Count",
+      "name": "2025 Count",
       "layout": "chart",
       "projection": {
         "route": "/recap/2025/",
@@ -808,7 +1145,7 @@
     {
       "id": "recap-2025-gallery",
       "queryId": "public-recap-2025",
-      "name": "2025 Monthly Gallery",
+      "name": "2025",
       "layout": "gallery",
       "projection": {
         "route": "/recap/2025/",
@@ -832,14 +1169,14 @@
     {
       "id": "recap-2025-timeline",
       "queryId": "public-recap-2025",
-      "name": "2025 Vendor Timeline",
+      "name": "2025 Timeline",
       "layout": "timeline",
       "projection": {
         "route": "/recap/2025/",
         "fields": [
           "lastBuiltAt",
           "title",
-          "vendors"
+          "switches"
         ]
       },
       "eligibility": {
@@ -848,64 +1185,9 @@
       "revision": 1
     },
     {
-      "id": "reference-lubricants",
-      "queryId": "public-reference-lubricants",
-      "name": "Lubricants",
-      "layout": "table",
-      "projection": {
-        "route": "/lubricants/",
-        "fields": [
-          "title",
-          "manufacturer",
-          "lubricantType"
-        ]
-      },
-      "eligibility": {},
-      "revision": 1
-    },
-    {
-      "id": "reference-springs",
-      "queryId": "public-reference-springs",
-      "name": "Springs",
-      "layout": "table",
-      "projection": {
-        "route": "/springs/",
-        "fields": [
-          "title",
-          "manufacturer",
-          "bottomOutForce",
-          "length"
-        ],
-        "navigation": {
-          "id": "reference",
-          "label": "Reference",
-          "href": "/reference/",
-          "order": 50
-        }
-      },
-      "eligibility": {},
-      "revision": 1
-    },
-    {
-      "id": "reference-vendors",
-      "queryId": "public-reference-vendors",
-      "name": "Vendors",
-      "layout": "table",
-      "projection": {
-        "route": "/vendors/",
-        "fields": [
-          "title",
-          "location",
-          "links"
-        ]
-      },
-      "eligibility": {},
-      "revision": 1
-    },
-    {
       "id": "switch-franken",
       "queryId": "public-switches",
-      "name": "Franken Recipes",
+      "name": "Franken",
       "layout": "gallery",
       "projection": {
         "route": "/switches/",
@@ -915,23 +1197,21 @@
         ]
       },
       "eligibility": {
-        "familyKinds": [
-          "franken"
-        ]
+        "frankenOnly": true
       },
       "revision": 1
     },
     {
       "id": "switch-manufacturers",
       "queryId": "public-switches",
-      "name": "Makers",
+      "name": "Switch",
       "layout": "gallery",
       "projection": {
         "route": "/switches/",
         "cardFields": [
           "title",
           "manufacturer",
-          "rating"
+          "footprintType"
         ],
         "navigation": {
           "id": "switches",
@@ -941,33 +1221,26 @@
         }
       },
       "eligibility": {
-        "requireVariants": true,
-        "excludeFamilyKinds": [
-          "franken"
-        ]
-      },
-      "revision": 1
-    },
-    {
-      "id": "switch-ratings",
-      "queryId": "public-switches",
-      "name": "Ratings",
-      "layout": "gallery",
-      "projection": {
-        "route": "/switches/",
-        "cardFields": [
-          "title",
-          "manufacturer",
-          "rating"
-        ]
-      },
-      "eligibility": {
-        "requireVariants": true,
-        "excludeFamilyKinds": [
-          "franken"
-        ]
+        "excludeFranken": true
       },
       "revision": 1
     }
-  ]
+  ],
+  "copy": {
+    "home.description": null,
+    "home.eyebrow": "My-Fi Keyboard",
+    "home.title": "키보드 기록",
+    "keyboard.description": null,
+    "keyboard.eyebrow": "Keyboard",
+    "keyboard.title": "키보드",
+    "keycap.description": null,
+    "keycap.eyebrow": "Keycap",
+    "keycap.title": "키캡",
+    "recap.description": null,
+    "recap.eyebrow": "Recap",
+    "recap.title": "Recap",
+    "switch.description": null,
+    "switch.eyebrow": "Switch",
+    "switch.title": "스위치"
+  }
 }

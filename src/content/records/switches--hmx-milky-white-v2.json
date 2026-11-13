@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-milky-white-v2",
+  "title": "HMX Milky White v2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 46g",
+        "status": null,
+        "specifications": {
+          "initial_force": "40g",
+          "bottom_out_force": "46g",
+          "length": "22mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Milky White v2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-0-c4a2f0d4c904-640.avif",
+              "width": 640,
+              "height": 610
+            },
+            {
+              "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-0-c4a2f0d4c904-1280.avif",
+              "width": 662,
+              "height": 631
+            }
+          ]
+        },
+        {
+          "alt": "HMX Milky White v2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-1-eee0d8d78674-640.avif",
+              "width": 640,
+              "height": 707
+            },
+            {
+              "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-1-eee0d8d78674-1280.avif",
+              "width": 669,
+              "height": 739
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Milky White v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-0-c4a2f0d4c904-640.avif",
+          "width": 640,
+          "height": 610
+        },
+        {
+          "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-0-c4a2f0d4c904-1280.avif",
+          "width": 662,
+          "height": 631
+        }
+      ]
+    },
+    {
+      "alt": "HMX Milky White v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-1-eee0d8d78674-640.avif",
+          "width": 640,
+          "height": 707
+        },
+        {
+          "src": "/media/switches/hmx-milky-white-v2/c02b72c60d7d1dbd-39bd043243ad-source-gallery-1-eee0d8d78674-1280.avif",
+          "width": 669,
+          "height": 739
+        }
+      ]
+    }
+  ]
+}

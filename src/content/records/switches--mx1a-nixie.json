@@ -1,21 +1,86 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx1a-nixie",
   "title": "MX1A Nixie",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "Factory OG 80g(unresolved) · 스템 No-Lube · 스프링 No-Lube",
-      "reference": false,
+      "label": "Sprit Supreme 35g · 스템 Krytox GPL 205 Grade 2 · 스프링 Krytox GPL 205 Grade 0 · TX PET 필름 0.150mm",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "25g",
+          "bottom_out_force": "35g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 2"
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Nixie 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-640.avif",
+              "width": 640,
+              "height": 569
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-1280.avif",
+              "width": 1280,
+              "height": 1138
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-2400.avif",
+              "width": 1504,
+              "height": 1337
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Nixie 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-1-3981f275812d-640.avif",
+              "width": 640,
+              "height": 518
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-1-3981f275812d-1280.avif",
+              "width": 812,
+              "height": 657
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Factory OG 80g · 스템 무윤활 · 스프링 무윤활",
       "rating": 3,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 80g",
@@ -25,27 +90,54 @@
         "state": "none",
         "method": null,
         "material": null
-      }
-    },
-    {
-      "label": "Sprit Supreme 35g · 스템 205g2 · 스프링 205g0 · TX PET 필름 0.150mm",
-      "reference": false,
-      "rating": 4,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
-      "spring": {
-        "resolution": "selected",
-        "name": "Sprit Supreme 35g",
-        "status": null
       },
-      "housingFit": {
-        "state": "applied",
-        "method": "film",
-        "material": "TX PET 필름 0.150mm"
-      }
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Nixie 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-0-0241015015f5-640.avif",
+              "width": 640,
+              "height": 569
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-0-0241015015f5-1280.avif",
+              "width": 1280,
+              "height": 1138
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-0-0241015015f5-2400.avif",
+              "width": 1504,
+              "height": 1337
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Nixie 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-1-3981f275812d-640.avif",
+              "width": 640,
+              "height": 518
+            },
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-1-3981f275812d-1280.avif",
+              "width": 812,
+              "height": 657
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -54,17 +146,17 @@
       "alt": "MX1A Nixie 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-nixie/3681032e255f612a-source-gallery-0-0241015015f5-640.avif",
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-640.avif",
           "width": 640,
           "height": 569
         },
         {
-          "src": "/media/switches/mx1a-nixie/3681032e255f612a-source-gallery-0-0241015015f5-1280.avif",
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-1280.avif",
           "width": 1280,
           "height": 1138
         },
         {
-          "src": "/media/switches/mx1a-nixie/3681032e255f612a-source-gallery-0-0241015015f5-2400.avif",
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-0-0241015015f5-2400.avif",
           "width": 1504,
           "height": 1337
         }
@@ -74,12 +166,12 @@
       "alt": "MX1A Nixie 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-nixie/3681032e255f612a-source-gallery-1-3981f275812d-640.avif",
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-1-3981f275812d-640.avif",
           "width": 640,
           "height": 518
         },
         {
-          "src": "/media/switches/mx1a-nixie/3681032e255f612a-source-gallery-1-3981f275812d-1280.avif",
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-1-3981f275812d-1280.avif",
           "width": 812,
           "height": 657
         }

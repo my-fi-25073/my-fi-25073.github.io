@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v1-red-transparent",
+  "title": "Kailh Choc v1 Red Transparent",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "무윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "35g ± 10g",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v1 Red Transparent 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v1-red-transparent/8df780ed7428b346-abdd18a47c2e-source-gallery-0-0e3a831475b3-640.avif",
+              "width": 640,
+              "height": 624
+            },
+            {
+              "src": "/media/switches/kailh-choc-v1-red-transparent/8df780ed7428b346-abdd18a47c2e-source-gallery-0-0e3a831475b3-1280.avif",
+              "width": 734,
+              "height": 716
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v1 Red Transparent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v1-red-transparent/8df780ed7428b346-abdd18a47c2e-source-gallery-0-0e3a831475b3-640.avif",
+          "width": 640,
+          "height": 624
+        },
+        {
+          "src": "/media/switches/kailh-choc-v1-red-transparent/8df780ed7428b346-abdd18a47c2e-source-gallery-0-0e3a831475b3-1280.avif",
+          "width": 734,
+          "height": 716
+        }
+      ]
+    }
+  ]
+}

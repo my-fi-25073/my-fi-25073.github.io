@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-roselle-v2",
+  "title": "Bsun Roselle v2",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "57g ± 5g",
+          "bottom_out_force": "62g ± 5g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Roselle v2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-0-84f8f1075188-640.avif",
+              "width": 640,
+              "height": 416
+            },
+            {
+              "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-0-84f8f1075188-1280.avif",
+              "width": 1029,
+              "height": 669
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Roselle v2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-1-ce5fa5709f6e-640.avif",
+              "width": 640,
+              "height": 503
+            },
+            {
+              "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-1-ce5fa5709f6e-1280.avif",
+              "width": 1078,
+              "height": 847
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Roselle v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-0-84f8f1075188-640.avif",
+          "width": 640,
+          "height": 416
+        },
+        {
+          "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-0-84f8f1075188-1280.avif",
+          "width": 1029,
+          "height": 669
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Roselle v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-1-ce5fa5709f6e-640.avif",
+          "width": 640,
+          "height": 503
+        },
+        {
+          "src": "/media/switches/bsun-roselle-v2/bd62f9d698558582-d3bec1bfbc51-source-gallery-1-ce5fa5709f6e-1280.avif",
+          "width": 1078,
+          "height": 847
+        }
+      ]
+    }
+  ]
+}

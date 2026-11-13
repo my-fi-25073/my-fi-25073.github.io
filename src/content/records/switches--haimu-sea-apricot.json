@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "haimu-sea-apricot",
+  "title": "Haimu Sea Apricot",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 45g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "37g",
+          "bottom_out_force": "45g",
+          "length": "22mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Haimu Sea Apricot 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-0-a2acc09199d9-640.avif",
+              "width": 640,
+              "height": 530
+            },
+            {
+              "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-0-a2acc09199d9-1280.avif",
+              "width": 1157,
+              "height": 958
+            }
+          ]
+        },
+        {
+          "alt": "Haimu Sea Apricot 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-1-3a87ca7c04ff-640.avif",
+              "width": 640,
+              "height": 948
+            },
+            {
+              "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-1-3a87ca7c04ff-1280.avif",
+              "width": 919,
+              "height": 1361
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Haimu Sea Apricot 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-0-a2acc09199d9-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-0-a2acc09199d9-1280.avif",
+          "width": 1157,
+          "height": 958
+        }
+      ]
+    },
+    {
+      "alt": "Haimu Sea Apricot 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-1-3a87ca7c04ff-640.avif",
+          "width": 640,
+          "height": 948
+        },
+        {
+          "src": "/media/switches/haimu-sea-apricot/873462b2bf1ef305-0de9d1fa6484-source-gallery-1-3a87ca7c04ff-1280.avif",
+          "width": 919,
+          "height": 1361
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-blue-black",
+  "title": "Gateron LP Blue Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 65g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "65g ± 15g",
+          "length": "11.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP Blue Black 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-640.avif",
+              "width": 440,
+              "height": 406
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP Blue Black 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-640.avif",
+              "width": 393,
+              "height": 335
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP Blue Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-640.avif",
+          "width": 440,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP Blue Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-640.avif",
+          "width": 393,
+          "height": 335
+        }
+      ]
+    }
+  ]
+}

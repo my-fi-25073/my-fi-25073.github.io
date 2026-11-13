@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-butterfly",
+  "title": "Keygeek Butterfly",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 48g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "48g",
+          "length": "21.7mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Butterfly 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-0-d66fc393b446-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-0-d66fc393b446-1280.avif",
+              "width": 709,
+              "height": 470
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Butterfly 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-1-f819582bb0fc-640.avif",
+              "width": 640,
+              "height": 555
+            },
+            {
+              "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-1-f819582bb0fc-1280.avif",
+              "width": 1252,
+              "height": 1086
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Butterfly 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-0-d66fc393b446-640.avif",
+          "width": 640,
+          "height": 424
+        },
+        {
+          "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-0-d66fc393b446-1280.avif",
+          "width": 709,
+          "height": 470
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Butterfly 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-1-f819582bb0fc-640.avif",
+          "width": 640,
+          "height": 555
+        },
+        {
+          "src": "/media/switches/keygeek-butterfly/1f83bb30ca544f2d-d803179ba346-source-gallery-1-f819582bb0fc-1280.avif",
+          "width": 1252,
+          "height": 1086
+        }
+      ]
+    }
+  ]
+}

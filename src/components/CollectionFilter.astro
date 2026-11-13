@@ -2,92 +2,70 @@
 interface FilterGroup {
   id: string;
   label: string;
-  count: number;
+  aliases?: string[];
+}
+
+interface FilterAxis {
+  key: string;
+  label: string;
+  groups: FilterGroup[];
 }
 
 interface Props {
-  groups: FilterGroup[];
-  defaultGroup: string;
-  label?: string;
+  axes: FilterAxis[];
+  scopeId?: string;
 }
 
-const {
-  groups,
-  defaultGroup,
-  label = '컬렉션 분류',
-} = Astro.props;
-const labelId = `collection-filter-${defaultGroup}`;
+const { axes, scopeId } = Astro.props;
 ---
 
-<div
-  class="collection-filter shell"
-  data-collection-filter
-  data-default-group={defaultGroup}
->
-  <p id={labelId}>{label}</p>
-  <div class="collection-filter-options" role="group" aria-labelledby={labelId}>
-    {groups.map((group) => (
-      <button
-        type="button"
-        class:list={['collection-filter-button', { 'is-active': group.id === defaultGroup }]}
-        data-collection-filter-button={group.id}
-        aria-pressed={group.id === defaultGroup ? 'true' : 'false'}
-      >
-        <span>{group.label}</span>
-        <small>{group.count}</small>
-      </button>
-    ))}
-  </div>
+<div class="collection-filter" data-collection-filter data-filter-scope={scopeId}>
+  {axes.map((axis) => (
+    <select name={axis.key} aria-label={axis.label}>
+      <option value="">{axis.label} 전체</option>
+      {axis.groups.map((group) => (
+        <option value={group.id} data-aliases={group.aliases?.join(' ')}>{group.label}</option>
+      ))}
+    </select>
+  ))}
 </div>
 
 <script>
   for (const root of document.querySelectorAll<HTMLElement>('[data-collection-filter]')) {
-    const buttons = [...root.querySelectorAll<HTMLButtonElement>('[data-collection-filter-button]')];
-    const cards = [...document.querySelectorAll<HTMLElement>('[data-archive-card]')];
-    const validGroupIds = new Set(buttons.map((button) => button.dataset.collectionFilterButton));
-    const defaultGroup = root.dataset.defaultGroup ?? 'all';
-    const requestedGroup = new URL(window.location.href).searchParams.get('collection');
-    const initialGroup = requestedGroup && validGroupIds.has(requestedGroup)
-      ? requestedGroup
-      : defaultGroup;
-    if (requestedGroup && !validGroupIds.has(requestedGroup)) {
-      const url = new URL(window.location.href);
-      url.searchParams.delete('collection');
-      window.history.replaceState(null, '', url);
+    const selects = [...root.querySelectorAll<HTMLSelectElement>('select')];
+    const scope = (root.dataset.filterScope
+      ? document.getElementById(root.dataset.filterScope)
+      : document) ?? document;
+    const cards = [...scope.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
+      card,
+      groups: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
+    }));
+    const params = new URL(window.location.href).searchParams;
+    for (const select of selects) {
+      const requested = params.get(select.name) ?? params.get('collection');
+      if (!requested) continue;
+      const selected = [...select.options].find((option) => (
+        option.value === requested || option.dataset.aliases?.split(' ').includes(requested)
+      ));
+      if (selected) select.value = selected.value;
     }
-    const apply = (groupId: string, updateUrl = false) => {
-      for (const button of buttons) {
-        const active = button.dataset.collectionFilterButton === groupId;
-        button.classList.toggle('is-active', active);
-        button.setAttribute('aria-pressed', String(active));
-      }
-      for (const card of cards) {
-        if (card.dataset.filterStatic === 'true') {
-          card.dataset.groupMatch = 'true';
-          continue;
-        }
-        let groups: string[] = [];
-        try {
-          groups = JSON.parse(card.dataset.groups ?? '[]');
-        } catch {
-          groups = [];
-        }
-        card.dataset.groupMatch = String(groupId === 'all' || groups.includes(groupId));
+    const apply = (updateUrl = false) => {
+      const activeGroups = selects.map((select) => select.value).filter(Boolean);
+      for (const { card, groups } of cards) {
+        card.dataset.groupMatch = String(activeGroups.every((group) => groups.has(group)));
       }
       if (updateUrl) {
         const url = new URL(window.location.href);
-        if (groupId === defaultGroup) url.searchParams.delete('collection');
-        else url.searchParams.set('collection', groupId);
+        url.searchParams.delete('collection');
+        for (const select of selects) {
+          if (select.value) url.searchParams.set(select.name, select.value);
+          else url.searchParams.delete(select.name);
+        }
         window.history.replaceState(null, '', url);
       }
       window.dispatchEvent(new CustomEvent('keylog:group-filter'));
     };
-    for (const button of buttons) {
-      button.addEventListener('click', () => {
-        const groupId = button.dataset.collectionFilterButton;
-        if (groupId && validGroupIds.has(groupId)) apply(groupId, true);
-      });
-    }
-    apply(initialGroup);
+    root.addEventListener('change', () => apply(true));
+    apply();
   }
 </script>

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "custom-gondola-white-katakana",
-  "title": "Custom Gondola White Katakana",
+  "title": "Keyreative KAM Custom Gondola White Katakana",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KAM",
@@ -25,10 +25,9 @@
         "Base - Custom",
         "Alpha - Katakana"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Custom Gondola White Katakana Gondola Base 이미지 1",
+          "alt": "Keyreative KAM Custom Gondola White Katakana Gondola Base 이미지 1",
           "variants": [
             {
               "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-0-a77880cb76e2-640.avif",
@@ -43,7 +42,7 @@
           ]
         },
         {
-          "alt": "Custom Gondola White Katakana Gondola Base 이미지 2",
+          "alt": "Keyreative KAM Custom Gondola White Katakana Gondola Base 이미지 2",
           "variants": [
             {
               "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-1-eff58a79b55b-640.avif",
@@ -62,7 +61,7 @@
   ],
   "images": [
     {
-      "alt": "Custom Gondola White Katakana 이미지 1",
+      "alt": "Keyreative KAM Custom Gondola White Katakana 이미지 1",
       "variants": [
         {
           "src": "/media/custom-gondola-white-katakana/series-d49cbcfc8c99e6ad-source-gallery-0-1be721958e33-640.avif",

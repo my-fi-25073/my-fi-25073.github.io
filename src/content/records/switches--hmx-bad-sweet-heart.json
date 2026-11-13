@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-bad-sweet-heart",
+  "title": "HMX Bad Sweet Heart",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 46g",
+        "status": "partial",
+        "specifications": {
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Bad Sweet Heart 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-640.avif",
+              "width": 640,
+              "height": 516
+            },
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-1280.avif",
+              "width": 801,
+              "height": 646
+            }
+          ]
+        },
+        {
+          "alt": "HMX Bad Sweet Heart 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-640.avif",
+              "width": 640,
+              "height": 530
+            },
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-1280.avif",
+              "width": 1258,
+              "height": 1041
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Bad Sweet Heart 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-640.avif",
+          "width": 640,
+          "height": 516
+        },
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-1280.avif",
+          "width": 801,
+          "height": 646
+        }
+      ]
+    },
+    {
+      "alt": "HMX Bad Sweet Heart 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-1280.avif",
+          "width": 1258,
+          "height": 1041
+        }
+      ]
+    }
+  ]
+}

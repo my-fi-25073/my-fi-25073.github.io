@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-chocolate",
+  "title": "Gateron LP Chocolate",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP Chocolate 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-640.avif",
+              "width": 483,
+              "height": 382
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP Chocolate 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-640.avif",
+              "width": 354,
+              "height": 283
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP Chocolate 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-640.avif",
+          "width": 483,
+          "height": 382
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP Chocolate 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-640.avif",
+          "width": 354,
+          "height": 283
+        }
+      ]
+    }
+  ]
+}

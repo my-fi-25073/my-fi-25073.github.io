@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "wob-essential",
-  "title": "WoB Essential",
+  "title": "GMK CYL WoB Essential",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Accent - CMY"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Essential CMYW 이미지 1",
+          "alt": "GMK CYL WoB Essential CMYW 이미지 1",
           "variants": [
             {
               "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-640.avif",
@@ -50,10 +49,9 @@
       "kittingTypes": [
         "Accent - RGB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Essential Dark RGB 이미지 1",
+          "alt": "GMK CYL WoB Essential Dark RGB 이미지 1",
           "variants": [
             {
               "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-640.avif",
@@ -76,10 +74,9 @@
         "Accent - Vim",
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Essential Extension 이미지 1",
+          "alt": "GMK CYL WoB Essential Extension 이미지 1",
           "variants": [
             {
               "src": "/media/wob-essential/kit-50d9cd6f794ef87c-source-gallery-0-9d110e8a5cfd-640.avif",
@@ -98,7 +95,7 @@
   ],
   "images": [
     {
-      "alt": "WoB Essential 이미지 1",
+      "alt": "GMK CYL WoB Essential 이미지 1",
       "variants": [
         {
           "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-640.avif",

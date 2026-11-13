@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "outemu-gazzew-boba-u4t-rgb-silent",
+  "title": "Outemu Gazzew Boba U4T RGB Silent",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Silent",
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 62g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Outemu Gazzew Boba U4T RGB Silent 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-640.avif",
+              "width": 640,
+              "height": 355
+            },
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-1280.avif",
+              "width": 1280,
+              "height": 710
+            },
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-2400.avif",
+              "width": 1487,
+              "height": 825
+            }
+          ]
+        },
+        {
+          "alt": "Outemu Gazzew Boba U4T RGB Silent 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-640.avif",
+              "width": 493,
+              "height": 368
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Outemu Gazzew Boba U4T RGB Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-640.avif",
+          "width": 640,
+          "height": 355
+        },
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-1280.avif",
+          "width": 1280,
+          "height": 710
+        },
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-2400.avif",
+          "width": 1487,
+          "height": 825
+        }
+      ]
+    },
+    {
+      "alt": "Outemu Gazzew Boba U4T RGB Silent 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-640.avif",
+          "width": 493,
+          "height": 368
+        }
+      ]
+    }
+  ]
+}

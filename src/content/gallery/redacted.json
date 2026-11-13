@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "redacted",
-  "title": "Redacted",
+  "title": "GMK CYL Redacted",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,10 +26,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Redacted Base 이미지 1",
+          "alt": "GMK CYL Redacted Base 이미지 1",
           "variants": [
             {
               "src": "/media/redacted/kit-562f75129184df41-source-gallery-0-f028335c04b0-640.avif",
@@ -49,7 +48,7 @@
           ]
         },
         {
-          "alt": "Redacted Base 이미지 2",
+          "alt": "GMK CYL Redacted Base 이미지 2",
           "variants": [
             {
               "src": "/media/redacted/kit-562f75129184df41-source-gallery-1-fe8322feb0f6-640.avif",
@@ -76,10 +75,9 @@
       "kittingTypes": [
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Redacted Classified 이미지 1",
+          "alt": "GMK CYL Redacted Classified 이미지 1",
           "variants": [
             {
               "src": "/media/redacted/kit-0ce251e6fb425986-source-gallery-0-98853eb9ec65-640.avif",
@@ -106,10 +104,9 @@
       "kittingTypes": [
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Redacted Eyes Only 이미지 1",
+          "alt": "GMK CYL Redacted Eyes Only 이미지 1",
           "variants": [
             {
               "src": "/media/redacted/kit-de7833778024520b-source-gallery-0-95aa5ebb7365-640.avif",
@@ -133,7 +130,7 @@
   ],
   "images": [
     {
-      "alt": "Redacted 이미지 1",
+      "alt": "GMK CYL Redacted 이미지 1",
       "variants": [
         {
           "src": "/media/redacted/series-f0bc5a5ad67c9b6a-source-gallery-0-851d68667a35-640.avif",

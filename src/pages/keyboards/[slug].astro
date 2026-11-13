@@ -1,133 +1,114 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
+import BuildComponentCards from '../../components/BuildComponentCards.astro';
 import DisplayFields from '../../components/DisplayFields.astro';
+import ImageGallery from '../../components/ImageGallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { loadBuildComponentCoverResolver, type BuildComponentPresentation } from '../../lib/build-component-covers';
 import { buildKeyboardDetailFields } from '../../lib/keyboard-display';
 
 export async function getStaticPaths() {
-  const keyboards = await getCollection('keyboards');
+  const [keyboards, withCover] = await Promise.all([
+    getCollection('keyboards'),
+    loadBuildComponentCoverResolver(),
+  ]);
   return keyboards.map((entry) => ({
     params: { slug: entry.data.slug },
-    props: { entry },
+    props: {
+      entry,
+      keycaps: entry.data.build.keycaps.map(withCover),
+      switches: entry.data.build.switches.map(withCover),
+    },
   }));
 }
 
+type Keyboard = CollectionEntry<'keyboards'>['data'];
+
 interface Props {
   entry: CollectionEntry<'keyboards'>;
+  keycaps: Array<Keyboard['build']['keycaps'][number] & BuildComponentPresentation>;
+  switches: Array<Keyboard['build']['switches'][number] & BuildComponentPresentation>;
 }
 
-const { entry } = Astro.props;
+const { entry, keycaps, switches } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
+const components = [...keycaps, ...switches];
+const hasBuildSpec = fields.length > 0 || components.length > 0;
 ---
 
-<SiteLayout title={keyboard.title} description={`${keyboard.title} 키보드 기록`}>
-  <article class="detail shell">
-    <a class="back-link" href="/keyboards/">← Keyboard</a>
-    <header class="detail-header">
-      <p class="eyebrow">Keyboard</p>
-      <h1>{keyboard.title}</h1>
-    </header>
+<SiteLayout title={keyboard.title}>
+  <article class:list={['detail shell keyboard-build-detail', {
+    'has-spec-column': keyboard.images.length > 0 && hasBuildSpec,
+  }]}>
+    <div class="keyboard-build-gallery">
+      <ImageGallery images={keyboard.images} label={keyboard.title} />
+      <header class="keyboard-build-caption">
+        <h1>{keyboard.title}</h1>
+      </header>
+    </div>
 
-    <section class="series-properties" aria-labelledby="keyboard-properties-heading">
-      <div class="section-heading">
-        <h2 id="keyboard-properties-heading">빌드 정보</h2>
-      </div>
-      <DisplayFields fields={fields} variant="detail" />
-    </section>
-
-    {keyboard.build.keycaps.length > 0 && (
-      <section class="record-section build-keycaps" aria-labelledby="keyboard-keycaps-heading">
-        <div class="section-heading">
-          <h2 id="keyboard-keycaps-heading">현재 키캡</h2>
-          <p>{keyboard.build.keycaps.length}개</p>
-        </div>
-        <ul>
-          {keyboard.build.keycaps.map((keycap) => (
-            <li>
-              <span>{keycap.kind === 'series' ? 'Series' : 'Kit'}</span>
-              <strong><a href={keycap.href}>{keycap.title}</a></strong>
-              {keycap.quantity !== null && <small>{keycap.quantity}개</small>}
-            </li>
-          ))}
-        </ul>
+    {hasBuildSpec && (
+      <section class="keyboard-build-spec" aria-labelledby="keyboard-build-spec-heading">
+        <h2 id="keyboard-build-spec-heading" lang="en">Build Spec</h2>
+        {components.length > 0 && <BuildComponentCards items={components} layout="rows" />}
+        <DisplayFields fields={fields} variant="detail" />
       </section>
     )}
-
-    {keyboard.build.switches.length > 0 && (
-      <section class="record-section build-keycaps" aria-labelledby="keyboard-switches-heading">
-        <div class="section-heading">
-          <h2 id="keyboard-switches-heading">현재 스위치</h2>
-          <p>{keyboard.build.switches.length}개</p>
-        </div>
-        <ul>
-          {keyboard.build.switches.map((item) => (
-            <li>
-              <span>Switch Family</span>
-              <strong><a href={item.href}>{item.title}</a></strong>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
-
-    {keyboard.build.vendors.length > 0 && (
-      <section class="record-section build-keycaps" aria-labelledby="keyboard-vendors-heading">
-        <div class="section-heading">
-          <h2 id="keyboard-vendors-heading">Vendors</h2>
-          <p>{keyboard.build.vendors.length}개</p>
-        </div>
-        <ul>
-          {keyboard.build.vendors.map((item) => (
-            <li>
-              <span>Vendor</span>
-              <strong><a href={item.href}>{item.title}</a></strong>
-            </li>
-          ))}
-        </ul>
-      </section>
-    )}
-
-    <section class="record-section" aria-labelledby="keyboard-images-heading">
-      <div class="section-heading">
-        <h2 id="keyboard-images-heading">사진</h2>
-        <p>{keyboard.images.length}장</p>
-      </div>
-      <div class="detail-images keyboard-images">
-        {keyboard.images.map((item, index) => {
-          const variants = item.variants.toSorted((a, b) => a.width - b.width);
-          const display = variants[0];
-          const full = variants.at(-1) ?? display;
-          const srcset = variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ');
-          return (
-            <figure>
-              <button
-                class="detail-image-button"
-                type="button"
-                data-lightbox-open
-                data-full={full.src}
-                data-alt={item.alt}
-                data-caption={`${keyboard.title} · ${index + 1}`}
-                aria-label={`${index + 1}번째 이미지 확대`}
-              >
-                <img
-                  src={display.src}
-                  srcset={srcset}
-                  sizes="(min-width: 960px) 88vw, 100vw"
-                  width={display.width}
-                  height={display.height}
-                  alt={item.alt}
-                  loading={index === 0 ? 'eager' : 'lazy'}
-                  decoding="async"
-                />
-              </button>
-            </figure>
-          );
-        })}
-      </div>
-    </section>
   </article>
   <Lightbox />
 </SiteLayout>
+
+<style>
+  .keyboard-build-detail {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: clamp(24px, 4vw, 52px);
+    padding-top: clamp(24px, 5vw, 64px);
+  }
+
+  .keyboard-build-gallery,
+  .keyboard-build-spec {
+    min-width: 0;
+  }
+
+  .keyboard-build-gallery :global(.image-gallery figure.is-featured img) {
+    aspect-ratio: auto;
+    max-height: none;
+  }
+
+  .keyboard-build-caption {
+    padding-block: clamp(14px, 2vw, 24px);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .keyboard-build-caption h1 {
+    margin: 0;
+    font-size: clamp(1.75rem, 4.2vw, 3.5rem);
+    font-weight: 660;
+    letter-spacing: -.045em;
+    line-height: 1.08;
+    overflow-wrap: anywhere;
+  }
+
+  .keyboard-build-spec h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 640;
+  }
+
+  .keyboard-build-spec :global(.display-fields.is-detail) {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 112px), 1fr));
+    column-gap: 14px;
+    margin-top: 16px;
+  }
+
+  @media (min-width: 760px) {
+    .keyboard-build-detail.has-spec-column {
+      grid-template-columns: minmax(0, 2.25fr) minmax(0, 1fr);
+    }
+  }
+</style>

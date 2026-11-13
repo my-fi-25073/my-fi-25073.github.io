@@ -16,7 +16,7 @@
     "썸클러스터"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "3x5"
   ],
@@ -35,25 +35,19 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "CLP Custom Black Blanks",
+        "title": "JLC Blanks · CLP Custom Black Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
       }
     ],
     "switches": [
       {
-        "title": "Game1989 v1",
-        "href": "/switches/game1989-v1/"
+        "title": "HMX Game1989 v1",
+        "href": "/switches/hmx-game1989-v1/"
       },
       {
-        "title": "Duck Duck 3.9",
-        "href": "/switches/duck-duck-3-9/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "HMX Duck Duck 3.9",
+        "href": "/switches/hmx-duck-duck-3-9/"
       }
     ]
   },

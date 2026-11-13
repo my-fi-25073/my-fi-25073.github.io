@@ -31,7 +31,7 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Custom QAZ Lavender",
+        "title": "Keyreative Cherry Custom QAZ Lavender",
         "quantity": null,
         "href": "/gallery/custom-qaz-lavender/"
       }
@@ -40,12 +40,6 @@
       {
         "title": "HMX Catmint",
         "href": "/switches/hmx-catmint/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Mech Vault",
-        "href": "/vendors/mech-vault/"
       }
     ]
   },

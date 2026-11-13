@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "kbdfans-hhkb-keysets",
-  "title": "KBDFans HHKB Keysets",
+  "title": "KBDFans Topre HHKB Keysets",
   "category": "keycaps",
   "manufacturer": "KBDFans",
   "profile": "OEM-Topre",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent -  9009"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets 9009 Accent 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets 9009 Accent 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-640.avif",
@@ -53,10 +52,9 @@
       "kittingTypes": [
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Blue Simple Alpha 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Blue Simple Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-640.avif",
@@ -83,10 +81,9 @@
       "kittingTypes": [
         "Base - Simple"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Classic Base 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Classic Base 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-87ec7a7e54c88bef-source-gallery-0-91bfd74768d9-640.avif",
@@ -113,10 +110,9 @@
       "kittingTypes": [
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Lilac Alpha 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Lilac Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-9b2c633187069716-source-gallery-0-6a53a55324a8-640.avif",
@@ -143,10 +139,9 @@
       "kittingTypes": [
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Lilac Simple Alpha 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Lilac Simple Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-3cf32d6f9bf6e755-source-gallery-0-63506575638a-640.avif",
@@ -173,10 +168,9 @@
       "kittingTypes": [
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Mint Alpha 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Mint Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-640.avif",
@@ -203,10 +197,9 @@
       "kittingTypes": [
         "Accent - HHKB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Mint Arrows 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Mint Arrows 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-640.avif",
@@ -233,10 +226,9 @@
       "kittingTypes": [
         "Base - Simple"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets POM White Base 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets POM White Base 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-640.avif",
@@ -263,10 +255,9 @@
       "kittingTypes": [
         "Modifier - HHKB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Red Mod 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Red Mod 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-5a3ff3a03cbb3e78-source-gallery-0-b2d1d27da2e3-640.avif",
@@ -293,10 +284,9 @@
       "kittingTypes": [
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Teal Alpha 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Teal Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-640.avif",
@@ -323,10 +313,9 @@
       "kittingTypes": [
         "Accent - HHKB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "KBDFans HHKB Keysets Yellow Arrows 이미지 1",
+          "alt": "KBDFans Topre HHKB Keysets Yellow Arrows 이미지 1",
           "variants": [
             {
               "src": "/media/kbdfans-hhkb-keysets/kit-5487a9a4b568f445-source-gallery-0-d21128ee6572-640.avif",
@@ -350,7 +339,7 @@
   ],
   "images": [
     {
-      "alt": "KBDFans HHKB Keysets 이미지 1",
+      "alt": "KBDFans Topre HHKB Keysets 이미지 1",
       "variants": [
         {
           "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-640.avif",
@@ -370,7 +359,7 @@
       ]
     },
     {
-      "alt": "KBDFans HHKB Keysets 이미지 1",
+      "alt": "KBDFans Topre HHKB Keysets 이미지 1",
       "variants": [
         {
           "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-body-0-62588c62bd48-640.avif",

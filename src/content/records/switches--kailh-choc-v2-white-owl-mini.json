@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-white-owl-mini",
+  "title": "Kailh Choc v2 White Owl Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": null,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "45g ± 15g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 White Owl Mini 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-640.avif",
+              "width": 640,
+              "height": 492
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-1280.avif",
+              "width": 1280,
+              "height": 984
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-2400.avif",
+              "width": 1548,
+              "height": 1190
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 White Owl Mini 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-1-14d32dc4fc56-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-1-14d32dc4fc56-1280.avif",
+              "width": 800,
+              "height": 800
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 White Owl Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-640.avif",
+          "width": 640,
+          "height": 492
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-1280.avif",
+          "width": 1280,
+          "height": 984
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-0-91ef62546924-2400.avif",
+          "width": 1548,
+          "height": 1190
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 White Owl Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-1-14d32dc4fc56-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-owl-mini/697c10b9fcd96826-8d317d857f6e-source-gallery-1-14d32dc4fc56-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    }
+  ]
+}

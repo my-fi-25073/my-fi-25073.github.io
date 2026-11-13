@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-everfree-curry",
+  "title": "Gateron Everfree Curry",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 60g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "50g",
+          "bottom_out_force": "60g",
+          "length": "15mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron Everfree Curry 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-640.avif",
+              "width": 640,
+              "height": 446
+            },
+            {
+              "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-1280.avif",
+              "width": 1280,
+              "height": 892
+            },
+            {
+              "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-2400.avif",
+              "width": 1500,
+              "height": 1045
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Everfree Curry 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-1-4072a47e0a66-640.avif",
+              "width": 600,
+              "height": 419
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron Everfree Curry 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-640.avif",
+          "width": 640,
+          "height": 446
+        },
+        {
+          "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-1280.avif",
+          "width": 1280,
+          "height": 892
+        },
+        {
+          "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-0-e601c6c9167d-2400.avif",
+          "width": 1500,
+          "height": 1045
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Everfree Curry 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-everfree-curry/711211fa5e31644f-d0b7cffde2d4-source-gallery-1-4072a47e0a66-640.avif",
+          "width": 600,
+          "height": 419
+        }
+      ]
+    }
+  ]
+}

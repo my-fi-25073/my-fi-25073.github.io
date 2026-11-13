@@ -1,7 +1,8 @@
 import type { DisplayField } from './gallery-display';
+import collectionData from '../data/collections.json';
+import { groupsForCollectionView, matchesCollectionGroup, type CollectionManifest } from './collection-views';
 
 export interface KeyboardRecord {
-  status: string | null;
   lastBuiltAt: string | null;
   modules: string[];
   plates: string[];
@@ -10,27 +11,17 @@ export interface KeyboardRecord {
   mounts: string[];
   foams: string[];
   build: {
-    label: string;
-    state: 'draft' | 'approved' | 'retired';
-    startedAt: string | null;
-    completedAt: string | null;
     keycaps: Array<{
       kind: 'series' | 'kit';
       title: string;
       quantity: number | null;
       href: string;
     }>;
-    switches: Array<{ title: string; href: string }>;
-    vendors: Array<{ title: string; href: string }>;
   };
 }
 
-function textField(key: string, label: string, value: string | null | undefined) {
-  return value?.trim() ? [{ key, label, value: value.trim() }] : [];
-}
-
 function listField(key: string, label: string, values: string[]) {
-  const value = values.filter(Boolean).join(' · ');
+  const value = values.filter((item) => item && item !== 'N/A').join(' · ');
   return value ? [{ key, label, value }] : [];
 }
 
@@ -41,31 +32,53 @@ function dateField(value: string | null) {
     month: '2-digit',
     day: '2-digit',
   }).format(new Date(`${value}T00:00:00`)).replaceAll('. ', '/').replace('.', '');
-  return [{ key: 'lastBuiltAt', label: '최근 빌드', value: formatted }];
+  return [{ key: 'lastBuiltAt', label: '마지막 빌드 날짜', value: formatted }];
+}
+
+const manifest = collectionData as CollectionManifest;
+const structureGroups = groupsForCollectionView(manifest, 'keyboard-structures');
+const plateMaterials = new Set([
+  'ABS', 'FR4', 'PC', 'PEI', 'PET', 'PLA', 'PP', 'PVC',
+  '구리', '나일론', '서스', '알루미늄', '카본', '한지', '황동',
+]);
+const plateDesigns = new Set(['아일랜드보강', '인티보강', '스켈레톤 보강']);
+
+function keyboardLayoutFields(layouts: string[]): DisplayField[] {
+  const structures: string[] = [];
+  const arrangements: string[] = [];
+  for (const label of layouts) {
+    const recorded = { layouts: [label] };
+    if (structureGroups.some((group) => matchesCollectionGroup(recorded, group.match))) {
+      structures.push(label);
+    } else {
+      arrangements.push(label);
+    }
+  }
+  return [
+    ...listField('structures', '구조', structures),
+    ...listField('layouts', '배열', arrangements),
+  ];
 }
 
 export function buildKeyboardCardFields(record: KeyboardRecord): DisplayField[] {
   return [
-    ...listField('layouts', '배열', record.layouts),
+    ...keyboardLayoutFields(record.layouts),
     ...listField('keycaps', '키캡', record.build.keycaps.map((keycap) => keycap.title)),
   ];
 }
 
 export function buildKeyboardDetailFields(record: KeyboardRecord): DisplayField[] {
-  const buildState = {
-    draft: '초안',
-    approved: '확정',
-    retired: '종료',
-  }[record.build.state];
   return [
-    ...textField('status', '상태', record.status),
-    ...textField('buildState', '현재 빌드', buildState),
     ...dateField(record.lastBuiltAt),
-    ...listField('layouts', '배열', record.layouts),
-    ...listField('mounts', '결합 방식', record.mounts),
-    ...listField('plates', '보강판', record.plates),
+    ...keyboardLayoutFields(record.layouts),
+    ...listField('mounts', '마운트', record.mounts.filter((label) => label !== '마운트')),
+    ...listField('plateMaterials', '보강판 재질', record.plates.filter((label) => plateMaterials.has(label))),
+    ...listField('plateDesigns', '보강판 형태', record.plates.filter((label) => plateDesigns.has(label))),
+    ...listField('plates', '보강판', record.plates.filter(
+      (label) => !plateMaterials.has(label) && !plateDesigns.has(label),
+    )),
     ...listField('foams', '폼', record.foams),
     ...listField('modules', '모듈', record.modules),
-    ...listField('ergonomicFeatures', '어고노믹', record.ergonomicFeatures),
+    ...listField('ergonomicFeatures', '인체공학 설계', record.ergonomicFeatures),
   ];
 }

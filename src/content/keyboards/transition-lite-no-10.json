@@ -32,25 +32,25 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Beige Extra",
+        "title": "GMK CYL Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (GMK)",
+        "title": "GMK CYL Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       }
@@ -59,12 +59,6 @@
       {
         "title": "MX2A Yellow",
         "href": "/switches/mx2a-yellow/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
       }
     ]
   },

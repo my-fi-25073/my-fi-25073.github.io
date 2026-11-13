@@ -3,17 +3,19 @@ import { getCollection } from 'astro:content';
 import ArchiveSearch from '../../components/ArchiveSearch.astro';
 import CollectionFilter from '../../components/CollectionFilter.astro';
 import KeyboardCard from '../../components/KeyboardCard.astro';
-import TaxonomyNav from '../../components/TaxonomyNav.astro';
 import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import {
+  archiveDisplayGroups,
   groupIdsForRecord,
+  groupsForCollectionView,
   groupsWithCounts,
   recordsForCollectionView,
   type CollectionManifest,
 } from '../../lib/collection-views';
 
 const manifest = collectionData as CollectionManifest;
+const pageCopy = manifest.copy;
 const entries = await getCollection('keyboards');
 const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
 const records = recordsForCollectionView(
@@ -21,40 +23,52 @@ const records = recordsForCollectionView(
   manifest,
   'keyboard-all',
 );
-const typeGroups = groupsWithCounts(records, manifest, ['keyboard-types'])
-  .map((group) => ({ ...group, label: `Type · ${group.label}` }));
-const layoutGroups = groupsWithCounts(records, manifest, ['keyboard-layouts'])
-  .map((group) => ({ ...group, label: `Layout · ${group.label}` }));
-const filters = [
-  { id: 'all', label: '최근 빌드', count: records.length },
-  ...typeGroups,
-  ...layoutGroups,
+const filterViews = [
+  { key: 'structure', label: '구조', viewId: 'keyboard-structures' },
+  { key: 'arrangement', label: '배열', viewId: 'keyboard-arrangements' },
+  { key: 'size', label: '크기', viewId: 'keyboard-sizes' },
 ];
+const sizeUrlAliases = new Map(groupsForCollectionView(manifest, 'keyboard-sizes').map(({ id, match }) => {
+  const values = match.operator === 'equals' ? [match.value] : (match.values ?? []);
+  const aliases = values.flatMap((value) => (
+    typeof value === 'string' && /^\d+%$/u.test(value) ? [value.slice(0, -1)] : []
+  ));
+  return [id, aliases] as const;
+}));
+const filterAxes = filterViews.map(({ key, label, viewId }) => ({
+  key,
+  label,
+  groups: groupsWithCounts(records, manifest, [viewId]).map((group) => ({
+    ...group,
+    aliases: key === 'size' ? sizeUrlAliases.get(group.id) : undefined,
+  })),
+}));
+const filterViewIds = filterViews.map(({ viewId }) => viewId);
+const displayGroups = archiveDisplayGroups(records, manifest, 'keyboard-all');
 ---
 
-<SiteLayout title="Keyboard">
+<SiteLayout title={pageCopy?.['keyboard.title'] ?? '키보드'} description={pageCopy?.['keyboard.description'] ?? undefined}>
   <section class="archive-intro shell" aria-labelledby="keyboard-title">
-    <p class="eyebrow">Keyboard</p>
-    <h1 id="keyboard-title">키보드</h1>
-    <p class="archive-description">
-      완성한 빌드를 최근 작업일 순으로 정리했습니다. 유형과 배열별로 볼 수 있습니다.
-    </p>
+    <h1 id="keyboard-title">{pageCopy?.['keyboard.title'] ?? '키보드'}</h1>
   </section>
 
-  <div class="shell archive-controls">
-    <TaxonomyNav current="keyboards" />
-    <p class="archive-count">{records.length}개 빌드</p>
+  <div class="archive-tools shell">
+    <CollectionFilter axes={filterAxes} />
+    <ArchiveSearch />
   </div>
 
-  <CollectionFilter groups={filters} defaultGroup="all" label="키보드 분류" />
-  <ArchiveSearch />
-
-  <section class="gallery-grid shell" aria-label="완성한 키보드 빌드">
-    {records.map((keyboard, index) => {
-      const entry = entryBySlug.get(keyboard.slug);
-      if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
-      const groups = groupIdsForRecord(keyboard, manifest, ['keyboard-types', 'keyboard-layouts']);
-      return <KeyboardCard keyboard={entry.data} index={index} groups={groups} />;
-    })}
-  </section>
+  {displayGroups.map(({ label, records }) => (
+    <section class="archive-section shell" aria-label={label ?? '키보드 목록'} data-archive-group>
+      {label && <div class="section-heading"><h2>{label}</h2></div>}
+      <div class="gallery-grid">
+        {records.map((keyboard) => {
+          const entry = entryBySlug.get(keyboard.slug);
+          if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+          const groups = groupIdsForRecord(keyboard, manifest, filterViewIds);
+          return <KeyboardCard keyboard={entry.data} groups={groups} headingLevel={label ? 3 : 2} />;
+        })}
+      </div>
+    </section>
+  ))}
+  {records.length === 0 && <p class="shell">조건에 맞는 키보드가 없습니다.</p>}
 </SiteLayout>

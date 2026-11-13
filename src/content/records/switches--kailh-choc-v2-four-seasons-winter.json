@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-four-seasons-winter",
+  "title": "Kailh Choc v2 Four Seasons Winter",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "38gf"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Four Seasons Winter 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-640.avif",
+              "width": 640,
+              "height": 573
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-1280.avif",
+              "width": 719,
+              "height": 644
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Four Seasons Winter 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-640.avif",
+              "width": 640,
+              "height": 642
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-1280.avif",
+              "width": 1059,
+              "height": 1063
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Four Seasons Winter 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-1280.avif",
+          "width": 719,
+          "height": 644
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Four Seasons Winter 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-640.avif",
+          "width": 640,
+          "height": 642
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-1280.avif",
+          "width": 1059,
+          "height": 1063
+        }
+      ]
+    }
+  ]
+}

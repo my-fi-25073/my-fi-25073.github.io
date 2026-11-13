@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-lofree-hades",
+  "title": "Kailh Choc v2 Lofree Hades",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40g ± 10g",
+          "length": "15.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Hades 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-0-30970e048b2a-640.avif",
+              "width": 640,
+              "height": 537
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-0-30970e048b2a-1280.avif",
+              "width": 1186,
+              "height": 996
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Hades 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-1-b56fc1e168a5-640.avif",
+              "width": 640,
+              "height": 314
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-1-b56fc1e168a5-1280.avif",
+              "width": 1038,
+              "height": 510
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Hades 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-640.avif",
+              "width": 640,
+              "height": 568
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-1280.avif",
+              "width": 1280,
+              "height": 1136
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-2400.avif",
+              "width": 1366,
+              "height": 1212
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Lofree Hades 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-0-30970e048b2a-640.avif",
+          "width": 640,
+          "height": 537
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-0-30970e048b2a-1280.avif",
+          "width": 1186,
+          "height": 996
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Hades 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-1-b56fc1e168a5-640.avif",
+          "width": 640,
+          "height": 314
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-1-b56fc1e168a5-1280.avif",
+          "width": 1038,
+          "height": 510
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Hades 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-640.avif",
+          "width": 640,
+          "height": 568
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-1280.avif",
+          "width": 1280,
+          "height": 1136
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-hades/d7723051eab52c0e-2d3dd2283cfc-source-gallery-2-3543b822f81d-2400.avif",
+          "width": 1366,
+          "height": 1212
+        }
+      ]
+    }
+  ]
+}

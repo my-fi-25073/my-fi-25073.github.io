@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-og-dragon-blue",
+  "title": "TTC OG Dragon Blue",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 58g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "49gf"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC OG Dragon Blue 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-640.avif",
+              "width": 523,
+              "height": 400
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC OG Dragon Blue 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-640.avif",
+          "width": 523,
+          "height": 400
+        }
+      ]
+    }
+  ]
+}

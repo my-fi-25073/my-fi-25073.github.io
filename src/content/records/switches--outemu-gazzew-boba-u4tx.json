@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "outemu-gazzew-boba-u4tx",
+  "title": "Outemu Gazzew Boba U4Tx",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Silent",
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Outemu Factory Spring 63.5g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "63.5g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Outemu Gazzew Boba U4Tx 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-0-b63ab730d365-640.avif",
+              "width": 606,
+              "height": 540
+            }
+          ]
+        },
+        {
+          "alt": "Outemu Gazzew Boba U4Tx 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-1-7eaecd691bef-640.avif",
+              "width": 640,
+              "height": 460
+            },
+            {
+              "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-1-7eaecd691bef-1280.avif",
+              "width": 783,
+              "height": 563
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Outemu Gazzew Boba U4Tx 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-0-b63ab730d365-640.avif",
+          "width": 606,
+          "height": 540
+        }
+      ]
+    },
+    {
+      "alt": "Outemu Gazzew Boba U4Tx 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-1-7eaecd691bef-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/outemu-gazzew-boba-u4tx/626193623d9d86aa-134a6139f8bc-source-gallery-1-7eaecd691bef-1280.avif",
+          "width": 783,
+          "height": 563
+        }
+      ]
+    }
+  ]
+}

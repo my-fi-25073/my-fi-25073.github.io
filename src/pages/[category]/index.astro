@@ -2,52 +2,17 @@
 import { getCollection } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import SwitchArchiveView from '../../components/SwitchArchiveView.astro';
-import ReferenceArchiveView from '../../components/ReferenceArchiveView.astro';
+import collectionData from '../../data/collections.json';
 
-export async function getStaticPaths() {
-  const categories = [
-    ['switches', 'Switch'],
-    ['springs', 'Springs'],
-    ['lubricants', 'Lubricants'],
-    ['vendors', 'Vendors'],
-  ] as const;
-  return categories.map(([category, title]) => ({
-    params: { category },
-    props: { category, title },
-  }));
+export function getStaticPaths() {
+  return [{
+    params: { category: 'switches' },
+  }];
 }
 
-type DomainCategory = 'switches' | 'springs' | 'lubricants' | 'vendors';
-
-const { category, title } = Astro.props as { category: DomainCategory; title: string };
-const domainRecords = await getCollection('records', (entry) => entry.data.category === category);
-const referenceCopy = {
-  springs: {
-    eyebrow: 'Reference · Springs',
-    title: '스프링',
-    description: '사용 중인 스프링을 제조사, 압력, 길이별로 정리했습니다.',
-  },
-  lubricants: {
-    eyebrow: 'Reference · Lubricants',
-    title: '윤활제',
-    description: '스위치와 스프링 작업에 사용한 윤활제를 타입과 제조사별로 정리했습니다.',
-  },
-  vendors: {
-    eyebrow: 'Reference · Vendors',
-    title: 'Vendors',
-    description: '위치 · 공식 링크',
-  },
-} as const;
+const records = await getCollection('records');
 ---
 
-<SiteLayout title={title}>
-  {category === 'switches' ? (
-    <SwitchArchiveView records={domainRecords} />
-  ) : (
-    <ReferenceArchiveView
-      records={domainRecords}
-      viewId={`reference-${category}`}
-      {...referenceCopy[category]}
-    />
-  )}
+<SiteLayout title={collectionData.copy['switch.title'] ?? '스위치'} description={collectionData.copy['switch.description'] ?? undefined}>
+  <SwitchArchiveView records={records} />
 </SiteLayout>

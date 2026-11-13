@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "bsun-raw",
   "title": "Bsun Raw",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 2,
-      "manufacturer": "Bsun",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 60g",
@@ -25,7 +23,54 @@
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Raw 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-0-6232e0f870d6-640.avif",
+              "width": 640,
+              "height": 557
+            },
+            {
+              "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-0-6232e0f870d6-1280.avif",
+              "width": 974,
+              "height": 848
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Raw 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-640.avif",
+              "width": 640,
+              "height": 574
+            },
+            {
+              "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-1280.avif",
+              "width": 1280,
+              "height": 1147
+            },
+            {
+              "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-2400.avif",
+              "width": 1350,
+              "height": 1210
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +79,12 @@
       "alt": "Bsun Raw 사진 1",
       "variants": [
         {
-          "src": "/media/switches/bsun-raw/674f6bf221a16827-source-gallery-0-6232e0f870d6-640.avif",
+          "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-0-6232e0f870d6-640.avif",
           "width": 640,
           "height": 557
         },
         {
-          "src": "/media/switches/bsun-raw/674f6bf221a16827-source-gallery-0-6232e0f870d6-1280.avif",
+          "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-0-6232e0f870d6-1280.avif",
           "width": 974,
           "height": 848
         }
@@ -49,17 +94,17 @@
       "alt": "Bsun Raw 사진 2",
       "variants": [
         {
-          "src": "/media/switches/bsun-raw/674f6bf221a16827-source-gallery-1-ca1e48dc20e5-640.avif",
+          "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-640.avif",
           "width": 640,
           "height": 574
         },
         {
-          "src": "/media/switches/bsun-raw/674f6bf221a16827-source-gallery-1-ca1e48dc20e5-1280.avif",
+          "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-1280.avif",
           "width": 1280,
           "height": 1147
         },
         {
-          "src": "/media/switches/bsun-raw/674f6bf221a16827-source-gallery-1-ca1e48dc20e5-2400.avif",
+          "src": "/media/switches/bsun-raw/1f59978b554f4b07-4ff40d1faf1b-source-gallery-1-ca1e48dc20e5-2400.avif",
           "width": 1350,
           "height": 1210
         }

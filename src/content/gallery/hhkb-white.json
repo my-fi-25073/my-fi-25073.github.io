@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "hhkb-white",
-  "title": "HHKB White",
+  "title": "Topre Topre HHKB White",
   "category": "keycaps",
   "manufacturer": "Topre",
   "profile": "OEM-Topre",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent - RGB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB White Accents 이미지 1",
+          "alt": "Topre Topre HHKB White Accents 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-640.avif",
@@ -54,10 +53,9 @@
         "Base - Simple",
         "Alpha - Blanks"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB White Blank Base 이미지 1",
+          "alt": "Topre Topre HHKB White Blank Base 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-white/kit-7a26edc5bebfc895-source-gallery-0-cd76ca5aaa52-640.avif",
@@ -84,10 +82,9 @@
       "kittingTypes": [
         "Alpha - Latin"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB White Realforce Alpha 이미지 1",
+          "alt": "Topre Topre HHKB White Realforce Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-white/kit-5e25f335d36b9d57-source-gallery-0-1e82838e30cd-640.avif",
@@ -114,10 +111,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB White Realforce Extra 이미지 1",
+          "alt": "Topre Topre HHKB White Realforce Extra 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-640.avif",
@@ -144,10 +140,9 @@
       "kittingTypes": [
         "Modifier - HHKB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "HHKB White Stamped Mod 이미지 1",
+          "alt": "Topre Topre HHKB White Stamped Mod 이미지 1",
           "variants": [
             {
               "src": "/media/hhkb-white/kit-e560171d254f0af0-source-gallery-0-4152bc8916c8-640.avif",
@@ -171,7 +166,7 @@
   ],
   "images": [
     {
-      "alt": "HHKB White 이미지 1",
+      "alt": "Topre Topre HHKB White 이미지 1",
       "variants": [
         {
           "src": "/media/hhkb-white/series-513ddecc82ed88fb-source-gallery-0-e073080fad33-640.avif",

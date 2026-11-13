@@ -30,21 +30,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Serika",
+        "title": "GMK CYL Serika",
         "quantity": null,
         "href": "/gallery/serika/"
       }
     ],
     "switches": [
       {
-        "title": "Bumblebee",
-        "href": "/switches/bumblebee/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "KPrepublic",
-        "href": "/vendors/kprepublic/"
+        "title": "Bsun Bumblebee",
+        "href": "/switches/bsun-bumblebee/"
       }
     ]
   },

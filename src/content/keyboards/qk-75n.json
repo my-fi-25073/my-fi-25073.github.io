@@ -33,21 +33,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "LotR Dwarvish",
+        "title": "Drop MT3 LotR Dwarvish",
         "quantity": null,
         "href": "/gallery/lotr-dwarvish/"
       }
     ],
     "switches": [
       {
-        "title": "G-Square x Moondrop Lunalight",
-        "href": "/switches/g-square-x-moondrop-lunalight/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
+        "title": "Haimu G-Square x Moondrop Lunalight",
+        "href": "/switches/haimu-g-square-x-moondrop-lunalight/"
       }
     ]
   },

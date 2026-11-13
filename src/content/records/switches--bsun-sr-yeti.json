@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-sr-yeti",
+  "title": "Bsun SR YETI",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Sprit Supreme 12g · 스템 공장 윤활 · 스프링 무윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 12g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "8g",
+          "bottom_out_force": "12g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun SR YETI 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-640.avif",
+              "width": 640,
+              "height": 403
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-1280.avif",
+              "width": 708,
+              "height": 446
+            }
+          ]
+        },
+        {
+          "alt": "Bsun SR YETI 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-640.avif",
+              "width": 640,
+              "height": 505
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-1280.avif",
+              "width": 1280,
+              "height": 1011
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-2400.avif",
+              "width": 1293,
+              "height": 1021
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Bsun Factory Spring 44g · 스템 공장 윤활 · 스프링 공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 44g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "44g",
+          "length": "21mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun SR YETI 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-0-c8f7a37a5ece-640.avif",
+              "width": 640,
+              "height": 419
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-0-c8f7a37a5ece-1280.avif",
+              "width": 1248,
+              "height": 818
+            }
+          ]
+        },
+        {
+          "alt": "Bsun SR YETI 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-1-d6df626e493f-640.avif",
+              "width": 640,
+              "height": 505
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-1-d6df626e493f-1280.avif",
+              "width": 1280,
+              "height": 1011
+            },
+            {
+              "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-1-d6df626e493f-2400.avif",
+              "width": 1293,
+              "height": 1021
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun SR YETI 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-640.avif",
+          "width": 640,
+          "height": 403
+        },
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-1280.avif",
+          "width": 708,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "alt": "Bsun SR YETI 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-640.avif",
+          "width": 640,
+          "height": 505
+        },
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-1280.avif",
+          "width": 1280,
+          "height": 1011
+        },
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-2400.avif",
+          "width": 1293,
+          "height": 1021
+        }
+      ]
+    },
+    {
+      "alt": "Bsun SR YETI 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-0-c8f7a37a5ece-640.avif",
+          "width": 640,
+          "height": 419
+        },
+        {
+          "src": "/media/switches/bsun-sr-yeti/e9f4128d37eb68db-8002f6522265-source-gallery-0-c8f7a37a5ece-1280.avif",
+          "width": 1248,
+          "height": 818
+        }
+      ]
+    }
+  ]
+}

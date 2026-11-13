@@ -31,25 +31,25 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Norde Beige",
+        "title": "GMK CYL Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       }
@@ -58,12 +58,6 @@
       {
         "title": "MX2A Black",
         "href": "/switches/mx2a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Geonworks",
-        "href": "/vendors/geonworks/"
       }
     ]
   },

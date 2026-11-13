@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "cherry-ulp-mx-ulp-click",
+  "title": "Cherry ULP MX ULP Click",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry ULP",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "무윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 65g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "52g",
+          "tactile_force": "65g",
+          "bottom_out_force": "200g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Cherry ULP MX ULP Click 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-click/192fb71ac907168f-c6348b17d27e-source-gallery-0-22c26f8b5097-640.avif",
+              "width": 353,
+              "height": 241
+            }
+          ]
+        },
+        {
+          "alt": "Cherry ULP MX ULP Click 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-click/192fb71ac907168f-c6348b17d27e-source-gallery-1-a1c798b96188-640.avif",
+              "width": 457,
+              "height": 375
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Cherry ULP MX ULP Click 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-click/192fb71ac907168f-c6348b17d27e-source-gallery-0-22c26f8b5097-640.avif",
+          "width": 353,
+          "height": 241
+        }
+      ]
+    },
+    {
+      "alt": "Cherry ULP MX ULP Click 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-click/192fb71ac907168f-c6348b17d27e-source-gallery-1-a1c798b96188-640.avif",
+          "width": 457,
+          "height": 375
+        }
+      ]
+    }
+  ]
+}

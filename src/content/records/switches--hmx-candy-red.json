@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-candy-red",
+  "title": "HMX Candy Red",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 52g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "52g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Candy Red 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-640.avif",
+              "width": 595,
+              "height": 448
+            }
+          ]
+        },
+        {
+          "alt": "HMX Candy Red 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-1280.avif",
+              "width": 1161,
+              "height": 1057
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Candy Red 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-640.avif",
+          "width": 595,
+          "height": 448
+        }
+      ]
+    },
+    {
+      "alt": "HMX Candy Red 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-1280.avif",
+          "width": 1161,
+          "height": 1057
+        }
+      ]
+    }
+  ]
+}

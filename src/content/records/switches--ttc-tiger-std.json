@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-tiger-std",
+  "title": "TTC Tiger STD",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 55gf",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "55gf",
+          "length": "24.3mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC Tiger STD 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-640.avif",
+              "width": 640,
+              "height": 455
+            },
+            {
+              "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-1280.avif",
+              "width": 726,
+              "height": 516
+            }
+          ]
+        },
+        {
+          "alt": "TTC Tiger STD 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-640.avif",
+              "width": 285,
+              "height": 293
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC Tiger STD 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-640.avif",
+          "width": 640,
+          "height": 455
+        },
+        {
+          "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-1280.avif",
+          "width": 726,
+          "height": 516
+        }
+      ]
+    },
+    {
+      "alt": "TTC Tiger STD 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-640.avif",
+          "width": 285,
+          "height": 293
+        }
+      ]
+    }
+  ]
+}

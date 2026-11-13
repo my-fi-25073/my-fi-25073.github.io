@@ -1,3 +1,5 @@
+import { collectionValues as valuesForField, matchesCollectionPredicate } from './collection-predicate.mjs';
+
 export interface CollectionNavigationItem {
   id: string;
   label: string;
@@ -5,11 +7,12 @@ export interface CollectionNavigationItem {
   order: number;
 }
 
-export interface CollectionCondition {
-  field: string;
-  operator: 'equals' | 'year';
-  value: unknown;
-}
+export type CollectionCondition =
+  | { field: string; operator: 'equals' | 'year'; value: unknown }
+  | { field: string; operator: 'in'; value: Array<string | number> }
+  | { field: string; operator: 'contains'; value: string }
+  | { field: string; operator: 'gt' | 'gte' | 'lt' | 'lte'; value: string | number }
+  | { field: string; operator: 'empty' | 'not_empty' };
 
 export interface CollectionMatch {
   field: string;
@@ -24,13 +27,17 @@ export interface CollectionGroup {
   match: CollectionMatch;
 }
 
+type CollectionPredicate = { all: CollectionCondition[] } | { any: CollectionCondition[] };
+type CollectionSort = Array<{ field: string; direction: 'asc' | 'desc' }>;
+type CollectionValueGroup = { field: string; unit: 'value'; order: string[]; direction?: 'asc' | 'desc' };
+
 export interface CollectionQuery {
   id: string;
   name: string;
   entityKind: string;
-  predicate: { all: CollectionCondition[] };
-  sort: Array<{ field: string; direction: 'asc' | 'desc' }>;
-  group: { groups?: CollectionGroup[]; field?: string; unit?: string } | null;
+  predicate: CollectionPredicate;
+  sort: CollectionSort;
+  group: { groups?: CollectionGroup[]; field?: string; unit?: string; order?: string[]; direction?: 'asc' | 'desc' } | null;
   revision: number;
 }
 
@@ -39,12 +46,17 @@ export interface CollectionView {
   queryId: string;
   name: string;
   layout: 'table' | 'gallery' | 'calendar' | 'timeline' | 'chart';
-  projection: Record<string, unknown>;
+  projection: Record<string, unknown> & {
+    archive?: {
+      predicate: CollectionPredicate;
+      sort: CollectionSort;
+      group: CollectionValueGroup | null;
+    };
+  };
   eligibility: {
     requireImages?: boolean;
-    requireVariants?: boolean;
-    excludeFamilyKinds?: string[];
-    familyKinds?: string[];
+    excludeFranken?: boolean;
+    frankenOnly?: boolean;
   };
   revision: number;
 }
@@ -55,6 +67,14 @@ export interface CollectionManifest {
   navigation: CollectionNavigationItem[];
   queries: CollectionQuery[];
   views: CollectionView[];
+  copy: Record<
+    | 'home.eyebrow' | 'home.title' | 'home.description'
+    | 'keyboard.eyebrow' | 'keyboard.title' | 'keyboard.description'
+    | 'keycap.eyebrow' | 'keycap.title' | 'keycap.description'
+    | 'switch.eyebrow' | 'switch.title' | 'switch.description'
+    | 'recap.eyebrow' | 'recap.title' | 'recap.description',
+    string | null
+  >;
 }
 
 type PublicRecord = Record<string, unknown>;
@@ -63,48 +83,15 @@ function asRecord(value: object): PublicRecord {
   return value as unknown as PublicRecord;
 }
 
-function valuesForField(record: PublicRecord, field: string): unknown[] {
-  const arrayMarker = '[].';
-  if (field.includes(arrayMarker)) {
-    const [listField, childField] = field.split(arrayMarker);
-    const list = record[listField];
-    if (!Array.isArray(list)) return [];
-    return list.map((item) => (
-      item && typeof item === 'object' ? (item as PublicRecord)[childField] : undefined
-    ));
-  }
-  if (field.endsWith('[]')) {
-    const value = record[field.slice(0, -2)];
-    return Array.isArray(value) ? value : [];
-  }
-  return [record[field]];
-}
-
-function matchesPredicate(record: PublicRecord, predicate: CollectionQuery['predicate']) {
-  return predicate.all.every((condition) => {
-    const actual = record[condition.field];
-    if (condition.operator === 'equals') return actual === condition.value;
-    if (condition.operator === 'year') {
-      return typeof actual === 'string'
-        && /^\d{4}-\d{2}-\d{2}$/u.test(actual)
-        && Number(actual.slice(0, 4)) === condition.value;
-    }
-    return false;
-  });
-}
+const matchesPredicate = matchesCollectionPredicate;
 
 function matchesEligibility(record: PublicRecord, view: CollectionView) {
   const { eligibility } = view;
   if (eligibility.requireImages) {
     if (!Array.isArray(record.images) || record.images.length === 0) return false;
   }
-  if (eligibility.requireVariants) {
-    if (!Array.isArray(record.variants) || record.variants.length === 0) return false;
-  }
-  if (eligibility.excludeFamilyKinds?.includes(String(record.familyKind))) return false;
-  if (eligibility.familyKinds && !eligibility.familyKinds.includes(String(record.familyKind))) {
-    return false;
-  }
+  if (eligibility.excludeFranken && record.isFranken === true) return false;
+  if (eligibility.frankenOnly && record.isFranken !== true) return false;
   return true;
 }
 
@@ -127,23 +114,41 @@ export function requiredCollectionView(manifest: CollectionManifest, viewId: str
   return { view, query };
 }
 
+export function keycapArchiveViews(manifest: CollectionManifest) {
+  const viewIds = requiredCollectionView(manifest, 'keycap-collections').view.projection.views;
+  if (!Array.isArray(viewIds) || !viewIds.length || viewIds.some((id) => typeof id !== 'string')) {
+    throw new Error('Keycap archive views are missing or invalid.');
+  }
+  return viewIds.map((viewId: string) => {
+    const { view, query } = requiredCollectionView(manifest, viewId);
+    return {
+      view,
+      query,
+      id: viewId.replace(/^keycap-/, ''),
+      label: view.name,
+    };
+  });
+}
+
 export function recordsForCollectionView<T extends object>(
   records: T[],
   manifest: CollectionManifest,
   viewId: string,
 ) {
   const { view, query } = requiredCollectionView(manifest, viewId);
+  const archive = view.projection.archive;
   return records
     .filter((record) => (
       matchesPredicate(asRecord(record), query.predicate)
+      && (!archive || matchesPredicate(asRecord(record), archive.predicate))
       && matchesEligibility(asRecord(record), view)
     ))
     .toSorted((left, right) => {
       const leftRecord = asRecord(left);
       const rightRecord = asRecord(right);
-      for (const sort of query.sort) {
-        const order = String(leftRecord[sort.field] ?? '').localeCompare(
-          String(rightRecord[sort.field] ?? ''),
+      for (const sort of archive?.sort ?? query.sort) {
+        const order = valuesForField(leftRecord, sort.field).join(',').localeCompare(
+          valuesForField(rightRecord, sort.field).join(','),
           'ko',
           { numeric: true, sensitivity: 'base' },
         );
@@ -151,6 +156,40 @@ export function recordsForCollectionView<T extends object>(
       }
       return 0;
     });
+}
+
+export function recordsGroupedByField<T extends object>(
+  records: T[], field: string, order: string[], direction?: 'asc' | 'desc',
+) {
+  const groups = new Map<string | null, T[]>();
+  for (const record of records) {
+    const labels = valuesForField(asRecord(record), field)
+      .filter((label): label is string => typeof label === 'string' && Boolean(label));
+    for (const label of new Set(labels.length ? labels : [null])) {
+      const group = groups.get(label);
+      if (group) group.push(record);
+      else groups.set(label, [record]);
+    }
+  }
+  const rank = new Map<string | null, number>(order.map((label, index) => [label, index]));
+  return Array.from(groups, ([label, records]) => ({ label, records })).toSorted((left, right) => {
+    if (direction) {
+      if (left.label === null) return 1;
+      if (right.label === null) return -1;
+      const result = left.label.localeCompare(right.label, 'ko', { numeric: true });
+      return direction === 'desc' ? -result : result;
+    }
+    return (rank.get(left.label) ?? order.length) - (rank.get(right.label) ?? order.length);
+  });
+}
+
+export function archiveDisplayGroups<T extends object>(
+  records: T[], manifest: CollectionManifest, viewId: string,
+) {
+  const group = requiredCollectionView(manifest, viewId).view.projection.archive?.group;
+  if (!group) return [{ label: null, records }];
+  return recordsGroupedByField(records, group.field, group.order, group.direction)
+    .map(({ label, records }) => ({ label: label ?? '값 없음', records }));
 }
 
 export function groupsForCollectionView(

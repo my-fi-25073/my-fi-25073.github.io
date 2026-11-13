@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-vintage-citrus",
+  "title": "HMX Vintage Citrus",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 53g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "48g ± 5g",
+          "bottom_out_force": "53g ± 5g",
+          "length": "22.0mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Vintage Citrus 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-0-c33213173619-640.avif",
+              "width": 640,
+              "height": 487
+            },
+            {
+              "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-0-c33213173619-1280.avif",
+              "width": 742,
+              "height": 565
+            }
+          ]
+        },
+        {
+          "alt": "HMX Vintage Citrus 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-1280.avif",
+              "width": 1280,
+              "height": 1167
+            },
+            {
+              "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-2400.avif",
+              "width": 1309,
+              "height": 1193
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Vintage Citrus 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-0-c33213173619-640.avif",
+          "width": 640,
+          "height": 487
+        },
+        {
+          "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-0-c33213173619-1280.avif",
+          "width": 742,
+          "height": 565
+        }
+      ]
+    },
+    {
+      "alt": "HMX Vintage Citrus 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-1280.avif",
+          "width": 1280,
+          "height": 1167
+        },
+        {
+          "src": "/media/switches/hmx-vintage-citrus/87bad99b22a482ee-4003072c93cb-source-gallery-1-549759e8ef0e-2400.avif",
+          "width": 1309,
+          "height": 1193
+        }
+      ]
+    }
+  ]
+}

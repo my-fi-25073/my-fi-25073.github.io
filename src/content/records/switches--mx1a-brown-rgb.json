@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx1a-brown-rgb",
   "title": "MX1A Brown RGB",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "무윤활",
       "rating": 0,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Tactile"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",
@@ -25,7 +23,44 @@
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Brown RGB 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-0-830de7452dfd-640.avif",
+              "width": 640,
+              "height": 409
+            },
+            {
+              "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-0-830de7452dfd-1280.avif",
+              "width": 732,
+              "height": 468
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Brown RGB 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-1-5e8e7ee87e73-640.avif",
+              "width": 354,
+              "height": 297
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +69,12 @@
       "alt": "MX1A Brown RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-brown-rgb/4e9b40f4d1bf4098-source-gallery-0-830de7452dfd-640.avif",
+          "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-0-830de7452dfd-640.avif",
           "width": 640,
           "height": 409
         },
         {
-          "src": "/media/switches/mx1a-brown-rgb/4e9b40f4d1bf4098-source-gallery-0-830de7452dfd-1280.avif",
+          "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-0-830de7452dfd-1280.avif",
           "width": 732,
           "height": 468
         }
@@ -49,7 +84,7 @@
       "alt": "MX1A Brown RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-brown-rgb/4e9b40f4d1bf4098-source-gallery-1-5e8e7ee87e73-640.avif",
+          "src": "/media/switches/mx1a-brown-rgb/6da4beeaa87bc420-4caa77f5dc67-source-gallery-1-5e8e7ee87e73-640.avif",
           "width": 354,
           "height": 297
         }

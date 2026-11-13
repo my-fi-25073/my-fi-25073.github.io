@@ -31,21 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Oblivion",
+        "title": "GMK CYL Oblivion",
         "quantity": null,
         "href": "/gallery/oblivion/"
       }
     ],
     "switches": [
       {
-        "title": "Candy Red",
-        "href": "/switches/candy-red/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Wind Studio",
-        "href": "/vendors/wind-studio/"
+        "title": "HMX Candy Red",
+        "href": "/switches/hmx-candy-red/"
       }
     ]
   },

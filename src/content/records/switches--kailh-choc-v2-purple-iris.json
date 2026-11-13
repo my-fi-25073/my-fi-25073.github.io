@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-purple-iris",
+  "title": "Kailh Choc v2 Purple Iris",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 5,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 40g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "30g ± 10g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Purple Iris 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-640.avif",
+              "width": 640,
+              "height": 533
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-1280.avif",
+              "width": 1280,
+              "height": 1067
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-2400.avif",
+              "width": 1418,
+              "height": 1182
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Purple Iris 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-640.avif",
+              "width": 640,
+              "height": 700
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-1280.avif",
+              "width": 1280,
+              "height": 1400
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-2400.avif",
+              "width": 1518,
+              "height": 1660
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Purple Iris 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-640.avif",
+          "width": 640,
+          "height": 533
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-1280.avif",
+          "width": 1280,
+          "height": 1067
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-0-b7408278bb83-2400.avif",
+          "width": 1418,
+          "height": 1182
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Purple Iris 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-640.avif",
+          "width": 640,
+          "height": 700
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-1280.avif",
+          "width": 1280,
+          "height": 1400
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-purple-iris/9cc319a846875015-d6760936594d-source-gallery-1-67c918578a9d-2400.avif",
+          "width": 1518,
+          "height": 1660
+        }
+      ]
+    }
+  ]
+}

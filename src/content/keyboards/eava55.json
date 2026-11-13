@@ -33,55 +33,55 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "Hiney Beige ",
+        "title": "GMK CYL Hiney Beige",
         "quantity": null,
         "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "Beige Extra",
+        "title": "GMK CYL Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "Norde Beige",
+        "title": "GMK CYL Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "kit",
-        "title": "Beige/WoB",
+        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
-        "title": "Classic Arabic",
+        "title": "GMK CYL Classic Arabic",
         "quantity": null,
         "href": "/gallery/classic-arabic/"
       },
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       }
@@ -90,12 +90,6 @@
       {
         "title": "MX1A Black",
         "href": "/switches/mx1a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
       }
     ]
   },

@@ -31,13 +31,13 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "DCS WoB 40% Mono Kit",
+        "title": "SP WoB 40% Mono Kit",
         "quantity": null,
         "href": "/gallery/dcs-wob-40-mono-kit/"
       },
       {
         "kind": "series",
-        "title": "DCS Intro WoB",
+        "title": "SP Intro WoB",
         "quantity": null,
         "href": "/gallery/dcs-intro-wob/"
       }
@@ -46,12 +46,6 @@
       {
         "title": "MX1A Nixie",
         "href": "/switches/mx1a-nixie/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Linworks",
-        "href": "/vendors/linworks/"
       }
     ]
   },

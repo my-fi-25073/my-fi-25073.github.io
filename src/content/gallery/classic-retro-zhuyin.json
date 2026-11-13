@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "classic-retro-zhuyin",
-  "title": "Classic Retro Zhuyin",
+  "title": "GMK CYL Classic Retro Zhuyin",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,10 +26,9 @@
         "Base - Standard",
         "Alpha - Zhuyin"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Classic Retro Zhuyin Base 이미지 1",
+          "alt": "GMK CYL Classic Retro Zhuyin Base 이미지 1",
           "variants": [
             {
               "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-0-590bd1d3a69d-640.avif",
@@ -49,7 +48,7 @@
           ]
         },
         {
-          "alt": "Classic Retro Zhuyin Base 이미지 2",
+          "alt": "GMK CYL Classic Retro Zhuyin Base 이미지 2",
           "variants": [
             {
               "src": "/media/classic-retro-zhuyin/kit-604a1148b4071380-source-gallery-1-ede05c9a2939-640.avif",
@@ -77,10 +76,9 @@
         "Accent - Theme",
         "Child - Indicator"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Classic Retro Zhuyin LED Indicator 이미지 1",
+          "alt": "GMK CYL Classic Retro Zhuyin LED Indicator 이미지 1",
           "variants": [
             {
               "src": "/media/classic-retro-zhuyin/kit-e3d28ba60b9f8e73-source-gallery-0-446e7daa9325-640.avif",
@@ -94,7 +92,7 @@
   ],
   "images": [
     {
-      "alt": "Classic Retro Zhuyin 이미지 1",
+      "alt": "GMK CYL Classic Retro Zhuyin 이미지 1",
       "variants": [
         {
           "src": "/media/classic-retro-zhuyin/series-03358389868b1a32-source-gallery-0-fbf49855341e-640.avif",

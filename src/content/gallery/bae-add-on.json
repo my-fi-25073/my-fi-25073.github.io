@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "bae-add-on",
-  "title": "BAE Add On",
+  "title": "GMK CYL BAE Add On",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "BAE Add On 9009 이미지 1",
+          "alt": "GMK CYL BAE Add On 9009 이미지 1",
           "variants": [
             {
               "src": "/media/bae-add-on/kit-2243b34e74be71b7-source-gallery-0-9de1f9497d7d-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "BAE Add On BoW 이미지 1",
+          "alt": "GMK CYL BAE Add On BoW 이미지 1",
           "variants": [
             {
               "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-640.avif",
@@ -80,10 +78,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "BAE Add On Dolch 이미지 1",
+          "alt": "GMK CYL BAE Add On Dolch 이미지 1",
           "variants": [
             {
               "src": "/media/bae-add-on/kit-61b127bc48a2850b-source-gallery-0-c93842a65953-640.avif",
@@ -98,7 +95,7 @@
           ]
         },
         {
-          "alt": "BAE Add On Dolch 이미지 2",
+          "alt": "GMK CYL BAE Add On Dolch 이미지 2",
           "variants": [
             {
               "src": "/media/bae-add-on/kit-61b127bc48a2850b-source-gallery-1-72a1ae4d98f2-640.avif",
@@ -125,10 +122,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "BAE Add On WoB 이미지 1",
+          "alt": "GMK CYL BAE Add On WoB 이미지 1",
           "variants": [
             {
               "src": "/media/bae-add-on/kit-069944c63fff758c-source-gallery-0-74dc2bc5ea9b-640.avif",
@@ -147,7 +143,7 @@
   ],
   "images": [
     {
-      "alt": "BAE Add On 이미지 1",
+      "alt": "GMK CYL BAE Add On 이미지 1",
       "variants": [
         {
           "src": "/media/bae-add-on/series-444d694d947b3984-source-gallery-0-9c9442770aa4-640.avif",
@@ -167,7 +163,7 @@
       ]
     },
     {
-      "alt": "BAE Add On 이미지 2",
+      "alt": "GMK CYL BAE Add On 이미지 2",
       "variants": [
         {
           "src": "/media/bae-add-on/series-444d694d947b3984-source-gallery-1-f2c0761dacd9-640.avif",

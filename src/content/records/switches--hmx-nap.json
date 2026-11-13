@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-nap",
+  "title": "HMX NAP",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 43g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "43g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX NAP 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-640.avif",
+              "width": 640,
+              "height": 486
+            },
+            {
+              "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-1280.avif",
+              "width": 718,
+              "height": 545
+            }
+          ]
+        },
+        {
+          "alt": "HMX NAP 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-640.avif",
+              "width": 640,
+              "height": 837
+            },
+            {
+              "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-1280.avif",
+              "width": 1177,
+              "height": 1540
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX NAP 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-640.avif",
+          "width": 640,
+          "height": 486
+        },
+        {
+          "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-1280.avif",
+          "width": 718,
+          "height": 545
+        }
+      ]
+    },
+    {
+      "alt": "HMX NAP 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-640.avif",
+          "width": 640,
+          "height": 837
+        },
+        {
+          "src": "/media/switches/hmx-nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-1280.avif",
+          "width": 1177,
+          "height": 1540
+        }
+      ]
+    }
+  ]
+}

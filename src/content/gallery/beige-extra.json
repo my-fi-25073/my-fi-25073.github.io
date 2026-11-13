@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "beige-extra",
-  "title": "Beige Extra",
+  "title": "GMK CYL Beige Extra",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Extra Beige 4.5u JIS Space Bar 이미지 1",
+          "alt": "GMK CYL Beige Extra Beige 4.5u JIS Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/beige-extra/kit-4b16ecc36c61f8dc-source-gallery-0-d009f89b490f-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Extra Beige OG Space Keys 이미지 1",
+          "alt": "GMK CYL Beige Extra Beige OG Space Keys 이미지 1",
           "variants": [
             {
               "src": "/media/beige-extra/kit-e919562f5222b6a8-source-gallery-0-8ff8208ccb89-640.avif",
@@ -85,10 +83,9 @@
       "kittingTypes": [
         "Accent - Modifiers"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Extra Beige System Mod 이미지 1",
+          "alt": "GMK CYL Beige Extra Beige System Mod 이미지 1",
           "variants": [
             {
               "src": "/media/beige-extra/kit-3256b9a7d377d797-source-gallery-0-f6673f231705-640.avif",
@@ -115,10 +112,9 @@
       "kittingTypes": [
         "Modifier - Assembly"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 1",
+          "alt": "GMK CYL Beige Extra Sixes Ogre (Ergo kit) 이미지 1",
           "variants": [
             {
               "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-0-9299cfdb5087-640.avif",
@@ -138,7 +134,7 @@
           ]
         },
         {
-          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 2",
+          "alt": "GMK CYL Beige Extra Sixes Ogre (Ergo kit) 이미지 2",
           "variants": [
             {
               "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-1-f40f315655b4-640.avif",
@@ -158,7 +154,7 @@
           ]
         },
         {
-          "alt": "Beige Extra Sixes Ogre (Ergo kit) 이미지 3",
+          "alt": "GMK CYL Beige Extra Sixes Ogre (Ergo kit) 이미지 3",
           "variants": [
             {
               "src": "/media/beige-extra/kit-85fb896ad9a4c358-source-gallery-2-4565ac393d50-640.avif",
@@ -182,7 +178,7 @@
   ],
   "images": [
     {
-      "alt": "Beige Extra 이미지 1",
+      "alt": "GMK CYL Beige Extra 이미지 1",
       "variants": [
         {
           "src": "/media/beige-extra/series-a46641c53b066298-source-gallery-0-cb53585d2b22-640.avif",

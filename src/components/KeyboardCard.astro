@@ -31,33 +31,35 @@ interface Keyboard {
       href: string;
     }>;
     switches: Array<{ title: string; href: string }>;
-    vendors: Array<{ title: string; href: string }>;
   };
   images: Array<{ alt: string; variants: ImageVariant[] }>;
 }
 
 interface Props {
   keyboard: Keyboard;
-  index: number;
+  eager?: boolean;
   groups?: string[];
   headingLevel?: 2 | 3;
 }
 
-const { keyboard, index, groups = [], headingLevel = 2 } = Astro.props;
+const { keyboard, eager = false, groups = [], headingLevel = 2 } = Astro.props;
 const cover = keyboard.images[0];
 const variants = cover.variants.toSorted((a, b) => a.width - b.width);
 const source = variants[0];
 const srcset = variants.map((item) => `${item.src} ${item.width}w`).join(', ');
 const fields = buildKeyboardCardFields(keyboard);
-const recordNumber = String(index + 1).padStart(3, '0');
-const searchText = [keyboard.title, ...fields.map((field) => field.value)]
+const searchText = [
+  keyboard.title,
+  ...keyboard.layouts,
+  ...keyboard.build.keycaps.map((keycap) => keycap.title),
+  ...keyboard.build.switches.map((item) => item.title),
+]
   .join(' ')
   .toLocaleLowerCase('ko');
 ---
 
 <article
   class="gallery-card"
-  style={`--card-index:${Math.min(index, 12)}`}
   data-archive-card
   data-search={searchText}
   data-groups={JSON.stringify(groups)}
@@ -71,15 +73,13 @@ const searchText = [keyboard.title, ...fields.map((field) => field.value)]
         width={source.width}
         height={source.height}
         alt={cover.alt}
-        loading="lazy"
+        loading={eager ? 'eager' : 'lazy'}
         decoding="async"
       />
     </div>
     <div class="gallery-card-copy">
-      <p class="card-kind">Keyboard</p>
       <div class="gallery-card-titleline">
         {headingLevel === 3 ? <h3>{keyboard.title}</h3> : <h2>{keyboard.title}</h2>}
-        <span class="record-number" aria-label={`${index + 1}번째 기록`}>{recordNumber}</span>
       </div>
       <DisplayFields fields={fields} variant="card" />
     </div>

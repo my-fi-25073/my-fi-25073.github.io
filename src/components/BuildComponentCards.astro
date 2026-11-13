@@ -1,0 +1,149 @@
+---
+import type { BuildComponentPresentation } from '../lib/build-component-covers';
+import DisplayFields from './DisplayFields.astro';
+
+interface Props {
+  layout?: 'grid' | 'rows';
+  items: Array<BuildComponentPresentation & {
+    title: string;
+    href: string;
+    quantity?: number | null;
+  }>;
+}
+
+const { items, layout = 'grid' } = Astro.props;
+---
+
+<ul class:list={['build-component-cards', { 'is-rows': layout === 'rows' }]}>
+  {items.map(({ title, href, quantity, cover, fields }) => {
+    const variants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
+    const source = variants[0];
+    return (
+      <li class:list={{ 'has-tuning-fields': fields?.length }}>
+        <a href={href}>
+          {source && (
+            <img
+              src={source.src}
+              srcset={variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ')}
+              sizes={layout === 'rows' ? '136px' : '(min-width: 768px) 260px, (min-width: 480px) 50vw, 100vw'}
+              width={source.width}
+              height={source.height}
+              loading="lazy"
+              decoding="async"
+              alt=""
+            />
+          )}
+          <div class="build-component-copy">
+            <strong>{title}</strong>
+            {quantity != null && <small>{quantity}개</small>}
+            {fields && <DisplayFields fields={fields} variant="card" />}
+          </div>
+        </a>
+      </li>
+    );
+  })}
+</ul>
+
+<style>
+  .build-component-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr));
+    align-items: start;
+    gap: 12px;
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    min-width: 0;
+  }
+
+  a {
+    display: block;
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-card);
+    background: var(--color-panel);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: var(--radius-card) var(--radius-card) 0 0;
+    background: var(--color-surface);
+  }
+
+  .build-component-copy {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    padding: 12px 14px;
+  }
+
+  strong {
+    overflow-wrap: anywhere;
+    font-size: 15px;
+    font-weight: 560;
+    line-height: 1.4;
+  }
+
+  a:hover strong {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  small {
+    color: var(--color-muted);
+    font-size: 12px;
+  }
+
+  .is-rows {
+    display: block;
+    margin-top: 0;
+  }
+
+  .is-rows li {
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .is-rows a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-block: 12px;
+    border: 0;
+    background: transparent;
+  }
+
+  .is-rows img {
+    flex: 0 0 auto;
+    width: clamp(88px, 11vw, 136px);
+    border-radius: var(--radius-card);
+  }
+
+  .is-rows .build-component-copy {
+    display: grid;
+    gap: 5px;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .is-rows .has-tuning-fields a {
+    align-items: flex-start;
+  }
+
+  .build-component-copy :global(.display-fields.is-card) {
+    margin: 0;
+  }
+
+  .build-component-copy :global(.display-fields.is-card .display-field) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 6px;
+  }
+</style>

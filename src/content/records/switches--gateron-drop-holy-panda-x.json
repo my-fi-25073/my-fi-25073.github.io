@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-drop-holy-panda-x",
+  "title": "Gateron Drop Holy Panda X",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Krytox GPL 105 · Krytox GPL 205 Grade 0",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron Drop Holy Panda X 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-640.avif",
+              "width": 640,
+              "height": 370
+            },
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-1280.avif",
+              "width": 1034,
+              "height": 597
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Drop Holy Panda X 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-640.avif",
+              "width": 640,
+              "height": 429
+            },
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-1280.avif",
+              "width": 1029,
+              "height": 689
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Drop Holy Panda X 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-640.avif",
+              "width": 640,
+              "height": 419
+            },
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-1280.avif",
+              "width": 1038,
+              "height": 680
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Drop Holy Panda X 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-640.avif",
+              "width": 446,
+              "height": 377
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron Drop Holy Panda X 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-640.avif",
+          "width": 640,
+          "height": 370
+        },
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-1280.avif",
+          "width": 1034,
+          "height": 597
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Drop Holy Panda X 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-1280.avif",
+          "width": 1029,
+          "height": 689
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Drop Holy Panda X 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-640.avif",
+          "width": 640,
+          "height": 419
+        },
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-1280.avif",
+          "width": 1038,
+          "height": 680
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Drop Holy Panda X 사진 4",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-640.avif",
+          "width": 446,
+          "height": 377
+        }
+      ]
+    }
+  ]
+}

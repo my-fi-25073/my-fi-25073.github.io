@@ -32,63 +32,57 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Beige Extra",
+        "title": "GMK CYL Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Norde Beige",
+        "title": "GMK CYL Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "kit",
-        "title": "Beige/WoB",
+        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "UwU Macro Add On",
+        "title": "GMK CYL UwU Macro Add On",
         "quantity": null,
         "href": "/gallery/uwu-macro-add-on/"
       },
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       }
     ],
     "switches": [
       {
-        "title": "Sunflower",
-        "href": "/switches/sunflower/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
+        "title": "Keygeek Sunflower",
+        "href": "/switches/keygeek-sunflower/"
       }
     ]
   },

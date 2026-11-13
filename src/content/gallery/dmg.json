@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dmg",
-  "title": "DMG",
+  "title": "GMK CYL DMG",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Addition 이미지 1",
+          "alt": "GMK CYL DMG Addition 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-9b4ca5d8a3b92d02-source-gallery-0-ced0e86b4984-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Aesthetic 이미지 1",
+          "alt": "GMK CYL DMG Aesthetic 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-ade2c98bdaa4b3e5-source-gallery-0-f2a0ae9fabac-640.avif",
@@ -85,10 +83,9 @@
       "kittingTypes": [
         "Modifier - Mac"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Command 이미지 1",
+          "alt": "GMK CYL DMG Command 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-640.avif",
@@ -115,10 +112,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Latin Base 이미지 1",
+          "alt": "GMK CYL DMG Latin Base 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-640.avif",
@@ -138,7 +134,7 @@
           ]
         },
         {
-          "alt": "DMG Latin Base 이미지 2",
+          "alt": "GMK CYL DMG Latin Base 이미지 2",
           "variants": [
             {
               "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-640.avif",
@@ -165,10 +161,9 @@
       "kittingTypes": [
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Novelty 이미지 1",
+          "alt": "GMK CYL DMG Novelty 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-5a54a1b12a809ad5-source-gallery-0-c4d1800d617f-640.avif",
@@ -195,10 +190,9 @@
       "kittingTypes": [
         "Modifier - Obscure"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "DMG Obscure 이미지 1",
+          "alt": "GMK CYL DMG Obscure 이미지 1",
           "variants": [
             {
               "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-640.avif",
@@ -222,7 +216,7 @@
   ],
   "images": [
     {
-      "alt": "DMG 이미지 1",
+      "alt": "GMK CYL DMG 이미지 1",
       "variants": [
         {
           "src": "/media/dmg/series-aa173146acc1f895-source-gallery-0-3b479d1ff1b3-640.avif",

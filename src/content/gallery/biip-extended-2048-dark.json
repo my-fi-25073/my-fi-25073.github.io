@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "biip-extended-2048-dark",
-  "title": "biip Extended 2048 Dark",
+  "title": "Drop MT3 biip Extended 2048 Dark",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Dark Nomad 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Dark Nomad 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-dark/kit-6b2c8d789111453a-source-gallery-0-fa879d31db30-640.avif",
@@ -48,10 +47,9 @@
       "kittingTypes": [
         "Accent - Icon"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "biip Extended 2048 Dark Novelties 이미지 1",
+          "alt": "Drop MT3 biip Extended 2048 Dark Novelties 이미지 1",
           "variants": [
             {
               "src": "/media/biip-extended-2048-dark/kit-ff077ccd1b50ceb9-source-gallery-0-9e66fe5899a0-640.avif",
@@ -70,7 +68,7 @@
   ],
   "images": [
     {
-      "alt": "biip Extended 2048 Dark 이미지 1",
+      "alt": "Drop MT3 biip Extended 2048 Dark 이미지 1",
       "variants": [
         {
           "src": "/media/biip-extended-2048-dark/series-b22fff1024cc3619-source-gallery-0-4902c8937db6-640.avif",
@@ -85,7 +83,7 @@
       ]
     },
     {
-      "alt": "biip Extended 2048 Dark 이미지 2",
+      "alt": "Drop MT3 biip Extended 2048 Dark 이미지 2",
       "variants": [
         {
           "src": "/media/biip-extended-2048-dark/series-b22fff1024cc3619-source-gallery-1-7fce2ca6b005-640.avif",

@@ -14,7 +14,7 @@
     "텐팅"
   ],
   "layouts": [
-    "유니바디 스플릿",
+    "모노 스플릿",
     "로우스태거",
     "65%",
     "앨리스"
@@ -33,25 +33,19 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "LotR Elvish",
+        "title": "Drop MT3 LotR Elvish",
         "quantity": null,
         "href": "/gallery/lotr-elvish/"
       }
     ],
     "switches": [
       {
-        "title": "Duck Duck 3.5",
-        "href": "/switches/duck-duck-3-5/"
+        "title": "HMX Duck Duck 3.5",
+        "href": "/switches/hmx-duck-duck-3-5/"
       },
       {
-        "title": "Duck Duck 3.9",
-        "href": "/switches/duck-duck-3-9/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
+        "title": "HMX Duck Duck 3.9",
+        "href": "/switches/hmx-duck-duck-3-9/"
       }
     ]
   },

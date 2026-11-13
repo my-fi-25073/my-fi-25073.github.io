@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-black-cloud",
+  "title": "Kailh Choc v2 Black Cloud",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "45g ± 10g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Black Cloud 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-1280.avif",
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Black Cloud 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-640.avif",
+              "width": 640,
+              "height": 437
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-1280.avif",
+              "width": 1280,
+              "height": 874
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-2400.avif",
+              "width": 1864,
+              "height": 1273
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Black Cloud 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Black Cloud 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-1280.avif",
+          "width": 1280,
+          "height": 874
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-2400.avif",
+          "width": 1864,
+          "height": 1273
+        }
+      ]
+    }
+  ]
+}

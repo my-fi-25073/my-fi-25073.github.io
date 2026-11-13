@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-heart-of-titan",
+  "title": "TTC Heart of Titan",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 52g",
+        "status": "partial",
+        "specifications": {
+          "initial_force": "37g minimum",
+          "actuation_force": "42g ± 10g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC Heart of Titan 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-640.avif",
+              "width": 628,
+              "height": 423
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC Heart of Titan 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-640.avif",
+          "width": 628,
+          "height": 423
+        }
+      ]
+    }
+  ]
+}

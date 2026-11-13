@@ -1,0 +1,114 @@
+---
+interface Props {
+  id: string;
+  label: string;
+  parameter: string;
+  views: Array<{ id: string; label: string }>;
+}
+
+const { id, label, parameter, views } = Astro.props;
+const initialView = views[0]?.id;
+if (!initialView || new Set(views.map((view) => view.id)).size !== views.length) {
+  throw new Error(`Invalid archive views for ${id}`);
+}
+---
+
+<div class="archive-view-tabs" role="tablist" aria-label={label} data-view-parameter={parameter}>
+  {views.map((view) => (
+    <button
+      id={`${id}-tab-${view.id}`}
+      type="button"
+      role="tab"
+      aria-selected={view.id === initialView}
+      aria-controls={`${id}-panel-${view.id}`}
+      tabindex={view.id === initialView ? 0 : -1}
+      data-view-id={view.id}
+    >
+      {view.label}
+    </button>
+  ))}
+</div>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-view-parameter]')) {
+    const parameter = root.dataset.viewParameter!;
+    const tabs = [...root.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+    const initial = tabs[0];
+    const entries = tabs.map((tab) => {
+      const panelId = tab.getAttribute('aria-controls');
+      const panel = panelId && document.getElementById(panelId);
+      if (!panel) throw new Error(`Missing archive view panel: ${panelId}`);
+      const template = panel.querySelector<HTMLTemplateElement>(':scope > template[data-archive-panel-content]');
+      return { tab, panel, template };
+    });
+    const apply = (active: HTMLButtonElement) => {
+      for (const entry of entries) {
+        const { tab, panel, template } = entry;
+        const selected = tab === active;
+        if (selected && template) {
+          template.replaceWith(template.content);
+          entry.template = null;
+        }
+        tab.setAttribute('aria-selected', String(selected));
+        tab.tabIndex = selected ? 0 : -1;
+        panel.hidden = !selected;
+      }
+    };
+    const fromLocation = () => {
+      const requested = new URLSearchParams(window.location.search).get(parameter);
+      apply(tabs.find((tab) => tab.dataset.viewId === requested) ?? initial);
+    };
+    for (const [index, tab] of tabs.entries()) {
+      tab.addEventListener('click', () => {
+        const url = new URL(window.location.href);
+        if (tab === initial) url.searchParams.delete(parameter);
+        else url.searchParams.set(parameter, tab.dataset.viewId!);
+        if (url.href !== window.location.href) window.history.pushState(null, '', url);
+        apply(tab);
+      });
+      tab.addEventListener('keydown', (event) => {
+        const targetIndex = {
+          ArrowLeft: (index + tabs.length - 1) % tabs.length,
+          ArrowRight: (index + 1) % tabs.length,
+          Home: 0,
+          End: tabs.length - 1,
+        }[event.key];
+        if (targetIndex === undefined) return;
+        event.preventDefault();
+        tabs[targetIndex].focus();
+      });
+    }
+    window.addEventListener('popstate', fromLocation);
+    fromLocation();
+  }
+</script>
+
+<style>
+  .archive-view-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 16px;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  button {
+    min-height: 44px;
+    padding: 0 2px;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: var(--color-muted);
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  button:hover,
+  button[aria-selected='true'] {
+    color: var(--color-text);
+  }
+
+  button[aria-selected='true'] {
+    border-bottom-color: currentColor;
+    font-weight: 650;
+  }
+</style>

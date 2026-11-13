@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "custom-qaz-lavender",
-  "title": "Custom QAZ Lavender",
+  "title": "Keyreative Cherry Custom QAZ Lavender",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "Cherry-Clone",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Custom"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Custom QAZ Lavender QAZ Base 이미지 1",
+          "alt": "Keyreative Cherry Custom QAZ Lavender QAZ Base 이미지 1",
           "variants": [
             {
               "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "Custom QAZ Lavender QAZ Base 이미지 2",
+          "alt": "Keyreative Cherry Custom QAZ Lavender QAZ Base 이미지 2",
           "variants": [
             {
               "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-640.avif",
@@ -70,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "Custom QAZ Lavender 이미지 1",
+      "alt": "Keyreative Cherry Custom QAZ Lavender 이미지 1",
       "variants": [
         {
           "src": "/media/custom-qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-640.avif",

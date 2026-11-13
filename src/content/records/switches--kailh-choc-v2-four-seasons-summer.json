@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-four-seasons-summer",
+  "title": "Kailh Choc v2 Four Seasons Summer",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50gf"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Four Seasons Summer 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
+              "width": 640,
+              "height": 513
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-1280.avif",
+              "width": 680,
+              "height": 545
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Four Seasons Summer 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-640.avif",
+              "width": 640,
+              "height": 730
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-1280.avif",
+              "width": 939,
+              "height": 1071
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Four Seasons Summer 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-1280.avif",
+          "width": 680,
+          "height": 545
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Four Seasons Summer 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-640.avif",
+          "width": 640,
+          "height": 730
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-1280.avif",
+          "width": 939,
+          "height": 1071
+        }
+      ]
+    }
+  ]
+}

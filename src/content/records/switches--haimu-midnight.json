@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "haimu-midnight",
+  "title": "Haimu Midnight",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 60g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "60g",
+          "length": "18mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Haimu Midnight 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-0-c35451478bae-640.avif",
+              "width": 640,
+              "height": 410
+            },
+            {
+              "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-0-c35451478bae-1280.avif",
+              "width": 1087,
+              "height": 696
+            }
+          ]
+        },
+        {
+          "alt": "Haimu Midnight 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-640.avif",
+              "width": 640,
+              "height": 724
+            },
+            {
+              "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-1280.avif",
+              "width": 1280,
+              "height": 1447
+            },
+            {
+              "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-2400.avif",
+              "width": 1315,
+              "height": 1487
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Haimu Midnight 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-0-c35451478bae-640.avif",
+          "width": 640,
+          "height": 410
+        },
+        {
+          "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-0-c35451478bae-1280.avif",
+          "width": 1087,
+          "height": 696
+        }
+      ]
+    },
+    {
+      "alt": "Haimu Midnight 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-640.avif",
+          "width": 640,
+          "height": 724
+        },
+        {
+          "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-1280.avif",
+          "width": 1280,
+          "height": 1447
+        },
+        {
+          "src": "/media/switches/haimu-midnight/ac9ca9dfa6bcde48-532091991a31-source-gallery-1-0c3a132f4d83-2400.avif",
+          "width": 1315,
+          "height": 1487
+        }
+      ]
+    }
+  ]
+}

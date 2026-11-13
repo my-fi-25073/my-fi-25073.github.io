@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-akashi-v2",
+  "title": "Bsun Akashi v2",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 45g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "37g",
+          "bottom_out_force": "45g",
+          "length": "22mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Akashi v2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-0-758b5a157689-640.avif",
+              "width": 640,
+              "height": 418
+            },
+            {
+              "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-0-758b5a157689-1280.avif",
+              "width": 1204,
+              "height": 787
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Akashi v2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-1280.avif",
+              "width": 1280,
+              "height": 833
+            },
+            {
+              "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-2400.avif",
+              "width": 1292,
+              "height": 841
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Akashi v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-0-758b5a157689-640.avif",
+          "width": 640,
+          "height": 418
+        },
+        {
+          "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-0-758b5a157689-1280.avif",
+          "width": 1204,
+          "height": 787
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Akashi v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-1280.avif",
+          "width": 1280,
+          "height": 833
+        },
+        {
+          "src": "/media/switches/bsun-akashi-v2/906eed555ed35c1c-bf8d0c81309c-source-gallery-1-0076eb9ebb25-2400.avif",
+          "width": 1292,
+          "height": 841
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-elf-ultra-silent",
+  "title": "Kailh Elf Ultra-Silent",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Elf Ultra-Silent 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-0-b80897bf7a99-640.avif",
+              "width": 640,
+              "height": 429
+            },
+            {
+              "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-0-b80897bf7a99-1280.avif",
+              "width": 991,
+              "height": 664
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Elf Ultra-Silent 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-1-dce810f40ce9-640.avif",
+              "width": 477,
+              "height": 300
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Elf Ultra-Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-0-b80897bf7a99-640.avif",
+          "width": 640,
+          "height": 429
+        },
+        {
+          "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-0-b80897bf7a99-1280.avif",
+          "width": 991,
+          "height": 664
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Elf Ultra-Silent 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-elf-ultra-silent/e83cd770504bb178-5b6c8a9d37f5-source-gallery-1-dce810f40ce9-640.avif",
+          "width": 477,
+          "height": 300
+        }
+      ]
+    }
+  ]
+}

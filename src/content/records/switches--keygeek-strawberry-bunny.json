@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-strawberry-bunny",
+  "title": "Keygeek Strawberry Bunny",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 35g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Strawberry Bunny 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-0-318d04d3e720-640.avif",
+              "width": 640,
+              "height": 484
+            },
+            {
+              "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-0-318d04d3e720-1280.avif",
+              "width": 724,
+              "height": 547
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Strawberry Bunny 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-640.avif",
+              "width": 640,
+              "height": 575
+            },
+            {
+              "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-1280.avif",
+              "width": 1280,
+              "height": 1151
+            },
+            {
+              "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-2400.avif",
+              "width": 1365,
+              "height": 1227
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Strawberry Bunny 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-0-318d04d3e720-640.avif",
+          "width": 640,
+          "height": 484
+        },
+        {
+          "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-0-318d04d3e720-1280.avif",
+          "width": 724,
+          "height": 547
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Strawberry Bunny 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-640.avif",
+          "width": 640,
+          "height": 575
+        },
+        {
+          "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-1280.avif",
+          "width": 1280,
+          "height": 1151
+        },
+        {
+          "src": "/media/switches/keygeek-strawberry-bunny/b08af455e342f5aa-bbf80458a155-source-gallery-1-6ed89f902781-2400.avif",
+          "width": 1365,
+          "height": 1227
+        }
+      ]
+    }
+  ]
+}

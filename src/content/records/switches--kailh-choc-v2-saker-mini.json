@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-saker-mini",
+  "title": "Kailh Choc v2 Saker Mini",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 47g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "37g ± 10g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Saker Mini 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-0-45df63001953-640.avif",
+              "width": 640,
+              "height": 492
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-0-45df63001953-1280.avif",
+              "width": 1280,
+              "height": 984
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Saker Mini 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-640.avif",
+              "width": 640,
+              "height": 673
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-1280.avif",
+              "width": 1280,
+              "height": 1346
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-2400.avif",
+              "width": 1540,
+              "height": 1620
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Saker Mini 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-0-45df63001953-640.avif",
+          "width": 640,
+          "height": 492
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-0-45df63001953-1280.avif",
+          "width": 1280,
+          "height": 984
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Saker Mini 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-640.avif",
+          "width": 640,
+          "height": 673
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-1280.avif",
+          "width": 1280,
+          "height": 1346
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-saker-mini/e69f396ce0fd1596-6d1b60c11dfa-source-gallery-1-0ad0054ee215-2400.avif",
+          "width": 1540,
+          "height": 1620
+        }
+      ]
+    }
+  ]
+}

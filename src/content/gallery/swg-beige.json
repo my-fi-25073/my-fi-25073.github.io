@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "swg-beige",
-  "title": "SWG Beige",
+  "title": "SWG Cherry Beige",
   "category": "keycaps",
   "manufacturer": "SWG",
   "profile": "Cherry-Clone",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Simple"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "SWG Beige Base 이미지 1",
+          "alt": "SWG Cherry Beige Base 이미지 1",
           "variants": [
             {
               "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-0-0c3918c27870-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "SWG Beige Base 이미지 2",
+          "alt": "SWG Cherry Beige Base 이미지 2",
           "variants": [
             {
               "src": "/media/swg-beige/kit-7e3c1e9af0b4a0fc-source-gallery-1-8efe40e419c2-640.avif",
@@ -73,10 +72,9 @@
       "kittingTypes": [
         "Alpha - France"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "SWG Beige Tulip 이미지 1",
+          "alt": "SWG Cherry Beige Tulip 이미지 1",
           "variants": [
             {
               "src": "/media/swg-beige/kit-75d6bafc7b6bc85b-source-gallery-0-8927ca22072e-640.avif",
@@ -100,7 +98,7 @@
   ],
   "images": [
     {
-      "alt": "SWG Beige 이미지 1",
+      "alt": "SWG Cherry Beige 이미지 1",
       "variants": [
         {
           "src": "/media/swg-beige/series-a291b7b6c584bbd7-source-gallery-0-4413f38348f5-640.avif",

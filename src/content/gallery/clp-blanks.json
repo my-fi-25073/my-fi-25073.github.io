@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "clp-blanks",
-  "title": "CLP Blanks",
+  "title": "JLC Blanks",
   "category": "keycaps",
   "manufacturer": "JLC",
   "profile": "CLP",
@@ -22,10 +22,9 @@
       "kittingTypes": [
         "Base - Custom"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "CLP Blanks CLP Custom Black Blanks 이미지 1",
+          "alt": "JLC Blanks CLP Custom Black Blanks 이미지 1",
           "variants": [
             {
               "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-640.avif",
@@ -45,7 +44,7 @@
           ]
         },
         {
-          "alt": "CLP Blanks CLP Custom Black Blanks 이미지 1",
+          "alt": "JLC Blanks CLP Custom Black Blanks 이미지 1",
           "variants": [
             {
               "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-640.avif",
@@ -72,10 +71,9 @@
       "kittingTypes": [
         "Base - Custom"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "CLP Blanks CLP Custom Transparent Blanks 이미지 1",
+          "alt": "JLC Blanks CLP Custom Transparent Blanks 이미지 1",
           "variants": [
             {
               "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-640.avif",
@@ -95,7 +93,7 @@
           ]
         },
         {
-          "alt": "CLP Blanks CLP Custom Transparent Blanks 이미지 1",
+          "alt": "JLC Blanks CLP Custom Transparent Blanks 이미지 1",
           "variants": [
             {
               "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-640.avif",
@@ -119,7 +117,7 @@
   ],
   "images": [
     {
-      "alt": "CLP Blanks 이미지 1",
+      "alt": "JLC Blanks 이미지 1",
       "variants": [
         {
           "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-640.avif",

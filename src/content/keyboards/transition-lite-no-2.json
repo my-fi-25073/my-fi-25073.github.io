@@ -31,45 +31,39 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "OG Extension",
+        "title": "GMK CYL OG Extension",
         "quantity": null,
         "href": "/gallery/og-extension/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "Relegendables+",
+        "title": "GMK CYL Relegendables+",
         "quantity": null,
         "href": "/gallery/relegendables/"
       },
       {
         "kind": "series",
-        "title": "Classic Arabic",
+        "title": "GMK CYL Classic Arabic",
         "quantity": null,
         "href": "/gallery/classic-arabic/"
       }
     ],
     "switches": [
       {
-        "title": "MZ y3",
-        "href": "/switches/mz-y3/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
+        "title": "Keygeek MZ y3",
+        "href": "/switches/keygeek-mz-y3/"
       }
     ]
   },

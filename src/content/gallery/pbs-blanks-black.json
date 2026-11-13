@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pbs-blanks-black",
-  "title": "PBS Blanks Black",
+  "title": "Keyreative Blanks Black",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PBS",
@@ -24,10 +24,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "PBS Blanks Black Base 이미지 1",
+          "alt": "Keyreative Blanks Black Base 이미지 1",
           "variants": [
             {
               "src": "/media/pbs-blanks-black/kit-cc82df72e463a133-source-gallery-0-6de883b42ede-640.avif",
@@ -51,7 +50,7 @@
   ],
   "images": [
     {
-      "alt": "PBS Blanks Black 이미지 1",
+      "alt": "Keyreative Blanks Black 이미지 1",
       "variants": [
         {
           "src": "/media/pbs-blanks-black/series-709af5ed12041f0a-source-gallery-0-6a40333fec82-640.avif",

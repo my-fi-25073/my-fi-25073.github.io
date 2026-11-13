@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v1-ambients-silent-twilight",
+  "title": "Kailh Choc v1 Ambients Silent Twilight",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 5,
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "35g ± 10g",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v1 Ambients Silent Twilight 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-0-b45ae0e61fa9-640.avif",
+              "width": 640,
+              "height": 513
+            },
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-0-b45ae0e61fa9-1280.avif",
+              "width": 668,
+              "height": 535
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v1 Ambients Silent Twilight 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-1-838dee30bb9d-640.avif",
+              "width": 640,
+              "height": 635
+            },
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-1-838dee30bb9d-1280.avif",
+              "width": 815,
+              "height": 809
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v1 Ambients Silent Twilight 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-0-b45ae0e61fa9-640.avif",
+          "width": 640,
+          "height": 513
+        },
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-0-b45ae0e61fa9-1280.avif",
+          "width": 668,
+          "height": 535
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v1 Ambients Silent Twilight 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-1-838dee30bb9d-640.avif",
+          "width": 640,
+          "height": 635
+        },
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-twilight/4587feea44292774-c9552c017aba-source-gallery-1-838dee30bb9d-1280.avif",
+          "width": 815,
+          "height": 809
+        }
+      ]
+    }
+  ]
+}

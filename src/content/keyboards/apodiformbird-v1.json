@@ -14,7 +14,7 @@
     "썸클러스터"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "2x3"
   ],
@@ -32,7 +32,7 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "CLP Custom Black Blanks",
+        "title": "JLC Blanks · CLP Custom Black Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
       }
@@ -41,12 +41,6 @@
       {
         "title": "MX1A Black",
         "href": "/switches/mx1a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
       }
     ]
   },

@@ -1,0 +1,137 @@
+---
+import { getCollection } from 'astro:content';
+import ArchiveSearch from './ArchiveSearch.astro';
+import KeyboardCard from './KeyboardCard.astro';
+import collectionData from '../data/collections.json';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import {
+  recordsForCollectionView,
+  requiredCollectionView,
+  type CollectionManifest,
+} from '../lib/collection-views';
+import { recapYears } from '../lib/recap-years';
+
+interface Props {
+  year?: string;
+}
+
+const { year: requestedYear } = Astro.props;
+const year = requestedYear ?? recapYears[0];
+if (!year) throw new Error('The public collection manifest has no Recap year.');
+const isIndex = requestedYear === undefined;
+const pageCopy = collectionData.copy;
+const recapTitle = pageCopy['recap.title'] ?? 'Recap';
+const description = isIndex ? pageCopy['recap.description'] ?? undefined : undefined;
+const manifest = collectionData as CollectionManifest;
+const viewIds = [`recap-${year}-gallery`, `recap-${year}-chart`, `recap-${year}-timeline`];
+const queryIds = new Set(viewIds.map((viewId) => requiredCollectionView(manifest, viewId).view.queryId));
+if (queryIds.size !== 1) throw new Error(`Recap ${year} Views do not share one query.`);
+
+const entries = await getCollection('keyboards');
+const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
+const records = recordsForCollectionView(
+  entries.map((entry) => entry.data),
+  manifest,
+  `recap-${year}-gallery`,
+);
+const months = Array.from({ length: 12 }, (_, index) => {
+  const month = String(index + 1).padStart(2, '0');
+  return {
+    month,
+    label: `${index + 1}월`,
+    records: records.filter((record) => record.lastBuiltAt?.slice(5, 7) === month),
+  };
+});
+const activeMonths = months.filter((month) => month.records.length > 0);
+const maxMonthCount = Math.max(...months.map((month) => month.records.length), 1);
+const chronology = records.toSorted((left, right) => (
+  String(right.lastBuiltAt).localeCompare(String(left.lastBuiltAt), 'ko')
+));
+const formatDate = (value: string | null) => value
+  ? new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'UTC' })
+    .format(new Date(`${value}T00:00:00Z`))
+  : '';
+---
+
+<SiteLayout title={isIndex ? recapTitle : `${year} Recap`} description={description}>
+  <section class="archive-intro recap-intro shell" aria-labelledby="recap-year-title">
+    <h1 id="recap-year-title">{isIndex ? recapTitle : year}</h1>
+    <nav aria-label="연도 선택">
+      <ul class="recap-year-links">
+        {recapYears.map((availableYear) => (
+          <li>
+            <a
+              href={`/recap/${availableYear}/`}
+              aria-current={availableYear === year ? 'true' : undefined}
+            >{availableYear}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </section>
+
+  <section class="recap-chart shell" aria-labelledby="monthly-count-title">
+    <div class="section-heading">
+      <h2 id="monthly-count-title">월별 빌드</h2>
+    </div>
+    <div class="recap-bars" aria-hidden="true">
+      {months.map((month) => (
+        <div>
+          <strong>{month.records.length}</strong>
+          <span style={`--bar-height:${(month.records.length / maxMonthCount) * 100}%`} />
+          <small>{month.month}</small>
+        </div>
+      ))}
+    </div>
+    <table class="visually-hidden">
+      <caption class="visually-hidden">{year}년 월별 빌드 건수</caption>
+      <thead><tr><th scope="col">월</th><th scope="col">빌드</th></tr></thead>
+      <tbody>
+        {months.map((month) => (
+          <tr><th scope="row">{month.label}</th><td>{month.records.length}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+
+  <div class="archive-tools shell"><ArchiveSearch /></div>
+
+  <div class="recap-months">
+    {activeMonths.map((month) => (
+      <section class="archive-section shell" aria-labelledby={`month-${month.month}`} data-archive-group>
+        <div class="section-heading">
+          <h2 id={`month-${month.month}`}>{month.label}</h2>
+        </div>
+        <div class="gallery-grid archive-section-grid">
+          {month.records.map((keyboard) => {
+            const entry = entryBySlug.get(keyboard.slug);
+            if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+            return <KeyboardCard keyboard={entry.data} headingLevel={3} />;
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+
+  <section class="recap-timeline shell" aria-labelledby="recap-timeline-title">
+    <div class="section-heading">
+      <h2 id="recap-timeline-title">빌드 기록</h2>
+    </div>
+    <ol>
+      {chronology.map((keyboard) => (
+        <li>
+          <time datetime={keyboard.lastBuiltAt ?? undefined}>{formatDate(keyboard.lastBuiltAt)}</time>
+          <a class="recap-timeline-keyboard" href={`/keyboards/${keyboard.slug}/`}>{keyboard.title}</a>
+        </li>
+      ))}
+    </ol>
+  </section>
+</SiteLayout>
+
+<style>
+  .recap-year-links a[aria-current="true"] {
+    border-color: var(--color-text);
+    background: var(--color-text);
+    color: var(--color-bg);
+  }
+</style>

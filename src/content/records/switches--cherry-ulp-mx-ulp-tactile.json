@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "cherry-ulp-mx-ulp-tactile",
+  "title": "Cherry ULP MX ULP Tactile",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry ULP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Krytox GPL 205 Grade 0",
+      "rating": 5,
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 65g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "52g",
+          "tactile_force": "65g",
+          "bottom_out_force": "200g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "Cherry ULP MX ULP Tactile 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-0-2337f61789f9-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-0-2337f61789f9-1280.avif",
+              "width": 1280,
+              "height": 1280
+            }
+          ]
+        },
+        {
+          "alt": "Cherry ULP MX ULP Tactile 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-1-8961ac59e61f-640.avif",
+              "width": 640,
+              "height": 448
+            },
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-1-8961ac59e61f-1280.avif",
+              "width": 1280,
+              "height": 896
+            }
+          ]
+        },
+        {
+          "alt": "Cherry ULP MX ULP Tactile 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-2-9e44458b74e2-640.avif",
+              "width": 620,
+              "height": 455
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Cherry ULP MX ULP Tactile 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-0-2337f61789f9-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-0-2337f61789f9-1280.avif",
+          "width": 1280,
+          "height": 1280
+        }
+      ]
+    },
+    {
+      "alt": "Cherry ULP MX ULP Tactile 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-1-8961ac59e61f-640.avif",
+          "width": 640,
+          "height": 448
+        },
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-1-8961ac59e61f-1280.avif",
+          "width": 1280,
+          "height": 896
+        }
+      ]
+    },
+    {
+      "alt": "Cherry ULP MX ULP Tactile 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/cherry-ulp-mx-ulp-tactile/9597f99e24a9f0ba-c50d70c6c1b5-source-gallery-2-9e44458b74e2-640.avif",
+          "width": 620,
+          "height": 455
+        }
+      ]
+    }
+  ]
+}

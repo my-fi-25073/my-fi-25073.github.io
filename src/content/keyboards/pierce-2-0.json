@@ -32,21 +32,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "PBS Blanks Black",
+        "title": "Keyreative Blanks Black",
         "quantity": null,
         "href": "/gallery/pbs-blanks-black/"
       }
     ],
     "switches": [
       {
-        "title": "Drop + Invyr Holy Panda",
-        "href": "/switches/drop-invyr-holy-panda/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "Kailh Drop + Invyr Holy Panda",
+        "href": "/switches/kailh-drop-invyr-holy-panda/"
       }
     ]
   },

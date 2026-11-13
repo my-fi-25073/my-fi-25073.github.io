@@ -31,7 +31,7 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Verdant Retro",
+        "title": "GMK CYL Verdant Retro",
         "quantity": null,
         "href": "/gallery/verdant-retro/"
       }
@@ -40,12 +40,6 @@
       {
         "title": "MX2A Black",
         "href": "/switches/mx2a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Geonworks",
-        "href": "/vendors/geonworks/"
       }
     ]
   },

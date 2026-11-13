@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "용신음",
   "title": "용신음",
   "category": "switches",
-  "familyKind": "franken",
-  "recipeStatus": "complete",
-  "variants": [
+  "manufacturer": null,
+  "footprintType": null,
+  "switchTypes": [],
+  "isFranken": true,
+  "tunings": [
     {
-      "label": "기본 조합",
-      "reference": true,
+      "label": "용신음",
       "rating": null,
-      "manufacturer": null,
-      "footprintType": null,
-      "switchTypes": [],
       "spring": {
         "resolution": "unknown",
         "name": null,
@@ -23,21 +21,32 @@
         "state": "unknown",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "unknown",
+          "name": null
+        },
+        "stem": {
+          "state": "unknown",
+          "name": null
+        }
+      },
+      "images": []
     }
   ],
   "parts": [
     {
       "role": "bottom_housing",
-      "donor": "DragonGhost"
+      "donor": "SWK DragonGhost"
     },
     {
       "role": "stem",
-      "donor": "Xinhai"
+      "donor": "HMX Xinhai"
     },
     {
       "role": "top_housing",
-      "donor": "Jieum V2"
+      "donor": "SWK Jieum V2"
     }
   ],
   "images": []

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "classic-beige-spc",
-  "title": "Classic Beige (SPC)",
+  "title": "GMK CYL Classic Beige (SPC)",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Classic Beige (SPC) Base 이미지 1",
+          "alt": "GMK CYL Classic Beige (SPC) Base 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-0-155b772fa6c0-640.avif",
@@ -48,7 +47,7 @@
           ]
         },
         {
-          "alt": "Classic Beige (SPC) Base 이미지 2",
+          "alt": "GMK CYL Classic Beige (SPC) Base 이미지 2",
           "variants": [
             {
               "src": "/media/classic-beige-spc/kit-fe210b841ecd2b26-source-gallery-1-18fa6914c64e-640.avif",
@@ -75,10 +74,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Classic Beige (SPC) Base 이미지 1",
+          "alt": "GMK CYL Classic Beige (SPC) Base 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-0-155b772fa6c0-640.avif",
@@ -98,7 +96,7 @@
           ]
         },
         {
-          "alt": "Classic Beige (SPC) Base 이미지 2",
+          "alt": "GMK CYL Classic Beige (SPC) Base 이미지 2",
           "variants": [
             {
               "src": "/media/classic-beige-spc/kit-8bf7dc0a7e9a7368-source-gallery-1-18fa6914c64e-640.avif",
@@ -125,10 +123,9 @@
       "kittingTypes": [
         "Alpha - Hangul"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Classic Beige (SPC) Hangul 이미지 1",
+          "alt": "GMK CYL Classic Beige (SPC) Hangul 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-spc/kit-eee5b7bc45838009-source-gallery-0-f85ba993f382-640.avif",
@@ -152,7 +149,7 @@
   ],
   "images": [
     {
-      "alt": "Classic Beige (SPC) 이미지 1",
+      "alt": "GMK CYL Classic Beige (SPC) 이미지 1",
       "variants": [
         {
           "src": "/media/classic-beige-spc/series-bee852b0da4feb1f-source-gallery-0-691ed35d219b-640.avif",

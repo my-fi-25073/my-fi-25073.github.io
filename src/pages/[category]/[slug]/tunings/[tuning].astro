@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import DisplayFields from '../../../../components/DisplayFields.astro';
+import ImageGallery from '../../../../components/ImageGallery.astro';
+import Lightbox from '../../../../components/Lightbox.astro';
+import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import {
+  buildSwitchTuningFields,
+  publicSwitchTunings,
+  type SwitchTuning,
+} from '../../../../lib/switch-tuning-display';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('records');
+  return entries.flatMap(({ data: record }) => publicSwitchTunings(record).map(({ key, label, tuning }) => ({
+    params: { category: 'switches', slug: record.slug, tuning: key },
+    props: { productTitle: record.title, productSlug: record.slug, label, tuning },
+  })));
+}
+
+interface Props {
+  productTitle: string;
+  productSlug: string;
+  label: string;
+  tuning: SwitchTuning;
+}
+
+const { productTitle, productSlug, label, tuning } = Astro.props;
+const title = productTitle === label ? label : `${productTitle} · ${label}`;
+const fields = buildSwitchTuningFields(tuning);
+---
+
+<SiteLayout title={title}>
+  <article class="detail shell">
+    <header class="detail-header">
+      <a class="switch-product-link" href={`/switches/${productSlug}/`}>
+        <span aria-hidden="true">←</span> {productTitle}
+      </a>
+      <h1>{label}</h1>
+    </header>
+
+    <ImageGallery images={tuning.images} label={title} />
+
+    {fields.length > 0 && (
+      <section class="series-properties" aria-label="세팅 사양">
+        <DisplayFields fields={fields} variant="detail" />
+      </section>
+    )}
+  </article>
+  <Lightbox />
+</SiteLayout>
+
+<style>
+  .switch-product-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 44px;
+    color: var(--color-muted);
+    font-size: 14px;
+  }
+
+  .switch-product-link:hover {
+    text-decoration: underline;
+    text-underline-offset: .18em;
+  }
+</style>

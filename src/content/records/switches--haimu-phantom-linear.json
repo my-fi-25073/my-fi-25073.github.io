@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "haimu-phantom-linear",
+  "title": "Haimu Phantom Linear",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 37g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "37g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Haimu Phantom Linear 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-0-0b20630958f4-640.avif",
+              "width": 524,
+              "height": 319
+            }
+          ]
+        },
+        {
+          "alt": "Haimu Phantom Linear 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-1-2d1f4203ce9c-640.avif",
+              "width": 640,
+              "height": 457
+            },
+            {
+              "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-1-2d1f4203ce9c-1280.avif",
+              "width": 746,
+              "height": 533
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Haimu Phantom Linear 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-0-0b20630958f4-640.avif",
+          "width": 524,
+          "height": 319
+        }
+      ]
+    },
+    {
+      "alt": "Haimu Phantom Linear 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-1-2d1f4203ce9c-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/switches/haimu-phantom-linear/965d02748794fac3-010738cb039d-source-gallery-1-2d1f4203ce9c-1280.avif",
+          "width": 746,
+          "height": 533
+        }
+      ]
+    }
+  ]
+}

@@ -18,7 +18,7 @@
     "썸클러스터"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "3x6"
   ],
@@ -37,21 +37,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "800",
+        "title": "GMK MTNU 800",
         "quantity": null,
         "href": "/gallery/800/"
       }
     ],
     "switches": [
       {
-        "title": "Cheese",
-        "href": "/switches/cheese/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "FingerPunch",
-        "href": "/vendors/fingerpunch/"
+        "title": "HMX Cheese",
+        "href": "/switches/hmx-cheese/"
       }
     ]
   },

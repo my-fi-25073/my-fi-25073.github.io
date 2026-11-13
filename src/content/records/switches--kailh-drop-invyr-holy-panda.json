@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-drop-invyr-holy-panda",
+  "title": "Kailh Drop + Invyr Holy Panda",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Krytox GPL 105 · Krytox GPL 205 Grade 0",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory Spring 67g",
+        "status": null
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Drop + Invyr Holy Panda 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-0-19181ede7357-640.avif",
+              "width": 640,
+              "height": 389
+            },
+            {
+              "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-0-19181ede7357-1280.avif",
+              "width": 820,
+              "height": 499
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Drop + Invyr Holy Panda 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-1-31d9e6c55f70-640.avif",
+              "width": 535,
+              "height": 416
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Drop + Invyr Holy Panda 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-0-19181ede7357-640.avif",
+          "width": 640,
+          "height": 389
+        },
+        {
+          "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-0-19181ede7357-1280.avif",
+          "width": 820,
+          "height": 499
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Drop + Invyr Holy Panda 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-drop-invyr-holy-panda/459d52e43e460b6c-a3da5bb1cf35-source-gallery-1-31d9e6c55f70-640.avif",
+          "width": 535,
+          "height": 416
+        }
+      ]
+    }
+  ]
+}

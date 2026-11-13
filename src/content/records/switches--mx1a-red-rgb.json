@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx1a-red-rgb",
   "title": "MX1A Red RGB",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "무윤활",
       "rating": 0,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 60g",
@@ -25,7 +23,44 @@
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Red RGB 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-640.avif",
+              "width": 640,
+              "height": 408
+            },
+            {
+              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-1280.avif",
+              "width": 1242,
+              "height": 792
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Red RGB 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-640.avif",
+              "width": 432,
+              "height": 306
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +69,12 @@
       "alt": "MX1A Red RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-0-dbfa3d70451e-640.avif",
+          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-640.avif",
           "width": 640,
           "height": 408
         },
         {
-          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-0-dbfa3d70451e-1280.avif",
+          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-1280.avif",
           "width": 1242,
           "height": 792
         }
@@ -49,7 +84,7 @@
       "alt": "MX1A Red RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/2d57b6dd176e08a0-source-gallery-1-54dc30e8ba63-640.avif",
+          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-640.avif",
           "width": 432,
           "height": 306
         }

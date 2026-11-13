@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-u3",
+  "title": "Keygeek U3",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 48g",
+        "status": null,
+        "specifications": {
+          "initial_force": "42g",
+          "bottom_out_force": "48g",
+          "length": "18mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek U3 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-640.avif",
+              "width": 640,
+              "height": 461
+            },
+            {
+              "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-1280.avif",
+              "width": 739,
+              "height": 532
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek U3 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-640.avif",
+              "width": 640,
+              "height": 656
+            },
+            {
+              "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-1280.avif",
+              "width": 1280,
+              "height": 1312
+            },
+            {
+              "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-2400.avif",
+              "width": 1464,
+              "height": 1501
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek U3 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-640.avif",
+          "width": 640,
+          "height": 461
+        },
+        {
+          "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-1280.avif",
+          "width": 739,
+          "height": 532
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek U3 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-640.avif",
+          "width": 640,
+          "height": 656
+        },
+        {
+          "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-1280.avif",
+          "width": 1280,
+          "height": 1312
+        },
+        {
+          "src": "/media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-2400.avif",
+          "width": 1464,
+          "height": 1501
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "susu",
-  "title": "Susu",
+  "title": "GMK MTNU Susu",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "MTNU",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Susu Base 이미지 1",
+          "alt": "GMK MTNU Susu Base 이미지 1",
           "variants": [
             {
               "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-0-8f0a89068f84-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "Susu Base 이미지 2",
+          "alt": "GMK MTNU Susu Base 이미지 2",
           "variants": [
             {
               "src": "/media/susu/kit-192eb3ff8a66cd87-source-gallery-1-890e8b2d835b-640.avif",
@@ -70,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "Susu 이미지 1",
+      "alt": "GMK MTNU Susu 이미지 1",
       "variants": [
         {
           "src": "/media/susu/series-b4e6cdd819b51bda-source-gallery-0-c21a6bfa7170-640.avif",

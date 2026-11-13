@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-b1",
+  "title": "Keygeek B1",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 55g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "45g ± 5g",
+          "bottom_out_force": "55g ± 5g",
+          "length": "21mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek B1 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-0-06190b0bf932-640.avif",
+              "width": 640,
+              "height": 412
+            },
+            {
+              "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-0-06190b0bf932-1280.avif",
+              "width": 1004,
+              "height": 646
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek B1 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-1-b5ea92221415-640.avif",
+              "width": 640,
+              "height": 763
+            },
+            {
+              "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-1-b5ea92221415-1280.avif",
+              "width": 722,
+              "height": 861
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek B1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-0-06190b0bf932-640.avif",
+          "width": 640,
+          "height": 412
+        },
+        {
+          "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-0-06190b0bf932-1280.avif",
+          "width": 1004,
+          "height": 646
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek B1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-1-b5ea92221415-640.avif",
+          "width": 640,
+          "height": 763
+        },
+        {
+          "src": "/media/switches/keygeek-b1/0deb3ba7fd456632-1163043c54d5-source-gallery-1-b5ea92221415-1280.avif",
+          "width": 722,
+          "height": 861
+        }
+      ]
+    }
+  ]
+}

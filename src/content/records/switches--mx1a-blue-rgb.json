@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx1a-blue-rgb",
   "title": "MX1A Blue RGB",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "무윤활",
       "rating": 0,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Click"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",
@@ -25,7 +23,44 @@
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Blue RGB 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-0-672dcfe071e5-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-0-672dcfe071e5-1280.avif",
+              "width": 1261,
+              "height": 840
+            }
+          ]
+        },
+        {
+          "alt": "MX1A Blue RGB 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-1-18faae8f4a05-640.avif",
+              "width": 477,
+              "height": 310
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +69,12 @@
       "alt": "MX1A Blue RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-0-672dcfe071e5-640.avif",
+          "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-0-672dcfe071e5-640.avif",
           "width": 640,
           "height": 426
         },
         {
-          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-0-672dcfe071e5-1280.avif",
+          "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-0-672dcfe071e5-1280.avif",
           "width": 1261,
           "height": 840
         }
@@ -49,7 +84,7 @@
       "alt": "MX1A Blue RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx1a-blue-rgb/5309cae45260499f-source-gallery-1-18faae8f4a05-640.avif",
+          "src": "/media/switches/mx1a-blue-rgb/9c375ec745bcc151-480eeee98958-source-gallery-1-18faae8f4a05-640.avif",
           "width": 477,
           "height": 310
         }

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-neptune",
+  "title": "TTC Neptune",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "21.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC Neptune 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-1280.avif",
+              "width": 1080,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "alt": "TTC Neptune 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-640.avif",
+              "width": 557,
+              "height": 439
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC Neptune 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-1280.avif",
+          "width": 1080,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "TTC Neptune 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-640.avif",
+          "width": 557,
+          "height": 439
+        }
+      ]
+    }
+  ]
+}

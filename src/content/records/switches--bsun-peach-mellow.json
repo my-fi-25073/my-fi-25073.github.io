@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-peach-mellow",
+  "title": "Bsun Peach Mellow",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Peach Mellow 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-0-8f1f912e26b2-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-0-8f1f912e26b2-1280.avif",
+              "width": 745,
+              "height": 518
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Peach Mellow 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-1-e3bf62687aee-640.avif",
+              "width": 640,
+              "height": 783
+            },
+            {
+              "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-1-e3bf62687aee-1280.avif",
+              "width": 1242,
+              "height": 1520
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Peach Mellow 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-0-8f1f912e26b2-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-0-8f1f912e26b2-1280.avif",
+          "width": 745,
+          "height": 518
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Peach Mellow 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-1-e3bf62687aee-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/bsun-peach-mellow/b623d8c4729c745a-ffac146074fd-source-gallery-1-e3bf62687aee-1280.avif",
+          "width": 1242,
+          "height": 1520
+        }
+      ]
+    }
+  ]
+}

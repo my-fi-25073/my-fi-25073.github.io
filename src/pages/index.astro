@@ -1,101 +1,144 @@
 ---
-import { getCollection } from 'astro:content';
-import KeyboardCard from '../components/KeyboardCard.astro';
-import TaxonomyNav from '../components/TaxonomyNav.astro';
 import collectionData from '../data/collections.json';
 import SiteLayout from '../layouts/SiteLayout.astro';
-import {
-  recordsForCollectionView,
-  requiredCollectionView,
-  type CollectionManifest,
-} from '../lib/collection-views';
+import smallHero from '../assets/keylog-hero-800.avif';
+import mediumHero from '../assets/keylog-hero-1600.avif';
+import largeHero from '../assets/keylog-hero-2400.avif';
 
-const manifest = collectionData as CollectionManifest;
-const [keyboardEntries, keycapEntries, domainEntries] = await Promise.all([
-  getCollection('keyboards'),
-  getCollection('gallery'),
-  getCollection('records'),
-]);
-const keyboards = keyboardEntries.map((entry) => entry.data);
-const entryBySlug = new Map(keyboardEntries.map((entry) => [entry.data.slug, entry]));
-const homeView = requiredCollectionView(manifest, 'home-latest').view;
-const recentLimit = typeof homeView.projection.limit === 'number' ? homeView.projection.limit : 6;
-const recent = recordsForCollectionView(keyboards, manifest, 'home-latest').slice(0, recentLimit);
-const completed = recordsForCollectionView(keyboards, manifest, 'keyboard-all');
-const keycaps = recordsForCollectionView(
-  keycapEntries.map((entry) => entry.data),
-  manifest,
-  'keycap-collections',
-);
-const switchFamilies = domainEntries
-  .map((entry) => entry.data)
-  .filter((record) => record.kind === 'switch-family');
-const switches = recordsForCollectionView(switchFamilies, manifest, 'switch-manufacturers');
-const recapYears = [2025, 2024].map((year) => ({
-  year,
-  count: recordsForCollectionView(keyboards, manifest, `recap-${year}-gallery`).length,
-}));
-const portals = [
-  { label: 'Keyboard', href: '/keyboards/', count: completed.length, note: '완성한 빌드' },
-  { label: 'Keycap', href: '/keycaps/', count: keycaps.length, note: '키캡 시리즈' },
-  { label: 'Switch', href: '/switches/', count: switches.length, note: '스위치 패밀리' },
-  { label: 'Recap', href: '/recap/', count: recapYears.length, note: '연도별 기록' },
-];
+const archiveIds = ['keyboards', 'keycaps', 'switches', 'recap'];
+const archives = archiveIds.map((id) => {
+  const item = collectionData.navigation.find((entry) => entry.id === id);
+  if (!item) throw new Error(`Missing Home navigation for ${id}`);
+  return item;
+});
+const sources = [smallHero, mediumHero, largeHero]
+  .map(({ src, width }) => `${src} ${width}w`).join(', ');
 ---
 
-<SiteLayout>
-  <section class="archive-intro home-intro shell" aria-labelledby="home-title">
-    <p class="eyebrow">My-Fi Keyboard</p>
-    <h1 id="home-title">키보드 기록</h1>
-    <p class="archive-description">
-      완성한 키보드와 보유한 키캡·스위치, 연도별 빌드 기록을 모았습니다.
-    </p>
-  </section>
-
-  <div class="shell archive-controls">
-    <TaxonomyNav current="home" />
-    <p class="archive-count">2024—</p>
-  </div>
-
-  <section class="collection-portals shell" aria-label="주요 컬렉션">
-    {portals.map((portal, index) => (
-      <a href={portal.href} class="collection-portal">
-        <span>{String(index + 1).padStart(2, '0')}</span>
-        <div>
-          <h2>{portal.label}</h2>
-          <p>{portal.note}</p>
-        </div>
-        <strong>{portal.count}</strong>
-      </a>
-    ))}
-  </section>
-
-  <section class="home-section shell" aria-labelledby="recent-builds-title">
-    <div class="section-heading">
-      <h2 id="recent-builds-title">최근 빌드</h2>
-      <a href="/keyboards/">키보드 전체 보기 →</a>
-    </div>
-    <div class="gallery-grid home-grid">
-      {recent.map((keyboard, index) => {
-        const entry = entryBySlug.get(keyboard.slug);
-        if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
-        return <KeyboardCard keyboard={entry.data} index={index} headingLevel={3} />;
-      })}
-    </div>
-  </section>
-
-  <section class="home-section shell" aria-labelledby="recap-home-title">
-    <div class="section-heading">
-      <h2 id="recap-home-title">Recap</h2>
-      <a href="/recap/">연도별 보기 →</a>
-    </div>
-    <div class="recap-portals">
-      {recapYears.map((recap) => (
-        <a href={`/recap/${recap.year}/`}>
-          <span>{recap.year}</span>
-          <strong>{recap.count}개 빌드</strong>
-        </a>
-      ))}
+<SiteLayout description={collectionData.copy['home.description'] ?? undefined}>
+  <section class="home" aria-labelledby="home-title">
+    <img class="home-photo" src={mediumHero.src} srcset={sources} sizes="100vw"
+      width={mediumHero.width} height={mediumHero.height}
+      alt="베이지색 키캡을 장착한 키보드들" fetchpriority="high" />
+    <div class="home-content shell">
+      <h1 id="home-title">KEYLOG</h1>
+      <nav class="archive-links" aria-label="아카이브">
+        {archives.map(({ id, href, label }) => (
+          <a href={href}>
+            <span class:list={['archive-icon', id]} aria-hidden="true"><i></i><i></i><i></i></span>
+            <span>{label}</span>
+          </a>
+        ))}
+      </nav>
     </div>
   </section>
 </SiteLayout>
+
+<style>
+  .home {
+    position: relative;
+    isolation: isolate;
+    color: #fff6e9;
+    background: #30251f;
+  }
+
+  .home-photo,
+  .home::after {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-photo { z-index: -2; object-fit: cover; object-position: 50% 54%; }
+  .home::after {
+    z-index: -1;
+    content: '';
+    background: linear-gradient(265deg, #20160dd9, #24150c26 61%, transparent),
+      linear-gradient(0deg, #21170fcc, transparent 35%);
+  }
+
+  .home-content {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: clamp(470px, 74svh, 860px);
+    padding-block: clamp(24px, 5vw, 64px);
+  }
+
+  h1 {
+    align-self: center;
+    justify-self: end;
+    margin: 0 0 0.2em;
+    font-size: clamp(3.1rem, 9vw, 8rem);
+    font-weight: 640;
+    line-height: .9;
+    letter-spacing: -.065em;
+  }
+
+  .archive-links {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    width: min(100%, 760px);
+  }
+
+  .archive-links a {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 8px;
+    min-height: clamp(82px, 10vw, 112px);
+    padding: 8px 4px;
+    border: 1px solid #e6cdb26e;
+    border-radius: 5px;
+    color: inherit;
+    background: #2b2018df;
+    text-decoration: none;
+    font-size: .875rem;
+    font-weight: 550;
+  }
+
+  .archive-links a:hover, .archive-links a:focus-visible { background: #4d3525; }
+  .archive-icon { position: relative; display: block; width: 58px; height: 38px; color: #f4d4ab; }
+  .archive-icon i { position: absolute; display: block; }
+  .keyboards i:first-child {
+    inset: 5px 1px 6px;
+    border: 2px solid currentColor;
+    border-radius: 6px;
+    transform: rotate(-8deg);
+  }
+  .keyboards i:nth-child(2) {
+    inset: 10px 8px 16px;
+    border-radius: 2px;
+    background: repeating-linear-gradient(90deg, currentColor 0 4px, transparent 4px 7px);
+    transform: rotate(-8deg);
+  }
+  .keyboards i:last-child {
+    width: 23px; height: 3px; left: 19px; bottom: 11px; border-radius: 2px;
+    background: currentColor; transform: rotate(-8deg);
+  }
+  .keycaps i {
+    width: 28px; height: 24px; border: 2px solid currentColor; border-radius: 7px;
+    transform: skew(-10deg) rotate(-9deg);
+  }
+  .keycaps i:first-child { top: 3px; left: 7px; }
+  .keycaps i:nth-child(2) { top: 11px; left: 23px; background: #3b2a1e; }
+  .keycaps i:last-child { width: 16px; height: 10px; top: 16px; left: 29px; border-radius: 4px; }
+  .switches i:first-child { inset: 13px 10px 4px; border: 2px solid currentColor; border-radius: 5px; transform: skew(-10deg); }
+  .switches i:nth-child(2) { inset: 17px 17px 8px; border-top: 2px solid currentColor; transform: skew(-10deg); }
+  .switches i:last-child { top: 3px; left: 25px; width: 11px; height: 14px; background: currentColor; border-radius: 3px; }
+  .recap i:first-child { inset: 6px 11px 3px; border: 2px solid currentColor; border-radius: 6px; transform: rotate(-7deg); }
+  .recap i:nth-child(2) { inset: 14px 12px auto; border-top: 2px solid currentColor; transform: rotate(-7deg); }
+  .recap i:last-child {
+    top: 3px; left: 20px; width: 3px; height: 9px; border-radius: 2px;
+    background: currentColor; box-shadow: 15px 0 currentColor; transform: rotate(-7deg);
+  }
+  @media (max-width: 600px) {
+    .home-content { min-height: max(420px, 69svh); }
+    .home-photo { object-position: 43% 50%; }
+    h1 { align-self: end; margin-bottom: 20px; }
+  }
+  @media (max-width: 440px) {
+    .archive-links { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>

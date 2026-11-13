@@ -30,21 +30,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "LCK Retro",
+        "title": "Chosfox Retro",
         "quantity": null,
         "href": "/gallery/lck-retro/"
       }
     ],
     "switches": [
       {
-        "title": "Deep Sea Silent Whale Brown",
-        "href": "/switches/deep-sea-silent-whale-brown/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "KKLabs",
-        "href": "/vendors/kklabs/"
+        "title": "Kailh Choc v2 Deep Sea Silent Whale Brown",
+        "href": "/switches/kailh-choc-v2-deep-sea-silent-whale-brown/"
       }
     ]
   },

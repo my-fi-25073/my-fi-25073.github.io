@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-tomcat",
+  "title": "Bsun Tomcat",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "length": "20.0mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Tomcat 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-1280.avif",
+              "width": 739,
+              "height": 514
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Tomcat 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-640.avif",
+              "width": 640,
+              "height": 593
+            },
+            {
+              "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-1280.avif",
+              "width": 1280,
+              "height": 1187
+            },
+            {
+              "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-2400.avif",
+              "width": 1335,
+              "height": 1238
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Tomcat 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-1280.avif",
+          "width": 739,
+          "height": 514
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Tomcat 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-640.avif",
+          "width": 640,
+          "height": 593
+        },
+        {
+          "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-1280.avif",
+          "width": 1280,
+          "height": 1187
+        },
+        {
+          "src": "/media/switches/bsun-tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-2400.avif",
+          "width": 1335,
+          "height": 1238
+        }
+      ]
+    }
+  ]
+}

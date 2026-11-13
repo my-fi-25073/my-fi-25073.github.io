@@ -31,21 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Blanks ISO",
+        "title": "RDW Cherry Blanks ISO",
         "quantity": null,
         "href": "/gallery/blanks-iso/"
       }
     ],
     "switches": [
       {
-        "title": "SR YETI",
-        "href": "/switches/sr-yeti/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "Bsun SR YETI",
+        "href": "/switches/bsun-sr-yeti/"
       }
     ]
   },

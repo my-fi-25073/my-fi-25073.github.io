@@ -12,7 +12,7 @@
   ],
   "ergonomicFeatures": [],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "오쏘리니어",
     "3x5"
   ],
@@ -31,27 +31,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Minimal",
+        "title": "GMK CYL Minimal",
         "quantity": null,
         "href": "/gallery/minimal/"
       },
       {
         "kind": "kit",
-        "title": "Classic BoW 40s (Cannon Key)",
+        "title": "GMK CYL Minimal · Classic BoW 40s (Cannon Key)",
         "quantity": null,
         "href": "/gallery/minimal/#classic-bow-40s-cannon-key"
       }
     ],
     "switches": [
       {
-        "title": "Snow Crash",
-        "href": "/switches/snow-crash/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "NiuNiu",
-        "href": "/vendors/niuniu/"
+        "title": "HMX Snow Crash",
+        "href": "/switches/hmx-snow-crash/"
       }
     ]
   },

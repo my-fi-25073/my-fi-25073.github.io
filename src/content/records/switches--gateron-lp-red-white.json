@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-red-white",
+  "title": "Gateron LP Red White",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 15g",
+          "length": "13.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP Red White 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-0-1590e37cd8fb-640.avif",
+              "width": 488,
+              "height": 424
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP Red White 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-1-d1b14145fb06-640.avif",
+              "width": 640,
+              "height": 298
+            },
+            {
+              "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-1-d1b14145fb06-1280.avif",
+              "width": 1248,
+              "height": 581
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP Red White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-0-1590e37cd8fb-640.avif",
+          "width": 488,
+          "height": 424
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP Red White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-1-d1b14145fb06-640.avif",
+          "width": 640,
+          "height": 298
+        },
+        {
+          "src": "/media/switches/gateron-lp-red-white/70349812ad3b55ac-09a82c9242b2-source-gallery-1-d1b14145fb06-1280.avif",
+          "width": 1248,
+          "height": 581
+        }
+      ]
+    }
+  ]
+}

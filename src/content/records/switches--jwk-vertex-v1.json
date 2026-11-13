@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "jwk-vertex-v1",
+  "title": "JWK Vertex V1",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "JWK Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "15mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "JWK Vertex V1 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-640.avif",
+              "width": 640,
+              "height": 572
+            },
+            {
+              "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-1280.avif",
+              "width": 732,
+              "height": 654
+            }
+          ]
+        },
+        {
+          "alt": "JWK Vertex V1 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-640.avif",
+              "width": 640,
+              "height": 758
+            },
+            {
+              "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-1280.avif",
+              "width": 1280,
+              "height": 1517
+            },
+            {
+              "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-2400.avif",
+              "width": 1282,
+              "height": 1519
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "JWK Vertex V1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-640.avif",
+          "width": 640,
+          "height": 572
+        },
+        {
+          "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-1280.avif",
+          "width": 732,
+          "height": 654
+        }
+      ]
+    },
+    {
+      "alt": "JWK Vertex V1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-640.avif",
+          "width": 640,
+          "height": 758
+        },
+        {
+          "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-1280.avif",
+          "width": 1280,
+          "height": 1517
+        },
+        {
+          "src": "/media/switches/jwk-vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-2400.avif",
+          "width": 1282,
+          "height": 1519
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,7 @@
   ],
   "ergonomicFeatures": [],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "오쏘리니어",
     "WKL",
     "6x17"
@@ -33,51 +33,45 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "Sixes Ogre (Ergo kit)",
+        "title": "GMK CYL Beige Extra · Sixes Ogre (Ergo kit)",
         "quantity": null,
         "href": "/gallery/beige-extra/#sixes-ogre-ergo-kit"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "Classic Retro Zhuyin",
+        "title": "GMK CYL Classic Retro Zhuyin",
         "quantity": null,
         "href": "/gallery/classic-retro-zhuyin/"
       }
     ],
     "switches": [
       {
-        "title": "MZ y3",
-        "href": "/switches/mz-y3/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Geonworks",
-        "href": "/vendors/geonworks/"
+        "title": "Keygeek MZ y3",
+        "href": "/switches/keygeek-mz-y3/"
       }
     ]
   },

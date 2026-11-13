@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "swk-jieum-v2",
+  "title": "SWK Jieum V2",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 63.5g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "SWK Jieum V2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
+              "width": 640,
+              "height": 401
+            },
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-1280.avif",
+              "width": 1084,
+              "height": 680
+            }
+          ]
+        },
+        {
+          "alt": "SWK Jieum V2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
+              "width": 640,
+              "height": 742
+            },
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-1280.avif",
+              "width": 1280,
+              "height": 1483
+            },
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-2400.avif",
+              "width": 1311,
+              "height": 1519
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "SWK Jieum V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-1280.avif",
+          "width": 1084,
+          "height": 680
+        }
+      ]
+    },
+    {
+      "alt": "SWK Jieum V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
+          "width": 640,
+          "height": 742
+        },
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-1280.avif",
+          "width": 1280,
+          "height": 1483
+        },
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-2400.avif",
+          "width": 1311,
+          "height": 1519
+        }
+      ]
+    }
+  ]
+}

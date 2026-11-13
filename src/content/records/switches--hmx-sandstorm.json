@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-sandstorm",
+  "title": "HMX Sandstorm",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 58g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "58g ± 2g",
+          "length": "21.8mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Sandstorm 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-0-035b67cddfc2-640.avif",
+              "width": 640,
+              "height": 475
+            },
+            {
+              "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-0-035b67cddfc2-1280.avif",
+              "width": 729,
+              "height": 541
+            }
+          ]
+        },
+        {
+          "alt": "HMX Sandstorm 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-1-be9bc6d628c1-640.avif",
+              "width": 640,
+              "height": 634
+            },
+            {
+              "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-1-be9bc6d628c1-1280.avif",
+              "width": 1258,
+              "height": 1246
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Sandstorm 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-0-035b67cddfc2-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-0-035b67cddfc2-1280.avif",
+          "width": 729,
+          "height": 541
+        }
+      ]
+    },
+    {
+      "alt": "HMX Sandstorm 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-1-be9bc6d628c1-640.avif",
+          "width": 640,
+          "height": 634
+        },
+        {
+          "src": "/media/switches/hmx-sandstorm/6c95c6456cd374a7-13bbc5a5cd50-source-gallery-1-be9bc6d628c1-1280.avif",
+          "width": 1258,
+          "height": 1246
+        }
+      ]
+    }
+  ]
+}

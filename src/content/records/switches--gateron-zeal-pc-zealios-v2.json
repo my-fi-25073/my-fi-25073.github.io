@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-zeal-pc-zealios-v2",
+  "title": "Gateron Zeal PC Zealios v2",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Krytox GPL 105 · Krytox GPL 205 Grade 0",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 67g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 Grade 0"
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron Zeal PC Zealios v2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-0-d2c0de20c775-640.avif",
+              "width": 640,
+              "height": 406
+            },
+            {
+              "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-0-d2c0de20c775-1280.avif",
+              "width": 837,
+              "height": 531
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Zeal PC Zealios v2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-1-4c6122155062-640.avif",
+              "width": 640,
+              "height": 407
+            },
+            {
+              "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-1-4c6122155062-1280.avif",
+              "width": 861,
+              "height": 548
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron Zeal PC Zealios v2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-0-d2c0de20c775-640.avif",
+          "width": 640,
+          "height": 406
+        },
+        {
+          "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-0-d2c0de20c775-1280.avif",
+          "width": 837,
+          "height": 531
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Zeal PC Zealios v2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-1-4c6122155062-640.avif",
+          "width": 640,
+          "height": 407
+        },
+        {
+          "src": "/media/switches/gateron-zeal-pc-zealios-v2/6a0bba327355651e-d9b7b0133497-source-gallery-1-4c6122155062-1280.avif",
+          "width": 861,
+          "height": 548
+        }
+      ]
+    }
+  ]
+}

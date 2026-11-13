@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-yogurt",
+  "title": "HMX Yogurt",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Yogurt",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "25g",
+          "bottom_out_force": "35g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Yogurt 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-0-732ac9b693ff-640.avif",
+              "width": 640,
+              "height": 617
+            },
+            {
+              "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-0-732ac9b693ff-1280.avif",
+              "width": 969,
+              "height": 934
+            }
+          ]
+        },
+        {
+          "alt": "HMX Yogurt 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-1-79c43c1f8857-640.avif",
+              "width": 573,
+              "height": 475
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Yogurt 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-0-732ac9b693ff-640.avif",
+          "width": 640,
+          "height": 617
+        },
+        {
+          "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-0-732ac9b693ff-1280.avif",
+          "width": 969,
+          "height": 934
+        }
+      ]
+    },
+    {
+      "alt": "HMX Yogurt 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-yogurt/6f1a658c52c71862-fe5efa8560e6-source-gallery-1-79c43c1f8857-640.avif",
+          "width": 573,
+          "height": 475
+        }
+      ]
+    }
+  ]
+}

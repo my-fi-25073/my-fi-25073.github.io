@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ttc-mistic-purple",
+  "title": "TTC Mistic Purple",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 0,
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "40g",
+          "bottom_out_force": "50g",
+          "length": "21.9mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "TTC Mistic Purple 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-640.avif",
+              "width": 640,
+              "height": 441
+            },
+            {
+              "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-1280.avif",
+              "width": 774,
+              "height": 533
+            }
+          ]
+        },
+        {
+          "alt": "TTC Mistic Purple 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-640.avif",
+              "width": 446,
+              "height": 292
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "TTC Mistic Purple 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-1280.avif",
+          "width": 774,
+          "height": 533
+        }
+      ]
+    },
+    {
+      "alt": "TTC Mistic Purple 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/ttc-mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-640.avif",
+          "width": 446,
+          "height": 292
+        }
+      ]
+    }
+  ]
+}

@@ -31,25 +31,25 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Norde Beige",
+        "title": "GMK CYL Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "kit",
-        "title": "Beige OG Space Keys",
+        "title": "GMK CYL Beige Extra · Beige OG Space Keys",
         "quantity": null,
         "href": "/gallery/beige-extra/#beige-og-space-keys"
       }
@@ -58,12 +58,6 @@
       {
         "title": "MX1A Black",
         "href": "/switches/mx1a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Drop",
-        "href": "/vendors/drop/"
       }
     ]
   },

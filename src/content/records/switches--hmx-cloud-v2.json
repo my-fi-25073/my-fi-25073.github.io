@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-cloud-v2",
+  "title": "HMX Cloud V2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Cloud V2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-0-04165f77061d-640.avif",
+              "width": 640,
+              "height": 436
+            },
+            {
+              "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-0-04165f77061d-1280.avif",
+              "width": 717,
+              "height": 488
+            }
+          ]
+        },
+        {
+          "alt": "HMX Cloud V2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-1-394e5af0bd7f-640.avif",
+              "width": 640,
+              "height": 649
+            },
+            {
+              "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-1-394e5af0bd7f-1280.avif",
+              "width": 1261,
+              "height": 1278
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Cloud V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-0-04165f77061d-640.avif",
+          "width": 640,
+          "height": 436
+        },
+        {
+          "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-0-04165f77061d-1280.avif",
+          "width": 717,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "alt": "HMX Cloud V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-1-394e5af0bd7f-640.avif",
+          "width": 640,
+          "height": 649
+        },
+        {
+          "src": "/media/switches/hmx-cloud-v2/065a0681d173beae-9b8424ae5469-source-gallery-1-394e5af0bd7f-1280.avif",
+          "width": 1261,
+          "height": 1278
+        }
+      ]
+    }
+  ]
+}

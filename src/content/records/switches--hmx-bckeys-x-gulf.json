@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-bckeys-x-gulf",
+  "title": "HMX BCKeys x Gulf",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 58g",
+        "status": null,
+        "specifications": {
+          "initial_force": "50g",
+          "bottom_out_force": "58g",
+          "length": "21mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX BCKeys x Gulf 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-0-6630b8f97782-640.avif",
+              "width": 640,
+              "height": 507
+            },
+            {
+              "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-0-6630b8f97782-1280.avif",
+              "width": 747,
+              "height": 592
+            }
+          ]
+        },
+        {
+          "alt": "HMX BCKeys x Gulf 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-1-1eaff1e8c78c-640.avif",
+              "width": 640,
+              "height": 840
+            },
+            {
+              "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-1-1eaff1e8c78c-1280.avif",
+              "width": 1124,
+              "height": 1476
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX BCKeys x Gulf 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-0-6630b8f97782-640.avif",
+          "width": 640,
+          "height": 507
+        },
+        {
+          "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-0-6630b8f97782-1280.avif",
+          "width": 747,
+          "height": 592
+        }
+      ]
+    },
+    {
+      "alt": "HMX BCKeys x Gulf 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-1-1eaff1e8c78c-640.avif",
+          "width": 640,
+          "height": 840
+        },
+        {
+          "src": "/media/switches/hmx-bckeys-x-gulf/e937fc5bf8df01fc-4e24789e5866-source-gallery-1-1eaff1e8c78c-1280.avif",
+          "width": 1124,
+          "height": 1476
+        }
+      ]
+    }
+  ]
+}

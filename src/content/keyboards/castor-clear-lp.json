@@ -30,21 +30,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "CLP Custom Transparent Blanks",
+        "title": "JLC Blanks · CLP Custom Transparent Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-transparent-blanks"
       }
     ],
     "switches": [
       {
-        "title": "Deep Sea Silent Islet White",
-        "href": "/switches/deep-sea-silent-islet-white/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "KKLabs",
-        "href": "/vendors/kklabs/"
+        "title": "Kailh Choc v2 Deep Sea Silent Islet White",
+        "href": "/switches/kailh-choc-v2-deep-sea-silent-islet-white/"
       }
     ]
   },

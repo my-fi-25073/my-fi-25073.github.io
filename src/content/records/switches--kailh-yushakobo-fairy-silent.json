@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-yushakobo-fairy-silent",
+  "title": "Kailh Yushakobo Fairy Silent",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 45g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Yushakobo Fairy Silent 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-yushakobo-fairy-silent/cd6855f21eac1c3f-8883c7df57ca-source-gallery-0-ceb4b72cbd72-640.avif",
+              "width": 640,
+              "height": 591
+            },
+            {
+              "src": "/media/switches/kailh-yushakobo-fairy-silent/cd6855f21eac1c3f-8883c7df57ca-source-gallery-0-ceb4b72cbd72-1280.avif",
+              "width": 1138,
+              "height": 1050
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Yushakobo Fairy Silent 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-yushakobo-fairy-silent/cd6855f21eac1c3f-8883c7df57ca-source-gallery-0-ceb4b72cbd72-640.avif",
+          "width": 640,
+          "height": 591
+        },
+        {
+          "src": "/media/switches/kailh-yushakobo-fairy-silent/cd6855f21eac1c3f-8883c7df57ca-source-gallery-0-ceb4b72cbd72-1280.avif",
+          "width": 1138,
+          "height": 1050
+        }
+      ]
+    }
+  ]
+}

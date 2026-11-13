@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-bcp",
+  "title": "Kailh BCP",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory Spring 63.5g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "63.5g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh BCP 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-0-2e0a021bd8ab-640.avif",
+              "width": 640,
+              "height": 368
+            },
+            {
+              "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-0-2e0a021bd8ab-1280.avif",
+              "width": 699,
+              "height": 402
+            }
+          ]
+        },
+        {
+          "alt": "Kailh BCP 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-640.avif",
+              "width": 640,
+              "height": 604
+            },
+            {
+              "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-1280.avif",
+              "width": 1280,
+              "height": 1208
+            },
+            {
+              "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-2400.avif",
+              "width": 1284,
+              "height": 1212
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh BCP 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-0-2e0a021bd8ab-640.avif",
+          "width": 640,
+          "height": 368
+        },
+        {
+          "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-0-2e0a021bd8ab-1280.avif",
+          "width": 699,
+          "height": 402
+        }
+      ]
+    },
+    {
+      "alt": "Kailh BCP 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-640.avif",
+          "width": 640,
+          "height": 604
+        },
+        {
+          "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-1280.avif",
+          "width": 1280,
+          "height": 1208
+        },
+        {
+          "src": "/media/switches/kailh-bcp/546e8942c48f5671-72c3aa175540-source-gallery-1-0fb1d717d56a-2400.avif",
+          "width": 1284,
+          "height": 1212
+        }
+      ]
+    }
+  ]
+}

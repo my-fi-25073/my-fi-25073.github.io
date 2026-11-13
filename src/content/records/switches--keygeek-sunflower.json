@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-sunflower",
+  "title": "Keygeek Sunflower",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 37g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "37g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Sunflower 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-0-16b19e903689-640.avif",
+              "width": 640,
+              "height": 316
+            },
+            {
+              "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-0-16b19e903689-1280.avif",
+              "width": 733,
+              "height": 362
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Sunflower 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-1-edabca631624-640.avif",
+              "width": 640,
+              "height": 501
+            },
+            {
+              "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-1-edabca631624-1280.avif",
+              "width": 827,
+              "height": 647
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Sunflower 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-0-16b19e903689-640.avif",
+          "width": 640,
+          "height": 316
+        },
+        {
+          "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-0-16b19e903689-1280.avif",
+          "width": 733,
+          "height": 362
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Sunflower 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-1-edabca631624-640.avif",
+          "width": 640,
+          "height": 501
+        },
+        {
+          "src": "/media/switches/keygeek-sunflower/7df4ef8a2b595075-90926d803174-source-gallery-1-edabca631624-1280.avif",
+          "width": 827,
+          "height": 647
+        }
+      ]
+    }
+  ]
+}

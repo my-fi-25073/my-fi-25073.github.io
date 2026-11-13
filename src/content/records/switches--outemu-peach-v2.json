@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "outemu-peach-v2",
+  "title": "Outemu Peach V2",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Outemu Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Outemu Peach V2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-0-5a02bae07a96-640.avif",
+              "width": 640,
+              "height": 400
+            },
+            {
+              "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-0-5a02bae07a96-1280.avif",
+              "width": 1100,
+              "height": 688
+            }
+          ]
+        },
+        {
+          "alt": "Outemu Peach V2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-640.avif",
+              "width": 640,
+              "height": 692
+            },
+            {
+              "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-1280.avif",
+              "width": 1280,
+              "height": 1383
+            },
+            {
+              "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-2400.avif",
+              "width": 1374,
+              "height": 1485
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Outemu Peach V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-0-5a02bae07a96-640.avif",
+          "width": 640,
+          "height": 400
+        },
+        {
+          "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-0-5a02bae07a96-1280.avif",
+          "width": 1100,
+          "height": 688
+        }
+      ]
+    },
+    {
+      "alt": "Outemu Peach V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-640.avif",
+          "width": 640,
+          "height": 692
+        },
+        {
+          "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-1280.avif",
+          "width": 1280,
+          "height": 1383
+        },
+        {
+          "src": "/media/switches/outemu-peach-v2/38f73d0925aeb755-943304f6f6ae-source-gallery-1-09751a69b155-2400.avif",
+          "width": 1374,
+          "height": 1485
+        }
+      ]
+    }
+  ]
+}

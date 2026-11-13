@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "lotr-elvish",
-  "title": "LotR Elvish",
+  "title": "Drop MT3 LotR Elvish",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "LotR Elvish Autumn in Rivendell 이미지 1",
+          "alt": "Drop MT3 LotR Elvish Autumn in Rivendell 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-dffc27b4ef006378-source-gallery-0-148339882200-640.avif",
@@ -48,10 +47,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "LotR Elvish Extra 이미지 1",
+          "alt": "Drop MT3 LotR Elvish Extra 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-640.avif",
@@ -74,10 +72,9 @@
         "Base - Simple",
         "Alpha - Meme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "LotR Elvish Hardcore Base 이미지 1",
+          "alt": "Drop MT3 LotR Elvish Hardcore Base 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-640.avif",
@@ -99,10 +96,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "LotR Elvish Spacebars 이미지 1",
+          "alt": "Drop MT3 LotR Elvish Spacebars 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-2acc71eeef0202d0-source-gallery-0-dd76effd54f7-640.avif",
@@ -121,7 +117,7 @@
   ],
   "images": [
     {
-      "alt": "LotR Elvish 이미지 1",
+      "alt": "Drop MT3 LotR Elvish 이미지 1",
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-640.avif",
@@ -141,7 +137,7 @@
       ]
     },
     {
-      "alt": "LotR Elvish 이미지 2",
+      "alt": "Drop MT3 LotR Elvish 이미지 2",
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-640.avif",
@@ -161,7 +157,7 @@
       ]
     },
     {
-      "alt": "LotR Elvish 이미지 1",
+      "alt": "Drop MT3 LotR Elvish 이미지 1",
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-640.avif",

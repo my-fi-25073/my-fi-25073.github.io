@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-bumblebee",
+  "title": "Bsun Bumblebee",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "45g ± 5g",
+          "bottom_out_force": "50g ± 5g",
+          "length": "20mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Bumblebee 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-640.avif",
+              "width": 640,
+              "height": 451
+            },
+            {
+              "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-1280.avif",
+              "width": 693,
+              "height": 488
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Bumblebee 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-640.avif",
+              "width": 640,
+              "height": 405
+            },
+            {
+              "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-1280.avif",
+              "width": 669,
+              "height": 423
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Bumblebee 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-640.avif",
+          "width": 640,
+          "height": 451
+        },
+        {
+          "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-1280.avif",
+          "width": 693,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Bumblebee 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-640.avif",
+          "width": 640,
+          "height": 405
+        },
+        {
+          "src": "/media/switches/bsun-bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-1280.avif",
+          "width": 669,
+          "height": 423
+        }
+      ]
+    }
+  ]
+}

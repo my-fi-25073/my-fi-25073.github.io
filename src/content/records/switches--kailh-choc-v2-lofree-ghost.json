@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-lofree-ghost",
+  "title": "Kailh Choc v2 Lofree Ghost",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 15g",
+          "length": "15.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Ghost 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-0-b16eccdf0b55-640.avif",
+              "width": 514,
+              "height": 464
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Ghost 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-1-6acf511fcc37-640.avif",
+              "width": 533,
+              "height": 261
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Ghost 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-2-4823d940c86a-640.avif",
+              "width": 640,
+              "height": 1364
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-2-4823d940c86a-1280.avif",
+              "width": 961,
+              "height": 2048
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Lofree Ghost 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-0-b16eccdf0b55-640.avif",
+          "width": 514,
+          "height": 464
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Ghost 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-1-6acf511fcc37-640.avif",
+          "width": 533,
+          "height": 261
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Ghost 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-2-4823d940c86a-640.avif",
+          "width": 640,
+          "height": 1364
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-ghost/f651f68570cfa045-acf3c554cd4a-source-gallery-2-4823d940c86a-1280.avif",
+          "width": 961,
+          "height": 2048
+        }
+      ]
+    }
+  ]
+}

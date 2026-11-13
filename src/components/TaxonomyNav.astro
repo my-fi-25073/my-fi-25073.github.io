@@ -2,22 +2,20 @@
 import collectionData from '../data/collections.json';
 import type { CollectionManifest } from '../lib/collection-views';
 
-interface Props {
-  current?: string;
-}
-
-const { current = 'home' } = Astro.props;
 const items = (collectionData as CollectionManifest).navigation;
+const pathname = Astro.url.pathname;
+const section = pathname.split('/')[1];
+const current = section === 'gallery' ? 'keycaps' : section || 'home';
 ---
 
-<nav class="taxonomy" aria-label="공개 컬렉션">
+<nav class="taxonomy" aria-label="주 메뉴">
   <ul>
     {items.map((item) => (
       <li>
         <a
           class:list={['taxonomy-item', { 'is-current': current === item.id }]}
           href={item.href}
-          aria-current={current === item.id ? 'page' : undefined}
+          aria-current={pathname === item.href ? 'page' : undefined}
         >
           {item.label}
         </a>

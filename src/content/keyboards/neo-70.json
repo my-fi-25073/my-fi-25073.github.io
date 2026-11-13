@@ -32,7 +32,7 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Oblivion",
+        "title": "GMK CYL Oblivion",
         "quantity": null,
         "href": "/gallery/oblivion/"
       }
@@ -41,12 +41,6 @@
       {
         "title": "Bsun Raw",
         "href": "/switches/bsun-raw/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
       }
     ]
   },

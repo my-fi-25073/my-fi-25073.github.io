@@ -2,91 +2,226 @@
 import type { CollectionEntry } from 'astro:content';
 import collectionData from '../data/collections.json';
 import {
+  archiveDisplayGroups,
   groupIdsForRecord,
   groupsWithCounts,
   recordsForCollectionView,
   type CollectionManifest,
 } from '../lib/collection-views';
 import ArchiveSearch from './ArchiveSearch.astro';
-import CollectionFilter from './CollectionFilter.astro';
+import ArchiveViewTabs from './ArchiveViewTabs.astro';
 import DomainRecordCard from './DomainRecordCard.astro';
-import TaxonomyNav from './TaxonomyNav.astro';
 
 interface Props {
   records: CollectionEntry<'records'>[];
 }
 
-type DomainEntry = CollectionEntry<'records'>;
-type SwitchFamilyData = Extract<DomainEntry['data'], { kind: 'switch-family' }>;
-
 const { records } = Astro.props;
 const manifest = collectionData as CollectionManifest;
-const families = records
-  .map((entry) => entry.data)
-  .filter((record): record is SwitchFamilyData => record.kind === 'switch-family');
-const switches = recordsForCollectionView(families, manifest, 'switch-manufacturers');
-const frankenRecipes = recordsForCollectionView(families, manifest, 'switch-franken');
-const allGroups = groupsWithCounts(switches, manifest, ['switch-manufacturers']);
-const groups = allGroups.map((group) => ({
-  ...group,
-  label: group.id.startsWith('rating-')
-    ? `Rating · ${group.label}`
-    : `Maker · ${group.label}`,
-}));
-const defaultGroup = groups.find((group) => group.id === 'cherry')?.id ?? groups[0]?.id;
-if (!defaultGroup) throw new Error('Switch Collection View has no visible groups.');
+const pageCopy = manifest.copy;
+const products = records.map((entry) => entry.data);
+const switches = recordsForCollectionView(products, manifest, 'switch-manufacturers');
+const franken = recordsForCollectionView(products, manifest, 'switch-franken');
+const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
+const frankenGroups = archiveDisplayGroups(franken, manifest, 'switch-franken');
+const ratingGroups = [
+  ...[5, 4, 3, 2, 1, 0].map((rating) => ({
+    id: `rating-${rating}`,
+    label: `${rating} / 5`,
+    matches: (record: typeof switches[number]) => record.tunings.some((tuning) => tuning.rating === rating),
+  })),
+  {
+    id: 'rating-unrated',
+    label: '미평가',
+    matches: (record: typeof switches[number]) => record.tunings.some((tuning) => tuning.rating === null),
+  },
+].filter((group) => switches.some(group.matches));
+const filterAxes = [
+  { key: 'maker', label: '제조사', groups: groupsWithCounts(switches, manifest, ['switch-manufacturers']) },
+  { key: 'rating', label: '별점', groups: ratingGroups },
+];
 ---
 
 <section class="archive-intro shell" aria-labelledby="switch-title">
-  <p class="eyebrow">Switch</p>
-  <h1 id="switch-title">스위치</h1>
-  <p class="archive-description">
-    스위치 패밀리를 제조사와 평점별로 정리했습니다. 직접 조합한 스위치는 Franken Recipes에 따로 모았습니다.
-  </p>
+  <h1 id="switch-title">{pageCopy?.['switch.title'] ?? '스위치'}</h1>
 </section>
 
-<div class="shell archive-controls">
-  <TaxonomyNav current="switches" />
-  <p class="archive-count">{switches.length}개 패밀리 · Franken {frankenRecipes.length}개</p>
+<div class="archive-tools shell">
+  <ArchiveViewTabs
+    id="switch"
+    label="스위치 보기"
+    parameter="view"
+    views={[{ id: 'switches', label: '스위치' }, { id: 'franken', label: '프랑켄' }]}
+  />
+  <ArchiveSearch />
 </div>
-
-<CollectionFilter groups={groups} defaultGroup={defaultGroup} label="스위치 분류" />
-<ArchiveSearch />
 
 <div class="archive-sections">
-  <section class="archive-section shell" aria-labelledby="switch-collection-heading" data-archive-group>
-    <div class="section-heading">
-      <h2 id="switch-collection-heading">Switch Families</h2>
-      <p>제조사 · 평점</p>
-    </div>
-    <div class="gallery-grid archive-section-grid" aria-label="스위치 Family 목록">
-      {switches.map((record, index) => (
-        <DomainRecordCard
-          record={record}
-          index={index}
-          headingLevel={3}
-          groups={groupIdsForRecord(record, manifest, ['switch-manufacturers'])}
-        />
+  <section id="switch-panel-switches" class="archive-section shell" role="tabpanel" aria-labelledby="switch-tab-switches">
+    <div class="switch-filters" data-switch-filters>
+      {filterAxes.map((axis) => (
+        <fieldset>
+          <legend>{axis.label}</legend>
+          <div class="switch-filter-options">
+            {[{ id: '', label: '전체' }, ...axis.groups].map((group) => (
+              <label>
+                <input
+                  class="visually-hidden"
+                  type="radio"
+                  name={axis.key}
+                  value={group.id}
+                  checked={group.id === ''}
+                />
+                <span>{group.label}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
       ))}
     </div>
+    <p class="visually-hidden" role="status" data-switch-result-count></p>
+    <p data-switch-empty hidden>조건에 맞는 스위치가 없습니다.</p>
+    {switchGroups.map(({ label, records }) => (
+      <section class="archive-section" aria-label={label ?? '스위치 목록'} data-archive-group>
+        {label && <div class="section-heading"><h2>{label}</h2></div>}
+        <div class="gallery-grid archive-section-grid">
+          {records.map((record) => (
+            <DomainRecordCard
+              record={record}
+              headingLevel={label ? 3 : 2}
+              groups={[
+                ...groupIdsForRecord(record, manifest, ['switch-manufacturers']),
+                ...ratingGroups.filter((group) => group.matches(record)).map((group) => group.id),
+              ]}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
   </section>
 
-  {frankenRecipes.length > 0 && (
-    <section class="archive-section shell" aria-labelledby="franken-collection-heading" data-archive-group>
-      <div class="section-heading">
-        <h2 id="franken-collection-heading">Franken Recipes</h2>
-        <p>{frankenRecipes.length}개</p>
-      </div>
-      <div class="gallery-grid archive-section-grid" aria-label="프랑켄 스위치 레시피 목록">
-        {frankenRecipes.map((record, index) => (
-          <DomainRecordCard
-            record={record}
-            index={index}
-            headingLevel={3}
-            filterStatic
-          />
-        ))}
-      </div>
-    </section>
-  )}
+  <section id="switch-panel-franken" class="archive-section shell" role="tabpanel" aria-labelledby="switch-tab-franken" hidden>
+    {frankenGroups.map(({ label, records }) => (
+      <section class="archive-section" aria-label={label ?? '프랑켄 스위치 목록'} data-archive-group>
+        {label && <div class="section-heading"><h2>{label}</h2></div>}
+        <div class="gallery-grid archive-section-grid">
+          {records.map((record) => <DomainRecordCard record={record} headingLevel={label ? 3 : 2} />)}
+        </div>
+      </section>
+    ))}
+    {franken.length === 0 && <p>조건에 맞는 프랑켄 스위치가 없습니다.</p>}
+  </section>
 </div>
+
+<script>
+  const filters = document.querySelector<HTMLElement>('[data-switch-filters]');
+  const panel = document.getElementById('switch-panel-switches');
+  if (filters && panel) {
+    const groups = [...filters.querySelectorAll('fieldset')].map((fieldset) => (
+      [...fieldset.querySelectorAll<HTMLInputElement>('input[type="radio"]')]
+    ));
+    const cards = [...panel.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
+      card,
+      href: card.querySelector('a')!.href,
+      groups: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
+    }));
+    const count = panel.querySelector('[data-switch-result-count]');
+    const empty = panel.querySelector<HTMLElement>('[data-switch-empty]');
+    const showResultCount = () => {
+      const visible = new Set(cards.filter(({ card }) => !card.hidden).map(({ href }) => href)).size;
+      if (count) count.textContent = `${visible}개 스위치`;
+      if (empty) empty.hidden = visible !== 0;
+    };
+    const apply = (updateUrl = false) => {
+      const active = groups.map((group) => group.find((input) => input.checked)!);
+      for (const { card, groups: membership } of cards) {
+        card.dataset.groupMatch = String(active.every((input) => !input.value || membership.has(input.value)));
+      }
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        url.searchParams.delete('collection');
+        for (const input of active) {
+          if (input.value) url.searchParams.set(input.name, input.value);
+          else url.searchParams.delete(input.name);
+        }
+        window.history.replaceState(null, '', url);
+      }
+      window.dispatchEvent(new CustomEvent('keylog:group-filter'));
+      requestAnimationFrame(showResultCount);
+    };
+    const fromLocation = () => {
+      const params = new URLSearchParams(window.location.search);
+      for (const group of groups) {
+        const requested = params.get(group[0].name) ?? params.get('collection');
+        const input = group.find((candidate) => candidate.value === requested) ?? group[0];
+        input.checked = true;
+      }
+      apply();
+    };
+    filters.addEventListener('change', () => apply(true));
+    document.querySelector('[data-archive-search]')?.addEventListener('input', () => {
+      requestAnimationFrame(showResultCount);
+    });
+    window.addEventListener('popstate', fromLocation);
+    fromLocation();
+  }
+</script>
+
+<style>
+  .archive-tools {
+    column-gap: 24px;
+  }
+
+  .switch-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    padding-block: 16px 4px;
+  }
+
+  fieldset {
+    min-inline-size: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  legend {
+    margin-block-end: 4px;
+    color: var(--color-muted);
+    font-size: 13px;
+  }
+
+  .switch-filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-inline: 8px;
+    border: 1px solid transparent;
+    border-radius: var(--radius-card);
+    color: var(--color-text);
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  label:hover {
+    border-color: var(--color-rule);
+  }
+
+  label:has(input:checked) {
+    border-color: var(--color-text);
+    background: var(--color-text);
+    color: var(--color-panel);
+  }
+
+  label:has(input:focus-visible) {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+</style>

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dots",
-  "title": "Dots",
+  "title": "GMK CYL Dots",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Modifier - Obscure"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dots Nomad Light 이미지 1",
+          "alt": "GMK CYL Dots Nomad Light 이미지 1",
           "variants": [
             {
               "src": "/media/dots/kit-4ce6b31aac753437-source-gallery-0-6b7983704967-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dots Rainbow Light 이미지 1",
+          "alt": "GMK CYL Dots Rainbow Light 이미지 1",
           "variants": [
             {
               "src": "/media/dots/kit-4d70beeebcdc4532-source-gallery-0-4f9d3015d491-640.avif",
@@ -82,7 +80,7 @@
   ],
   "images": [
     {
-      "alt": "Dots 이미지 1",
+      "alt": "GMK CYL Dots 이미지 1",
       "variants": [
         {
           "src": "/media/dots/series-bf037ce57db26886-source-gallery-0-f1136a450cc4-640.avif",
@@ -102,7 +100,7 @@
       ]
     },
     {
-      "alt": "Dots 이미지 2",
+      "alt": "GMK CYL Dots 이미지 2",
       "variants": [
         {
           "src": "/media/dots/series-bf037ce57db26886-source-gallery-1-4ea0949927d2-640.avif",

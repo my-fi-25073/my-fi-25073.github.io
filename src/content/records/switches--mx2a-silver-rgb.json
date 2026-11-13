@@ -1,31 +1,78 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx2a-silver-rgb",
   "title": "MX2A Silver RGB",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 0,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 55g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "30 cN",
+          "actuation_force": "45 cN",
+          "final_force": "100 cN",
+          "length": "16mm",
+          "spring_stage": "single-stage"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX2A Silver RGB 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-640.avif",
+              "width": 640,
+              "height": 465
+            },
+            {
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-1280.avif",
+              "width": 687,
+              "height": 499
+            }
+          ]
+        },
+        {
+          "alt": "MX2A Silver RGB 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-640.avif",
+              "width": 640,
+              "height": 682
+            },
+            {
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-1280.avif",
+              "width": 1186,
+              "height": 1264
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +81,12 @@
       "alt": "MX2A Silver RGB 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-silver-rgb/2b7891be1416dfc1-source-gallery-0-5cc9e88fdc57-640.avif",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-640.avif",
           "width": 640,
           "height": 465
         },
         {
-          "src": "/media/switches/mx2a-silver-rgb/2b7891be1416dfc1-source-gallery-0-5cc9e88fdc57-1280.avif",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-1280.avif",
           "width": 687,
           "height": 499
         }
@@ -49,12 +96,12 @@
       "alt": "MX2A Silver RGB 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-silver-rgb/2b7891be1416dfc1-source-gallery-1-478066bb91f5-640.avif",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-640.avif",
           "width": 640,
           "height": 682
         },
         {
-          "src": "/media/switches/mx2a-silver-rgb/2b7891be1416dfc1-source-gallery-1-478066bb91f5-1280.avif",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-1280.avif",
           "width": 1186,
           "height": 1264
         }

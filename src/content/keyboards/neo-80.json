@@ -31,21 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "LotR Black Speech",
+        "title": "Drop MT3 LotR Black Speech",
         "quantity": null,
         "href": "/gallery/lotr-black-speech/"
       }
     ],
     "switches": [
       {
-        "title": "Lucky",
-        "href": "/switches/lucky/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
+        "title": "HMX Lucky",
+        "href": "/switches/hmx-lucky/"
       }
     ]
   },

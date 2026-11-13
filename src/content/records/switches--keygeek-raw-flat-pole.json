@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-raw-flat-pole",
+  "title": "Keygeek Raw Flat Pole",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 57.5g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "57.5g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Raw Flat Pole 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-0-99716699eed7-640.avif",
+              "width": 640,
+              "height": 481
+            },
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-0-99716699eed7-1280.avif",
+              "width": 763,
+              "height": 574
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Raw Flat Pole 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-1-f4a3cdd93cb1-640.avif",
+              "width": 640,
+              "height": 478
+            },
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-1-f4a3cdd93cb1-1280.avif",
+              "width": 645,
+              "height": 482
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Raw Flat Pole 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-2-c5f94f188b1b-640.avif",
+              "width": 640,
+              "height": 584
+            },
+            {
+              "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-2-c5f94f188b1b-1280.avif",
+              "width": 1188,
+              "height": 1084
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Raw Flat Pole 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-0-99716699eed7-640.avif",
+          "width": 640,
+          "height": 481
+        },
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-0-99716699eed7-1280.avif",
+          "width": 763,
+          "height": 574
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Raw Flat Pole 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-1-f4a3cdd93cb1-640.avif",
+          "width": 640,
+          "height": 478
+        },
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-1-f4a3cdd93cb1-1280.avif",
+          "width": 645,
+          "height": 482
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Raw Flat Pole 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-2-c5f94f188b1b-640.avif",
+          "width": 640,
+          "height": 584
+        },
+        {
+          "src": "/media/switches/keygeek-raw-flat-pole/411d1d02220b96bf-1d542a222d48-source-gallery-2-c5f94f188b1b-1280.avif",
+          "width": 1188,
+          "height": 1084
+        }
+      ]
+    }
+  ]
+}

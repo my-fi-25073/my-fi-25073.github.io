@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "oblivion",
-  "title": "Oblivion",
+  "title": "GMK CYL Oblivion",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,10 +26,9 @@
       "kittingTypes": [
         "Base - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion 40Bit Base 이미지 1",
+          "alt": "GMK CYL Oblivion 40Bit Base 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-640.avif",
@@ -49,7 +48,7 @@
           ]
         },
         {
-          "alt": "Oblivion 40Bit Base 이미지 2",
+          "alt": "GMK CYL Oblivion 40Bit Base 이미지 2",
           "variants": [
             {
               "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-640.avif",
@@ -76,10 +75,9 @@
       "kittingTypes": [
         "Base - Assembly"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Assembly Base 이미지 1",
+          "alt": "GMK CYL Oblivion Assembly Base 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-640.avif",
@@ -106,10 +104,9 @@
       "kittingTypes": [
         "Alpha - Colevrak"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Colevrak 이미지 1",
+          "alt": "GMK CYL Oblivion Colevrak 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-640.avif",
@@ -136,10 +133,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Coral Space Bars 이미지 1",
+          "alt": "GMK CYL Oblivion Coral Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-640.avif",
@@ -166,10 +162,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Extension 이미지 1",
+          "alt": "GMK CYL Oblivion Extension 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-640.avif",
@@ -191,10 +186,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Git Base 이미지 1",
+          "alt": "GMK CYL Oblivion Git Base 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-640.avif",
@@ -221,10 +215,9 @@
       "kittingTypes": [
         "Accent - Alpha"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Hagoromo ANSI 이미지 1",
+          "alt": "GMK CYL Oblivion Hagoromo ANSI 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-640.avif",
@@ -251,10 +244,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Regular Base 이미지 1",
+          "alt": "GMK CYL Oblivion Regular Base 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-ffc430ac2f5a7617-source-gallery-0-6a7bcb61c47b-640.avif",
@@ -274,7 +266,7 @@
           ]
         },
         {
-          "alt": "Oblivion Regular Base 이미지 2",
+          "alt": "GMK CYL Oblivion Regular Base 이미지 2",
           "variants": [
             {
               "src": "/media/oblivion/kit-ffc430ac2f5a7617-source-gallery-1-1b6b1a3a16da-640.avif",
@@ -301,10 +293,9 @@
       "kittingTypes": [
         "Accent - Vim"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Oblivion Vim 이미지 1",
+          "alt": "GMK CYL Oblivion Vim 이미지 1",
           "variants": [
             {
               "src": "/media/oblivion/kit-242c744529ec40b9-source-gallery-0-0d5cb6326aae-640.avif",
@@ -328,7 +319,7 @@
   ],
   "images": [
     {
-      "alt": "Oblivion 이미지 1",
+      "alt": "GMK CYL Oblivion 이미지 1",
       "variants": [
         {
           "src": "/media/oblivion/series-43b85174cc36c52d-source-gallery-0-19da11a81cee-640.avif",
@@ -348,7 +339,7 @@
       ]
     },
     {
-      "alt": "Oblivion 이미지 2",
+      "alt": "GMK CYL Oblivion 이미지 2",
       "variants": [
         {
           "src": "/media/oblivion/series-43b85174cc36c52d-source-gallery-1-ff11086f632a-640.avif",
@@ -368,7 +359,7 @@
       ]
     },
     {
-      "alt": "Oblivion 이미지 3",
+      "alt": "GMK CYL Oblivion 이미지 3",
       "variants": [
         {
           "src": "/media/oblivion/series-43b85174cc36c52d-source-gallery-2-c44278a0a7c7-640.avif",
@@ -388,7 +379,7 @@
       ]
     },
     {
-      "alt": "Oblivion 이미지 4",
+      "alt": "GMK CYL Oblivion 이미지 4",
       "variants": [
         {
           "src": "/media/oblivion/series-43b85174cc36c52d-source-gallery-3-49c4a0124c89-640.avif",

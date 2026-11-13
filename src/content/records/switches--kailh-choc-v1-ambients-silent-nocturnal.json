@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v1-ambients-silent-nocturnal",
+  "title": "Kailh Choc v1 Ambients Silent Nocturnal",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v1",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 4,
+      "spring": {
+        "resolution": "selected",
+        "name": "Kailh Factory 20g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g ± 5g",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v1 Ambients Silent Nocturnal 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-nocturnal/6a3087899b390214-de82518805c4-source-gallery-0-c247ae36298a-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/kailh-choc-v1-ambients-silent-nocturnal/6a3087899b390214-de82518805c4-source-gallery-0-c247ae36298a-1280.avif",
+              "width": 1024,
+              "height": 1024
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v1 Ambients Silent Nocturnal 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-nocturnal/6a3087899b390214-de82518805c4-source-gallery-0-c247ae36298a-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-choc-v1-ambients-silent-nocturnal/6a3087899b390214-de82518805c4-source-gallery-0-c247ae36298a-1280.avif",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  ]
+}

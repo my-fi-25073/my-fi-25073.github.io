@@ -1,21 +1,19 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "aiguoxin-beat-lemon",
   "title": "Aiguoxin Beat Lemon",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": null,
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 1,
-      "manufacturer": "Unknown",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Linear"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 42g",
@@ -25,7 +23,39 @@
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Aiguoxin Beat Lemon 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-640.avif",
+              "width": 569,
+              "height": 476
+            }
+          ]
+        },
+        {
+          "alt": "Aiguoxin Beat Lemon 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-640.avif",
+              "width": 565,
+              "height": 602
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,7 +64,7 @@
       "alt": "Aiguoxin Beat Lemon 사진 1",
       "variants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/ad5718a97b0c7260-source-gallery-0-8b8f6adac38e-640.avif",
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-640.avif",
           "width": 569,
           "height": 476
         }
@@ -44,7 +74,7 @@
       "alt": "Aiguoxin Beat Lemon 사진 2",
       "variants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/ad5718a97b0c7260-source-gallery-1-412698dfdc44-640.avif",
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-640.avif",
           "width": 565,
           "height": 602
         }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "wob-extra",
-  "title": "WoB Extra",
+  "title": "GMK CYL WoB Extra",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Modifier - Obscure"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra Colorchorome Black 40s Mod 이미지 1",
+          "alt": "GMK CYL WoB Extra Colorchorome Black 40s Mod 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Modifier - Obscure"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra JIS Extension 이미지 1",
+          "alt": "GMK CYL WoB Extra JIS Extension 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-1c70e596490271d2-source-gallery-0-9b99a16624fb-640.avif",
@@ -85,10 +83,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra Mictlan Space Bar 이미지 1",
+          "alt": "GMK CYL WoB Extra Mictlan Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-dd6056e9c61a16c7-source-gallery-0-091b3bee3054-640.avif",
@@ -115,10 +112,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra Mictlan Space Bar 이미지 1",
+          "alt": "GMK CYL WoB Extra Mictlan Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-e4dc86f1db228e38-source-gallery-0-091b3bee3054-640.avif",
@@ -145,10 +141,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra WoB Base (Drop) 이미지 1",
+          "alt": "GMK CYL WoB Extra WoB Base (Drop) 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-640.avif",
@@ -175,10 +170,9 @@
       "kittingTypes": [
         "Modifier - Icon"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra WoB Red Cyrilic Icon Mod 이미지 1",
+          "alt": "GMK CYL WoB Extra WoB Red Cyrilic Icon Mod 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-640.avif",
@@ -200,10 +194,9 @@
       "kittingTypes": [
         "Alpha - Swiss"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "WoB Extra WoB Swiss Add on 이미지 1",
+          "alt": "GMK CYL WoB Extra WoB Swiss Add on 이미지 1",
           "variants": [
             {
               "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-640.avif",
@@ -227,7 +220,7 @@
   ],
   "images": [
     {
-      "alt": "WoB Extra 이미지 1",
+      "alt": "GMK CYL WoB Extra 이미지 1",
       "variants": [
         {
           "src": "/media/wob-extra/series-29c66d87ff9c001c-source-gallery-0-e2360e613634-640.avif",

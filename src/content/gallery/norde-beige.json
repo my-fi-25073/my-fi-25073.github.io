@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "norde-beige",
-  "title": "Norde Beige",
+  "title": "GMK CYL Norde Beige",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,10 +26,9 @@
         "Base - Standard",
         "Alpha - Norde"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Norde Beige Base 이미지 1",
+          "alt": "GMK CYL Norde Beige Base 이미지 1",
           "variants": [
             {
               "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-0-41b818963d7f-640.avif",
@@ -49,7 +48,7 @@
           ]
         },
         {
-          "alt": "Norde Beige Base 이미지 2",
+          "alt": "GMK CYL Norde Beige Base 이미지 2",
           "variants": [
             {
               "src": "/media/norde-beige/kit-c99517ae37c54e01-source-gallery-1-cfc650b25f97-640.avif",
@@ -73,7 +72,7 @@
   ],
   "images": [
     {
-      "alt": "Norde Beige 이미지 1",
+      "alt": "GMK CYL Norde Beige 이미지 1",
       "variants": [
         {
           "src": "/media/norde-beige/series-e300f350364df51f-source-gallery-0-2740a8915276-640.avif",

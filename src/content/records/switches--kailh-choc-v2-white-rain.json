@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-white-rain",
+  "title": "Kailh Choc v2 White Rain",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 10g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 White Rain 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-0-3be5a6da9274-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-0-3be5a6da9274-1280.avif",
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 White Rain 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-640.avif",
+              "width": 640,
+              "height": 431
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-1280.avif",
+              "width": 1280,
+              "height": 862
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-2400.avif",
+              "width": 1897,
+              "height": 1278
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 White Rain 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-0-3be5a6da9274-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-0-3be5a6da9274-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 White Rain 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-640.avif",
+          "width": 640,
+          "height": 431
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-1280.avif",
+          "width": 1280,
+          "height": 862
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-white-rain/332ae910928eb43d-b42d46b81a91-source-gallery-1-8182a5c96f08-2400.avif",
+          "width": 1897,
+          "height": 1278
+        }
+      ]
+    }
+  ]
+}

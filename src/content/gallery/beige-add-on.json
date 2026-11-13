@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "beige-add-on",
-  "title": "Beige Add On ",
+  "title": "GMK CYL Beige Add On",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Accent - RGB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  2002  이미지 1",
+          "alt": "GMK CYL Beige Add On 2002  이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Modifier - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  40s 이미지 1",
+          "alt": "GMK CYL Beige Add On 40s 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-640.avif",
@@ -85,10 +83,9 @@
       "kittingTypes": [
         "Modifier - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  40s 이미지 1",
+          "alt": "GMK CYL Beige Add On 40s 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-8938fbc8f457c8eb-source-gallery-0-fdf9c7013ab2-640.avif",
@@ -115,10 +112,9 @@
       "kittingTypes": [
         "Modifier - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  40s 이미지 1",
+          "alt": "GMK CYL Beige Add On 40s 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-8598616255b076a6-source-gallery-0-6a3856929b81-640.avif",
@@ -145,10 +141,9 @@
       "kittingTypes": [
         "Modifier - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  40s 이미지 1",
+          "alt": "GMK CYL Beige Add On 40s 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-640.avif",
@@ -176,10 +171,9 @@
         "Accent - Vim",
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  Addition 이미지 1",
+          "alt": "GMK CYL Beige Add On Addition 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-ad7dee749b6f6213-source-gallery-0-5fa44297a16f-640.avif",
@@ -207,10 +201,9 @@
         "Accent - Vim",
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  Addition 이미지 1",
+          "alt": "GMK CYL Beige Add On Addition 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-9de483597dc4dc67-source-gallery-0-ec7e0bb7345a-640.avif",
@@ -232,10 +225,9 @@
       "kittingTypes": [
         "Accent - CMY"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  CMYK 이미지 1",
+          "alt": "GMK CYL Beige Add On CMYK 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-640.avif",
@@ -258,10 +250,9 @@
         "Child - Row 0",
         "Child - Row 5"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  R0 & R5 이미지 1",
+          "alt": "GMK CYL Beige Add On R0 & R5 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-694b09bbe5e0f4f5-source-gallery-0-a42ccddff03e-640.avif",
@@ -288,10 +279,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Beige Add On  Space Bars 이미지 1",
+          "alt": "GMK CYL Beige Add On Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-640.avif",
@@ -310,7 +300,7 @@
   ],
   "images": [
     {
-      "alt": "Beige Add On  이미지 1",
+      "alt": "GMK CYL Beige Add On 이미지 1",
       "variants": [
         {
           "src": "/media/beige-add-on/series-5df79314ab59c98b-source-gallery-0-cb73e77df04c-640.avif",

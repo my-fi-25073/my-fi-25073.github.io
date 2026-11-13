@@ -1,8 +1,8 @@
-<dialog class="lightbox" data-lightbox aria-label="이미지 확대 보기">
+<dialog class="lightbox" data-lightbox aria-label="사진 크게 보기">
   <form method="dialog">
-    <button class="lightbox-close" aria-label="확대 보기 닫기">×</button>
+    <button class="lightbox-close" aria-label="닫기">×</button>
   </form>
-  <button class="lightbox-nav is-prev" type="button" data-lightbox-prev aria-label="이전 이미지">←</button>
+  <button class="lightbox-nav is-prev" type="button" data-lightbox-prev aria-label="이전 사진">←</button>
   <figure>
     <img data-lightbox-image alt="" />
     <figcaption>
@@ -10,7 +10,7 @@
       <span data-lightbox-caption></span>
     </figcaption>
   </figure>
-  <button class="lightbox-nav is-next" type="button" data-lightbox-next aria-label="다음 이미지">→</button>
+  <button class="lightbox-nav is-next" type="button" data-lightbox-next aria-label="다음 사진">→</button>
 </dialog>
 
 <script>
@@ -24,25 +24,32 @@
     const next = dialog.querySelector('[data-lightbox-next]');
     let current = 0;
     let origin: HTMLElement | null = null;
+    let activeTriggers: HTMLElement[] = [];
 
     const render = () => {
-      const trigger = triggers[current];
+      const trigger = activeTriggers[current];
       if (!(trigger instanceof HTMLElement) || !(image instanceof HTMLImageElement)) return;
       image.src = trigger.dataset.full ?? '';
       image.alt = trigger.dataset.alt ?? '';
       if (caption) caption.textContent = trigger.dataset.caption ?? '';
-      if (count) count.textContent = `${current + 1} / ${triggers.length}`;
+      if (count) count.textContent = activeTriggers.length > 1
+        ? `${current + 1} / ${activeTriggers.length}`
+        : '';
       if (previous instanceof HTMLButtonElement) previous.disabled = current === 0;
-      if (next instanceof HTMLButtonElement) next.disabled = current === triggers.length - 1;
+      if (next instanceof HTMLButtonElement) next.disabled = current === activeTriggers.length - 1;
     };
     const move = (amount: number) => {
-      current = Math.max(0, Math.min(triggers.length - 1, current + amount));
+      current = Math.max(0, Math.min(activeTriggers.length - 1, current + amount));
       render();
     };
 
-    triggers.forEach((trigger, index) => {
+    triggers.forEach((trigger) => {
       trigger.addEventListener('click', () => {
-        current = index;
+        const gallery = trigger.closest('[data-image-gallery]');
+        activeTriggers = gallery
+          ? [...gallery.querySelectorAll<HTMLElement>('[data-lightbox-open]')]
+          : [trigger];
+        current = activeTriggers.indexOf(trigger);
         origin = trigger;
         render();
         dialog.showModal();

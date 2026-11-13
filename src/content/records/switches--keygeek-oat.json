@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-oat",
+  "title": "Keygeek Oat",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 45g",
+        "status": null,
+        "specifications": {
+          "initial_force": "36g",
+          "bottom_out_force": "45g",
+          "length": "22mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Oat 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-0-b608e3c3d416-640.avif",
+              "width": 640,
+              "height": 512
+            },
+            {
+              "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-0-b608e3c3d416-1280.avif",
+              "width": 732,
+              "height": 586
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Oat 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-640.avif",
+              "width": 640,
+              "height": 755
+            },
+            {
+              "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-1280.avif",
+              "width": 1280,
+              "height": 1510
+            },
+            {
+              "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-2400.avif",
+              "width": 1289,
+              "height": 1521
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Oat 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-0-b608e3c3d416-640.avif",
+          "width": 640,
+          "height": 512
+        },
+        {
+          "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-0-b608e3c3d416-1280.avif",
+          "width": 732,
+          "height": 586
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Oat 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-640.avif",
+          "width": 640,
+          "height": 755
+        },
+        {
+          "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-1280.avif",
+          "width": 1280,
+          "height": 1510
+        },
+        {
+          "src": "/media/switches/keygeek-oat/cd0f1a784eb1d38f-b212c3250e16-source-gallery-1-c5991267830a-2400.avif",
+          "width": 1289,
+          "height": 1521
+        }
+      ]
+    }
+  ]
+}

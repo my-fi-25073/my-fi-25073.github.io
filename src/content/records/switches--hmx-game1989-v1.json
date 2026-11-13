@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-game1989-v1",
+  "title": "HMX Game1989 v1",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 53g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "45g ± 5g",
+          "bottom_out_force": "53g ± 5g",
+          "length": "22mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Game1989 v1 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-0-083ca046e5c8-640.avif",
+              "width": 640,
+              "height": 500
+            },
+            {
+              "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-0-083ca046e5c8-1280.avif",
+              "width": 1226,
+              "height": 957
+            }
+          ]
+        },
+        {
+          "alt": "HMX Game1989 v1 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-1-36de7e0b916f-640.avif",
+              "width": 629,
+              "height": 554
+            }
+          ]
+        },
+        {
+          "alt": "HMX Game1989 v1 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-2-4b7ac6c39c44-640.avif",
+              "width": 640,
+              "height": 439
+            },
+            {
+              "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-2-4b7ac6c39c44-1280.avif",
+              "width": 1218,
+              "height": 836
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Game1989 v1 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-0-083ca046e5c8-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-0-083ca046e5c8-1280.avif",
+          "width": 1226,
+          "height": 957
+        }
+      ]
+    },
+    {
+      "alt": "HMX Game1989 v1 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-1-36de7e0b916f-640.avif",
+          "width": 629,
+          "height": 554
+        }
+      ]
+    },
+    {
+      "alt": "HMX Game1989 v1 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-2-4b7ac6c39c44-640.avif",
+          "width": 640,
+          "height": 439
+        },
+        {
+          "src": "/media/switches/hmx-game1989-v1/309195297a403a86-ce6fe47ddb56-source-gallery-2-4b7ac6c39c44-1280.avif",
+          "width": 1218,
+          "height": 836
+        }
+      ]
+    }
+  ]
+}

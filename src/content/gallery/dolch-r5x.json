@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dolch-r5x",
-  "title": "Dolch R5X",
+  "title": "GMK CYL Dolch R5X",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X Base 이미지 1",
+          "alt": "GMK CYL Dolch R5X Base 이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-0-4be8f726fc98-640.avif",
@@ -48,7 +47,7 @@
           ]
         },
         {
-          "alt": "Dolch R5X Base 이미지 2",
+          "alt": "GMK CYL Dolch R5X Base 이미지 2",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-1-db81bac10e9a-640.avif",
@@ -75,10 +74,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X Monochrome Extension 이미지 1",
+          "alt": "GMK CYL Dolch R5X Monochrome Extension 이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-640.avif",
@@ -105,10 +103,9 @@
       "kittingTypes": [
         "Child - Novelties"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X Monochrome Novelty 이미지 1",
+          "alt": "GMK CYL Dolch R5X Monochrome Novelty 이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-source-gallery-0-7cf4c2acba38-640.avif",
@@ -135,10 +132,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5 Extension  이미지 1",
+          "alt": "GMK CYL Dolch R5X R5 Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-e8a31db777ce2b24-source-gallery-0-4116202a2a66-640.avif",
@@ -160,10 +156,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5X Extension  이미지 1",
+          "alt": "GMK CYL Dolch R5X R5X Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-7ec535a165a472f0-source-gallery-0-b19314d36bbf-640.avif",
@@ -190,10 +185,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Dolch R5X R5X Extension  이미지 1",
+          "alt": "GMK CYL Dolch R5X R5X Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-03a1deab85563307-source-gallery-0-e3f1ee4f4cab-640.avif",
@@ -217,7 +211,7 @@
   ],
   "images": [
     {
-      "alt": "Dolch R5X 이미지 1",
+      "alt": "GMK CYL Dolch R5X 이미지 1",
       "variants": [
         {
           "src": "/media/dolch-r5x/series-e9b043baa19a29fe-source-gallery-0-cdb5c89989b7-640.avif",

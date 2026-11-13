@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "verdant-retro",
-  "title": "Verdant Retro",
+  "title": "GMK CYL Verdant Retro",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Verdant Retro Base 이미지 1",
+          "alt": "GMK CYL Verdant Retro Base 이미지 1",
           "variants": [
             {
               "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-0-20c04e8cb8b5-640.avif",
@@ -48,7 +47,7 @@
           ]
         },
         {
-          "alt": "Verdant Retro Base 이미지 2",
+          "alt": "GMK CYL Verdant Retro Base 이미지 2",
           "variants": [
             {
               "src": "/media/verdant-retro/kit-1bd198f8a35e6a3d-source-gallery-1-75f5b992289e-640.avif",
@@ -72,7 +71,7 @@
   ],
   "images": [
     {
-      "alt": "Verdant Retro 이미지 1",
+      "alt": "GMK CYL Verdant Retro 이미지 1",
       "variants": [
         {
           "src": "/media/verdant-retro/series-a360441cbbbd82f2-source-gallery-0-f9759e61066d-640.avif",

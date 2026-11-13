@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mt3-dusk",
-  "title": "MT3 Dusk",
+  "title": "Drop Dusk",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent - Vim"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "MT3 Dusk Accents 이미지 1",
+          "alt": "Drop Dusk Accents 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-640.avif",
@@ -48,10 +47,9 @@
       "kittingTypes": [
         "Base - Simple"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "MT3 Dusk Base 이미지 1",
+          "alt": "Drop Dusk Base 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-dusk/kit-a776b2256754634c-source-gallery-0-89ccbc609b15-640.avif",
@@ -73,10 +71,9 @@
       "kittingTypes": [
         "Child - Extension"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "MT3 Dusk Hobbyist 이미지 1",
+          "alt": "Drop Dusk Hobbyist 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-dusk/kit-213e8b941b3170b3-source-gallery-0-2240bebaaefd-640.avif",
@@ -98,10 +95,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "MT3 Dusk Spacebars 이미지 1",
+          "alt": "Drop Dusk Spacebars 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-dusk/kit-491a8988a9950be9-source-gallery-0-27bcdce9f09a-640.avif",
@@ -120,7 +116,7 @@
   ],
   "images": [
     {
-      "alt": "MT3 Dusk 이미지 1",
+      "alt": "Drop Dusk 이미지 1",
       "variants": [
         {
           "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-0-4902c8937db6-640.avif",
@@ -135,7 +131,7 @@
       ]
     },
     {
-      "alt": "MT3 Dusk 이미지 2",
+      "alt": "Drop Dusk 이미지 2",
       "variants": [
         {
           "src": "/media/mt3-dusk/series-da4290effced3e88-source-gallery-1-6c7c04847f4d-640.avif",

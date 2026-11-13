@@ -32,49 +32,49 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Classic Beige (GMK)",
+        "title": "GMK CYL Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "kit",
-        "title": "5u Space Bar",
+        "title": "SP Space Bars · 5u Space Bar",
         "quantity": null,
         "href": "/gallery/dcs-space-bars/#5u-space-bar"
       },
       {
         "kind": "series",
-        "title": "BAE Add On",
+        "title": "GMK CYL BAE Add On",
         "quantity": null,
         "href": "/gallery/bae-add-on/"
       },
       {
         "kind": "series",
-        "title": "Verdant Retro",
+        "title": "GMK CYL Verdant Retro",
         "quantity": null,
         "href": "/gallery/verdant-retro/"
       },
       {
         "kind": "series",
-        "title": "Classic Beige (SPC)",
+        "title": "GMK CYL Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Norde Beige",
+        "title": "GMK CYL Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       }
@@ -83,12 +83,6 @@
       {
         "title": "MX2A Nixie",
         "href": "/switches/mx2a-nixie/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Swagkey",
-        "href": "/vendors/swagkey/"
       }
     ]
   },

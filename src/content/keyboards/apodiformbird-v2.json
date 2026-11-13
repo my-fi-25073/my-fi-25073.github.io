@@ -14,7 +14,7 @@
     "썸클러스터"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "2x3"
   ],
@@ -32,21 +32,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "PBS Blanks Black",
+        "title": "Keyreative Blanks Black",
         "quantity": null,
         "href": "/gallery/pbs-blanks-black/"
       }
     ],
     "switches": [
       {
-        "title": "Drop Holy Panda X",
-        "href": "/switches/drop-holy-panda-x/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "Gateron Drop Holy Panda X",
+        "href": "/switches/gateron-drop-holy-panda-x/"
       }
     ]
   },

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-lofree-wizard",
+  "title": "Kailh Choc v2 Lofree Wizard",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 10g",
+          "length": "15.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Wizard 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-0-914dc97ffa50-640.avif",
+              "width": 459,
+              "height": 408
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Wizard 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-1-248b01213f6a-640.avif",
+              "width": 640,
+              "height": 1361
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-1-248b01213f6a-1280.avif",
+              "width": 963,
+              "height": 2048
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Lofree Wizard 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-0-914dc97ffa50-640.avif",
+          "width": 459,
+          "height": 408
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Wizard 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-1-248b01213f6a-640.avif",
+          "width": 640,
+          "height": 1361
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-wizard/f6597c348812b839-f0fddd813d91-source-gallery-1-248b01213f6a-1280.avif",
+          "width": 963,
+          "height": 2048
+        }
+      ]
+    }
+  ]
+}

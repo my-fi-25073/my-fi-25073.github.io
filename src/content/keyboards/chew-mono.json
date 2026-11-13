@@ -15,7 +15,7 @@
     "스플레이"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "3x5"
   ],
@@ -34,21 +34,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "KLP Custom Transparent Blanks",
+        "title": "JLC Blanks · KLP Custom Transparent Blanks",
         "quantity": null,
         "href": "/gallery/klp-blanks/#klp-custom-transparent-blanks"
       }
     ],
     "switches": [
       {
-        "title": "Sunset Tactile",
-        "href": "/switches/sunset-tactile/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "Kailh Choc v1 Sunset Tactile",
+        "href": "/switches/kailh-choc-v1-sunset-tactile/"
       }
     ]
   },

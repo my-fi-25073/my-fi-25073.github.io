@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-wind-light",
+  "title": "HMX Wind Light",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Wind Light 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-0-3b99ff4cb13c-640.avif",
+              "width": 640,
+              "height": 448
+            },
+            {
+              "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-0-3b99ff4cb13c-1280.avif",
+              "width": 1125,
+              "height": 787
+            }
+          ]
+        },
+        {
+          "alt": "HMX Wind Light 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-640.avif",
+              "width": 640,
+              "height": 517
+            },
+            {
+              "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-1280.avif",
+              "width": 1280,
+              "height": 1034
+            },
+            {
+              "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-2400.avif",
+              "width": 1392,
+              "height": 1125
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Wind Light 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-0-3b99ff4cb13c-640.avif",
+          "width": 640,
+          "height": 448
+        },
+        {
+          "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-0-3b99ff4cb13c-1280.avif",
+          "width": 1125,
+          "height": 787
+        }
+      ]
+    },
+    {
+      "alt": "HMX Wind Light 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-640.avif",
+          "width": 640,
+          "height": 517
+        },
+        {
+          "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-1280.avif",
+          "width": 1280,
+          "height": 1034
+        },
+        {
+          "src": "/media/switches/hmx-wind-light/4a48382edc23994a-c70a0480a742-source-gallery-1-a86f21eb7a86-2400.avif",
+          "width": 1392,
+          "height": 1125
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-brown-black",
+  "title": "Gateron LP Brown Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "55g ± 15g",
+          "length": "13.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP Brown Black 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-brown-black/e4e69ae84bfacc02-f5ccc2a9afa8-source-gallery-0-cf315ec14c17-640.avif",
+              "width": 459,
+              "height": 428
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP Brown Black 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-brown-black/e4e69ae84bfacc02-f5ccc2a9afa8-source-gallery-1-f6310db2efcc-640.avif",
+              "width": 403,
+              "height": 341
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP Brown Black 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-brown-black/e4e69ae84bfacc02-f5ccc2a9afa8-source-gallery-0-cf315ec14c17-640.avif",
+          "width": 459,
+          "height": 428
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP Brown Black 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-brown-black/e4e69ae84bfacc02-f5ccc2a9afa8-source-gallery-1-f6310db2efcc-640.avif",
+          "width": 403,
+          "height": 341
+        }
+      ]
+    }
+  ]
+}

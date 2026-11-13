@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-mz-y1x",
+  "title": "Keygeek MZ y1x",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 37g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "37g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek MZ y1x 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-640.avif",
+              "width": 640,
+              "height": 529
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-1280.avif",
+              "width": 1064,
+              "height": 880
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek MZ y1x 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-640.avif",
+              "width": 640,
+              "height": 542
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-1280.avif",
+              "width": 1280,
+              "height": 1084
+            },
+            {
+              "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-2400.avif",
+              "width": 1342,
+              "height": 1137
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek MZ y1x 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-1280.avif",
+          "width": 1064,
+          "height": 880
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek MZ y1x 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-640.avif",
+          "width": 640,
+          "height": 542
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-1280.avif",
+          "width": 1280,
+          "height": 1084
+        },
+        {
+          "src": "/media/switches/keygeek-mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-2400.avif",
+          "width": 1342,
+          "height": 1137
+        }
+      ]
+    }
+  ]
+}

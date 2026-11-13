@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-light-sakura",
+  "title": "Bsun Light Sakura",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 43g",
+        "status": "partial",
+        "specifications": {
+          "length": "21mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Light Sakura 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-1280.avif",
+              "width": 738,
+              "height": 481
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Light Sakura 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-640.avif",
+              "width": 640,
+              "height": 441
+            },
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-1280.avif",
+              "width": 840,
+              "height": 579
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Light Sakura 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-640.avif",
+          "width": 640,
+          "height": 417
+        },
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-1280.avif",
+          "width": 738,
+          "height": 481
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Light Sakura 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-1280.avif",
+          "width": 840,
+          "height": 579
+        }
+      ]
+    }
+  ]
+}

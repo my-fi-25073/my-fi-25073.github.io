@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-snow-crash",
+  "title": "HMX Snow Crash",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 58g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "58g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Snow Crash 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-0-af08d50e02b2-640.avif",
+              "width": 640,
+              "height": 507
+            },
+            {
+              "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-0-af08d50e02b2-1280.avif",
+              "width": 1099,
+              "height": 871
+            }
+          ]
+        },
+        {
+          "alt": "HMX Snow Crash 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-640.avif",
+              "width": 640,
+              "height": 602
+            },
+            {
+              "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-1280.avif",
+              "width": 1280,
+              "height": 1204
+            },
+            {
+              "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-2400.avif",
+              "width": 1315,
+              "height": 1237
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Snow Crash 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-0-af08d50e02b2-640.avif",
+          "width": 640,
+          "height": 507
+        },
+        {
+          "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-0-af08d50e02b2-1280.avif",
+          "width": 1099,
+          "height": 871
+        }
+      ]
+    },
+    {
+      "alt": "HMX Snow Crash 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-640.avif",
+          "width": 640,
+          "height": 602
+        },
+        {
+          "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-1280.avif",
+          "width": 1280,
+          "height": 1204
+        },
+        {
+          "src": "/media/switches/hmx-snow-crash/91f78df8ae864234-5aebe75327da-source-gallery-1-56a98549fcbf-2400.avif",
+          "width": 1315,
+          "height": 1237
+        }
+      ]
+    }
+  ]
+}

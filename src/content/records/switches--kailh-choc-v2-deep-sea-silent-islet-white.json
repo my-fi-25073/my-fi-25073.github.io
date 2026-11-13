@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-deep-sea-silent-islet-white",
+  "title": "Kailh Choc v2 Deep Sea Silent Islet White",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "20g",
+      "rating": 5,
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 20g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20g",
+          "length": "11.75mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-0-cd0f872e7a73-640.avif",
+              "width": 640,
+              "height": 461
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-0-cd0f872e7a73-1280.avif",
+              "width": 1154,
+              "height": 832
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-1-92c3a96ab814-640.avif",
+              "width": 640,
+              "height": 953
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-1-92c3a96ab814-1280.avif",
+              "width": 1054,
+              "height": 1569
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "공장 윤활",
+      "rating": 4,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "unresolved"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-a6b5a673c75d-source-gallery-0-cd0f872e7a73-640.avif",
+              "width": 640,
+              "height": 461
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-a6b5a673c75d-source-gallery-0-cd0f872e7a73-1280.avif",
+              "width": 1154,
+              "height": 832
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-a6b5a673c75d-source-gallery-1-92c3a96ab814-640.avif",
+              "width": 640,
+              "height": 953
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-a6b5a673c75d-source-gallery-1-92c3a96ab814-1280.avif",
+              "width": 1054,
+              "height": 1569
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-0-cd0f872e7a73-640.avif",
+          "width": 640,
+          "height": 461
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-0-cd0f872e7a73-1280.avif",
+          "width": 1154,
+          "height": 832
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Deep Sea Silent Islet White 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-1-92c3a96ab814-640.avif",
+          "width": 640,
+          "height": 953
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-deep-sea-silent-islet-white/c97b8ec300f6396a-6ec569fee3c4-source-gallery-1-92c3a96ab814-1280.avif",
+          "width": 1054,
+          "height": 1569
+        }
+      ]
+    }
+  ]
+}

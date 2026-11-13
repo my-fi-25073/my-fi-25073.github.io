@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-hades-v2",
+  "title": "HMX Hades V2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Hades V2 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
+              "width": 640,
+              "height": 457
+            },
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-1280.avif",
+              "width": 924,
+              "height": 660
+            }
+          ]
+        },
+        {
+          "alt": "HMX Hades V2 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
+              "width": 640,
+              "height": 437
+            },
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-1280.avif",
+              "width": 1279,
+              "height": 874
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Hades V2 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-1280.avif",
+          "width": 924,
+          "height": 660
+        }
+      ]
+    },
+    {
+      "alt": "HMX Hades V2 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-1280.avif",
+          "width": 1279,
+          "height": 874
+        }
+      ]
+    }
+  ]
+}

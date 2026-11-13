@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-geon-raw-zero",
+  "title": "Bsun Geon Raw Zero",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Geon 14mm 45g · 스템 공장 윤활 · 스프링 Krytox GPL 105",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Geon 14mm 45g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "45g",
+          "length": "14mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Geon Raw Zero 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-0-0b7a8b11a3b3-640.avif",
+              "width": 640,
+              "height": 447
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-0-0b7a8b11a3b3-1280.avif",
+              "width": 1032,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Geon Raw Zero 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-640.avif",
+              "width": 640,
+              "height": 530
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-1280.avif",
+              "width": 1280,
+              "height": 1061
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-2400.avif",
+              "width": 1354,
+              "height": 1122
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "SW Classic 50g · 스템 공장 윤활 · 스프링 Krytox GPL 105",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "SW Classic 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "14.5mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Geon Raw Zero 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-25c9be48ac84-source-gallery-0-0b7a8b11a3b3-640.avif",
+              "width": 640,
+              "height": 447
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-25c9be48ac84-source-gallery-0-0b7a8b11a3b3-1280.avif",
+              "width": 1032,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Geon Raw Zero 사진 4",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-25c9be48ac84-source-gallery-1-74685f2c32a7-640.avif",
+              "width": 640,
+              "height": 530
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-25c9be48ac84-source-gallery-1-74685f2c32a7-1280.avif",
+              "width": 1280,
+              "height": 1061
+            },
+            {
+              "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-25c9be48ac84-source-gallery-1-74685f2c32a7-2400.avif",
+              "width": 1354,
+              "height": 1122
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Geon Raw Zero 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-0-0b7a8b11a3b3-640.avif",
+          "width": 640,
+          "height": 447
+        },
+        {
+          "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-0-0b7a8b11a3b3-1280.avif",
+          "width": 1032,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Geon Raw Zero 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-640.avif",
+          "width": 640,
+          "height": 530
+        },
+        {
+          "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-1280.avif",
+          "width": 1280,
+          "height": 1061
+        },
+        {
+          "src": "/media/switches/bsun-geon-raw-zero/cd9ef56eb96145c0-57d796055649-source-gallery-1-74685f2c32a7-2400.avif",
+          "width": 1354,
+          "height": 1122
+        }
+      ]
+    }
+  ]
+}

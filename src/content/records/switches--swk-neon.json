@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "swk-neon",
+  "title": "SWK Neon",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "SWK Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "19.4mm",
+          "spring_stage": "dual-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "SWK Neon 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-0-f69144ac81e1-640.avif",
+              "width": 640,
+              "height": 526
+            },
+            {
+              "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-0-f69144ac81e1-1280.avif",
+              "width": 1203,
+              "height": 989
+            }
+          ]
+        },
+        {
+          "alt": "SWK Neon 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-640.avif",
+              "width": 640,
+              "height": 668
+            },
+            {
+              "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-1280.avif",
+              "width": 1280,
+              "height": 1336
+            },
+            {
+              "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-2400.avif",
+              "width": 1406,
+              "height": 1468
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "SWK Neon 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-0-f69144ac81e1-640.avif",
+          "width": 640,
+          "height": 526
+        },
+        {
+          "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-0-f69144ac81e1-1280.avif",
+          "width": 1203,
+          "height": 989
+        }
+      ]
+    },
+    {
+      "alt": "SWK Neon 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-640.avif",
+          "width": 640,
+          "height": 668
+        },
+        {
+          "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-1280.avif",
+          "width": 1280,
+          "height": 1336
+        },
+        {
+          "src": "/media/switches/swk-neon/6a98b1f53566af1f-0eda86e2851b-source-gallery-1-b805877ed806-2400.avif",
+          "width": 1406,
+          "height": 1468
+        }
+      ]
+    }
+  ]
+}

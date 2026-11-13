@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "keygeek-blue-cheese",
+  "title": "Keygeek Blue Cheese",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Keygeek Blue Cheese 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-0-839b2fc1d20c-640.avif",
+              "width": 640,
+              "height": 556
+            },
+            {
+              "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-0-839b2fc1d20c-1280.avif",
+              "width": 740,
+              "height": 643
+            }
+          ]
+        },
+        {
+          "alt": "Keygeek Blue Cheese 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-1-40946b653929-640.avif",
+              "width": 640,
+              "height": 552
+            },
+            {
+              "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-1-40946b653929-1280.avif",
+              "width": 854,
+              "height": 736
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Keygeek Blue Cheese 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-0-839b2fc1d20c-640.avif",
+          "width": 640,
+          "height": 556
+        },
+        {
+          "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-0-839b2fc1d20c-1280.avif",
+          "width": 740,
+          "height": 643
+        }
+      ]
+    },
+    {
+      "alt": "Keygeek Blue Cheese 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-1-40946b653929-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/switches/keygeek-blue-cheese/1f2f343f223f151e-ebc138e4b93e-source-gallery-1-40946b653929-1280.avif",
+          "width": 854,
+          "height": 736
+        }
+      ]
+    }
+  ]
+}

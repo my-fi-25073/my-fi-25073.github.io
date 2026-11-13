@@ -32,25 +32,25 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Any Key",
+        "title": "GMK CYL Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
-        "title": "Beige Add On ",
+        "title": "GMK CYL Beige Add On",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "Black Snail",
+        "title": "GMK CYL Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "UwU Macro Add On",
+        "title": "GMK CYL UwU Macro Add On",
         "quantity": null,
         "href": "/gallery/uwu-macro-add-on/"
       }
@@ -59,12 +59,6 @@
       {
         "title": "MX2A Black",
         "href": "/switches/mx2a-black/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Geonworks",
-        "href": "/vendors/geonworks/"
       }
     ]
   },

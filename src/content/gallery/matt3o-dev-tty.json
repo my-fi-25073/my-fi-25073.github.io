@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "matt3o-dev-tty",
-  "title": "Matt3o /dev/tty",
+  "title": "Drop MT3 Matt3o /dev/tty",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty dev/tty Lost + Found 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty dev/tty Lost + Found 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-7ed811408db17dbf-source-gallery-0-e2e0b14321e4-640.avif",
@@ -48,10 +47,9 @@
       "kittingTypes": [
         "Base - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty dev/tty Ortho Base 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty dev/tty Ortho Base 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-22faed7129048688-source-gallery-0-8bb4656d619b-640.avif",
@@ -73,10 +71,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Small Spacebars 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Small Spacebars 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-29dda889268a5ab7-source-gallery-0-a5c489d1cbff-640.avif",
@@ -98,10 +95,9 @@
       "kittingTypes": [
         "Modifier - Mac"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Triumph Apple 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Triumph Apple 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-9cfb173a25e16aad-source-gallery-0-52f2e168d8ea-640.avif",
@@ -123,10 +119,9 @@
       "kittingTypes": [
         "Base - Simple"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Triumph Base 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Triumph Base 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-7a2926961d2deb7f-source-gallery-0-e5ac285ce931-640.avif",
@@ -148,10 +143,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Triumph Lost + Found 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Triumph Lost + Found 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-662d7358b64fbe04-source-gallery-0-a7ff3aabd314-640.avif",
@@ -173,10 +167,9 @@
       "kittingTypes": [
         "Child - Numpad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Triumph Numpad 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Triumph Numpad 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-4c1ad91fc2f372a6-source-gallery-0-7afa33c74791-640.avif",
@@ -198,10 +191,9 @@
       "kittingTypes": [
         "Accent - RGB"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Matt3o /dev/tty Unicorn Barf 이미지 1",
+          "alt": "Drop MT3 Matt3o /dev/tty Unicorn Barf 이미지 1",
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-d2ea6bfd33d315ef-source-gallery-0-d07d057a3979-640.avif",
@@ -220,7 +212,7 @@
   ],
   "images": [
     {
-      "alt": "Matt3o /dev/tty 이미지 1",
+      "alt": "Drop MT3 Matt3o /dev/tty 이미지 1",
       "variants": [
         {
           "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-0-4902c8937db6-640.avif",
@@ -235,7 +227,7 @@
       ]
     },
     {
-      "alt": "Matt3o /dev/tty 이미지 2",
+      "alt": "Drop MT3 Matt3o /dev/tty 이미지 2",
       "variants": [
         {
           "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-640.avif",

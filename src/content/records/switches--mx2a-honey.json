@@ -1,32 +1,82 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "mx2a-honey",
   "title": "MX2A Honey",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Silent",
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 0,
-      "manufacturer": "Cherry",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Tactile",
-        "Silent"
-      ],
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 58g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "30 cN",
+          "actuation_force": "45 cN",
+          "final_force": "110 cN"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX2A Honey 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-0-1d621c5df492-640.avif",
+              "width": 640,
+              "height": 558
+            },
+            {
+              "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-0-1d621c5df492-1280.avif",
+              "width": 1219,
+              "height": 1063
+            }
+          ]
+        },
+        {
+          "alt": "MX2A Honey 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-640.avif",
+              "width": 640,
+              "height": 688
+            },
+            {
+              "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-1280.avif",
+              "width": 1280,
+              "height": 1375
+            },
+            {
+              "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-2400.avif",
+              "width": 1372,
+              "height": 1474
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -35,12 +85,12 @@
       "alt": "MX2A Honey 사진 1",
       "variants": [
         {
-          "src": "/media/switches/mx2a-honey/f53750c04ef065d2-source-gallery-0-1d621c5df492-640.avif",
+          "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-0-1d621c5df492-640.avif",
           "width": 640,
           "height": 558
         },
         {
-          "src": "/media/switches/mx2a-honey/f53750c04ef065d2-source-gallery-0-1d621c5df492-1280.avif",
+          "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-0-1d621c5df492-1280.avif",
           "width": 1219,
           "height": 1063
         }
@@ -50,17 +100,17 @@
       "alt": "MX2A Honey 사진 2",
       "variants": [
         {
-          "src": "/media/switches/mx2a-honey/f53750c04ef065d2-source-gallery-1-7f6f06d99479-640.avif",
+          "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-640.avif",
           "width": 640,
           "height": 688
         },
         {
-          "src": "/media/switches/mx2a-honey/f53750c04ef065d2-source-gallery-1-7f6f06d99479-1280.avif",
+          "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-1280.avif",
           "width": 1280,
           "height": 1375
         },
         {
-          "src": "/media/switches/mx2a-honey/f53750c04ef065d2-source-gallery-1-7f6f06d99479-2400.avif",
+          "src": "/media/switches/mx2a-honey/ea32b7714376dd7d-5592c5f3e7ef-source-gallery-1-7f6f06d99479-2400.avif",
           "width": 1372,
           "height": 1474
         }

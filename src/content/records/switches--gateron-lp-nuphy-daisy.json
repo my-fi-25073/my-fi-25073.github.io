@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-nuphy-daisy",
+  "title": "Gateron LP NuPhy Daisy",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 55g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "48g ± 15g",
+          "bottom_out_force": "55g ± 5g",
+          "length": "16.5mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP NuPhy Daisy 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-0-62bb3f86885a-640.avif",
+              "width": 640,
+              "height": 467
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-0-62bb3f86885a-1280.avif",
+              "width": 817,
+              "height": 596
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP NuPhy Daisy 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-1-bbf2187759e8-640.avif",
+              "width": 640,
+              "height": 246
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-1-bbf2187759e8-1280.avif",
+              "width": 928,
+              "height": 357
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP NuPhy Daisy 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-0-62bb3f86885a-640.avif",
+          "width": 640,
+          "height": 467
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-0-62bb3f86885a-1280.avif",
+          "width": 817,
+          "height": 596
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP NuPhy Daisy 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-1-bbf2187759e8-640.avif",
+          "width": 640,
+          "height": 246
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-daisy/199bb0a3ccecb49b-a29d3d7b4a5e-source-gallery-1-bbf2187759e8-1280.avif",
+          "width": 928,
+          "height": 357
+        }
+      ]
+    }
+  ]
+}

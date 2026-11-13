@@ -33,21 +33,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "PBS Blanks Black",
+        "title": "Keyreative Blanks Black",
         "quantity": null,
         "href": "/gallery/pbs-blanks-black/"
       }
     ],
     "switches": [
       {
-        "title": "Usagi",
-        "href": "/switches/usagi/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "Sagak Labs",
-        "href": "/vendors/sagak-labs/"
+        "title": "Bsun Usagi",
+        "href": "/switches/bsun-usagi/"
       }
     ]
   },

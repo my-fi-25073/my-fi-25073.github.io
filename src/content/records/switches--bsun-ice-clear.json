@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-ice-clear",
+  "title": "Bsun Ice Clear",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "21mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Ice Clear 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-0-92b52eb089ae-640.avif",
+              "width": 640,
+              "height": 428
+            },
+            {
+              "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-0-92b52eb089ae-1280.avif",
+              "width": 738,
+              "height": 493
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Ice Clear 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-640.avif",
+              "width": 640,
+              "height": 679
+            },
+            {
+              "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-1280.avif",
+              "width": 1280,
+              "height": 1359
+            },
+            {
+              "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-2400.avif",
+              "width": 1397,
+              "height": 1483
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Ice Clear 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-0-92b52eb089ae-640.avif",
+          "width": 640,
+          "height": 428
+        },
+        {
+          "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-0-92b52eb089ae-1280.avif",
+          "width": 738,
+          "height": 493
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Ice Clear 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-640.avif",
+          "width": 640,
+          "height": 679
+        },
+        {
+          "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-1280.avif",
+          "width": 1280,
+          "height": 1359
+        },
+        {
+          "src": "/media/switches/bsun-ice-clear/c73a626ab6a0cc48-d446cd33c121-source-gallery-1-f112ee625908-2400.avif",
+          "width": 1397,
+          "height": 1483
+        }
+      ]
+    }
+  ]
+}

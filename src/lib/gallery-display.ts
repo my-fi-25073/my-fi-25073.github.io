@@ -11,7 +11,6 @@ interface SeriesRecord {
   profile: string | null;
   manufacturingProcess: string | null;
   sleeveStatus: string | null;
-  createdAt: string | null;
   materials: string[];
   colors: string[];
   compatibility: string[];
@@ -20,7 +19,6 @@ interface SeriesRecord {
 
 interface KitRecord {
   kittingTypes: string[];
-  sleeveStatus: string | null;
 }
 
 interface FieldDefinition<T> {
@@ -28,23 +26,33 @@ interface FieldDefinition<T> {
   read: (record: T) => string | string[] | null;
 }
 
+const manufacturingProcessLabels: Record<string, string> = {
+  'Double Shot': '이중사출',
+  'Dye Sub': '염료승화',
+  'Single Shot': '단일사출',
+  '3D Print': '3D 프린팅',
+};
+
+export function keycapProfileLabel(profile: string, manufacturer?: string | null) {
+  if (profile === 'Cherry-CYL') return manufacturer === 'GMK' ? 'CYL' : '체리 프로파일';
+  return profile;
+}
+
 const seriesDefinitions: Record<string, FieldDefinition<SeriesRecord>> = {
   manufacturer: { label: '제조사', read: (record) => record.manufacturer },
-  profile: { label: '프로파일', read: (record) => record.profile },
+  profile: {
+    label: '프로파일',
+    read: (record) => record.profile ? keycapProfileLabel(record.profile, record.manufacturer) : null,
+  },
   materials: { label: '소재', read: (record) => record.materials },
-  manufacturingProcess: { label: '가공', read: (record) => record.manufacturingProcess },
-  compatibility: { label: '호환성', read: (record) => record.compatibility },
-  colors: { label: '컬러', read: (record) => record.colors },
-  createdAt: {
-    label: '기록일',
-    read: (record) => record.createdAt
-      ? new Intl.DateTimeFormat('ko-KR', {
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit',
-        }).format(new Date(record.createdAt)).replaceAll('. ', '/').replace('.', '')
+  manufacturingProcess: {
+    label: '제작 방식',
+    read: (record) => record.manufacturingProcess
+      ? manufacturingProcessLabels[record.manufacturingProcess] ?? record.manufacturingProcess
       : null,
   },
+  compatibility: { label: '호환 규격', read: (record) => record.compatibility },
+  colors: { label: '색상', read: (record) => record.colors },
   sleeveStatus: { label: '슬리브', read: (record) => record.sleeveStatus },
   kitCount: { label: '킷', read: (record) => `${record.kits.length}개` },
   kitNames: { label: '킷 이름', read: (record) => record.kits.map((kit) => kit.title) },
@@ -52,7 +60,6 @@ const seriesDefinitions: Record<string, FieldDefinition<SeriesRecord>> = {
 
 const kitDefinitions: Record<string, FieldDefinition<KitRecord>> = {
   kittingTypes: { label: '구성', read: (record) => record.kittingTypes },
-  sleeveStatus: { label: '슬리브', read: (record) => record.sleeveStatus },
 };
 
 function validateKeys<T>(

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "handarbeige",
-  "title": "Handarbeige+",
+  "title": "GMK CYL Handarbeige+",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Base - Standard"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Handarbeige+ Base 이미지 1",
+          "alt": "GMK CYL Handarbeige+ Base 이미지 1",
           "variants": [
             {
               "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-0-71bdf2739838-640.avif",
@@ -48,7 +47,7 @@
           ]
         },
         {
-          "alt": "Handarbeige+ Base 이미지 2",
+          "alt": "GMK CYL Handarbeige+ Base 이미지 2",
           "variants": [
             {
               "src": "/media/handarbeige/kit-399e56c8ad3623ab-source-gallery-1-2cabe1077466-640.avif",
@@ -75,10 +74,9 @@
       "kittingTypes": [
         "Child - Row 5"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Handarbeige+ Row 5 이미지 1",
+          "alt": "GMK CYL Handarbeige+ Row 5 이미지 1",
           "variants": [
             {
               "src": "/media/handarbeige/kit-a947e58e6e440d65-source-gallery-0-1216cc5b0e2a-640.avif",
@@ -102,7 +100,7 @@
   ],
   "images": [
     {
-      "alt": "Handarbeige+ 이미지 1",
+      "alt": "GMK CYL Handarbeige+ 이미지 1",
       "variants": [
         {
           "src": "/media/handarbeige/series-f4b838a6ddbcafd5-source-gallery-0-6ea38da77efb-640.avif",

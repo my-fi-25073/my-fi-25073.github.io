@@ -14,7 +14,7 @@
     "썸클러스터"
   ],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "칼럼스태거",
     "3x5"
   ],
@@ -33,21 +33,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Susu",
+        "title": "GMK MTNU Susu",
         "quantity": null,
         "href": "/gallery/susu/"
       }
     ],
     "switches": [
       {
-        "title": "Candy Red",
-        "href": "/switches/candy-red/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "GitHub",
-        "href": "/vendors/github/"
+        "title": "HMX Candy Red",
+        "href": "/switches/hmx-candy-red/"
       }
     ]
   },

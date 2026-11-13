@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "ntd",
-  "title": "NTD",
+  "title": "GMK CYL NTD",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -26,10 +26,9 @@
       "kittingTypes": [
         "Accent - Theme"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "NTD 30 Lives 이미지 1",
+          "alt": "GMK CYL NTD 30 Lives 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-71f373b9cab5003b-source-gallery-0-5399507ffd6e-640.avif",
@@ -56,10 +55,9 @@
       "kittingTypes": [
         "Modifier - Obscure"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "NTD Extension 이미지 1",
+          "alt": "GMK CYL NTD Extension 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-7936e57bd4e06953-source-gallery-0-96200f6736b6-640.avif",
@@ -86,10 +84,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "NTD Space Bars 이미지 1",
+          "alt": "GMK CYL NTD Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-b86552f93fc9727e-source-gallery-0-b9147f4c5ad1-640.avif",
@@ -113,7 +110,7 @@
   ],
   "images": [
     {
-      "alt": "NTD 이미지 1",
+      "alt": "GMK CYL NTD 이미지 1",
       "variants": [
         {
           "src": "/media/ntd/series-0cb3c7196e074061-source-gallery-0-c0b6463ac104-640.avif",

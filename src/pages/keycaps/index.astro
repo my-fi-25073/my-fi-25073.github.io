@@ -1,59 +1,142 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveSearch from '../../components/ArchiveSearch.astro';
-import CollectionFilter from '../../components/CollectionFilter.astro';
+import ArchiveViewTabs from '../../components/ArchiveViewTabs.astro';
 import GalleryCard from '../../components/GalleryCard.astro';
-import TaxonomyNav from '../../components/TaxonomyNav.astro';
 import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { keycapProfileLabel } from '../../lib/gallery-display';
 import {
-  groupIdsForRecord,
-  groupsWithCounts,
+  keycapArchiveViews,
   recordsForCollectionView,
+  recordsGroupedByField,
   type CollectionManifest,
 } from '../../lib/collection-views';
 
 const manifest = collectionData as CollectionManifest;
-const entries = await getCollection('gallery');
-const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
-const records = recordsForCollectionView(
-  entries.map((entry) => entry.data),
-  manifest,
-  'keycap-collections',
-);
-const groups = groupsWithCounts(records, manifest, ['keycap-collections']);
-const defaultGroup = groups[0]?.id;
-if (!defaultGroup) throw new Error('Keycap Collection View has no visible groups.');
+const pageCopy = manifest.copy;
+const entries = (await getCollection('gallery')).map((entry) => entry.data);
+const titleCounts = new Map<string, number>();
+for (const entry of entries) {
+  titleCounts.set(entry.title, (titleCounts.get(entry.title) ?? 0) + 1);
+}
+const keycapViews = [
+  ...keycapArchiveViews(manifest).map(({ view, query, id, label }) => {
+    const groupRule = query.group;
+    if (query.entityKind !== 'keycap_series' || (groupRule && (
+      groupRule.unit !== 'value' || !groupRule.field || !Array.isArray(groupRule.order)
+    ))) {
+      throw new Error(`Invalid Keycap view grouping: ${view.id}`);
+    }
+    const records = recordsForCollectionView(entries, manifest, view.id);
+    const groupField = groupRule?.field;
+    const groups = groupField
+      ? recordsGroupedByField(records, groupField, groupRule?.order ?? [], groupRule?.direction)
+      : [{ label: null, records }];
+    return {
+      id,
+      label,
+      count: records.length,
+      groups: groups.map((group) => ({
+        ...group,
+        label: group.label && groupField === 'profile' ? keycapProfileLabel(group.label) : group.label,
+      })),
+    };
+  }),
+  {
+    id: 'all',
+    label: '전체',
+    count: entries.length,
+    groups: [{ label: null, records: recordsForCollectionView(entries, manifest, 'keycap-collections') }],
+  },
+];
 ---
 
-<SiteLayout title="Keycap">
+<SiteLayout title={pageCopy?.['keycap.title'] ?? '키캡'} description={pageCopy?.['keycap.description'] ?? undefined}>
   <section class="archive-intro shell" aria-labelledby="keycap-title">
-    <p class="eyebrow">Keycap</p>
-    <h1 id="keycap-title">키캡</h1>
-    <p class="archive-description">
-      보유한 키캡 시리즈를 제조사, 프로파일, 계열별로 정리했습니다.
-    </p>
+    <h1 id="keycap-title">{pageCopy?.['keycap.title'] ?? '키캡'}</h1>
   </section>
 
-  <div class="shell archive-controls">
-    <TaxonomyNav current="keycaps" />
-    <p class="archive-count">{groups.length}개 컬렉션 · {records.length}개 시리즈</p>
+  <div class="shell">
+    <ArchiveViewTabs id="keycap" label="키캡 보기" parameter="collection" views={keycapViews} />
   </div>
 
-  <CollectionFilter groups={groups} defaultGroup={defaultGroup} label="키캡 분류" />
-  <ArchiveSearch />
-
-  <section class="gallery-grid shell" aria-label="키캡 컬렉션">
-    {records.map((gallery, index) => {
-      const entry = entryBySlug.get(gallery.slug);
-      if (!entry) throw new Error(`Keycap entry is missing: ${gallery.slug}`);
-      return (
-        <GalleryCard
-          gallery={entry.data}
-          index={index}
-          groups={groupIdsForRecord(gallery, manifest, ['keycap-collections'])}
-        />
-      );
-    })}
-  </section>
+  {keycapViews.map((view, index) => {
+    const deferred = index !== 0;
+    const Content = deferred ? 'template' : 'div';
+    return (
+      <section
+        class="keycap-view shell"
+        id={`keycap-panel-${view.id}`}
+        role="tabpanel"
+        aria-labelledby={`keycap-tab-${view.id}`}
+        hidden={deferred}
+      >
+        <Content data-archive-panel-content={deferred ? '' : undefined}>
+          {view.count > 0
+            ? <>
+              <p class="visually-hidden">키캡 {view.count}개</p>
+              {view.groups.map((group) => {
+                const Group = group.label ? 'details' : 'div';
+                return (
+                  <Group class="keycap-view-group" open={group.label ? true : undefined}>
+                    {group.label && <summary><h2>{group.label}</h2></summary>}
+                    <div class="gallery-grid">
+                      {group.records.map((gallery) => (
+                        <GalleryCard
+                          gallery={gallery}
+                          headingLevel={group.label ? 3 : 2}
+                          showProfile={(titleCounts.get(gallery.title) ?? 0) > 1}
+                        />
+                      ))}
+                    </div>
+                  </Group>
+                );
+              })}
+            </>
+            : <p>이 탭에는 키캡이 없습니다.</p>}
+        </Content>
+      </section>
+    );
+  })}
 </SiteLayout>
+
+<style>
+  .keycap-view {
+    padding-block-start: 20px;
+  }
+
+  .keycap-view-group + .keycap-view-group {
+    margin-block-start: var(--space-section);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    cursor: pointer;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-inline-end: 1px solid currentColor;
+    border-block-end: 1px solid currentColor;
+    transform: rotate(-45deg);
+  }
+
+  details[open] > summary::after {
+    transform: translateY(-2px) rotate(45deg);
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 650;
+  }
+</style>

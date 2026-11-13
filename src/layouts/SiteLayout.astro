@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import TaxonomyNav from '../components/TaxonomyNav.astro';
 
 interface Props {
   title?: string;
@@ -8,7 +9,7 @@ interface Props {
 
 const {
   title = 'KEYLOG',
-  description = '키보드와 키캡을 기록하는 개인 이미지 아카이브',
+  description,
 } = Astro.props;
 const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
 ---
@@ -18,7 +19,7 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="description" content={description} />
+    {description && <meta name="description" content={description} />}
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#f4f2ed" />
     <title>{pageTitle}</title>
@@ -27,14 +28,10 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
     <a class="skip-link" href="#main">본문으로 이동</a>
     <header class="site-header shell">
       <a class="wordmark" href="/" aria-label="KEYLOG 홈">KEYLOG</a>
-      <p class="site-note">My-Fi Keyboard</p>
+      <TaxonomyNav />
     </header>
     <main id="main">
       <slot />
     </main>
-    <footer class="site-footer shell">
-      <p>KEYLOG</p>
-      <p>2024—</p>
-    </footer>
   </body>
 </html>

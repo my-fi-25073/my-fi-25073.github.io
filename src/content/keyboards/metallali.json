@@ -12,7 +12,7 @@
   ],
   "ergonomicFeatures": [],
   "layouts": [
-    "모노블럭 스플릿",
+    "모노 스플릿",
     "3x6"
   ],
   "mounts": [
@@ -30,21 +30,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "ULP Flat Transparent Blanks",
+        "title": "Kailh Flat Blanks · ULP Flat Transparent Blanks",
         "quantity": null,
         "href": "/gallery/ulp-flat-blanks/#ulp-flat-transparent-blanks"
       }
     ],
     "switches": [
       {
-        "title": "MX ULP Tactile",
-        "href": "/switches/mx-ulp-tactile/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "KKLabs",
-        "href": "/vendors/kklabs/"
+        "title": "Cherry ULP MX ULP Tactile",
+        "href": "/switches/cherry-ulp-mx-ulp-tactile/"
       }
     ]
   },

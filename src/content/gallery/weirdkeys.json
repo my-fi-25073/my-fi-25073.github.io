@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "weirdkeys",
-  "title": "Weirdkeys",
+  "title": "Cherry Weirdkeys",
   "category": "keycaps",
   "manufacturer": "Others",
   "profile": "Cherry-Clone",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Child - Spacebars"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Weirdkeys 15u Space Bar 이미지 1",
+          "alt": "Cherry Weirdkeys 15u Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-640.avif",
@@ -53,10 +52,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Weirdkeys Alice BAE 이미지 1",
+          "alt": "Cherry Weirdkeys Alice BAE 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-640.avif",
@@ -83,10 +81,9 @@
       "kittingTypes": [
         "Child - BAE"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Weirdkeys TabLock 이미지 1",
+          "alt": "Cherry Weirdkeys TabLock 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-640.avif",
@@ -105,7 +102,7 @@
   ],
   "images": [
     {
-      "alt": "Weirdkeys 이미지 1",
+      "alt": "Cherry Weirdkeys 이미지 1",
       "variants": [
         {
           "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-640.avif",

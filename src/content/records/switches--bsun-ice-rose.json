@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bsun-ice-rose",
+  "title": "Bsun Ice Rose",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 38g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "33g",
+          "bottom_out_force": "38g"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bsun Ice Rose 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-0-8b771d33008e-640.avif",
+              "width": 640,
+              "height": 500
+            },
+            {
+              "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-0-8b771d33008e-1280.avif",
+              "width": 722,
+              "height": 564
+            }
+          ]
+        },
+        {
+          "alt": "Bsun Ice Rose 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-1-e45a35fd3202-640.avif",
+              "width": 640,
+              "height": 783
+            },
+            {
+              "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-1-e45a35fd3202-1280.avif",
+              "width": 1235,
+              "height": 1511
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bsun Ice Rose 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-0-8b771d33008e-640.avif",
+          "width": 640,
+          "height": 500
+        },
+        {
+          "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-0-8b771d33008e-1280.avif",
+          "width": 722,
+          "height": 564
+        }
+      ]
+    },
+    {
+      "alt": "Bsun Ice Rose 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-1-e45a35fd3202-640.avif",
+          "width": 640,
+          "height": 783
+        },
+        {
+          "src": "/media/switches/bsun-ice-rose/0369d5f67e2278ed-d1b0d7ef4023-source-gallery-1-e45a35fd3202-1280.avif",
+          "width": 1235,
+          "height": 1511
+        }
+      ]
+    }
+  ]
+}

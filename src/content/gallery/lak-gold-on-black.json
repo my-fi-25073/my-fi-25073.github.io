@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "lak-gold-on-black",
-  "title": "LAK Gold On Black",
+  "title": "Chosfox Gold On Black",
   "category": "keycaps",
   "manufacturer": "Chosfox",
   "profile": "LAK",
@@ -24,10 +24,9 @@
       "kittingTypes": [
         "Base - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "LAK Gold On Black Base 이미지 1",
+          "alt": "Chosfox Gold On Black Base 이미지 1",
           "variants": [
             {
               "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-0-3127cd79768c-640.avif",
@@ -47,7 +46,7 @@
           ]
         },
         {
-          "alt": "LAK Gold On Black Base 이미지 2",
+          "alt": "Chosfox Gold On Black Base 이미지 2",
           "variants": [
             {
               "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-1-02330e59b3f2-640.avif",
@@ -71,7 +70,7 @@
   ],
   "images": [
     {
-      "alt": "LAK Gold On Black 이미지 1",
+      "alt": "Chosfox Gold On Black 이미지 1",
       "variants": [
         {
           "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-0-cb08877574a5-640.avif",
@@ -81,7 +80,7 @@
       ]
     },
     {
-      "alt": "LAK Gold On Black 이미지 2",
+      "alt": "Chosfox Gold On Black 이미지 2",
       "variants": [
         {
           "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-1-03af5cb12720-640.avif",

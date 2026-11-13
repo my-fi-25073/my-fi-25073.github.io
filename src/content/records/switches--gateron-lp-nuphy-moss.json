@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-nuphy-moss",
+  "title": "Gateron LP NuPhy Moss",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 55g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "60g ± 15g",
+          "bottom_out_force": "55g ± 5g",
+          "length": "16.5mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP NuPhy Moss 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-0-5cb1fe775139-640.avif",
+              "width": 640,
+              "height": 514
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-0-5cb1fe775139-1280.avif",
+              "width": 792,
+              "height": 636
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP NuPhy Moss 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-1-d824d84f9637-640.avif",
+              "width": 640,
+              "height": 251
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-1-d824d84f9637-1280.avif",
+              "width": 919,
+              "height": 360
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP NuPhy Moss 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-0-5cb1fe775139-640.avif",
+          "width": 640,
+          "height": 514
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-0-5cb1fe775139-1280.avif",
+          "width": 792,
+          "height": 636
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP NuPhy Moss 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-1-d824d84f9637-640.avif",
+          "width": 640,
+          "height": 251
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-moss/1182c6931a528b67-b0a3e0b1162b-source-gallery-1-d824d84f9637-1280.avif",
+          "width": 919,
+          "height": 360
+        }
+      ]
+    }
+  ]
+}

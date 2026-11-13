@@ -32,7 +32,7 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "ULP Flat Transparent Blanks",
+        "title": "Kailh Flat Blanks · ULP Flat Transparent Blanks",
         "quantity": null,
         "href": "/gallery/ulp-flat-blanks/#ulp-flat-transparent-blanks"
       }
@@ -41,12 +41,6 @@
       {
         "title": "Kailh ULP Tactile",
         "href": "/switches/kailh-ulp-tactile/"
-      }
-    ],
-    "vendors": [
-      {
-        "title": "KKLabs",
-        "href": "/vendors/kklabs/"
       }
     ]
   },

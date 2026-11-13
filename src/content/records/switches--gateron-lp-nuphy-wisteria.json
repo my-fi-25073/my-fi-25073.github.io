@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-lp-nuphy-wisteria",
+  "title": "Gateron LP NuPhy Wisteria",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Gateron LP",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 2,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "55g ± 15g",
+          "bottom_out_force": "50g ± 5g",
+          "length": "16.5mm",
+          "spring_stage": "dual-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron LP NuPhy Wisteria 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-640.avif",
+              "width": 640,
+              "height": 498
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-1280.avif",
+              "width": 761,
+              "height": 592
+            }
+          ]
+        },
+        {
+          "alt": "Gateron LP NuPhy Wisteria 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-640.avif",
+              "width": 640,
+              "height": 249
+            },
+            {
+              "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-1280.avif",
+              "width": 935,
+              "height": 364
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron LP NuPhy Wisteria 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-640.avif",
+          "width": 640,
+          "height": 498
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-1280.avif",
+          "width": 761,
+          "height": 592
+        }
+      ]
+    },
+    {
+      "alt": "Gateron LP NuPhy Wisteria 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-640.avif",
+          "width": 640,
+          "height": 249
+        },
+        {
+          "src": "/media/switches/gateron-lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-1280.avif",
+          "width": 935,
+          "height": 364
+        }
+      ]
+    }
+  ]
+}

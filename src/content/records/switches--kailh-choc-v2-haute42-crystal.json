@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "kailh-choc-v2-haute42-crystal",
+  "title": "Kailh Choc v2 Haute42 Crystal",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Kailh Choc v2",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 4,
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 53g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "43g ± 10g",
+          "length": "15mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Haute42 Crystal 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-0-9fdcbc669e0c-640.avif",
+              "width": 640,
+              "height": 552
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-0-9fdcbc669e0c-1280.avif",
+              "width": 839,
+              "height": 723
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Haute42 Crystal 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-1-5a725dbf22f0-640.avif",
+              "width": 640,
+              "height": 701
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-1-5a725dbf22f0-1280.avif",
+              "width": 676,
+              "height": 740
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Kailh Choc v2 Haute42 Crystal 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-0-9fdcbc669e0c-640.avif",
+          "width": 640,
+          "height": 552
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-0-9fdcbc669e0c-1280.avif",
+          "width": 839,
+          "height": 723
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Haute42 Crystal 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-1-5a725dbf22f0-640.avif",
+          "width": 640,
+          "height": 701
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-haute42-crystal/74424056ddfd4760-60f2a57ba67f-source-gallery-1-5a725dbf22f0-1280.avif",
+          "width": 676,
+          "height": 740
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mr-sleeves",
-  "title": "Mr. Sleeves",
+  "title": "GMK CYL Mr. Sleeves",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -25,10 +25,9 @@
       "kittingTypes": [
         "Accent - Modifiers"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Mr. Sleeves New Sleeves 이미지 1",
+          "alt": "GMK CYL Mr. Sleeves New Sleeves 이미지 1",
           "variants": [
             {
               "src": "/media/mr-sleeves/kit-6c30b0be699f5ea3-source-gallery-0-1f6aeda41615-640.avif",
@@ -55,10 +54,9 @@
       "kittingTypes": [
         "Accent - Modifiers"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Mr. Sleeves Original Sleeves 이미지 1",
+          "alt": "GMK CYL Mr. Sleeves Original Sleeves 이미지 1",
           "variants": [
             {
               "src": "/media/mr-sleeves/kit-2f8f24b0c123646d-source-gallery-0-8935065f488a-640.avif",
@@ -82,7 +80,7 @@
   ],
   "images": [
     {
-      "alt": "Mr. Sleeves 이미지 1",
+      "alt": "GMK CYL Mr. Sleeves 이미지 1",
       "variants": [
         {
           "src": "/media/mr-sleeves/series-95270a92193de70d-source-gallery-0-c7b17a110421-640.avif",

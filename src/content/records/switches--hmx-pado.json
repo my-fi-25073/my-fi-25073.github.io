@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hmx-pado",
+  "title": "HMX Pado",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 1,
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 48g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "48g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "HMX Pado 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-0-8501a28068a8-640.avif",
+              "width": 640,
+              "height": 467
+            },
+            {
+              "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-0-8501a28068a8-1280.avif",
+              "width": 1091,
+              "height": 796
+            }
+          ]
+        },
+        {
+          "alt": "HMX Pado 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-640.avif",
+              "width": 640,
+              "height": 558
+            },
+            {
+              "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-1280.avif",
+              "width": 1280,
+              "height": 1116
+            },
+            {
+              "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-2400.avif",
+              "width": 1284,
+              "height": 1119
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "HMX Pado 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-0-8501a28068a8-640.avif",
+          "width": 640,
+          "height": 467
+        },
+        {
+          "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-0-8501a28068a8-1280.avif",
+          "width": 1091,
+          "height": 796
+        }
+      ]
+    },
+    {
+      "alt": "HMX Pado 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-640.avif",
+          "width": 640,
+          "height": 558
+        },
+        {
+          "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-1280.avif",
+          "width": 1280,
+          "height": 1116
+        },
+        {
+          "src": "/media/switches/hmx-pado/2e427349918924e0-d9e402929198-source-gallery-1-8891440f3d27-2400.avif",
+          "width": 1284,
+          "height": 1119
+        }
+      ]
+    }
+  ]
+}

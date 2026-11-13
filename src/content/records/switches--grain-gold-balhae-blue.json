@@ -1,31 +1,75 @@
 {
   "schemaVersion": 1,
-  "kind": "switch-family",
+  "kind": "switch-product",
   "slug": "grain-gold-balhae-blue",
   "title": "Grain Gold Balhae Blue",
   "category": "switches",
-  "familyKind": "unclassified",
-  "recipeStatus": "not_assessed",
-  "variants": [
+  "manufacturer": null,
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
     {
-      "label": "기본 구성",
-      "reference": true,
+      "label": "공장 윤활",
       "rating": 0,
-      "manufacturer": "Unknown",
-      "footprintType": "Cherry MX",
-      "switchTypes": [
-        "Tactile"
-      ],
       "spring": {
-        "resolution": "stock_unresolved",
-        "name": "Factory OG 60g",
-        "status": "unresolved"
+        "resolution": "selected",
+        "name": "Factory Spring 60g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "53g",
+          "bottom_out_force": "60g"
+        }
       },
       "housingFit": {
         "state": "none",
         "method": null,
         "material": null
-      }
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Grain Gold Balhae Blue 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-640.avif",
+              "width": 640,
+              "height": 561
+            },
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-1280.avif",
+              "width": 792,
+              "height": 694
+            }
+          ]
+        },
+        {
+          "alt": "Grain Gold Balhae Blue 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-1280.avif",
+              "width": 658,
+              "height": 429
+            }
+          ]
+        }
+      ]
     }
   ],
   "parts": [],
@@ -34,12 +78,12 @@
       "alt": "Grain Gold Balhae Blue 사진 1",
       "variants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-0-c68a38e42004-640.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-640.avif",
           "width": 640,
           "height": 561
         },
         {
-          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-0-c68a38e42004-1280.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-1280.avif",
           "width": 792,
           "height": 694
         }
@@ -49,12 +93,12 @@
       "alt": "Grain Gold Balhae Blue 사진 2",
       "variants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-1-4ab0b84db863-640.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-640.avif",
           "width": 640,
           "height": 417
         },
         {
-          "src": "/media/switches/grain-gold-balhae-blue/c2b2a36e819e3865-source-gallery-1-4ab0b84db863-1280.avif",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-1280.avif",
           "width": 658,
           "height": 429
         }

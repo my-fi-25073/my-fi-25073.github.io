@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "engage-light",
-  "title": "Engage light",
+  "title": "FKCaps MBK Engage light",
   "category": "keycaps",
   "manufacturer": "FKCaps",
   "profile": "MBK",
@@ -23,10 +23,9 @@
       "kittingTypes": [
         "Base - Nomad"
       ],
-      "sleeveStatus": "슬리브 없음",
       "images": [
         {
-          "alt": "Engage light Nomad Base 이미지 1",
+          "alt": "FKCaps MBK Engage light Nomad Base 이미지 1",
           "variants": [
             {
               "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-640.avif",
@@ -46,7 +45,7 @@
           ]
         },
         {
-          "alt": "Engage light Nomad Base 이미지 2",
+          "alt": "FKCaps MBK Engage light Nomad Base 이미지 2",
           "variants": [
             {
               "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-640.avif",
@@ -70,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "Engage light 이미지 1",
+      "alt": "FKCaps MBK Engage light 이미지 1",
       "variants": [
         {
           "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-640.avif",

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gateron-deepping-4-0",
+  "title": "Gateron Deepping 4.0",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "공장 윤활",
+      "rating": 3,
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 58g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "58g",
+          "length": "18mm"
+        }
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gateron Deepping 4.0 사진 1",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-0-8a6a36a3cf35-640.avif",
+              "width": 640,
+              "height": 569
+            },
+            {
+              "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-0-8a6a36a3cf35-1280.avif",
+              "width": 1060,
+              "height": 943
+            }
+          ]
+        },
+        {
+          "alt": "Gateron Deepping 4.0 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-640.avif",
+              "width": 640,
+              "height": 619
+            },
+            {
+              "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-1280.avif",
+              "width": 1280,
+              "height": 1238
+            },
+            {
+              "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-2400.avif",
+              "width": 1658,
+              "height": 1603
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gateron Deepping 4.0 사진 1",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-0-8a6a36a3cf35-640.avif",
+          "width": 640,
+          "height": 569
+        },
+        {
+          "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-0-8a6a36a3cf35-1280.avif",
+          "width": 1060,
+          "height": 943
+        }
+      ]
+    },
+    {
+      "alt": "Gateron Deepping 4.0 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-640.avif",
+          "width": 640,
+          "height": 619
+        },
+        {
+          "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-1280.avif",
+          "width": 1280,
+          "height": 1238
+        },
+        {
+          "src": "/media/switches/gateron-deepping-4-0/fb8dbb7a529d0309-fdab40cff631-source-gallery-1-9271851592b1-2400.avif",
+          "width": 1658,
+          "height": 1603
+        }
+      ]
+    }
+  ]
+}
