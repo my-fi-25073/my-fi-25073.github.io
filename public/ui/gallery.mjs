@@ -92,7 +92,8 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
   const src = safeUrl(value?.src);
   const mode = src && ['icon', 'photo', 'render'].includes(value.presentation) ? value.presentation : 'icon';
   const imageHtml = src ? `<img src="${escapeHtml(src)}"${value.srcset ? ` srcset="${escapeHtml(value.srcset)}" sizes="${escapeHtml(value.sizes)}"` : ''}${value.width ? ` width="${Number(value.width)}"` : ''}${value.height ? ` height="${Number(value.height)}"` : ''} alt="${escapeHtml(value.alt)}" loading="${value.eager ? 'eager' : 'lazy'}" decoding="async">` : '';
-  const logo = !src && iconKind(kind) !== 'switch' ? galleryImage(placeholderLogo, 'vendor') : null;
+  const logo = !src && iconKind(kind) !== 'switch' && placeholderLogo
+    ? galleryImage({ ...placeholderLogo, galleryUrl: undefined, galleryVariants: undefined }, 'vendor') : null;
   const logoSrc = safeUrl(logo?.src);
   const logoHtml = logoSrc ? `<img class="kl-placeholder-logo" src="${escapeHtml(logoSrc)}" alt="${escapeHtml(logo.alt)}" loading="lazy" decoding="async"${logo.preserveColor ? ' data-preserve-color="true"' : ''}>` : '';
   const label = src && value.springLabel
