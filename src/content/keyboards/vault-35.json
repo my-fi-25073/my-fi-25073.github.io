@@ -50,6 +50,14 @@
   "images": [
     {
       "alt": "Vault 35 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-0-bb0914b3ba93-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-0-bb0914b3ba93-640.avif",
@@ -70,6 +78,14 @@
     },
     {
       "alt": "Vault 35 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-1-5151eecbd57e-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/vault-35/cb6d5b2e9c14a7ff-source-gallery-1-5151eecbd57e-640.avif",

@@ -1,91 +1,24 @@
 ---
-import DisplayFields from './DisplayFields.astro';
+import type { CollectionEntry } from 'astro:content';
+import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
 import { buildKeyboardCardFields } from '../lib/keyboard-display';
-
-interface ImageVariant {
-  src: string;
-  width: number;
-  height: number;
-}
-
-interface Keyboard {
-  slug: string;
-  title: string;
-  status: string | null;
-  lastBuiltAt: string | null;
-  modules: string[];
-  plates: string[];
-  ergonomicFeatures: string[];
-  layouts: string[];
-  mounts: string[];
-  foams: string[];
-  build: {
-    label: string;
-    state: 'draft' | 'approved' | 'retired';
-    startedAt: string | null;
-    completedAt: string | null;
-    keycaps: Array<{
-      kind: 'series' | 'kit';
-      title: string;
-      quantity: number | null;
-      href: string;
-    }>;
-    switches: Array<{ title: string; href: string }>;
-  };
-  images: Array<{ alt: string; variants: ImageVariant[] }>;
-}
-
 interface Props {
-  keyboard: Keyboard;
+  keyboard: CollectionEntry<'keyboards'>['data'];
   eager?: boolean;
   groups?: string[];
   headingLevel?: 2 | 3;
 }
-
 const { keyboard, eager = false, groups = [], headingLevel = 2 } = Astro.props;
-const cover = keyboard.images[0];
-const variants = cover.variants.toSorted((a, b) => a.width - b.width);
-const source = variants[0];
-const srcset = variants.map((item) => `${item.src} ${item.width}w`).join(', ');
-const fields = buildKeyboardCardFields(keyboard);
-const searchText = [
-  keyboard.title,
-  ...keyboard.layouts,
-  ...keyboard.build.keycaps.map((keycap) => keycap.title),
-  ...keyboard.build.switches.map((item) => item.title),
-]
-  .join(' ')
-  .toLocaleLowerCase('ko');
+const searchText = [keyboard.title, ...keyboard.layouts, ...keyboard.build.keycaps.map((keycap) => keycap.title), ...keyboard.build.switches.map((item) => item.title)].join(' ').toLocaleLowerCase('ko');
+const card = renderGalleryCard({
+  title: keyboard.title, href: `/keyboards/${keyboard.slug}/`, kind: 'keyboard', headingLevel,
+  image: { ...galleryImage(keyboard.images[0], 'keyboard'), eager }, metadata: buildKeyboardCardFields(keyboard),
+  attributes: {
+    'data-archive-card': true, 'data-keyboard-slug': keyboard.slug,
+    'data-keyboard-title': keyboard.title, 'data-keyboard-date': keyboard.lastBuiltAt,
+    'data-keyboard-layouts': JSON.stringify(keyboard.layouts), 'data-search': searchText,
+    'data-groups': JSON.stringify(groups),
+  },
+});
 ---
-
-<article
-  class="gallery-card"
-  data-archive-card
-  data-keyboard-slug={keyboard.slug}
-  data-keyboard-title={keyboard.title}
-  data-keyboard-date={keyboard.lastBuiltAt}
-  data-keyboard-layouts={JSON.stringify(keyboard.layouts)}
-  data-search={searchText}
-  data-groups={JSON.stringify(groups)}
->
-  <a class="gallery-card-link" href={`/keyboards/${keyboard.slug}/`}>
-    <div class="gallery-card-media">
-      <img
-        src={source.src}
-        srcset={srcset}
-        sizes="(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw"
-        width={source.width}
-        height={source.height}
-        alt={cover.alt}
-        loading={eager ? 'eager' : 'lazy'}
-        decoding="async"
-      />
-    </div>
-    <div class="gallery-card-copy">
-      <div class="gallery-card-titleline">
-        {headingLevel === 3 ? <h3>{keyboard.title}</h3> : <h2>{keyboard.title}</h2>}
-      </div>
-      <DisplayFields fields={fields} variant="card" />
-    </div>
-  </a>
-</article>
+<Fragment set:html={card} />

@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   const entries = await getCollection('records');
   return entries.flatMap(({ data: record }) => publicSwitchTunings(record).map(({ key, label, tuning }) => ({
     params: { category: 'switches', slug: record.slug, tuning: key },
-    props: { productTitle: record.title, productSlug: record.slug, label, tuning },
+    props: { productTitle: record.modelFamily?.title ?? record.title, productSlug: record.modelFamily?.slug ?? record.slug, label, tuning },
   })));
 }
 
@@ -28,6 +28,11 @@ interface Props {
 const { productTitle, productSlug, label, tuning } = Astro.props;
 const title = productTitle === label ? label : `${productTitle} · ${label}`;
 const fields = buildSwitchTuningFields(tuning);
+const detailImages = tuning.detailImageIndexes
+  ? tuning.detailImageIndexes.map((index) => tuning.images[index]).filter(Boolean)
+  : tuning.images;
+const specificationImages = tuning.isStock || tuning.isFactoryConfiguration
+  ? tuning.specificationImages ?? [] : [];
 ---
 
 <SiteLayout title={title}>
@@ -39,13 +44,16 @@ const fields = buildSwitchTuningFields(tuning);
       <h1>{label}</h1>
     </header>
 
-    <ImageGallery images={tuning.images} label={title} />
+    <ImageGallery images={detailImages} label={title} />
 
     {fields.length > 0 && (
       <section class="series-properties" aria-label="세팅 사양">
         <DisplayFields fields={fields} variant="detail" />
       </section>
     )}
+    {specificationImages.length > 0 && <section class="record-section" aria-label="Stock specifications">
+      <ImageGallery images={specificationImages} label={`${productTitle} Stock specifications`} />
+    </section>}
   </article>
   <Lightbox />
 </SiteLayout>

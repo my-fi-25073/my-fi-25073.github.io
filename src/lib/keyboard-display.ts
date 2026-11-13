@@ -62,8 +62,8 @@ function keyboardLayoutFields(layouts: string[]): DisplayField[] {
 
 export function buildKeyboardCardFields(record: KeyboardRecord): DisplayField[] {
   return [
-    ...listField('layouts', '배열', record.layouts),
-    ...listField('keycaps', '키캡', record.build.keycaps.map((keycap) => keycap.title)),
+    ...listField('layouts', 'Layout', record.layouts),
+    ...listField('keycaps', 'Keycap', record.build.keycaps.map((keycap) => keycap.title)),
   ];
 }
 

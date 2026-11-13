@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 46g",
@@ -22,6 +22,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "HMX Bad Sweet Heart 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "HMX Bad Sweet Heart 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-640.avif",
@@ -68,13 +85,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Bad Sweet Heart 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-0-d1d4322b8b1e-640.avif",
@@ -90,6 +116,14 @@
     },
     {
       "alt": "HMX Bad Sweet Heart 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-bad-sweet-heart/2a26cd932ccb564a-d10acd8147ad-source-gallery-1-637df0d4dd1c-640.avif",
@@ -103,5 +137,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

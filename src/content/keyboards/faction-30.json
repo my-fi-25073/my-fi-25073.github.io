@@ -48,6 +48,14 @@
   "images": [
     {
       "alt": "Faction 30 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/faction-30/73089417fe445cb3-source-gallery-0-edd8513fa170-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/faction-30/73089417fe445cb3-source-gallery-0-edd8513fa170-640.avif",

@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 52g",
@@ -23,6 +23,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -41,6 +42,14 @@
       "images": [
         {
           "alt": "HMX Raptor MX Extreme 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-0-dc01aab02607-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-0-dc01aab02607-640.avif",
@@ -56,6 +65,14 @@
         },
         {
           "alt": "HMX Raptor MX Extreme 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-1-c85fb87352f7-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-1-c85fb87352f7-640.avif",
@@ -74,13 +91,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Raptor MX Extreme 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-0-dc01aab02607-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-0-dc01aab02607-640.avif",
@@ -96,6 +122,14 @@
     },
     {
       "alt": "HMX Raptor MX Extreme 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-1-c85fb87352f7-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-raptor-mx-extreme/9f7ff02f352f5346-beba1906c22e-source-gallery-1-c85fb87352f7-640.avif",
@@ -114,5 +148,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

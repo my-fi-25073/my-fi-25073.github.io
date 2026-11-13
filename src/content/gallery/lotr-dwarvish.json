@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Durin’s Forge 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-2048a3ae70e7c372-source-gallery-0-f071fb4bbda0-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-2048a3ae70e7c372-source-gallery-0-f071fb4bbda0-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "Extra 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-ea983567f2001026-source-gallery-0-9531759b488e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-ea983567f2001026-source-gallery-0-9531759b488e-640.avif",
@@ -75,6 +91,14 @@
       "images": [
         {
           "alt": "Hardcore Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-640.avif",
@@ -99,6 +123,14 @@
       "images": [
         {
           "alt": "Space Bars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-8a6c1247092beca5-source-gallery-0-c1318349b050-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-8a6c1247092beca5-source-gallery-0-c1318349b050-640.avif",
@@ -118,6 +150,14 @@
   "images": [
     {
       "alt": "LotR Dwarvish 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-0-3bc831fe0915-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-0-3bc831fe0915-640.avif",
@@ -138,6 +178,14 @@
     },
     {
       "alt": "LotR Dwarvish 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-1-529050ac5b8a-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-1-529050ac5b8a-640.avif",
@@ -158,6 +206,14 @@
     },
     {
       "alt": "LotR Dwarvish 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-body-0-47fa1c09c0ee-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-body-0-47fa1c09c0ee-640.avif",

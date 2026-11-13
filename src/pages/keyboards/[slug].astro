@@ -36,8 +36,8 @@ const { entry, keycaps, switches } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
 const components = [
-  { title: '키캡', items: keycaps },
-  { title: '스위치', items: switches },
+  { title: 'Keycap', items: keycaps },
+  { title: 'Switch', items: switches },
 ].filter(({ items }) => items.length > 0);
 const hasBuildSpec = fields.length > 0 || components.length > 0;
 ---
@@ -45,7 +45,7 @@ const hasBuildSpec = fields.length > 0 || components.length > 0;
 <SiteLayout title={keyboard.title}>
   <article class="detail shell keyboard-build-detail">
     <div class="keyboard-build-gallery">
-      <ImageGallery images={keyboard.images} label={keyboard.title} />
+      <ImageGallery images={keyboard.images} label={keyboard.title} kind="keyboard" />
       <header class="keyboard-build-caption">
         <h1>{keyboard.title}</h1>
       </header>
@@ -85,11 +85,6 @@ const hasBuildSpec = fields.length > 0 || components.length > 0;
   .keyboard-build-gallery,
   .keyboard-build-spec {
     min-width: 0;
-  }
-
-  .keyboard-build-gallery :global(.image-gallery figure.is-featured img) {
-    aspect-ratio: auto;
-    max-height: none;
   }
 
   .keyboard-build-caption {

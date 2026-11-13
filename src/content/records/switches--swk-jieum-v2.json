@@ -12,12 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 63.5g",
         "status": "unresolved"
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -36,6 +37,14 @@
       "images": [
         {
           "alt": "SWK Jieum V2 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "SWK Jieum V2 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
@@ -69,13 +86,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "SWK Jieum V2 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
@@ -91,6 +117,14 @@
     },
     {
       "alt": "SWK Jieum V2 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/swk-jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
@@ -109,5 +143,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

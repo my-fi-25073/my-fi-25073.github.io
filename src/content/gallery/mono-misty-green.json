@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mono-misty-green/kit-b5a084a1227fa07c-gallery-0-159deb3753da-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mono-misty-green/kit-b5a084a1227fa07c-gallery-0-159deb3753da-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "Mono Misty Green 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/mono-misty-green/series-96f9471a7a5636c6-gallery-0-cadb8e99ed45-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mono-misty-green/series-96f9471a7a5636c6-gallery-0-cadb8e99ed45-640.avif",

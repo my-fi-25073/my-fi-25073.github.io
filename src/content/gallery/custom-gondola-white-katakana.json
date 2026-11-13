@@ -28,6 +28,14 @@
       "images": [
         {
           "alt": "Gondola Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-0-a77880cb76e2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-0-a77880cb76e2-640.avif",
@@ -43,6 +51,14 @@
         },
         {
           "alt": "Gondola Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-1-eff58a79b55b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/custom-gondola-white-katakana/kit-9301de434a16b88e-source-gallery-1-eff58a79b55b-640.avif",
@@ -62,6 +78,14 @@
   "images": [
     {
       "alt": "Custom Gondola White Katakana 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/custom-gondola-white-katakana/series-d49cbcfc8c99e6ad-source-gallery-0-1be721958e33-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/custom-gondola-white-katakana/series-d49cbcfc8c99e6ad-source-gallery-0-1be721958e33-640.avif",

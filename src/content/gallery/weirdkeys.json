@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "15u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-640.avif",
@@ -55,6 +63,14 @@
       "images": [
         {
           "alt": "Alice BAE 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-640.avif",
@@ -84,6 +100,14 @@
       "images": [
         {
           "alt": "TabLock 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-640.avif",
@@ -103,6 +127,14 @@
   "images": [
     {
       "alt": "Weirdkeys 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-640.avif",

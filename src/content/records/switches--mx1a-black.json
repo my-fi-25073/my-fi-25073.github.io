@@ -10,6 +10,13 @@
     "Linear"
   ],
   "isFranken": false,
+  "modelFamily": {
+    "slug": "mx-black",
+    "title": "MX Black",
+    "variantLabel": "MX1A",
+    "sortOrder": 0,
+    "isRepresentative": false
+  },
   "tunings": [
     {
       "label": "30g",
@@ -24,6 +31,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -42,6 +50,14 @@
       "images": [
         {
           "alt": "MX1A Black 사진 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-640.avif",
@@ -62,6 +78,14 @@
         },
         {
           "alt": "MX1A Black 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-640.avif",
@@ -70,7 +94,8 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "35g · Dia Glide",
@@ -85,6 +110,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -103,6 +129,14 @@
       "images": [
         {
           "alt": "MX1A Black 사진 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-640.avif",
@@ -123,6 +157,14 @@
         },
         {
           "alt": "MX1A Black 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-640.avif",
@@ -143,6 +185,14 @@
         },
         {
           "alt": "MX1A Black 사진 5",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-640.avif",
@@ -163,6 +213,14 @@
         },
         {
           "alt": "MX1A Black 사진 6",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-640.avif",
@@ -181,7 +239,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        2,
+        3
+      ],
+      "coverImageIndex": 2
     },
     {
       "label": "25g · Krytox GPL 205 G0",
@@ -196,6 +260,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -214,6 +279,14 @@
       "images": [
         {
           "alt": "MX1A Black 사진 7",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
@@ -229,6 +302,14 @@
         },
         {
           "alt": "MX1A Black 사진 8",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
@@ -247,7 +328,8 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "25g · Krytox GPL 205 G2",
@@ -262,6 +344,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -280,6 +363,14 @@
       "images": [
         {
           "alt": "MX1A Black 사진 9",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
@@ -295,6 +386,14 @@
         },
         {
           "alt": "MX1A Black 사진 10",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
@@ -313,7 +412,8 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "50g · Dia Glide",
@@ -326,6 +426,7 @@
           "length": "15mm"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -344,6 +445,14 @@
       "images": [
         {
           "alt": "MX1A Black 사진 11",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-640.avif",
@@ -364,45 +473,37 @@
         },
         {
           "alt": "MX1A Black 사진 12",
-          "variants": [
+          "presentation": "render",
+          "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-640.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
               "width": 640,
-              "height": 592
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-1280.avif",
-              "width": 1280,
-              "height": 1184
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-3bd9c0696667-2400.avif",
-              "width": 1634,
-              "height": 1511
+              "height": 480
             }
-          ]
-        },
-        {
-          "alt": "MX1A Black 사진 13",
+          ],
           "variants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-640.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-640.avif",
               "width": 640,
               "height": 509
             },
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-1280.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-1280.avif",
               "width": 1280,
               "height": 1018
             },
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-2-ea9314929616-2400.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-2400.avif",
               "width": 1395,
               "height": 1109
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "25g · Dia Glide",
@@ -417,6 +518,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -434,7 +536,15 @@
       },
       "images": [
         {
-          "alt": "MX1A Black 사진 14",
+          "alt": "MX1A Black 사진 13",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-640.avif",
@@ -454,7 +564,15 @@
           ]
         },
         {
-          "alt": "MX1A Black 사진 15",
+          "alt": "MX1A Black 사진 14",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-640.avif",
@@ -473,13 +591,107 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "coverImageIndex": 0
+    },
+    {
+      "label": "Stock",
+      "spring": {
+        "resolution": "unknown",
+        "name": null,
+        "status": null
+      },
+      "isStock": true,
+      "isFactoryConfiguration": true,
+      "switchSpecifications": {
+        "actuationForce": "61.2g ± 20.4g",
+        "actuationTravel": "2mm ± 0.6mm",
+        "totalTravel": "4mm",
+        "durabilityCycles": 50000000
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "unknown",
+          "name": null
+        },
+        "stem": {
+          "state": "unknown",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX1A Black 사진 15",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-4b5dae16bb5c-640.avif",
+              "width": 484,
+              "height": 489
+            }
+          ]
+        }
+      ],
+      "specificationImages": [
+        {
+          "alt": "MX1A Black 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-640.avif",
+              "width": 640,
+              "height": 509
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-1280.avif",
+              "width": 1280,
+              "height": 1018
+            },
+            {
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-2400.avif",
+              "width": 1395,
+              "height": 1109
+            }
+          ]
+        }
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "MX1A Black 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-640.avif",
@@ -500,6 +712,14 @@
     },
     {
       "alt": "MX1A Black 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-640.avif",
@@ -510,6 +730,14 @@
     },
     {
       "alt": "MX1A Black 사진 3",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-640.avif",
@@ -530,6 +758,14 @@
     },
     {
       "alt": "MX1A Black 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-640.avif",
@@ -550,6 +786,14 @@
     },
     {
       "alt": "MX1A Black 사진 5",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-640.avif",
@@ -570,6 +814,14 @@
     },
     {
       "alt": "MX1A Black 사진 6",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-640.avif",
@@ -590,6 +842,14 @@
     },
     {
       "alt": "MX1A Black 사진 7",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
@@ -605,6 +865,14 @@
     },
     {
       "alt": "MX1A Black 사진 8",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
@@ -625,6 +893,14 @@
     },
     {
       "alt": "MX1A Black 사진 9",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
@@ -640,6 +916,14 @@
     },
     {
       "alt": "MX1A Black 사진 10",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
@@ -660,6 +944,14 @@
     },
     {
       "alt": "MX1A Black 사진 11",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-640.avif",
@@ -678,5 +970,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Cherry logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
+        "width": 360,
+        "height": 70
+      }
+    ]
+  },
+  "coverImageIndex": 1,
+  "coverIsProductImage": true
 }

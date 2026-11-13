@@ -78,6 +78,14 @@
   "images": [
     {
       "alt": "Frog TKL 8k 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-0-3cbf6116fa9b-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-0-3cbf6116fa9b-640.avif",
@@ -98,6 +106,14 @@
     },
     {
       "alt": "Frog TKL 8k 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-1-7908b5fb9013-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-1-7908b5fb9013-640.avif",
@@ -118,6 +134,14 @@
     },
     {
       "alt": "Frog TKL 8k 사진 3",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-2-59442077e080-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/frog-tkl-8k/ab4850f3ef38f921-source-gallery-2-59442077e080-640.avif",

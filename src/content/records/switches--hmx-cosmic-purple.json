@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 55g",
@@ -23,6 +23,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -41,6 +42,14 @@
       "images": [
         {
           "alt": "HMX Cosmic Purple 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-0-85d1b6c0c50a-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-0-85d1b6c0c50a-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "HMX Cosmic Purple 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-1-3d346de5844b-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-1-3d346de5844b-640.avif",
@@ -59,13 +76,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Cosmic Purple 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-0-85d1b6c0c50a-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-0-85d1b6c0c50a-640.avif",
@@ -76,6 +102,14 @@
     },
     {
       "alt": "HMX Cosmic Purple 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-1-3d346de5844b-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-cosmic-purple/c28aed5fdc252fc3-e46c5895351f-source-gallery-1-3d346de5844b-640.avif",
@@ -84,5 +118,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

@@ -89,6 +89,14 @@
   "images": [
     {
       "alt": "Transition Lite No.4 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/transition-lite-no-4/a98defd7f407f49a-source-gallery-0-f330c2a5e403-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/transition-lite-no-4/a98defd7f407f49a-source-gallery-0-f330c2a5e403-640.avif",

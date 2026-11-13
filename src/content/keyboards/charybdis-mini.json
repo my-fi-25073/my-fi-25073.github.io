@@ -53,6 +53,14 @@
   "images": [
     {
       "alt": "Charybdis Mini 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-640.avif",

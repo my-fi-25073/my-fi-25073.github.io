@@ -50,6 +50,14 @@
   "images": [
     {
       "alt": "Dilemma Max 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-640.avif",
@@ -70,6 +78,14 @@
     },
     {
       "alt": "Dilemma Max 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-640.avif",

@@ -10,9 +10,16 @@
     "Linear"
   ],
   "isFranken": false,
+  "modelFamily": {
+    "slug": "mx-black",
+    "title": "MX Black",
+    "variantLabel": "MX2A",
+    "sortOrder": 2,
+    "isRepresentative": true
+  },
   "tunings": [
     {
-      "label": "25g · 스템·스프링 Krytox GPL 205 G0",
+      "label": "25g · Stem/Spring Krytox GPL 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -24,6 +31,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -42,6 +50,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-0-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-0-902cc34f827d-640.avif",
@@ -57,6 +73,14 @@
         },
         {
           "alt": "MX2A Black 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-640.avif",
@@ -75,10 +99,14 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "coverImageIndex": null
     },
     {
-      "label": "63.5g · 스템 무윤활",
+      "label": "63.5g · Stem No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 63.5g",
@@ -89,6 +117,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -107,6 +136,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-0-3cbcd247b54c-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-0-3cbcd247b54c-640.avif",
@@ -127,6 +164,14 @@
         },
         {
           "alt": "MX2A Black 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-1-adffe50b8b7d-640.avif",
@@ -142,6 +187,14 @@
         },
         {
           "alt": "MX2A Black 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-2-902cc34f827d-640.avif",
@@ -157,6 +210,14 @@
         },
         {
           "alt": "MX2A Black 사진 6",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -175,7 +236,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "60g · Krytox GPL 107",
@@ -189,6 +256,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -207,6 +275,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 7",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-0-04dfaaad9e02-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-0-04dfaaad9e02-640.avif",
@@ -227,6 +303,14 @@
         },
         {
           "alt": "MX2A Black 사진 8",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-1-adffe50b8b7d-640.avif",
@@ -242,6 +326,14 @@
         },
         {
           "alt": "MX2A Black 사진 9",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-2-902cc34f827d-640.avif",
@@ -257,6 +349,14 @@
         },
         {
           "alt": "MX2A Black 사진 10",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -275,7 +375,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "35g · Fomblin Z15 + Klübertemp GR M 07 · Glue Marker",
@@ -290,6 +396,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "glue_marker",
@@ -308,6 +415,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 11",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-0-2a1a953a8cf5-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-0-2a1a953a8cf5-640.avif",
@@ -323,6 +438,14 @@
         },
         {
           "alt": "MX2A Black 사진 12",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-1-adffe50b8b7d-640.avif",
@@ -338,6 +461,14 @@
         },
         {
           "alt": "MX2A Black 사진 13",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-2-902cc34f827d-640.avif",
@@ -353,6 +484,14 @@
         },
         {
           "alt": "MX2A Black 사진 14",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -371,7 +510,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "50g · Kelowna AF206",
@@ -385,6 +530,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -403,6 +549,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 15",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-0-24fe57dee319-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-0-24fe57dee319-640.avif",
@@ -423,6 +577,14 @@
         },
         {
           "alt": "MX2A Black 사진 16",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-1-adffe50b8b7d-640.avif",
@@ -438,6 +600,14 @@
         },
         {
           "alt": "MX2A Black 사진 17",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-2-902cc34f827d-640.avif",
@@ -453,6 +623,14 @@
         },
         {
           "alt": "MX2A Black 사진 18",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -471,7 +649,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "55g · DUBA CHEM DRI-KOTE DL-116Y",
@@ -485,6 +669,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -503,6 +688,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 19",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-0-eba78a917aae-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-0-eba78a917aae-640.avif",
@@ -518,6 +711,14 @@
         },
         {
           "alt": "MX2A Black 사진 20",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-1-adffe50b8b7d-640.avif",
@@ -533,6 +734,14 @@
         },
         {
           "alt": "MX2A Black 사진 21",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-2-902cc34f827d-640.avif",
@@ -548,6 +757,14 @@
         },
         {
           "alt": "MX2A Black 사진 22",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -566,10 +783,16 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
-      "label": "25g · 스템 Krytox GPL 205 G2 · 스프링 Krytox GPL 105",
+      "label": "25g · Stem Krytox GPL 205 G2 · Spring Krytox GPL 105",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -581,6 +804,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -599,6 +823,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 23",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-0-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-0-adffe50b8b7d-640.avif",
@@ -614,6 +846,14 @@
         },
         {
           "alt": "MX2A Black 사진 24",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-1-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-1-902cc34f827d-640.avif",
@@ -629,6 +869,14 @@
         },
         {
           "alt": "MX2A Black 사진 25",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-2-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-bc132f300d1c-source-gallery-2-5dfcda0b9df0-640.avif",
@@ -647,7 +895,12 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1
+      ],
+      "coverImageIndex": null
     },
     {
       "label": "35g · Fomblin Z15 + Klübertemp GR M 07",
@@ -662,6 +915,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -680,6 +934,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 26",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-0-0a6830840ac5-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-0-0a6830840ac5-640.avif",
@@ -695,6 +957,14 @@
         },
         {
           "alt": "MX2A Black 사진 27",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-1-adffe50b8b7d-640.avif",
@@ -710,6 +980,14 @@
         },
         {
           "alt": "MX2A Black 사진 28",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-2-902cc34f827d-640.avif",
@@ -725,6 +1003,14 @@
         },
         {
           "alt": "MX2A Black 사진 29",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -743,7 +1029,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "35g · Kelowna AF206",
@@ -758,6 +1050,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -776,6 +1069,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 30",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-0-0a728faf9b3a-gallery-4x3-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-0-0a728faf9b3a-640.avif",
@@ -796,6 +1097,14 @@
         },
         {
           "alt": "MX2A Black 사진 31",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-1-adffe50b8b7d-640.avif",
@@ -811,6 +1120,14 @@
         },
         {
           "alt": "MX2A Black 사진 32",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-2-902cc34f827d-640.avif",
@@ -826,6 +1143,14 @@
         },
         {
           "alt": "MX2A Black 사진 33",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -844,7 +1169,13 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
     },
     {
       "label": "63.5g · Sprit Slow Extreme 3",
@@ -858,6 +1189,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "applied",
         "method": "film",
@@ -876,6 +1208,14 @@
       "images": [
         {
           "alt": "MX2A Black 사진 34",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-0-c9d6678ca912-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-0-c9d6678ca912-640.avif",
@@ -891,6 +1231,14 @@
         },
         {
           "alt": "MX2A Black 사진 35",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-1-adffe50b8b7d-640.avif",
@@ -906,6 +1254,14 @@
         },
         {
           "alt": "MX2A Black 사진 36",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-2-902cc34f827d-640.avif",
@@ -921,6 +1277,14 @@
         },
         {
           "alt": "MX2A Black 사진 37",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-3-5dfcda0b9df0-640.avif",
@@ -939,13 +1303,115 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        1,
+        2
+      ],
+      "coverImageIndex": 0
+    },
+    {
+      "label": "Stock",
+      "spring": {
+        "resolution": "unknown",
+        "name": null,
+        "status": null
+      },
+      "isStock": true,
+      "isFactoryConfiguration": true,
+      "switchSpecifications": {
+        "actuationForce": "61.2g",
+        "actuationTravel": "2mm",
+        "totalTravel": "4mm",
+        "durabilityCycles": 100000000,
+        "factoryLubed": false
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "unknown",
+          "name": null
+        },
+        "stem": {
+          "state": "unknown",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MX2A Black 사진 38",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-7a211a3eb1f3-gallery-0-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-7a211a3eb1f3-gallery-0-902cc34f827d-640.avif",
+              "width": 640,
+              "height": 491
+            },
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-7a211a3eb1f3-gallery-0-902cc34f827d-1280.avif",
+              "width": 1159,
+              "height": 889
+            }
+          ]
+        }
+      ],
+      "specificationImages": [
+        {
+          "alt": "MX2A Black 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-640.avif",
+              "width": 640,
+              "height": 529
+            },
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-1280.avif",
+              "width": 1280,
+              "height": 1057
+            },
+            {
+              "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-2400.avif",
+              "width": 1327,
+              "height": 1096
+            }
+          ]
+        }
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "MX2A Black 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-0-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-0-902cc34f827d-640.avif",
@@ -961,6 +1427,14 @@
     },
     {
       "alt": "MX2A Black 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-9c988a45e7b3-source-gallery-1-5dfcda0b9df0-640.avif",
@@ -981,6 +1455,14 @@
     },
     {
       "alt": "MX2A Black 사진 3",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-0-3cbcd247b54c-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-0-3cbcd247b54c-640.avif",
@@ -1001,6 +1483,14 @@
     },
     {
       "alt": "MX2A Black 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-4d18cd56a811-source-gallery-1-adffe50b8b7d-640.avif",
@@ -1016,6 +1506,14 @@
     },
     {
       "alt": "MX2A Black 사진 7",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-0-04dfaaad9e02-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-84a694228e1b-source-gallery-0-04dfaaad9e02-640.avif",
@@ -1036,6 +1534,14 @@
     },
     {
       "alt": "MX2A Black 사진 11",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-0-2a1a953a8cf5-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-a7ddd58541d6-source-gallery-0-2a1a953a8cf5-640.avif",
@@ -1051,6 +1557,14 @@
     },
     {
       "alt": "MX2A Black 사진 15",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-0-24fe57dee319-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-79eeea3e9207-source-gallery-0-24fe57dee319-640.avif",
@@ -1071,6 +1585,14 @@
     },
     {
       "alt": "MX2A Black 사진 19",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-0-eba78a917aae-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-cb137eb3feb2-source-gallery-0-eba78a917aae-640.avif",
@@ -1086,6 +1608,14 @@
     },
     {
       "alt": "MX2A Black 사진 26",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-0-0a6830840ac5-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-f0ee5f16881c-source-gallery-0-0a6830840ac5-640.avif",
@@ -1101,6 +1631,14 @@
     },
     {
       "alt": "MX2A Black 사진 30",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-0-0a728faf9b3a-gallery-4x3-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-947f13a6b435-source-gallery-0-0a728faf9b3a-640.avif",
@@ -1121,6 +1659,14 @@
     },
     {
       "alt": "MX2A Black 사진 34",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-0-c9d6678ca912-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mx2a-black/0874480dd67f533b-4a2c0f93f15a-source-gallery-0-c9d6678ca912-640.avif",
@@ -1134,5 +1680,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Cherry logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
+        "width": 360,
+        "height": 70
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

@@ -28,6 +28,14 @@
       "images": [
         {
           "alt": "Black Transparent Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-gallery-0-27fc36085f1b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-gallery-0-27fc36085f1b-640.avif",
@@ -43,6 +51,14 @@
         },
         {
           "alt": "Black Transparent Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-body-0-d8d028e7d3c8-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/doys-blanks/kit-23f489d9db7437d5-source-body-0-d8d028e7d3c8-640.avif",
@@ -67,6 +83,14 @@
       "images": [
         {
           "alt": "Warm White Solid Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/doys-blanks/kit-55c38e02afd6a8ad-source-gallery-0-42341445307b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/doys-blanks/kit-55c38e02afd6a8ad-source-gallery-0-42341445307b-640.avif",
@@ -86,6 +110,14 @@
   "images": [
     {
       "alt": "Doys Blanks 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/doys-blanks/series-b3183200dc0cab44-source-gallery-0-8db8b2c4764e-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/doys-blanks/series-b3183200dc0cab44-source-gallery-0-8db8b2c4764e-640.avif",

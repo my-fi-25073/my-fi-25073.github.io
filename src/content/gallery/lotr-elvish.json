@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Autumn in Rivendell 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-elvish/kit-dffc27b4ef006378-source-gallery-0-148339882200-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-dffc27b4ef006378-source-gallery-0-148339882200-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "Extra 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-640.avif",
@@ -75,6 +91,14 @@
       "images": [
         {
           "alt": "Hardcore Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-640.avif",
@@ -99,6 +123,14 @@
       "images": [
         {
           "alt": "Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-elvish/kit-2acc71eeef0202d0-source-gallery-0-dd76effd54f7-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-elvish/kit-2acc71eeef0202d0-source-gallery-0-dd76effd54f7-640.avif",
@@ -118,6 +150,14 @@
   "images": [
     {
       "alt": "LotR Elvish 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-0-3bc831fe0915-640.avif",
@@ -138,6 +178,14 @@
     },
     {
       "alt": "LotR Elvish 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-gallery-1-c06f93baf563-640.avif",
@@ -158,6 +206,14 @@
     },
     {
       "alt": "LotR Elvish 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-elvish/series-d23029fc639ec365-source-body-0-44c4a0db0802-640.avif",

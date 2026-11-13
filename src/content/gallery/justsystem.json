@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base - Custom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/justsystem/kit-47643c0be349dfc9-gallery-0-a5c67a0ecb1b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/justsystem/kit-47643c0be349dfc9-gallery-0-a5c67a0ecb1b-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "JustSystem 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-640.avif",

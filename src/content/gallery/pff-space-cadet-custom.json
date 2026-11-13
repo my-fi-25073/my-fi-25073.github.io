@@ -28,6 +28,14 @@
       "images": [
         {
           "alt": "Castor Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-640.avif",
@@ -47,6 +55,14 @@
   "images": [
     {
       "alt": "PFF Space Cadet Custom 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-640.avif",

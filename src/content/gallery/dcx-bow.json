@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-0-0fb2f4c70c97-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-0-0fb2f4c70c97-640.avif",
@@ -46,6 +54,14 @@
         },
         {
           "alt": "Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-1-092d09418372-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-1-092d09418372-640.avif",
@@ -70,6 +86,14 @@
   "images": [
     {
       "alt": "DCX BoW 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/dcx-bow/series-df2026d23c07de6d-source-gallery-0-e3c193c4debc-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-gallery-0-e3c193c4debc-640.avif",
@@ -90,6 +114,14 @@
     },
     {
       "alt": "DCX BoW 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-0-2b230d3d11fa-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-0-2b230d3d11fa-640.avif",
@@ -110,6 +142,14 @@
     },
     {
       "alt": "DCX BoW 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-1-a617f76304b8-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-1-a617f76304b8-640.avif",

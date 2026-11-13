@@ -10,6 +10,7 @@ import {
   type CollectionManifest,
 } from '../lib/collection-views';
 import DomainRecordCard from './DomainRecordCard.astro';
+import { switchArchiveRecords, switchModelFamilies } from '../lib/switch-models';
 
 interface Props {
   records: CollectionEntry<'records'>[];
@@ -17,7 +18,9 @@ interface Props {
 
 const { records } = Astro.props;
 const manifest = collectionData as CollectionManifest;
-const products = records.map((entry) => entry.data);
+const sourceRecords = records.map((entry) => entry.data);
+const families = switchModelFamilies(sourceRecords);
+const products = switchArchiveRecords(sourceRecords);
 const switches = recordsForCollectionView(products, manifest, 'switch-manufacturers');
 const franken = recordsForCollectionView(products, manifest, 'switch-franken');
 const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
@@ -96,9 +99,10 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
           {groups.map(({ label, records }) => (
             <section class="archive-section" aria-label={label ?? '스위치 목록'} data-archive-group>
               {label && <div class="section-heading"><h2>{label}</h2></div>}
-              <div class="gallery-grid">
+              <div class="gallery-grid kl-gallery">
                 {records.map((record) => (
-                  <DomainRecordCard record={record} headingLevel={label ? 3 : 2} groups={membership(record)} />
+                  <DomainRecordCard record={record} members={record.modelFamily ? families.get(record.modelFamily.slug) : undefined}
+                    headingLevel={label ? 3 : 2} groups={membership(record)} />
                 ))}
               </div>
             </section>

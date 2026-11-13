@@ -59,6 +59,14 @@
   "images": [
     {
       "alt": "Charybdis 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/charybdis/07da8e1d17a0d9a0-source-gallery-0-75e76131863f-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/charybdis/07da8e1d17a0d9a0-source-gallery-0-75e76131863f-640.avif",

@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 43g",
@@ -22,6 +22,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "HMX Taro Ball 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-0-db4bc49edbc3-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-0-db4bc49edbc3-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "HMX Taro Ball 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-1-d65279fb3cc5-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-1-d65279fb3cc5-640.avif",
@@ -68,13 +85,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Taro Ball 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-0-db4bc49edbc3-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-0-db4bc49edbc3-640.avif",
@@ -90,6 +116,14 @@
     },
     {
       "alt": "HMX Taro Ball 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-1-d65279fb3cc5-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-taro-ball/4521ad7bc27b9788-aa7dd89e1150-source-gallery-1-d65279fb3cc5-640.avif",
@@ -103,5 +137,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

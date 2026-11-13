@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "40s Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lck-retro/kit-b1735c463fa41c15-source-gallery-0-caf25dd92e4e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lck-retro/kit-b1735c463fa41c15-source-gallery-0-caf25dd92e4e-640.avif",
@@ -51,6 +59,14 @@
       "images": [
         {
           "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lck-retro/kit-9ee2ea3e7c7d2a5e-source-gallery-0-ed33af6ff13c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lck-retro/kit-9ee2ea3e7c7d2a5e-source-gallery-0-ed33af6ff13c-640.avif",
@@ -70,6 +86,14 @@
   "images": [
     {
       "alt": "LCK Retro 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lck-retro/series-78e38c3c8893455d-source-gallery-0-73dd0fbeb7b3-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lck-retro/series-78e38c3c8893455d-source-gallery-0-73dd0fbeb7b3-640.avif",

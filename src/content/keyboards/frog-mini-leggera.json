@@ -83,6 +83,14 @@
   "images": [
     {
       "alt": "Frog Mini Leggera 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/frog-mini-leggera/8ebbcf58131091e2-source-gallery-0-2f352fa0f904-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/frog-mini-leggera/8ebbcf58131091e2-source-gallery-0-2f352fa0f904-640.avif",

@@ -46,6 +46,14 @@
   "images": [
     {
       "alt": "GB40 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/gb40/5b7742dc8f13e739-source-gallery-0-503033280d41-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/gb40/5b7742dc8f13e739-source-gallery-0-503033280d41-640.avif",

@@ -12,6 +12,9 @@ const galleryImage = z.object({
   alt: z.string().min(1),
   caption: z.string().optional(),
   variants: z.array(imageVariant).min(1),
+  presentation: z.enum(['icon', 'photo', 'render']).optional(),
+  preserveColor: z.literal(true).optional(),
+  galleryVariants: z.array(imageVariant).min(1).optional(),
 });
 
 const gallery = defineCollection({
@@ -91,12 +94,24 @@ const records = defineCollection({
     kind: z.literal('switch-product'),
     category: z.literal('switches'),
       manufacturer: z.string().nullable(),
+      manufacturerLogo: galleryImage.optional(),
       footprintType: z.string().nullable(),
       switchTypes: z.array(z.string()),
       isFranken: z.boolean(),
+      coverImageIndex: z.number().int().nonnegative().nullable().optional(),
+      coverIsProductImage: z.literal(true).optional(),
+      modelFamily: z.object({
+        slug: z.string().min(1),
+        title: z.string().min(1),
+        variantLabel: z.string().min(1),
+        sortOrder: z.number().int(),
+        isRepresentative: z.boolean(),
+      }).optional(),
       tunings: z.array(z.object({
         label: z.string().min(1),
         isFactoryConfiguration: z.literal(true).optional(),
+        isStock: z.boolean().optional(),
+        coverImageIndex: z.number().int().nonnegative().nullable().optional(),
         switchSpecifications: z.object({
           actuationForce: z.string().min(1).optional(),
           actuationTravel: z.string().min(1).optional(),
@@ -135,6 +150,8 @@ const records = defineCollection({
           material: z.string().nullable(),
         }),
         images: z.array(galleryImage),
+        specificationImages: z.array(galleryImage).optional(),
+        detailImageIndexes: z.array(z.number().int().nonnegative()).optional(),
       })),
       parts: z.array(z.object({
         role: z.enum(['stem', 'bottom_housing', 'top_housing']),

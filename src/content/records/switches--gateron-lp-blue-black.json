@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "Gateron Factory Spring 65g",
@@ -22,6 +22,7 @@
           "length": "11.5mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "Gateron LP Blue Black 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-640.avif",
@@ -50,6 +59,14 @@
         },
         {
           "alt": "Gateron LP Blue Black 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-640.avif",
@@ -58,13 +75,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Gateron LP Blue Black 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-0-81f109a0a65e-640.avif",
@@ -75,6 +101,14 @@
     },
     {
       "alt": "Gateron LP Blue Black 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-lp-blue-black/985098d34d9a55ad-aaefbab816b0-source-gallery-1-aa8b06708879-640.avif",
@@ -83,5 +117,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Gateron logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+        "width": 202,
+        "height": 45
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

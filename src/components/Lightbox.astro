@@ -44,7 +44,8 @@
     };
 
     triggers.forEach((trigger) => {
-      trigger.addEventListener('click', () => {
+      trigger.addEventListener('click', (event) => {
+        event.preventDefault();
         const gallery = trigger.closest('[data-image-gallery]');
         activeTriggers = gallery
           ? [...gallery.querySelectorAll<HTMLElement>('[data-lightbox-open]')]

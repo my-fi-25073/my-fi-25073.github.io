@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/ursa-classic/kit-4d90f7040a2f2b6f-source-gallery-0-5aedc23b144c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/ursa-classic/kit-4d90f7040a2f2b6f-source-gallery-0-5aedc23b144c-640.avif",
@@ -55,6 +63,14 @@
       "images": [
         {
           "alt": "Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/ursa-classic/kit-e90fdabc500e6a7f-source-gallery-0-e13d96c69393-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/ursa-classic/kit-e90fdabc500e6a7f-source-gallery-0-e13d96c69393-640.avif",
@@ -79,6 +95,14 @@
   "images": [
     {
       "alt": "URSA Classic 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/ursa-classic/series-62de4032b8e8ee37-source-gallery-0-1be8156c77a0-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/ursa-classic/series-62de4032b8e8ee37-source-gallery-0-1be8156c77a0-640.avif",

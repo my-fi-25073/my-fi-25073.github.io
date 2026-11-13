@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-noctua/kit-e1b17a1d0be806ac-source-gallery-0-1f6faa917420-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-noctua/kit-e1b17a1d0be806ac-source-gallery-0-1f6faa917420-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "Hobbyist 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-noctua/kit-6e664f147cce0a79-source-gallery-0-cb76eb564c0c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-noctua/kit-6e664f147cce0a79-source-gallery-0-cb76eb564c0c-640.avif",
@@ -74,6 +90,14 @@
       "images": [
         {
           "alt": "Numpad 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-noctua/kit-3e4c696ba919917b-source-gallery-0-c01eba9b654e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-noctua/kit-3e4c696ba919917b-source-gallery-0-c01eba9b654e-640.avif",
@@ -98,6 +122,14 @@
       "images": [
         {
           "alt": "Ortho 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-noctua/kit-63fd18ffd485d6e2-source-gallery-0-d20281a8a41d-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-noctua/kit-63fd18ffd485d6e2-source-gallery-0-d20281a8a41d-640.avif",
@@ -122,6 +154,14 @@
       "images": [
         {
           "alt": "Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-noctua/kit-57564ce46ab5cb89-source-gallery-0-c453c7d59126-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-noctua/kit-57564ce46ab5cb89-source-gallery-0-c453c7d59126-640.avif",
@@ -141,6 +181,14 @@
   "images": [
     {
       "alt": "MiTo Noctua 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-640.avif",
@@ -161,6 +209,14 @@
     },
     {
       "alt": "MiTo Noctua 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-640.avif",
@@ -181,6 +237,14 @@
     },
     {
       "alt": "MiTo Noctua 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-640.avif",

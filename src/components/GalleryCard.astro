@@ -1,152 +1,28 @@
 ---
-import DisplayFields from './DisplayFields.astro';
+import type { CollectionEntry } from 'astro:content';
+import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
 import { buildSeriesFields, galleryDisplay } from '../lib/gallery-display';
-
-interface ImageVariant {
-  src: string;
-  width: number;
-  height: number;
-}
-
-interface GalleryImage {
-  alt: string;
-  variants: ImageVariant[];
-}
-
-interface Gallery {
-  slug: string;
-  title: string;
-  manufacturer: string | null;
-  profile: string | null;
-  manufacturingProcess: string | null;
-  sleeveStatus: string | null;
-  materials: string[];
-  colors: string[];
-  compatibility: string[];
-  kits: Array<{
-    slug: string;
-    title: string;
-    images: GalleryImage[];
-  }>;
-  images: GalleryImage[];
-}
-
 interface Props {
-  gallery: Gallery;
+  gallery: CollectionEntry<'gallery'>['data'];
   groups?: string[];
   headingLevel?: 2 | 3;
   showProfile?: boolean;
 }
-
 const { gallery, groups = [], headingLevel = 2, showProfile = false } = Astro.props;
 const cover = gallery.images[0];
-const coverVariants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
-const coverSource = coverVariants[0];
-const coverSrcset = coverVariants.map((item) => `${item.src} ${item.width}w`).join(', ');
 const assetDigest = (path: string) => /-([a-f0-9]{12})-\d+\.(?:avif|webp)$/u.exec(path)?.[1];
-const coverDigest = coverSource && assetDigest(coverSource.src);
+const coverDigest = cover && assetDigest(cover.variants[0].src);
 const kitPhotos = gallery.kits.flatMap((kit) => kit.images)
   .filter(({ variants }) => variants.length && (!coverDigest || assetDigest(variants[0].src) !== coverDigest));
 const kitPhoto = kitPhotos.find(({ variants }) => /-gallery-\d+-/u.test(variants[0].src)
   && !/-source-gallery-\d+-/u.test(variants[0].src)) ?? kitPhotos[0];
-const kitVariants = kitPhoto?.variants.toSorted((a, b) => a.width - b.width) ?? [];
-const kitSource = kitVariants[0];
-const cardSizes = '(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw';
 const cardKeys = galleryDisplay.homeCard;
-const fields = buildSeriesFields(
-  gallery,
-  showProfile && !cardKeys.includes('profile') ? [...cardKeys, 'profile'] : cardKeys,
-);
-const searchText = [
-  gallery.title,
-  gallery.manufacturer ?? '',
-  gallery.profile ?? '',
-  ...gallery.kits.map((kit) => kit.title),
-]
-  .join(' ')
-  .toLocaleLowerCase('ko');
+const metadata = buildSeriesFields(gallery, showProfile && !cardKeys.includes('profile') ? [...cardKeys, 'profile'] : cardKeys);
+const searchText = [gallery.title, gallery.manufacturer ?? '', gallery.profile ?? '', ...gallery.kits.map((kit) => kit.title)].join(' ').toLocaleLowerCase('ko');
+const card = renderGalleryCard({
+  title: gallery.title, href: `/gallery/${gallery.slug}/`, kind: 'keycap', headingLevel,
+  image: galleryImage(cover, 'keycap'), previewImage: galleryImage(kitPhoto, 'keycap'), metadata,
+  attributes: { 'data-archive-card': true, 'data-search': searchText, 'data-groups': JSON.stringify(groups) },
+});
 ---
-
-<article
-  class="gallery-card"
-  data-archive-card
-  data-search={searchText}
-  data-groups={JSON.stringify(groups)}
->
-  <a class="gallery-card-link" href={`/gallery/${gallery.slug}/`}>
-    <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource, 'has-kit-preview': kitSource }] }>
-      {coverSource ? (
-        <img
-          src={coverSource.src}
-          srcset={coverSrcset}
-          sizes={cardSizes}
-          width={coverSource.width}
-          height={coverSource.height}
-          alt={cover.alt}
-          loading="lazy"
-          decoding="async"
-        />
-      ) : (
-        <div class="empty-media" aria-hidden="true"></div>
-      )}
-      {kitSource && (
-        <template data-kit-preview>
-          <img class="kit-preview-photo" src={kitSource.src}
-            srcset={kitVariants.map(({ src, width }) => `${src} ${width}w`).join(', ')}
-            sizes={cardSizes} width={kitSource.width} height={kitSource.height}
-            alt="" decoding="async" />
-        </template>
-      )}
-    </div>
-    <div class="gallery-card-copy">
-      <div class="gallery-card-titleline">
-        {headingLevel === 3 ? <h3>{gallery.title}</h3> : <h2>{gallery.title}</h2>}
-      </div>
-      <DisplayFields fields={fields} variant="card" />
-    </div>
-  </a>
-</article>
-
-<script>
-  const previewLink = (target: EventTarget | null) => target instanceof Element
-    ? target.closest<HTMLElement>('.gallery-card-link:has(.has-kit-preview)') : null;
-
-  function loadKitPhoto(link: HTMLElement) {
-    const template = link.querySelector<HTMLTemplateElement>('template[data-kit-preview]');
-    if (!template) return;
-    const preview = template.content.querySelector('img');
-    if (!preview) return;
-    preview.addEventListener('load', () => { preview.dataset.loaded = ''; }, { once: true });
-    template.replaceWith(preview);
-    if (preview.complete && preview.naturalWidth > 0) preview.dataset.loaded = '';
-  }
-
-  document.addEventListener('pointerover', (event) => {
-    if (event.pointerType === 'touch') return;
-    const link = previewLink(event.target);
-    if (!link || link === previewLink(event.relatedTarget)) return;
-    link.dataset.kitHovered = '';
-    loadKitPhoto(link);
-  });
-  document.addEventListener('pointerout', (event) => {
-    const link = previewLink(event.target);
-    if (link && link !== previewLink(event.relatedTarget)) delete link.dataset.kitHovered;
-  });
-  document.addEventListener('focusin', (event) => {
-    const link = previewLink(event.target);
-    if (link?.matches(':focus-visible')) loadKitPhoto(link);
-  });
-</script>
-
-<style>
-  .has-kit-preview { position: relative; }
-  .has-kit-preview .kit-preview-photo {
-    position: absolute;
-    inset: 0;
-    object-fit: contain;
-    background: var(--color-surface);
-    opacity: 0;
-    pointer-events: none;
-  }
-  .gallery-card-link:is([data-kit-hovered], :focus-visible) .kit-preview-photo[data-loaded] { opacity: 1; }
-</style>
+<Fragment set:html={card} />

@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Blank Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/hhkb-charcoal/kit-3254df3335da5fbd-source-gallery-0-d15085accc75-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/hhkb-charcoal/kit-3254df3335da5fbd-source-gallery-0-d15085accc75-640.avif",
@@ -51,6 +59,14 @@
   "images": [
     {
       "alt": "HHKB Charcoal 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/hhkb-charcoal/series-46445833d301e9d2-source-gallery-0-e073080fad33-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/hhkb-charcoal/series-46445833d301e9d2-source-gallery-0-e073080fad33-640.avif",

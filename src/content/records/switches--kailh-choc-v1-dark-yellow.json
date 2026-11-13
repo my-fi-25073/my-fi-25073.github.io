@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "무윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 70g",
@@ -21,6 +21,7 @@
           "actuation_force": "70g ± 10g"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -39,6 +40,14 @@
       "images": [
         {
           "alt": "Kailh Choc v1 Dark Yellow 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-640.avif",
@@ -52,13 +61,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Kailh Choc v1 Dark Yellow 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-640.avif",
@@ -72,5 +90,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-640.avif",
+        "width": 520,
+        "height": 200
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

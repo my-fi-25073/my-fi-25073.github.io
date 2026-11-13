@@ -28,6 +28,14 @@
       "images": [
         {
           "alt": "CMYW 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-640.avif",
@@ -52,6 +60,14 @@
       "images": [
         {
           "alt": "Dark RGB 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-640.avif",
@@ -77,6 +93,14 @@
       "images": [
         {
           "alt": "Extension 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-essential/kit-50d9cd6f794ef87c-source-gallery-0-9d110e8a5cfd-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/wob-essential/kit-50d9cd6f794ef87c-source-gallery-0-9d110e8a5cfd-640.avif",
@@ -96,6 +120,14 @@
   "images": [
     {
       "alt": "WoB Essential 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/wob-essential/series-caf980b6699b29c6-source-gallery-0-87cd4285fbb5-640.avif",

@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 50g",
@@ -22,6 +22,7 @@
           "length": "20mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "HMX Macchiato 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-0-e50944364ee3-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-0-e50944364ee3-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "HMX Macchiato 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-1-c91c7962b0c1-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-1-c91c7962b0c1-640.avif",
@@ -73,13 +90,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Macchiato 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-0-e50944364ee3-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-0-e50944364ee3-640.avif",
@@ -95,6 +121,14 @@
     },
     {
       "alt": "HMX Macchiato 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-1-c91c7962b0c1-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-macchiato/a3a9972be948cdbe-18dd60cba5e9-source-gallery-1-c91c7962b0c1-640.avif",
@@ -113,5 +147,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/retro-black-tomak/kit-c07a9dc0b85fc33d-source-gallery-0-834628af949d-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/retro-black-tomak/kit-c07a9dc0b85fc33d-source-gallery-0-834628af949d-640.avif",
@@ -50,6 +58,14 @@
   "images": [
     {
       "alt": "Retro Black (Tomak) 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/retro-black-tomak/series-9c6c36b59d09946e-source-gallery-0-f78d9db2341d-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/retro-black-tomak/series-9c6c36b59d09946e-source-gallery-0-f78d9db2341d-640.avif",

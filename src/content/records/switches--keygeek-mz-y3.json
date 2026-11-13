@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Factory OG 37g(partial) · 스템 공장 윤활 · 스프링 공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "Keygeek Factory Spring 37g",
@@ -23,6 +23,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -41,6 +42,14 @@
       "images": [
         {
           "alt": "Keygeek MZ y3 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-640.avif",
@@ -56,6 +65,14 @@
         },
         {
           "alt": "Keygeek MZ y3 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-640.avif",
@@ -74,10 +91,14 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "coverImageIndex": 0
     },
     {
-      "label": "Sprit Supreme 30g · 스템 공장 윤활 · 스프링 무윤활",
+      "label": "Sprit Supreme 30g · Stem Factory Lube · Spring No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
@@ -89,6 +110,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -107,6 +129,14 @@
       "images": [
         {
           "alt": "Keygeek MZ y3 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-640.avif",
@@ -122,6 +152,14 @@
         },
         {
           "alt": "Keygeek MZ y3 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-1-88dffb85dfed-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-1-88dffb85dfed-640.avif",
@@ -140,10 +178,14 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "coverImageIndex": 0
     },
     {
-      "label": "Factory OG 45g · 스템 공장 윤활 · 스프링 공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 45g",
@@ -152,6 +194,7 @@
           "length": "18mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -170,6 +213,14 @@
       "images": [
         {
           "alt": "Keygeek MZ y3 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-640.avif",
@@ -185,6 +236,14 @@
         },
         {
           "alt": "Keygeek MZ y3 사진 6",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-640.avif",
@@ -198,13 +257,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Keygeek MZ y3 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-0-93272f38e90c-640.avif",
@@ -220,6 +288,14 @@
     },
     {
       "alt": "Keygeek MZ y3 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-40b562e7b283-source-gallery-1-88dffb85dfed-640.avif",
@@ -240,6 +316,14 @@
     },
     {
       "alt": "Keygeek MZ y3 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-0fd398aa37c1-source-gallery-0-557e1955f3c5-640.avif",
@@ -255,6 +339,14 @@
     },
     {
       "alt": "Keygeek MZ y3 사진 5",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-0-557e47bd78a6-640.avif",
@@ -270,6 +362,14 @@
     },
     {
       "alt": "Keygeek MZ y3 사진 6",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/keygeek-mz-y3/41cc54cf0eb64875-c7e08c116ffc-source-gallery-1-403b9149cc25-640.avif",
@@ -283,5 +383,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Keygeek logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-640.avif",
+        "width": 352,
+        "height": 36
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

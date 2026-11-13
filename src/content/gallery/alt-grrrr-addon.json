@@ -29,6 +29,14 @@
       "images": [
         {
           "alt": "Beige/WoB 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/alt-grrrr-addon/kit-d6e11b5ddf4c88ee-source-gallery-0-4e597cf7502f-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/alt-grrrr-addon/kit-d6e11b5ddf4c88ee-source-gallery-0-4e597cf7502f-640.avif",
@@ -53,6 +61,14 @@
   "images": [
     {
       "alt": "Alt Grrrr Addon 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/alt-grrrr-addon/series-10a52800d6e03d01-source-gallery-0-65fe5c7f2960-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/alt-grrrr-addon/series-10a52800d6e03d01-source-gallery-0-65fe5c7f2960-640.avif",

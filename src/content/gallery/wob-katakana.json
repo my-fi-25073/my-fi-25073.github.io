@@ -29,6 +29,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-katakana/kit-cdfe9b0d8e56e82a-source-gallery-0-f5f6ddcb6ba3-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/wob-katakana/kit-cdfe9b0d8e56e82a-source-gallery-0-f5f6ddcb6ba3-640.avif",
@@ -53,6 +61,14 @@
   "images": [
     {
       "alt": "WoB Katakana 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/wob-katakana/series-32a62853c4f45ad8-source-gallery-0-70042ed28a05-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/wob-katakana/series-32a62853c4f45ad8-source-gallery-0-70042ed28a05-640.avif",

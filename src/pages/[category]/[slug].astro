@@ -1,143 +1,65 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import DisplayFields from '../../components/DisplayFields.astro';
 import ImageGallery from '../../components/ImageGallery.astro';
 import Lightbox from '../../components/Lightbox.astro';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import { buildDomainFields } from '../../lib/domain-display';
-import { publicSwitchTunings } from '../../lib/switch-tuning-display';
+import { switchModelFamilies } from '../../lib/switch-models';
+import { publicSwitchTunings, switchCoverImage } from '../../lib/switch-tuning-display';
+import { galleryImage, renderGalleryCard } from '../../../public/ui/gallery.mjs';
 
 export async function getStaticPaths() {
-  const records = await getCollection('records');
-  return records.map((entry) => ({
-    params: { category: 'switches', slug: entry.data.slug },
-    props: { entry },
-  }));
+  const entries = await getCollection('records');
+  const families = switchModelFamilies(entries.map(({ data }) => data));
+  for (const slug of families.keys()) {
+    if (entries.some(({ data }) => data.slug === slug)) throw new Error(`Switch family route collision: ${slug}`);
+  }
+  return [
+    ...entries.map(({ data: record }) => ({ params: { category: 'switches', slug: record.slug }, props: { records: [record], family: false } })),
+    ...[...families].map(([slug, records]) => ({ params: { category: 'switches', slug }, props: { records, family: true } })),
+  ];
 }
 
-interface Props {
-  entry: CollectionEntry<'records'>;
-}
-
-const { entry } = Astro.props;
-const record = entry.data;
-const fields = buildDomainFields(record);
-const tunings = publicSwitchTunings(record).toSorted((a, b) => (
-  Number(b.tuning.isFactoryConfiguration === true) - Number(a.tuning.isFactoryConfiguration === true)
-));
-function lubeLabel(lube: (typeof record.tunings)[number]['lubrication']['stem']) {
-  if (lube.state === 'factory') return 'Factory';
-  if (lube.state === 'none') return 'Unlubed';
-  return lube.name;
-}
-const partLabels = {
-  stem: '스템',
-  bottom_housing: '하부 하우징',
-  top_housing: '상부 하우징',
-};
-const tuningImageSources = new Set(record.tunings.flatMap((tuning) => (
-  tuning.images.flatMap((image) => image.variants.map(({ src }) => src))
-)));
-const directProductImages = record.images.filter((image) => (
-  !image.variants.some(({ src }) => tuningImageSources.has(src))
-));
+interface Props { records: CollectionEntry<'records'>['data'][]; family: boolean; }
+const { records, family } = Astro.props;
+const record = records[0];
+if (!family && record.modelFamily) return Astro.redirect(`/switches/${record.modelFamily.slug}/`);
+const title = family ? record.modelFamily!.title : record.title;
+const fields = family ? [] : buildDomainFields(record);
+const sections = records.map((product) => ({
+  placeholderLogo: product.manufacturerLogo,
+  label: family ? product.modelFamily!.variantLabel : 'Tuning Specs',
+  tunings: publicSwitchTunings(product).toSorted((a, b) => (
+    Number(b.tuning.isStock === true || b.tuning.isFactoryConfiguration === true)
+    - Number(a.tuning.isStock === true || a.tuning.isFactoryConfiguration === true)
+  )),
+}));
+const partLabels = { stem: 'Stem', bottom_housing: 'Bottom housing', top_housing: 'Top housing' };
 ---
-
-<SiteLayout title={record.title}>
+<SiteLayout title={title}>
   <article class="detail shell">
-    <header class="detail-header">
-      <h1>{record.title}</h1>
-    </header>
-
-    <ImageGallery images={directProductImages} label={record.title} />
-
-    {record.parts.length > 0 && (
-      <dl class="product-parts" aria-label="프랑켄 조합">
-        {record.parts.map((part) => (
-          <div><dt>{partLabels[part.role]}</dt><dd>{part.donor}</dd></div>
-        ))}
-      </dl>
-    )}
-
-    {tunings.length > 0 && (
-      <section class="record-section switch-tunings" aria-labelledby="switch-tunings-heading">
-        <div class="section-heading">
-          <h2 id="switch-tunings-heading">Tuning Specs</h2>
-        </div>
-        <ul class="switch-tuning-list">
-          {tunings.map(({ label, href, tuning }) => {
-            const photo = tuning.images[0]?.variants[0];
-            const details = [
-              ['Actuation', tuning.switchSpecifications?.actuationForce],
-              ['Spring', tuning.spring.resolution === 'selected' ? tuning.spring.name : null],
-              ['Stem lube', lubeLabel(tuning.lubrication.stem)],
-              ['Spring lube', lubeLabel(tuning.lubrication.spring)],
-            ].filter(([, value]) => value);
-            return (
-              <li>
-                <a href={href}>
-                  {photo && <img src={photo.src} width={photo.width} height={photo.height} alt="" loading="lazy" />}
-                  <div class="tuning-link-detail">
-                    <h3>{label}</h3>
-                    {details.length > 0 && (
-                      <dl>
-                        {details.map(([key, value]) => <div><dt>{key}</dt><dd>{value}</dd></div>)}
-                      </dl>
-                    )}
-                  </div>
-                </a>
-              </li>
-            );
-          })}
+    <header class="detail-header"><h1>{title}</h1></header>
+    {sections.map(({ label, tunings, placeholderLogo }) => tunings.length > 0 && (
+      <section class="record-section switch-tunings" aria-label={label}>
+        <div class="section-heading"><h2>{label}</h2></div>
+        <ul class="kl-gallery">
+          {tunings.map(({ label, href, tuning }) => <li set:html={renderGalleryCard({
+            title: label, href, kind: 'switch', image: galleryImage(switchCoverImage(tuning), 'switch'),
+            placeholderLogo: galleryImage(placeholderLogo, 'vendor'),
+          })} />)}
         </ul>
       </section>
+    ))}
+    {!family && record.tunings.length === 0 && <ImageGallery images={record.images} label={title} />}
+    {!family && record.parts.length > 0 && (
+      <dl class="product-parts" aria-label="Franken components">
+        {record.parts.map((part) => <div><dt>{partLabels[part.role]}</dt><dd>{part.donor}</dd></div>)}
+      </dl>
     )}
-    {fields.length > 0 && (
-      <section class="series-properties" aria-label="스위치 정보">
-        <DisplayFields fields={fields} variant="detail" />
-      </section>
-    )}
+    {fields.length > 0 && <section class="series-properties" aria-label="Switch information">
+      <DisplayFields fields={fields} variant="detail" />
+    </section>}
   </article>
   <Lightbox />
 </SiteLayout>
-
-<style>
-  .switch-tuning-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
-    gap: 14px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .switch-tuning-list a {
-    display: block;
-    height: 100%;
-    border: 1px solid var(--color-rule);
-    border-radius: var(--radius-card);
-    background: var(--color-panel);
-  }
-
-  .switch-tuning-list img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3;
-    object-fit: contain;
-    background: var(--color-surface);
-    border-radius: var(--radius-card) var(--radius-card) 0 0;
-  }
-
-  .tuning-link-detail { min-width: 0; padding: 12px; overflow-wrap: anywhere; }
-  .tuning-link-detail h3 { margin: 0; font-size: 15px; }
-  .tuning-link-detail dl { display: grid; gap: 4px; margin: 8px 0 0; font-size: 13px; }
-  .tuning-link-detail dl > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 8px; }
-  .tuning-link-detail dt { color: var(--color-muted); }
-  .tuning-link-detail dd { margin: 0; }
-
-  .switch-tuning-list a:hover h3 {
-    text-decoration: underline;
-    text-underline-offset: .18em;
-  }
-</style>

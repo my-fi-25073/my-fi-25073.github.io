@@ -39,6 +39,14 @@
   "images": [
     {
       "alt": "Castor Handerbeit 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/castor-handerbeit/e5c163df8c6aad56-source-gallery-0-d649b8802a6d-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/castor-handerbeit/e5c163df8c6aad56-source-gallery-0-d649b8802a6d-640.avif",

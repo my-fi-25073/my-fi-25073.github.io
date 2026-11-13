@@ -1,10 +1,11 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import type { DisplayField } from './gallery-display';
-import { buildSwitchTuningFields, publicSwitchTunings } from './switch-tuning-display';
+import { buildSwitchTuningFields, publicSwitchTunings, switchCoverImage } from './switch-tuning-display';
 
 export type BuildComponentCover = CollectionEntry<'gallery'>['data']['images'][number];
 export interface BuildComponentPresentation {
   cover?: BuildComponentCover;
+  placeholderLogo?: BuildComponentCover;
   productTitle?: string;
   tuningLabel?: string;
   fields?: DisplayField[];
@@ -30,7 +31,8 @@ export async function loadBuildComponentCoverResolver() {
       const productTitle = record.title.trim();
       const repeatedName = productTitle === label || productTitle.endsWith(' ' + label);
       components.set(href, {
-        cover: tuning.images[0] ?? record.images[0],
+        cover: switchCoverImage(tuning),
+        placeholderLogo: record.manufacturerLogo,
         productTitle,
         tuningLabel: repeatedName ? undefined : label,
         fields: fields.filter(({ key }) => ['spring', 'actuation_force', 'bottom_out_force'].includes(key)),

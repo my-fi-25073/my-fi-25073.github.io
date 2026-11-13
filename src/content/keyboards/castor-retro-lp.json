@@ -45,6 +45,14 @@
   "images": [
     {
       "alt": "Castor Retro LP 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/castor-retro-lp/f3f7cebbf4e7fc1a-source-gallery-0-ae6e97103742-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/castor-retro-lp/f3f7cebbf4e7fc1a-source-gallery-0-ae6e97103742-640.avif",

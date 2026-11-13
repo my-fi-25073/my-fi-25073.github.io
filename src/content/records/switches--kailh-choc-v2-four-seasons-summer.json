@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 55g",
@@ -21,6 +21,7 @@
           "actuation_force": "50gf"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -39,6 +40,14 @@
       "images": [
         {
           "alt": "Kailh Choc v2 Four Seasons Summer 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
@@ -54,6 +63,14 @@
         },
         {
           "alt": "Kailh Choc v2 Four Seasons Summer 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-640.avif",
@@ -67,13 +84,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Kailh Choc v2 Four Seasons Summer 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
@@ -89,6 +115,14 @@
     },
     {
       "alt": "Kailh Choc v2 Four Seasons Summer 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-640.avif",
@@ -102,5 +136,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-640.avif",
+        "width": 520,
+        "height": 200
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

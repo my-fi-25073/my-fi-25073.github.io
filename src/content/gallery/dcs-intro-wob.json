@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-0-615d848eb6c9-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-0-615d848eb6c9-640.avif",
@@ -46,6 +54,14 @@
         },
         {
           "alt": "Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-1-6f94f20f21be-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-1-6f94f20f21be-640.avif",
@@ -66,6 +82,14 @@
         },
         {
           "alt": "Base 이미지 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-2-4e72b4acba0c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-intro-wob/kit-abd7a6d61ec91ab6-source-gallery-2-4e72b4acba0c-640.avif",
@@ -90,6 +114,14 @@
   "images": [
     {
       "alt": "DCS Intro WoB 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/dcs-intro-wob/series-4ccf163a2fede74c-source-gallery-0-58e96f5eaffc-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/dcs-intro-wob/series-4ccf163a2fede74c-source-gallery-0-58e96f5eaffc-640.avif",

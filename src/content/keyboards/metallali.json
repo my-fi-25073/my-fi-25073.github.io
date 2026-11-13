@@ -45,6 +45,14 @@
   "images": [
     {
       "alt": "Metallali 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-0-b82f8dcfcd7d-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-0-b82f8dcfcd7d-640.avif",
@@ -65,6 +73,14 @@
     },
     {
       "alt": "Metallali 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-1-6c893888bc9e-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-1-6c893888bc9e-640.avif",
@@ -85,6 +101,14 @@
     },
     {
       "alt": "Metallali 사진 3",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-2-9270abc87df6-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-2-9270abc87df6-640.avif",
@@ -105,6 +129,14 @@
     },
     {
       "alt": "Metallali 사진 4",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-3-a3950a888104-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/metallali/8f2fbca6c4b80e1b-source-gallery-3-a3950a888104-640.avif",

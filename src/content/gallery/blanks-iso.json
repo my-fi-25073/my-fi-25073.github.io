@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "ISO TKL Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/blanks-iso/kit-aca7fc80236a74df-source-gallery-0-4d5557e70bc5-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/blanks-iso/kit-aca7fc80236a74df-source-gallery-0-4d5557e70bc5-640.avif",
@@ -45,6 +53,14 @@
   "images": [
     {
       "alt": "Blanks ISO 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/blanks-iso/series-a919ba59d1d78e2b-source-gallery-0-4d5557e70bc5-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/blanks-iso/series-a919ba59d1d78e2b-source-gallery-0-4d5557e70bc5-640.avif",

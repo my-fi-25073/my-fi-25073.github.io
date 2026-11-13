@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Masonry Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-640.avif",
@@ -47,6 +55,14 @@
         },
         {
           "alt": "Masonry Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-640.avif",
@@ -71,6 +87,14 @@
   "images": [
     {
       "alt": "Custom Masonry WoB 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-640.avif",

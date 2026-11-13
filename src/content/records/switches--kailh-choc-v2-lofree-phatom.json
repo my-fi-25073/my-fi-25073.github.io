@@ -22,6 +22,7 @@
           "length": "11.75mm"
         }
       },
+      "isStock": false,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
@@ -75,6 +92,14 @@
         },
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
@@ -90,6 +115,14 @@
         },
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-640.avif",
@@ -103,10 +136,15 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0,
+        3
+      ],
+      "coverImageIndex": 3
     },
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 55g",
@@ -116,6 +154,7 @@
           "length": "15.5mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -134,6 +173,14 @@
       "images": [
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-0-953f840fb187-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-0-953f840fb187-640.avif",
@@ -149,6 +196,14 @@
         },
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 6",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-640.avif",
@@ -169,6 +224,14 @@
         },
         {
           "alt": "Kailh Choc v2 Lofree Phatom 사진 7",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-2-b279bad122a6-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-2-b279bad122a6-640.avif",
@@ -182,13 +245,78 @@
             }
           ]
         }
-      ]
+      ],
+      "detailImageIndexes": [
+        0
+      ],
+      "specificationImages": [
+        {
+          "alt": "Kailh Choc v2 Lofree Phatom 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
+              "width": 640,
+              "height": 594
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-1280.avif",
+              "width": 1280,
+              "height": 1189
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-2400.avif",
+              "width": 1322,
+              "height": 1228
+            }
+          ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Phatom 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
+              "width": 640,
+              "height": 371
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-1280.avif",
+              "width": 1014,
+              "height": 588
+            }
+          ]
+        }
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Kailh Choc v2 Lofree Phatom 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-640.avif",
@@ -204,6 +332,14 @@
     },
     {
       "alt": "Kailh Choc v2 Lofree Phatom 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
@@ -224,6 +360,14 @@
     },
     {
       "alt": "Kailh Choc v2 Lofree Phatom 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
@@ -239,6 +383,14 @@
     },
     {
       "alt": "Kailh Choc v2 Lofree Phatom 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/kailh-choc-v2-lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-640.avif",
@@ -252,5 +404,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7d370a803a5b241580b955a28f023f511760785436ab3a02fe1f90c1c8301a95-640.avif",
+        "width": 520,
+        "height": 200
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

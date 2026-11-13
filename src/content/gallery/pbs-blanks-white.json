@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pbs-blanks-white/kit-85b1a359687b95ba-source-gallery-0-6869612a76ff-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/pbs-blanks-white/kit-85b1a359687b95ba-source-gallery-0-6869612a76ff-640.avif",
@@ -51,6 +59,14 @@
   "images": [
     {
       "alt": "PBS Blanks White 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/pbs-blanks-white/series-af7c194ac67aecc2-source-gallery-0-953453b01365-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/pbs-blanks-white/series-af7c194ac67aecc2-source-gallery-0-953453b01365-640.avif",
@@ -71,6 +87,14 @@
     },
     {
       "alt": "PBS Blanks White 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/pbs-blanks-white/series-af7c194ac67aecc2-source-body-0-b8ce47ff7089-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/pbs-blanks-white/series-af7c194ac67aecc2-source-body-0-b8ce47ff7089-640.avif",

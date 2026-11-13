@@ -28,6 +28,14 @@
       "images": [
         {
           "alt": "Beige OG R4 Extension 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-640.avif",
@@ -57,6 +65,14 @@
       "images": [
         {
           "alt": "Beige XT Extension 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-640.avif",
@@ -77,6 +93,14 @@
         },
         {
           "alt": "Beige XT Extension 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-640.avif",
@@ -101,6 +125,14 @@
   "images": [
     {
       "alt": "OG Extension 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-640.avif",

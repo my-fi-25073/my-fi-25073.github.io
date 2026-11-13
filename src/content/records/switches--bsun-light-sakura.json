@@ -13,7 +13,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 43g",
@@ -22,6 +22,7 @@
           "length": "21mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "Bsun Light Sakura 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "Bsun Light Sakura 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-640.avif",
@@ -68,13 +85,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Bsun Light Sakura 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-0-15edc94d831c-640.avif",
@@ -90,6 +116,14 @@
     },
     {
       "alt": "Bsun Light Sakura 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/bsun-light-sakura/f858ef92f986b7bb-761603643b10-source-gallery-1-0c06d624edcb-640.avif",
@@ -103,5 +137,26 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Bsun logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-640.avif",
+        "width": 78,
+        "height": 58
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

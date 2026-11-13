@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 52g",
@@ -23,6 +23,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -41,6 +42,14 @@
       "images": [
         {
           "alt": "HMX Candy Red 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "HMX Candy Red 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-640.avif",
@@ -64,13 +81,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Candy Red 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-0-1a644153bc24-640.avif",
@@ -81,6 +107,14 @@
     },
     {
       "alt": "HMX Candy Red 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-candy-red/863086661c23bb03-fd3018fd1141-source-gallery-1-c85d4416a9ce-640.avif",
@@ -94,5 +128,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

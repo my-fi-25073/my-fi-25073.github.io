@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "Factory Spring 60g",
@@ -22,6 +22,7 @@
           "bottom_out_force": "60g"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "Grain Gold Balhae Blue 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "Grain Gold Balhae Blue 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-640.avif",
@@ -68,13 +85,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Grain Gold Balhae Blue 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-640.avif",
@@ -90,6 +116,14 @@
     },
     {
       "alt": "Grain Gold Balhae Blue 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-640.avif",
@@ -103,5 +137,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

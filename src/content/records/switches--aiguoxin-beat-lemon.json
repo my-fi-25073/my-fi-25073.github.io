@@ -12,12 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 42g",
         "status": "partial"
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -36,6 +37,14 @@
       "images": [
         {
           "alt": "Aiguoxin Beat Lemon 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-640.avif",
@@ -46,6 +55,14 @@
         },
         {
           "alt": "Aiguoxin Beat Lemon 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-640.avif",
@@ -54,13 +71,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Aiguoxin Beat Lemon 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-640.avif",
@@ -71,6 +97,14 @@
     },
     {
       "alt": "Aiguoxin Beat Lemon 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-640.avif",
@@ -79,5 +113,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

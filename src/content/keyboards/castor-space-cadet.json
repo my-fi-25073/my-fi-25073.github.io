@@ -39,6 +39,14 @@
   "images": [
     {
       "alt": "Castor Space Cadet 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/castor-space-cadet/7e694cd9ea8e531a-source-gallery-0-192f9454f866-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/castor-space-cadet/7e694cd9ea8e531a-source-gallery-0-192f9454f866-640.avif",

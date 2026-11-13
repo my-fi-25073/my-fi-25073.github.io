@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "10u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-space-bars/kit-8afe7aa74fafdcea-source-gallery-0-e1c52a756a52-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-space-bars/kit-8afe7aa74fafdcea-source-gallery-0-e1c52a756a52-640.avif",
@@ -55,6 +63,14 @@
       "images": [
         {
           "alt": "5u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-space-bars/kit-c5ab535b2947845e-source-gallery-0-e1f78aafca41-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-space-bars/kit-c5ab535b2947845e-source-gallery-0-e1f78aafca41-640.avif",
@@ -92,6 +108,14 @@
       "images": [
         {
           "alt": "Mini Bars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dcs-space-bars/kit-7e554b43593a9b57-source-gallery-0-3e9397f16dee-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/dcs-space-bars/kit-7e554b43593a9b57-source-gallery-0-3e9397f16dee-640.avif",
@@ -106,6 +130,14 @@
   "images": [
     {
       "alt": "DCS Space Bars 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/dcs-space-bars/series-e3b57b9f13175cba-source-gallery-0-48b65f00a22b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/dcs-space-bars/series-e3b57b9f13175cba-source-gallery-0-48b65f00a22b-640.avif",

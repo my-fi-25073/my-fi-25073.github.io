@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base - Custom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/monokai/kit-f60f8c5a23e08d2e-gallery-0-c22c6a9b17d6-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/monokai/kit-f60f8c5a23e08d2e-gallery-0-c22c6a9b17d6-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "Monokai 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/monokai/series-c547f194c4f76d7a-gallery-0-3acd0bdc2b8b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/monokai/series-c547f194c4f76d7a-gallery-0-3acd0bdc2b8b-640.avif",

@@ -67,7 +67,7 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
     {displayGroups.map(({ label, records }) => (
       <section class="archive-section" aria-label={label ?? '키보드 목록'} data-archive-group>
         {label && <div class="section-heading"><h2>{label}</h2></div>}
-        <div class="gallery-grid">
+        <div class="gallery-grid kl-gallery">
           {records.map((keyboard) => {
             const entry = entryBySlug.get(keyboard.slug);
             if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
@@ -80,7 +80,7 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
     <template data-keyboard-preset-section>
       <section class="archive-section" aria-label="키보드 목록">
         <div class="section-heading" hidden><h2></h2></div>
-        <div class="gallery-grid"></div>
+        <div class="gallery-grid kl-gallery"></div>
       </section>
     </template>
         </div>

@@ -12,12 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 42g",
         "status": "partial"
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -36,6 +37,14 @@
       "images": [
         {
           "alt": "HMX Hades V2 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "HMX Hades V2 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
@@ -64,13 +81,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Hades V2 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
@@ -86,6 +112,14 @@
     },
     {
       "alt": "HMX Hades V2 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
@@ -99,5 +133,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

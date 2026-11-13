@@ -1,120 +1,18 @@
 ---
 import type { BuildComponentPresentation } from '../lib/build-component-covers';
-import DisplayFields from './DisplayFields.astro';
-
+import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
 interface Props {
-  items: Array<BuildComponentPresentation & {
-    title: string;
-    href: string;
-    quantity?: number | null;
-  }>;
+  items: Array<BuildComponentPresentation & { title: string; href: string; quantity?: number | null }>;
 }
-
 const { items } = Astro.props;
 ---
-
-<ul class="build-component-cards">
-  {items.map(({ title, href, quantity, cover, productTitle, tuningLabel, fields }) => {
-    const variants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
-    const source = variants[0];
-    return (
-      <li>
-        <a href={href}>
-          {source && <div class="build-component-image">
-            <img
-              src={source.src}
-              srcset={variants.map((variant) => `${variant.src} ${variant.width}w`).join(', ')}
-              sizes="(min-width: 960px) 240px, (min-width: 540px) 33vw, 50vw"
-              width={source.width}
-              height={source.height}
-              loading="lazy"
-              decoding="async"
-              alt=""
-            />
-          </div>}
-          <div class="build-component-copy">
-            <strong>{productTitle ?? title}</strong>
-            {tuningLabel && <span>{tuningLabel}</span>}
-            {quantity != null && <small>{quantity}개</small>}
-            {fields && <DisplayFields fields={fields} variant="card" />}
-          </div>
-        </a>
-      </li>
-    );
-  })}
+<ul class="kl-gallery">
+  {items.map(({ title, href, quantity, cover, placeholderLogo, productTitle, tuningLabel, fields }) => (
+    <li set:html={renderGalleryCard({
+      title: productTitle ?? title, href, kind: href.startsWith('/switches/') ? 'switch' : 'keycap',
+      image: galleryImage(cover, href.startsWith('/switches/') ? 'switch' : 'keycap'),
+      placeholderLogo: galleryImage(placeholderLogo, 'vendor'),
+      metadata: [...(tuningLabel ? [{ value: tuningLabel }] : []), ...(quantity != null ? [{ label: 'Quantity', value: String(quantity) }] : []), ...(fields ?? [])],
+    })} />
+  ))}
 </ul>
-
-<style>
-  .build-component-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 154px), 1fr));
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    min-width: 0;
-  }
-
-  a {
-    display: grid;
-    align-content: start;
-    height: 100%;
-    overflow: hidden;
-    border: 1px solid var(--color-rule);
-    border-radius: var(--radius-card);
-    background: var(--color-panel);
-  }
-
-  .build-component-image {
-    aspect-ratio: 4 / 3;
-    background: var(--color-surface);
-    overflow: hidden;
-    border-bottom: 1px solid var(--color-rule);
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-
-  .build-component-copy {
-    display: grid;
-    min-width: 0;
-    gap: 4px;
-    padding: 9px 11px;
-  }
-
-  strong {
-    overflow-wrap: anywhere;
-    font-size: 15px;
-    font-weight: 560;
-    line-height: 1.4;
-  }
-
-  a:hover strong {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-
-  small,
-  span {
-    color: var(--color-muted);
-    font-size: 12px;
-    overflow-wrap: anywhere;
-  }
-
-  .build-component-copy :global(.display-fields.is-card) {
-    margin: 0;
-  }
-
-  .build-component-copy :global(.display-fields.is-card .display-field) {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0 6px;
-  }
-</style>

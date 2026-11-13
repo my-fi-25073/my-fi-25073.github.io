@@ -25,6 +25,14 @@
       "images": [
         {
           "alt": "CLP Custom Black Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-gallery-0-0dcf42153aac-640.avif",
@@ -45,6 +53,14 @@
         },
         {
           "alt": "CLP Custom Black Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/clp-blanks/kit-e60dea53ba4aeda1-source-body-0-91e87f79d384-640.avif",
@@ -74,6 +90,14 @@
       "images": [
         {
           "alt": "CLP Custom Transparent Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/clp-blanks/kit-bce39144d6303217-source-gallery-0-1f3bac43aaa2-640.avif",
@@ -94,6 +118,14 @@
         },
         {
           "alt": "CLP Custom Transparent Blanks 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/clp-blanks/kit-bce39144d6303217-source-body-0-5938c5197fff-640.avif",
@@ -118,6 +150,14 @@
   "images": [
     {
       "alt": "CLP Blanks 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/clp-blanks/series-da51bbac7c00d41c-source-gallery-0-fa65c9d06fe2-640.avif",

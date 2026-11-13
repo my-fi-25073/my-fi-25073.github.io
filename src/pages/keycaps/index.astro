@@ -83,7 +83,7 @@ const keycapViews = [
                       return (
                         <Group class="keycap-view-group" open={group.label ? true : undefined}>
                           {group.label && <summary><h2>{group.label}</h2><span class="keycap-group-count">{group.records.length}</span></summary>}
-                          <div class="gallery-grid">
+                          <div class="gallery-grid kl-gallery">
                             {group.records.map((gallery) => (
                               <GalleryCard
                                 gallery={gallery}

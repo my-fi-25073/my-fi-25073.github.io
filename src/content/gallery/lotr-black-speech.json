@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Extra 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-640.avif",
@@ -51,6 +59,14 @@
       "images": [
         {
           "alt": "Hardcore Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-black-speech/kit-4162fccac580148c-source-gallery-0-d50fdd1ede17-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-black-speech/kit-4162fccac580148c-source-gallery-0-d50fdd1ede17-640.avif",
@@ -75,6 +91,14 @@
       "images": [
         {
           "alt": "Magma 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-black-speech/kit-0d7409ffcad52c61-source-gallery-0-08a345295df1-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-black-speech/kit-0d7409ffcad52c61-source-gallery-0-08a345295df1-640.avif",
@@ -99,6 +123,14 @@
       "images": [
         {
           "alt": "Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-black-speech/kit-9ee0178a23ae5c8c-source-gallery-0-4959cbc7bacb-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lotr-black-speech/kit-9ee0178a23ae5c8c-source-gallery-0-4959cbc7bacb-640.avif",
@@ -118,6 +150,14 @@
   "images": [
     {
       "alt": "LotR Black Speech 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-0-3bc831fe0915-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-0-3bc831fe0915-640.avif",
@@ -138,6 +178,14 @@
     },
     {
       "alt": "LotR Black Speech 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-1-65f0d4bae465-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-gallery-1-65f0d4bae465-640.avif",
@@ -158,6 +206,14 @@
     },
     {
       "alt": "LotR Black Speech 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-body-0-10faf9c40daa-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lotr-black-speech/series-ce75455f259e8f69-source-body-0-10faf9c40daa-640.avif",

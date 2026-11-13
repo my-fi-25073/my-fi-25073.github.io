@@ -12,12 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Krytox GPL 105 · Krytox GPL 205 G0",
+      "label": "Krytox GPL 205 G0 · Krytox GPL 105",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 60g",
         "status": "unresolved"
       },
+      "isStock": false,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -36,6 +37,14 @@
       "images": [
         {
           "alt": "Gateron Drop Holy Panda X 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "Gateron Drop Holy Panda X 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-640.avif",
@@ -66,6 +83,14 @@
         },
         {
           "alt": "Gateron Drop Holy Panda X 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-640.avif",
@@ -81,6 +106,14 @@
         },
         {
           "alt": "Gateron Drop Holy Panda X 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-640.avif",
@@ -89,13 +122,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "Gateron Drop Holy Panda X 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-0-3281bcc8d09c-640.avif",
@@ -111,6 +153,14 @@
     },
     {
       "alt": "Gateron Drop Holy Panda X 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-1-0270052abbe8-640.avif",
@@ -126,6 +176,14 @@
     },
     {
       "alt": "Gateron Drop Holy Panda X 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-2-fb01091e9686-640.avif",
@@ -141,6 +199,14 @@
     },
     {
       "alt": "Gateron Drop Holy Panda X 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/gateron-drop-holy-panda-x/16c12150f0f44952-4fab33bc7d57-source-gallery-3-e56392a691bb-640.avif",
@@ -149,5 +215,25 @@
         }
       ]
     }
-  ]
+  ],
+  "manufacturerLogo": {
+    "alt": "Gateron logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-f3da1eed34b0-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+        "width": 202,
+        "height": 45
+      }
+    ]
+  },
+  "coverImageIndex": 0
 }

@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base - Custom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "Space Cadet 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-640.avif",

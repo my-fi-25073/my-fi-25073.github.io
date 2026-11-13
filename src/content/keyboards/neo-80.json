@@ -46,6 +46,14 @@
   "images": [
     {
       "alt": "Neo 80 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/neo-80/c2e67bc676864f2c-source-gallery-0-b016fc7eeccb-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/neo-80/c2e67bc676864f2c-source-gallery-0-b016fc7eeccb-640.avif",

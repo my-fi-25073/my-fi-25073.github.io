@@ -47,6 +47,14 @@
   "images": [
     {
       "alt": "Cycle7 Cream 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/cycle7-cream/565a81e78eda22a0-source-gallery-0-b696a6745c11-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/cycle7-cream/565a81e78eda22a0-source-gallery-0-b696a6745c11-640.avif",

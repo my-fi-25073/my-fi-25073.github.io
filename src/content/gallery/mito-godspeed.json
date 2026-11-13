@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Apollo Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-godspeed/kit-b6bf1d6a0b9323a1-source-gallery-0-817c9a453d9a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-godspeed/kit-b6bf1d6a0b9323a1-source-gallery-0-817c9a453d9a-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "Apollo Ergo 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-godspeed/kit-243df97afde3d3d2-source-gallery-0-763a0d13f493-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-godspeed/kit-243df97afde3d3d2-source-gallery-0-763a0d13f493-640.avif",
@@ -74,6 +90,14 @@
       "images": [
         {
           "alt": "Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-godspeed/kit-5ebc5f1826601416-source-gallery-0-fc6612ff82ab-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mito-godspeed/kit-5ebc5f1826601416-source-gallery-0-fc6612ff82ab-640.avif",
@@ -93,6 +117,14 @@
   "images": [
     {
       "alt": "MiTo Godspeed 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/mito-godspeed/series-d893e3818cdda9d3-source-gallery-0-4902c8937db6-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mito-godspeed/series-d893e3818cdda9d3-source-gallery-0-4902c8937db6-640.avif",
@@ -108,6 +140,14 @@
     },
     {
       "alt": "MiTo Godspeed 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/mito-godspeed/series-d893e3818cdda9d3-source-gallery-1-b3e759f3a761-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mito-godspeed/series-d893e3818cdda9d3-source-gallery-1-b3e759f3a761-640.avif",

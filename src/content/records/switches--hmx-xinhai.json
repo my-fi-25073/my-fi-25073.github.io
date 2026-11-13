@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 45g",
@@ -22,6 +22,7 @@
           "length": "21.1mm"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -40,6 +41,14 @@
       "images": [
         {
           "alt": "HMX Xinhai 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-0-c8aca1b6a7f5-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-0-c8aca1b6a7f5-640.avif",
@@ -55,6 +64,14 @@
         },
         {
           "alt": "HMX Xinhai 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-1-5f9ac36ba4a1-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-1-5f9ac36ba4a1-640.avif",
@@ -73,13 +90,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX Xinhai 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-0-c8aca1b6a7f5-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-0-c8aca1b6a7f5-640.avif",
@@ -95,6 +121,14 @@
     },
     {
       "alt": "HMX Xinhai 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-1-5f9ac36ba4a1-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-xinhai/61d361dd8417816d-9dd9f0e5713f-source-gallery-1-5f9ac36ba4a1-640.avif",
@@ -113,5 +147,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

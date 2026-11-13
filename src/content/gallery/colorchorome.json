@@ -29,6 +29,14 @@
       "images": [
         {
           "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/colorchorome/kit-b59dbba59eef0692-source-gallery-0-0391633e504e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/colorchorome/kit-b59dbba59eef0692-source-gallery-0-0391633e504e-640.avif",
@@ -58,6 +66,14 @@
       "images": [
         {
           "alt": "White 40s Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/colorchorome/kit-fa66863017fee262-source-gallery-0-226260c2b78e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/colorchorome/kit-fa66863017fee262-source-gallery-0-226260c2b78e-640.avif",
@@ -87,6 +103,14 @@
       "images": [
         {
           "alt": "White Icon Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-0-0fe566a69c5c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-0-0fe566a69c5c-640.avif",
@@ -107,6 +131,14 @@
         },
         {
           "alt": "White Icon Mod 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-1-ee40d78a1d44-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/colorchorome/kit-4dade285c069e8d1-source-gallery-1-ee40d78a1d44-640.avif",
@@ -131,6 +163,14 @@
   "images": [
     {
       "alt": "Colorchorome 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/colorchorome/series-fa1a640448dabae1-source-gallery-0-519efc3e3fc8-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/colorchorome/series-fa1a640448dabae1-source-gallery-0-519efc3e3fc8-640.avif",

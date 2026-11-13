@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Transparent 1u 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lck-blanks/kit-b608b795ff981062-source-gallery-0-9996b4971d0c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/lck-blanks/kit-b608b795ff981062-source-gallery-0-9996b4971d0c-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "LCK Blanks 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/lck-blanks/series-af86bc445c9c8603-source-gallery-0-522c8e25edfa-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/lck-blanks/series-af86bc445c9c8603-source-gallery-0-522c8e25edfa-640.avif",

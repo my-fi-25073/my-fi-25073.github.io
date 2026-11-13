@@ -47,6 +47,14 @@
   "images": [
     {
       "alt": "Apodiformbird v2 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-0-184e6ec4b0db-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-0-184e6ec4b0db-640.avif",
@@ -67,6 +75,14 @@
     },
     {
       "alt": "Apodiformbird v2 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-1-79fbc14de7ed-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/apodiformbird-v2/0352d745163fe5fc-source-gallery-1-79fbc14de7ed-640.avif",

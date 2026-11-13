@@ -48,6 +48,14 @@
   "images": [
     {
       "alt": "Reviung 41 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/reviung-41/2e0c31f411057112-source-gallery-0-078912ed91cb-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/reviung-41/2e0c31f411057112-source-gallery-0-078912ed91cb-640.avif",

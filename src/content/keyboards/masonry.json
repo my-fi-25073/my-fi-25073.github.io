@@ -49,6 +49,14 @@
   "images": [
     {
       "alt": "Masonry 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/masonry/5e1ceb0046c6c900-source-gallery-0-e2f86706ab46-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/masonry/5e1ceb0046c6c900-source-gallery-0-e2f86706ab46-640.avif",
@@ -69,6 +77,14 @@
     },
     {
       "alt": "Masonry 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/masonry/5e1ceb0046c6c900-source-gallery-1-8ce8485245c0-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/masonry/5e1ceb0046c6c900-source-gallery-1-8ce8485245c0-640.avif",

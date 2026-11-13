@@ -96,6 +96,14 @@
   "images": [
     {
       "alt": "Eava55 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/eava55/66f273f0c1107292-source-gallery-0-db74ced7bfca-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/eava55/66f273f0c1107292-source-gallery-0-db74ced7bfca-640.avif",

@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Bar Keys 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "Novelty 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-77b234b8eb87eb02-source-gallery-0-c29e4f4bb125-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/mt3-mito-cyber/kit-77b234b8eb87eb02-source-gallery-0-c29e4f4bb125-640.avif",
@@ -69,6 +85,14 @@
   "images": [
     {
       "alt": "MT3 MiTo Cyber 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/mt3-mito-cyber/series-a73a87637f285dd4-source-gallery-0-e3c193c4debc-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mt3-mito-cyber/series-a73a87637f285dd4-source-gallery-0-e3c193c4debc-640.avif",
@@ -89,6 +113,14 @@
     },
     {
       "alt": "MT3 MiTo Cyber 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/mt3-mito-cyber/series-a73a87637f285dd4-source-gallery-1-a6f11f28e7d7-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/mt3-mito-cyber/series-a73a87637f285dd4-source-gallery-1-a6f11f28e7d7-640.avif",

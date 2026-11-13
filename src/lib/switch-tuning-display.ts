@@ -5,10 +5,15 @@ import { publicSwitchTuningRoute } from './switch-tuning-route.mjs';
 
 export type SwitchTuning = DomainRecord['tunings'][number];
 
+export function switchCoverImage({ images, coverImageIndex }: DomainRecord | SwitchTuning) {
+  return coverImageIndex === null ? undefined : images[coverImageIndex ?? 0];
+}
+
 // Published image names start with the product digest followed by the media owner's digest.
 const tuningOwnerDigest = /\/[a-f0-9]{16}-([a-f0-9]{12})-/u;
 
 function tuningLabel(tuning: SwitchTuning) {
+  if (tuning.isStock !== undefined) return tuning.label;
   const [first, ...rest] = tuning.label.split(' · ');
   if (tuning.spring.resolution === 'stock_unresolved' && first === tuning.spring.name && rest.length) {
     return rest.join(' · ');
@@ -37,29 +42,24 @@ export function publicSwitchTunings(record: DomainRecord) {
 }
 
 const housingMethodLabels: Record<string, string> = {
-  film: '필름',
-  glue_marker: '글루 마커',
-  cyanoacrylate: '순간접착제',
-  other: '기타',
+  film: 'Film',
+  glue_marker: 'Glue Marker',
+  cyanoacrylate: 'Cyanoacrylate',
+  other: 'Other',
 };
 const springSpecLabels = {
-  initial_force: '초기압',
-  actuation_force: '입력압',
-  tactile_force: '걸림압',
-  bottom_out_force: '바닥압',
-  final_force: '최종압',
-  length: '스프링 길이',
-  spring_stage: '스프링 단수',
+  initial_force: 'Initial force',
+  actuation_force: 'Actuation',
+  tactile_force: 'Tactile peak',
+  bottom_out_force: 'Bottom-out',
+  final_force: 'Final force',
+  length: 'Length',
+  spring_stage: 'Stages',
 };
-const springStageLabels = new Map([
-  ['single-stage', '1단'],
-  ['dual-stage', '2단'],
-  ['triple-stage', '3단'],
-]);
 
 function lubricationText(item: SwitchTuning['lubrication']['stem']) {
-  if (item.state === 'factory') return '공장 윤활';
-  if (item.state === 'none') return '무윤활';
+  if (item.state === 'factory') return 'Factory Lube';
+  if (item.state === 'none') return 'No-Lube';
   if (item.state === 'applied') return item.name ?? '';
   return '';
 }
@@ -67,28 +67,27 @@ function lubricationText(item: SwitchTuning['lubrication']['stem']) {
 export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
   const fields: DisplayField[] = [];
   const specs = tuning.switchSpecifications;
-  if (specs?.actuationForce) fields.push({ key: 'switchActuationForce', label: '스위치 입력압', value: specs.actuationForce });
-  if (specs?.actuationTravel) fields.push({ key: 'actuationTravel', label: '입력 거리', value: specs.actuationTravel });
-  if (specs?.totalTravel) fields.push({ key: 'totalTravel', label: '전체 이동 거리', value: specs.totalTravel });
-  if (specs?.springLength) fields.push({ key: 'springLength', label: '스프링 길이', value: specs.springLength });
+  if (specs?.actuationForce) fields.push({ key: 'switchActuationForce', label: 'Actuation', value: specs.actuationForce });
+  if (specs?.actuationTravel) fields.push({ key: 'actuationTravel', label: 'Pre-travel', value: specs.actuationTravel });
+  if (specs?.totalTravel) fields.push({ key: 'totalTravel', label: 'Total travel', value: specs.totalTravel });
+  if (specs?.springLength) fields.push({ key: 'springLength', label: 'Length', value: specs.springLength });
   if (specs?.durabilityCycles) {
-    fields.push({ key: 'durabilityCycles', label: '수명', value: `${specs.durabilityCycles.toLocaleString('en-US')}회` });
+    fields.push({ key: 'durabilityCycles', label: 'Lifespan', value: `${specs.durabilityCycles.toLocaleString('en-US')} cycles` });
   }
   if (specs?.factoryLubed !== undefined) {
-    fields.push({ key: 'factoryLubed', label: '윤활', value: specs.factoryLubed ? '공장 윤활' : '무윤활' });
+    fields.push({ key: 'factoryLubed', label: 'Factory lubrication', value: specs.factoryLubed ? 'Factory Lube' : 'No-Lube' });
   }
   const unresolvedSpring = tuning.spring.resolution === 'stock_unresolved';
   if (tuning.spring.resolution === 'selected' && tuning.spring.name) {
-    fields.push({ key: 'spring', label: '스프링', value: tuning.spring.name });
+    fields.push({ key: 'spring', label: 'Spring', value: tuning.spring.name });
   }
 
   const springSpecs = Object.entries(tuning.spring.specifications ?? {}) as
     [keyof typeof springSpecLabels, string][];
   for (const [key, value] of springSpecs) {
     const isPressure = key.endsWith('_force');
-    const scope = unresolvedSpring && isPressure ? '순정 스위치 ' : '';
-    const display = isPressure ? formatPressureInGrams(value)
-      : key === 'spring_stage' ? (springStageLabels.get(value) ?? value) : value;
+    const scope = unresolvedSpring && isPressure ? 'Stock ' : '';
+    const display = isPressure ? formatPressureInGrams(value) : value;
     fields.push({
       key,
       label: scope + springSpecLabels[key],
@@ -99,10 +98,10 @@ export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
   const stemLube = lubricationText(tuning.lubrication.stem);
   const springLube = lubricationText(tuning.lubrication.spring);
   if (stemLube && stemLube === springLube) {
-    fields.push({ key: 'lubrication', label: '윤활', value: stemLube });
+    fields.push({ key: 'lubrication', label: 'Stem / Spring lube', value: stemLube });
   } else {
-    if (stemLube) fields.push({ key: 'stemLubrication', label: '스템 윤활', value: stemLube });
-    if (springLube) fields.push({ key: 'springLubrication', label: '스프링 윤활', value: springLube });
+    if (stemLube) fields.push({ key: 'stemLubrication', label: 'Stem', value: stemLube });
+    if (springLube) fields.push({ key: 'springLubrication', label: 'Spring lube', value: springLube });
   }
 
   const { state, method, material } = tuning.housingFit;
@@ -110,7 +109,7 @@ export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
     const housingMethod = method && (housingMethodLabels[method] ?? method);
     const value = material ?? housingMethod;
     if (value) {
-      const label = material && housingMethod && method !== 'other' ? housingMethod : '하우징';
+      const label = material && housingMethod && method !== 'other' ? housingMethod : 'Housing fit';
       fields.push({ key: 'housingFit', label, value });
     }
   }

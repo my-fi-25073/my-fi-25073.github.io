@@ -10,12 +10,13 @@
   "isFranken": true,
   "tunings": [
     {
-      "label": "용신음",
+      "label": "Tuning 1",
       "spring": {
         "resolution": "unknown",
         "name": null,
         "status": null
       },
+      "isStock": false,
       "housingFit": {
         "state": "unknown",
         "method": null,
@@ -31,7 +32,8 @@
           "name": null
         }
       },
-      "images": []
+      "images": [],
+      "coverImageIndex": null
     }
   ],
   "parts": [
@@ -48,5 +50,6 @@
       "donor": "SWK Jieum V2"
     }
   ],
-  "images": []
+  "images": [],
+  "coverImageIndex": null
 }

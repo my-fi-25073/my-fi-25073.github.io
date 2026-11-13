@@ -1,52 +1,32 @@
 ---
-import ImageGallery from './ImageGallery.astro';
-
-interface ImageVariant {
-  src: string;
-  width: number;
-  height: number;
-}
-
-interface GalleryImage {
-  alt: string;
-  caption?: string;
-  variants: ImageVariant[];
-}
-
-interface Kit {
-  slug: string;
-  title: string;
-  kittingTypes: string[];
-  images: GalleryImage[];
-}
-
+import type { CollectionEntry } from 'astro:content';
+import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
 interface Props {
   seriesTitle: string;
-  kits: Kit[];
+  kits: CollectionEntry<'gallery'>['data']['kits'];
 }
-
 const { seriesTitle, kits } = Astro.props;
 ---
-
 {kits.length > 0 && (
-  <section class="kit-gallery-section record-section" aria-label="키캡 킷">
-    <div class="kit-gallery">
-      {kits.map((kit) => (
-        <article id={kit.slug} class="kit-card">
-          {kit.images.length > 0 ? (
-            <ImageGallery
-              images={kit.images}
-              label={`${seriesTitle} ${kit.title}`}
-              compact
-            />
-          ) : (
-            <div class="kit-card-media empty-media" aria-hidden="true"></div>
-          )}
-          <div class="kit-card-copy">
-            <h3>{kit.title}</h3>
-          </div>
-        </article>
-      ))}
+  <section class="kit-gallery-section record-section" aria-label="Kits">
+    <div class="kl-gallery">
+      {kits.map((kit) => {
+        const full = kit.images[0]?.variants.toSorted((a, b) => b.width - a.width)[0];
+        return <div data-image-gallery aria-label={`${seriesTitle} ${kit.title}`}>
+          <Fragment set:html={renderGalleryCard({
+            title: kit.title, kind: 'kit', image: galleryImage(kit.images[0], 'kit'),
+            href: full?.src ?? '', attributes: { id: kit.slug },
+            linkAttributes: full ? {
+              'data-lightbox-open': true, 'data-full': full.src,
+              'data-alt': kit.images[0].alt, 'data-caption': kit.images[0].caption ?? '',
+              'aria-label': `${kit.title} — view images`,
+            } : {},
+          })} />
+          {kit.images.slice(1).map((image) => <button hidden type="button" data-lightbox-open
+            data-full={image.variants.toSorted((a, b) => b.width - a.width)[0].src}
+            data-alt={image.alt} data-caption={image.caption ?? ''} aria-label={image.alt} />)}
+        </div>;
+      })}
     </div>
   </section>
 )}

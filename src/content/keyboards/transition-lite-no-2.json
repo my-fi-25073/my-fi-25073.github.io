@@ -70,6 +70,14 @@
   "images": [
     {
       "alt": "Transition Lite No.2 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/transition-lite-no-2/ca3c72aae1003d84-source-gallery-0-bf56907f8762-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/transition-lite-no-2/ca3c72aae1003d84-source-gallery-0-bf56907f8762-640.avif",

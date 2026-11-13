@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "dev/tty Lost + Found 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-7ed811408db17dbf-source-gallery-0-e2e0b14321e4-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-7ed811408db17dbf-source-gallery-0-e2e0b14321e4-640.avif",
@@ -50,6 +58,14 @@
       "images": [
         {
           "alt": "dev/tty Ortho Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-22faed7129048688-source-gallery-0-8bb4656d619b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-22faed7129048688-source-gallery-0-8bb4656d619b-640.avif",
@@ -74,6 +90,14 @@
       "images": [
         {
           "alt": "Small Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-29dda889268a5ab7-source-gallery-0-a5c489d1cbff-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-29dda889268a5ab7-source-gallery-0-a5c489d1cbff-640.avif",
@@ -98,6 +122,14 @@
       "images": [
         {
           "alt": "Triumph Apple 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-9cfb173a25e16aad-source-gallery-0-52f2e168d8ea-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-9cfb173a25e16aad-source-gallery-0-52f2e168d8ea-640.avif",
@@ -122,6 +154,14 @@
       "images": [
         {
           "alt": "Triumph Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-7a2926961d2deb7f-source-gallery-0-e5ac285ce931-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-7a2926961d2deb7f-source-gallery-0-e5ac285ce931-640.avif",
@@ -146,6 +186,14 @@
       "images": [
         {
           "alt": "Triumph Lost + Found 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-662d7358b64fbe04-source-gallery-0-a7ff3aabd314-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-662d7358b64fbe04-source-gallery-0-a7ff3aabd314-640.avif",
@@ -170,6 +218,14 @@
       "images": [
         {
           "alt": "Triumph Numpad 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-4c1ad91fc2f372a6-source-gallery-0-7afa33c74791-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-4c1ad91fc2f372a6-source-gallery-0-7afa33c74791-640.avif",
@@ -194,6 +250,14 @@
       "images": [
         {
           "alt": "Unicorn Barf 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/matt3o-dev-tty/kit-d2ea6bfd33d315ef-source-gallery-0-d07d057a3979-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/matt3o-dev-tty/kit-d2ea6bfd33d315ef-source-gallery-0-d07d057a3979-640.avif",
@@ -213,6 +277,14 @@
   "images": [
     {
       "alt": "Matt3o /dev/tty 이미지 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-0-4902c8937db6-gallery-6x5-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-0-4902c8937db6-640.avif",
@@ -228,6 +300,14 @@
     },
     {
       "alt": "Matt3o /dev/tty 이미지 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/matt3o-dev-tty/series-7306fa85d76e6dd9-source-gallery-1-6c860c6c0a4a-640.avif",

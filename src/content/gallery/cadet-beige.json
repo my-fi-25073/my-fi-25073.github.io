@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Base - Custom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/cadet-beige/kit-ec574869ebebb3a6-gallery-0-7519ec954457-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/cadet-beige/kit-ec574869ebebb3a6-gallery-0-7519ec954457-640.avif",
@@ -46,6 +54,14 @@
   "images": [
     {
       "alt": "Cadet Beige 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/cadet-beige/series-3a203df188b64b09-gallery-0-3acd0bdc2b8b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/cadet-beige/series-3a203df188b64b09-gallery-0-3acd0bdc2b8b-640.avif",

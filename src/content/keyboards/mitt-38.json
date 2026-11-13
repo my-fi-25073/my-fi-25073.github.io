@@ -54,6 +54,14 @@
   "images": [
     {
       "alt": "Mitt 38 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-640.avif",

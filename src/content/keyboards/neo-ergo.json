@@ -52,6 +52,14 @@
   "images": [
     {
       "alt": "Neo Ergo 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-640.avif",

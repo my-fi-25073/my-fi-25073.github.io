@@ -47,6 +47,14 @@
   "images": [
     {
       "alt": "Pierce 2.0 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/pierce-2-0/71279a421c123772-source-gallery-0-9ec5fb2a10b4-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/pierce-2-0/71279a421c123772-source-gallery-0-9ec5fb2a10b4-640.avif",

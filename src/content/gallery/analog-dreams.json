@@ -32,6 +32,14 @@
   "images": [
     {
       "alt": "Analog Dreams 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/analog-dreams/series-cb7d30bb413c0326-source-gallery-0-33fb248b30c1-640.avif",

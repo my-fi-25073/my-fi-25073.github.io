@@ -12,12 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 33g",
         "status": "conflict"
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -36,6 +37,14 @@
       "images": [
         {
           "alt": "MMD Princess 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-0-c561f66554d1-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-0-c561f66554d1-640.avif",
@@ -51,6 +60,14 @@
         },
         {
           "alt": "MMD Princess 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-1-c859e1f555ba-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-1-c859e1f555ba-640.avif",
@@ -59,13 +76,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "MMD Princess 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-0-c561f66554d1-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-0-c561f66554d1-640.avif",
@@ -81,6 +107,14 @@
     },
     {
       "alt": "MMD Princess 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-1-c859e1f555ba-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/mmd-princess/8148726321b07efb-6c3a9bf8e5f9-source-gallery-1-c859e1f555ba-640.avif",
@@ -89,5 +123,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

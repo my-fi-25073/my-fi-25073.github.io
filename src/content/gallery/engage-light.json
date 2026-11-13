@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Nomad Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-640.avif",
@@ -46,6 +54,14 @@
         },
         {
           "alt": "Nomad Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-640.avif",
@@ -70,6 +86,14 @@
   "images": [
     {
       "alt": "Engage light 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-640.avif",

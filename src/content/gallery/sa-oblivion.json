@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "7u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-640.avif",
@@ -55,6 +63,14 @@
       "images": [
         {
           "alt": "Assembly 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-640.avif",
@@ -84,6 +100,14 @@
       "images": [
         {
           "alt": "Hagoromo Askii Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-5d3d7966ffb726cf-source-gallery-0-88f931bf5d1f-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5d3d7966ffb726cf-source-gallery-0-88f931bf5d1f-640.avif",
@@ -113,6 +137,14 @@
       "images": [
         {
           "alt": "Monochorome Modifier 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-5ee5f0cc618cd6bb-source-gallery-0-b01bd797abed-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5ee5f0cc618cd6bb-source-gallery-0-b01bd797abed-640.avif",
@@ -142,6 +174,14 @@
       "images": [
         {
           "alt": "Oblivion Askii Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-640.avif",
@@ -171,6 +211,14 @@
       "images": [
         {
           "alt": "VIM 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-f165116313b3143d-source-gallery-0-d7d8024a344e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-f165116313b3143d-source-gallery-0-d7d8024a344e-640.avif",
@@ -195,6 +243,14 @@
   "images": [
     {
       "alt": "SA Oblivion 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/sa-oblivion/series-8387e146e2cbcc67-source-gallery-0-48b65f00a22b-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/sa-oblivion/series-8387e146e2cbcc67-source-gallery-0-48b65f00a22b-640.avif",

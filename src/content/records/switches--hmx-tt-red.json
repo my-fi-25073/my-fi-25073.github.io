@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "공장 윤활",
+      "label": "Stock",
       "spring": {
         "resolution": "selected",
         "name": "HMX Factory Spring 45g",
@@ -23,6 +23,7 @@
           "spring_stage": "single-stage"
         }
       },
+      "isStock": true,
       "housingFit": {
         "state": "none",
         "method": null,
@@ -41,6 +42,14 @@
       "images": [
         {
           "alt": "HMX TT Red 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-0-4dab4e262c98-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-0-4dab4e262c98-640.avif",
@@ -56,6 +65,14 @@
         },
         {
           "alt": "HMX TT Red 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-1-5772abac079f-gallery-4x3-596dc3a34e9f-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
           "variants": [
             {
               "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-1-5772abac079f-640.avif",
@@ -69,13 +86,22 @@
             }
           ]
         }
-      ]
+      ],
+      "coverImageIndex": 0
     }
   ],
   "parts": [],
   "images": [
     {
       "alt": "HMX TT Red 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-0-4dab4e262c98-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-0-4dab4e262c98-640.avif",
@@ -91,6 +117,14 @@
     },
     {
       "alt": "HMX TT Red 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-1-5772abac079f-gallery-4x3-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "variants": [
         {
           "src": "/media/switches/hmx-tt-red/23e795dbcf94ad61-7aac9c0cd4d3-source-gallery-1-5772abac079f-640.avif",
@@ -104,5 +138,7 @@
         }
       ]
     }
-  ]
+  ],
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
 }

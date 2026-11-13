@@ -47,6 +47,14 @@
   "images": [
     {
       "alt": "Waffle87 Sweep 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/waffle87-sweep/1828796eeeafe414-source-gallery-0-70451968dc8d-gallery-16x9-d6fde3ecd447-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
       "variants": [
         {
           "src": "/media/keyboards/waffle87-sweep/1828796eeeafe414-source-gallery-0-70451968dc8d-640.avif",

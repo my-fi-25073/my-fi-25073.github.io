@@ -27,6 +27,14 @@
       "images": [
         {
           "alt": "Blank Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/hhkb-snow/kit-4c860b9f1ce337bf-source-gallery-0-8284c9f7a986-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/hhkb-snow/kit-4c860b9f1ce337bf-source-gallery-0-8284c9f7a986-640.avif",
@@ -51,6 +59,14 @@
   "images": [
     {
       "alt": "HHKB Snow 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/hhkb-snow/series-b2f2eafa9dbc0833-source-gallery-0-e073080fad33-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/hhkb-snow/series-b2f2eafa9dbc0833-source-gallery-0-e073080fad33-640.avif",

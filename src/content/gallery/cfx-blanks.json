@@ -26,6 +26,14 @@
       "images": [
         {
           "alt": "Transparent 1u 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/cfx-blanks/kit-6e2c9c69a9917faa-source-gallery-0-f3af8b08e046-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
           "variants": [
             {
               "src": "/media/cfx-blanks/kit-6e2c9c69a9917faa-source-gallery-0-f3af8b08e046-640.avif",
@@ -45,6 +53,14 @@
   "images": [
     {
       "alt": "CFX Blanks 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/cfx-blanks/series-03140bc30743a277-source-gallery-0-522c8e25edfa-gallery-6x5-596dc3a34e9f-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
       "variants": [
         {
           "src": "/media/cfx-blanks/series-03140bc30743a277-source-gallery-0-522c8e25edfa-640.avif",
