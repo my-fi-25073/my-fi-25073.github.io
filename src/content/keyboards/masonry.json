@@ -34,15 +34,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Keyreative KAM Custom Masonry WoB",
+        "title": "Custom Masonry WoB",
         "quantity": null,
         "href": "/gallery/custom-masonry-wob/"
       }
     ],
     "switches": [
       {
-        "title": "JWK Durock Ice Queen",
-        "href": "/switches/jwk-durock-ice-queen/"
+        "title": "Durock Ice Queen",
+        "href": "/switches/jwk-durock-ice-queen/tunings/8b54a6132229/"
       }
     ]
   },

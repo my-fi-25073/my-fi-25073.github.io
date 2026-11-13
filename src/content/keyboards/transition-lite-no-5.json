@@ -32,39 +32,39 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
+        "title": "Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Extra",
+        "title": "Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Black Snail",
+        "title": "Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (GMK)",
+        "title": "Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       }
     ],
     "switches": [
       {
-        "title": "Keygeek Y2",
-        "href": "/switches/keygeek-y2/"
+        "title": "Y2",
+        "href": "/switches/keygeek-y2/tunings/704e0a06b797/"
       }
     ]
   },

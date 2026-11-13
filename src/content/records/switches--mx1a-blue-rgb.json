@@ -13,11 +13,14 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 0,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "25.5g",
+          "actuation_force": "51g"
+        }
       },
       "housingFit": {
         "state": "none",

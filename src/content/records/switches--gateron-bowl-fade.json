@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 1,
       "spring": {
         "resolution": "selected",
         "name": "Gateron Factory Spring 62g",

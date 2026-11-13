@@ -32,39 +32,39 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Beige Extra",
+        "title": "Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (OCO)",
+        "title": "Classic Beige (OCO)",
         "quantity": null,
         "href": "/gallery/classic-beige-oco/"
       },
       {
         "kind": "kit",
-        "title": "GMK CYL Black Snail · HASRO/SAV Red Cyrilic",
+        "title": "HASRO/SAV Red Cyrilic",
         "quantity": null,
         "href": "/gallery/black-snail/#hasro-sav-red-cyrilic"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Any Key",
+        "title": "Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Coral Sea",
-        "href": "/switches/hmx-coral-sea/"
+        "title": "Coral Sea",
+        "href": "/switches/hmx-coral-sea/tunings/e2e66b5b2a72/"
       }
     ]
   },

@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "MX2A Hirose Orange",
-      "rating": 1,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",

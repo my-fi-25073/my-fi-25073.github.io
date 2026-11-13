@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "TB 22mm 23g · 스템 공장 윤활 · 스프링 공장 윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "TB 22mm 23g",
@@ -73,7 +72,6 @@
     },
     {
       "label": "JWK Factory Spring 63.5g · 스템 공장 윤활 · 스프링 공장 윤활",
-      "rating": 1,
       "spring": {
         "resolution": "selected",
         "name": "JWK Factory Spring 63.5g",

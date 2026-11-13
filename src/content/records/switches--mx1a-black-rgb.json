@@ -13,11 +13,15 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 0,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 80g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "30.6g",
+          "actuation_force": "61.2g",
+          "final_force": "112.2g"
+        }
       },
       "housingFit": {
         "state": "none",

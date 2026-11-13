@@ -13,15 +13,14 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 2,
       "spring": {
         "resolution": "selected",
         "name": "ULP 65g",
         "status": null,
         "specifications": {
-          "actuation_force": "52g",
-          "tactile_force": "65g",
-          "bottom_out_force": "200g"
+          "actuation_force": "53g",
+          "tactile_force": "66.3g",
+          "bottom_out_force": "203.9g"
         }
       },
       "housingFit": {

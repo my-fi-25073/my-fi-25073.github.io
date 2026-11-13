@@ -24,22 +24,7 @@ const switches = recordsForCollectionView(products, manifest, 'switch-manufactur
 const franken = recordsForCollectionView(products, manifest, 'switch-franken');
 const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
 const frankenGroups = archiveDisplayGroups(franken, manifest, 'switch-franken');
-const ratingGroups = [
-  ...[5, 4, 3, 2, 1, 0].map((rating) => ({
-    id: `rating-${rating}`,
-    label: `${rating} / 5`,
-    matches: (record: typeof switches[number]) => record.tunings.some((tuning) => tuning.rating === rating),
-  })),
-  {
-    id: 'rating-unrated',
-    label: '미평가',
-    matches: (record: typeof switches[number]) => record.tunings.some((tuning) => tuning.rating === null),
-  },
-].filter((group) => switches.some(group.matches));
-const filterAxes = [
-  { key: 'maker', label: '제조사', groups: groupsWithCounts(switches, manifest, ['switch-manufacturers']) },
-  { key: 'rating', label: '별점', groups: ratingGroups },
-];
+const makerGroups = groupsWithCounts(switches, manifest, ['switch-manufacturers']);
 ---
 
 <section class="archive-intro shell" aria-labelledby="switch-title">
@@ -59,25 +44,23 @@ const filterAxes = [
 <div class="archive-sections">
   <section id="switch-panel-switches" class="archive-section shell" role="tabpanel" aria-labelledby="switch-tab-switches">
     <div class="switch-filters" data-switch-filters>
-      {filterAxes.map((axis) => (
-        <fieldset>
-          <legend>{axis.label}</legend>
-          <div class="switch-filter-options">
-            {[{ id: '', label: '전체' }, ...axis.groups].map((group) => (
-              <label>
-                <input
-                  class="visually-hidden"
-                  type="radio"
-                  name={axis.key}
-                  value={group.id}
-                  checked={group.id === ''}
-                />
-                <span>{group.label}</span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
-      ))}
+      <fieldset>
+        <legend>제조사</legend>
+        <div class="switch-filter-options">
+          {[{ id: '', label: '전체' }, ...makerGroups].map((group) => (
+            <label>
+              <input
+                class="visually-hidden"
+                type="radio"
+                name="maker"
+                value={group.id}
+                checked={group.id === ''}
+              />
+              <span>{group.label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
     </div>
     <p class="visually-hidden" role="status" data-switch-result-count></p>
     <p data-switch-empty hidden>조건에 맞는 스위치가 없습니다.</p>
@@ -89,10 +72,7 @@ const filterAxes = [
             <DomainRecordCard
               record={record}
               headingLevel={label ? 3 : 2}
-              groups={[
-                ...groupIdsForRecord(record, manifest, ['switch-manufacturers']),
-                ...ratingGroups.filter((group) => group.matches(record)).map((group) => group.id),
-              ]}
+              groups={groupIdsForRecord(record, manifest, ['switch-manufacturers'])}
             />
           ))}
         </div>
@@ -117,9 +97,7 @@ const filterAxes = [
   const filters = document.querySelector<HTMLElement>('[data-switch-filters]');
   const panel = document.getElementById('switch-panel-switches');
   if (filters && panel) {
-    const groups = [...filters.querySelectorAll('fieldset')].map((fieldset) => (
-      [...fieldset.querySelectorAll<HTMLInputElement>('input[type="radio"]')]
-    ));
+    const makers = [...filters.querySelectorAll<HTMLInputElement>('input[name="maker"]')];
     const cards = [...panel.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
       card,
       href: card.querySelector('a')!.href,
@@ -133,17 +111,16 @@ const filterAxes = [
       if (empty) empty.hidden = visible !== 0;
     };
     const apply = (updateUrl = false) => {
-      const active = groups.map((group) => group.find((input) => input.checked)!);
+      const maker = makers.find((input) => input.checked)?.value ?? '';
       for (const { card, groups: membership } of cards) {
-        card.dataset.groupMatch = String(active.every((input) => !input.value || membership.has(input.value)));
+        card.dataset.groupMatch = String(!maker || membership.has(maker));
       }
       if (updateUrl) {
         const url = new URL(window.location.href);
         url.searchParams.delete('collection');
-        for (const input of active) {
-          if (input.value) url.searchParams.set(input.name, input.value);
-          else url.searchParams.delete(input.name);
-        }
+        url.searchParams.delete('rating');
+        if (maker) url.searchParams.set('maker', maker);
+        else url.searchParams.delete('maker');
         window.history.replaceState(null, '', url);
       }
       window.dispatchEvent(new CustomEvent('keylog:group-filter'));
@@ -151,11 +128,9 @@ const filterAxes = [
     };
     const fromLocation = () => {
       const params = new URLSearchParams(window.location.search);
-      for (const group of groups) {
-        const requested = params.get(group[0].name) ?? params.get('collection');
-        const input = group.find((candidate) => candidate.value === requested) ?? group[0];
-        input.checked = true;
-      }
+      const requested = params.get('maker') ?? params.get('collection');
+      const input = makers.find((candidate) => candidate.value === requested) ?? makers[0];
+      if (input) input.checked = true;
       apply();
     };
     filters.addEventListener('change', () => apply(true));

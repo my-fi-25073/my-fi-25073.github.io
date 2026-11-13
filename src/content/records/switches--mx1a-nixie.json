@@ -12,14 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Sprit Supreme 35g · 스템 Krytox GPL 205 Grade 2 · 스프링 Krytox GPL 205 Grade 0 · TX PET 필름 0.150mm",
-      "rating": 4,
+      "label": "Sprit Supreme 35g · 스템 Krytox GPL 205 G2 · 스프링 Krytox GPL 205 G0 · TX PET 필름 0.150mm",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -33,11 +32,11 @@
       "lubrication": {
         "spring": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 2"
+          "name": "Krytox GPL 205 G2"
         }
       },
       "images": [
@@ -79,12 +78,16 @@
       ]
     },
     {
-      "label": "Factory OG 80g · 스템 무윤활 · 스프링 무윤활",
-      "rating": 3,
+      "label": "Factory OG 80g(unresolved) · 스템 무윤활 · 스프링 무윤활",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 80g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "30.6g",
+          "actuation_force": "64.8g",
+          "final_force": "112.2g"
+        }
       },
       "housingFit": {
         "state": "none",

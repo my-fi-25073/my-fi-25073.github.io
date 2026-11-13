@@ -13,11 +13,14 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 0,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 78g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40.8g",
+          "tactile_force": "56.1g"
+        }
       },
       "housingFit": {
         "state": "none",

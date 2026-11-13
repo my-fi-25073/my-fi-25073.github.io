@@ -32,15 +32,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "Kailh Flat Blanks · ULP Flat Transparent Blanks",
+        "title": "ULP Flat Transparent Blanks",
         "quantity": null,
         "href": "/gallery/ulp-flat-blanks/#ulp-flat-transparent-blanks"
       }
     ],
     "switches": [
       {
-        "title": "Kailh ULP Tactile",
-        "href": "/switches/kailh-ulp-tactile/"
+        "title": "Kailh ULP Tactile 35g",
+        "href": "/switches/kailh-ulp-tactile/tunings/757e0a462edd/"
       }
     ]
   },

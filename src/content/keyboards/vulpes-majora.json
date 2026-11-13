@@ -37,15 +37,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK MTNU 800",
+        "title": "800",
         "quantity": null,
         "href": "/gallery/800/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Cheese",
-        "href": "/switches/hmx-cheese/"
+        "title": "Cheese",
+        "href": "/switches/hmx-cheese/tunings/167eda0e4aee/"
       }
     ]
   },

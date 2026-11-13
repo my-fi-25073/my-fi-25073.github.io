@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "63.5g",
-      "rating": 2,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 1 63.5g",
@@ -36,7 +35,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [

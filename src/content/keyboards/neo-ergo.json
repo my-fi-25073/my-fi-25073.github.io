@@ -33,19 +33,19 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Drop MT3 LotR Elvish",
+        "title": "LotR Elvish",
         "quantity": null,
         "href": "/gallery/lotr-elvish/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Duck Duck 3.5",
-        "href": "/switches/hmx-duck-duck-3-5/"
+        "title": "Duck Duck 3.5",
+        "href": "/switches/hmx-duck-duck-3-5/tunings/11c678a07fa7/"
       },
       {
-        "title": "HMX Duck Duck 3.9",
-        "href": "/switches/hmx-duck-duck-3-9/"
+        "title": "Duck Duck 3.9",
+        "href": "/switches/hmx-duck-duck-3-9/tunings/ba0466af2f9b/"
       }
     ]
   },

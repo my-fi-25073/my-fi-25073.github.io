@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 4,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 50g",
@@ -78,13 +77,12 @@
     },
     {
       "label": "25g",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"

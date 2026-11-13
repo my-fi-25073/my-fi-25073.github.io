@@ -12,14 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Krytox GPL 105 · Krytox GPL 205 Grade 0",
-      "rating": 4,
+      "label": "Krytox GPL 105 · Krytox GPL 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -37,7 +36,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [

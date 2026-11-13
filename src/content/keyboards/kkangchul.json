@@ -31,21 +31,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "SP Intro WoB",
+        "title": "DCS Intro WoB",
         "quantity": null,
         "href": "/gallery/dcs-intro-wob/"
       },
       {
         "kind": "series",
-        "title": "SP WoB 40% Mono Kit",
+        "title": "DCS WoB 40% Mono Kit",
         "quantity": null,
         "href": "/gallery/dcs-wob-40-mono-kit/"
       }
     ],
     "switches": [
       {
-        "title": "MX2A HolyBXB",
-        "href": "/switches/mx2a-holybxb/"
+        "title": "MX2A HolyBXB 63.5g",
+        "href": "/switches/mx2a-holybxb/tunings/eb60f3567933/"
       }
     ]
   },

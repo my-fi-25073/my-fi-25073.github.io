@@ -31,21 +31,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "SP WoB 40% Mono Kit",
+        "title": "DCS WoB 40% Mono Kit",
         "quantity": null,
         "href": "/gallery/dcs-wob-40-mono-kit/"
       },
       {
         "kind": "series",
-        "title": "SP Intro WoB",
+        "title": "DCS Intro WoB",
         "quantity": null,
         "href": "/gallery/dcs-intro-wob/"
       }
     ],
     "switches": [
       {
-        "title": "MX1A Nixie",
-        "href": "/switches/mx1a-nixie/"
+        "title": "MX1A Nixie ",
+        "href": "/switches/mx1a-nixie/tunings/d3612ca87f01/"
       }
     ]
   },

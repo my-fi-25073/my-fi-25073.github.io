@@ -67,9 +67,7 @@ function lubricationText(item: SwitchTuning['lubrication']['stem']) {
 export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
   const fields: DisplayField[] = [];
   const unresolvedSpring = tuning.spring.resolution === 'stock_unresolved';
-  if (unresolvedSpring) {
-    fields.push({ key: 'spring', label: '순정 스프링', value: '미확인' });
-  } else if (tuning.spring.resolution === 'selected' && tuning.spring.name) {
+  if (tuning.spring.resolution === 'selected' && tuning.spring.name) {
     fields.push({ key: 'spring', label: '스프링', value: tuning.spring.name });
   }
 
@@ -104,9 +102,6 @@ export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
       const label = material && housingMethod && method !== 'other' ? housingMethod : '하우징';
       fields.push({ key: 'housingFit', label, value });
     }
-  }
-  if (tuning.rating !== null) {
-    fields.push({ key: 'rating', label: '별점', value: `${tuning.rating} / 5` });
   }
   return fields;
 }

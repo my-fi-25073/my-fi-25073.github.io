@@ -12,8 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Krytox GPL 105 · Krytox GPL 205 Grade 0",
-      "rating": 2,
+      "label": "Krytox GPL 105 · Krytox GPL 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Kailh Factory Spring 67g",
@@ -31,7 +30,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [

@@ -14,7 +14,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 5,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 50g",

@@ -34,15 +34,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Keyreative KAM Custom Gondola Blue Hangul",
+        "title": "Custom Gondola Blue Hangul",
         "quantity": null,
         "href": "/gallery/custom-gondola-blue-hangul/"
       }
     ],
     "switches": [
       {
-        "title": "Keygeek Mirror Lake V2",
-        "href": "/switches/keygeek-mirror-lake-v2/"
+        "title": "Mirror Lake V2",
+        "href": "/switches/keygeek-mirror-lake-v2/tunings/db482243215e/"
       }
     ]
   },

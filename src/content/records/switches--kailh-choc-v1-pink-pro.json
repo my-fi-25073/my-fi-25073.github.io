@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Kailh Factory 20g",

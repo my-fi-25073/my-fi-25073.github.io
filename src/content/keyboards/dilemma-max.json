@@ -35,15 +35,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Oblivion",
+        "title": "Oblivion",
         "quantity": null,
         "href": "/gallery/oblivion/"
       }
     ],
     "switches": [
       {
-        "title": "Gateron Milky Yellow",
-        "href": "/switches/gateron-milky-yellow/"
+        "title": "Milky Yellow",
+        "href": "/switches/gateron-milky-yellow/tunings/007fd4e84671/"
       }
     ]
   },

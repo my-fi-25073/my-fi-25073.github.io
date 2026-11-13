@@ -32,43 +32,43 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
+        "title": "Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Extra",
+        "title": "Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (SPC)",
+        "title": "Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Hiney Beige",
+        "title": "Hiney Beige ",
         "quantity": null,
         "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (GMK)",
+        "title": "Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Norde Beige",
+        "title": "Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       }
@@ -76,7 +76,7 @@
     "switches": [
       {
         "title": "MX2A Blossom",
-        "href": "/switches/mx2a-blossom/"
+        "href": "/switches/mx2a-blossom/tunings/a759e2a6527d/"
       }
     ]
   },

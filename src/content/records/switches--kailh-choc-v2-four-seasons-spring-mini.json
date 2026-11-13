@@ -13,13 +13,12 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 2,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 48g",
         "status": "partial",
         "specifications": {
-          "actuation_force": "40gf"
+          "actuation_force": "40g ± 10g"
         }
       },
       "housingFit": {

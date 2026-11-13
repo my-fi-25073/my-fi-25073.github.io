@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "Factory OG 37g(partial) · 스템 공장 윤활 · 스프링 공장 윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Keygeek Factory Spring 37g",
@@ -79,13 +78,12 @@
     },
     {
       "label": "Sprit Supreme 30g · 스템 공장 윤활 · 스프링 무윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "30g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -146,7 +144,6 @@
     },
     {
       "label": "Factory OG 45g · 스템 공장 윤활 · 스프링 공장 윤활",
-      "rating": 2,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 45g",

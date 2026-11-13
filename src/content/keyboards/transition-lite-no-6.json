@@ -31,45 +31,45 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (GMK)",
+        "title": "Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Black Snail",
+        "title": "Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "kit",
-        "title": "SP Space Bars · 10u Space Bar",
+        "title": "10u Space Bar",
         "quantity": null,
         "href": "/gallery/dcs-space-bars/#10u-space-bar"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Extra",
+        "title": "Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Any Key",
+        "title": "Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       }
     ],
     "switches": [
       {
-        "title": "MX1A Black",
-        "href": "/switches/mx1a-black/"
+        "title": "MX1A Black 30g",
+        "href": "/switches/mx1a-black/tunings/e3b706904f56/"
       }
     ]
   },

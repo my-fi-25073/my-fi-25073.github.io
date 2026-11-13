@@ -13,15 +13,14 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 0,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 55g",
         "status": "partial",
         "specifications": {
-          "initial_force": "30 cN",
-          "actuation_force": "45 cN",
-          "final_force": "100 cN",
+          "initial_force": "30.6g",
+          "actuation_force": "45.9g",
+          "final_force": "102g",
           "length": "16mm",
           "spring_stage": "single-stage"
         }

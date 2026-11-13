@@ -31,15 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL DMG",
+        "title": "DMG",
         "quantity": null,
         "href": "/gallery/dmg/"
       }
     ],
     "switches": [
       {
-        "title": "Bsun RGY",
-        "href": "/switches/bsun-rgy/"
+        "title": "RGY",
+        "href": "/switches/bsun-rgy/tunings/7f8818d5fdac/"
       }
     ]
   },

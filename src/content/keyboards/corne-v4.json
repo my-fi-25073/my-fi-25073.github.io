@@ -33,33 +33,33 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL WoB Extra",
+        "title": "WoB Extra",
         "quantity": null,
         "href": "/gallery/wob-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL WoB Essential",
+        "title": "WoB Essential",
         "quantity": null,
         "href": "/gallery/wob-essential/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Colorchorome",
+        "title": "Colorchorome",
         "quantity": null,
         "href": "/gallery/colorchorome/"
       },
       {
         "kind": "kit",
-        "title": "GMK CYL WoB Extra · Mictlan Space Bar",
+        "title": "Mictlan Space Bar",
         "quantity": null,
         "href": "/gallery/wob-extra/#mictlan-space-bar-dd6056e9c61a"
       }
     ],
     "switches": [
       {
-        "title": "Keygeek MZ y3",
-        "href": "/switches/keygeek-mz-y3/"
+        "title": "MZ y3",
+        "href": "/switches/keygeek-mz-y3/tunings/0fd398aa37c1/"
       }
     ]
   },

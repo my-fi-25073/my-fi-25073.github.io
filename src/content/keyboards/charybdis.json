@@ -38,21 +38,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Drop MT3 biip Extended 2048 Light",
+        "title": "biip Extended 2048 Light",
         "quantity": null,
         "href": "/gallery/biip-extended-2048-light/"
       },
       {
         "kind": "series",
-        "title": "Drop MT3 biip Extended 2048 Dark",
+        "title": "biip Extended 2048 Dark",
         "quantity": null,
         "href": "/gallery/biip-extended-2048-dark/"
       }
     ],
     "switches": [
       {
-        "title": "Outemu Gazzew Boba U4T RGB Silent",
-        "href": "/switches/outemu-gazzew-boba-u4t-rgb-silent/"
+        "title": "Gazzew Boba U4T RGB Silent",
+        "href": "/switches/outemu-gazzew-boba-u4t-rgb-silent/tunings/1ada9729122e/"
       }
     ]
   },

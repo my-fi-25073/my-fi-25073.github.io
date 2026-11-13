@@ -31,27 +31,27 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL WoB Extra",
+        "title": "WoB Extra",
         "quantity": null,
         "href": "/gallery/wob-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL WoB Essential",
+        "title": "WoB Essential",
         "quantity": null,
         "href": "/gallery/wob-essential/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Mono",
+        "title": "Mono",
         "quantity": null,
         "href": "/gallery/mono/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Snowfall",
-        "href": "/switches/hmx-snowfall/"
+        "title": "Snowfall",
+        "href": "/switches/hmx-snowfall/tunings/7d3fcca560d3/"
       }
     ]
   },

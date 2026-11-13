@@ -30,15 +30,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Chosfox Gold On Black",
+        "title": "LAK Gold On Black",
         "quantity": null,
         "href": "/gallery/lak-gold-on-black/"
       }
     ],
     "switches": [
       {
-        "title": "Kailh Choc v2 Lofree Pulse",
-        "href": "/switches/kailh-choc-v2-lofree-pulse/"
+        "title": "Lofree Pulse 25g",
+        "href": "/switches/kailh-choc-v2-lofree-pulse/tunings/6f07980b9d2b/"
       }
     ]
   },

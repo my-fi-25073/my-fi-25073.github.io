@@ -13,13 +13,12 @@
   "tunings": [
     {
       "label": "Sprit Supreme 12g · 스템 공장 윤활 · 스프링 무윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 12g",
         "status": null,
         "specifications": {
-          "actuation_force": "8g",
+          "actuation_force": "8.2g",
           "bottom_out_force": "12g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -80,7 +79,6 @@
     },
     {
       "label": "Bsun Factory Spring 44g · 스템 공장 윤활 · 스프링 공장 윤활",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Bsun Factory Spring 44g",

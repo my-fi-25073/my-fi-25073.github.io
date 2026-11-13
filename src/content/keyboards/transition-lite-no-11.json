@@ -32,33 +32,33 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Cherry CYL Vintage",
+        "title": "Cherry Vintage",
         "quantity": null,
         "href": "/gallery/cherry-vintage/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (GMK)",
+        "title": "Classic Beige (GMK)",
         "quantity": null,
         "href": "/gallery/classic-beige-gmk/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (SPC)",
+        "title": "Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Black Snail",
+        "title": "Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       }
     ],
     "switches": [
       {
-        "title": "MX2A Black",
-        "href": "/switches/mx2a-black/"
+        "title": "MX2A Black 63.5g",
+        "href": "/switches/mx2a-black/tunings/4d18cd56a811/"
       }
     ]
   },

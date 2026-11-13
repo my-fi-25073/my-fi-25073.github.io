@@ -33,75 +33,75 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Blue Alert",
+        "title": "Blue Alert",
         "quantity": null,
         "href": "/gallery/blue-alert/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (SPC)",
+        "title": "Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Arabic",
+        "title": "Classic Arabic",
         "quantity": null,
         "href": "/gallery/classic-arabic/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Retro Zhuyin",
+        "title": "Classic Retro Zhuyin",
         "quantity": null,
         "href": "/gallery/classic-retro-zhuyin/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Hiney Beige",
+        "title": "Hiney Beige ",
         "quantity": null,
         "href": "/gallery/hiney-beige/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Extra",
+        "title": "Beige Extra",
         "quantity": null,
         "href": "/gallery/beige-extra/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Any Key",
+        "title": "Any Key",
         "quantity": null,
         "href": "/gallery/any-key/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Relegendables+",
+        "title": "Relegendables+",
         "quantity": null,
         "href": "/gallery/relegendables/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL UwU Macro Add On",
+        "title": "UwU Macro Add On",
         "quantity": null,
         "href": "/gallery/uwu-macro-add-on/"
       },
       {
         "kind": "kit",
-        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
+        "title": "Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       }
     ],
     "switches": [
       {
-        "title": "Keygeek MZ y3",
-        "href": "/switches/keygeek-mz-y3/"
+        "title": "MZ y3",
+        "href": "/switches/keygeek-mz-y3/tunings/c7e08c116ffc/"
       }
     ]
   },

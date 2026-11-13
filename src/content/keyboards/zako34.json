@@ -33,15 +33,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK MTNU Susu",
+        "title": "Susu",
         "quantity": null,
         "href": "/gallery/susu/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Candy Red",
-        "href": "/switches/hmx-candy-red/"
+        "title": "Candy Red",
+        "href": "/switches/hmx-candy-red/tunings/fd3018fd1141/"
       }
     ]
   },

@@ -14,7 +14,6 @@
   "tunings": [
     {
       "label": "20g",
-      "rating": 5,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Choc 20g",
@@ -74,11 +73,13 @@
     },
     {
       "label": "공장 윤활",
-      "rating": 4,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 53g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "43g ± 10g"
+        }
       },
       "housingFit": {
         "state": "none",

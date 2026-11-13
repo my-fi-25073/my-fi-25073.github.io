@@ -13,11 +13,14 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 1,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 55g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 15g",
+          "length": "13.5mm"
+        }
       },
       "housingFit": {
         "state": "none",

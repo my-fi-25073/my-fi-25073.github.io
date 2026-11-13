@@ -35,19 +35,19 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "JLC Blanks · CLP Custom Black Blanks",
+        "title": "CLP Custom Black Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
       }
     ],
     "switches": [
       {
-        "title": "HMX Game1989 v1",
-        "href": "/switches/hmx-game1989-v1/"
+        "title": "Game1989 v1",
+        "href": "/switches/hmx-game1989-v1/tunings/ce6fe47ddb56/"
       },
       {
-        "title": "HMX Duck Duck 3.9",
-        "href": "/switches/hmx-duck-duck-3-9/"
+        "title": "Duck Duck 3.9",
+        "href": "/switches/hmx-duck-duck-3-9/tunings/ba0466af2f9b/"
       }
     ]
   },

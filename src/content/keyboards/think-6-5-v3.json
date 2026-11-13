@@ -31,15 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Verdant Retro",
+        "title": "Verdant Retro",
         "quantity": null,
         "href": "/gallery/verdant-retro/"
       }
     ],
     "switches": [
       {
-        "title": "MX2A Black",
-        "href": "/switches/mx2a-black/"
+        "title": "MX2A Black 60g",
+        "href": "/switches/mx2a-black/tunings/84a694228e1b/"
       }
     ]
   },

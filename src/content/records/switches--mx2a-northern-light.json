@@ -14,15 +14,14 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 2,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 58g",
         "status": "partial",
         "specifications": {
-          "initial_force": "33 cN",
-          "actuation_force": "45 cN",
-          "final_force": "100 cN"
+          "initial_force": "33.7g",
+          "actuation_force": "45.9g",
+          "final_force": "102g"
         }
       },
       "housingFit": {

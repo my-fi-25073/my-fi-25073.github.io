@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "25g",
-      "rating": 5,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Choc 25g",

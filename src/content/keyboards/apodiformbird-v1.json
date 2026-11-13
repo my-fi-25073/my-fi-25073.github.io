@@ -32,15 +32,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "JLC Blanks · CLP Custom Black Blanks",
+        "title": "CLP Custom Black Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-black-blanks"
       }
     ],
     "switches": [
       {
-        "title": "MX1A Black",
-        "href": "/switches/mx1a-black/"
+        "title": "MX1A Black DG 50g",
+        "href": "/switches/mx1a-black/tunings/5ee2992632a5/"
       }
     ]
   },

@@ -31,21 +31,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Minimal",
+        "title": "Minimal",
         "quantity": null,
         "href": "/gallery/minimal/"
       },
       {
         "kind": "kit",
-        "title": "GMK CYL Minimal · Classic BoW 40s (Cannon Key)",
+        "title": "Classic BoW 40s (Cannon Key)",
         "quantity": null,
         "href": "/gallery/minimal/#classic-bow-40s-cannon-key"
       }
     ],
     "switches": [
       {
-        "title": "HMX Snow Crash",
-        "href": "/switches/hmx-snow-crash/"
+        "title": "Snow Crash",
+        "href": "/switches/hmx-snow-crash/tunings/5aebe75327da/"
       }
     ]
   },

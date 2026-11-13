@@ -32,15 +32,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Keyreative Blanks Black",
+        "title": "PBS Blanks Black",
         "quantity": null,
         "href": "/gallery/pbs-blanks-black/"
       }
     ],
     "switches": [
       {
-        "title": "Gateron Drop Holy Panda X",
-        "href": "/switches/gateron-drop-holy-panda-x/"
+        "title": "Drop Holy Panda X",
+        "href": "/switches/gateron-drop-holy-panda-x/tunings/4fab33bc7d57/"
       }
     ]
   },

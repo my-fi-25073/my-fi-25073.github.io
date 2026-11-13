@@ -12,14 +12,13 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "25g · 스템·스프링 Krytox GPL 205 Grade 0",
-      "rating": 5,
+      "label": "25g · 스템·스프링 Krytox GPL 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -33,11 +32,11 @@
       "lubrication": {
         "spring": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [
@@ -80,7 +79,6 @@
     },
     {
       "label": "63.5g · 스템 무윤활",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 63.5g",
@@ -181,7 +179,6 @@
     },
     {
       "label": "60g · Krytox GPL 107",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 60g",
@@ -282,13 +279,12 @@
     },
     {
       "label": "35g · Fomblin Z15 + Klübertemp GR M 07 · Glue Marker",
-      "rating": 5,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -379,7 +375,6 @@
     },
     {
       "label": "50g · Kelowna AF206",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 50g",
@@ -480,7 +475,6 @@
     },
     {
       "label": "55g · DUBA CHEM DRI-KOTE DL-116Y",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 55g",
@@ -575,14 +569,13 @@
       ]
     },
     {
-      "label": "25g · 스템 Krytox GPL 205 Grade 2 · 스프링 Krytox GPL 105",
-      "rating": 3,
+      "label": "25g · 스템 Krytox GPL 205 G2 · 스프링 Krytox GPL 105",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -600,7 +593,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 2"
+          "name": "Krytox GPL 205 G2"
         }
       },
       "images": [
@@ -658,13 +651,12 @@
     },
     {
       "label": "35g · Fomblin Z15 + Klübertemp GR M 07",
-      "rating": 5,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -755,13 +747,12 @@
     },
     {
       "label": "35g · Kelowna AF206",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -857,7 +848,6 @@
     },
     {
       "label": "63.5g · Sprit Slow Extreme 3",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 3 63.5g",

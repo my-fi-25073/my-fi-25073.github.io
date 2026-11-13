@@ -30,15 +30,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Serika",
+        "title": "Serika",
         "quantity": null,
         "href": "/gallery/serika/"
       }
     ],
     "switches": [
       {
-        "title": "Bsun Bumblebee",
-        "href": "/switches/bsun-bumblebee/"
+        "title": "Bumblebee",
+        "href": "/switches/bsun-bumblebee/tunings/cccc8393077a/"
       }
     ]
   },

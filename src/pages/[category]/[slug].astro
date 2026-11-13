@@ -67,19 +67,21 @@ const directProductImages = record.images.filter((image) => (
           {tunings.map(({ label, href, tuning }) => {
             const photo = tuning.images[0]?.variants[0];
             const details = [
-              ['Spring', tuning.spring.name],
+              ['Spring', tuning.spring.resolution === 'selected' ? tuning.spring.name : null],
               ['Stem lube', lubeLabel(tuning.lubrication.stem)],
               ['Spring lube', lubeLabel(tuning.lubrication.spring)],
-            ];
+            ].filter(([, value]) => value);
             return (
               <li>
                 <a href={href}>
                   {photo && <img src={photo.src} width={photo.width} height={photo.height} alt="" loading="lazy" />}
                   <div class="tuning-link-detail">
                     <h3>{label}</h3>
-                    <dl>
-                      {details.map(([key, value]) => <div><dt>{key}</dt><dd>{value ?? '—'}</dd></div>)}
-                    </dl>
+                    {details.length > 0 && (
+                      <dl>
+                        {details.map(([key, value]) => <div><dt>{key}</dt><dd>{value}</dd></div>)}
+                      </dl>
+                    )}
                   </div>
                 </a>
               </li>

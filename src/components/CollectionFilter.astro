@@ -1,7 +1,10 @@
 ---
+import type { KeyboardFilterPreset } from '../lib/collection-views';
+
 interface FilterGroup {
   id: string;
   label: string;
+  count: number;
   aliases?: string[];
 }
 
@@ -13,59 +16,205 @@ interface FilterAxis {
 
 interface Props {
   axes: FilterAxis[];
-  scopeId?: string;
+  total: number;
+  presets?: Record<string, KeyboardFilterPreset>;
 }
 
-const { axes, scopeId } = Astro.props;
+const { axes, total, presets = {} } = Astro.props;
 ---
 
-<div class="collection-filter" data-collection-filter data-filter-scope={scopeId}>
+<div class="keyboard-filters" data-keyboard-filters data-presets={JSON.stringify(presets)}>
+  <div class="filter-header">
+    <p class="result-count" aria-live="polite" aria-atomic="true"><span data-result-count>{total}</span>개 빌드</p>
+    <div class="filter-search" role="search">
+      <label class="visually-hidden" for="keyboard-search">키보드 검색</label>
+      <input id="keyboard-search" type="search" placeholder="키보드 검색" autocomplete="off" />
+    </div>
+  </div>
   {axes.map((axis) => (
-    <select name={axis.key} aria-label={axis.label}>
-      <option value="">{axis.label} 전체</option>
-      {axis.groups.map((group) => (
-        <option value={group.id} data-aliases={group.aliases?.join(' ')}>{group.label}</option>
-      ))}
-    </select>
+    <fieldset class="filter-axis">
+      <legend>{axis.label}</legend>
+      <div class="filter-options">
+        <label class="filter-option">
+          <input type="radio" name={axis.key} value="" checked />
+          <span>전체</span>
+        </label>
+        {axis.groups.map((group) => (
+          <label class="filter-option">
+            <input type="radio" name={axis.key} value={group.id} data-aliases={group.aliases?.join(' ')} />
+            <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
+          </label>
+        ))}
+      </div>
+    </fieldset>
   ))}
 </div>
 
 <script>
-  for (const root of document.querySelectorAll<HTMLElement>('[data-collection-filter]')) {
-    const selects = [...root.querySelectorAll<HTMLSelectElement>('select')];
-    const scope = (root.dataset.filterScope
-      ? document.getElementById(root.dataset.filterScope)
-      : document) ?? document;
-    const cards = [...scope.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
-      card,
-      groups: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
+  import type { KeyboardFilterPreset } from '../lib/collection-views';
+
+  const root = document.querySelector<HTMLElement>('[data-keyboard-filters]');
+  const search = root?.querySelector<HTMLInputElement>('#keyboard-search');
+  const total = root?.querySelector<HTMLElement>('[data-result-count]');
+  const empty = document.querySelector<HTMLElement>('[data-keyboard-empty]');
+  const gallery = document.querySelector<HTMLElement>('[data-keyboard-gallery]');
+  const sectionTemplate = gallery?.querySelector<HTMLTemplateElement>('[data-keyboard-preset-section]');
+
+  if (root && search && total && empty && gallery && sectionTemplate) {
+    const presets: Record<string, KeyboardFilterPreset> = JSON.parse(root.dataset.presets ?? '{}');
+    const axes = [...root.querySelectorAll('fieldset')].map((field) => (
+      [...field.querySelectorAll<HTMLInputElement>('input[type="radio"]')]
+    ));
+    const groups = [...gallery.querySelectorAll<HTMLElement>('[data-archive-group]')].map((section) => ({
+      section,
+      cards: [...section.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
+        card,
+        slug: card.dataset.keyboardSlug!,
+        title: card.dataset.keyboardTitle!,
+        lastBuiltAt: card.dataset.keyboardDate,
+        layouts: JSON.parse(card.dataset.keyboardLayouts ?? '[]') as string[],
+        searchText: card.dataset.search ?? '',
+        tags: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
+      })),
     }));
-    const params = new URL(window.location.href).searchParams;
-    for (const select of selects) {
-      const requested = params.get(select.name) ?? params.get('collection');
-      if (!requested) continue;
-      const selected = [...select.options].find((option) => (
-        option.value === requested || option.dataset.aliases?.split(' ').includes(requested)
-      ));
-      if (selected) select.value = selected.value;
-    }
-    const apply = (updateUrl = false) => {
-      const activeGroups = selects.map((select) => select.value).filter(Boolean);
-      for (const { card, groups } of cards) {
-        card.dataset.groupMatch = String(activeGroups.every((group) => groups.has(group)));
+    const entries = [...new Map(groups.flatMap(({ cards }) => cards.map((entry) => [entry.slug, entry]))).values()];
+    type Entry = (typeof entries)[number];
+    let currentPreset: KeyboardFilterPreset | null = null;
+    let presetGroups: Array<{ section: HTMLElement; cards: Entry[] }> = [];
+
+    function compareEntries(left: Entry, right: Entry, preset: KeyboardFilterPreset) {
+      // SQLite's NOCASE folds ASCII only. Use the public slug for otherwise identical records.
+      const fold = (value: string) => value.replace(/[A-Z]/g, (letter) => letter.toLowerCase());
+      for (const { field, direction } of preset.sort) {
+        const a = field === 'firstLayout' ? left.layouts[0] : left[field];
+        const b = field === 'firstLayout' ? right.layouts[0] : right[field];
+        if (a == null || b == null) {
+          if (a !== b) return a == null ? 1 : -1;
+          continue;
+        }
+        const aa = fold(a);
+        const bb = fold(b);
+        if (aa !== bb) return (aa < bb ? -1 : 1) * (direction === 'desc' ? -1 : 1);
       }
+      return left.slug < right.slug ? -1 : left.slug > right.slug ? 1 : 0;
+    }
+
+    function buildPresetGroups(preset: KeyboardFilterPreset, filter: string, template: HTMLTemplateElement) {
+      const sorted = entries.filter(({ tags }) => tags.has(filter))
+        .toSorted((left, right) => compareEntries(left, right, preset));
+      const members = preset.groups.length ? [
+        ...preset.groups.map((label) => ({ label, entries: sorted.filter(({ layouts }) => layouts.includes(label)) })),
+        { label: '값 없음', entries: sorted.filter(({ layouts }) => !layouts.some((label) => preset.groups.includes(label))) },
+      ] : [{ label: null, entries: sorted }];
+      return members.filter((group) => group.entries.length).map(({ label, entries: groupEntries }) => {
+        const section = template.content.firstElementChild!.cloneNode(true) as HTMLElement;
+        const heading = section.querySelector<HTMLElement>('.section-heading')!;
+        const grid = section.querySelector<HTMLElement>('.gallery-grid')!;
+        if (label) {
+          section.setAttribute('aria-label', label);
+          heading.querySelector('h2')!.textContent = label;
+          heading.hidden = false;
+        }
+        const cards = groupEntries.map((entry) => {
+          const card = entry.card.cloneNode(true) as HTMLElement;
+          const oldTitle = card.querySelector('h2, h3')!;
+          const title = document.createElement(label ? 'h3' : 'h2');
+          title.textContent = oldTitle.textContent;
+          oldTitle.replaceWith(title);
+          grid.append(card);
+          return { ...entry, card };
+        });
+        return { section, cards };
+      });
+    }
+
+    function readLocation() {
+      const params = new URLSearchParams(window.location.search);
+      for (const options of axes) {
+        const requested = params.get(options[0].name) ?? params.get('collection');
+        const selected = options.find((option) => (
+          option.value === requested || (requested && option.dataset.aliases?.split(' ').includes(requested))
+        ));
+        (selected ?? options[0]).checked = true;
+      }
+    }
+
+    const apply = (updateUrl = false) => {
+      const selected = axes.map((options) => options.find((option) => option.checked) ?? options[0]);
+      const active = selected.map((option) => option.value).filter(Boolean);
+      const preset = active.length === 1 ? presets[active[0]] ?? null : null;
+      if (preset !== currentPreset) {
+        currentPreset = preset;
+        presetGroups = preset ? buildPresetGroups(preset, active[0], sectionTemplate) : [];
+        gallery.replaceChildren(...(preset ? presetGroups : groups).map(({ section }) => section), sectionTemplate);
+      }
+      const query = search.value.trim().toLocaleLowerCase('ko');
+      const visible = new Set<string>();
+      for (const { section, cards } of preset ? presetGroups : groups) {
+        let sectionHasMatch = false;
+        for (const { card, slug, searchText, tags } of cards) {
+          const matches = (!query || searchText.includes(query)) && active.every((value) => tags.has(value));
+          card.hidden = !matches;
+          if (matches) {
+            visible.add(slug);
+            sectionHasMatch = true;
+          }
+        }
+        section.hidden = !sectionHasMatch;
+      }
+      total.textContent = String(visible.size);
+      empty.hidden = visible.size !== 0;
       if (updateUrl) {
         const url = new URL(window.location.href);
         url.searchParams.delete('collection');
-        for (const select of selects) {
-          if (select.value) url.searchParams.set(select.name, select.value);
-          else url.searchParams.delete(select.name);
+        for (const option of selected) {
+          if (option.value) url.searchParams.set(option.name, option.value);
+          else url.searchParams.delete(option.name);
         }
         window.history.replaceState(null, '', url);
       }
-      window.dispatchEvent(new CustomEvent('keylog:group-filter'));
     };
-    root.addEventListener('change', () => apply(true));
+
+    root.addEventListener('change', (event) => {
+      if (event.target instanceof HTMLInputElement && event.target.type === 'radio') apply(true);
+    });
+    search.addEventListener('input', () => apply());
+    window.addEventListener('popstate', () => {
+      readLocation();
+      apply();
+    });
+    readLocation();
     apply();
   }
 </script>
+
+<style>
+  .keyboard-filters { border-block: 1px solid var(--color-rule); }
+  .filter-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 24px; padding-block: 3px; border-bottom: 1px solid var(--color-rule); }
+  .result-count { margin: 0; color: var(--color-muted); font-size: 13px; }
+  .result-count span { color: var(--color-text); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .filter-search { position: relative; width: min(100%, 220px); }
+  .filter-search::before { position: absolute; inset: 13px auto auto 2px; width: 12px; height: 12px; border: 1.5px solid var(--color-muted); border-radius: 50%; pointer-events: none; content: ''; }
+  .filter-search::after { position: absolute; inset: 26px auto auto 14px; width: 6px; height: 1.5px; background: var(--color-muted); pointer-events: none; transform: rotate(45deg); content: ''; }
+  .filter-search input { width: 100%; min-height: 44px; padding: 0 4px 0 29px; border: 0; border-radius: 0; background: transparent; color: var(--color-text); font-size: 16px; }
+  .filter-search input::placeholder { color: var(--color-muted); }
+  .filter-search input:focus-visible { outline-offset: -1px; }
+  .filter-axis { position: relative; min-width: 0; margin: 0; padding: 4px 0 4px 64px; border: 0; }
+  .filter-axis + .filter-axis { border-top: 1px solid color-mix(in srgb, var(--color-rule) 55%, transparent); }
+  .filter-axis legend { position: absolute; top: 18px; left: 0; padding: 0; color: var(--color-muted); font-size: 13px; font-weight: 600; line-height: 18px; }
+  .filter-options { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; }
+  .filter-option { position: relative; display: inline-grid; min-height: 44px; align-items: center; cursor: pointer; }
+  .filter-option input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
+  .filter-option span { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; padding: 4px 9px; border-radius: 3px; color: var(--color-muted); font-size: 14px; line-height: 1.35; }
+  .filter-option small { color: inherit; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .filter-option:hover span { background: var(--color-surface); color: var(--color-text); }
+  .filter-option input:checked + span { background: var(--color-text); color: var(--color-panel); }
+  .filter-option input:focus-visible + span { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+
+  @media (max-width: 480px) {
+    .filter-axis { padding-left: 38px; }
+    .filter-options { gap: 0 3px; }
+    .filter-option span { gap: 4px; padding-inline: 6px; font-size: 13px; }
+    .filter-search { width: min(58%, 220px); }
+  }
+</style>

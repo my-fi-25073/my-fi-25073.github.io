@@ -35,14 +35,15 @@ interface Props {
 const { entry, keycaps, switches } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
-const components = [...keycaps, ...switches];
+const components = [
+  { title: '키캡', items: keycaps },
+  { title: '스위치', items: switches },
+].filter(({ items }) => items.length > 0);
 const hasBuildSpec = fields.length > 0 || components.length > 0;
 ---
 
 <SiteLayout title={keyboard.title}>
-  <article class:list={['detail shell keyboard-build-detail', {
-    'has-spec-column': keyboard.images.length > 0 && hasBuildSpec,
-  }]}>
+  <article class="detail shell keyboard-build-detail">
     <div class="keyboard-build-gallery">
       <ImageGallery images={keyboard.images} label={keyboard.title} />
       <header class="keyboard-build-caption">
@@ -53,8 +54,19 @@ const hasBuildSpec = fields.length > 0 || components.length > 0;
     {hasBuildSpec && (
       <section class="keyboard-build-spec" aria-labelledby="keyboard-build-spec-heading">
         <h2 id="keyboard-build-spec-heading" lang="en">Build Spec</h2>
-        {components.length > 0 && <BuildComponentCards items={components} layout="rows" />}
-        <DisplayFields fields={fields} variant="detail" />
+        <div class:list={['keyboard-spec-body', { 'has-components-and-fields': components.length && fields.length }]}>
+          {components.length > 0 && (
+            <div class="keyboard-build-components">
+              {components.map(({ title, items }) => (
+                <section>
+                  <h3>{title}</h3>
+                  <BuildComponentCards items={items} />
+                </section>
+              ))}
+            </div>
+          )}
+          {fields.length > 0 && <DisplayFields fields={fields} variant="detail" />}
+        </div>
       </section>
     )}
   </article>
@@ -95,19 +107,38 @@ const hasBuildSpec = fields.length > 0 || components.length > 0;
   }
 
   .keyboard-build-spec h2 {
-    margin: 0;
+    margin: 0 0 14px;
     font-size: 1rem;
     font-weight: 640;
   }
 
-  .keyboard-build-spec :global(.display-fields.is-detail) {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 112px), 1fr));
-    column-gap: 14px;
-    margin-top: 16px;
+  .keyboard-spec-body {
+    display: grid;
+    gap: 24px;
+    align-items: start;
   }
 
-  @media (min-width: 760px) {
-    .keyboard-build-detail.has-spec-column {
+  .keyboard-build-components {
+    display: grid;
+    gap: 16px;
+    min-width: 0;
+  }
+
+  .keyboard-build-components h3 {
+    margin: 0;
+    color: var(--color-muted);
+    font-size: .8125rem;
+    font-weight: 600;
+  }
+
+  .keyboard-spec-body :global(.display-fields.is-detail) {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 112px), 1fr));
+    column-gap: 14px;
+    margin: 0;
+  }
+
+  @media (min-width: 960px) {
+    .keyboard-spec-body.has-components-and-fields {
       grid-template-columns: minmax(0, 2.25fr) minmax(0, 1fr);
     }
   }

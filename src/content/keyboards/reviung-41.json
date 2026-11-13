@@ -33,15 +33,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Colorchorome",
+        "title": "Colorchorome",
         "quantity": null,
         "href": "/gallery/colorchorome/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Milky White v2",
-        "href": "/switches/hmx-milky-white-v2/"
+        "title": "Milky White v2",
+        "href": "/switches/hmx-milky-white-v2/tunings/39bd043243ad/"
       }
     ]
   },

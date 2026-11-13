@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Keygeek Factory Spring 37g",

@@ -31,21 +31,21 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Beige (SPC)",
+        "title": "Classic Beige (SPC)",
         "quantity": null,
         "href": "/gallery/classic-beige-spc/"
       }
     ],
     "switches": [
       {
-        "title": "MX2A Black",
-        "href": "/switches/mx2a-black/"
+        "title": "MX2A Black 63.5g (S3)",
+        "href": "/switches/mx2a-black/tunings/4a2c0f93f15a/"
       }
     ]
   },

@@ -31,27 +31,27 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Norde Beige",
+        "title": "Norde Beige",
         "quantity": null,
         "href": "/gallery/norde-beige/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Black Snail",
+        "title": "Black Snail",
         "quantity": null,
         "href": "/gallery/black-snail/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Yogurt",
-        "href": "/switches/hmx-yogurt/"
+        "title": "Yogurt",
+        "href": "/switches/hmx-yogurt/tunings/fe5efa8560e6/"
       }
     ]
   },

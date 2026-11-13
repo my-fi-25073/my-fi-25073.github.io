@@ -13,13 +13,12 @@
   "tunings": [
     {
       "label": "30g",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "30g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -37,7 +36,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [
@@ -75,13 +74,12 @@
     },
     {
       "label": "35g · Dia Glide",
-      "rating": 4,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
         "status": null,
         "specifications": {
-          "actuation_force": "25g",
+          "actuation_force": "25.5g",
           "bottom_out_force": "35g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -99,7 +97,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [
@@ -186,14 +184,13 @@
       ]
     },
     {
-      "label": "25g · Krytox GPL 205 Grade 0",
-      "rating": 3,
+      "label": "25g · Krytox GPL 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -211,7 +208,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [
@@ -253,14 +250,13 @@
       ]
     },
     {
-      "label": "25g · Krytox GPL 205 Grade 2",
-      "rating": 4,
+      "label": "25g · Krytox GPL 205 G2",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -278,7 +274,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 2"
+          "name": "Krytox GPL 205 G2"
         }
       },
       "images": [
@@ -321,7 +317,6 @@
     },
     {
       "label": "50g · Dia Glide",
-      "rating": 2,
       "spring": {
         "resolution": "selected",
         "name": "TX Middle 50g",
@@ -343,7 +338,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [
@@ -411,13 +406,12 @@
     },
     {
       "label": "25g · Dia Glide",
-      "rating": 5,
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
         "status": null,
         "specifications": {
-          "actuation_force": "20g",
+          "actuation_force": "20.4g",
           "bottom_out_force": "25g",
           "length": "13.75mm",
           "spring_stage": "single-stage"
@@ -435,7 +429,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Krytox GPL 205 Grade 0"
+          "name": "Krytox GPL 205 G0"
         }
       },
       "images": [

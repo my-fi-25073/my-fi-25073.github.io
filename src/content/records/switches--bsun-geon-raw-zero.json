@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "Geon 14mm 45g · 스템 공장 윤활 · 스프링 Krytox GPL 105",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "Geon 14mm 45g",
@@ -78,7 +77,6 @@
     },
     {
       "label": "SW Classic 50g · 스템 공장 윤활 · 스프링 Krytox GPL 105",
-      "rating": 3,
       "spring": {
         "resolution": "selected",
         "name": "SW Classic 50g",

@@ -33,45 +33,45 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL BAE Add On",
+        "title": "BAE Add On",
         "quantity": null,
         "href": "/gallery/bae-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL OG Extension",
+        "title": "OG Extension",
         "quantity": null,
         "href": "/gallery/og-extension/"
       },
       {
         "kind": "kit",
-        "title": "GMK CYL Alt Grrrr Addon · Beige/WoB",
+        "title": "Beige/WoB",
         "quantity": null,
         "href": "/gallery/alt-grrrr-addon/#beige-wob"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Beige Add On",
+        "title": "Beige Add On ",
         "quantity": null,
         "href": "/gallery/beige-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL UwU Macro Add On",
+        "title": "UwU Macro Add On",
         "quantity": null,
         "href": "/gallery/uwu-macro-add-on/"
       },
       {
         "kind": "series",
-        "title": "GMK CYL Classic Retro Zhuyin",
+        "title": "Classic Retro Zhuyin",
         "quantity": null,
         "href": "/gallery/classic-retro-zhuyin/"
       }
     ],
     "switches": [
       {
-        "title": "Keygeek MZ y3",
-        "href": "/switches/keygeek-mz-y3/"
+        "title": "MZ y3",
+        "href": "/switches/keygeek-mz-y3/tunings/40b562e7b283/"
       }
     ]
   },

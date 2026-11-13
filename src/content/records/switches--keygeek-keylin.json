@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 1,
       "spring": {
         "resolution": "selected",
         "name": "Keygeek Factory Spring 48g",

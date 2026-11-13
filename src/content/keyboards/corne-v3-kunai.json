@@ -34,15 +34,15 @@
     "keycaps": [
       {
         "kind": "kit",
-        "title": "JLC Blanks · CLP Custom Transparent Blanks",
+        "title": "CLP Custom Transparent Blanks",
         "quantity": null,
         "href": "/gallery/clp-blanks/#clp-custom-transparent-blanks"
       }
     ],
     "switches": [
       {
-        "title": "Bsun SR YETI",
-        "href": "/switches/bsun-sr-yeti/"
+        "title": "SR YETI",
+        "href": "/switches/bsun-sr-yeti/tunings/2da83f732569/"
       }
     ]
   },

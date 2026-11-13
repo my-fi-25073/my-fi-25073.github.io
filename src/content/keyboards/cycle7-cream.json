@@ -32,15 +32,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Serika",
+        "title": "Serika",
         "quantity": null,
         "href": "/gallery/serika/"
       }
     ],
     "switches": [
       {
-        "title": "Gateron Zeal PC Zealios v2",
-        "href": "/switches/gateron-zeal-pc-zealios-v2/"
+        "title": "Zeal PC Zealios v2",
+        "href": "/switches/gateron-zeal-pc-zealios-v2/tunings/d9b7b0133497/"
       }
     ]
   },

@@ -31,15 +31,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "GMK CYL Oblivion",
+        "title": "Oblivion",
         "quantity": null,
         "href": "/gallery/oblivion/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Snow Crash",
-        "href": "/switches/hmx-snow-crash/"
+        "title": "Snow Crash",
+        "href": "/switches/hmx-snow-crash/tunings/5aebe75327da/"
       }
     ]
   },

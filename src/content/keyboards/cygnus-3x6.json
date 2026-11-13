@@ -36,15 +36,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Drop Serika",
+        "title": "MT3 Serika",
         "quantity": null,
         "href": "/gallery/mt3-serika/"
       }
     ],
     "switches": [
       {
-        "title": "Bsun Geon Raw Zero",
-        "href": "/switches/bsun-geon-raw-zero/"
+        "title": "Geon Raw Zero",
+        "href": "/switches/bsun-geon-raw-zero/tunings/25c9be48ac84/"
       }
     ]
   },

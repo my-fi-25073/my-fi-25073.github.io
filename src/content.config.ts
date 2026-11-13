@@ -95,7 +95,6 @@ const records = defineCollection({
       isFranken: z.boolean(),
       tunings: z.array(z.object({
         label: z.string().min(1),
-        rating: z.number().min(0).max(5).nullable(),
         spring: z.object({
           resolution: z.enum(['selected', 'stock_unresolved', 'unknown']),
           name: z.string().nullable(),

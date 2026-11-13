@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 2,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 33g",

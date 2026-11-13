@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 0,
       "spring": {
         "resolution": "selected",
         "name": "TTC Factory Spring 65g",

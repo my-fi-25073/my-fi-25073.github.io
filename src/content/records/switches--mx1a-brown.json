@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 0,
       "spring": {
         "resolution": "selected",
         "name": "Cherry Factory Spring 55g",

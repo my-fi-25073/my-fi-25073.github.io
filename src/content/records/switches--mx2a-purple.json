@@ -13,11 +13,15 @@
   "tunings": [
     {
       "label": "무윤활",
-      "rating": 1,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 60g",
-        "status": "unresolved"
+        "status": "partial",
+        "specifications": {
+          "initial_force": "30.6g",
+          "tactile_force": "56.1g",
+          "final_force": "81.6g"
+        }
       },
       "housingFit": {
         "state": "none",

@@ -38,15 +38,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "Drop MT3 biip Extended 2048 Dark",
+        "title": "biip Extended 2048 Dark",
         "quantity": null,
         "href": "/gallery/biip-extended-2048-dark/"
       }
     ],
     "switches": [
       {
-        "title": "HMX Xinhai",
-        "href": "/switches/hmx-xinhai/"
+        "title": "Xinhai",
+        "href": "/switches/hmx-xinhai/tunings/9dd9f0e5713f/"
       }
     ]
   },

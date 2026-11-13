@@ -5,6 +5,8 @@ import { buildSwitchTuningFields, publicSwitchTunings } from './switch-tuning-di
 export type BuildComponentCover = CollectionEntry<'gallery'>['data']['images'][number];
 export interface BuildComponentPresentation {
   cover?: BuildComponentCover;
+  productTitle?: string;
+  tuningLabel?: string;
   fields?: DisplayField[];
 }
 
@@ -23,10 +25,16 @@ export async function loadBuildComponentCoverResolver() {
     }
   }
   for (const { data: record } of switches) {
-    // Existing public builds may still carry a product route until their next publication.
-    components.set(`/switches/${record.slug}/`, { cover: record.images[0] });
-    for (const { href, tuning } of publicSwitchTunings(record)) {
-      components.set(href, { cover: tuning.images[0], fields: buildSwitchTuningFields(tuning) });
+    for (const { href, label, tuning } of publicSwitchTunings(record)) {
+      const fields = buildSwitchTuningFields(tuning);
+      const productTitle = record.title.trim();
+      const repeatedName = productTitle === label || productTitle.endsWith(' ' + label);
+      components.set(href, {
+        cover: tuning.images[0] ?? record.images[0],
+        productTitle,
+        tuningLabel: repeatedName ? undefined : label,
+        fields: fields.filter(({ key }) => ['spring', 'actuation_force', 'bottom_out_force'].includes(key)),
+      });
     }
   }
 

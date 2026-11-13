@@ -13,7 +13,6 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 2,
       "spring": {
         "resolution": "selected",
         "name": "Bsun Factory Spring 50g",

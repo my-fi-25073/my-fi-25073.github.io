@@ -32,15 +32,15 @@
     "keycaps": [
       {
         "kind": "series",
-        "title": "FKCaps MBK Engage light",
+        "title": "Engage light",
         "quantity": null,
         "href": "/gallery/engage-light/"
       }
     ],
     "switches": [
       {
-        "title": "Kailh Choc v1 Pink Pro",
-        "href": "/switches/kailh-choc-v1-pink-pro/"
+        "title": "Pink Pro",
+        "href": "/switches/kailh-choc-v1-pink-pro/tunings/f8af0bd77106/"
       }
     ]
   },

@@ -30,6 +30,10 @@ export interface CollectionGroup {
 type CollectionPredicate = { all: CollectionCondition[] } | { any: CollectionCondition[] };
 type CollectionSort = Array<{ field: string; direction: 'asc' | 'desc' }>;
 type CollectionValueGroup = { field: string; unit: 'value'; order: string[]; direction?: 'asc' | 'desc' };
+export type KeyboardFilterPreset = {
+  sort: Array<{ field: 'lastBuiltAt' | 'title' | 'firstLayout'; direction: 'asc' | 'desc' }>;
+  groups: string[];
+};
 
 export interface CollectionQuery {
   id: string;
@@ -47,6 +51,7 @@ export interface CollectionView {
   name: string;
   layout: 'table' | 'gallery' | 'calendar' | 'timeline' | 'chart';
   projection: Record<string, unknown> & {
+    keyboardFilterPresets?: Record<string, KeyboardFilterPreset>;
     archive?: {
       predicate: CollectionPredicate;
       sort: CollectionSort;

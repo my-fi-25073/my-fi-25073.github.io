@@ -13,14 +13,13 @@
   "tunings": [
     {
       "label": "공장 윤활",
-      "rating": 1,
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 65g",
         "status": "partial",
         "specifications": {
-          "initial_force": "25 cN",
-          "actuation_force": "50 cN"
+          "initial_force": "25.5g",
+          "actuation_force": "51g"
         }
       },
       "housingFit": {

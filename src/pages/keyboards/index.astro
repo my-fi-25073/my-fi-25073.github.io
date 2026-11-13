@@ -1,6 +1,5 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveSearch from '../../components/ArchiveSearch.astro';
 import CollectionFilter from '../../components/CollectionFilter.astro';
 import KeyboardCard from '../../components/KeyboardCard.astro';
 import collectionData from '../../data/collections.json';
@@ -11,6 +10,7 @@ import {
   groupsForCollectionView,
   groupsWithCounts,
   recordsForCollectionView,
+  requiredCollectionView,
   type CollectionManifest,
 } from '../../lib/collection-views';
 
@@ -45,6 +45,7 @@ const filterAxes = filterViews.map(({ key, label, viewId }) => ({
 }));
 const filterViewIds = filterViews.map(({ viewId }) => viewId);
 const displayGroups = archiveDisplayGroups(records, manifest, 'keyboard-all');
+const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection.keyboardFilterPresets;
 ---
 
 <SiteLayout title={pageCopy?.['keyboard.title'] ?? '키보드'} description={pageCopy?.['keyboard.description'] ?? undefined}>
@@ -52,23 +53,38 @@ const displayGroups = archiveDisplayGroups(records, manifest, 'keyboard-all');
     <h1 id="keyboard-title">{pageCopy?.['keyboard.title'] ?? '키보드'}</h1>
   </section>
 
-  <div class="archive-tools shell">
-    <CollectionFilter axes={filterAxes} />
-    <ArchiveSearch />
+  <div class="shell">
+    <CollectionFilter axes={filterAxes} total={records.length} presets={presets} />
   </div>
 
-  {displayGroups.map(({ label, records }) => (
-    <section class="archive-section shell" aria-label={label ?? '키보드 목록'} data-archive-group>
-      {label && <div class="section-heading"><h2>{label}</h2></div>}
-      <div class="gallery-grid">
-        {records.map((keyboard) => {
-          const entry = entryBySlug.get(keyboard.slug);
-          if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
-          const groups = groupIdsForRecord(keyboard, manifest, filterViewIds);
-          return <KeyboardCard keyboard={entry.data} groups={groups} headingLevel={label ? 3 : 2} />;
-        })}
-      </div>
-    </section>
-  ))}
-  {records.length === 0 && <p class="shell">조건에 맞는 키보드가 없습니다.</p>}
+  <div class="keyboard-gallery" data-keyboard-gallery>
+    {displayGroups.map(({ label, records }) => (
+      <section class="archive-section shell" aria-label={label ?? '키보드 목록'} data-archive-group>
+        {label && <div class="section-heading"><h2>{label}</h2></div>}
+        <div class="gallery-grid">
+          {records.map((keyboard) => {
+            const entry = entryBySlug.get(keyboard.slug);
+            if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+            const groups = groupIdsForRecord(keyboard, manifest, filterViewIds);
+            return <KeyboardCard keyboard={entry.data} groups={groups} headingLevel={label ? 3 : 2} />;
+          })}
+        </div>
+      </section>
+    ))}
+    <template data-keyboard-preset-section>
+      <section class="archive-section shell" aria-label="키보드 목록">
+        <div class="section-heading" hidden><h2></h2></div>
+        <div class="gallery-grid"></div>
+      </section>
+    </template>
+  </div>
+  <p class="empty-keyboard-list shell" data-keyboard-empty hidden={records.length > 0}>조건에 맞는 키보드가 없습니다.</p>
 </SiteLayout>
+
+<style>
+  .archive-intro { padding-block: clamp(28px, 4.5vw, 60px) clamp(20px, 3vw, 32px); }
+  .keyboard-gallery :global(.gallery-grid) { padding-top: clamp(16px, 2.5vw, 30px); gap: clamp(16px, 2vw, 24px); }
+  .keyboard-gallery :global(.gallery-card-media) { border-bottom: 1px solid var(--color-rule); }
+  .keyboard-gallery :global(.gallery-card-copy) { padding: 14px 16px 16px; }
+  .empty-keyboard-list { margin-top: 24px; color: var(--color-muted); }
+</style>
