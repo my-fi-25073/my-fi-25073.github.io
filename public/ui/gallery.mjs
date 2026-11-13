@@ -1,6 +1,6 @@
 /**
  * @typedef {{src:string,width:number,height:number}} ImageVariant
- * @typedef {{src?:string,url?:string,thumbnailUrl?:string,galleryUrl?:string,frameUrl?:string,srcset?:string,sizes?:string,width?:number,height?:number,alt?:string,presentation?:'icon'|'photo'|'render',mode?:'icon'|'photo'|'render',eager?:boolean,framed?:boolean,preserveColor?:boolean,brandLabel?:string,variants?:ImageVariant[],galleryVariants?:ImageVariant[]}} GalleryImage
+ * @typedef {{src?:string,url?:string,thumbnailUrl?:string,galleryUrl?:string,frameUrl?:string,srcset?:string,sizes?:string,width?:number,height?:number,alt?:string,presentation?:'icon'|'photo'|'render',mode?:'icon'|'photo'|'render',eager?:boolean,framed?:boolean,preserveColor?:boolean,brandLabel?:string,springLabel?:{series:string,force:string},variants?:ImageVariant[],galleryVariants?:ImageVariant[]}} GalleryImage
  * @typedef {{title:string,href?:string,image?:GalleryImage|null,placeholderLogo?:GalleryImage|null,kind?:string,metadata?:Array<{label?:string,value:unknown}>,attributes?:Record<string,unknown>,headingLevel?:number,previewImage?:GalleryImage|null,actions?:Array<{id:string,label:string}>,compact?:boolean,linkAttributes?:Record<string,unknown>}} GalleryCard
  */
 const icons = {
@@ -77,6 +77,7 @@ export function galleryImage(image, kind = 'switch') {
     framed: image.framed === true || Boolean(image.galleryUrl || image.galleryVariants?.length),
     preserveColor: image.preserveColor === true,
     brandLabel: image.brandLabel,
+    springLabel: image.springLabel,
   };
 }
 
@@ -94,8 +95,10 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
   const logo = !src && iconKind(kind) !== 'switch' ? galleryImage(placeholderLogo, 'vendor') : null;
   const logoSrc = safeUrl(logo?.src);
   const logoHtml = logoSrc ? `<img class="kl-placeholder-logo" src="${escapeHtml(logoSrc)}" alt="${escapeHtml(logo.alt)}" loading="lazy" decoding="async"${logo.preserveColor ? ' data-preserve-color="true"' : ''}>` : '';
-  const label = src && value.brandLabel ? `<span class="kl-brand-label">${escapeHtml(value.brandLabel)}</span>` : '';
-  return `<div class="kl-media" data-gallery-kind="${iconKind(kind)}" data-gallery-aspect="${aspect}" style="--kl-media-aspect:${aspect.replace(':', '/')}" data-media-kind="${mode}"${value?.framed ? ' data-preframed="true"' : ''}${value?.preserveColor ? ' data-preserve-color="true"' : ''}${label ? ' data-brand-label="true"' : ''}${src ? '' : ' data-placeholder="true"'} data-placeholder-kind="${iconKind(kind)}">${imageHtml}${src ? label : iconMarkup(kind) + logoHtml}</div>`;
+  const label = src && value.springLabel
+    ? `<div class="kl-spring-label"><span class="kl-spring-series">${escapeHtml(value.springLabel.series)}</span><strong class="kl-spring-force">${escapeHtml(value.springLabel.force)}</strong></div>`
+    : src && value.brandLabel ? `<span class="kl-brand-label">${escapeHtml(value.brandLabel)}</span>` : '';
+  return `<div class="kl-media" data-gallery-kind="${iconKind(kind)}" data-gallery-aspect="${aspect}" style="--kl-media-aspect:${aspect.replace(':', '/')}" data-media-kind="${mode}"${value?.framed ? ' data-preframed="true"' : ''}${value?.preserveColor ? ' data-preserve-color="true"' : ''}${value?.springLabel ? ' data-spring-label="true"' : ''}${label ? ' data-brand-label="true"' : ''}${src ? '' : ' data-placeholder="true"'} data-placeholder-kind="${iconKind(kind)}">${imageHtml}${src ? label : iconMarkup(kind) + logoHtml}</div>`;
 }
 
 /** One card structure for Astro output and the editable Studio gallery.
