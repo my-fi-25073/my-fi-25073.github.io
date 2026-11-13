@@ -68,6 +68,54 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "base-standard-dd997faf42bb",
+      "title": "Base - Standard",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Base - Standard 이미지 1",
+          "variants": [
+            {
+              "src": "/media/norde-beige/kit-dd997faf42bb1c6b-gallery-0-b1afaf1e2a45-640.avif",
+              "width": 591,
+              "height": 422
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base-standard-9efa09db5257",
+      "title": "Base - Standard",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Base - Standard 이미지 1",
+          "variants": [
+            {
+              "src": "/media/norde-beige/kit-9efa09db5257c1a8-gallery-0-d3b02ef78694-640.avif",
+              "width": 427,
+              "height": 347
+            }
+          ]
+        },
+        {
+          "alt": "Base - Standard 이미지 2",
+          "variants": [
+            {
+              "src": "/media/norde-beige/kit-9efa09db5257c1a8-gallery-1-ec38f1a53f43-640.avif",
+              "width": 443,
+              "height": 336
+            }
+          ]
+        }
+      ]
     }
   ],
   "images": [

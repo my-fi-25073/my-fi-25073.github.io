@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "space-cadet",
+  "title": "Space Cadet",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KLP",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base-custom",
+      "title": "Base - Custom",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Base - Custom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-640.avif",
+              "width": 640,
+              "height": 477
+            },
+            {
+              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-1280.avif",
+              "width": 1025,
+              "height": 764
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Space Cadet 이미지 1",
+      "variants": [
+        {
+          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

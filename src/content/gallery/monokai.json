@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "monokai",
+  "title": "Monokai",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KLP",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base-custom",
+      "title": "Base - Custom",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Base - Custom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/monokai/kit-f60f8c5a23e08d2e-gallery-0-c22c6a9b17d6-640.avif",
+              "width": 640,
+              "height": 493
+            },
+            {
+              "src": "/media/monokai/kit-f60f8c5a23e08d2e-gallery-0-c22c6a9b17d6-1280.avif",
+              "width": 1044,
+              "height": 805
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "Monokai 이미지 1",
+      "variants": [
+        {
+          "src": "/media/monokai/series-c547f194c4f76d7a-gallery-0-3acd0bdc2b8b-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/monokai/series-c547f194c4f76d7a-gallery-0-3acd0bdc2b8b-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/monokai/series-c547f194c4f76d7a-gallery-0-3acd0bdc2b8b-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

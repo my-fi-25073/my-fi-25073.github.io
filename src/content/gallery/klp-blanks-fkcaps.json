@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "klp-blanks-fkcaps",
+  "title": "KLP Blanks FKCaps",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KLP",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "blaanks-white",
+      "title": "Blaanks White",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Blaanks White 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-640.avif",
+              "width": 640,
+              "height": 503
+            },
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-1280.avif",
+              "width": 997,
+              "height": 784
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blanks-black",
+      "title": "Blanks Black",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Blanks Black 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-c694c8d1fffbff32-gallery-0-b01087284fc6-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-c694c8d1fffbff32-gallery-0-b01087284fc6-1280.avif",
+              "width": 968,
+              "height": 673
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "KLP Blanks FKCaps 이미지 1",
+      "variants": [
+        {
+          "src": "/media/klp-blanks-fkcaps/series-07eaa9e36626de27-gallery-0-150d26de0d5a-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/klp-blanks-fkcaps/series-07eaa9e36626de27-gallery-0-150d26de0d5a-1280.avif",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "src": "/media/klp-blanks-fkcaps/series-07eaa9e36626de27-gallery-0-150d26de0d5a-2400.avif",
+          "width": 1680,
+          "height": 1680
+        }
+      ]
+    }
+  ]
+}

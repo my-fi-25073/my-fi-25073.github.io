@@ -226,6 +226,30 @@
       ]
     },
     {
+      "slug": "alpha",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alpha 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-640.avif",
+              "width": 640,
+              "height": 466
+            },
+            {
+              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-1280.avif",
+              "width": 755,
+              "height": 550
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "alpha-d6eda6fdbfde",
       "title": "Alpha",
       "kittingTypes": [
@@ -347,6 +371,30 @@
               "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-2400.avif",
               "width": 2048,
               "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base-40s",
+      "title": "Base 40s",
+      "kittingTypes": [
+        "Base - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Base 40s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-1280.avif",
+              "width": 768,
+              "height": 1024
             }
           ]
         }
@@ -531,6 +579,92 @@
               "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-2400.avif",
               "width": 2048,
               "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "space-bar",
+      "title": "Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Space Bar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-c7cb288fece619df-gallery-0-187eaf4be104-640.avif",
+              "width": 431,
+              "height": 344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebar-469dd233d0eb",
+      "title": "SpaceBar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "SpaceBar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebar-ed1c41006e57",
+      "title": "SpaceBar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "SpaceBar 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-ed1c41006e57ad5b-gallery-0-e53134324a2c-640.avif",
+              "width": 438,
+              "height": 347
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "u9-modifier",
+      "title": "U9 Modifier",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "images": [
+        {
+          "alt": "U9 Modifier 이미지 1",
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-640.avif",
+              "width": 640,
+              "height": 478
+            },
+            {
+              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-1280.avif",
+              "width": 671,
+              "height": 501
             }
           ]
         }

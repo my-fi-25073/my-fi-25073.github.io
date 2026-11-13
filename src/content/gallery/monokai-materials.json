@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "monokai-materials",
+  "title": "Monokai Materials",
+  "category": "keycaps",
+  "manufacturer": "GMK",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Double Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": null,
+  "materials": [
+    "ABS"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "modifier-obscure",
+      "title": "Modifier - Obscure",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Modifier - Obscure 이미지 1",
+          "variants": [
+            {
+              "src": "/media/monokai-materials/kit-1e893ead682792ee-gallery-0-85004381d417-640.avif",
+              "width": 640,
+              "height": 730
+            },
+            {
+              "src": "/media/monokai-materials/kit-1e893ead682792ee-gallery-0-85004381d417-1280.avif",
+              "width": 770,
+              "height": 878
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": []
+}

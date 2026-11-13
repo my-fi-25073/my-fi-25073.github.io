@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "smrt",
+  "title": "SMRT",
+  "category": "keycaps",
+  "manufacturer": "SP",
+  "profile": "DCS",
+  "manufacturingProcess": null,
+  "sleeveStatus": null,
+  "createdAt": null,
+  "materials": [],
+  "colors": [],
+  "compatibility": [],
+  "kits": [
+    {
+      "slug": "ergo-kit-33418f7440f6",
+      "title": "Ergo Kit",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "images": [
+        {
+          "alt": "Ergo Kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-1280.avif",
+              "width": 960,
+              "height": 667
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ergo-kit-aa27abd20f31",
+      "title": "Ergo Kit",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "images": [
+        {
+          "alt": "Ergo Kit 이미지 1",
+          "variants": [
+            {
+              "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-640.avif",
+              "width": 640,
+              "height": 474
+            },
+            {
+              "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-1280.avif",
+              "width": 1001,
+              "height": 741
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "SMRT 이미지 1",
+      "variants": [
+        {
+          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-640.avif",
+          "width": 640,
+          "height": 388
+        },
+        {
+          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-1280.avif",
+          "width": 1280,
+          "height": 776
+        },
+        {
+          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-2400.avif",
+          "width": 2048,
+          "height": 1242
+        }
+      ]
+    }
+  ]
+}

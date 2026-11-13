@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "klp-blancks-keycoon",
+  "title": "KLP Blancks Keycoon",
+  "category": "keycaps",
+  "manufacturer": "Others",
+  "profile": "KLP",
+  "manufacturingProcess": "Single Shot",
+  "sleeveStatus": "슬리브 없음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "blanks-black",
+      "title": "Blanks Black",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Blanks Black 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-640.avif",
+              "width": 640,
+              "height": 386
+            },
+            {
+              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-1280.avif",
+              "width": 1160,
+              "height": 699
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blanks-white",
+      "title": "Blanks White",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Blanks White 이미지 1",
+          "variants": [
+            {
+              "src": "/media/klp-blancks-keycoon/kit-817a0a2de0f2726b-gallery-0-ea6fd303aac4-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/klp-blancks-keycoon/kit-817a0a2de0f2726b-gallery-0-ea6fd303aac4-1280.avif",
+              "width": 1110,
+              "height": 772
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "KLP Blancks Keycoon 이미지 1",
+      "variants": [
+        {
+          "src": "/media/klp-blancks-keycoon/series-42cffb93a3404102-gallery-0-436df5cab74a-640.avif",
+          "width": 446,
+          "height": 445
+        }
+      ]
+    }
+  ]
+}

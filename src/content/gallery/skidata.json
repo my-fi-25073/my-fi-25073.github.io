@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "skidata",
+  "title": "SkiData",
+  "category": "keycaps",
+  "manufacturer": "Keyreative",
+  "profile": "KLP",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX",
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base-custom",
+      "title": "Base - Custom",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Base - Custom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/skidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-640.avif",
+              "width": 640,
+              "height": 500
+            },
+            {
+              "src": "/media/skidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-1280.avif",
+              "width": 1027,
+              "height": 803
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "SkiData 이미지 1",
+      "variants": [
+        {
+          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-640.avif",
+          "width": 640,
+          "height": 475
+        },
+        {
+          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-1280.avif",
+          "width": 1280,
+          "height": 950
+        },
+        {
+          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-2400.avif",
+          "width": 1568,
+          "height": 1164
+        }
+      ]
+    }
+  ]
+}

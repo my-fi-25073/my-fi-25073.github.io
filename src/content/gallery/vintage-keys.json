@@ -180,6 +180,55 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "vintage-bottom-fa20097e5ac3",
+      "title": "Vintage Bottom",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Vintage Bottom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-1280.avif",
+              "width": 768,
+              "height": 1024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-2000s",
+      "title": "WoB 2000s",
+      "kittingTypes": [
+        "Child - Extension",
+        "Child - Indicator"
+      ],
+      "images": [
+        {
+          "alt": "WoB 2000s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-67cc1e2f00bba168-gallery-0-557125ce4e7b-640.avif",
+              "width": 640,
+              "height": 495
+            },
+            {
+              "src": "/media/vintage-keys/kit-67cc1e2f00bba168-gallery-0-557125ce4e7b-1280.avif",
+              "width": 1058,
+              "height": 819
+            }
+          ]
+        }
+      ]
     }
   ],
   "images": [
