@@ -491,6 +491,11 @@
       "predicate": {
         "all": [
           {
+            "field": "manufacturer",
+            "operator": "equals",
+            "value": "Keyreative"
+          },
+          {
             "field": "profile",
             "operator": "in",
             "value": [
@@ -498,7 +503,9 @@
               "PBS",
               "KAT",
               "MBK",
-              "URSA"
+              "URSA",
+              "PFF",
+              "KLP"
             ]
           }
         ]
@@ -521,13 +528,15 @@
         "field": "profile",
         "unit": "value",
         "order": [
+          "PFF",
+          "KLP",
           "KAM",
           "PBS",
           "MBK",
           "URSA"
         ]
       },
-      "revision": 2
+      "revision": 3
     },
     {
       "id": "public-keycap-low-profiles",
@@ -571,17 +580,17 @@
         "unit": "value",
         "order": [
           "KLP",
+          "PFF",
           "CLP",
           "MBK",
           "OEM-ULP",
           "CFX",
           "LCK",
           "DOYS",
-          "LAK",
-          "PFF"
+          "LAK"
         ]
       },
-      "revision": 3
+      "revision": 4
     },
     {
       "id": "public-keycap-matt3o",
@@ -1271,7 +1280,7 @@
         ]
       },
       "eligibility": {},
-      "revision": 2
+      "revision": 3
     },
     {
       "id": "keycap-low-profiles",
@@ -1287,7 +1296,7 @@
         ]
       },
       "eligibility": {},
-      "revision": 3
+      "revision": 4
     },
     {
       "id": "keycap-matt3o",

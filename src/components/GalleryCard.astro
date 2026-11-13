@@ -26,6 +26,7 @@ interface Gallery {
   kits: Array<{
     slug: string;
     title: string;
+    images: GalleryImage[];
   }>;
   images: GalleryImage[];
 }
@@ -42,6 +43,15 @@ const cover = gallery.images[0];
 const coverVariants = cover?.variants.toSorted((a, b) => a.width - b.width) ?? [];
 const coverSource = coverVariants[0];
 const coverSrcset = coverVariants.map((item) => `${item.src} ${item.width}w`).join(', ');
+const assetDigest = (path: string) => /-([a-f0-9]{12})-\d+\.(?:avif|webp)$/u.exec(path)?.[1];
+const coverDigest = coverSource && assetDigest(coverSource.src);
+const kitPhotos = gallery.kits.flatMap((kit) => kit.images)
+  .filter(({ variants }) => variants.length && (!coverDigest || assetDigest(variants[0].src) !== coverDigest));
+const kitPhoto = kitPhotos.find(({ variants }) => /-gallery-\d+-/u.test(variants[0].src)
+  && !/-source-gallery-\d+-/u.test(variants[0].src)) ?? kitPhotos[0];
+const kitVariants = kitPhoto?.variants.toSorted((a, b) => a.width - b.width) ?? [];
+const kitSource = kitVariants[0];
+const cardSizes = '(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw';
 const cardKeys = galleryDisplay.homeCard;
 const fields = buildSeriesFields(
   gallery,
@@ -64,12 +74,12 @@ const searchText = [
   data-groups={JSON.stringify(groups)}
 >
   <a class="gallery-card-link" href={`/gallery/${gallery.slug}/`}>
-    <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource }] }>
+    <div class:list={['gallery-card-media', { 'is-placeholder': !coverSource, 'has-kit-preview': kitSource }] }>
       {coverSource ? (
         <img
           src={coverSource.src}
           srcset={coverSrcset}
-          sizes="(min-width: 1440px) 20vw, (min-width: 1200px) 25vw, (min-width: 840px) 33vw, (min-width: 560px) 50vw, 100vw"
+          sizes={cardSizes}
           width={coverSource.width}
           height={coverSource.height}
           alt={cover.alt}
@@ -78,6 +88,14 @@ const searchText = [
         />
       ) : (
         <div class="empty-media" aria-hidden="true"></div>
+      )}
+      {kitSource && (
+        <template data-kit-preview>
+          <img class="kit-preview-photo" src={kitSource.src}
+            srcset={kitVariants.map(({ src, width }) => `${src} ${width}w`).join(', ')}
+            sizes={cardSizes} width={kitSource.width} height={kitSource.height}
+            alt="" decoding="async" />
+        </template>
       )}
     </div>
     <div class="gallery-card-copy">
@@ -88,3 +106,35 @@ const searchText = [
     </div>
   </a>
 </article>
+
+<script>
+  const showKitPhoto = (event: Event) => {
+    if (event instanceof PointerEvent && event.pointerType === 'touch') return;
+    const link = event.target instanceof Element ? event.target.closest('.gallery-card-link') : null;
+    const template = link?.querySelector<HTMLTemplateElement>('template[data-kit-preview]');
+    if (!template) return;
+    const preview = template.content.querySelector('img');
+    if (!preview) return;
+    preview.addEventListener('load', () => { preview.dataset.loaded = ''; }, { once: true });
+    template.replaceWith(preview);
+    if (preview.complete && preview.naturalWidth > 0) preview.dataset.loaded = '';
+  };
+  document.addEventListener('pointerover', showKitPhoto);
+  document.addEventListener('focusin', showKitPhoto);
+</script>
+
+<style>
+  .has-kit-preview { position: relative; }
+  .has-kit-preview .kit-preview-photo {
+    position: absolute;
+    inset: 0;
+    object-fit: contain;
+    background: var(--color-surface);
+    opacity: 0;
+    pointer-events: none;
+  }
+  .gallery-card-link:focus-visible .kit-preview-photo[data-loaded] { opacity: 1; }
+  @media (hover: hover) {
+    .gallery-card-link:hover .kit-preview-photo[data-loaded] { opacity: 1; }
+  }
+</style>

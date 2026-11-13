@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "34aff6f8816a316089d35f0abb1cf4921b9bbe1c35cf774cc30e9e21c55d48ba",
+  "releaseId": "eb70a9bed2d63289d228b22fad742514150479ad81aa555c0ee81805f57772f8",
   "files": [
     {
       "path": "content/collections.json",
-      "bytes": 31996,
-      "sha256": "b6a2e872888ca0fcd90ae7aae4b9f81d9422363b3f7323f9d18ee5d1064145e2"
+      "bytes": 32202,
+      "sha256": "3a4e06e466926bbb927b291c70bc8745c29dd1ef7c9e408f901748f499c3e15f"
     },
     {
       "path": "content/gallery/800.json",
