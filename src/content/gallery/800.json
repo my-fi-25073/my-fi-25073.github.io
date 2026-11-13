@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "800",
-  "title": "GMK MTNU 800",
+  "title": "800",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "MTNU",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "GMK MTNU 800 Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/800/kit-c1a36d7e33e3934d-source-gallery-0-16f234ab9692-640.avif",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "alt": "GMK MTNU 800 Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/800/kit-c1a36d7e33e3934d-source-gallery-1-83fadda5bed4-640.avif",
@@ -74,7 +74,7 @@
       ],
       "images": [
         {
-          "alt": "GMK MTNU 800 Module A 이미지 1",
+          "alt": "Module A 이미지 1",
           "variants": [
             {
               "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-640.avif",
@@ -98,7 +98,7 @@
       ],
       "images": [
         {
-          "alt": "GMK MTNU 800 Module B 이미지 1",
+          "alt": "Module B 이미지 1",
           "variants": [
             {
               "src": "/media/800/kit-226a6157f1f1b8a7-source-gallery-0-021eedeb0c6c-640.avif",
@@ -122,7 +122,7 @@
       ],
       "images": [
         {
-          "alt": "GMK MTNU 800 Module C 이미지 1",
+          "alt": "Module C 이미지 1",
           "variants": [
             {
               "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-640.avif",
@@ -141,7 +141,7 @@
   ],
   "images": [
     {
-      "alt": "GMK MTNU 800 이미지 1",
+      "alt": "800 이미지 1",
       "variants": [
         {
           "src": "/media/800/series-990e036f9465bd8d-source-gallery-0-e1f78fefd02a-640.avif",

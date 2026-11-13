@@ -6,10 +6,9 @@ import {
   groupIdsForRecord,
   groupsWithCounts,
   recordsForCollectionView,
+  recordsGroupedByField,
   type CollectionManifest,
 } from '../lib/collection-views';
-import ArchiveSearch from './ArchiveSearch.astro';
-import ArchiveViewTabs from './ArchiveViewTabs.astro';
 import DomainRecordCard from './DomainRecordCard.astro';
 
 interface Props {
@@ -18,185 +17,215 @@ interface Props {
 
 const { records } = Astro.props;
 const manifest = collectionData as CollectionManifest;
-const pageCopy = manifest.copy;
 const products = records.map((entry) => entry.data);
 const switches = recordsForCollectionView(products, manifest, 'switch-manufacturers');
 const franken = recordsForCollectionView(products, manifest, 'switch-franken');
 const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
 const frankenGroups = archiveDisplayGroups(franken, manifest, 'switch-franken');
 const makerGroups = groupsWithCounts(switches, manifest, ['switch-manufacturers']);
+const footprintGroups = recordsGroupedByField(switches, 'footprintType', [], 'asc');
+const browsingViews = [
+  {
+    id: 'switches',
+    label: '제조사별',
+    facetLabel: '제조사',
+    parameter: 'maker',
+    options: makerGroups,
+    groups: switchGroups,
+    membership: (record: typeof switches[number]) => groupIdsForRecord(record, manifest, ['switch-manufacturers']),
+  },
+  {
+    id: 'footprints',
+    label: '규격별',
+    facetLabel: '규격',
+    parameter: 'footprint',
+    options: footprintGroups.flatMap(({ label, records }) => label ? [{ id: label, label, count: records.length }] : []),
+    groups: footprintGroups,
+    membership: (record: typeof switches[number]) => record.footprintType ? [record.footprintType] : [],
+  },
+];
+const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
 ---
 
-<section class="archive-intro shell" aria-labelledby="switch-title">
-  <h1 id="switch-title">{pageCopy?.['switch.title'] ?? '스위치'}</h1>
-</section>
+<div class="shell archive-catalog-shell">
+  <header class="archive-catalog-heading">
+    <h1 lang="en">Switch</h1>
+    <div class="filter-search" role="search">
+      <label class="visually-hidden" for="switch-search">스위치 검색</label>
+      <input id="switch-search" type="search" placeholder="스위치 검색" autocomplete="off" />
+    </div>
+  </header>
 
-<div class="archive-tools shell">
-  <ArchiveViewTabs
-    id="switch"
-    label="스위치 보기"
-    parameter="view"
-    views={[{ id: 'switches', label: '스위치' }, { id: 'franken', label: '프랑켄' }]}
-  />
-  <ArchiveSearch />
-</div>
-
-<div class="archive-sections">
-  <section id="switch-panel-switches" class="archive-section shell" role="tabpanel" aria-labelledby="switch-tab-switches">
-    <div class="switch-filters" data-switch-filters>
-      <fieldset>
-        <legend>제조사</legend>
-        <div class="switch-filter-options">
-          {[{ id: '', label: '전체' }, ...makerGroups].map((group) => (
-            <label>
-              <input
-                class="visually-hidden"
-                type="radio"
-                name="maker"
-                value={group.id}
-                checked={group.id === ''}
-              />
+  <div class="archive-catalog-layout">
+    <details class="archive-catalog-sidebar switch-sidebar" open>
+      <summary>분류</summary>
+      <fieldset class="filter-axis">
+        <legend>보기</legend>
+        {viewTabs.map(({ id, label }, index) => (
+          <label class="filter-option">
+            <input type="radio" name="switch-view" value={id} checked={index === 0} />
+            <span>{label}</span>
+          </label>
+        ))}
+      </fieldset>
+      {browsingViews.map(({ id, facetLabel, parameter, options }, index) => (
+        <fieldset class="filter-axis" data-switch-facet={id} hidden={index > 0}>
+          <legend>{facetLabel}</legend>
+          {[{ id: '', label: 'All', count: switches.length }, ...options].map((group) => (
+            <label class="filter-option">
+              <input type="radio" name={parameter} value={group.id} checked={group.id === ''} />
               <span>{group.label}</span>
+              <small aria-hidden="true">{group.count}</small>
             </label>
           ))}
-        </div>
-      </fieldset>
-    </div>
-    <p class="visually-hidden" role="status" data-switch-result-count></p>
-    <p data-switch-empty hidden>조건에 맞는 스위치가 없습니다.</p>
-    {switchGroups.map(({ label, records }) => (
-      <section class="archive-section" aria-label={label ?? '스위치 목록'} data-archive-group>
-        {label && <div class="section-heading"><h2>{label}</h2></div>}
-        <div class="gallery-grid archive-section-grid">
-          {records.map((record) => (
-            <DomainRecordCard
-              record={record}
-              headingLevel={label ? 3 : 2}
-              groups={groupIdsForRecord(record, manifest, ['switch-manufacturers'])}
-            />
+        </fieldset>
+      ))}
+    </details>
+    <section class="archive-catalog-main archive-catalog-gallery" aria-label="스위치 목록">
+      <p class="result-count" aria-live="polite" aria-atomic="true"><span data-switch-result-count>{switches.length}</span>개 스위치</p>
+      {[...browsingViews, {
+        id: 'franken',
+        parameter: undefined,
+        groups: frankenGroups,
+        membership: () => [],
+      }].map(({ id, parameter, groups, membership }, index) => (
+        <div data-switch-panel={id} data-switch-parameter={parameter} hidden={index > 0}>
+          <p data-switch-empty hidden={(id === 'franken' ? franken : switches).length > 0}>
+            {id === 'franken' ? '조건에 맞는 프랑켄 스위치가 없습니다.' : '조건에 맞는 스위치가 없습니다.'}
+          </p>
+          {groups.map(({ label, records }) => (
+            <section class="archive-section" aria-label={label ?? '스위치 목록'} data-archive-group>
+              {label && <div class="section-heading"><h2>{label}</h2></div>}
+              <div class="gallery-grid">
+                {records.map((record) => (
+                  <DomainRecordCard record={record} headingLevel={label ? 3 : 2} groups={membership(record)} />
+                ))}
+              </div>
+            </section>
           ))}
         </div>
-      </section>
-    ))}
-  </section>
-
-  <section id="switch-panel-franken" class="archive-section shell" role="tabpanel" aria-labelledby="switch-tab-franken" hidden>
-    {frankenGroups.map(({ label, records }) => (
-      <section class="archive-section" aria-label={label ?? '프랑켄 스위치 목록'} data-archive-group>
-        {label && <div class="section-heading"><h2>{label}</h2></div>}
-        <div class="gallery-grid archive-section-grid">
-          {records.map((record) => <DomainRecordCard record={record} headingLevel={label ? 3 : 2} />)}
-        </div>
-      </section>
-    ))}
-    {franken.length === 0 && <p>조건에 맞는 프랑켄 스위치가 없습니다.</p>}
-  </section>
+      ))}
+    </section>
+  </div>
 </div>
 
 <script>
-  const filters = document.querySelector<HTMLElement>('[data-switch-filters]');
-  const panel = document.getElementById('switch-panel-switches');
-  if (filters && panel) {
-    const makers = [...filters.querySelectorAll<HTMLInputElement>('input[name="maker"]')];
-    const cards = [...panel.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
-      card,
-      href: card.querySelector('a')!.href,
-      groups: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
-    }));
-    const count = panel.querySelector('[data-switch-result-count]');
-    const empty = panel.querySelector<HTMLElement>('[data-switch-empty]');
-    const showResultCount = () => {
-      const visible = new Set(cards.filter(({ card }) => !card.hidden).map(({ href }) => href)).size;
-      if (count) count.textContent = `${visible}개 스위치`;
-      if (empty) empty.hidden = visible !== 0;
+  const search = document.querySelector<HTMLInputElement>('#switch-search');
+  const count = document.querySelector<HTMLElement>('[data-switch-result-count]');
+  const sidebar = document.querySelector<HTMLDetailsElement>('.switch-sidebar');
+  const mode = [...(sidebar?.querySelectorAll<HTMLInputElement>('input[name="switch-view"]') ?? [])];
+  const views = [...document.querySelectorAll<HTMLElement>('[data-switch-panel]')].map((panel) => {
+    const id = panel.dataset.switchPanel!;
+    const facet = sidebar?.querySelector<HTMLElement>(`[data-switch-facet="${id}"]`);
+    return {
+      id,
+      panel,
+      facet,
+      parameter: panel.dataset.switchParameter,
+      options: [...(facet?.querySelectorAll<HTMLInputElement>('input[type="radio"]') ?? [])],
+      empty: panel.querySelector<HTMLElement>('[data-switch-empty]')!,
+      groups: [...panel.querySelectorAll<HTMLElement>('[data-archive-group]')].map((section) => ({
+        section,
+        cards: [...section.querySelectorAll<HTMLElement>('[data-archive-card]')].map((card) => ({
+          card,
+          href: card.querySelector('a')!.href,
+          searchText: card.dataset.search ?? '',
+          membership: new Set<string>(JSON.parse(card.dataset.groups ?? '[]')),
+        })),
+      })),
     };
-    const apply = (updateUrl = false) => {
-      const maker = makers.find((input) => input.checked)?.value ?? '';
-      for (const { card, groups: membership } of cards) {
-        card.dataset.groupMatch = String(!maker || membership.has(maker));
+  });
+
+  function apply() {
+    const active = mode.find((input) => input.checked)?.value;
+    const view = views.find(({ id }) => id === active);
+    if (!view || !search || !count) return;
+    for (const entry of views) {
+      entry.panel.hidden = entry !== view;
+      if (entry.facet) entry.facet.hidden = entry !== view;
+    }
+    const query = search.value.trim().toLocaleLowerCase('ko');
+    const selected = view.options.find((input) => input.checked)?.value ?? '';
+    const visible = new Set<string>();
+    for (const { section, cards } of view.groups) {
+      let hasMatch = false;
+      for (const { card, href, searchText, membership } of cards) {
+        const matches = (!query || searchText.includes(query)) && (!selected || membership.has(selected));
+        card.hidden = !matches;
+        if (!matches) continue;
+        hasMatch = true;
+        visible.add(href);
       }
-      if (updateUrl) {
-        const url = new URL(window.location.href);
-        url.searchParams.delete('collection');
-        url.searchParams.delete('rating');
-        if (maker) url.searchParams.set('maker', maker);
-        else url.searchParams.delete('maker');
-        window.history.replaceState(null, '', url);
-      }
-      window.dispatchEvent(new CustomEvent('keylog:group-filter'));
-      requestAnimationFrame(showResultCount);
-    };
-    const fromLocation = () => {
-      const params = new URLSearchParams(window.location.search);
-      const requested = params.get('maker') ?? params.get('collection');
-      const input = makers.find((candidate) => candidate.value === requested) ?? makers[0];
-      if (input) input.checked = true;
-      apply();
-    };
-    filters.addEventListener('change', () => apply(true));
-    document.querySelector('[data-archive-search]')?.addEventListener('input', () => {
-      requestAnimationFrame(showResultCount);
-    });
-    window.addEventListener('popstate', fromLocation);
-    fromLocation();
+      section.hidden = !hasMatch;
+    }
+    count.textContent = String(visible.size);
+    view.empty.hidden = visible.size !== 0;
   }
+
+  function fromLocation() {
+    const params = new URLSearchParams(window.location.search);
+    const selectedMode = mode.find((input) => input.value === params.get('view')) ?? mode[0];
+    if (selectedMode) selectedMode.checked = true;
+    for (const { parameter, options } of views) {
+      if (!parameter) continue;
+      const requested = params.get(parameter) ?? (parameter === 'maker' ? params.get('collection') : null);
+      const input = options.find((candidate) => candidate.value === requested) ?? options[0];
+      if (input) input.checked = true;
+    }
+    apply();
+  }
+
+  sidebar?.addEventListener('change', (event) => {
+    if (!(event.target instanceof HTMLInputElement) || event.target.type !== 'radio') return;
+    const { name, value } = event.target;
+    const url = new URL(window.location.href);
+    url.searchParams.delete('rating');
+    if (name === 'switch-view') {
+      if (value === 'switches') url.searchParams.delete('view');
+      else url.searchParams.set('view', value);
+      if (url.href !== window.location.href) window.history.pushState(null, '', url);
+    } else {
+      if (name === 'maker') url.searchParams.delete('collection');
+      if (value) url.searchParams.set(name, value);
+      else url.searchParams.delete(name);
+      window.history.replaceState(null, '', url);
+    }
+    apply();
+  });
+  search?.addEventListener('input', apply);
+  window.addEventListener('popstate', fromLocation);
+  fromLocation();
 </script>
 
 <style>
-  .archive-tools {
-    column-gap: 24px;
+  .result-count { margin: 0; min-height: 38px; padding-top: 5px; color: var(--color-muted); font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; }
+  .filter-search { position: relative; flex: 0 1 232px; width: min(100%, 232px); }
+  .filter-search::before { position: absolute; inset: 13px auto auto 6px; width: 12px; height: 12px; border: 1.5px solid var(--color-muted); border-radius: 50%; pointer-events: none; content: ''; }
+  .filter-search::after { position: absolute; inset: 26px auto auto 18px; width: 6px; height: 1.5px; background: var(--color-muted); pointer-events: none; transform: rotate(45deg); content: ''; }
+  .filter-search input { width: 100%; min-height: 44px; padding: 0 4px 0 33px; border: 0; border-bottom: 1px solid var(--color-rule); border-radius: 0; background: transparent; color: var(--color-text); font-size: 16px; }
+  .filter-search input::placeholder { color: var(--color-muted); }
+  .filter-search input:focus-visible { outline-offset: -1px; }
+  .switch-sidebar summary { display: none; }
+  .filter-axis { min-width: 0; margin: 0 0 18px; padding: 0 0 12px; border: 0; border-bottom: 1px solid var(--color-rule); }
+  .filter-axis legend { margin-bottom: 4px; padding: 0; font-size: 13px; font-weight: 680; }
+  .filter-option { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; align-items: center; min-height: 36px; padding: 3px 4px 3px 11px; color: var(--color-muted); cursor: pointer; font-size: 13px; }
+  .filter-option::before { position: absolute; inset: 9px auto 9px 0; width: 2px; background: transparent; content: ''; }
+  .filter-option:has(input:checked)::before { background: var(--color-text); }
+  .filter-option:has(input:checked), .filter-option:hover { color: var(--color-text); }
+  .filter-option:has(input:checked) { font-weight: 670; }
+  .filter-option:has(input:focus-visible) { outline: 2px solid var(--color-focus); outline-offset: -2px; }
+  .filter-option input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+  .filter-option small { color: var(--color-muted); font-size: 11px; font-weight: 400; font-variant-numeric: tabular-nums; }
+  [data-switch-empty] { margin-top: 24px; color: var(--color-muted); }
+
+  @media (max-width: 660px) {
+    .switch-sidebar summary { display: flex; align-items: center; justify-content: space-between; min-height: 42px; margin-bottom: 14px; border-bottom: 1px solid var(--color-rule); cursor: pointer; font-size: 14px; font-weight: 650; }
+    .switch-sidebar summary::after { content: '+'; font-size: 19px; font-weight: 400; }
+    .switch-sidebar[open] summary::after { content: '−'; }
+    .filter-option { min-height: 44px; }
   }
 
-  .switch-filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px 24px;
-    padding-block: 16px 4px;
-  }
-
-  fieldset {
-    min-inline-size: 0;
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-
-  legend {
-    margin-block-end: 4px;
-    color: var(--color-muted);
-    font-size: 13px;
-  }
-
-  .switch-filter-options {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-  }
-
-  label {
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    padding-inline: 8px;
-    border: 1px solid transparent;
-    border-radius: var(--radius-card);
-    color: var(--color-text);
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  label:hover {
-    border-color: var(--color-rule);
-  }
-
-  label:has(input:checked) {
-    border-color: var(--color-text);
-    background: var(--color-text);
-    color: var(--color-panel);
-  }
-
-  label:has(input:focus-visible) {
-    outline: 3px solid var(--color-focus);
-    outline-offset: 2px;
+  @media (max-width: 440px) {
+    .filter-search { flex-basis: auto; width: 100%; }
   }
 </style>

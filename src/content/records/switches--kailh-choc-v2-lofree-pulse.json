@@ -57,12 +57,91 @@
               "height": 1220
             }
           ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Pulse 사진 2",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-640.avif",
+              "width": 640,
+              "height": 410
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-1280.avif",
+              "width": 1182,
+              "height": 758
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Stock",
+      "spring": {
+        "resolution": "unknown",
+        "name": null,
+        "status": null
+      },
+      "isFactoryConfiguration": true,
+      "switchSpecifications": {
+        "actuationForce": "40g ± 10g",
+        "actuationTravel": "1.6mm ± 0.3mm",
+        "totalTravel": "2.8mm ± 0.25mm",
+        "springLength": "15.5mm",
+        "durabilityCycles": 50000000,
+        "factoryLubed": true
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "unknown",
+          "name": null
+        },
+        "stem": {
+          "state": "unknown",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Kailh Choc v2 Lofree Pulse 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
         }
       ]
     }
   ],
   "parts": [],
   "images": [
+    {
+      "alt": "Kailh Choc v2 Lofree Pulse 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-1280.avif",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
     {
       "alt": "Kailh Choc v2 Lofree Pulse 사진 1",
       "variants": [
@@ -80,6 +159,21 @@
           "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-2400.avif",
           "width": 1342,
           "height": 1220
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Pulse 사진 2",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-640.avif",
+          "width": 640,
+          "height": 410
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-1280.avif",
+          "width": 1182,
+          "height": 758
         }
       ]
     }

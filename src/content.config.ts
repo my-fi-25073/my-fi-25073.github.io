@@ -22,6 +22,7 @@ const gallery = defineCollection({
     slug: z.string().min(1),
     title: z.string().min(1),
     category: z.literal('keycaps'),
+    hideFromArchive: z.literal(true).optional(),
     manufacturer: z.string().nullable(),
     profile: z.string().nullable(),
     manufacturingProcess: z.string().nullable(),
@@ -95,6 +96,15 @@ const records = defineCollection({
       isFranken: z.boolean(),
       tunings: z.array(z.object({
         label: z.string().min(1),
+        isFactoryConfiguration: z.literal(true).optional(),
+        switchSpecifications: z.object({
+          actuationForce: z.string().min(1).optional(),
+          actuationTravel: z.string().min(1).optional(),
+          totalTravel: z.string().min(1).optional(),
+          springLength: z.string().min(1).optional(),
+          durabilityCycles: z.number().int().positive().optional(),
+          factoryLubed: z.boolean().optional(),
+        }).optional(),
         spring: z.object({
           resolution: z.enum(['selected', 'stock_unresolved', 'unknown']),
           name: z.string().nullable(),

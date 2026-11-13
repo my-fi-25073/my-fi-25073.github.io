@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "hiney-beige",
-  "title": "GMK CYL Hiney Beige",
+  "title": "Hiney Beige ",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Hiney Beige Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-0-a8ede7bae8ec-640.avif",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Hiney Beige Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/hiney-beige/kit-0262b84bca181b32-source-gallery-1-0fada28a92a9-640.avif",
@@ -71,7 +71,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Hiney Beige 이미지 1",
+      "alt": "Hiney Beige  이미지 1",
       "variants": [
         {
           "src": "/media/hiney-beige/series-683af9ef88cdcc39-source-gallery-0-91e4439c6809-640.avif",

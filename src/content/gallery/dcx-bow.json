@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dcx-bow",
-  "title": "Drop BoW",
+  "title": "DCX BoW",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "DCX",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop BoW Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-0-0fb2f4c70c97-640.avif",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "alt": "Drop BoW Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/dcx-bow/kit-d44775a5d38cc40c-source-gallery-1-092d09418372-640.avif",
@@ -69,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "Drop BoW 이미지 1",
+      "alt": "DCX BoW 이미지 1",
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-gallery-0-e3c193c4debc-640.avif",
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "alt": "Drop BoW 이미지 1",
+      "alt": "DCX BoW 이미지 1",
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-0-2b230d3d11fa-640.avif",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "alt": "Drop BoW 이미지 2",
+      "alt": "DCX BoW 이미지 2",
       "variants": [
         {
           "src": "/media/dcx-bow/series-df2026d23c07de6d-source-body-1-a617f76304b8-640.avif",

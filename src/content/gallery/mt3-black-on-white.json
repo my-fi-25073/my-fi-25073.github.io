@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mt3-black-on-white",
-  "title": "Drop Black-on-White",
+  "title": "MT3 Black-on-White",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Black-on-White Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-black-on-white/kit-c5397eab42a5a7d7-source-gallery-0-518d79b96e2c-640.avif",
@@ -44,7 +44,7 @@
   ],
   "images": [
     {
-      "alt": "Drop Black-on-White 이미지 1",
+      "alt": "MT3 Black-on-White 이미지 1",
       "variants": [
         {
           "src": "/media/mt3-black-on-white/series-8b728b1e353fc394-source-gallery-0-4902c8937db6-640.avif",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "alt": "Drop Black-on-White 이미지 2",
+      "alt": "MT3 Black-on-White 이미지 2",
       "variants": [
         {
           "src": "/media/mt3-black-on-white/series-8b728b1e353fc394-source-gallery-1-f5264005c2d6-640.avif",

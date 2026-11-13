@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "relegendables",
-  "title": "GMK CYL Relegendables+",
+  "title": "Relegendables+",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Relegendables+ L9 Relegendables 이미지 1",
+          "alt": "L9 Relegendables 이미지 1",
           "variants": [
             {
               "src": "/media/relegendables/kit-f8ada7f955a8382d-source-gallery-0-d8a49f244e85-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Relegendables+ U9 Front Print 이미지 1",
+          "alt": "U9 Front Print 이미지 1",
           "variants": [
             {
               "src": "/media/relegendables/kit-f1befafaa6e350db-source-gallery-0-e964e77cb4b7-640.avif",
@@ -85,7 +85,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Relegendables+ U9 Relegendables 이미지 1",
+          "alt": "U9 Relegendables 이미지 1",
           "variants": [
             {
               "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-640.avif",
@@ -109,7 +109,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Relegendables+ 이미지 1",
+      "alt": "Relegendables+ 이미지 1",
       "variants": [
         {
           "src": "/media/relegendables/series-807eaa2a7bac0860-source-gallery-0-8c54884f654f-640.avif",

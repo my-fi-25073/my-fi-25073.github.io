@@ -16,28 +16,22 @@ interface FilterAxis {
 
 interface Props {
   axes: FilterAxis[];
-  total: number;
   presets?: Record<string, KeyboardFilterPreset>;
 }
 
-const { axes, total, presets = {} } = Astro.props;
+const { axes, presets = {} } = Astro.props;
 ---
 
-<div class="keyboard-filters" data-keyboard-filters data-presets={JSON.stringify(presets)}>
-  <div class="filter-header">
-    <p class="result-count" aria-live="polite" aria-atomic="true"><span data-result-count>{total}</span>개 빌드</p>
-    <div class="filter-search" role="search">
-      <label class="visually-hidden" for="keyboard-search">키보드 검색</label>
-      <input id="keyboard-search" type="search" placeholder="키보드 검색" autocomplete="off" />
-    </div>
-  </div>
+<details class="keyboard-filters" data-keyboard-filters data-presets={JSON.stringify(presets)} open>
+  <summary>분류</summary>
+  <div class="filter-axes">
   {axes.map((axis) => (
     <fieldset class="filter-axis">
       <legend>{axis.label}</legend>
       <div class="filter-options">
         <label class="filter-option">
           <input type="radio" name={axis.key} value="" checked />
-          <span>전체</span>
+          <span>All</span>
         </label>
         {axis.groups.map((group) => (
           <label class="filter-option">
@@ -48,19 +42,24 @@ const { axes, total, presets = {} } = Astro.props;
       </div>
     </fieldset>
   ))}
-</div>
+  </div>
+</details>
 
 <script>
   import type { KeyboardFilterPreset } from '../lib/collection-views';
 
   const root = document.querySelector<HTMLElement>('[data-keyboard-filters]');
-  const search = root?.querySelector<HTMLInputElement>('#keyboard-search');
-  const total = root?.querySelector<HTMLElement>('[data-result-count]');
+  const search = document.querySelector<HTMLInputElement>('#keyboard-search');
+  const total = document.querySelector<HTMLElement>('[data-result-count]');
   const empty = document.querySelector<HTMLElement>('[data-keyboard-empty]');
   const gallery = document.querySelector<HTMLElement>('[data-keyboard-gallery]');
   const sectionTemplate = gallery?.querySelector<HTMLTemplateElement>('[data-keyboard-preset-section]');
 
   if (root && search && total && empty && gallery && sectionTemplate) {
+    const smallScreen = matchMedia('(max-width: 660px)');
+    const setFilterDisclosure = () => root.toggleAttribute('open', !smallScreen.matches);
+    setFilterDisclosure();
+    smallScreen.addEventListener('change', setFilterDisclosure);
     const presets: Record<string, KeyboardFilterPreset> = JSON.parse(root.dataset.presets ?? '{}');
     const axes = [...root.querySelectorAll('fieldset')].map((field) => (
       [...field.querySelectorAll<HTMLInputElement>('input[type="radio"]')]
@@ -189,32 +188,42 @@ const { axes, total, presets = {} } = Astro.props;
 </script>
 
 <style>
-  .keyboard-filters { border-block: 1px solid var(--color-rule); }
-  .filter-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 24px; padding-block: 3px; border-bottom: 1px solid var(--color-rule); }
-  .result-count { margin: 0; color: var(--color-muted); font-size: 13px; }
-  .result-count span { color: var(--color-text); font-weight: 650; font-variant-numeric: tabular-nums; }
-  .filter-search { position: relative; width: min(100%, 220px); }
-  .filter-search::before { position: absolute; inset: 13px auto auto 2px; width: 12px; height: 12px; border: 1.5px solid var(--color-muted); border-radius: 50%; pointer-events: none; content: ''; }
-  .filter-search::after { position: absolute; inset: 26px auto auto 14px; width: 6px; height: 1.5px; background: var(--color-muted); pointer-events: none; transform: rotate(45deg); content: ''; }
-  .filter-search input { width: 100%; min-height: 44px; padding: 0 4px 0 29px; border: 0; border-radius: 0; background: transparent; color: var(--color-text); font-size: 16px; }
-  .filter-search input::placeholder { color: var(--color-muted); }
-  .filter-search input:focus-visible { outline-offset: -1px; }
-  .filter-axis { position: relative; min-width: 0; margin: 0; padding: 4px 0 4px 64px; border: 0; }
-  .filter-axis + .filter-axis { border-top: 1px solid color-mix(in srgb, var(--color-rule) 55%, transparent); }
-  .filter-axis legend { position: absolute; top: 18px; left: 0; padding: 0; color: var(--color-muted); font-size: 13px; font-weight: 600; line-height: 18px; }
-  .filter-options { display: flex; flex-wrap: wrap; align-items: center; gap: 0 8px; }
-  .filter-option { position: relative; display: inline-grid; min-height: 44px; align-items: center; cursor: pointer; }
+  summary { display: none; }
+  .filter-axis {
+    min-width: 0;
+    margin: 0 0 18px;
+    padding: 0 0 12px;
+    border: 0;
+    border-bottom: 1px solid var(--color-rule);
+  }
+  .filter-axis legend { margin-bottom: 4px; padding: 0; font-size: 13px; font-weight: 680; }
+  .filter-option {
+    position: relative;
+    display: grid;
+    align-items: center;
+    min-height: 36px;
+    padding: 3px 4px 3px 11px;
+    color: var(--color-muted);
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .filter-option span { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
+  .filter-option small { font-size: 11px; font-weight: 400; font-variant-numeric: tabular-nums; }
   .filter-option input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
-  .filter-option span { display: inline-flex; min-height: 32px; align-items: center; gap: 6px; padding: 4px 9px; border-radius: 3px; color: var(--color-muted); font-size: 14px; line-height: 1.35; }
-  .filter-option small { color: inherit; font-size: 11px; font-variant-numeric: tabular-nums; }
-  .filter-option:hover span { background: var(--color-surface); color: var(--color-text); }
-  .filter-option input:checked + span { background: var(--color-text); color: var(--color-panel); }
-  .filter-option input:focus-visible + span { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+  .filter-option:has(input:checked), .filter-option:hover { color: var(--color-text); }
+  .filter-option:has(input:checked) { font-weight: 670; }
+  .filter-option:has(input:checked)::before {
+    position: absolute;
+    inset: 9px auto 9px 0;
+    width: 2px;
+    background: #4d382a;
+    content: '';
+  }
+  .filter-option:has(input:focus-visible) { outline: 2px solid var(--color-focus); outline-offset: -2px; }
 
-  @media (max-width: 480px) {
-    .filter-axis { padding-left: 38px; }
-    .filter-options { gap: 0 3px; }
-    .filter-option span { gap: 4px; padding-inline: 6px; font-size: 13px; }
-    .filter-search { width: min(58%, 220px); }
+  @media (max-width: 660px) {
+    summary { display: list-item; min-height: 44px; padding-block: 10px; border-bottom: 1px solid var(--color-rule); cursor: pointer; }
+    .filter-axes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding-top: 15px; }
+    .filter-option { min-height: 44px; padding-inline-start: 7px; }
   }
 </style>

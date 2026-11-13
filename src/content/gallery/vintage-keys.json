@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "vintage-keys",
-  "title": "GMK CYL Vintage Keys",
+  "title": "Vintage Keys",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -28,7 +28,22 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Vintage Keys Beige 2000s 이미지 1",
+          "alt": "Beige 2000s 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-d8325b2797c791e0-gallery-0-0078baa7f9b1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-d8325b2797c791e0-gallery-0-0078baa7f9b1-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Beige 2000s 이미지 1",
           "variants": [
             {
               "src": "/media/vintage-keys/kit-d8325b2797c791e0-source-gallery-0-4d261a821eff-640.avif",
@@ -57,7 +72,22 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Vintage Keys Dimple 이미지 1",
+          "alt": "Dimple 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-658b4a2fb909972b-gallery-0-04781d88f366-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-658b4a2fb909972b-gallery-0-04781d88f366-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Dimple 이미지 1",
           "variants": [
             {
               "src": "/media/vintage-keys/kit-658b4a2fb909972b-source-gallery-0-9a10ad26ced4-640.avif",
@@ -81,7 +111,22 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Vintage Keys Snack Pack 이미지 1",
+          "alt": "Snack Pack 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Snack Pack 이미지 1",
           "variants": [
             {
               "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-640.avif",
@@ -105,7 +150,22 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Vintage Keys Vintage Bottom 이미지 1",
+          "alt": "Vintage Bottom 이미지 1",
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Vintage Bottom 이미지 1",
           "variants": [
             {
               "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-640.avif",
@@ -124,7 +184,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Vintage Keys 이미지 1",
+      "alt": "Vintage Keys 이미지 1",
       "variants": [
         {
           "src": "/media/vintage-keys/series-c270390d6f5e3f1f-source-gallery-0-1725ecd41f40-640.avif",

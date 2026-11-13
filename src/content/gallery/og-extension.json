@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "og-extension",
-  "title": "GMK CYL OG Extension",
+  "title": "OG Extension",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL OG Extension Beige OG R4 Extension 이미지 1",
+          "alt": "Beige OG R4 Extension 이미지 1",
           "variants": [
             {
               "src": "/media/og-extension/kit-9d7b1529d6add123-source-gallery-0-ab78e5f3e082-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL OG Extension Beige XT Extension 이미지 1",
+          "alt": "Beige XT Extension 이미지 1",
           "variants": [
             {
               "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-0-400e558d8150-640.avif",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "alt": "GMK CYL OG Extension Beige XT Extension 이미지 2",
+          "alt": "Beige XT Extension 이미지 2",
           "variants": [
             {
               "src": "/media/og-extension/kit-06ae2270427c5314-source-gallery-1-b59b4ce335ff-640.avif",
@@ -100,7 +100,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL OG Extension 이미지 1",
+      "alt": "OG Extension 이미지 1",
       "variants": [
         {
           "src": "/media/og-extension/series-8e5b555d222b0b30-source-gallery-0-c4d164c1a098-640.avif",

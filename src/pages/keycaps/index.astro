@@ -4,7 +4,6 @@ import ArchiveViewTabs from '../../components/ArchiveViewTabs.astro';
 import GalleryCard from '../../components/GalleryCard.astro';
 import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
-import { keycapProfileLabel } from '../../lib/gallery-display';
 import {
   keycapArchiveViews,
   recordsForCollectionView,
@@ -14,7 +13,7 @@ import {
 
 const manifest = collectionData as CollectionManifest;
 const pageCopy = manifest.copy;
-const entries = (await getCollection('gallery')).map((entry) => entry.data);
+const entries = (await getCollection('gallery', ({ data }) => !data.hideFromArchive)).map((entry) => entry.data);
 const titleCounts = new Map<string, number>();
 for (const entry of entries) {
   titleCounts.set(entry.title, (titleCounts.get(entry.title) ?? 0) + 1);
@@ -35,16 +34,14 @@ const keycapViews = [
     return {
       id,
       label,
+      aliases: id === 'keyreative' ? ['fkcaps'] : undefined,
       count: records.length,
-      groups: groups.map((group) => ({
-        ...group,
-        label: group.label && groupField === 'profile' ? keycapProfileLabel(group.label) : group.label,
-      })),
+      groups,
     };
   }),
   {
     id: 'all',
-    label: '전체',
+    label: 'All',
     count: entries.length,
     groups: [{ label: null, records: recordsForCollectionView(entries, manifest, 'keycap-collections') }],
   },
@@ -52,58 +49,119 @@ const keycapViews = [
 ---
 
 <SiteLayout title={pageCopy?.['keycap.title'] ?? '키캡'} description={pageCopy?.['keycap.description'] ?? undefined}>
-  <section class="archive-intro shell" aria-labelledby="keycap-title">
-    <h1 id="keycap-title">{pageCopy?.['keycap.title'] ?? '키캡'}</h1>
-  </section>
+  <div class="shell archive-catalog-shell">
+    <section class="archive-catalog-heading" aria-labelledby="keycap-title">
+      <h1 id="keycap-title" lang="en">Keycap</h1>
+    </section>
+    <div class="archive-catalog-layout">
+      <details class="keycap-collections archive-catalog-sidebar" data-keycap-collections open>
+        <summary>컬렉션</summary>
+        <div class="keycap-filter-bar">
+          <p aria-hidden="true">컬렉션</p>
+          <ArchiveViewTabs id="keycap" label="키캡 보기" parameter="collection" views={keycapViews} orientation="vertical" />
+        </div>
+      </details>
 
-  <div class="shell">
-    <ArchiveViewTabs id="keycap" label="키캡 보기" parameter="collection" views={keycapViews} />
+      <div class="keycap-panels archive-catalog-main archive-catalog-gallery">
+        {keycapViews.map((view, index) => {
+          const deferred = index !== 0;
+          const Content = deferred ? 'template' : 'div';
+          return (
+            <section
+              class="keycap-view"
+              id={`keycap-panel-${view.id}`}
+              role="tabpanel"
+              aria-labelledby={`keycap-tab-${view.id}`}
+              hidden={deferred}
+            >
+              <Content data-archive-panel-content={deferred ? '' : undefined}>
+                <p class="keycap-result-count"><strong>{view.count}</strong>개 키캡</p>
+                {view.count > 0
+                  ? <>
+                    {view.groups.map((group) => {
+                      const Group = group.label ? 'details' : 'div';
+                      return (
+                        <Group class="keycap-view-group" open={group.label ? true : undefined}>
+                          {group.label && <summary><h2>{group.label}</h2><span class="keycap-group-count">{group.records.length}</span></summary>}
+                          <div class="gallery-grid">
+                            {group.records.map((gallery) => (
+                              <GalleryCard
+                                gallery={gallery}
+                                headingLevel={group.label ? 3 : 2}
+                                showProfile={(titleCounts.get(gallery.title) ?? 0) > 1}
+                              />
+                            ))}
+                          </div>
+                        </Group>
+                      );
+                    })}
+                  </>
+                  : <p class="keycap-empty">이 탭에는 키캡이 없습니다.</p>}
+              </Content>
+            </section>
+          );
+        })}
+      </div>
+    </div>
   </div>
-
-  {keycapViews.map((view, index) => {
-    const deferred = index !== 0;
-    const Content = deferred ? 'template' : 'div';
-    return (
-      <section
-        class="keycap-view shell"
-        id={`keycap-panel-${view.id}`}
-        role="tabpanel"
-        aria-labelledby={`keycap-tab-${view.id}`}
-        hidden={deferred}
-      >
-        <Content data-archive-panel-content={deferred ? '' : undefined}>
-          {view.count > 0
-            ? <>
-              <p class="visually-hidden">키캡 {view.count}개</p>
-              {view.groups.map((group) => {
-                const Group = group.label ? 'details' : 'div';
-                return (
-                  <Group class="keycap-view-group" open={group.label ? true : undefined}>
-                    {group.label && <summary><h2>{group.label}</h2></summary>}
-                    <div class="gallery-grid">
-                      {group.records.map((gallery) => (
-                        <GalleryCard
-                          gallery={gallery}
-                          headingLevel={group.label ? 3 : 2}
-                          showProfile={(titleCounts.get(gallery.title) ?? 0) > 1}
-                        />
-                      ))}
-                    </div>
-                  </Group>
-                );
-              })}
-            </>
-            : <p>이 탭에는 키캡이 없습니다.</p>}
-        </Content>
-      </section>
-    );
-  })}
 </SiteLayout>
 
-<style>
-  .keycap-view {
-    padding-block-start: 20px;
+<script>
+  const collections = document.querySelector<HTMLDetailsElement>('[data-keycap-collections]');
+  if (collections) {
+    const mobile = window.matchMedia('(max-width: 660px)');
+    const syncDisclosure = () => { collections.open = !mobile.matches; };
+    syncDisclosure();
+    mobile.addEventListener('change', syncDisclosure);
   }
+</script>
+
+<style>
+  .keycap-collections { min-width: 0; }
+  .keycap-collections > summary { display: none; }
+  .keycap-filter-bar > p { margin: 0 0 4px; font-size: 13px; font-weight: 680; }
+
+  .keycap-filter-bar :global(.archive-view-tabs) {
+    display: grid;
+    gap: 0;
+    border: 0;
+  }
+
+  .keycap-filter-bar :global(.archive-view-tabs button) {
+    min-height: 36px;
+    padding: 3px 4px 3px 9px;
+    border: 0;
+    border-inline-start: 2px solid transparent;
+    text-align: start;
+    font-size: 13px;
+  }
+
+  .keycap-filter-bar :global(.archive-view-tabs button:is(:hover, [aria-selected='true'])) {
+    color: var(--color-text);
+  }
+
+  .keycap-filter-bar :global(.archive-view-tabs button[aria-selected='true']) {
+    border-inline-start-color: var(--color-catalog-accent, #4d382a);
+  }
+
+  @media (max-width: 660px) {
+    .keycap-collections > summary {
+      display: flex;
+      justify-content: space-between;
+      min-height: 44px;
+      font-size: 14px;
+      font-weight: 650;
+    }
+    .keycap-collections > summary::after { transform: none; border: 0; width: auto; height: auto; content: '+'; }
+    .keycap-collections[open] > summary::after { transform: none; content: '−'; }
+    .keycap-filter-bar { padding-block: 8px; }
+    .keycap-filter-bar > p { display: none; }
+    .keycap-filter-bar :global(.archive-view-tabs button) { min-height: 44px; }
+  }
+
+  .keycap-result-count { margin: 0 0 10px; color: var(--color-muted); font-size: 13px; text-align: end; }
+  .keycap-result-count strong { color: var(--color-text); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .keycap-empty { margin: 24px 0 0; color: var(--color-muted); }
 
   .keycap-view-group + .keycap-view-group {
     margin-block-start: var(--space-section);
@@ -112,8 +170,9 @@ const keycapViews = [
   summary {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     min-height: 44px;
+    border-bottom: 1px solid var(--color-rule);
     cursor: pointer;
   }
 
@@ -127,6 +186,8 @@ const keycapViews = [
     height: 6px;
     border-inline-end: 1px solid currentColor;
     border-block-end: 1px solid currentColor;
+    margin-inline-start: auto;
+    margin-inline-end: 4px;
     transform: rotate(-45deg);
   }
 
@@ -139,4 +200,6 @@ const keycapViews = [
     font-size: 18px;
     font-weight: 650;
   }
+
+  .keycap-group-count { color: var(--color-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 </style>

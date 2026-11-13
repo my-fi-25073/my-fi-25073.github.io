@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "blue-alert",
-  "title": "GMK CYL Blue Alert",
+  "title": "Blue Alert",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Blue Alert Blue Stripe 이미지 1",
+          "alt": "Blue Stripe 이미지 1",
           "variants": [
             {
               "src": "/media/blue-alert/kit-b7c4fc398bfc689f-source-gallery-0-1ac3e26c1ec1-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Blue Alert Extension 이미지 1",
+          "alt": "Extension 이미지 1",
           "variants": [
             {
               "src": "/media/blue-alert/kit-5f0317d96870eaa3-source-gallery-0-da3ccac6a484-640.avif",
@@ -80,7 +80,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Blue Alert 이미지 1",
+      "alt": "Blue Alert 이미지 1",
       "variants": [
         {
           "src": "/media/blue-alert/series-2161b98ad43496c3-source-gallery-0-2fdf8f76667b-640.avif",

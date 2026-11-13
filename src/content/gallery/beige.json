@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "beige",
-  "title": "GMK MTNU Beige",
+  "title": "Beige",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "MTNU",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "GMK MTNU Beige Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/beige/kit-b20b471bf1633fbc-source-gallery-0-a0d97ad9ae9d-640.avif",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "alt": "GMK MTNU Beige Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/beige/kit-b20b471bf1633fbc-source-gallery-1-9fca20e6af64-640.avif",
@@ -69,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "GMK MTNU Beige 이미지 1",
+      "alt": "Beige 이미지 1",
       "variants": [
         {
           "src": "/media/beige/series-29e2e20e6eb43f36-source-gallery-0-95ee7eba23bd-640.avif",

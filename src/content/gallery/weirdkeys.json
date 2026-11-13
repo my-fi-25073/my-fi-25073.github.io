@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "weirdkeys",
-  "title": "Cherry Weirdkeys",
+  "title": "Weirdkeys",
   "category": "keycaps",
-  "manufacturer": "Others",
+  "manufacturer": "SneakBox",
   "profile": "Cherry-Clone",
   "manufacturingProcess": "Double Shot",
   "sleeveStatus": "슬리브 없음",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Cherry Weirdkeys 15u Space Bar 이미지 1",
+          "alt": "15u Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-2452c36881766bac-source-gallery-0-ed97126e759e-640.avif",
@@ -54,7 +54,7 @@
       ],
       "images": [
         {
-          "alt": "Cherry Weirdkeys Alice BAE 이미지 1",
+          "alt": "Alice BAE 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-d34822e4dd05cfcb-source-gallery-0-9d6229860f97-640.avif",
@@ -83,7 +83,7 @@
       ],
       "images": [
         {
-          "alt": "Cherry Weirdkeys TabLock 이미지 1",
+          "alt": "TabLock 이미지 1",
           "variants": [
             {
               "src": "/media/weirdkeys/kit-21a76edf609c30bb-source-gallery-0-f5523277b4db-640.avif",
@@ -102,7 +102,7 @@
   ],
   "images": [
     {
-      "alt": "Cherry Weirdkeys 이미지 1",
+      "alt": "Weirdkeys 이미지 1",
       "variants": [
         {
           "src": "/media/weirdkeys/series-7f37f1219252ae2c-source-gallery-0-6006f8df0071-640.avif",

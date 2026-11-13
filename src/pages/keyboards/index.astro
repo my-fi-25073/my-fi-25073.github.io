@@ -49,17 +49,23 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
 ---
 
 <SiteLayout title={pageCopy?.['keyboard.title'] ?? '키보드'} description={pageCopy?.['keyboard.description'] ?? undefined}>
-  <section class="archive-intro shell" aria-labelledby="keyboard-title">
-    <h1 id="keyboard-title">{pageCopy?.['keyboard.title'] ?? '키보드'}</h1>
-  </section>
-
-  <div class="shell">
-    <CollectionFilter axes={filterAxes} total={records.length} presets={presets} />
-  </div>
-
-  <div class="keyboard-gallery" data-keyboard-gallery>
+  <div class="shell archive-catalog-shell">
+    <section class="archive-catalog-heading" aria-labelledby="keyboard-title">
+      <h1 id="keyboard-title" lang="en">Keyboard</h1>
+      <div class="archive-search" role="search">
+        <label class="visually-hidden" for="keyboard-search">키보드 검색</label>
+        <input id="keyboard-search" type="search" placeholder="키보드 검색" autocomplete="off" />
+      </div>
+    </section>
+    <div class="archive-catalog-layout">
+      <aside class="archive-catalog-sidebar" aria-label="키보드 분류">
+        <CollectionFilter axes={filterAxes} presets={presets} />
+      </aside>
+      <div class="archive-catalog-main archive-catalog-gallery">
+        <p class="archive-catalog-count" aria-live="polite"><span data-result-count>{records.length}</span>개 빌드</p>
+        <div data-keyboard-gallery>
     {displayGroups.map(({ label, records }) => (
-      <section class="archive-section shell" aria-label={label ?? '키보드 목록'} data-archive-group>
+      <section class="archive-section" aria-label={label ?? '키보드 목록'} data-archive-group>
         {label && <div class="section-heading"><h2>{label}</h2></div>}
         <div class="gallery-grid">
           {records.map((keyboard) => {
@@ -72,19 +78,18 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
       </section>
     ))}
     <template data-keyboard-preset-section>
-      <section class="archive-section shell" aria-label="키보드 목록">
+      <section class="archive-section" aria-label="키보드 목록">
         <div class="section-heading" hidden><h2></h2></div>
         <div class="gallery-grid"></div>
       </section>
     </template>
+        </div>
+        <p class="empty-keyboard-list" data-keyboard-empty hidden={records.length > 0}>조건에 맞는 키보드가 없습니다.</p>
+      </div>
+    </div>
   </div>
-  <p class="empty-keyboard-list shell" data-keyboard-empty hidden={records.length > 0}>조건에 맞는 키보드가 없습니다.</p>
 </SiteLayout>
 
 <style>
-  .archive-intro { padding-block: clamp(28px, 4.5vw, 60px) clamp(20px, 3vw, 32px); }
-  .keyboard-gallery :global(.gallery-grid) { padding-top: clamp(16px, 2.5vw, 30px); gap: clamp(16px, 2vw, 24px); }
-  .keyboard-gallery :global(.gallery-card-media) { border-bottom: 1px solid var(--color-rule); }
-  .keyboard-gallery :global(.gallery-card-copy) { padding: 14px 16px 16px; }
   .empty-keyboard-list { margin-top: 24px; color: var(--color-muted); }
 </style>

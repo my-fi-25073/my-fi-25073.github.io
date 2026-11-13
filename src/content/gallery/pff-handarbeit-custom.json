@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pff-handarbeit-custom",
-  "title": "Keyreative Handarbeit Custom",
+  "title": "PFF Handarbeit Custom",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PFF",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "Keyreative Handarbeit Custom Castor Base 이미지 1",
+          "alt": "Castor Base 이미지 1",
           "variants": [
             {
               "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-640.avif",
@@ -45,33 +45,13 @@
               "height": 1592
             }
           ]
-        },
-        {
-          "alt": "Keyreative Handarbeit Custom Castor Base 이미지 2",
-          "variants": [
-            {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-640.avif",
-              "width": 640,
-              "height": 404
-            },
-            {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-1280.avif",
-              "width": 1280,
-              "height": 808
-            },
-            {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-1-ce8b95e76eea-2400.avif",
-              "width": 2048,
-              "height": 1292
-            }
-          ]
         }
       ]
     }
   ],
   "images": [
     {
-      "alt": "Keyreative Handarbeit Custom 이미지 1",
+      "alt": "PFF Handarbeit Custom 이미지 1",
       "variants": [
         {
           "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-640.avif",

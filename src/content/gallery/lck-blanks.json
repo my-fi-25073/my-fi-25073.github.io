@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "lck-blanks",
-  "title": "Chosfox Blanks",
+  "title": "LCK Blanks",
   "category": "keycaps",
   "manufacturer": "Chosfox",
   "profile": "LCK",
@@ -26,7 +26,7 @@
       ],
       "images": [
         {
-          "alt": "Chosfox Blanks Transparent 1u 이미지 1",
+          "alt": "Transparent 1u 이미지 1",
           "variants": [
             {
               "src": "/media/lck-blanks/kit-b608b795ff981062-source-gallery-0-9996b4971d0c-640.avif",
@@ -45,7 +45,7 @@
   ],
   "images": [
     {
-      "alt": "Chosfox Blanks 이미지 1",
+      "alt": "LCK Blanks 이미지 1",
       "variants": [
         {
           "src": "/media/lck-blanks/series-af86bc445c9c8603-source-gallery-0-522c8e25edfa-640.avif",

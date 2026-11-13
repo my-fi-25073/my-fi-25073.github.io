@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pff-verdant-retro",
-  "title": "Keyreative Verdant Retro",
+  "title": "PFF Verdant Retro",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PFF",
@@ -26,22 +26,82 @@
       ],
       "images": [
         {
-          "alt": "Keyreative Verdant Retro Nomad Base 이미지 1",
+          "alt": "Nomad Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-640.avif",
               "width": 640,
-              "height": 485
+              "height": 480
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-1280.avif",
               "width": 1280,
-              "height": 970
+              "height": 960
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-source-gallery-0-2db8f4bf1b46-2400.avif",
-              "width": 2048,
-              "height": 1552
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Nomad Base 이미지 2",
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Nomad Base 이미지 3",
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Nomad Base 이미지 4",
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-2400.avif",
+              "width": 2400,
+              "height": 1800
             }
           ]
         }
@@ -50,7 +110,27 @@
   ],
   "images": [
     {
-      "alt": "Keyreative Verdant Retro 이미지 1",
+      "alt": "PFF Verdant Retro 이미지 1",
+      "variants": [
+        {
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-640.avif",
+          "width": 640,
+          "height": 853
+        },
+        {
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-1280.avif",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-2400.avif",
+          "width": 2400,
+          "height": 3200
+        }
+      ]
+    },
+    {
+      "alt": "PFF Verdant Retro 이미지 1",
       "variants": [
         {
           "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-640.avif",

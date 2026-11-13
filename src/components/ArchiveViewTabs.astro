@@ -3,17 +3,18 @@ interface Props {
   id: string;
   label: string;
   parameter: string;
-  views: Array<{ id: string; label: string }>;
+  views: Array<{ id: string; label: string; aliases?: string[] }>;
+  orientation?: 'horizontal' | 'vertical';
 }
 
-const { id, label, parameter, views } = Astro.props;
+const { id, label, parameter, views, orientation = 'horizontal' } = Astro.props;
 const initialView = views[0]?.id;
 if (!initialView || new Set(views.map((view) => view.id)).size !== views.length) {
   throw new Error(`Invalid archive views for ${id}`);
 }
 ---
 
-<div class="archive-view-tabs" role="tablist" aria-label={label} data-view-parameter={parameter}>
+<div class="archive-view-tabs" role="tablist" aria-label={label} aria-orientation={orientation} data-view-parameter={parameter}>
   {views.map((view) => (
     <button
       id={`${id}-tab-${view.id}`}
@@ -23,6 +24,7 @@ if (!initialView || new Set(views.map((view) => view.id)).size !== views.length)
       aria-controls={`${id}-panel-${view.id}`}
       tabindex={view.id === initialView ? 0 : -1}
       data-view-id={view.id}
+      data-view-aliases={view.aliases?.join(' ')}
     >
       {view.label}
     </button>
@@ -32,6 +34,7 @@ if (!initialView || new Set(views.map((view) => view.id)).size !== views.length)
 <script>
   for (const root of document.querySelectorAll<HTMLElement>('[data-view-parameter]')) {
     const parameter = root.dataset.viewParameter!;
+    const isVertical = root.getAttribute('aria-orientation') === 'vertical';
     const tabs = [...root.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
     const initial = tabs[0];
     const entries = tabs.map((tab) => {
@@ -55,8 +58,15 @@ if (!initialView || new Set(views.map((view) => view.id)).size !== views.length)
       }
     };
     const fromLocation = () => {
-      const requested = new URLSearchParams(window.location.search).get(parameter);
-      apply(tabs.find((tab) => tab.dataset.viewId === requested) ?? initial);
+      const url = new URL(window.location.href);
+      const requested = url.searchParams.get(parameter);
+      const active = tabs.find((tab) => tab.dataset.viewId === requested
+        || (requested && tab.dataset.viewAliases?.split(' ').includes(requested))) ?? initial;
+      if (requested && active.dataset.viewAliases?.split(' ').includes(requested)) {
+        url.searchParams.set(parameter, active.dataset.viewId!);
+        window.history.replaceState(null, '', url);
+      }
+      apply(active);
     };
     for (const [index, tab] of tabs.entries()) {
       tab.addEventListener('click', () => {
@@ -68,8 +78,8 @@ if (!initialView || new Set(views.map((view) => view.id)).size !== views.length)
       });
       tab.addEventListener('keydown', (event) => {
         const targetIndex = {
-          ArrowLeft: (index + tabs.length - 1) % tabs.length,
-          ArrowRight: (index + 1) % tabs.length,
+          [isVertical ? 'ArrowUp' : 'ArrowLeft']: (index + tabs.length - 1) % tabs.length,
+          [isVertical ? 'ArrowDown' : 'ArrowRight']: (index + 1) % tabs.length,
           Home: 0,
           End: tabs.length - 1,
         }[event.key];

@@ -74,6 +74,16 @@
               "height": 657
             }
           ]
+        },
+        {
+          "alt": "MX1A Nixie 사진 3",
+          "variants": [
+            {
+              "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-gallery-0-589b8fb6554d-640.avif",
+              "width": 446,
+              "height": 520
+            }
+          ]
         }
       ]
     },
@@ -106,7 +116,7 @@
       },
       "images": [
         {
-          "alt": "MX1A Nixie 사진 3",
+          "alt": "MX1A Nixie 사진 4",
           "variants": [
             {
               "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-0-0241015015f5-640.avif",
@@ -126,7 +136,7 @@
           ]
         },
         {
-          "alt": "MX1A Nixie 사진 4",
+          "alt": "MX1A Nixie 사진 5",
           "variants": [
             {
               "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-fc5abe5cc9b4-source-gallery-1-3981f275812d-640.avif",
@@ -177,6 +187,16 @@
           "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-source-gallery-1-3981f275812d-1280.avif",
           "width": 812,
           "height": 657
+        }
+      ]
+    },
+    {
+      "alt": "MX1A Nixie 사진 3",
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-nixie/92683be24d4fedd9-d3612ca87f01-gallery-0-589b8fb6554d-640.avif",
+          "width": 446,
+          "height": 520
         }
       ]
     }

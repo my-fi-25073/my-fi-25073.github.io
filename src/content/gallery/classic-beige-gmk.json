@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "classic-beige-gmk",
-  "title": "GMK CYL Classic Beige (GMK)",
+  "title": "Classic Beige (GMK)",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Colevrak 이미지 1",
+          "alt": "Colevrak 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-93b6f52569edd63e-source-gallery-0-ce43998553a7-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Command 이미지 1",
+          "alt": "Command 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-c1475f5c33894c46-source-gallery-0-9a9dff80a0a6-640.avif",
@@ -85,7 +85,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Exotic Base 이미지 1",
+          "alt": "Exotic Base 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-0-a121e77c9357-640.avif",
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Classic Beige (GMK) Exotic Base 이미지 2",
+          "alt": "Exotic Base 이미지 2",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-de883ac03daae8eb-source-gallery-1-06192ca093b0-640.avif",
@@ -134,7 +134,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) France 이미지 1",
+          "alt": "France 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-d36907539b2194a3-source-gallery-0-1fb0cca34ab1-640.avif",
@@ -163,7 +163,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Hiragana 이미지 1",
+          "alt": "Hiragana 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-d33af1d54090048a-source-gallery-0-1c32f7433dfd-640.avif",
@@ -192,7 +192,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Icon Mod 이미지 1",
+          "alt": "Icon Mod 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-254cb0eee3d84f28-source-gallery-0-78df53e4f540-640.avif",
@@ -221,7 +221,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Italy 이미지 1",
+          "alt": "Italy 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-3cd1a239d9310cd8-source-gallery-0-defa33636c02-640.avif",
@@ -250,7 +250,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Katakana 이미지 1",
+          "alt": "Katakana 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-60624a59cca024bd-source-gallery-0-fbb4c922741c-640.avif",
@@ -279,7 +279,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) Row 5 이미지 1",
+          "alt": "Row 5 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-73704484595b9d8f-source-gallery-0-51af376b653b-640.avif",
@@ -308,7 +308,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Classic Beige (GMK) UK 이미지 1",
+          "alt": "UK 이미지 1",
           "variants": [
             {
               "src": "/media/classic-beige-gmk/kit-5f6af761ce05e287-source-gallery-0-78cefa9fe055-640.avif",
@@ -332,7 +332,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Classic Beige (GMK) 이미지 1",
+      "alt": "Classic Beige (GMK) 이미지 1",
       "variants": [
         {
           "src": "/media/classic-beige-gmk/series-96efa854d14c287e-source-gallery-0-35407ca04146-640.avif",

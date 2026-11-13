@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "black-snail",
-  "title": "GMK CYL Black Snail",
+  "title": "Black Snail",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -28,7 +28,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail 9009 Accent 이미지 1",
+          "alt": "9009 Accent 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-640.avif",
@@ -57,7 +57,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-640.avif",
@@ -77,7 +77,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-640.avif",
@@ -106,7 +106,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-640.avif",
@@ -126,7 +126,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-640.avif",
@@ -155,7 +155,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-41ab20f86eb44b85-source-gallery-0-20812c2aedd0-640.avif",
@@ -184,7 +184,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-640.avif",
@@ -204,7 +204,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-640.avif",
@@ -233,7 +233,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-d6eda6fdbfde8c7e-source-gallery-0-8e1d51f29d3c-640.avif",
@@ -262,7 +262,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-e48c3ca3f13d1277-source-gallery-0-52dfc25188fc-640.avif",
@@ -282,7 +282,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-e48c3ca3f13d1277-source-body-0-14171ca5e575-640.avif",
@@ -311,7 +311,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-640.avif",
@@ -331,7 +331,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-640.avif",
@@ -360,7 +360,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Base Ortho 이미지 1",
+          "alt": "Base Ortho 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-640.avif",
@@ -389,7 +389,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Cherry Accent 이미지 1",
+          "alt": "Cherry Accent 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-640.avif",
@@ -413,7 +413,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail HASRO/SAV Red Cyrilic 이미지 1",
+          "alt": "HASRO/SAV Red Cyrilic 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-36c97f00d222bed0-source-gallery-0-28ab80f7a3e6-640.avif",
@@ -428,7 +428,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Black Snail HASRO/SAV Red Cyrilic 이미지 2",
+          "alt": "HASRO/SAV Red Cyrilic 이미지 2",
           "variants": [
             {
               "src": "/media/black-snail/kit-36c97f00d222bed0-source-gallery-1-ad03ee707c1c-640.avif",
@@ -457,7 +457,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Novelty 이미지 1",
+          "alt": "Novelty 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-640.avif",
@@ -486,7 +486,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Old Accent 이미지 1",
+          "alt": "Old Accent 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-640.avif",
@@ -515,7 +515,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail Relegendable 이미지 1",
+          "alt": "Relegendable 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-640.avif",
@@ -544,7 +544,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail U9 Modifiler 이미지 1",
+          "alt": "U9 Modifiler 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-8d6292cb431daf39-source-gallery-0-7397d941d415-640.avif",
@@ -573,7 +573,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail U9 Modifiler 이미지 1",
+          "alt": "U9 Modifiler 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-6a94bc5e1d3a16fb-source-gallery-0-3373140e775a-640.avif",
@@ -602,7 +602,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Black Snail U9 Modifiler 이미지 1",
+          "alt": "U9 Modifiler 이미지 1",
           "variants": [
             {
               "src": "/media/black-snail/kit-7bbdbe52feafd0b7-source-gallery-0-431150d06f74-640.avif",
@@ -626,7 +626,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Black Snail 이미지 1",
+      "alt": "Black Snail 이미지 1",
       "variants": [
         {
           "src": "/media/black-snail/series-044d1b245c08b3ee-source-gallery-0-75179726d7b7-640.avif",
@@ -646,7 +646,7 @@
       ]
     },
     {
-      "alt": "GMK CYL Black Snail 이미지 2",
+      "alt": "Black Snail 이미지 2",
       "variants": [
         {
           "src": "/media/black-snail/series-044d1b245c08b3ee-source-gallery-1-ec3ccd40e784-640.avif",

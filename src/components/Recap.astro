@@ -1,9 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
-import ArchiveSearch from './ArchiveSearch.astro';
 import KeyboardCard from './KeyboardCard.astro';
 import collectionData from '../data/collections.json';
 import SiteLayout from '../layouts/SiteLayout.astro';
+import cover2024Small from '../assets/recap-2024-768.avif';
+import cover2024 from '../assets/recap-2024-1600.avif';
+import cover2025Small from '../assets/recap-2025-768.avif';
+import cover2025 from '../assets/recap-2025-1600.avif';
 import {
   recordsForCollectionView,
   requiredCollectionView,
@@ -19,6 +22,11 @@ const { year: requestedYear } = Astro.props;
 const year = requestedYear ?? recapYears[0];
 if (!year) throw new Error('The public collection manifest has no Recap year.');
 const isIndex = requestedYear === undefined;
+const covers = {
+  '2024': { small: cover2024Small, large: cover2024, alt: '금색 노브와 검은 키캡이 달린 키보드' },
+  '2025': { small: cover2025Small, large: cover2025, alt: '붉은 키릴 문자 키캡을 장착한 베이지색 키보드' },
+};
+const cover = covers[year as keyof typeof covers];
 const pageCopy = collectionData.copy;
 const recapTitle = pageCopy['recap.title'] ?? 'Recap';
 const description = isIndex ? pageCopy['recap.description'] ?? undefined : undefined;
@@ -44,44 +52,92 @@ const months = Array.from({ length: 12 }, (_, index) => {
 });
 const activeMonths = months.filter((month) => month.records.length > 0);
 const maxMonthCount = Math.max(...months.map((month) => month.records.length), 1);
-const chronology = records.toSorted((left, right) => (
-  String(right.lastBuiltAt).localeCompare(String(left.lastBuiltAt), 'ko')
-));
-const formatDate = (value: string | null) => value
-  ? new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'UTC' })
-    .format(new Date(`${value}T00:00:00Z`))
-  : '';
+const axisStep = Math.max(1, Math.ceil(maxMonthCount / 3));
+const axisMax = axisStep * 3;
+const ticks = [axisMax, axisStep * 2, axisStep, 0];
+const timeline = activeMonths.map((month) => {
+  const dates = Map.groupBy(month.records, (record) => {
+    if (!record.lastBuiltAt) throw new Error(`Recap build has no date: ${record.slug}`);
+    return record.lastBuiltAt;
+  });
+  return { ...month, days: [...dates].toSorted(([left], [right]) => left.localeCompare(right)) };
+});
 ---
 
 <SiteLayout title={isIndex ? recapTitle : `${year} Recap`} description={description}>
-  <section class="archive-intro recap-intro shell" aria-labelledby="recap-year-title">
-    <h1 id="recap-year-title">{isIndex ? recapTitle : year}</h1>
-    <nav aria-label="연도 선택">
+  <div class="shell archive-catalog-shell">
+    {cover && (
+      <div class:list={['recap-cover', `recap-cover-${year}`]}>
+        <img src={cover.large.src} srcset={`${cover.small.src} 768w, ${cover.large.src} 1600w`}
+          sizes="(max-width: 1440px) 94vw, 1328px" width={cover.large.width} height={cover.large.height}
+          alt={cover.alt} fetchpriority="high" />
+      </div>
+    )}
+    <section class="archive-catalog-heading recap-heading" aria-labelledby="recap-year-title">
+      <h1 id="recap-year-title">{isIndex ? <span lang="en">{recapTitle}</span> : year}</h1>
+    </section>
+    <div class="archive-catalog-layout">
+      <nav class="archive-catalog-sidebar recap-year-nav" aria-label="연도 선택">
+        <span class="recap-year-label">연도</span>
       <ul class="recap-year-links">
         {recapYears.map((availableYear) => (
           <li>
             <a
               href={`/recap/${availableYear}/`}
-              aria-current={availableYear === year ? 'true' : undefined}
+              aria-current={availableYear === year ? 'page' : undefined}
             >{availableYear}</a>
           </li>
         ))}
       </ul>
-    </nav>
-  </section>
+      </nav>
+      <div class="archive-catalog-main archive-catalog-gallery">
+        <div class="recap-builds">
+          {timeline.map(({ month, label, days }) => (
+            <section class="recap-month" aria-labelledby={`month-${month}`}>
+              <h2 id={`month-${month}`}>{label}</h2>
+              <ol class="recap-dates">
+                {days.map(([date, keyboards]) => (
+                  <li class="recap-date">
+                    <time datetime={date}>{Number(date.slice(8, 10))}일</time>
+                    <div class="recap-date-builds">
+                      {keyboards.map((keyboard) => {
+                        const entry = entryBySlug.get(keyboard.slug);
+                        if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
+                        return <KeyboardCard keyboard={entry.data} headingLevel={3} />;
+                      })}
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          ))}
+        </div>
 
-  <section class="recap-chart shell" aria-labelledby="monthly-count-title">
+  <section class="recap-chart" aria-labelledby="monthly-count-title">
     <div class="section-heading">
       <h2 id="monthly-count-title">월별 빌드</h2>
     </div>
-    <div class="recap-bars" aria-hidden="true">
-      {months.map((month) => (
-        <div>
-          <strong>{month.records.length}</strong>
-          <span style={`--bar-height:${(month.records.length / maxMonthCount) * 100}%`} />
-          <small>{month.month}</small>
+    <div class="monthly-chart" aria-hidden="true">
+      <div class="chart-axis">
+        {ticks.map((tick) => <span>{tick}</span>)}
+      </div>
+      <div class="chart-plot">
+        <div class="chart-guides">
+          {ticks.map(() => <span></span>)}
         </div>
-      ))}
+        <div class="chart-columns">
+          {months.map(({ records, label }) => (
+            <div class="chart-month">
+              <div class="chart-track">
+                <div class="chart-bar" style={`--bar-height: ${records.length / axisMax * 100}%`}>
+                  <span>{records.length}</span>
+                </div>
+              </div>
+              <span class="chart-label">{label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
     <table class="visually-hidden">
       <caption class="visually-hidden">{year}년 월별 빌드 건수</caption>
@@ -93,45 +149,172 @@ const formatDate = (value: string | null) => value
       </tbody>
     </table>
   </section>
-
-  <div class="archive-tools shell"><ArchiveSearch /></div>
-
-  <div class="recap-months">
-    {activeMonths.map((month) => (
-      <section class="archive-section shell" aria-labelledby={`month-${month.month}`} data-archive-group>
-        <div class="section-heading">
-          <h2 id={`month-${month.month}`}>{month.label}</h2>
-        </div>
-        <div class="gallery-grid archive-section-grid">
-          {month.records.map((keyboard) => {
-            const entry = entryBySlug.get(keyboard.slug);
-            if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
-            return <KeyboardCard keyboard={entry.data} headingLevel={3} />;
-          })}
-        </div>
-      </section>
-    ))}
-  </div>
-
-  <section class="recap-timeline shell" aria-labelledby="recap-timeline-title">
-    <div class="section-heading">
-      <h2 id="recap-timeline-title">빌드 기록</h2>
+      </div>
     </div>
-    <ol>
-      {chronology.map((keyboard) => (
-        <li>
-          <time datetime={keyboard.lastBuiltAt ?? undefined}>{formatDate(keyboard.lastBuiltAt)}</time>
-          <a class="recap-timeline-keyboard" href={`/keyboards/${keyboard.slug}/`}>{keyboard.title}</a>
-        </li>
-      ))}
-    </ol>
-  </section>
+  </div>
 </SiteLayout>
 
 <style>
-  .recap-year-links a[aria-current="true"] {
-    border-color: var(--color-text);
-    background: var(--color-text);
-    color: var(--color-bg);
+  .recap-cover { margin-top: clamp(14px, 2.1vw, 32px); background: var(--color-surface); }
+  .recap-cover img {
+    width: 100%;
+    height: clamp(168px, 18vw, 284px);
+    object-fit: cover;
+    object-position: 50% 53%;
+  }
+  .recap-cover-2024 img { object-position: 50% 57%; }
+  .recap-heading { padding-top: clamp(22px, 3.4vw, 44px); }
+  .recap-builds { --timeline-label-width: 5.25rem; --timeline-rule: var(--color-rule); }
+  .recap-month { padding-bottom: clamp(26px, 4vw, 52px); }
+  .recap-month h2 {
+    margin: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--timeline-rule);
+    font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    letter-spacing: -.045em;
+  }
+  .recap-dates { margin: 0; padding: 0; list-style: none; }
+  .recap-date {
+    display: grid;
+    grid-template-columns: var(--timeline-label-width) minmax(0, 1fr);
+  }
+  .recap-date time {
+    position: relative;
+    padding-top: 18px;
+    padding-inline-end: 12px;
+    border-inline-end: 1px solid var(--timeline-rule);
+    color: var(--color-muted);
+    font-size: .8125rem;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+  }
+  .recap-date time::after {
+    content: '';
+    position: absolute;
+    inset-block-start: 22px;
+    inset-inline-end: -5px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid var(--color-bg);
+    border-radius: 50%;
+    background: #4d382a;
+  }
+  .recap-date-builds {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    gap: 16px;
+    padding: 16px 0 24px clamp(14px, 2.6vw, 34px);
+  }
+  .recap-date-builds :global(.gallery-card) { width: min(100%, 420px); }
+  .recap-date:last-child .recap-date-builds { padding-bottom: 0; }
+  @media (max-width: 660px) {
+    .recap-builds { --timeline-label-width: 3.25rem; }
+    .recap-date-builds { grid-template-columns: minmax(0, 1fr); }
+  }
+  .recap-year-label { font-size: 13px; font-weight: 680; }
+  .recap-year-nav .recap-year-links {
+    display: grid;
+    gap: 0;
+    margin-top: 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .recap-year-nav .recap-year-links a {
+    display: flex;
+    justify-content: start;
+    min-height: 36px;
+    padding-inline: 10px;
+    color: var(--color-muted);
+    background: transparent;
+    border: 0;
+    border-inline-start: 2px solid transparent;
+    border-radius: 0;
+    font-size: 14px;
+  }
+
+  .recap-year-nav .recap-year-links a:is(:hover, [aria-current="page"]) { color: var(--color-text); }
+  .recap-year-nav .recap-year-links a[aria-current="page"] { border-inline-start-color: #4d382a; }
+
+  @media (max-width: 660px) {
+    .recap-year-nav { display: flex; align-items: center; gap: 16px; border-bottom: 1px solid var(--color-rule); }
+    .recap-year-nav .recap-year-links { display: flex; margin: 0; padding: 0; border: 0; }
+    .recap-year-nav .recap-year-links a { min-width: 0; min-height: 44px; }
+  }
+
+  .monthly-chart {
+    --plot-height: clamp(124px, 15vw, 188px);
+    display: grid;
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+    gap: clamp(4px, 1vw, 12px);
+    margin-top: 22px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .chart-axis,
+  .chart-guides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: var(--plot-height);
+  }
+
+  .chart-axis span {
+    color: var(--color-muted);
+    font-size: .6875rem;
+    line-height: 0;
+    text-align: right;
+  }
+
+  .chart-plot { position: relative; }
+
+  .chart-guides {
+    position: absolute;
+    inset: 0 0 auto;
+    pointer-events: none;
+  }
+
+  .chart-guides span { border-top: 1px solid var(--color-rule); }
+  .chart-guides span:last-child { border-color: var(--color-muted); }
+
+  .chart-columns {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    text-align: center;
+  }
+
+  .chart-track {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: var(--plot-height);
+  }
+
+  .chart-bar {
+    position: relative;
+    width: min(56%, 40px);
+    height: var(--bar-height);
+    border-radius: 4px 4px 0 0;
+    background: #514537;
+  }
+
+  .chart-bar span {
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-text);
+    font-size: .75rem;
+    font-weight: 640;
+    line-height: 1.2;
+  }
+
+  .chart-label {
+    display: block;
+    margin-top: 8px;
+    color: var(--color-muted);
+    font-size: clamp(.625rem, 1.5vw, .75rem);
+    white-space: nowrap;
   }
 </style>

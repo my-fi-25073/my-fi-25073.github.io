@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "lak-gold-on-black",
-  "title": "Chosfox Gold On Black",
+  "title": "LAK Gold On Black",
   "category": "keycaps",
   "manufacturer": "Chosfox",
   "profile": "LAK",
@@ -26,7 +26,7 @@
       ],
       "images": [
         {
-          "alt": "Chosfox Gold On Black Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-0-3127cd79768c-640.avif",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "alt": "Chosfox Gold On Black Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/lak-gold-on-black/kit-994dbf8a54b4a0dd-source-gallery-1-02330e59b3f2-640.avif",
@@ -70,7 +70,22 @@
   ],
   "images": [
     {
-      "alt": "Chosfox Gold On Black 이미지 1",
+      "alt": "LAK Gold On Black 이미지 1",
+      "variants": [
+        {
+          "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-gallery-0-c2d90d312549-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-gallery-0-c2d90d312549-1280.avif",
+          "width": 1020,
+          "height": 1020
+        }
+      ]
+    },
+    {
+      "alt": "LAK Gold On Black 이미지 1",
       "variants": [
         {
           "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-0-cb08877574a5-640.avif",
@@ -80,7 +95,7 @@
       ]
     },
     {
-      "alt": "Chosfox Gold On Black 이미지 2",
+      "alt": "LAK Gold On Black 이미지 2",
       "variants": [
         {
           "src": "/media/lak-gold-on-black/series-dbccecdb9a5de8a1-source-gallery-1-03af5cb12720-640.avif",

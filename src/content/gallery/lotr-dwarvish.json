@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "lotr-dwarvish",
-  "title": "Drop MT3 LotR Dwarvish",
+  "title": "LotR Dwarvish",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 LotR Dwarvish Durin’s Forge 이미지 1",
+          "alt": "Durin’s Forge 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-2048a3ae70e7c372-source-gallery-0-f071fb4bbda0-640.avif",
@@ -49,7 +49,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 LotR Dwarvish Extra 이미지 1",
+          "alt": "Extra 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-ea983567f2001026-source-gallery-0-9531759b488e-640.avif",
@@ -74,7 +74,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 LotR Dwarvish Hardcore Base 이미지 1",
+          "alt": "Hardcore Base 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-640.avif",
@@ -98,7 +98,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 LotR Dwarvish Space Bars 이미지 1",
+          "alt": "Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/lotr-dwarvish/kit-8a6c1247092beca5-source-gallery-0-c1318349b050-640.avif",
@@ -117,7 +117,7 @@
   ],
   "images": [
     {
-      "alt": "Drop MT3 LotR Dwarvish 이미지 1",
+      "alt": "LotR Dwarvish 이미지 1",
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-0-3bc831fe0915-640.avif",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 LotR Dwarvish 이미지 2",
+      "alt": "LotR Dwarvish 이미지 2",
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-gallery-1-529050ac5b8a-640.avif",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 LotR Dwarvish 이미지 1",
+      "alt": "LotR Dwarvish 이미지 1",
       "variants": [
         {
           "src": "/media/lotr-dwarvish/series-92e789ce77eebd4e-source-body-0-47fa1c09c0ee-640.avif",

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mt3-serika",
-  "title": "Drop Serika",
+  "title": "MT3 Serika",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Alpha 이미지 1",
+          "alt": "Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-640.avif",
@@ -44,7 +44,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Geometry 이미지 1",
+          "alt": "Geometry 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-640.avif",
@@ -68,7 +68,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Katakana Forties 이미지 1",
+          "alt": "Katakana Forties 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-b5c3a38abf130564-source-gallery-0-706b7843f559-640.avif",
@@ -92,7 +92,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Latin Forties 이미지 1",
+          "alt": "Latin Forties 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-fb3e66f70baffba4-source-gallery-0-9a502f4935ff-640.avif",
@@ -116,7 +116,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Mac 이미지 1",
+          "alt": "Mac 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-b107d8f76ce967e6-source-gallery-0-0bd4729aba90-640.avif",
@@ -140,7 +140,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Macro Expansion 이미지 1",
+          "alt": "Macro Expansion 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-6a44f5d53f61e7ee-source-gallery-0-4291ecb11396-640.avif",
@@ -164,7 +164,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Serika Modifiers 이미지 1",
+          "alt": "Modifiers 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-640.avif",
@@ -183,7 +183,7 @@
   ],
   "images": [
     {
-      "alt": "Drop Serika 이미지 1",
+      "alt": "MT3 Serika 이미지 1",
       "variants": [
         {
           "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-0-4902c8937db6-640.avif",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "alt": "Drop Serika 이미지 2",
+      "alt": "MT3 Serika 이미지 2",
       "variants": [
         {
           "src": "/media/mt3-serika/series-45bba61a419f7dec-source-gallery-1-1bb635b3d47f-640.avif",

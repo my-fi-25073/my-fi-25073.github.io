@@ -66,6 +66,17 @@ function lubricationText(item: SwitchTuning['lubrication']['stem']) {
 
 export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
   const fields: DisplayField[] = [];
+  const specs = tuning.switchSpecifications;
+  if (specs?.actuationForce) fields.push({ key: 'switchActuationForce', label: '스위치 입력압', value: specs.actuationForce });
+  if (specs?.actuationTravel) fields.push({ key: 'actuationTravel', label: '입력 거리', value: specs.actuationTravel });
+  if (specs?.totalTravel) fields.push({ key: 'totalTravel', label: '전체 이동 거리', value: specs.totalTravel });
+  if (specs?.springLength) fields.push({ key: 'springLength', label: '스프링 길이', value: specs.springLength });
+  if (specs?.durabilityCycles) {
+    fields.push({ key: 'durabilityCycles', label: '수명', value: `${specs.durabilityCycles.toLocaleString('en-US')}회` });
+  }
+  if (specs?.factoryLubed !== undefined) {
+    fields.push({ key: 'factoryLubed', label: '윤활', value: specs.factoryLubed ? '공장 윤활' : '무윤활' });
+  }
   const unresolvedSpring = tuning.spring.resolution === 'stock_unresolved';
   if (tuning.spring.resolution === 'selected' && tuning.spring.name) {
     fields.push({ key: 'spring', label: '스프링', value: tuning.spring.name });

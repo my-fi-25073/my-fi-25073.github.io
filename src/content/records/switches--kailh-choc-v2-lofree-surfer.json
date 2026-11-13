@@ -138,6 +138,21 @@
               "height": 880
             }
           ]
+        },
+        {
+          "alt": "Kailh Choc v2 Lofree Surfer 사진 5",
+          "variants": [
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-640.avif",
+              "width": 640,
+              "height": 460
+            },
+            {
+              "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-1280.avif",
+              "width": 1189,
+              "height": 855
+            }
+          ]
         }
       ]
     }
@@ -176,6 +191,21 @@
           "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-1280.avif",
           "width": 1192,
           "height": 880
+        }
+      ]
+    },
+    {
+      "alt": "Kailh Choc v2 Lofree Surfer 사진 5",
+      "variants": [
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/kailh-choc-v2-lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-1280.avif",
+          "width": 1189,
+          "height": 855
         }
       ]
     }

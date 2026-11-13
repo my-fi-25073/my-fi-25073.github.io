@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mt3-dasher",
-  "title": "Drop Dasher",
+  "title": "MT3 Dasher",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop Dasher Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/mt3-dasher/kit-823849c5f9641b38-source-gallery-0-3a245366c2ec-640.avif",
@@ -44,7 +44,7 @@
   ],
   "images": [
     {
-      "alt": "Drop Dasher 이미지 1",
+      "alt": "MT3 Dasher 이미지 1",
       "variants": [
         {
           "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-0-4902c8937db6-640.avif",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "alt": "Drop Dasher 이미지 2",
+      "alt": "MT3 Dasher 이미지 2",
       "variants": [
         {
           "src": "/media/mt3-dasher/series-658a56248132dea5-source-gallery-1-94fbc879deeb-640.avif",

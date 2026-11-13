@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dolch-r5x",
-  "title": "GMK CYL Dolch R5X",
+  "title": "Dolch R5X",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-0-4be8f726fc98-640.avif",
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Dolch R5X Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-99ade964ca008123-source-gallery-1-db81bac10e9a-640.avif",
@@ -76,22 +76,17 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X Monochrome Extension 이미지 1",
+          "alt": "Monochrome Extension 이미지 1",
           "variants": [
             {
-              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-640.avif",
+              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-gallery-0-418171db81b2-640.avif",
               "width": 640,
-              "height": 408
+              "height": 711
             },
             {
-              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-1280.avif",
-              "width": 1280,
-              "height": 816
-            },
-            {
-              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-source-gallery-0-a4e6cd2febf1-2400.avif",
-              "width": 2048,
-              "height": 1305
+              "src": "/media/dolch-r5x/kit-8ecba6c95c1d657c-gallery-0-418171db81b2-1280.avif",
+              "width": 828,
+              "height": 920
             }
           ]
         }
@@ -105,7 +100,22 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X Monochrome Novelty 이미지 1",
+          "alt": "Monochrome Novelty 이미지 1",
+          "variants": [
+            {
+              "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-gallery-0-83fc7fa876d4-640.avif",
+              "width": 640,
+              "height": 714
+            },
+            {
+              "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-gallery-0-83fc7fa876d4-1280.avif",
+              "width": 801,
+              "height": 893
+            }
+          ]
+        },
+        {
+          "alt": "Monochrome Novelty 이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-b8dae44a9c4d8689-source-gallery-0-7cf4c2acba38-640.avif",
@@ -134,7 +144,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X R5 Extension  이미지 1",
+          "alt": "R5 Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-e8a31db777ce2b24-source-gallery-0-4116202a2a66-640.avif",
@@ -158,7 +168,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X R5X Extension  이미지 1",
+          "alt": "R5X Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-7ec535a165a472f0-source-gallery-0-b19314d36bbf-640.avif",
@@ -187,7 +197,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Dolch R5X R5X Extension  이미지 1",
+          "alt": "R5X Extension  이미지 1",
           "variants": [
             {
               "src": "/media/dolch-r5x/kit-03a1deab85563307-source-gallery-0-e3f1ee4f4cab-640.avif",
@@ -211,7 +221,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Dolch R5X 이미지 1",
+      "alt": "Dolch R5X 이미지 1",
       "variants": [
         {
           "src": "/media/dolch-r5x/series-e9b043baa19a29fe-source-gallery-0-cdb5c89989b7-640.avif",

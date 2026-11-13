@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pharaoh",
-  "title": "GMK CYL Pharaoh",
+  "title": "Pharaoh",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Pharaoh 40s 이미지 1",
+          "alt": "40s 이미지 1",
           "variants": [
             {
               "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Pharaoh Ancients 이미지 1",
+          "alt": "Ancients 이미지 1",
           "variants": [
             {
               "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-640.avif",
@@ -81,7 +81,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Pharaoh Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/pharaoh/kit-22294e7ba0c199ca-source-gallery-0-876d8613049e-640.avif",
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Pharaoh Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/pharaoh/kit-22294e7ba0c199ca-source-gallery-1-657f57cf44f2-640.avif",
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Pharaoh Base 이미지 3",
+          "alt": "Base 이미지 3",
           "variants": [
             {
               "src": "/media/pharaoh/kit-22294e7ba0c199ca-source-gallery-2-6351eb82a484-640.avif",
@@ -150,7 +150,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Pharaoh Numpad 이미지 1",
+          "alt": "Numpad 이미지 1",
           "variants": [
             {
               "src": "/media/pharaoh/kit-4eeac2ad9cb4bcbb-source-gallery-0-a84686856413-640.avif",
@@ -174,7 +174,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Pharaoh 이미지 1",
+      "alt": "Pharaoh 이미지 1",
       "variants": [
         {
           "src": "/media/pharaoh/series-60f7dac01c8767c9-source-gallery-0-4c9d74224b93-640.avif",

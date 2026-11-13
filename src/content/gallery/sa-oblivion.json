@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "sa-oblivion",
-  "title": "SP Oblivion",
+  "title": "SA Oblivion",
   "category": "keycaps",
   "manufacturer": "SP",
   "profile": "SA",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion 7u Space Bar 이미지 1",
+          "alt": "7u Space Bar 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-640.avif",
@@ -54,7 +54,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion Assembly 이미지 1",
+          "alt": "Assembly 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-640.avif",
@@ -83,7 +83,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion Hagoromo Askii Alpha 이미지 1",
+          "alt": "Hagoromo Askii Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5d3d7966ffb726cf-source-gallery-0-88f931bf5d1f-640.avif",
@@ -112,7 +112,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion Monochorome Modifier 이미지 1",
+          "alt": "Monochorome Modifier 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-5ee5f0cc618cd6bb-source-gallery-0-b01bd797abed-640.avif",
@@ -141,7 +141,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion Oblivion Askii Alpha 이미지 1",
+          "alt": "Oblivion Askii Alpha 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-640.avif",
@@ -170,7 +170,7 @@
       ],
       "images": [
         {
-          "alt": "SP Oblivion VIM 이미지 1",
+          "alt": "VIM 이미지 1",
           "variants": [
             {
               "src": "/media/sa-oblivion/kit-f165116313b3143d-source-gallery-0-d7d8024a344e-640.avif",
@@ -194,7 +194,7 @@
   ],
   "images": [
     {
-      "alt": "SP Oblivion 이미지 1",
+      "alt": "SA Oblivion 이미지 1",
       "variants": [
         {
           "src": "/media/sa-oblivion/series-8387e146e2cbcc67-source-gallery-0-48b65f00a22b-640.avif",

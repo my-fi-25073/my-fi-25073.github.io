@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "ntd",
-  "title": "GMK CYL NTD",
+  "title": "NTD",
   "category": "keycaps",
+  "hideFromArchive": true,
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
   "manufacturingProcess": "Double Shot",
@@ -28,7 +29,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL NTD 30 Lives 이미지 1",
+          "alt": "30 Lives 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-71f373b9cab5003b-source-gallery-0-5399507ffd6e-640.avif",
@@ -57,7 +58,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL NTD Extension 이미지 1",
+          "alt": "Extension 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-7936e57bd4e06953-source-gallery-0-96200f6736b6-640.avif",
@@ -86,7 +87,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL NTD Space Bars 이미지 1",
+          "alt": "Space Bars 이미지 1",
           "variants": [
             {
               "src": "/media/ntd/kit-b86552f93fc9727e-source-gallery-0-b9147f4c5ad1-640.avif",
@@ -110,7 +111,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL NTD 이미지 1",
+      "alt": "NTD 이미지 1",
       "variants": [
         {
           "src": "/media/ntd/series-0cb3c7196e074061-source-gallery-0-c0b6463ac104-640.avif",

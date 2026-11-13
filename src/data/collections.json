@@ -280,7 +280,7 @@
     },
     {
       "id": "public-keycap-beiges",
-      "name": "Beiges",
+      "name": "Begies",
       "entityKind": "keycap_series",
       "predicate": {
         "all": [
@@ -324,11 +324,11 @@
           "URSA"
         ]
       },
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "public-keycap-cherry-clone",
-      "name": "Cherry-Clone",
+      "name": "Cherry Clones",
       "entityKind": "keycap_series",
       "predicate": {
         "all": [
@@ -369,35 +369,28 @@
           "SWG"
         ]
       },
-      "revision": 1
+      "revision": 2
     },
     {
-      "id": "public-keycap-fkcaps",
-      "name": "FKCaps",
+      "id": "public-keycap-chosfox",
+      "name": "Chosfox",
       "entityKind": "keycap_series",
       "predicate": {
         "all": [
           {
-            "field": "profile",
-            "operator": "in",
-            "value": [
-              "MBK",
-              "URSA"
-            ]
+            "field": "manufacturer",
+            "operator": "equals",
+            "value": "Chosfox"
           }
         ]
       },
       "sort": [
         {
-          "field": "manufacturer",
-          "direction": "asc"
-        },
-        {
           "field": "profile",
           "direction": "asc"
         },
         {
-          "field": "colors[]",
+          "field": "title",
           "direction": "asc"
         }
       ],
@@ -405,8 +398,9 @@
         "field": "profile",
         "unit": "value",
         "order": [
-          "MBK",
-          "URSA"
+          "CFX",
+          "LCK",
+          "LAK"
         ]
       },
       "revision": 1
@@ -465,6 +459,32 @@
       "revision": 1
     },
     {
+      "id": "public-keycap-hammerworks",
+      "name": "Hammerworks",
+      "entityKind": "keycap_series",
+      "predicate": {
+        "all": [
+          {
+            "field": "manufacturer",
+            "operator": "equals",
+            "value": "Hammerworks"
+          }
+        ]
+      },
+      "sort": [
+        {
+          "field": "profile",
+          "direction": "asc"
+        },
+        {
+          "field": "title",
+          "direction": "asc"
+        }
+      ],
+      "group": null,
+      "revision": 1
+    },
+    {
       "id": "public-keycap-keyreative",
       "name": "Keyreative",
       "entityKind": "keycap_series",
@@ -476,7 +496,9 @@
             "value": [
               "KAM",
               "PBS",
-              "KAT"
+              "KAT",
+              "MBK",
+              "URSA"
             ]
           }
         ]
@@ -500,14 +522,16 @@
         "unit": "value",
         "order": [
           "KAM",
-          "PBS"
+          "PBS",
+          "MBK",
+          "URSA"
         ]
       },
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "public-keycap-low-profiles",
-      "name": "Low Profiles",
+      "name": "Low Profile",
       "entityKind": "keycap_series",
       "predicate": {
         "all": [
@@ -522,7 +546,8 @@
               "OEM-ULP",
               "LCK",
               "CFX",
-              "LAK"
+              "LAK",
+              "PFF"
             ]
           }
         ]
@@ -556,7 +581,7 @@
           "PFF"
         ]
       },
-      "revision": 1
+      "revision": 3
     },
     {
       "id": "public-keycap-matt3o",
@@ -571,7 +596,8 @@
               "MT3",
               "MT4",
               "PBS",
-              "MTNU"
+              "MTNU",
+              "PFF"
             ]
           }
         ]
@@ -596,10 +622,11 @@
         "order": [
           "MTNU",
           "PBS",
-          "MT3"
+          "MT3",
+          "PFF"
         ]
       },
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "public-keycap-signature-plastics",
@@ -1120,7 +1147,7 @@
     {
       "id": "keycap-beiges",
       "queryId": "public-keycap-beiges",
-      "name": "Beiges",
+      "name": "Begies",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -1131,12 +1158,28 @@
         ]
       },
       "eligibility": {},
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "keycap-cherry-clone",
       "queryId": "public-keycap-cherry-clone",
-      "name": "Cherry-Clone",
+      "name": "Cherry Clones",
+      "layout": "gallery",
+      "projection": {
+        "route": "/keycaps/",
+        "cardFields": [
+          "title",
+          "manufacturer",
+          "profile"
+        ]
+      },
+      "eligibility": {},
+      "revision": 2
+    },
+    {
+      "id": "keycap-chosfox",
+      "queryId": "public-keycap-chosfox",
+      "name": "Chosfox",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -1169,10 +1212,11 @@
         },
         "views": [
           "keycap-gmk",
-          "keycap-cherry-clone",
           "keycap-signature-plastics",
+          "keycap-hammerworks",
           "keycap-keyreative",
-          "keycap-fkcaps",
+          "keycap-chosfox",
+          "keycap-cherry-clone",
           "keycap-low-profiles",
           "keycap-matt3o",
           "keycap-beiges"
@@ -1182,9 +1226,9 @@
       "revision": 1
     },
     {
-      "id": "keycap-fkcaps",
-      "queryId": "public-keycap-fkcaps",
-      "name": "FKCaps",
+      "id": "keycap-gmk",
+      "queryId": "public-keycap-gmk",
+      "name": "GMK",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -1198,9 +1242,9 @@
       "revision": 1
     },
     {
-      "id": "keycap-gmk",
-      "queryId": "public-keycap-gmk",
-      "name": "GMK",
+      "id": "keycap-hammerworks",
+      "queryId": "public-keycap-hammerworks",
+      "name": "Hammerworks",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -1227,12 +1271,12 @@
         ]
       },
       "eligibility": {},
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "keycap-low-profiles",
       "queryId": "public-keycap-low-profiles",
-      "name": "Low Profiles",
+      "name": "Low Profile",
       "layout": "gallery",
       "projection": {
         "route": "/keycaps/",
@@ -1243,7 +1287,7 @@
         ]
       },
       "eligibility": {},
-      "revision": 1
+      "revision": 3
     },
     {
       "id": "keycap-matt3o",
@@ -1259,7 +1303,7 @@
         ]
       },
       "eligibility": {},
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "keycap-signature-plastics",

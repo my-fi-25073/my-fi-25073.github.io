@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "pff-space-cadet-custom",
-  "title": "Keyreative Space Cadet Custom",
+  "title": "PFF Space Cadet Custom",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PFF",
@@ -27,22 +27,17 @@
       ],
       "images": [
         {
-          "alt": "Keyreative Space Cadet Custom Castor Base 이미지 1",
+          "alt": "Castor Base 이미지 1",
           "variants": [
             {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-640.avif",
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-640.avif",
               "width": 640,
-              "height": 394
+              "height": 497
             },
             {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-1280.avif",
-              "width": 1280,
-              "height": 788
-            },
-            {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-source-gallery-0-b3ead51bc38a-2400.avif",
-              "width": 2048,
-              "height": 1261
+              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-1280.avif",
+              "width": 911,
+              "height": 707
             }
           ]
         }
@@ -51,7 +46,7 @@
   ],
   "images": [
     {
-      "alt": "Keyreative Space Cadet Custom 이미지 1",
+      "alt": "PFF Space Cadet Custom 이미지 1",
       "variants": [
         {
           "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-640.avif",

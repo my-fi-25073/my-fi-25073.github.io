@@ -23,7 +23,9 @@ interface Props {
 const { entry } = Astro.props;
 const record = entry.data;
 const fields = buildDomainFields(record);
-const tunings = publicSwitchTunings(record);
+const tunings = publicSwitchTunings(record).toSorted((a, b) => (
+  Number(b.tuning.isFactoryConfiguration === true) - Number(a.tuning.isFactoryConfiguration === true)
+));
 function lubeLabel(lube: (typeof record.tunings)[number]['lubrication']['stem']) {
   if (lube.state === 'factory') return 'Factory';
   if (lube.state === 'none') return 'Unlubed';
@@ -67,6 +69,7 @@ const directProductImages = record.images.filter((image) => (
           {tunings.map(({ label, href, tuning }) => {
             const photo = tuning.images[0]?.variants[0];
             const details = [
+              ['Actuation', tuning.switchSpecifications?.actuationForce],
               ['Spring', tuning.spring.resolution === 'selected' ? tuning.spring.name : null],
               ['Stem lube', lubeLabel(tuning.lubrication.stem)],
               ['Spring lube', lubeLabel(tuning.lubrication.spring)],

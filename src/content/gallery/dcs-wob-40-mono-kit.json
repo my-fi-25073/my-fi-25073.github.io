@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "dcs-wob-40-mono-kit",
-  "title": "SP WoB 40% Mono Kit",
+  "title": "DCS WoB 40% Mono Kit",
   "category": "keycaps",
   "manufacturer": "SP",
   "profile": "DCS",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "SP WoB 40% Mono Kit Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-0-1d0f936b6c18-640.avif",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "alt": "SP WoB 40% Mono Kit Base 이미지 2",
+          "alt": "Base 이미지 2",
           "variants": [
             {
               "src": "/media/dcs-wob-40-mono-kit/kit-ef647de1577f16c1-source-gallery-1-c2de87e2c174-640.avif",
@@ -69,7 +69,7 @@
   ],
   "images": [
     {
-      "alt": "SP WoB 40% Mono Kit 이미지 1",
+      "alt": "DCS WoB 40% Mono Kit 이미지 1",
       "variants": [
         {
           "src": "/media/dcs-wob-40-mono-kit/series-32302f7194a493d8-source-gallery-0-58e96f5eaffc-640.avif",

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "minimal",
-  "title": "GMK CYL Minimal",
+  "title": "Minimal",
   "category": "keycaps",
   "manufacturer": "GMK",
   "profile": "Cherry-CYL",
@@ -27,7 +27,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal 40s Kit 이미지 1",
+          "alt": "40s Kit 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-640.avif",
@@ -56,7 +56,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal BoW (GMK) Hiragana Kit 이미지 1",
+          "alt": "BoW (GMK) Hiragana Kit 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-640.avif",
@@ -80,7 +80,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal BRG Space Bar kit 이미지 1",
+          "alt": "BRG Space Bar kit 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-640.avif",
@@ -104,7 +104,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal Classic BoW 40s (Cannon Key) 이미지 1",
+          "alt": "Classic BoW 40s (Cannon Key) 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-640.avif",
@@ -128,7 +128,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal Command Kit 이미지 1",
+          "alt": "Command Kit 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-640.avif",
@@ -157,7 +157,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal JIS Space bar 이미지 1",
+          "alt": "JIS Space bar 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-640.avif",
@@ -186,7 +186,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal Minimal Base 이미지 1",
+          "alt": "Minimal Base 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-0-480ad941444d-640.avif",
@@ -206,7 +206,7 @@
           ]
         },
         {
-          "alt": "GMK CYL Minimal Minimal Base 이미지 2",
+          "alt": "Minimal Base 이미지 2",
           "variants": [
             {
               "src": "/media/minimal/kit-4feb23b8f45511c6-source-gallery-1-b313ec64dfc3-640.avif",
@@ -235,7 +235,7 @@
       ],
       "images": [
         {
-          "alt": "GMK CYL Minimal Modern Japanese Desko HHKB 이미지 1",
+          "alt": "Modern Japanese Desko HHKB 이미지 1",
           "variants": [
             {
               "src": "/media/minimal/kit-658b2a3b2e9548a5-source-gallery-0-302181990900-640.avif",
@@ -259,7 +259,7 @@
   ],
   "images": [
     {
-      "alt": "GMK CYL Minimal 이미지 1",
+      "alt": "Minimal 이미지 1",
       "variants": [
         {
           "src": "/media/minimal/series-28277db0e945f1c7-source-gallery-0-9dd77f0ae881-640.avif",

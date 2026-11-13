@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "biip-operator",
-  "title": "Drop MT3 biip Operator",
+  "title": "biip Operator",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 biip Operator Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/biip-operator/kit-767c4cc0534b8001-source-gallery-0-a71169cd4409-640.avif",
@@ -50,7 +50,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 biip Operator Function 이미지 1",
+          "alt": "Function 이미지 1",
           "variants": [
             {
               "src": "/media/biip-operator/kit-93e80fed562fd4c9-source-gallery-0-2d368be42f53-640.avif",
@@ -74,7 +74,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 biip Operator Nomad Base 이미지 1",
+          "alt": "Nomad Base 이미지 1",
           "variants": [
             {
               "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-640.avif",
@@ -93,7 +93,7 @@
   ],
   "images": [
     {
-      "alt": "Drop MT3 biip Operator 이미지 1",
+      "alt": "biip Operator 이미지 1",
       "variants": [
         {
           "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-0-4902c8937db6-640.avif",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 biip Operator 이미지 2",
+      "alt": "biip Operator 이미지 2",
       "variants": [
         {
           "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-1-ff9a978b3fed-640.avif",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 biip Operator 이미지 3",
+      "alt": "biip Operator 이미지 3",
       "variants": [
         {
           "src": "/media/biip-operator/series-7ab76614eb6ed3b4-source-gallery-2-dae598795d82-640.avif",

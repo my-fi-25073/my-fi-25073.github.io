@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "mito-noctua",
-  "title": "Drop MT3 MiTo Noctua",
+  "title": "MiTo Noctua",
   "category": "keycaps",
   "manufacturer": "Drop",
   "profile": "MT3",
@@ -25,7 +25,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 MiTo Noctua Base 이미지 1",
+          "alt": "Base 이미지 1",
           "variants": [
             {
               "src": "/media/mito-noctua/kit-e1b17a1d0be806ac-source-gallery-0-1f6faa917420-640.avif",
@@ -49,7 +49,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 MiTo Noctua Hobbyist 이미지 1",
+          "alt": "Hobbyist 이미지 1",
           "variants": [
             {
               "src": "/media/mito-noctua/kit-6e664f147cce0a79-source-gallery-0-cb76eb564c0c-640.avif",
@@ -73,7 +73,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 MiTo Noctua Numpad 이미지 1",
+          "alt": "Numpad 이미지 1",
           "variants": [
             {
               "src": "/media/mito-noctua/kit-3e4c696ba919917b-source-gallery-0-c01eba9b654e-640.avif",
@@ -97,7 +97,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 MiTo Noctua Ortho 이미지 1",
+          "alt": "Ortho 이미지 1",
           "variants": [
             {
               "src": "/media/mito-noctua/kit-63fd18ffd485d6e2-source-gallery-0-d20281a8a41d-640.avif",
@@ -121,7 +121,7 @@
       ],
       "images": [
         {
-          "alt": "Drop MT3 MiTo Noctua Spacebars 이미지 1",
+          "alt": "Spacebars 이미지 1",
           "variants": [
             {
               "src": "/media/mito-noctua/kit-57564ce46ab5cb89-source-gallery-0-c453c7d59126-640.avif",
@@ -140,7 +140,7 @@
   ],
   "images": [
     {
-      "alt": "Drop MT3 MiTo Noctua 이미지 1",
+      "alt": "MiTo Noctua 이미지 1",
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-0-3678cee5033d-640.avif",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 MiTo Noctua 이미지 2",
+      "alt": "MiTo Noctua 이미지 2",
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-gallery-1-623ca82020a3-640.avif",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "alt": "Drop MT3 MiTo Noctua 이미지 1",
+      "alt": "MiTo Noctua 이미지 1",
       "variants": [
         {
           "src": "/media/mito-noctua/series-d7212d2f245c111c-source-body-0-37494b7358c9-640.avif",

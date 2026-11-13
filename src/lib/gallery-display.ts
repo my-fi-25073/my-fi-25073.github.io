@@ -33,16 +33,11 @@ const manufacturingProcessLabels: Record<string, string> = {
   '3D Print': '3D 프린팅',
 };
 
-export function keycapProfileLabel(profile: string, manufacturer?: string | null) {
-  if (profile === 'Cherry-CYL') return manufacturer === 'GMK' ? 'CYL' : '체리 프로파일';
-  return profile;
-}
-
 const seriesDefinitions: Record<string, FieldDefinition<SeriesRecord>> = {
   manufacturer: { label: '제조사', read: (record) => record.manufacturer },
   profile: {
     label: '프로파일',
-    read: (record) => record.profile ? keycapProfileLabel(record.profile, record.manufacturer) : null,
+    read: (record) => record.profile,
   },
   materials: { label: '소재', read: (record) => record.materials },
   manufacturingProcess: {
