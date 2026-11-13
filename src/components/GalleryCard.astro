@@ -108,19 +108,34 @@ const searchText = [
 </article>
 
 <script>
-  const showKitPhoto = (event: Event) => {
-    if (event instanceof PointerEvent && event.pointerType === 'touch') return;
-    const link = event.target instanceof Element ? event.target.closest('.gallery-card-link') : null;
-    const template = link?.querySelector<HTMLTemplateElement>('template[data-kit-preview]');
+  const previewLink = (target: EventTarget | null) => target instanceof Element
+    ? target.closest<HTMLElement>('.gallery-card-link:has(.has-kit-preview)') : null;
+
+  function loadKitPhoto(link: HTMLElement) {
+    const template = link.querySelector<HTMLTemplateElement>('template[data-kit-preview]');
     if (!template) return;
     const preview = template.content.querySelector('img');
     if (!preview) return;
     preview.addEventListener('load', () => { preview.dataset.loaded = ''; }, { once: true });
     template.replaceWith(preview);
     if (preview.complete && preview.naturalWidth > 0) preview.dataset.loaded = '';
-  };
-  document.addEventListener('pointerover', showKitPhoto);
-  document.addEventListener('focusin', showKitPhoto);
+  }
+
+  document.addEventListener('pointerover', (event) => {
+    if (event.pointerType === 'touch') return;
+    const link = previewLink(event.target);
+    if (!link || link === previewLink(event.relatedTarget)) return;
+    link.dataset.kitHovered = '';
+    loadKitPhoto(link);
+  });
+  document.addEventListener('pointerout', (event) => {
+    const link = previewLink(event.target);
+    if (link && link !== previewLink(event.relatedTarget)) delete link.dataset.kitHovered;
+  });
+  document.addEventListener('focusin', (event) => {
+    const link = previewLink(event.target);
+    if (link?.matches(':focus-visible')) loadKitPhoto(link);
+  });
 </script>
 
 <style>
@@ -133,8 +148,5 @@ const searchText = [
     opacity: 0;
     pointer-events: none;
   }
-  .gallery-card-link:focus-visible .kit-preview-photo[data-loaded] { opacity: 1; }
-  @media (hover: hover) {
-    .gallery-card-link:hover .kit-preview-photo[data-loaded] { opacity: 1; }
-  }
+  .gallery-card-link:is([data-kit-hovered], :focus-visible) .kit-preview-photo[data-loaded] { opacity: 1; }
 </style>
