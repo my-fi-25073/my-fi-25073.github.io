@@ -99,7 +99,7 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
   const forceParts = String(value?.springLabel?.force ?? '').match(/^(\d+(?:\.\d+)?)\s*(.*)$/u);
   const forceLabel = forceParts ? `${escapeHtml(forceParts[1])}<small class="kl-spring-unit">${escapeHtml(forceParts[2])}</small>` : escapeHtml(value?.springLabel?.force);
   const label = src && value.springLabel
-    ? `<div class="kl-spring-label"><span class="kl-spring-series">${escapeHtml(value.springLabel.series)}</span><strong class="kl-spring-force">${forceLabel}</strong></div>`
+    ? `<div class="kl-spring-label"><span class="kl-spring-series">${escapeHtml(value.springLabel.series).replace(/ (\d+)$/u, '\u00a0$1')}</span><strong class="kl-spring-force">${forceLabel}</strong></div>`
     : src && value.brandLabel ? `<span class="kl-brand-label">${escapeHtml(value.brandLabel)}</span>` : '';
   return `<div class="kl-media" data-gallery-kind="${iconKind(kind)}" data-gallery-aspect="${aspect}" style="--kl-media-aspect:${aspect.replace(':', '/')}" data-media-kind="${mode}"${value?.framed ? ' data-preframed="true"' : ''}${value?.preserveColor ? ' data-preserve-color="true"' : ''}${value?.springLabel ? ' data-spring-label="true"' : ''}${label ? ' data-brand-label="true"' : ''}${src ? '' : ' data-placeholder="true"'} data-placeholder-kind="${iconKind(kind)}">${imageHtml}${src ? label : iconMarkup(kind) + logoHtml}</div>`;
 }

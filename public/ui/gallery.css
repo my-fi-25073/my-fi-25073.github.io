@@ -61,7 +61,7 @@
 .kl-media[data-spring-label="true"] > img { width: 100%; height: auto; object-fit: contain; transform: scale(1.35); }
 @font-face { font-family: 'Keylog Label'; src: url('/ui/fonts/Michroma-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
 .kl-spring-label { display: grid; align-content: center; gap: 8px; min-width: 0; width: 100%; font-family: 'Keylog Label', sans-serif; font-synthesis: none; color: var(--color-ink, var(--ink, #191919)); }
-.kl-spring-series { font-size: clamp(9px, 5.2cqi, 13px); font-weight: 400; letter-spacing: .045em; line-height: 1.6; text-transform: uppercase; overflow-wrap: normal; }
+.kl-spring-series { font-size: clamp(8px, 4.5cqi, 12px); font-weight: 400; letter-spacing: .045em; line-height: 1.6; text-transform: uppercase; overflow-wrap: normal; text-wrap: balance; }
 .kl-spring-force { font-size: clamp(18px, 12cqi, 32px); font-weight: 400; letter-spacing: .025em; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .kl-spring-unit { margin-inline-start: .12em; font-size: .45em; font-weight: 400; }
 .kl-media-error { padding: 1rem; font-size: .8125rem; color: var(--color-muted, var(--muted, #666)); }
