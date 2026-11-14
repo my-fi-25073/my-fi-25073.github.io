@@ -12,10 +12,12 @@ const { gallery, groups = [], headingLevel = 2, showProfile = false } = Astro.pr
 const cover = gallery.images[0];
 const assetDigest = (path: string) => /-([a-f0-9]{12})-\d+\.(?:avif|webp)$/u.exec(path)?.[1];
 const coverDigest = cover && assetDigest(cover.variants[0].src);
-const kitPhotos = gallery.kits.flatMap((kit) => kit.images)
-  .filter(({ variants }) => variants.length && (!coverDigest || assetDigest(variants[0].src) !== coverDigest));
-const kitPhoto = kitPhotos.find(({ variants }) => /-gallery-\d+-/u.test(variants[0].src)
-  && !/-source-gallery-\d+-/u.test(variants[0].src)) ?? kitPhotos[0];
+const kitPhoto = gallery.kits.map((kit) => {
+  const photos = kit.images.filter(({ variants }) => variants.length
+    && (!coverDigest || assetDigest(variants[0].src) !== coverDigest));
+  return photos.find(({ variants }) => /-gallery-\d+-/u.test(variants[0].src)
+    && !/-source-gallery-\d+-/u.test(variants[0].src)) ?? photos[0];
+}).find(Boolean);
 const cardKeys = galleryDisplay.homeCard;
 const metadata = buildSeriesFields(gallery, showProfile && !cardKeys.includes('profile') ? [...cardKeys, 'profile'] : cardKeys);
 const searchText = [gallery.title, gallery.manufacturer ?? '', gallery.profile ?? '', ...gallery.kits.map((kit) => kit.title)].join(' ').toLocaleLowerCase('ko');
