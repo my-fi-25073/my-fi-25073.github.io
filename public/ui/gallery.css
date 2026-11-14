@@ -55,14 +55,14 @@
 .kl-media[data-placeholder="true"] > .kl-spring-illustration { width: min(52%, 108px); object-fit: contain; filter: none; }
 .kl-media[data-placeholder="true"] > .kl-placeholder-logo { display: block; width: 34%; height: 18%; max-height: 44px; object-fit: contain; flex: 0 0 auto; filter: brightness(0); }
 .kl-media[data-placeholder="true"] > .kl-placeholder-logo[data-preserve-color="true"] { filter: none; }
-.kl-media[data-gallery-kind="spring"][data-placeholder="true"] > .kl-placeholder-logo { width: min(32%, 72px); height: 18px; filter: grayscale(1); mix-blend-mode: multiply; }
+.kl-media[data-gallery-kind="spring"][data-placeholder="true"] > .kl-placeholder-logo { width: min(48%, 120px); height: 28px; filter: grayscale(1) contrast(2); mix-blend-mode: multiply; }
 .kl-brand-label { position: absolute; inset-inline: 6%; bottom: 6%; font-size: clamp(12px, 1.1vw, 17px); font-weight: 600; line-height: 1.3; text-align: center; }
-.kl-media[data-spring-label="true"] { grid-template-columns: 42% minmax(0, 1fr); gap: 4%; padding: 8%; container-type: inline-size; }
-.kl-media[data-spring-label="true"] > img { width: 100%; height: auto; object-fit: contain; }
+.kl-media[data-spring-label="true"] { grid-template-columns: 48% minmax(0, 1fr); align-items: center; gap: 6%; padding: 8%; container-type: inline-size; }
+.kl-media[data-spring-label="true"] > img { width: 100%; height: auto; object-fit: contain; transform: scale(1.35); }
 @font-face { font-family: 'Keylog Label'; src: url('/ui/fonts/Michroma-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; font-display: swap; }
-.kl-spring-label { display: grid; gap: 8px; min-width: 0; width: 100%; font-family: 'Keylog Label', sans-serif; color: var(--color-ink, var(--ink, #191919)); }
-.kl-spring-series { font-size: clamp(9px, 5.2cqi, 13px); font-weight: 600; letter-spacing: .045em; line-height: 1.6; text-transform: uppercase; overflow-wrap: normal; }
-.kl-spring-force { font-size: clamp(18px, 12cqi, 32px); font-weight: 700; letter-spacing: .025em; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kl-spring-label { display: grid; align-content: center; gap: 8px; min-width: 0; width: 100%; font-family: 'Keylog Label', sans-serif; font-synthesis: none; color: var(--color-ink, var(--ink, #191919)); }
+.kl-spring-series { font-size: clamp(9px, 5.2cqi, 13px); font-weight: 400; letter-spacing: .045em; line-height: 1.6; text-transform: uppercase; overflow-wrap: normal; }
+.kl-spring-force { font-size: clamp(18px, 12cqi, 32px); font-weight: 400; letter-spacing: .025em; line-height: 1.1; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .kl-spring-unit { margin-inline-start: .12em; font-size: .45em; font-weight: 400; }
 .kl-media-error { padding: 1rem; font-size: .8125rem; color: var(--color-muted, var(--muted, #666)); }
 .kl-card-copy { display: grid; gap: 6px; padding: 11px 2px 0; }
