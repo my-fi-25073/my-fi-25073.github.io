@@ -19,38 +19,6 @@
   ],
   "kits": [
     {
-      "slug": "blaanks-white",
-      "title": "Blaanks White",
-      "kittingTypes": [
-        "Base - Custom"
-      ],
-      "images": [
-        {
-          "alt": "Blaanks White 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-640.avif",
-              "width": 640,
-              "height": 503
-            },
-            {
-              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-1280.avif",
-              "width": 997,
-              "height": 784
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "blanks-black",
       "title": "Blanks Black",
       "kittingTypes": [
@@ -77,6 +45,38 @@
               "src": "/media/klp-blanks-fkcaps/kit-c694c8d1fffbff32-gallery-0-b01087284fc6-1280.avif",
               "width": 968,
               "height": 673
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blaanks-white",
+      "title": "Blaanks White",
+      "kittingTypes": [
+        "Base - Custom"
+      ],
+      "images": [
+        {
+          "alt": "Blaanks White 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-640.avif",
+              "width": 640,
+              "height": 503
+            },
+            {
+              "src": "/media/klp-blanks-fkcaps/kit-caeee59df0cfe383-gallery-0-edb20327f522-1280.avif",
+              "width": 997,
+              "height": 784
             }
           ]
         }

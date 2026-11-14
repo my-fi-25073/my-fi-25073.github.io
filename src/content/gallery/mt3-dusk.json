@@ -18,38 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "accents",
-      "title": "Accents",
-      "kittingTypes": [
-        "Accent - Vim"
-      ],
-      "images": [
-        {
-          "alt": "Accents 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-640.avif",
-              "width": 640,
-              "height": 424
-            },
-            {
-              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-1280.avif",
-              "width": 1042,
-              "height": 690
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "base",
       "title": "Base",
       "kittingTypes": [
@@ -76,6 +44,38 @@
               "src": "/media/mt3-dusk/kit-a776b2256754634c-source-gallery-0-89ccbc609b15-1280.avif",
               "width": 1043,
               "height": 679
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "accents",
+      "title": "Accents",
+      "kittingTypes": [
+        "Accent - Vim"
+      ],
+      "images": [
+        {
+          "alt": "Accents 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/mt3-dusk/kit-70f2b80aa80fd39a-source-gallery-0-7043389952ee-1280.avif",
+              "width": 1042,
+              "height": 690
             }
           ]
         }

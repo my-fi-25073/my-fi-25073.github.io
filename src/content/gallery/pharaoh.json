@@ -20,75 +20,6 @@
   ],
   "kits": [
     {
-      "slug": "40s",
-      "title": "40s",
-      "kittingTypes": [
-        "Modifier - Obscure"
-      ],
-      "images": [
-        {
-          "alt": "40s 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "ancients",
-      "title": "Ancients",
-      "kittingTypes": [
-        "Child - Novelties"
-      ],
-      "images": [
-        {
-          "alt": "Ancients 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-640.avif",
-              "width": 640,
-              "height": 485
-            },
-            {
-              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-1280.avif",
-              "width": 1024,
-              "height": 776
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "base",
       "title": "Base",
       "kittingTypes": [
@@ -183,6 +114,43 @@
       ]
     },
     {
+      "slug": "40s",
+      "title": "40s",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "40s 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pharaoh/kit-d8e7f52e857daf3b-source-gallery-0-b5c6e5bff8d3-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "numpad",
       "title": "Numpad",
       "kittingTypes": [
@@ -214,6 +182,38 @@
               "src": "/media/pharaoh/kit-4eeac2ad9cb4bcbb-source-gallery-0-a84686856413-2400.avif",
               "width": 2048,
               "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ancients",
+      "title": "Ancients",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "images": [
+        {
+          "alt": "Ancients 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-640.avif",
+              "width": 640,
+              "height": 485
+            },
+            {
+              "src": "/media/pharaoh/kit-7cf68d717b947720-source-gallery-0-c2bef73a6cfe-1280.avif",
+              "width": 1024,
+              "height": 776
             }
           ]
         }

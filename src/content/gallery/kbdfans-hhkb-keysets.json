@@ -18,74 +18,37 @@
   ],
   "kits": [
     {
-      "slug": "9009-accent",
-      "title": "9009 Accent",
+      "slug": "pom-white-base",
+      "title": "POM White Base",
       "kittingTypes": [
-        "Accent -  9009"
+        "Base - Simple"
       ],
       "images": [
         {
-          "alt": "9009 Accent 이미지 1",
+          "alt": "POM White Base 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-640.avif",
               "width": 640,
-              "height": 472
+              "height": 390
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-1280.avif",
               "width": 1280,
-              "height": 943
+              "height": 781
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-2400.avif",
-              "width": 1528,
-              "height": 1126
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "blue-simple-alpha",
-      "title": "Blue Simple Alpha",
-      "kittingTypes": [
-        "Alpha - Blanks"
-      ],
-      "images": [
-        {
-          "alt": "Blue Simple Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-640.avif",
-              "width": 640,
-              "height": 369
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-1280.avif",
-              "width": 1280,
-              "height": 738
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-2400.avif",
-              "width": 1572,
-              "height": 906
+              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-2400.avif",
+              "width": 1630,
+              "height": 994
             }
           ]
         }
@@ -129,6 +92,80 @@
       ]
     },
     {
+      "slug": "mint-alpha",
+      "title": "Mint Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "images": [
+        {
+          "alt": "Mint Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-640.avif",
+              "width": 640,
+              "height": 348
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-1280.avif",
+              "width": 1280,
+              "height": 696
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-2400.avif",
+              "width": 1670,
+              "height": 908
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "teal-alpha",
+      "title": "Teal Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "images": [
+        {
+          "alt": "Teal Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-640.avif",
+              "width": 640,
+              "height": 340
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-1280.avif",
+              "width": 1280,
+              "height": 679
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-2400.avif",
+              "width": 1624,
+              "height": 862
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "lilac-alpha",
       "title": "Lilac Alpha",
       "kittingTypes": [
@@ -160,6 +197,43 @@
               "src": "/media/kbdfans-hhkb-keysets/kit-9b2c633187069716-source-gallery-0-6a53a55324a8-2400.avif",
               "width": 1646,
               "height": 842
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blue-simple-alpha",
+      "title": "Blue Simple Alpha",
+      "kittingTypes": [
+        "Alpha - Blanks"
+      ],
+      "images": [
+        {
+          "alt": "Blue Simple Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-640.avif",
+              "width": 640,
+              "height": 369
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-1280.avif",
+              "width": 1280,
+              "height": 738
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-25d7c2d3775f1b23-source-gallery-0-f1342d5bc93e-2400.avif",
+              "width": 1572,
+              "height": 906
             }
           ]
         }
@@ -203,117 +277,6 @@
       ]
     },
     {
-      "slug": "mint-alpha",
-      "title": "Mint Alpha",
-      "kittingTypes": [
-        "Alpha - Blanks"
-      ],
-      "images": [
-        {
-          "alt": "Mint Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-640.avif",
-              "width": 640,
-              "height": 348
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-1280.avif",
-              "width": 1280,
-              "height": 696
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-bae88208d9fb3d4c-source-gallery-0-4dbf948295c2-2400.avif",
-              "width": 1670,
-              "height": 908
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "mint-arrows",
-      "title": "Mint Arrows",
-      "kittingTypes": [
-        "Accent - HHKB"
-      ],
-      "images": [
-        {
-          "alt": "Mint Arrows 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-640.avif",
-              "width": 640,
-              "height": 397
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-1280.avif",
-              "width": 1280,
-              "height": 795
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-2400.avif",
-              "width": 1604,
-              "height": 996
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "pom-white-base",
-      "title": "POM White Base",
-      "kittingTypes": [
-        "Base - Simple"
-      ],
-      "images": [
-        {
-          "alt": "POM White Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-640.avif",
-              "width": 640,
-              "height": 390
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-1280.avif",
-              "width": 1280,
-              "height": 781
-            },
-            {
-              "src": "/media/kbdfans-hhkb-keysets/kit-65a569c6e98d2e7c-source-gallery-0-b031a7885cca-2400.avif",
-              "width": 1630,
-              "height": 994
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "red-mod",
       "title": "Red Mod",
       "kittingTypes": [
@@ -351,37 +314,74 @@
       ]
     },
     {
-      "slug": "teal-alpha",
-      "title": "Teal Alpha",
+      "slug": "9009-accent",
+      "title": "9009 Accent",
       "kittingTypes": [
-        "Alpha - Blanks"
+        "Accent -  9009"
       ],
       "images": [
         {
-          "alt": "Teal Alpha 이미지 1",
+          "alt": "9009 Accent 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-640.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-640.avif",
               "width": 640,
-              "height": 340
+              "height": 472
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-1280.avif",
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-1280.avif",
               "width": 1280,
-              "height": 679
+              "height": 943
             },
             {
-              "src": "/media/kbdfans-hhkb-keysets/kit-dd3e9779ea336dc4-source-gallery-0-4ba901622a95-2400.avif",
-              "width": 1624,
-              "height": 862
+              "src": "/media/kbdfans-hhkb-keysets/kit-e8f3e80e56a306f8-source-gallery-0-d3b982a1b347-2400.avif",
+              "width": 1528,
+              "height": 1126
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mint-arrows",
+      "title": "Mint Arrows",
+      "kittingTypes": [
+        "Accent - HHKB"
+      ],
+      "images": [
+        {
+          "alt": "Mint Arrows 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-640.avif",
+              "width": 640,
+              "height": 397
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-1280.avif",
+              "width": 1280,
+              "height": 795
+            },
+            {
+              "src": "/media/kbdfans-hhkb-keysets/kit-7dd065d5ba362703-source-gallery-0-ef93cc1ebeec-2400.avif",
+              "width": 1604,
+              "height": 996
             }
           ]
         }

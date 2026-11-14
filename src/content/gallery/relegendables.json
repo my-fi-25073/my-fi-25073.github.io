@@ -20,6 +20,43 @@
   ],
   "kits": [
     {
+      "slug": "u9-relegendables",
+      "title": "U9 Relegendables",
+      "kittingTypes": [
+        "Child - Relegendable"
+      ],
+      "images": [
+        {
+          "alt": "U9 Relegendables 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "l9-relegendables",
       "title": "L9 Relegendables",
       "kittingTypes": [
@@ -86,43 +123,6 @@
             },
             {
               "src": "/media/relegendables/kit-f1befafaa6e350db-source-gallery-0-e964e77cb4b7-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "u9-relegendables",
-      "title": "U9 Relegendables",
-      "kittingTypes": [
-        "Child - Relegendable"
-      ],
-      "images": [
-        {
-          "alt": "U9 Relegendables 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/relegendables/kit-f1f58b39753fdcc2-source-gallery-0-d8a49f244e85-2400.avif",
               "width": 2048,
               "height": 1536
             }

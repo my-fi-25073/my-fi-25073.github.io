@@ -86,43 +86,6 @@
       ]
     },
     {
-      "slug": "blue-accent",
-      "title": "Blue Accent",
-      "kittingTypes": [
-        "Accent - RGB"
-      ],
-      "images": [
-        {
-          "alt": "Blue Accent 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "blue-greek-addon",
       "title": "Blue Greek Addon",
       "kittingTypes": [
@@ -154,6 +117,43 @@
               "src": "/media/classic-arabic/kit-9b17d4b1602e4cc3-source-gallery-0-7361ed37047f-2400.avif",
               "width": 2048,
               "height": 1097
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blue-accent",
+      "title": "Blue Accent",
+      "kittingTypes": [
+        "Accent - RGB"
+      ],
+      "images": [
+        {
+          "alt": "Blue Accent 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/classic-arabic/kit-7bc4f251e7422250-source-gallery-0-d61d1a282a9b-2400.avif",
+              "width": 2048,
+              "height": 1536
             }
           ]
         }

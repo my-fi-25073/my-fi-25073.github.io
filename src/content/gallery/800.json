@@ -83,32 +83,32 @@
       ]
     },
     {
-      "slug": "module-a",
-      "title": "Module A",
+      "slug": "module-c",
+      "title": "Module C",
       "kittingTypes": [
-        "Child - Extension"
+        "Modifier - Nomad"
       ],
       "images": [
         {
-          "alt": "Module A 이미지 1",
+          "alt": "Module C 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-640.avif",
+              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-640.avif",
               "width": 640,
-              "height": 763
+              "height": 937
             },
             {
-              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-1280.avif",
-              "width": 1076,
-              "height": 1282
+              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-1280.avif",
+              "width": 1000,
+              "height": 1464
             }
           ]
         }
@@ -147,32 +147,32 @@
       ]
     },
     {
-      "slug": "module-c",
-      "title": "Module C",
+      "slug": "module-a",
+      "title": "Module A",
       "kittingTypes": [
-        "Modifier - Nomad"
+        "Child - Extension"
       ],
       "images": [
         {
-          "alt": "Module C 이미지 1",
+          "alt": "Module A 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-640.avif",
+              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-640.avif",
               "width": 640,
-              "height": 937
+              "height": 763
             },
             {
-              "src": "/media/800/kit-65fbba9a7252bbe8-source-gallery-0-69c2f98e258f-1280.avif",
-              "width": 1000,
-              "height": 1464
+              "src": "/media/800/kit-9286b8b1a7df49e1-source-gallery-0-2a2ffb42bb2e-1280.avif",
+              "width": 1076,
+              "height": 1282
             }
           ]
         }

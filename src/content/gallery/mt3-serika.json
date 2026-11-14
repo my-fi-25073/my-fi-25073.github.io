@@ -18,65 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "alpha",
-      "title": "Alpha",
-      "kittingTypes": [
-        "Alpha - Latin"
-      ],
-      "images": [
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-640.avif",
-              "width": 511,
-              "height": 336
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "geometry",
-      "title": "Geometry",
-      "kittingTypes": [
-        "Child - Novelties"
-      ],
-      "images": [
-        {
-          "alt": "Geometry 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-640.avif",
-              "width": 640,
-              "height": 432
-            },
-            {
-              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-1280.avif",
-              "width": 882,
-              "height": 596
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "katakana-forties",
       "title": "Katakana Forties",
       "kittingTypes": [
@@ -135,6 +76,65 @@
               "src": "/media/mt3-serika/kit-fb3e66f70baffba4-source-gallery-0-9a502f4935ff-1280.avif",
               "width": 908,
               "height": 624
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-48ba889e6075ee4f-source-gallery-0-c7db64be8cfa-640.avif",
+              "width": 511,
+              "height": 336
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modifiers",
+      "title": "Modifiers",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Modifiers 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-640.avif",
+              "width": 640,
+              "height": 409
+            },
+            {
+              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-1280.avif",
+              "width": 1037,
+              "height": 662
             }
           ]
         }
@@ -205,32 +205,32 @@
       ]
     },
     {
-      "slug": "modifiers",
-      "title": "Modifiers",
+      "slug": "geometry",
+      "title": "Geometry",
       "kittingTypes": [
-        "Modifier - Standard"
+        "Child - Novelties"
       ],
       "images": [
         {
-          "alt": "Modifiers 이미지 1",
+          "alt": "Geometry 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-640.avif",
+              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-640.avif",
               "width": 640,
-              "height": 409
+              "height": 432
             },
             {
-              "src": "/media/mt3-serika/kit-0bb39e6a5979ca15-source-gallery-0-028012fc340a-1280.avif",
-              "width": 1037,
-              "height": 662
+              "src": "/media/mt3-serika/kit-4ef23e47b0abc434-source-gallery-0-f8fca5d6f6a5-1280.avif",
+              "width": 882,
+              "height": 596
             }
           ]
         }

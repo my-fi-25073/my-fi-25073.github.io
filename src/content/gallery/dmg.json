@@ -20,6 +20,145 @@
   ],
   "kits": [
     {
+      "slug": "latin-base",
+      "title": "Latin Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Latin Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Latin Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "obscure",
+      "title": "Obscure",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Obscure 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "command",
+      "title": "Command",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "images": [
+        {
+          "alt": "Command 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "addition",
       "title": "Addition",
       "kittingTypes": [
@@ -94,108 +233,6 @@
       ]
     },
     {
-      "slug": "command",
-      "title": "Command",
-      "kittingTypes": [
-        "Modifier - Mac"
-      ],
-      "images": [
-        {
-          "alt": "Command 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/dmg/kit-629ea0664f4dad54-source-gallery-0-86df9a3662dd-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "latin-base",
-      "title": "Latin Base",
-      "kittingTypes": [
-        "Base - Standard"
-      ],
-      "images": [
-        {
-          "alt": "Latin Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-0-94013e19168e-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        },
-        {
-          "alt": "Latin Base 이미지 2",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/dmg/kit-4ecb1b95ed5ca2d3-source-gallery-1-e76e536c1360-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "novelty",
       "title": "Novelty",
       "kittingTypes": [
@@ -225,43 +262,6 @@
             },
             {
               "src": "/media/dmg/kit-5a54a1b12a809ad5-source-gallery-0-c4d1800d617f-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "obscure",
-      "title": "Obscure",
-      "kittingTypes": [
-        "Modifier - Obscure"
-      ],
-      "images": [
-        {
-          "alt": "Obscure 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/dmg/kit-651704974a58778a-source-gallery-0-771072f50bac-2400.avif",
               "width": 2048,
               "height": 1536
             }

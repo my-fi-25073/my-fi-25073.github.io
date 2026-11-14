@@ -50,6 +50,38 @@
       ]
     },
     {
+      "slug": "nomad-base",
+      "title": "Nomad Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Nomad Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-640.avif",
+              "width": 640,
+              "height": 400
+            },
+            {
+              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-1280.avif",
+              "width": 668,
+              "height": 418
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "function",
       "title": "Function",
       "kittingTypes": [
@@ -77,38 +109,6 @@
               "src": "/media/biip-operator/kit-93e80fed562fd4c9-source-gallery-0-2d368be42f53-1280.avif",
               "width": 672,
               "height": 380
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "nomad-base",
-      "title": "Nomad Base",
-      "kittingTypes": [
-        "Base - Nomad"
-      ],
-      "images": [
-        {
-          "alt": "Nomad Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-640.avif",
-              "width": 640,
-              "height": 400
-            },
-            {
-              "src": "/media/biip-operator/kit-cf695800fe920f8b-source-gallery-0-c6db164170f4-1280.avif",
-              "width": 668,
-              "height": 418
             }
           ]
         }

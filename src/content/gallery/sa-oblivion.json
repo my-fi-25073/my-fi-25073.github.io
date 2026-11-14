@@ -18,74 +18,37 @@
   ],
   "kits": [
     {
-      "slug": "7u-space-bar",
-      "title": "7u Space Bar",
+      "slug": "oblivion-askii-alpha",
+      "title": "Oblivion Askii Alpha",
       "kittingTypes": [
-        "Child - Spacebars"
+        "Alpha - Askii"
       ],
       "images": [
         {
-          "alt": "7u Space Bar 이미지 1",
+          "alt": "Oblivion Askii Alpha 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-640.avif",
+              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-640.avif",
               "width": 640,
-              "height": 411
+              "height": 426
             },
             {
-              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-1280.avif",
+              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-1280.avif",
               "width": 1280,
-              "height": 823
+              "height": 853
             },
             {
-              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-2400.avif",
+              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-2400.avif",
               "width": 2048,
-              "height": 1316
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "assembly",
-      "title": "Assembly",
-      "kittingTypes": [
-        "Modifier - Assembly"
-      ],
-      "images": [
-        {
-          "alt": "Assembly 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-640.avif",
-              "width": 640,
-              "height": 427
-            },
-            {
-              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-1280.avif",
-              "width": 1280,
-              "height": 854
-            },
-            {
-              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-2400.avif",
-              "width": 2048,
-              "height": 1367
+              "height": 1364
             }
           ]
         }
@@ -166,37 +129,37 @@
       ]
     },
     {
-      "slug": "oblivion-askii-alpha",
-      "title": "Oblivion Askii Alpha",
+      "slug": "assembly",
+      "title": "Assembly",
       "kittingTypes": [
-        "Alpha - Askii"
+        "Modifier - Assembly"
       ],
       "images": [
         {
-          "alt": "Oblivion Askii Alpha 이미지 1",
+          "alt": "Assembly 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-640.avif",
+              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-640.avif",
               "width": 640,
-              "height": 426
+              "height": 427
             },
             {
-              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-1280.avif",
+              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-1280.avif",
               "width": 1280,
-              "height": 853
+              "height": 854
             },
             {
-              "src": "/media/sa-oblivion/kit-871ea03b7d46c906-source-gallery-0-2762cc68dae3-2400.avif",
+              "src": "/media/sa-oblivion/kit-64ef07021bed13f1-source-gallery-0-7999707179ed-2400.avif",
               "width": 2048,
-              "height": 1364
+              "height": 1367
             }
           ]
         }
@@ -234,6 +197,43 @@
               "src": "/media/sa-oblivion/kit-f165116313b3143d-source-gallery-0-d7d8024a344e-2400.avif",
               "width": 2048,
               "height": 1353
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "7u-space-bar",
+      "title": "7u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "7u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-640.avif",
+              "width": 640,
+              "height": 411
+            },
+            {
+              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-1280.avif",
+              "width": 1280,
+              "height": 823
+            },
+            {
+              "src": "/media/sa-oblivion/kit-5bda5fc455775159-source-gallery-0-a8623486db56-2400.avif",
+              "width": 2048,
+              "height": 1316
             }
           ]
         }

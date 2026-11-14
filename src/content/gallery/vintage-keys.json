@@ -20,6 +20,148 @@
   ],
   "kits": [
     {
+      "slug": "vintage-bottom",
+      "title": "Vintage Bottom",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Vintage Bottom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Vintage Bottom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-640.avif",
+              "width": 640,
+              "height": 502
+            },
+            {
+              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-1280.avif",
+              "width": 1200,
+              "height": 942
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vintage-bottom-fa20097e5ac3",
+      "title": "Vintage Bottom",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Vintage Bottom 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-1280.avif",
+              "width": 768,
+              "height": 1024
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "snack-pack",
+      "title": "Snack Pack",
+      "kittingTypes": [
+        "Accent - Meme"
+      ],
+      "images": [
+        {
+          "alt": "Snack Pack 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Snack Pack 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-640.avif",
+              "width": 640,
+              "height": 498
+            },
+            {
+              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-1280.avif",
+              "width": 1038,
+              "height": 808
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "beige-2000s",
       "title": "Beige 2000s",
       "kittingTypes": [
@@ -130,148 +272,6 @@
               "src": "/media/vintage-keys/kit-658b4a2fb909972b-source-gallery-0-9a10ad26ced4-1280.avif",
               "width": 1126,
               "height": 1030
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "snack-pack",
-      "title": "Snack Pack",
-      "kittingTypes": [
-        "Accent - Meme"
-      ],
-      "images": [
-        {
-          "alt": "Snack Pack 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-gallery-0-38a7cddce40b-1280.avif",
-              "width": 1024,
-              "height": 768
-            }
-          ]
-        },
-        {
-          "alt": "Snack Pack 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-640.avif",
-              "width": 640,
-              "height": 498
-            },
-            {
-              "src": "/media/vintage-keys/kit-4049576dff1f93c4-source-gallery-0-8193b0a976a3-1280.avif",
-              "width": 1038,
-              "height": 808
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "vintage-bottom",
-      "title": "Vintage Bottom",
-      "kittingTypes": [
-        "Modifier - Simple"
-      ],
-      "images": [
-        {
-          "alt": "Vintage Bottom 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-gallery-0-a018d79b3c75-1280.avif",
-              "width": 1024,
-              "height": 768
-            }
-          ]
-        },
-        {
-          "alt": "Vintage Bottom 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-640.avif",
-              "width": 640,
-              "height": 502
-            },
-            {
-              "src": "/media/vintage-keys/kit-361600b571932ced-source-gallery-0-284be5d07447-1280.avif",
-              "width": 1200,
-              "height": 942
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "vintage-bottom-fa20097e5ac3",
-      "title": "Vintage Bottom",
-      "kittingTypes": [
-        "Modifier - Simple"
-      ],
-      "images": [
-        {
-          "alt": "Vintage Bottom 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-640.avif",
-              "width": 640,
-              "height": 853
-            },
-            {
-              "src": "/media/vintage-keys/kit-fa20097e5ac31d09-gallery-0-63a92fe7a4c0-1280.avif",
-              "width": 768,
-              "height": 1024
             }
           ]
         }

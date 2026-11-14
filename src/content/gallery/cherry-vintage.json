@@ -20,43 +20,6 @@
   ],
   "kits": [
     {
-      "slug": "beige-8u-space-bar",
-      "title": "Beige 8u Space Bar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "Beige 8u Space Bar 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "g80-9009hag-accent",
       "title": "G80-9009HAG Accent",
       "kittingTypes": [
@@ -114,6 +77,43 @@
             },
             {
               "src": "/media/cherry-vintage/kit-6e4a937dccfe283e-source-gallery-1-e01a90377b46-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "beige-8u-space-bar",
+      "title": "Beige 8u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Beige 8u Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/cherry-vintage/kit-a6254029da7d3b09-source-gallery-0-02d2e2130f7c-2400.avif",
               "width": 2048,
               "height": 1536
             }

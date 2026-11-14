@@ -18,6 +18,39 @@
   ],
   "kits": [
     {
+      "slug": "hardcore-base",
+      "title": "Hardcore Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Meme"
+      ],
+      "images": [
+        {
+          "alt": "Hardcore Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-1280.avif",
+              "width": 1044,
+              "height": 697
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "durins-forge",
       "title": "Durin’s Forge",
       "kittingTypes": [
@@ -76,39 +109,6 @@
               "src": "/media/lotr-dwarvish/kit-ea983567f2001026-source-gallery-0-9531759b488e-1280.avif",
               "width": 1043,
               "height": 695
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "hardcore-base",
-      "title": "Hardcore Base",
-      "kittingTypes": [
-        "Base - Simple",
-        "Alpha - Meme"
-      ],
-      "images": [
-        {
-          "alt": "Hardcore Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-640.avif",
-              "width": 640,
-              "height": 427
-            },
-            {
-              "src": "/media/lotr-dwarvish/kit-d067bb6cca8c95c5-source-gallery-0-6e4ebed6a6bc-1280.avif",
-              "width": 1044,
-              "height": 697
             }
           ]
         }

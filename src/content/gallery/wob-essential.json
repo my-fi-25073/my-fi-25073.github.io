@@ -20,38 +20,6 @@
   ],
   "kits": [
     {
-      "slug": "cmyw",
-      "title": "CMYW",
-      "kittingTypes": [
-        "Accent - CMY"
-      ],
-      "images": [
-        {
-          "alt": "CMYW 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-640.avif",
-              "width": 640,
-              "height": 906
-            },
-            {
-              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-1280.avif",
-              "width": 1010,
-              "height": 1430
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "dark-rgb",
       "title": "Dark RGB",
       "kittingTypes": [
@@ -78,6 +46,38 @@
               "src": "/media/wob-essential/kit-bf915e050b7f06e2-source-gallery-0-585dfcdfa693-1280.avif",
               "width": 1004,
               "height": 1386
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cmyw",
+      "title": "CMYW",
+      "kittingTypes": [
+        "Accent - CMY"
+      ],
+      "images": [
+        {
+          "alt": "CMYW 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-640.avif",
+              "width": 640,
+              "height": 906
+            },
+            {
+              "src": "/media/wob-essential/kit-a75edbfcf8642d7f-source-gallery-0-591366342753-1280.avif",
+              "width": 1010,
+              "height": 1430
             }
           ]
         }

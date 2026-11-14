@@ -18,38 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "bar-keys",
-      "title": "Bar Keys",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "Bar Keys 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-640.avif",
-              "width": 640,
-              "height": 426
-            },
-            {
-              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-1280.avif",
-              "width": 1045,
-              "height": 695
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "novelty",
       "title": "Novelty",
       "kittingTypes": [
@@ -75,6 +43,38 @@
             {
               "src": "/media/mt3-mito-cyber/kit-77b234b8eb87eb02-source-gallery-0-c29e4f4bb125-1280.avif",
               "width": 1044,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bar-keys",
+      "title": "Bar Keys",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Bar Keys 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mt3-mito-cyber/kit-16cdf672fc5e76ee-source-gallery-0-ab90d9eec95a-1280.avif",
+              "width": 1045,
               "height": 695
             }
           ]

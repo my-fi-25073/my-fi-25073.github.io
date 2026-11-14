@@ -92,14 +92,6 @@
       ]
     },
     {
-      "slug": "6u-space-bar",
-      "title": "6u Space Bar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": []
-    },
-    {
       "slug": "mini-bars",
       "title": "Mini Bars",
       "kittingTypes": [
@@ -125,6 +117,14 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "6u-space-bar",
+      "title": "6u Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": []
     }
   ],
   "images": [

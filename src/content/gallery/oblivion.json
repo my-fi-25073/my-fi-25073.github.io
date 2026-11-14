@@ -21,288 +21,6 @@
   ],
   "kits": [
     {
-      "slug": "40bit-base",
-      "title": "40Bit Base",
-      "kittingTypes": [
-        "Base - Nomad"
-      ],
-      "images": [
-        {
-          "alt": "40Bit Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        },
-        {
-          "alt": "40Bit Base 이미지 2",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "assembly-base",
-      "title": "Assembly Base",
-      "kittingTypes": [
-        "Base - Assembly"
-      ],
-      "images": [
-        {
-          "alt": "Assembly Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "colevrak",
-      "title": "Colevrak",
-      "kittingTypes": [
-        "Alpha - Colevrak"
-      ],
-      "images": [
-        {
-          "alt": "Colevrak 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-640.avif",
-              "width": 640,
-              "height": 391
-            },
-            {
-              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-1280.avif",
-              "width": 1280,
-              "height": 783
-            },
-            {
-              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-2400.avif",
-              "width": 2048,
-              "height": 1252
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "coral-space-bars",
-      "title": "Coral Space Bars",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "Coral Space Bars 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-640.avif",
-              "width": 640,
-              "height": 507
-            },
-            {
-              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-1280.avif",
-              "width": 1280,
-              "height": 1014
-            },
-            {
-              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-2400.avif",
-              "width": 2048,
-              "height": 1623
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "extension",
-      "title": "Extension",
-      "kittingTypes": [
-        "Child - Extension"
-      ],
-      "images": [
-        {
-          "alt": "Extension 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-640.avif",
-              "width": 640,
-              "height": 345
-            },
-            {
-              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-1280.avif",
-              "width": 940,
-              "height": 506
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "git-base",
-      "title": "Git Base",
-      "kittingTypes": [
-        "Base - Standard"
-      ],
-      "images": [
-        {
-          "alt": "Git Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-640.avif",
-              "width": 640,
-              "height": 374
-            },
-            {
-              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-1280.avif",
-              "width": 1280,
-              "height": 749
-            },
-            {
-              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-2400.avif",
-              "width": 2048,
-              "height": 1198
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "hagoromo-ansi",
-      "title": "Hagoromo ANSI",
-      "kittingTypes": [
-        "Accent - Alpha"
-      ],
-      "images": [
-        {
-          "alt": "Hagoromo ANSI 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-640.avif",
-              "width": 640,
-              "height": 418
-            },
-            {
-              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-1280.avif",
-              "width": 1280,
-              "height": 837
-            },
-            {
-              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-2400.avif",
-              "width": 1958,
-              "height": 1280
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "regular-base",
       "title": "Regular Base",
       "kittingTypes": [
@@ -368,6 +86,219 @@
       ]
     },
     {
+      "slug": "git-base",
+      "title": "Git Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Git Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-640.avif",
+              "width": 640,
+              "height": 374
+            },
+            {
+              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-1280.avif",
+              "width": 1280,
+              "height": 749
+            },
+            {
+              "src": "/media/oblivion/kit-60bdf6f6d5caa90d-source-gallery-0-224487fd7d2b-2400.avif",
+              "width": 2048,
+              "height": 1198
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "assembly-base",
+      "title": "Assembly Base",
+      "kittingTypes": [
+        "Base - Assembly"
+      ],
+      "images": [
+        {
+          "alt": "Assembly Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-3945e0e61d49785b-source-gallery-0-685dff1324b7-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40bit-base",
+      "title": "40Bit Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "40Bit Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-0-59da1beb2f69-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "40Bit Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/oblivion/kit-5e638dc6d040349a-source-gallery-1-d484e4bc2ad2-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "colevrak",
+      "title": "Colevrak",
+      "kittingTypes": [
+        "Alpha - Colevrak"
+      ],
+      "images": [
+        {
+          "alt": "Colevrak 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-640.avif",
+              "width": 640,
+              "height": 391
+            },
+            {
+              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-1280.avif",
+              "width": 1280,
+              "height": 783
+            },
+            {
+              "src": "/media/oblivion/kit-161d07effde8facc-source-gallery-0-e36a5b04b346-2400.avif",
+              "width": 2048,
+              "height": 1252
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hagoromo-ansi",
+      "title": "Hagoromo ANSI",
+      "kittingTypes": [
+        "Accent - Alpha"
+      ],
+      "images": [
+        {
+          "alt": "Hagoromo ANSI 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-640.avif",
+              "width": 640,
+              "height": 418
+            },
+            {
+              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-1280.avif",
+              "width": 1280,
+              "height": 837
+            },
+            {
+              "src": "/media/oblivion/kit-421df6d776a5c3a0-source-gallery-0-a51a68ffb9a0-2400.avif",
+              "width": 1958,
+              "height": 1280
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "vim",
       "title": "Vim",
       "kittingTypes": [
@@ -399,6 +330,75 @@
               "src": "/media/oblivion/kit-242c744529ec40b9-source-gallery-0-0d5cb6326aae-2400.avif",
               "width": 2048,
               "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extension",
+      "title": "Extension",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "images": [
+        {
+          "alt": "Extension 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-640.avif",
+              "width": 640,
+              "height": 345
+            },
+            {
+              "src": "/media/oblivion/kit-73bcecf9b20c40d6-source-gallery-0-4e18762726fc-1280.avif",
+              "width": 940,
+              "height": 506
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "coral-space-bars",
+      "title": "Coral Space Bars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Coral Space Bars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-640.avif",
+              "width": 640,
+              "height": 507
+            },
+            {
+              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-1280.avif",
+              "width": 1280,
+              "height": 1014
+            },
+            {
+              "src": "/media/oblivion/kit-d41fdf93db30f605-source-gallery-0-a90874ca296c-2400.avif",
+              "width": 2048,
+              "height": 1623
             }
           ]
         }

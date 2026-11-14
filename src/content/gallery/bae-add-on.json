@@ -57,38 +57,6 @@
       ]
     },
     {
-      "slug": "bow",
-      "title": "BoW",
-      "kittingTypes": [
-        "Child - BAE"
-      ],
-      "images": [
-        {
-          "alt": "BoW 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-640.avif",
-              "width": 640,
-              "height": 417
-            },
-            {
-              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-1280.avif",
-              "width": 1103,
-              "height": 719
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "dolch",
       "title": "Dolch",
       "kittingTypes": [
@@ -175,6 +143,38 @@
               "src": "/media/bae-add-on/kit-069944c63fff758c-source-gallery-0-74dc2bc5ea9b-1280.avif",
               "width": 1096,
               "height": 725
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bow",
+      "title": "BoW",
+      "kittingTypes": [
+        "Child - BAE"
+      ],
+      "images": [
+        {
+          "alt": "BoW 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-640.avif",
+              "width": 640,
+              "height": 417
+            },
+            {
+              "src": "/media/bae-add-on/kit-cb940c285681dc38-source-gallery-0-c50ca3ea19b8-1280.avif",
+              "width": 1103,
+              "height": 719
             }
           ]
         }

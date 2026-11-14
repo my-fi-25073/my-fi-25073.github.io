@@ -20,44 +20,7 @@
   ],
   "kits": [
     {
-      "slug": "2002",
-      "title": "2002 ",
-      "kittingTypes": [
-        "Accent - RGB"
-      ],
-      "images": [
-        {
-          "alt": "2002  이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-640.avif",
-              "width": 640,
-              "height": 853
-            },
-            {
-              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-1280.avif",
-              "width": 1280,
-              "height": 1707
-            },
-            {
-              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-2400.avif",
-              "width": 2048,
-              "height": 2731
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "40s-d1e157550666",
+      "slug": "40s-d7ad87ed6cb7",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -68,26 +31,26 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-640.avif",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-640.avif",
               "width": 640,
-              "height": 910
+              "height": 922
             },
             {
-              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-1280.avif",
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-1280.avif",
               "width": 1280,
-              "height": 1820
+              "height": 1843
             },
             {
-              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-2400.avif",
-              "width": 1498,
-              "height": 2130
+              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-2400.avif",
+              "width": 1522,
+              "height": 2192
             }
           ]
         }
@@ -168,7 +131,7 @@
       ]
     },
     {
-      "slug": "40s-d7ad87ed6cb7",
+      "slug": "40s-d1e157550666",
       "title": "40s",
       "kittingTypes": [
         "Modifier - Nomad"
@@ -179,26 +142,95 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-640.avif",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-640.avif",
               "width": 640,
-              "height": 922
+              "height": 910
             },
             {
-              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-1280.avif",
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-1280.avif",
               "width": 1280,
-              "height": 1843
+              "height": 1820
             },
             {
-              "src": "/media/beige-add-on/kit-d7ad87ed6cb7d81b-source-gallery-0-6a3856929b81-2400.avif",
-              "width": 1522,
-              "height": 2192
+              "src": "/media/beige-add-on/kit-d1e1575506661c9e-source-gallery-0-23db89f388c7-2400.avif",
+              "width": 1498,
+              "height": 2130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "2002",
+      "title": "2002 ",
+      "kittingTypes": [
+        "Accent - RGB"
+      ],
+      "images": [
+        {
+          "alt": "2002  이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-1280.avif",
+              "width": 1280,
+              "height": 1707
+            },
+            {
+              "src": "/media/beige-add-on/kit-b501074803f8ddcb-source-gallery-0-2ee3e10edef6-2400.avif",
+              "width": 2048,
+              "height": 2731
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cmyk",
+      "title": "CMYK",
+      "kittingTypes": [
+        "Accent - CMY"
+      ],
+      "images": [
+        {
+          "alt": "CMYK 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-640.avif",
+              "width": 640,
+              "height": 488
+            },
+            {
+              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-1280.avif",
+              "width": 906,
+              "height": 691
             }
           ]
         }
@@ -276,32 +308,32 @@
       ]
     },
     {
-      "slug": "cmyk",
-      "title": "CMYK",
+      "slug": "space-bars",
+      "title": "Space Bars",
       "kittingTypes": [
-        "Accent - CMY"
+        "Child - Spacebars"
       ],
       "images": [
         {
-          "alt": "CMYK 이미지 1",
+          "alt": "Space Bars 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-640.avif",
+              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-640.avif",
               "width": 640,
-              "height": 488
+              "height": 449
             },
             {
-              "src": "/media/beige-add-on/kit-bcf6be5eb488e785-source-gallery-0-c8841ac51a78-1280.avif",
-              "width": 906,
-              "height": 691
+              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-1280.avif",
+              "width": 949,
+              "height": 666
             }
           ]
         }
@@ -340,38 +372,6 @@
               "src": "/media/beige-add-on/kit-694b09bbe5e0f4f5-source-gallery-0-a42ccddff03e-2400.avif",
               "width": 1490,
               "height": 2206
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "space-bars",
-      "title": "Space Bars",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "Space Bars 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-640.avif",
-              "width": 640,
-              "height": 449
-            },
-            {
-              "src": "/media/beige-add-on/kit-4e805a829a574063-source-gallery-0-46f9930a6903-1280.avif",
-              "width": 949,
-              "height": 666
             }
           ]
         }

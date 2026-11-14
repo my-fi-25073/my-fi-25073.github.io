@@ -20,35 +20,72 @@
   ],
   "kits": [
     {
-      "slug": "colorchorome-black-40s-mod",
-      "title": "Colorchorome Black 40s Mod",
+      "slug": "wob-base-drop",
+      "title": "WoB Base (Drop)",
       "kittingTypes": [
-        "Modifier - Obscure"
+        "Base - Standard"
       ],
       "images": [
         {
-          "alt": "Colorchorome Black 40s Mod 이미지 1",
+          "alt": "WoB Base (Drop) 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-640.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-1280.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-2400.avif",
+              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-swiss-add-on",
+      "title": "WoB Swiss Add on",
+      "kittingTypes": [
+        "Alpha - Swiss"
+      ],
+      "images": [
+        {
+          "alt": "WoB Swiss Add on 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -88,6 +125,75 @@
               "src": "/media/wob-extra/kit-1c70e596490271d2-source-gallery-0-9b99a16624fb-2400.avif",
               "width": 2048,
               "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "colorchorome-black-40s-mod",
+      "title": "Colorchorome Black 40s Mod",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Colorchorome Black 40s Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/wob-extra/kit-8b3cde3863e03e5b-source-gallery-0-bfc2d85bd15e-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wob-red-cyrilic-icon-mod",
+      "title": "WoB Red Cyrilic Icon Mod",
+      "kittingTypes": [
+        "Modifier - Icon"
+      ],
+      "images": [
+        {
+          "alt": "WoB Red Cyrilic Icon Mod 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-640.avif",
+              "width": 640,
+              "height": 456
+            },
+            {
+              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-1280.avif",
+              "width": 903,
+              "height": 644
             }
           ]
         }
@@ -160,112 +266,6 @@
             },
             {
               "src": "/media/wob-extra/kit-e4dc86f1db228e38-source-gallery-0-091b3bee3054-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "wob-base-drop",
-      "title": "WoB Base (Drop)",
-      "kittingTypes": [
-        "Base - Standard"
-      ],
-      "images": [
-        {
-          "alt": "WoB Base (Drop) 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/wob-extra/kit-8448e284f0a6f6a2-source-gallery-0-562b20523fa7-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "wob-red-cyrilic-icon-mod",
-      "title": "WoB Red Cyrilic Icon Mod",
-      "kittingTypes": [
-        "Modifier - Icon"
-      ],
-      "images": [
-        {
-          "alt": "WoB Red Cyrilic Icon Mod 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-640.avif",
-              "width": 640,
-              "height": 456
-            },
-            {
-              "src": "/media/wob-extra/kit-08e9bcaa9fe175f7-source-gallery-0-dbb61170ba45-1280.avif",
-              "width": 903,
-              "height": 644
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "wob-swiss-add-on",
-      "title": "WoB Swiss Add on",
-      "kittingTypes": [
-        "Alpha - Swiss"
-      ],
-      "images": [
-        {
-          "alt": "WoB Swiss Add on 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/wob-extra/kit-b22ed0026780b9c4-source-gallery-0-ea31512c44b5-2400.avif",
               "width": 2048,
               "height": 1536
             }

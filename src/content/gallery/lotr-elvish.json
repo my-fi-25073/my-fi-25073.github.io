@@ -18,6 +18,39 @@
   ],
   "kits": [
     {
+      "slug": "hardcore-base",
+      "title": "Hardcore Base",
+      "kittingTypes": [
+        "Base - Simple",
+        "Alpha - Meme"
+      ],
+      "images": [
+        {
+          "alt": "Hardcore Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-1280.avif",
+              "width": 1046,
+              "height": 695
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "autumn-in-rivendell",
       "title": "Autumn in Rivendell",
       "kittingTypes": [
@@ -76,39 +109,6 @@
               "src": "/media/lotr-elvish/kit-881e9f787b95a9d6-source-gallery-0-cfa995d88086-1280.avif",
               "width": 1038,
               "height": 687
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "hardcore-base",
-      "title": "Hardcore Base",
-      "kittingTypes": [
-        "Base - Simple",
-        "Alpha - Meme"
-      ],
-      "images": [
-        {
-          "alt": "Hardcore Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-640.avif",
-              "width": 640,
-              "height": 425
-            },
-            {
-              "src": "/media/lotr-elvish/kit-5286c5e3b2047056-source-gallery-0-0b1ab2ca8994-1280.avif",
-              "width": 1046,
-              "height": 695
             }
           ]
         }

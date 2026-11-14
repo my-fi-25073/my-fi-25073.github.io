@@ -21,167 +21,134 @@
   ],
   "kits": [
     {
-      "slug": "9009-accent",
-      "title": "9009 Accent",
+      "slug": "base",
+      "title": "Base",
       "kittingTypes": [
-        "Accent -  9009"
+        "Base - Standard"
       ],
       "images": [
         {
-          "alt": "9009 Accent 이미지 1",
+          "alt": "Base 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-640.avif",
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base-ortho",
+      "title": "Base Ortho",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Base Ortho 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-640.avif",
+              "width": 640,
+              "height": 444
+            },
+            {
+              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-1280.avif",
+              "width": 1280,
+              "height": 888
+            },
+            {
+              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-2400.avif",
+              "width": 2048,
+              "height": 1421
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "base-40s",
+      "title": "Base 40s",
+      "kittingTypes": [
+        "Base - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Base 40s 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-640.avif",
               "width": 640,
               "height": 853
             },
             {
-              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-1280.avif",
-              "width": 1280,
-              "height": 1707
-            },
-            {
-              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-2400.avif",
-              "width": 2048,
-              "height": 2731
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "alpha-5585f9b8a05e",
-      "title": "Alpha",
-      "kittingTypes": [
-        "Alpha - Latin"
-      ],
-      "images": [
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        },
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "alpha-44e011afb017",
-      "title": "Alpha",
-      "kittingTypes": [
-        "Alpha - Latin"
-      ],
-      "images": [
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        },
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-2400.avif",
-              "width": 2048,
-              "height": 1536
+              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-1280.avif",
+              "width": 768,
+              "height": 1024
             }
           ]
         }
@@ -219,103 +186,6 @@
               "src": "/media/black-snail/kit-41ab20f86eb44b85-source-gallery-0-20812c2aedd0-2400.avif",
               "width": 2048,
               "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "alpha-84574456ec94",
-      "title": "Alpha",
-      "kittingTypes": [
-        "Alpha - Latin"
-      ],
-      "images": [
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        },
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "alpha",
-      "title": "Alpha",
-      "kittingTypes": [
-        "Alpha - Latin"
-      ],
-      "images": [
-        {
-          "alt": "Alpha 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-640.avif",
-              "width": 640,
-              "height": 466
-            },
-            {
-              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-1280.avif",
-              "width": 755,
-              "height": 550
             }
           ]
         }
@@ -424,63 +294,63 @@
       ]
     },
     {
-      "slug": "base",
-      "title": "Base",
+      "slug": "alpha-5585f9b8a05e",
+      "title": "Alpha",
       "kittingTypes": [
-        "Base - Standard"
+        "Alpha - Latin"
       ],
       "images": [
         {
-          "alt": "Base 이미지 1",
+          "alt": "Alpha 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-640.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-1280.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-0-9e93bb8a0b16-2400.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-gallery-0-52dfc25188fc-2400.avif",
               "width": 2048,
               "height": 1536
             }
           ]
         },
         {
-          "alt": "Base 이미지 2",
+          "alt": "Alpha 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-640.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-1280.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/black-snail/kit-fed2c8b9871783e9-source-gallery-1-6dac04587860-2400.avif",
+              "src": "/media/black-snail/kit-5585f9b8a05ed9cc-source-body-0-14171ca5e575-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -489,101 +359,162 @@
       ]
     },
     {
-      "slug": "base-40s",
-      "title": "Base 40s",
+      "slug": "alpha-84574456ec94",
+      "title": "Alpha",
       "kittingTypes": [
-        "Base - Obscure"
+        "Alpha - Latin"
       ],
       "images": [
         {
-          "alt": "Base 40s 이미지 1",
+          "alt": "Alpha 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-640.avif",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-640.avif",
               "width": 640,
-              "height": 853
+              "height": 480
             },
             {
-              "src": "/media/black-snail/kit-c31ae76ee93fe088-gallery-0-00e106c3cf81-1280.avif",
-              "width": 768,
-              "height": 1024
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "base-ortho",
-      "title": "Base Ortho",
-      "kittingTypes": [
-        "Base - Nomad"
-      ],
-      "images": [
-        {
-          "alt": "Base Ortho 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-640.avif",
-              "width": 640,
-              "height": 444
-            },
-            {
-              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-1280.avif",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-1280.avif",
               "width": 1280,
-              "height": 888
+              "height": 960
             },
             {
-              "src": "/media/black-snail/kit-9eea5676f8099ccd-source-gallery-0-5b213fd1a42d-2400.avif",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-gallery-0-52dfc25188fc-2400.avif",
               "width": 2048,
-              "height": 1421
+              "height": 1536
             }
           ]
-        }
-      ]
-    },
-    {
-      "slug": "cherry-accent",
-      "title": "Cherry Accent",
-      "kittingTypes": [
-        "Accent - Theme"
-      ],
-      "images": [
+        },
         {
-          "alt": "Cherry Accent 이미지 1",
+          "alt": "Alpha 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-640.avif",
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-640.avif",
               "width": 640,
-              "height": 234
+              "height": 480
             },
             {
-              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-1280.avif",
-              "width": 1150,
-              "height": 420
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-84574456ec9448ba-source-body-0-14171ca5e575-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha-44e011afb017",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-gallery-0-52dfc25188fc-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        },
+        {
+          "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-44e011afb017a5b1-source-body-0-14171ca5e575-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alpha",
+      "title": "Alpha",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alpha 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-640.avif",
+              "width": 640,
+              "height": 466
+            },
+            {
+              "src": "/media/black-snail/kit-8828b5d6d091e4b9-gallery-0-61f99010e6a2-1280.avif",
+              "width": 755,
+              "height": 550
             }
           ]
         }
@@ -644,235 +575,6 @@
               "src": "/media/black-snail/kit-36c97f00d222bed0-source-gallery-1-ad03ee707c1c-2400.avif",
               "width": 2048,
               "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "novelty",
-      "title": "Novelty",
-      "kittingTypes": [
-        "Child - Novelties"
-      ],
-      "images": [
-        {
-          "alt": "Novelty 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "old-accent",
-      "title": "Old Accent",
-      "kittingTypes": [
-        "Accent - Theme"
-      ],
-      "images": [
-        {
-          "alt": "Old Accent 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-640.avif",
-              "width": 640,
-              "height": 426
-            },
-            {
-              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-1280.avif",
-              "width": 1280,
-              "height": 852
-            },
-            {
-              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-2400.avif",
-              "width": 2048,
-              "height": 1363
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "relegendable",
-      "title": "Relegendable",
-      "kittingTypes": [
-        "Child - Relegendable"
-      ],
-      "images": [
-        {
-          "alt": "Relegendable 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "space-bar",
-      "title": "Space Bar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "Space Bar 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-c7cb288fece619df-gallery-0-187eaf4be104-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-c7cb288fece619df-gallery-0-187eaf4be104-640.avif",
-              "width": 431,
-              "height": 344
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "spacebar-469dd233d0eb",
-      "title": "SpaceBar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "SpaceBar 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-1280.avif",
-              "width": 1024,
-              "height": 768
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "spacebar-ed1c41006e57",
-      "title": "SpaceBar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "SpaceBar 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-ed1c41006e57ad5b-gallery-0-e53134324a2c-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-ed1c41006e57ad5b-gallery-0-e53134324a2c-640.avif",
-              "width": 438,
-              "height": 347
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "u9-modifier",
-      "title": "U9 Modifier",
-      "kittingTypes": [
-        "Modifier - Standard"
-      ],
-      "images": [
-        {
-          "alt": "U9 Modifier 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-640.avif",
-              "width": 640,
-              "height": 478
-            },
-            {
-              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-1280.avif",
-              "width": 671,
-              "height": 501
             }
           ]
         }
@@ -982,6 +684,304 @@
             },
             {
               "src": "/media/black-snail/kit-7bbdbe52feafd0b7-source-gallery-0-431150d06f74-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "u9-modifier",
+      "title": "U9 Modifier",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "images": [
+        {
+          "alt": "U9 Modifier 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-640.avif",
+              "width": 640,
+              "height": 478
+            },
+            {
+              "src": "/media/black-snail/kit-993378bc642e5c09-gallery-0-0d360a24fef9-1280.avif",
+              "width": 671,
+              "height": 501
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "9009-accent",
+      "title": "9009 Accent",
+      "kittingTypes": [
+        "Accent -  9009"
+      ],
+      "images": [
+        {
+          "alt": "9009 Accent 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-640.avif",
+              "width": 640,
+              "height": 853
+            },
+            {
+              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-1280.avif",
+              "width": 1280,
+              "height": 1707
+            },
+            {
+              "src": "/media/black-snail/kit-36168739e30664f1-source-gallery-0-220a1e9fcd59-2400.avif",
+              "width": 2048,
+              "height": 2731
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cherry-accent",
+      "title": "Cherry Accent",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "images": [
+        {
+          "alt": "Cherry Accent 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-640.avif",
+              "width": 640,
+              "height": 234
+            },
+            {
+              "src": "/media/black-snail/kit-24d11c5e9096a2cb-source-gallery-0-1bac7ee6abb4-1280.avif",
+              "width": 1150,
+              "height": 420
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "old-accent",
+      "title": "Old Accent",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "images": [
+        {
+          "alt": "Old Accent 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-1280.avif",
+              "width": 1280,
+              "height": 852
+            },
+            {
+              "src": "/media/black-snail/kit-c8d756b489b23902-source-gallery-0-24b6f63d041f-2400.avif",
+              "width": 2048,
+              "height": 1363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebar-ed1c41006e57",
+      "title": "SpaceBar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "SpaceBar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-ed1c41006e57ad5b-gallery-0-e53134324a2c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-ed1c41006e57ad5b-gallery-0-e53134324a2c-640.avif",
+              "width": 438,
+              "height": 347
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "space-bar",
+      "title": "Space Bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Space Bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-c7cb288fece619df-gallery-0-187eaf4be104-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-c7cb288fece619df-gallery-0-187eaf4be104-640.avif",
+              "width": 431,
+              "height": 344
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebar-469dd233d0eb",
+      "title": "SpaceBar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "SpaceBar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-469dd233d0ebb184-gallery-0-dcc90befdca6-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelty",
+      "title": "Novelty",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "images": [
+        {
+          "alt": "Novelty 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-00de5c66443d4dff-source-gallery-0-b6f9cfc8414c-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "relegendable",
+      "title": "Relegendable",
+      "kittingTypes": [
+        "Child - Relegendable"
+      ],
+      "images": [
+        {
+          "alt": "Relegendable 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/black-snail/kit-cfa3d169cb85a8cc-source-gallery-0-ea3bbd42ac3d-2400.avif",
               "width": 2048,
               "height": 1536
             }

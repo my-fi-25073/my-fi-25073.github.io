@@ -14,38 +14,6 @@
   "compatibility": [],
   "kits": [
     {
-      "slug": "ergo-kit-33418f7440f6",
-      "title": "Ergo Kit",
-      "kittingTypes": [
-        "Modifier - Assembly"
-      ],
-      "images": [
-        {
-          "alt": "Ergo Kit 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-640.avif",
-              "width": 640,
-              "height": 445
-            },
-            {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-1280.avif",
-              "width": 960,
-              "height": 667
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "ergo-kit-aa27abd20f31",
       "title": "Ergo Kit",
       "kittingTypes": [
@@ -72,6 +40,38 @@
               "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-1280.avif",
               "width": 1001,
               "height": 741
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ergo-kit-33418f7440f6",
+      "title": "Ergo Kit",
+      "kittingTypes": [
+        "Modifier - Assembly"
+      ],
+      "images": [
+        {
+          "alt": "Ergo Kit 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-1280.avif",
+              "width": 960,
+              "height": 667
             }
           ]
         }

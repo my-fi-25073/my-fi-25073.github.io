@@ -18,38 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "extra",
-      "title": "Extra",
-      "kittingTypes": [
-        "Child - Extension"
-      ],
-      "images": [
-        {
-          "alt": "Extra 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-640.avif",
-              "width": 640,
-              "height": 424
-            },
-            {
-              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-1280.avif",
-              "width": 1024,
-              "height": 678
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "hardcore-base",
       "title": "Hardcore Base",
       "kittingTypes": [
@@ -109,6 +77,38 @@
               "src": "/media/lotr-black-speech/kit-0d7409ffcad52c61-source-gallery-0-08a345295df1-1280.avif",
               "width": 1008,
               "height": 669
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "extra",
+      "title": "Extra",
+      "kittingTypes": [
+        "Child - Extension"
+      ],
+      "images": [
+        {
+          "alt": "Extra 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-640.avif",
+              "width": 640,
+              "height": 424
+            },
+            {
+              "src": "/media/lotr-black-speech/kit-95181355d28ef8e7-source-gallery-0-400beb331b8a-1280.avif",
+              "width": 1024,
+              "height": 678
             }
           ]
         }

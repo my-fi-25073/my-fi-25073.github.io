@@ -18,43 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "accents",
-      "title": "Accents",
-      "kittingTypes": [
-        "Accent - RGB"
-      ],
-      "images": [
-        {
-          "alt": "Accents 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-640.avif",
-              "width": 640,
-              "height": 438
-            },
-            {
-              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-1280.avif",
-              "width": 1280,
-              "height": 876
-            },
-            {
-              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-2400.avif",
-              "width": 1380,
-              "height": 944
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "blank-base",
       "title": "Blank Base",
       "kittingTypes": [
@@ -130,43 +93,6 @@
       ]
     },
     {
-      "slug": "realforce-extra",
-      "title": "Realforce Extra",
-      "kittingTypes": [
-        "Accent - Theme"
-      ],
-      "images": [
-        {
-          "alt": "Realforce Extra 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-640.avif",
-              "width": 640,
-              "height": 490
-            },
-            {
-              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-1280.avif",
-              "width": 1280,
-              "height": 979
-            },
-            {
-              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-2400.avif",
-              "width": 1548,
-              "height": 1184
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "stamped-mod",
       "title": "Stamped Mod",
       "kittingTypes": [
@@ -198,6 +124,80 @@
               "src": "/media/hhkb-white/kit-e560171d254f0af0-source-gallery-0-4152bc8916c8-2400.avif",
               "width": 1608,
               "height": 886
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "accents",
+      "title": "Accents",
+      "kittingTypes": [
+        "Accent - RGB"
+      ],
+      "images": [
+        {
+          "alt": "Accents 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-640.avif",
+              "width": 640,
+              "height": 438
+            },
+            {
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-1280.avif",
+              "width": 1280,
+              "height": 876
+            },
+            {
+              "src": "/media/hhkb-white/kit-2a8596ea801f0589-source-gallery-0-6ecc7c9a66bf-2400.avif",
+              "width": 1380,
+              "height": 944
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "realforce-extra",
+      "title": "Realforce Extra",
+      "kittingTypes": [
+        "Accent - Theme"
+      ],
+      "images": [
+        {
+          "alt": "Realforce Extra 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-640.avif",
+              "width": 640,
+              "height": 490
+            },
+            {
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-1280.avif",
+              "width": 1280,
+              "height": 979
+            },
+            {
+              "src": "/media/hhkb-white/kit-7261b82924f6fd99-source-gallery-0-829a37f8f5e2-2400.avif",
+              "width": 1548,
+              "height": 1184
             }
           ]
         }

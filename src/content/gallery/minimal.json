@@ -20,213 +20,6 @@
   ],
   "kits": [
     {
-      "slug": "40s-kit",
-      "title": "40s Kit",
-      "kittingTypes": [
-        "Modifier - Obscure"
-      ],
-      "images": [
-        {
-          "alt": "40s Kit 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "bow-gmk-hiragana-kit",
-      "title": "BoW (GMK) Hiragana Kit",
-      "kittingTypes": [
-        "Alpha - Hiragana"
-      ],
-      "images": [
-        {
-          "alt": "BoW (GMK) Hiragana Kit 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-640.avif",
-              "width": 640,
-              "height": 907
-            },
-            {
-              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-1280.avif",
-              "width": 996,
-              "height": 1412
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "brg-space-bar-kit",
-      "title": "BRG Space Bar kit",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "BRG Space Bar kit 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-640.avif",
-              "width": 640,
-              "height": 434
-            },
-            {
-              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-1280.avif",
-              "width": 1256,
-              "height": 852
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "classic-bow-40s-cannon-key",
-      "title": "Classic BoW 40s (Cannon Key)",
-      "kittingTypes": [
-        "Modifier - Obscure"
-      ],
-      "images": [
-        {
-          "alt": "Classic BoW 40s (Cannon Key) 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-640.avif",
-              "width": 640,
-              "height": 520
-            },
-            {
-              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-1280.avif",
-              "width": 872,
-              "height": 708
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "command-kit",
-      "title": "Command Kit",
-      "kittingTypes": [
-        "Modifier - Mac"
-      ],
-      "images": [
-        {
-          "alt": "Command Kit 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "jis-space-bar",
-      "title": "JIS Space bar",
-      "kittingTypes": [
-        "Child - Spacebars"
-      ],
-      "images": [
-        {
-          "alt": "JIS Space bar 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-640.avif",
-              "width": 640,
-              "height": 480
-            },
-            {
-              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-1280.avif",
-              "width": 1280,
-              "height": 960
-            },
-            {
-              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-2400.avif",
-              "width": 2048,
-              "height": 1536
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "minimal-base",
       "title": "Minimal Base",
       "kittingTypes": [
@@ -292,6 +85,144 @@
       ]
     },
     {
+      "slug": "bow-gmk-hiragana-kit",
+      "title": "BoW (GMK) Hiragana Kit",
+      "kittingTypes": [
+        "Alpha - Hiragana"
+      ],
+      "images": [
+        {
+          "alt": "BoW (GMK) Hiragana Kit 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-640.avif",
+              "width": 640,
+              "height": 907
+            },
+            {
+              "src": "/media/minimal/kit-e5ac1bc82a68ac7e-source-gallery-0-258c829692de-1280.avif",
+              "width": 996,
+              "height": 1412
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classic-bow-40s-cannon-key",
+      "title": "Classic BoW 40s (Cannon Key)",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "Classic BoW 40s (Cannon Key) 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-640.avif",
+              "width": 640,
+              "height": 520
+            },
+            {
+              "src": "/media/minimal/kit-2e0c34b81fccf7a6-source-gallery-0-8e8ec17a3be5-1280.avif",
+              "width": 872,
+              "height": 708
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-kit",
+      "title": "40s Kit",
+      "kittingTypes": [
+        "Modifier - Obscure"
+      ],
+      "images": [
+        {
+          "alt": "40s Kit 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-c389cb54cd0bf838-source-gallery-0-c16344a7ba7b-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "command-kit",
+      "title": "Command Kit",
+      "kittingTypes": [
+        "Modifier - Mac"
+      ],
+      "images": [
+        {
+          "alt": "Command Kit 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-6e183a2b865ca771-source-gallery-0-38f065cde362-2400.avif",
+              "width": 2048,
+              "height": 1536
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "modern-japanese-desko-hhkb",
       "title": "Modern Japanese Desko HHKB",
       "kittingTypes": [
@@ -323,6 +254,75 @@
               "src": "/media/minimal/kit-658b2a3b2e9548a5-source-gallery-0-302181990900-2400.avif",
               "width": 1690,
               "height": 1532
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brg-space-bar-kit",
+      "title": "BRG Space Bar kit",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "BRG Space Bar kit 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-640.avif",
+              "width": 640,
+              "height": 434
+            },
+            {
+              "src": "/media/minimal/kit-300ba0c53a1099bb-source-gallery-0-6e6fcfdb878f-1280.avif",
+              "width": 1256,
+              "height": 852
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jis-space-bar",
+      "title": "JIS Space bar",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "JIS Space bar 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/minimal/kit-88117302ce84b3e6-source-gallery-0-b0e6712a158e-2400.avif",
+              "width": 2048,
+              "height": 1536
             }
           ]
         }

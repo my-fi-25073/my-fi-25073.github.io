@@ -50,6 +50,38 @@
       ]
     },
     {
+      "slug": "ortholnear-base",
+      "title": "Ortholnear Base",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Ortholnear Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-640.avif",
+              "width": 640,
+              "height": 425
+            },
+            {
+              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-1280.avif",
+              "width": 1037,
+              "height": 688
+            }
+          ]
+        }
+      ]
+    },
+    {
       "slug": "commands",
       "title": "Commands",
       "kittingTypes": [
@@ -76,38 +108,6 @@
               "src": "/media/mito-9009/kit-d1f8a448416ebc35-source-gallery-0-3310782e8772-1280.avif",
               "width": 1041,
               "height": 690
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "novelties",
-      "title": "Novelties",
-      "kittingTypes": [
-        "Child - Novelties"
-      ],
-      "images": [
-        {
-          "alt": "Novelties 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-640.avif",
-              "width": 640,
-              "height": 426
-            },
-            {
-              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-1280.avif",
-              "width": 1039,
-              "height": 691
             }
           ]
         }
@@ -146,38 +146,6 @@
       ]
     },
     {
-      "slug": "ortholnear-base",
-      "title": "Ortholnear Base",
-      "kittingTypes": [
-        "Base - Nomad"
-      ],
-      "images": [
-        {
-          "alt": "Ortholnear Base 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-640.avif",
-              "width": 640,
-              "height": 425
-            },
-            {
-              "src": "/media/mito-9009/kit-f2936a19b9ecc077-source-gallery-0-3653c328b716-1280.avif",
-              "width": 1037,
-              "height": 688
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "sapce-bars",
       "title": "Sapce Bars",
       "kittingTypes": [
@@ -204,6 +172,38 @@
               "src": "/media/mito-9009/kit-d56e9bfc0dc2b745-source-gallery-0-a04dbf0f6a82-1280.avif",
               "width": 1024,
               "height": 687
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "novelties",
+      "title": "Novelties",
+      "kittingTypes": [
+        "Child - Novelties"
+      ],
+      "images": [
+        {
+          "alt": "Novelties 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-640.avif",
+              "width": 640,
+              "height": 426
+            },
+            {
+              "src": "/media/mito-9009/kit-be65bee1becd8d42-source-gallery-0-d3b98304ea10-1280.avif",
+              "width": 1039,
+              "height": 691
             }
           ]
         }

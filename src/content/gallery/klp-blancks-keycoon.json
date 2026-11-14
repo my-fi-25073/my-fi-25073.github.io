@@ -18,38 +18,6 @@
   ],
   "kits": [
     {
-      "slug": "blanks-black",
-      "title": "Blanks Black",
-      "kittingTypes": [
-        "Base - Nomad"
-      ],
-      "images": [
-        {
-          "alt": "Blanks Black 이미지 1",
-          "presentation": "photo",
-          "galleryVariants": [
-            {
-              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-gallery-6x5-d6fde3ecd447-640.webp",
-              "width": 640,
-              "height": 533
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-640.avif",
-              "width": 640,
-              "height": 386
-            },
-            {
-              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-1280.avif",
-              "width": 1160,
-              "height": 699
-            }
-          ]
-        }
-      ]
-    },
-    {
       "slug": "blanks-white",
       "title": "Blanks White",
       "kittingTypes": [
@@ -76,6 +44,38 @@
               "src": "/media/klp-blancks-keycoon/kit-817a0a2de0f2726b-gallery-0-ea6fd303aac4-1280.avif",
               "width": 1110,
               "height": 772
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "blanks-black",
+      "title": "Blanks Black",
+      "kittingTypes": [
+        "Base - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Blanks Black 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-gallery-6x5-d6fde3ecd447-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-640.avif",
+              "width": 640,
+              "height": 386
+            },
+            {
+              "src": "/media/klp-blancks-keycoon/kit-88288d77444c0358-gallery-0-f7a42494f437-1280.avif",
+              "width": 1160,
+              "height": 699
             }
           ]
         }
