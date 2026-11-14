@@ -58,10 +58,11 @@
   "images": [
     {
       "alt": "ULP Flat Blanks 이미지 1",
-      "presentation": "render",
+      "preserveColor": true,
+      "presentation": "icon",
       "galleryVariants": [
         {
-          "src": "/media/ulp-flat-blanks/series-50036603c97045b7-source-gallery-0-aec04dc6ca7b-gallery-6x5-596dc3a34e9f-640.webp",
+          "src": "/media/ulp-flat-blanks/series-50036603c97045b7-source-gallery-0-aec04dc6ca7b-gallery-6x5-59610b34529b-640.webp",
           "width": 640,
           "height": 533
         }

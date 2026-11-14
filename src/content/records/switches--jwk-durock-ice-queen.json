@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "TB 22mm 23g · Stem Factory Lube · Spring Factory Lube",
+      "label": "TB 22mm 23g · 스템 Factory Lube · 스프링 Factory Lube",
       "spring": {
         "resolution": "selected",
         "name": "TB 22mm 23g",
@@ -92,7 +92,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "selected",
         "name": "JWK Factory Spring 63.5g",

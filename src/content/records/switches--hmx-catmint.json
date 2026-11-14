@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Sprit Supreme 30g · Stem Factory Lube · Spring No-Lube",
+      "label": "Sprit Supreme 30g · 스템 Factory Lube · 스프링 No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
@@ -113,7 +113,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Sprit Supreme 25g · Stem Factory Lube · Spring No-Lube",
+      "label": "Sprit Supreme 25g · 스템 Factory Lube · 스프링 No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",

@@ -428,10 +428,11 @@
   "images": [
     {
       "alt": "KBDFans HHKB Keysets 이미지 1",
-      "presentation": "photo",
+      "preserveColor": true,
+      "presentation": "icon",
       "galleryVariants": [
         {
-          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-gallery-6x5-d6fde3ecd447-640.webp",
+          "src": "/media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-gallery-6x5-fd3a01dbfe7d-640.webp",
           "width": 640,
           "height": 533
         }

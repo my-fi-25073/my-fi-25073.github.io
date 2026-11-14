@@ -13,7 +13,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "selected",
         "name": "Outemu Factory Spring 50g",

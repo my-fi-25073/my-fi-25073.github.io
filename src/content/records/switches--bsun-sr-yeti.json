@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Sprit Supreme 12g · Stem Factory Lube · Spring No-Lube",
+      "label": "Sprit Supreme 12g · 스템 Factory Lube · 스프링 No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 12g",
@@ -99,7 +99,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "selected",
         "name": "Bsun Factory Spring 44g",

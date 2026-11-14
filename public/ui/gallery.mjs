@@ -44,7 +44,7 @@ export function galleryAspectRatio(kind = 'switch') {
 
 function iconMarkup(kind) {
   const type = iconKind(kind);
-  if (type === 'switch') return '';
+  if (type === 'switch' || type === 'keycap') return '';
   if (type === 'spring') return '<img class="kl-placeholder-icon kl-spring-illustration" src="/ui/spring-illustration.webp" alt="" loading="lazy" decoding="async">';
   return `<svg class="kl-placeholder-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[type]}</svg>`;
 }
@@ -101,7 +101,7 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
   const label = src && value.springLabel
     ? `<div class="kl-spring-label"><span class="kl-spring-series">${escapeHtml(value.springLabel.series).replace(/ (\d+)$/u, '\u00a0$1')}</span><strong class="kl-spring-force">${forceLabel}</strong></div>`
     : src && value.brandLabel ? `<span class="kl-brand-label">${escapeHtml(value.brandLabel)}</span>` : '';
-  return `<div class="kl-media" data-gallery-kind="${iconKind(kind)}" data-gallery-aspect="${aspect}" style="--kl-media-aspect:${aspect.replace(':', '/')}" data-media-kind="${mode}"${value?.framed ? ' data-preframed="true"' : ''}${value?.preserveColor ? ' data-preserve-color="true"' : ''}${value?.springLabel ? ' data-spring-label="true"' : ''}${label ? ' data-brand-label="true"' : ''}${src ? '' : ' data-placeholder="true"'} data-placeholder-kind="${iconKind(kind)}">${imageHtml}${src ? label : iconMarkup(kind) + logoHtml}</div>`;
+  return `<div class="kl-media" data-gallery-kind="${iconKind(kind)}" data-gallery-aspect="${aspect}" data-media-kind="${mode}"${value?.framed ? ' data-preframed="true"' : ''}${value?.preserveColor ? ' data-preserve-color="true"' : ''}${value?.springLabel ? ' data-spring-label="true"' : ''}${label ? ' data-brand-label="true"' : ''}${src ? '' : ' data-placeholder="true"'} data-placeholder-kind="${iconKind(kind)}">${imageHtml}${src ? label : iconMarkup(kind) + logoHtml}</div>`;
 }
 
 /** One card structure for Astro output and the editable Studio gallery.

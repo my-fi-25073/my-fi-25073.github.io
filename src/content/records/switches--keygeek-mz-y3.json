@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "selected",
         "name": "Keygeek Factory Spring 37g",
@@ -98,7 +98,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Sprit Supreme 30g · Stem Factory Lube · Spring No-Lube",
+      "label": "Sprit Supreme 30g · 스템 Factory Lube · 스프링 No-Lube",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
@@ -185,7 +185,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 45g",

@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "selected",
         "name": "SWK Factory Spring 50g",

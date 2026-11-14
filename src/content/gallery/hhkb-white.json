@@ -207,10 +207,11 @@
   "images": [
     {
       "alt": "HHKB White 이미지 1",
-      "presentation": "render",
+      "preserveColor": true,
+      "presentation": "icon",
       "galleryVariants": [
         {
-          "src": "/media/hhkb-white/series-513ddecc82ed88fb-source-gallery-0-e073080fad33-gallery-6x5-596dc3a34e9f-640.webp",
+          "src": "/media/hhkb-white/series-513ddecc82ed88fb-source-gallery-0-e073080fad33-gallery-6x5-59610b34529b-640.webp",
           "width": 640,
           "height": 533
         }

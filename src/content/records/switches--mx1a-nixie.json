@@ -19,7 +19,7 @@
   },
   "tunings": [
     {
-      "label": "Sprit Supreme 35g · Stem Krytox GPL 205 G2 · Spring Krytox GPL 205 G0 · TX PET Film 0.150mm",
+      "label": "Sprit Supreme 35g · 스템 205g2 · 스프링 205g0 · TX PET 필름 0.150mm",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -125,7 +125,7 @@
       "coverImageIndex": 2
     },
     {
-      "label": "Stock",
+      "label": "Unlubed",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 80g",

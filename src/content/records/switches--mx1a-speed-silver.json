@@ -19,7 +19,7 @@
   },
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Unlubed",
       "spring": {
         "resolution": "selected",
         "name": "Cherry Factory Spring 60g",

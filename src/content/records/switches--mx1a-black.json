@@ -98,7 +98,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "35g · Dia Glide",
+      "label": "35g [Dia Glide]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -248,7 +248,7 @@
       "coverImageIndex": 2
     },
     {
-      "label": "25g · Krytox GPL 205 G0",
+      "label": "25g [205 G0]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -332,7 +332,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "25g · Krytox GPL 205 G2",
+      "label": "25g [205 G2]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -416,7 +416,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "50g · Dia Glide",
+      "label": "50g [Dia Glide]",
       "spring": {
         "resolution": "selected",
         "name": "TX Middle 50g",
@@ -506,7 +506,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "25g · Dia Glide",
+      "label": "25g [Dia Glide]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -598,7 +598,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Stock",
+      "label": "Factory Stock",
       "spring": {
         "resolution": "unknown",
         "name": null,

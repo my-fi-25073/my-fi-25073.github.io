@@ -19,7 +19,7 @@
   },
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Unlubed",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 60g",

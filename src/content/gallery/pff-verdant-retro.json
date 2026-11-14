@@ -143,10 +143,10 @@
   "images": [
     {
       "alt": "PFF Verdant Retro 이미지 1",
-      "presentation": "render",
+      "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-gallery-6x5-596dc3a34e9f-640.webp",
+          "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-gallery-6x5-453223a51282-640.webp",
           "width": 640,
           "height": 533
         }

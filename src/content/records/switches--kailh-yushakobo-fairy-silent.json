@@ -13,7 +13,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "Stock",
+      "label": "Factory Lubed",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 45g",

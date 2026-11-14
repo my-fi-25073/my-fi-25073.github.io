@@ -19,7 +19,7 @@
   },
   "tunings": [
     {
-      "label": "25g · Stem/Spring Krytox GPL 205 G0",
+      "label": "25g [205 G0]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -106,7 +106,7 @@
       "coverImageIndex": null
     },
     {
-      "label": "63.5g · Stem No-Lube",
+      "label": "63.5g [Unlubed]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 63.5g",
@@ -245,7 +245,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "60g · Krytox GPL 107",
+      "label": "60g [107]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 60g",
@@ -384,7 +384,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "35g · Fomblin Z15 + Klübertemp GR M 07 · Glue Marker",
+      "label": "35g [Z15 + GR M 07] [Glue Marker]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -409,7 +409,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Fomblin Z15 + Klübertemp GR M 07"
+          "name": "KKLube"
         }
       },
       "images": [
@@ -519,7 +519,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "50g · Kelowna AF206",
+      "label": "50g [AF206]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 50g",
@@ -658,7 +658,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "55g · DUBA CHEM DRI-KOTE DL-116Y",
+      "label": "55g 드라이코테",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 55g",
@@ -792,7 +792,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "25g · Stem Krytox GPL 205 G2 · Spring Krytox GPL 105",
+      "label": "25g [205 G2] [105]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -903,7 +903,7 @@
       "coverImageIndex": null
     },
     {
-      "label": "35g · Fomblin Z15 + Klübertemp GR M 07",
+      "label": "35g [Z15 + GR M 07]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -928,7 +928,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Fomblin Z15 + Klübertemp GR M 07"
+          "name": "KKLube"
         }
       },
       "images": [
@@ -1038,7 +1038,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "35g · Kelowna AF206",
+      "label": "35g [AF206]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -1178,7 +1178,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "63.5g · Sprit Slow Extreme 3",
+      "label": "63.5g [Sprit Slow Extreme 3]",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 3 63.5g",
@@ -1202,7 +1202,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "Fomblin Z15 + Klübertemp GR M 07"
+          "name": "KKLube"
         }
       },
       "images": [
@@ -1312,7 +1312,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "Stock",
+      "label": "Unlubed",
       "spring": {
         "resolution": "unknown",
         "name": null,

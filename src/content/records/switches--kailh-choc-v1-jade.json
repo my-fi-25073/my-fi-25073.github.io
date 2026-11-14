@@ -12,7 +12,7 @@
   "isFranken": false,
   "tunings": [
     {
-      "label": "No-Lube",
+      "label": "Unlubed",
       "spring": {
         "resolution": "selected",
         "name": "Kailh Factory 50g",
