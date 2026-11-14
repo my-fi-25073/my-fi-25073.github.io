@@ -43,19 +43,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-gallery-4x3-4fb89c98c324-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-640.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-640.avif",
               "width": 640,
               "height": 573
             },
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-1280.avif",
               "width": 719,
               "height": 644
             }
@@ -95,19 +95,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-gallery-4x3-4fb89c98c324-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-640.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-640.avif",
           "width": 640,
           "height": 573
         },
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-1280.avif",
           "width": 719,
           "height": 644
         }

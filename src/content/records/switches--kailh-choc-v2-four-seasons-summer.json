@@ -43,19 +43,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-gallery-4x3-ffdf4a15440e-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-640.avif",
               "width": 640,
               "height": 513
             },
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-1280.avif",
               "width": 680,
               "height": 545
             }
@@ -95,19 +95,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-gallery-4x3-ffdf4a15440e-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-640.avif",
           "width": 640,
           "height": 513
         },
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-1280.avif",
           "width": 680,
           "height": 545
         }

@@ -43,19 +43,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-gallery-4x3-c1cd713a191f-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-640.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-640.avif",
               "width": 640,
               "height": 534
             },
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-1280.avif",
               "width": 723,
               "height": 603
             }
@@ -95,19 +95,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-gallery-4x3-c1cd713a191f-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-640.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-640.avif",
           "width": 640,
           "height": 534
         },
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-1280.avif",
           "width": 723,
           "height": 603
         }

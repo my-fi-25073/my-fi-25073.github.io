@@ -44,19 +44,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-gallery-4x3-2816a2423437-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-640.avif",
+              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-640.avif",
               "width": 640,
               "height": 501
             },
             {
-              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-1280.avif",
               "width": 850,
               "height": 665
             }
@@ -96,19 +96,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-gallery-4x3-2816a2423437-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-640.avif",
+          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-640.avif",
           "width": 640,
           "height": 501
         },
         {
-          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-1280.avif",
           "width": 850,
           "height": 665
         }

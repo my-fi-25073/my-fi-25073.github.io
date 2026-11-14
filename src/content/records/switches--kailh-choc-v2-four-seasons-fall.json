@@ -43,19 +43,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-gallery-4x3-368dc7bc0698-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-640.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-640.avif",
               "width": 640,
               "height": 619
             },
             {
-              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-1280.avif",
               "width": 723,
               "height": 699
             }
@@ -95,19 +95,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-gallery-4x3-368dc7bc0698-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-640.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-640.avif",
           "width": 640,
           "height": 619
         },
         {
-          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-1280.avif",
           "width": 723,
           "height": 699
         }

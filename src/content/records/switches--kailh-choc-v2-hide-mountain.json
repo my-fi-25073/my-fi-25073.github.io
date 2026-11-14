@@ -45,19 +45,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-gallery-4x3-ca3457942cf3-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-640.avif",
+              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-640.avif",
               "width": 640,
               "height": 462
             },
             {
-              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-1280.avif",
+              "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-1280.avif",
               "width": 894,
               "height": 646
             }
@@ -102,19 +102,19 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-gallery-4x3-ca3457942cf3-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-640.avif",
+          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-640.avif",
           "width": 640,
           "height": 462
         },
         {
-          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-1280.avif",
+          "src": "/media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-1280.avif",
           "width": 894,
           "height": 646
         }

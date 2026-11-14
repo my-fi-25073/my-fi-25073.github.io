@@ -45,19 +45,19 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-gallery-4x3-9c08a928d320-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-640.avif",
+              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-640.avif",
               "width": 640,
               "height": 327
             },
             {
-              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-1280.avif",
+              "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-1280.avif",
               "width": 715,
               "height": 365
             }
@@ -97,19 +97,19 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-gallery-4x3-9c08a928d320-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-640.avif",
+          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-640.avif",
           "width": 640,
           "height": 327
         },
         {
-          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-1280.avif",
+          "src": "/media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-1280.avif",
           "width": 715,
           "height": 365
         }

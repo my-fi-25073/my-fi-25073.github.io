@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "14297139a5dd6ec4a5c25528b1eb15905b468d7a31f2776b890222014cd1a406",
+  "releaseId": "f58b20d97ffac725b4096790578466db66384bb21afa72612dde004a5697bb2f",
   "files": [
     {
       "path": "content/collections.json",
@@ -1474,23 +1474,23 @@
     },
     {
       "path": "content/records/switches--kailh-choc-v2-four-seasons-fall.json",
-      "bytes": 5027,
-      "sha256": "f1e5ca63f51ed0d11ec3f7715fd8a3163366db9ace2847a5b3a3e2a73af24860"
+      "bytes": 5147,
+      "sha256": "fe02ae6635071faa00623bf657bbc3ba72e89461a9f5f083d12de2e5d1d3ee4f"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-four-seasons-spring-mini.json",
-      "bytes": 5162,
-      "sha256": "341938b7e762a0506e0d011b50c85023b44994fdc0fa4edbbfd518ac95fbb561"
+      "bytes": 5282,
+      "sha256": "3ebfb0fa616042d03571052047c74c9d68a259a68229e1f046184d9e125928d3"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-four-seasons-summer.json",
-      "bytes": 5063,
-      "sha256": "3ec12237d4ad85c2e99dc8993e72eee16343da2939d90aea7cd8346a299136d7"
+      "bytes": 5183,
+      "sha256": "81b66746715f848e571078eb864e16c95d627a02602ba2d647efad41c91ae8fb"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-four-seasons-winter.json",
-      "bytes": 5067,
-      "sha256": "53da91dcea249a071f0b9e9d6b5ba4679cf049b9ae9aa9ca09e7b172e0cd8305"
+      "bytes": 5187,
+      "sha256": "10cab492e0dd6c37331d8db0b4150e6fcd4fd19fb76d95a559f343dd2be24a0e"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-haute42-crystal.json",
@@ -1504,13 +1504,13 @@
     },
     {
       "path": "content/records/switches--kailh-choc-v2-haute42-wind-engine.json",
-      "bytes": 5077,
-      "sha256": "dd65ff7fa46d6af7ecde1eaf08841d45f9104084028d0c2f845d577b88e5d93d"
+      "bytes": 5197,
+      "sha256": "0acfd84cf130c9ddd3944f838682733c3309cbb77a7ff69b086c5fd24922bfda"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-hide-mountain.json",
-      "bytes": 5454,
-      "sha256": "500c25dae80ce8e6dc0e860410fa009192e6eacf1d29d30a94a7fbdb5ec1cd98"
+      "bytes": 5574,
+      "sha256": "9afe21b50f819e352820d0c236b5c07b3958c02966f6ea9bb1762a9e82939427"
     },
     {
       "path": "content/records/switches--kailh-choc-v2-ice-cream.json",
@@ -1689,13 +1689,13 @@
     },
     {
       "path": "content/records/switches--keygeek-u3.json",
-      "bytes": 5122,
-      "sha256": "5387b0a2c4b188f71d9bd26050a3e4e0236563d0e3f4497ac52063687d0c6480"
+      "bytes": 5242,
+      "sha256": "a6a8821491e80f040dd47eaccc26f779e713d1e028bb622984efdb1e0aa59fe8"
     },
     {
       "path": "content/records/switches--keygeek-y2.json",
-      "bytes": 4722,
-      "sha256": "625dbcb3cb63e509e4451870500cce58610cd879a81f06b2a8881c76adac7075"
+      "bytes": 4842,
+      "sha256": "55956751d7d3ac12df0df6ce61f4110361179bd5df0acc159bf19134ecdd2420"
     },
     {
       "path": "content/records/switches--mmd-princess.json",
@@ -16203,19 +16203,19 @@
       "sha256": "cd0f7fc710c4728033b27406f46350e9b871221350570e7c9bad80a4f3690662"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-1280.avif",
-      "bytes": 13232,
-      "sha256": "613b4ac77b5ba8e622d4b32c2e70cb87061a95b6bf6dcf09fccda05f921258c9"
+      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-1280.avif",
+      "bytes": 14924,
+      "sha256": "71ca6cfa10de959f204cbbc03dd960caf29b4045d8f2b02802cb09fec9d326b3"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-640.avif",
-      "bytes": 11305,
-      "sha256": "281100cda6e4dfbd7cabe1d997b98adbe097f7bc4c2a7211234ad9c8680d7e87"
+      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-640.avif",
+      "bytes": 10690,
+      "sha256": "bd683141bbcd37b3d96cf8af52b66c40421ca5dff774ddea8b5fec0bb5460d65"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 9896,
-      "sha256": "da3a7bbe2a51967d9a1d8c7dccc58848464023a1da58e2883ec88dba84b7c61f"
+      "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-0-0c00f52e8b55-cutout-46d5e338bce2-gallery-4x3-368dc7bc0698-640.webp",
+      "bytes": 15538,
+      "sha256": "c92b3a904d212bae75e8d408cfa8a889cb24619a8bf8a6ce4ef91b1b4980238a"
     },
     {
       "path": "media/switches/kailh-choc-v2-four-seasons-fall/3506ce069c1c0162-dacaa9173b73-source-gallery-1-a0c974a5fafa-1280.avif",
@@ -16233,19 +16233,19 @@
       "sha256": "9cf9f7ed6478641a983565e0202006e16b7d5bc7e53b66df20f1b91028b069be"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-1280.avif",
-      "bytes": 5861,
-      "sha256": "9a634d296c4b3312212c307ea2a13abcdca4f2e294ea4c6c951105c3a6260b42"
+      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-1280.avif",
+      "bytes": 7481,
+      "sha256": "c169778ae707ad83ebc294759b5af8e032c1e79aa5c8cbd8174d0d231abda6d9"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-640.avif",
-      "bytes": 5080,
-      "sha256": "6fb016c045bbe9f7a805e2c9846194cb74c2a441c174274932e2a2c3b6989f2a"
+      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-640.avif",
+      "bytes": 6333,
+      "sha256": "42d39ffafb39ccb2fbae5f1463c0a7c05dfab05d408140619156cb0dbfed109f"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 4962,
-      "sha256": "1d282042d40f0c50e5663eb3cb6818020f6b615601ab9e7b51305d8fed19dbeb"
+      "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-0-7d63fb7d2d65-cutout-4bdb78009003-gallery-4x3-c1cd713a191f-640.webp",
+      "bytes": 10708,
+      "sha256": "b7731c4ed698bd5787a00f732c58aeffbac79d7b5f779048bd8be0f8380015a8"
     },
     {
       "path": "media/switches/kailh-choc-v2-four-seasons-spring-mini/e9f2cb39dc731147-103525834c66-source-gallery-1-801f72c104d8-1280.avif",
@@ -16263,19 +16263,19 @@
       "sha256": "825b066b3662e98062772fb0d6555a0bb0d0a84301a771d76d70e8977b950766"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-1280.avif",
-      "bytes": 10502,
-      "sha256": "4ab75e64651eebf5ce4e1f8b81b3677ff6c8e76e0a7e820200682a412b04b864"
+      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-1280.avif",
+      "bytes": 12907,
+      "sha256": "2e2eb5ec44e26a61edf9c530db6441d9c3038565476fea21bff9bb57a847f759"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-640.avif",
-      "bytes": 9591,
-      "sha256": "fd7d91c793cae0167f60cd4f342329894597968c97e878b49f7dc43842776a03"
+      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-640.avif",
+      "bytes": 10682,
+      "sha256": "b0d650e65b76d5bdc85452b26de4bb6ec3c2d1da560abf9346381bed52e96bd3"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 9974,
-      "sha256": "05f335b77cd14fe8b87bcdd2491a83f3b8b7672e9485280185b892b003d49300"
+      "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-0-b0242104a1a2-cutout-408d8d4f6c6c-gallery-4x3-ffdf4a15440e-640.webp",
+      "bytes": 22030,
+      "sha256": "8974e16695aacfd6fde2c589294e8442fd93f059de8c234035454effb543131c"
     },
     {
       "path": "media/switches/kailh-choc-v2-four-seasons-summer/562071edf2ad70f9-910996fd0c51-source-gallery-1-56f4068a7c4b-1280.avif",
@@ -16293,19 +16293,19 @@
       "sha256": "01cf195f527b661bc464349f0cca4702bfd9b9bd75de455b3a6910f3b745b58c"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-1280.avif",
-      "bytes": 5229,
-      "sha256": "c76166e1da76802d5bc12c302ab335710c8316a755070b3fcd3eb988c96f5f05"
+      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-1280.avif",
+      "bytes": 6854,
+      "sha256": "59d51912ab7f91191e7de05475aeebf263a7ae0f676ff67f019af8709aa2063f"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-640.avif",
-      "bytes": 4645,
-      "sha256": "265930933672a83ba71c15231029374c9420cc052c0ffd8fbe05b0484c9f8616"
+      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-640.avif",
+      "bytes": 6249,
+      "sha256": "7ac2e0f9e1ca06e9ea11fc0e2667ca90bfc8e34d5e58259e4d4dca2cd4dc18c1"
     },
     {
-      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 4218,
-      "sha256": "acee840f48ad1574900301af3d40b9862594751311cc40b5171112b28b4c0e7a"
+      "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-gallery-4x3-4fb89c98c324-640.webp",
+      "bytes": 9778,
+      "sha256": "61a146aba84a4825101cc52e86b6904b0780dcdf0be5c5e1e3156b509c79852f"
     },
     {
       "path": "media/switches/kailh-choc-v2-four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-1280.avif",
@@ -16378,19 +16378,19 @@
       "sha256": "1d0932dea4563a41f4255d85e3c3ddc44ef00b60eb85c30fc13c373fa0c426e8"
     },
     {
-      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-1280.avif",
-      "bytes": 8277,
-      "sha256": "d9111e1488162814675defab9b635b2830fbad52563b33989bd919b2b0e4f467"
+      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-1280.avif",
+      "bytes": 10878,
+      "sha256": "5db42d0553bff6eeebfeea680a21b914e36d59770365b5aeb9d60b8da9c2e621"
     },
     {
-      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-640.avif",
-      "bytes": 6343,
-      "sha256": "bc204eb3e1768e2e60af1ef9b2d3ae0dc48f9d4ad772e47016e54b5df6c2e818"
+      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-640.avif",
+      "bytes": 11667,
+      "sha256": "0e3189e772de78d149f68e15193fe20a577c02058ab18205f87f0d85bfa4f31a"
     },
     {
-      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 7538,
-      "sha256": "909e7c70923dcd62dda80417e7290e1401d3ccbf142c27d23a07aa6b014d5209"
+      "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-0-5383e59a1611-cutout-3158472f5f42-gallery-4x3-2816a2423437-640.webp",
+      "bytes": 19412,
+      "sha256": "573e1cc6a37cab80b55a5e90cd9e5c7ba5408067948081f0060c2b5988ab3f85"
     },
     {
       "path": "media/switches/kailh-choc-v2-haute42-wind-engine/fe833cb0c9d75bf8-3b19266c8078-source-gallery-1-3dff0cd4fe7a-1280.avif",
@@ -16408,19 +16408,19 @@
       "sha256": "21e76d20d5b8cb60d122b3257c7a37905082552cee684f9a4b29365d05d46809"
     },
     {
-      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-1280.avif",
-      "bytes": 8162,
-      "sha256": "1cda7573ca3653d125954d00e9455c399544d58d8bbfb94b9f80b45db45d1e68"
+      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-1280.avif",
+      "bytes": 11095,
+      "sha256": "aaa5c94b3f71be14704f0d3c69906e17e1820b9575ca7ff0165011a8c5a3b403"
     },
     {
-      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-640.avif",
-      "bytes": 5689,
-      "sha256": "f5132a15fae0363bbd8acd3ed12520b56f52fd6fec7881cd7b53146b3d4dcff0"
+      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-640.avif",
+      "bytes": 11019,
+      "sha256": "dbff4073b9c20edee0c6e1bd293d95296cf0b1baa43262c3061c7d90129b9134"
     },
     {
-      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-gallery-4x3-d6fde3ecd447-640.webp",
-      "bytes": 6370,
-      "sha256": "595332e22072349ae667cc878d277e8d8d04dc3d501a4c0ff004ea02055cc12a"
+      "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-gallery-4x3-ca3457942cf3-640.webp",
+      "bytes": 24258,
+      "sha256": "1e2b0c9dfbb9a5766fb54f7c5d7a3af719aaaf6228ac7bc5fdea24480b5a3142"
     },
     {
       "path": "media/switches/kailh-choc-v2-hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-1280.avif",
@@ -17853,19 +17853,19 @@
       "sha256": "174790bc39e8d5ed87432a7dbb5890bc52399d3be41607d64d8361fac070942a"
     },
     {
-      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-1280.avif",
-      "bytes": 8470,
-      "sha256": "4ac8cd5400b0c0b7e089273c8091037ab4b56e850d5b458e4e891c0190aec1af"
+      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-1280.avif",
+      "bytes": 10437,
+      "sha256": "8b4996df0dc0e832c84d1f5b2bcdbadf694bfe60324a1dfae6009841c4434561"
     },
     {
-      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-640.avif",
-      "bytes": 7278,
-      "sha256": "d9e9baab4b661bf4ba0b6227bde3765a69c2545e78b362237ee97d76db959312"
+      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-640.avif",
+      "bytes": 11414,
+      "sha256": "1ae35218832a9683a6c4ebb002f757646e8ecede1f4558690c0c8f44aedc5a0f"
     },
     {
-      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 8036,
-      "sha256": "e92bd4e70a2269ceb8af554772a20f54e7513990c2a629de7e9d2dbc2ac14acd"
+      "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-gallery-4x3-60d365f62e78-640.webp",
+      "bytes": 19984,
+      "sha256": "9700caccf3fb76dff6d1040c71418aad62d54e974c31ce9f408d83a5911d9b58"
     },
     {
       "path": "media/switches/keygeek-u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-1280.avif",
@@ -17888,19 +17888,19 @@
       "sha256": "7335d406d50ff99b95dbfaf14526a4a6e6b87976548bdc1f8d4e506189e3f190"
     },
     {
-      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-1280.avif",
-      "bytes": 9028,
-      "sha256": "3581d746e0f9df0ce34460eb860e3e7e23c58d581b56f35f34b6b3a4c2ca21f9"
+      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-1280.avif",
+      "bytes": 10025,
+      "sha256": "f0caa9e0a55b6ff12aa3cae807b546d59ef8f59326230ccfe968ccf79b11c097"
     },
     {
-      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-640.avif",
-      "bytes": 7492,
-      "sha256": "66dae8421949b418c4e05b76d31654382f56ac199c4513ab8b180620566943f9"
+      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-640.avif",
+      "bytes": 9770,
+      "sha256": "7dd246a858b669c31e44b8a15eb2893e4e7fa2a208e9bcd544b82ed63e39b2a2"
     },
     {
-      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-gallery-4x3-596dc3a34e9f-640.webp",
-      "bytes": 8122,
-      "sha256": "85f50560f941e5e45e5c3d75ce7276f9bbceff150c7a43405bc5380f4285b5ec"
+      "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-0-d0680251b5df-cutout-983c3c16676b-gallery-4x3-9c08a928d320-640.webp",
+      "bytes": 17618,
+      "sha256": "b26555878e073e0f7430a3c459df488cb73266d0d96e61046ded5c902f0a3732"
     },
     {
       "path": "media/switches/keygeek-y2/d04190f9bd819c70-704e0a06b797-source-gallery-1-25b3da062972-1280.avif",
