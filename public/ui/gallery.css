@@ -68,6 +68,8 @@
 .kl-media-error { padding: 1rem; font-size: .8125rem; color: var(--k-muted); }
 .kl-card-copy { display: grid; gap: var(--k-gallery-copy-gap); padding: var(--k-gallery-copy-top) 0 0; }
 .kl-card-title { display: block; margin: 0; color: inherit; font-family: inherit; font-size: var(--k-gallery-title); font-weight: var(--k-weight-strong); letter-spacing: normal; line-height: 1.3; overflow-wrap: anywhere; }
+.kl-card[data-public-hidden] .kl-card-title,
+.k-button[data-public-hidden][data-ui="text"] { color: var(--k-muted); }
 .kl-card-fields { display: grid; gap: 4px; margin: 0; color: var(--k-muted); font-size: var(--k-type-caption); line-height: 1.45; }
 .kl-card-fields > div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 7px; }
 .kl-card-fields dt { color: var(--k-muted); }
