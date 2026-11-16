@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "rgy",
+  "title": "RGY",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Krytox GPL 105",
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20.4g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "RGY 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-0-3fc090464c5e-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-0-3fc090464c5e-640.avif",
+              "width": 602,
+              "height": 442
+            }
+          ]
+        },
+        {
+          "alt": "RGY 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-1-32217b7c4b3a-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-1-32217b7c4b3a-640.avif",
+              "width": 334,
+              "height": 341
+            }
+          ]
+        },
+        {
+          "alt": "RGY 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-2-383136970a88-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-2-383136970a88-640.avif",
+              "width": 357,
+              "height": 252
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 25g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "25g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "RGY 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-0-3fc090464c5e-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-0-3fc090464c5e-640.avif",
+          "width": 602,
+          "height": 442
+        }
+      ]
+    },
+    {
+      "alt": "RGY 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-1-32217b7c4b3a-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-1-32217b7c4b3a-640.avif",
+          "width": 334,
+          "height": 341
+        }
+      ]
+    },
+    {
+      "alt": "RGY 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-2-383136970a88-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/rgy/82f4628df746a14b-7f8818d5fdac-source-gallery-2-383136970a88-640.avif",
+          "width": 357,
+          "height": 252
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Bsun logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-gallery-4x3-024499697cc7-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-640.avif",
+        "width": 78,
+        "height": 58
+      }
+    ]
+  },
+  "coverImageIndex": 0
+}

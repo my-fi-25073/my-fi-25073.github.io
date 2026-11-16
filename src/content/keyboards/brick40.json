@@ -51,7 +51,7 @@
     "switches": [
       {
         "title": "Yogurt",
-        "href": "/switches/hmx-yogurt/tunings/fe5efa8560e6/"
+        "href": "/switches/yogurt/tunings/fe5efa8560e6/"
       }
     ]
   },
@@ -61,7 +61,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/brick40/0b46eb7dbc1226f8-source-gallery-0-c6d80c78f32f-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/brick40/0b46eb7dbc1226f8-source-gallery-0-c6d80c78f32f-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }
@@ -89,7 +89,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/brick40/0b46eb7dbc1226f8-source-gallery-1-0a740c068c87-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/brick40/0b46eb7dbc1226f8-source-gallery-1-0a740c068c87-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

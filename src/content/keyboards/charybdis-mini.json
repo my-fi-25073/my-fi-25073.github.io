@@ -46,7 +46,7 @@
     "switches": [
       {
         "title": "Xinhai",
-        "href": "/switches/hmx-xinhai/tunings/9dd9f0e5713f/"
+        "href": "/switches/xinhai/tunings/9dd9f0e5713f/"
       }
     ]
   },
@@ -56,7 +56,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/charybdis-mini/afca17f884377a04-source-gallery-0-420b224f14ab-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

@@ -26,15 +26,15 @@ const { axes, presets = {} } = Astro.props;
   <summary>분류</summary>
   <div class="filter-axes">
   {axes.map((axis) => (
-    <fieldset class="filter-axis">
+    <fieldset class="k-filter-axis">
       <legend>{axis.label}</legend>
-      <div class="filter-options">
-        <label class="filter-option">
+      <div class="k-filter-options">
+        <label class="k-filter-option">
           <input type="radio" name={axis.key} value="" checked />
           <span>All</span>
         </label>
         {axis.groups.map((group) => (
-          <label class="filter-option">
+          <label class="k-filter-option">
             <input type="radio" name={axis.key} value={group.id} data-aliases={group.aliases?.join(' ')} />
             <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
           </label>
@@ -189,41 +189,9 @@ const { axes, presets = {} } = Astro.props;
 
 <style>
   summary { display: none; }
-  .filter-axis {
-    min-width: 0;
-    margin: 0 0 18px;
-    padding: 0 0 12px;
-    border: 0;
-    border-bottom: 1px solid var(--color-rule);
-  }
-  .filter-axis legend { margin-bottom: 4px; padding: 0; font-size: 13px; font-weight: 680; }
-  .filter-option {
-    position: relative;
-    display: grid;
-    align-items: center;
-    min-height: 36px;
-    padding: 3px 4px 3px 11px;
-    color: var(--color-muted);
-    cursor: pointer;
-    font-size: 13px;
-  }
-  .filter-option span { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
-  .filter-option small { font-size: 11px; font-weight: 400; font-variant-numeric: tabular-nums; }
-  .filter-option input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; }
-  .filter-option:has(input:checked), .filter-option:hover { color: var(--color-text); }
-  .filter-option:has(input:checked) { font-weight: 670; }
-  .filter-option:has(input:checked)::before {
-    position: absolute;
-    inset: 9px auto 9px 0;
-    width: 2px;
-    background: #4d382a;
-    content: '';
-  }
-  .filter-option:has(input:focus-visible) { outline: 2px solid var(--color-focus); outline-offset: -2px; }
 
   @media (max-width: 660px) {
-    summary { display: list-item; min-height: 44px; padding-block: 10px; border-bottom: 1px solid var(--color-rule); cursor: pointer; }
+    summary { display: flex; }
     .filter-axes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding-top: 15px; }
-    .filter-option { min-height: 44px; padding-inline-start: 7px; }
   }
 </style>

@@ -82,7 +82,7 @@ const timeline = activeMonths.map((month) => {
       <ul class="recap-year-links">
         {recapYears.map((availableYear) => (
           <li>
-            <a
+            <a class="k-nav"
               href={`/recap/${availableYear}/`}
               aria-current={availableYear === year ? 'page' : undefined}
             >{availableYear}</a>
@@ -99,13 +99,13 @@ const timeline = activeMonths.map((month) => {
                 {days.map(([date, keyboards]) => (
                   <li class="recap-date">
                     <time datetime={date}>{Number(date.slice(8, 10))}일</time>
-                    <div class="recap-date-builds">
+                    <div class="recap-date-builds kl-gallery-scope"><div class="kl-gallery" data-gallery-role="timeline">
                       {keyboards.map((keyboard) => {
                         const entry = entryBySlug.get(keyboard.slug);
                         if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
                         return <KeyboardCard keyboard={entry.data} headingLevel={3} />;
                       })}
-                    </div>
+                    </div></div>
                   </li>
                 ))}
               </ol>
@@ -155,7 +155,7 @@ const timeline = activeMonths.map((month) => {
 </SiteLayout>
 
 <style>
-  .recap-cover { margin-top: clamp(14px, 2.1vw, 32px); background: var(--color-surface); }
+  .recap-cover { margin-top: clamp(14px, 2.1vw, 32px); background: var(--k-surface); }
   .recap-cover img {
     width: 100%;
     height: clamp(168px, 18vw, 284px);
@@ -164,7 +164,7 @@ const timeline = activeMonths.map((month) => {
   }
   .recap-cover-2024 img { object-position: 50% 57%; }
   .recap-heading { padding-top: clamp(22px, 3.4vw, 44px); }
-  .recap-builds { --timeline-label-width: 5.25rem; --timeline-rule: var(--color-rule); }
+  .recap-builds { --timeline-label-width: 5.25rem; --timeline-rule: var(--k-rule); }
   .recap-month { padding-bottom: clamp(26px, 4vw, 52px); }
   .recap-month h2 {
     margin: 0;
@@ -183,7 +183,7 @@ const timeline = activeMonths.map((month) => {
     padding-top: 18px;
     padding-inline-end: 12px;
     border-inline-end: 1px solid var(--timeline-rule);
-    color: var(--color-muted);
+    color: var(--k-muted);
     font-size: .8125rem;
     font-weight: 650;
     font-variant-numeric: tabular-nums;
@@ -195,21 +195,16 @@ const timeline = activeMonths.map((month) => {
     inset-inline-end: -5px;
     width: 9px;
     height: 9px;
-    border: 2px solid var(--color-bg);
+    border: 2px solid var(--k-canvas);
     border-radius: 50%;
-    background: #4d382a;
+    background: var(--k-ink);
   }
   .recap-date-builds {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
-    gap: 16px;
     padding: 16px 0 24px clamp(14px, 2.6vw, 34px);
   }
-  .recap-date-builds :global(.kl-card) { width: min(100%, 420px); }
   .recap-date:last-child .recap-date-builds { padding-bottom: 0; }
   @media (max-width: 660px) {
     .recap-builds { --timeline-label-width: 3.25rem; }
-    .recap-date-builds { grid-template-columns: minmax(0, 1fr); }
   }
   .recap-year-label { font-size: 13px; font-weight: 680; }
   .recap-year-nav .recap-year-links {
@@ -217,29 +212,12 @@ const timeline = activeMonths.map((month) => {
     gap: 0;
     margin-top: 4px;
     padding-bottom: 12px;
-    border-bottom: 1px solid var(--color-rule);
+    border-bottom: 1px solid var(--k-rule);
   }
-
-  .recap-year-nav .recap-year-links a {
-    display: flex;
-    justify-content: start;
-    min-height: 36px;
-    padding-inline: 10px;
-    color: var(--color-muted);
-    background: transparent;
-    border: 0;
-    border-inline-start: 2px solid transparent;
-    border-radius: 0;
-    font-size: 14px;
-  }
-
-  .recap-year-nav .recap-year-links a:is(:hover, [aria-current="page"]) { color: var(--color-text); }
-  .recap-year-nav .recap-year-links a[aria-current="page"] { border-inline-start-color: #4d382a; }
 
   @media (max-width: 660px) {
-    .recap-year-nav { display: flex; align-items: center; gap: 16px; border-bottom: 1px solid var(--color-rule); }
+    .recap-year-nav { display: flex; align-items: center; gap: 16px; border-bottom: 1px solid var(--k-rule); }
     .recap-year-nav .recap-year-links { display: flex; margin: 0; padding: 0; border: 0; }
-    .recap-year-nav .recap-year-links a { min-width: 0; min-height: 44px; }
   }
 
   .monthly-chart {
@@ -260,7 +238,7 @@ const timeline = activeMonths.map((month) => {
   }
 
   .chart-axis span {
-    color: var(--color-muted);
+    color: var(--k-muted);
     font-size: .6875rem;
     line-height: 0;
     text-align: right;
@@ -274,8 +252,8 @@ const timeline = activeMonths.map((month) => {
     pointer-events: none;
   }
 
-  .chart-guides span { border-top: 1px solid var(--color-rule); }
-  .chart-guides span:last-child { border-color: var(--color-muted); }
+  .chart-guides span { border-top: 1px solid var(--k-rule); }
+  .chart-guides span:last-child { border-color: var(--k-muted); }
 
   .chart-columns {
     position: relative;
@@ -304,7 +282,7 @@ const timeline = activeMonths.map((month) => {
     bottom: calc(100% + 4px);
     left: 50%;
     transform: translateX(-50%);
-    color: var(--color-text);
+    color: var(--k-ink);
     font-size: .75rem;
     font-weight: 640;
     line-height: 1.2;
@@ -313,7 +291,7 @@ const timeline = activeMonths.map((month) => {
   .chart-label {
     display: block;
     margin-top: 8px;
-    color: var(--color-muted);
+    color: var(--k-muted);
     font-size: clamp(.625rem, 1.5vw, .75rem);
     white-space: nowrap;
   }

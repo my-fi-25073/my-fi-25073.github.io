@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hide-mountain",
+  "title": "Hide Mountain",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Unlubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 10g",
+          "tactile_force": "55g ± 10g",
+          "length": "15.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Hide Mountain 사진 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-gallery-4x3-5ec2cc44ca69-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-640.avif",
+              "width": 640,
+              "height": 462
+            },
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-1280.avif",
+              "width": 894,
+              "height": 646
+            }
+          ]
+        },
+        {
+          "alt": "Hide Mountain 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-640.avif",
+              "width": 640,
+              "height": 454
+            },
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-1280.avif",
+              "width": 1280,
+              "height": 908
+            },
+            {
+              "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-2400.avif",
+              "width": 1796,
+              "height": 1274
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Hide Mountain 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-gallery-4x3-5ec2cc44ca69-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-640.avif",
+          "width": 640,
+          "height": 462
+        },
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-0-2b0929b6eea3-cutout-f3a6f47361a2-1280.avif",
+          "width": 894,
+          "height": 646
+        }
+      ]
+    },
+    {
+      "alt": "Hide Mountain 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-640.avif",
+          "width": 640,
+          "height": 454
+        },
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-1280.avif",
+          "width": 1280,
+          "height": 908
+        },
+        {
+          "src": "/media/switches/hide-mountain/e7e20c6478d9b379-dd01579542d6-source-gallery-1-ebe954e1f656-2400.avif",
+          "width": 1796,
+          "height": 1274
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

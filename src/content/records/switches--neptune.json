@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "neptune",
+  "title": "Neptune",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "50g",
+          "length": "21.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Neptune 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-1280.avif",
+              "width": 1080,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "alt": "Neptune 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-640.avif",
+              "width": 557,
+              "height": 439
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "TTC Factory Spring 50g",
+          "manufacturer": "TTC",
+          "series": "Factory",
+          "force": "50g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "50g"
+            },
+            {
+              "label": "Length",
+              "value": "21.5mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "TTC logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+                "width": 260,
+                "height": 119
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Neptune 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-0-a74d61a58bc2-1280.avif",
+          "width": 1080,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Neptune 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/neptune/694a179bd18c9073-bb6ba18e893d-source-gallery-1-ee691f48828e-640.avif",
+          "width": 557,
+          "height": 439
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

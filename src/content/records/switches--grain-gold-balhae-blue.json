@@ -44,7 +44,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -67,7 +67,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -86,6 +86,26 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Factory Spring 60g",
+          "manufacturer": null,
+          "series": "Factory",
+          "force": "60g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "53g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "60g"
+            }
+          ]
+        }
+      ],
       "coverImageIndex": 0
     }
   ],
@@ -96,7 +116,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-0-c68a38e42004-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -119,7 +139,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/grain-gold-balhae-blue/b766a5bfe7639c10-1a92d0e8af52-source-gallery-1-4ab0b84db863-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }

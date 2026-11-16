@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "jieum-v2",
+  "title": "Jieum V2",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 63.5g",
+        "status": "unresolved"
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Jieum V2 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
+              "width": 640,
+              "height": 401
+            },
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-1280.avif",
+              "width": 1084,
+              "height": 680
+            }
+          ]
+        },
+        {
+          "alt": "Jieum V2 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
+              "width": 640,
+              "height": 742
+            },
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-1280.avif",
+              "width": 1280,
+              "height": 1483
+            },
+            {
+              "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-2400.avif",
+              "width": 1311,
+              "height": 1519
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Jieum V2 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-640.avif",
+          "width": 640,
+          "height": 401
+        },
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-0-11972982c0f7-1280.avif",
+          "width": 1084,
+          "height": 680
+        }
+      ]
+    },
+    {
+      "alt": "Jieum V2 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-640.avif",
+          "width": 640,
+          "height": 742
+        },
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-1280.avif",
+          "width": 1280,
+          "height": 1483
+        },
+        {
+          "src": "/media/switches/jieum-v2/7a74af0343d467f0-ecba316339d0-source-gallery-1-74e9951f83bc-2400.avif",
+          "width": 1311,
+          "height": 1519
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "SWK logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-640.avif",
+        "width": 640,
+        "height": 266
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-1280.avif",
+        "width": 1280,
+        "height": 531
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-2400.avif",
+        "width": 2048,
+        "height": 850
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

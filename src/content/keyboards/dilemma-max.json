@@ -43,7 +43,7 @@
     "switches": [
       {
         "title": "Milky Yellow",
-        "href": "/switches/gateron-milky-yellow/tunings/007fd4e84671/"
+        "href": "/switches/milky-yellow/tunings/007fd4e84671/"
       }
     ]
   },
@@ -53,7 +53,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-0-6f31edb8122b-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }
@@ -81,7 +81,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/dilemma-max/a8f85a610394fdff-source-gallery-1-7be8f63edf43-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

@@ -1,0 +1,9 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>풋프린트 3D</title>
+<link rel="stylesheet" href="/ui/tokens.css"><link rel="stylesheet" href="/ui/controls.css"><link rel="stylesheet" href="/ui/footprint.css">
+<script type="module" src="/ui/footprint-viewer.bundle.mjs"></script><script type="module" src="/ui/controls.mjs"></script></head>
+<body data-footprint-compact><main>
+<div class="toolbar"><div class="k-segment"><button class="k-button" id="iso" aria-pressed="true">입체</button><button class="k-button" id="top" aria-pressed="false">윗면</button><button class="k-button" id="bottom" aria-pressed="false">아랫면</button></div><button class="k-button" data-variant="quiet" id="reset" aria-label="풋프린트 보기 초기화">↺</button>
+<details class="viewer-layers"><summary>레이어</summary><div class="layer-panel"><h2>PCB 레이어</h2><div id="physical-layers"></div><h2>부가 정보</h2><div id="overlay-layers"></div><label><input id="body" type="checkbox" checked>PCB 몸체</label><label><input id="keepout" type="checkbox" checked>Keepout</label><label><input id="height-volume" type="checkbox" checked>SMD 제한 볼륨</label><div id="zone-rules"></div><p id="inner-note"></p></div></details></div>
+<div id="viewport" aria-label="풋프린트 3D 보기"></div><p id="error" role="alert" hidden></p>
+<div hidden><h1 id="footprint-title"></h1><select id="footprint-select"></select><p id="footprint-source"></p><p id="counts"></p><p id="status"></p><input id="labels" type="checkbox"><input id="references" type="checkbox"><h2 id="selected-title"></h2><dl id="selection"></dl><a id="source-link"></a><output id="camera-state"></output></div>
+</main></body></html>

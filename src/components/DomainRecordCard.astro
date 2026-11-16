@@ -1,7 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
-import { buildDomainFields, domainSearchText } from '../lib/domain-display';
+import { domainSearchText } from '../lib/domain-display';
 import { switchCoverImage } from '../lib/switch-tuning-display';
 interface Props {
   record: CollectionEntry<'records'>['data'];
@@ -14,8 +14,7 @@ const tuningCount = members.reduce((total, member) => total + member.tunings.len
 const card = renderGalleryCard({
   title: record.modelFamily?.title ?? record.title,
   href: `/switches/${record.modelFamily?.slug ?? record.slug}/`, kind: 'switch', headingLevel,
-  image: galleryImage(switchCoverImage(record), 'switch'), metadata: [
-    ...buildDomainFields(record, true),
+  image: galleryImage(record.modelFamily && record.modelCover ? record.modelCover : switchCoverImage(record), 'switch'), metadata: [
     ...(tuningCount > 1 ? [{ value: `${tuningCount} tunings` }] : []),
   ],
   placeholderLogo: galleryImage(record.manufacturerLogo, 'vendor'),

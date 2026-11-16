@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "four-seasons-winter",
+  "title": "Four Seasons Winter",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "38gf"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Four Seasons Winter 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-gallery-4x3-b51a35c375f7-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-640.avif",
+              "width": 640,
+              "height": 573
+            },
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-1280.avif",
+              "width": 719,
+              "height": 644
+            }
+          ]
+        },
+        {
+          "alt": "Four Seasons Winter 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-640.avif",
+              "width": 640,
+              "height": 642
+            },
+            {
+              "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-1280.avif",
+              "width": 1059,
+              "height": 1063
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Four Seasons Winter 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-gallery-4x3-b51a35c375f7-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-640.avif",
+          "width": 640,
+          "height": 573
+        },
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-0-8ad06de1ae03-cutout-aef36f7205c6-1280.avif",
+          "width": 719,
+          "height": 644
+        }
+      ]
+    },
+    {
+      "alt": "Four Seasons Winter 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-640.avif",
+          "width": 640,
+          "height": 642
+        },
+        {
+          "src": "/media/switches/four-seasons-winter/c8d65fc261a171d1-024a3d03c10b-source-gallery-1-30ec6b573540-1280.avif",
+          "width": 1059,
+          "height": 1063
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

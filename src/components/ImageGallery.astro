@@ -10,12 +10,13 @@ interface Props {
 const { images, label, compact = false, kind = 'switch' } = Astro.props;
 ---
 {images.length > 0 && (
-  <div class:list={['image-gallery', { 'is-compact': compact }]} role="group" aria-label={label} data-image-gallery>
+  <div class="kl-gallery-scope">
+  <div class:list={['image-gallery', 'kl-gallery', { 'is-compact': compact }]} data-gallery-role="media" role="group" aria-label={label} data-image-gallery>
     {images.map((item, index) => {
       const full = item.variants.toSorted((a, b) => b.width - a.width)[0];
       return (
         <figure class:list={{ 'is-featured': index === 0 }}>
-          <button class="image-gallery-button" type="button" data-lightbox-open
+          <button class="image-gallery-button" data-ui="media" type="button" data-lightbox-open
             data-full={full.src} data-alt={item.alt} data-caption={item.caption ?? ''}
             aria-label={`${label} — image ${index + 1}`}
             set:html={renderGalleryMedia({ ...item, eager: !compact && index === 0 }, kind)} />
@@ -23,5 +24,6 @@ const { images, label, compact = false, kind = 'switch' } = Astro.props;
         </figure>
       );
     })}
+  </div>
   </div>
 )}

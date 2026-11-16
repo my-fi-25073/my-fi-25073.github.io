@@ -42,7 +42,7 @@
     "switches": [
       {
         "title": "SR YETI",
-        "href": "/switches/bsun-sr-yeti/tunings/2da83f732569/"
+        "href": "/switches/sr-yeti/tunings/2da83f732569/"
       }
     ]
   },
@@ -52,7 +52,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/corne-v3-kunai/49168ea33e098046-source-gallery-0-061b95047757-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/corne-v3-kunai/49168ea33e098046-source-gallery-0-061b95047757-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }
@@ -80,7 +80,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/corne-v3-kunai/49168ea33e098046-source-gallery-1-87e80455dd14-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/corne-v3-kunai/49168ea33e098046-source-gallery-1-87e80455dd14-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

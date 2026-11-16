@@ -11,11 +11,11 @@
   ],
   "isFranken": false,
   "modelFamily": {
-    "slug": "mx-red",
-    "title": "MX Red",
+    "slug": "mx-red-rgb",
+    "title": "MX Red RGB",
     "variantLabel": "MX1A RGB",
-    "sortOrder": 3,
-    "isRepresentative": false
+    "sortOrder": 0,
+    "isRepresentative": true
   },
   "tunings": [
     {
@@ -52,7 +52,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -75,7 +75,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -89,6 +89,7 @@
           ]
         }
       ],
+      "components": [],
       "coverImageIndex": 0
     }
   ],
@@ -99,7 +100,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-0-dbfa3d70451e-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -122,7 +123,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-red-rgb/33150d4e6cc5abb2-3dc60f913d23-source-gallery-1-54dc30e8ba63-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -136,13 +137,36 @@
       ]
     }
   ],
+  "modelCover": {
+    "alt": "MX Red RGB",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-507297e277f212db7e4505678cc5919020062c484181aa7674d5fa752d1ddb81-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-507297e277f212db7e4505678cc5919020062c484181aa7674d5fa752d1ddb81-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-507297e277f212db7e4505678cc5919020062c484181aa7674d5fa752d1ddb81-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
   "manufacturerLogo": {
     "alt": "Cherry logo",
     "preserveColor": true,
     "presentation": "icon",
     "galleryVariants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
         "width": 640,
         "height": 480
       }

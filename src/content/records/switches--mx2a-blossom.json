@@ -52,7 +52,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-0-96e94997534e-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-0-96e94997534e-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -75,7 +75,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-1-cc09db7e2dca-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-1-cc09db7e2dca-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -94,6 +94,7 @@
           ]
         }
       ],
+      "components": [],
       "coverImageIndex": 0
     },
     {
@@ -131,46 +132,108 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-640.avif",
+              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-640.avif",
               "width": 640,
-              "height": 503
+              "height": 495
             },
             {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-1280.avif",
-              "width": 1231,
-              "height": 967
+              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-1280.avif",
+              "width": 1148,
+              "height": 888
             }
           ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 30g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "30g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "30g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
         },
         {
-          "alt": "MX2A Blossom 사진 4",
-          "presentation": "render",
-          "galleryVariants": [
-            {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-gallery-4x3-596dc3a34e9f-640.webp",
-              "width": 640,
-              "height": 480
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-640.avif",
-              "width": 640,
-              "height": 745
-            },
-            {
-              "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-1280.avif",
-              "width": 1255,
-              "height": 1460
-            }
-          ]
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
         }
       ],
       "coverImageIndex": 0
@@ -183,7 +246,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-0-96e94997534e-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-0-96e94997534e-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -206,7 +269,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-1-cc09db7e2dca-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-blossom/faf381314204e663-a759e2a6527d-source-gallery-1-cc09db7e2dca-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -229,55 +292,55 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-640.avif",
+          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-640.avif",
           "width": 640,
-          "height": 503
+          "height": 495
         },
         {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-0-c1f423d3a91b-1280.avif",
-          "width": 1231,
-          "height": 967
-        }
-      ]
-    },
-    {
-      "alt": "MX2A Blossom 사진 4",
-      "presentation": "render",
-      "galleryVariants": [
-        {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-gallery-4x3-596dc3a34e9f-640.webp",
-          "width": 640,
-          "height": 480
-        }
-      ],
-      "variants": [
-        {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-640.avif",
-          "width": 640,
-          "height": 745
-        },
-        {
-          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-source-gallery-1-831e37329064-1280.avif",
-          "width": 1255,
-          "height": 1460
+          "src": "/media/switches/mx2a-blossom/faf381314204e663-1e7693465510-gallery-0-19171f7747e1-1280.avif",
+          "width": 1148,
+          "height": 888
         }
       ]
     }
   ],
+  "modelCover": {
+    "alt": "MX Blossom",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-ee1cdfedf8382a2c38ae064c1cef1a9e73c1960551bb4c889f4ded7468e1f8a1-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-ee1cdfedf8382a2c38ae064c1cef1a9e73c1960551bb4c889f4ded7468e1f8a1-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-ee1cdfedf8382a2c38ae064c1cef1a9e73c1960551bb4c889f4ded7468e1f8a1-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
   "manufacturerLogo": {
     "alt": "Cherry logo",
     "preserveColor": true,
     "presentation": "icon",
     "galleryVariants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
         "width": 640,
         "height": 480
       }

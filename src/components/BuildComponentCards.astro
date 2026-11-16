@@ -6,7 +6,8 @@ interface Props {
 }
 const { items } = Astro.props;
 ---
-<ul class="kl-gallery">
+<div class="kl-gallery-scope">
+<ul class="kl-gallery" data-gallery-role="relation">
   {items.map(({ title, href, quantity, cover, placeholderLogo, productTitle, tuningLabel, fields }) => (
     <li set:html={renderGalleryCard({
       title: productTitle ?? title, href, kind: href.startsWith('/switches/') ? 'switch' : 'keycap',
@@ -16,3 +17,4 @@ const { items } = Astro.props;
     })} />
   ))}
 </ul>
+</div>

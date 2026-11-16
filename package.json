@@ -7,6 +7,11 @@
     "node": ">=24"
   },
   "scripts": {
+    "ui:tokens": "node scripts/build-ui-tokens.mjs",
+    "ui:footprints": "esbuild public/ui/footprint-viewer.mjs --bundle --format=esm --minify --outfile=public/ui/footprint-viewer.bundle.mjs",
+    "predev": "npm run ui:tokens",
+    "prebuild": "npm run ui:tokens && npm run ui:footprints",
+    "precheck": "node scripts/build-ui-tokens.mjs --check",
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
@@ -16,10 +21,12 @@
     "verify": "npm run test && npm run check && npm run build && npm run check:size"
   },
   "dependencies": {
-    "astro": "7.0.7"
+    "astro": "7.0.7",
+    "three": "0.187.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.9",
+    "esbuild": "0.28.1",
     "typescript": "6.0.3"
   }
 }

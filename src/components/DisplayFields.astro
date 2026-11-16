@@ -1,5 +1,6 @@
 ---
 import type { DisplayField } from '../lib/gallery-display';
+import FootprintView from './FootprintView.astro';
 
 interface Props {
   fields: DisplayField[];
@@ -14,7 +15,7 @@ const { fields, variant } = Astro.props;
     {fields.map((field) => (
       <div class="display-field">
         <dt>{field.label}</dt>
-        <dd>{field.value}</dd>
+        <dd>{field.key === 'footprintType' && variant === 'detail' ? <FootprintView name={field.value} /> : field.value}</dd>
       </div>
     ))}
   </dl>

@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "nap",
+  "title": "NAP",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "HMX Factory Spring 43g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "43g",
+          "length": "22mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "NAP 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-640.avif",
+              "width": 640,
+              "height": 486
+            },
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-1280.avif",
+              "width": 718,
+              "height": 545
+            }
+          ]
+        },
+        {
+          "alt": "NAP 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-640.avif",
+              "width": 640,
+              "height": 837
+            },
+            {
+              "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-1280.avif",
+              "width": 1177,
+              "height": 1540
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "HMX Factory Spring 43g",
+          "manufacturer": "HMX",
+          "series": "Factory",
+          "force": "43g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "43g"
+            },
+            {
+              "label": "Length",
+              "value": "22mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "HMX logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+                "width": 640,
+                "height": 517
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
+                "width": 1280,
+                "height": 1034
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
+                "width": 2048,
+                "height": 1654
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "NAP 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-640.avif",
+          "width": 640,
+          "height": 486
+        },
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-0-18c0386621f1-1280.avif",
+          "width": 718,
+          "height": 545
+        }
+      ]
+    },
+    {
+      "alt": "NAP 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-640.avif",
+          "width": 640,
+          "height": 837
+        },
+        {
+          "src": "/media/switches/nap/76e8986a5bd290ad-029680773671-source-gallery-1-c4119c6b5e80-1280.avif",
+          "width": 1177,
+          "height": 1540
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "HMX logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+        "width": 640,
+        "height": 517
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
+        "width": 1280,
+        "height": 1034
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
+        "width": 2048,
+        "height": 1654
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

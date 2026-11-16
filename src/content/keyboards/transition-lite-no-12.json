@@ -51,7 +51,7 @@
     "switches": [
       {
         "title": "Snowfall",
-        "href": "/switches/hmx-snowfall/tunings/7d3fcca560d3/"
+        "href": "/switches/snowfall/tunings/7d3fcca560d3/"
       }
     ]
   },
@@ -61,7 +61,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/transition-lite-no-12/e74c992e7cf4932c-source-gallery-0-2994d9b2b8ac-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/transition-lite-no-12/e74c992e7cf4932c-source-gallery-0-2994d9b2b8ac-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

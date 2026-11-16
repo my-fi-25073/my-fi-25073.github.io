@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "gazzew-boba-u4t-rgb-silent",
+  "title": "Gazzew Boba U4T RGB Silent",
+  "category": "switches",
+  "manufacturer": "Outemu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Silent",
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 62g",
+        "status": "unresolved"
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Gazzew Boba U4T RGB Silent 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-640.avif",
+              "width": 640,
+              "height": 355
+            },
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-1280.avif",
+              "width": 1280,
+              "height": 710
+            },
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-2400.avif",
+              "width": 1487,
+              "height": 825
+            }
+          ]
+        },
+        {
+          "alt": "Gazzew Boba U4T RGB Silent 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-640.avif",
+              "width": 493,
+              "height": 368
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Gazzew Boba U4T RGB Silent 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-640.avif",
+          "width": 640,
+          "height": 355
+        },
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-1280.avif",
+          "width": 1280,
+          "height": 710
+        },
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-0-460e9c60583c-2400.avif",
+          "width": 1487,
+          "height": 825
+        }
+      ]
+    },
+    {
+      "alt": "Gazzew Boba U4T RGB Silent 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/gazzew-boba-u4t-rgb-silent/f00e8e7d80a96141-1ada9729122e-source-gallery-1-6bd4476c964a-640.avif",
+          "width": 493,
+          "height": 368
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Outemu logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-31088ad500faa2fa494416f61d32174bd5a5391194d1d98dc0b56fd14cc5f5f1-gallery-4x3-024499697cc7-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-31088ad500faa2fa494416f61d32174bd5a5391194d1d98dc0b56fd14cc5f5f1-640.avif",
+        "width": 497,
+        "height": 120
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

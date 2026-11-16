@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "mistic-purple",
+  "title": "Mistic Purple",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "40g",
+          "bottom_out_force": "50g",
+          "length": "21.9mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Mistic Purple 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-640.avif",
+              "width": 640,
+              "height": 441
+            },
+            {
+              "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-1280.avif",
+              "width": 774,
+              "height": 533
+            }
+          ]
+        },
+        {
+          "alt": "Mistic Purple 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-640.avif",
+              "width": 446,
+              "height": 292
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "TTC Factory Spring 50g",
+          "manufacturer": "TTC",
+          "series": "Factory",
+          "force": "50g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "40g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "50g"
+            },
+            {
+              "label": "Length",
+              "value": "21.9mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "TTC logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+                "width": 260,
+                "height": 119
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Mistic Purple 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-640.avif",
+          "width": 640,
+          "height": 441
+        },
+        {
+          "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-0-50c8724db5db-1280.avif",
+          "width": 774,
+          "height": 533
+        }
+      ]
+    },
+    {
+      "alt": "Mistic Purple 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mistic-purple/4c02c3df6dc1ccb8-f98aa18a7235-source-gallery-1-1815197119cf-640.avif",
+          "width": 446,
+          "height": 292
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "og-dragon-blue",
+  "title": "OG Dragon Blue",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 58g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "49gf"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "OG Dragon Blue 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-640.avif",
+              "width": 523,
+              "height": 400
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "OG Dragon Blue 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/og-dragon-blue/719f746bf32bc9e2-37b578efb7b4-source-gallery-0-6a557bfd9225-640.avif",
+          "width": 523,
+          "height": 400
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

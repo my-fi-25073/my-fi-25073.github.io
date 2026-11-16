@@ -42,7 +42,7 @@
     "switches": [
       {
         "title": "Sunset Tactile",
-        "href": "/switches/kailh-choc-v1-sunset-tactile/tunings/9ba98aea574a/"
+        "href": "/switches/sunset-tactile/tunings/9ba98aea574a/"
       }
     ]
   },
@@ -52,7 +52,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/chew-mono/5b19fb5f50e2761d-source-gallery-0-4259b984b0ec-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/chew-mono/5b19fb5f50e2761d-source-gallery-0-4259b984b0ec-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

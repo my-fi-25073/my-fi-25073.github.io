@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "heart-of-titan",
+  "title": "Heart of Titan",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 52g",
+        "status": "partial",
+        "specifications": {
+          "initial_force": "37g minimum",
+          "actuation_force": "42g ± 10g"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Heart of Titan 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-640.avif",
+              "width": 628,
+              "height": 423
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Heart of Titan 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/heart-of-titan/cb8877fd9e2fb205-a49ad46cbc2a-source-gallery-0-cc1d0dbcf778-640.avif",
+          "width": 628,
+          "height": 423
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

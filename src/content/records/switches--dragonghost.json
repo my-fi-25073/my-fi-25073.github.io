@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "dragonghost",
+  "title": "DragonGhost",
+  "category": "switches",
+  "manufacturer": "SWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "SWK Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "DragonGhost 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-640.avif",
+              "width": 640,
+              "height": 373
+            },
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-1280.avif",
+              "width": 1179,
+              "height": 688
+            }
+          ]
+        },
+        {
+          "alt": "DragonGhost 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-640.avif",
+              "width": 640,
+              "height": 645
+            },
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-1280.avif",
+              "width": 1280,
+              "height": 1289
+            },
+            {
+              "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-2400.avif",
+              "width": 1484,
+              "height": 1495
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "SWK Factory Spring 62g",
+          "manufacturer": "SWK",
+          "series": "Factory",
+          "force": "62g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "62g"
+            },
+            {
+              "label": "Length",
+              "value": "20mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "SWK logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-640.avif",
+                "width": 640,
+                "height": 266
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-1280.avif",
+                "width": 1280,
+                "height": 531
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-2400.avif",
+                "width": 2048,
+                "height": 850
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "DragonGhost 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-640.avif",
+          "width": 640,
+          "height": 373
+        },
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-0-a0ff53225c28-1280.avif",
+          "width": 1179,
+          "height": 688
+        }
+      ]
+    },
+    {
+      "alt": "DragonGhost 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-640.avif",
+          "width": 640,
+          "height": 645
+        },
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-1280.avif",
+          "width": 1280,
+          "height": 1289
+        },
+        {
+          "src": "/media/switches/dragonghost/3841d73ce8578393-cd35910b9498-source-gallery-1-d359519f65b3-2400.avif",
+          "width": 1484,
+          "height": 1495
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "SWK logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-640.avif",
+        "width": 640,
+        "height": 266
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-1280.avif",
+        "width": 1280,
+        "height": 531
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-2400.avif",
+        "width": 2048,
+        "height": 850
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

@@ -26,7 +26,14 @@ const { records, family } = Astro.props;
 const record = records[0];
 if (!family && record.modelFamily) return Astro.redirect(`/switches/${record.modelFamily.slug}/`);
 const title = family ? record.modelFamily!.title : record.title;
-const fields = family ? [] : buildDomainFields(record);
+const fields = family ? [
+  { key: 'name', label: 'Name', value: title },
+  ...['manufacturer','footprintType','switchTypes'].flatMap(key => {
+    const values = [...new Set(records.flatMap(item => key === 'manufacturer' ? item.manufacturer ? [item.manufacturer] : [] : key === 'footprintType' ? item.footprintType ? [item.footprintType] : [] : item.switchTypes))];
+    const label = {manufacturer:'Manufacturer',footprintType:'Footprint',switchTypes:'Type'}[key]!;
+    return key === 'footprintType' ? values.map(value => ({key,label,value})) : values.length ? [{key,label,value:values.join(' · ')}] : [];
+  }),
+] : buildDomainFields(record);
 const sections = records.map((product) => ({
   placeholderLogo: product.manufacturerLogo,
   label: family ? product.modelFamily!.variantLabel : 'Tuning Specs',
@@ -40,10 +47,10 @@ const partLabels = { stem: 'Stem', bottom_housing: 'Bottom housing', top_housing
 <SiteLayout title={title}>
   <article class="detail shell">
     <header class="detail-header"><h1>{title}</h1></header>
-    {sections.map(({ label, tunings, placeholderLogo }) => tunings.length > 0 && (
-      <section class="record-section switch-tunings" aria-label={label}>
+    {sections.map(({ label, tunings, placeholderLogo }) => (family || tunings.length > 0) && (
+      <section class="record-section switch-tunings kl-gallery-scope" aria-label={label}>
         <div class="section-heading"><h2>{label}</h2></div>
-        <ul class="kl-gallery">
+        <ul class="kl-gallery" data-gallery-role="archive">
           {tunings.map(({ label, href, tuning }) => <li set:html={renderGalleryCard({
             title: label, href, kind: 'switch', image: galleryImage(switchCoverImage(tuning), 'switch'),
             placeholderLogo: galleryImage(placeholderLogo, 'vendor'),

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "mz-y1x",
+  "title": "MZ y1x",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 37g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "37g",
+          "length": "20mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MZ y1x 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-640.avif",
+              "width": 640,
+              "height": 529
+            },
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-1280.avif",
+              "width": 1064,
+              "height": 880
+            }
+          ]
+        },
+        {
+          "alt": "MZ y1x 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-640.avif",
+              "width": 640,
+              "height": 542
+            },
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-1280.avif",
+              "width": 1280,
+              "height": 1084
+            },
+            {
+              "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-2400.avif",
+              "width": 1342,
+              "height": 1137
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Keygeek Factory Spring 37g",
+          "manufacturer": "Keygeek",
+          "series": "Factory",
+          "force": "37g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "37g"
+            },
+            {
+              "label": "Length",
+              "value": "20mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Keygeek logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-640.avif",
+                "width": 352,
+                "height": 36
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MZ y1x 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-640.avif",
+          "width": 640,
+          "height": 529
+        },
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-0-d2815a6760bb-1280.avif",
+          "width": 1064,
+          "height": 880
+        }
+      ]
+    },
+    {
+      "alt": "MZ y1x 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-640.avif",
+          "width": 640,
+          "height": 542
+        },
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-1280.avif",
+          "width": 1280,
+          "height": 1084
+        },
+        {
+          "src": "/media/switches/mz-y1x/1b72eb26f2ceb5b1-8ffe3eac1768-source-gallery-1-50b28b74d3f8-2400.avif",
+          "width": 1342,
+          "height": 1137
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Keygeek logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-640.avif",
+        "width": 352,
+        "height": 36
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

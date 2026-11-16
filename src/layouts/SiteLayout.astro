@@ -23,6 +23,7 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
     <meta name="color-scheme" content="light" />
     <meta name="theme-color" content="#f4f2ed" />
     <title>{pageTitle}</title>
+    <link rel="stylesheet" href="/ui/controls.css" />
     <link rel="stylesheet" href="/ui/gallery.css" />
   </head>
   <body>
@@ -37,6 +38,7 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
       <slot />
     </main>
     <script type="module" is:inline>
+      import '/ui/controls.mjs';
       import { bindGalleryInteractions } from '/ui/gallery.mjs';
       bindGalleryInteractions(document);
     </script>

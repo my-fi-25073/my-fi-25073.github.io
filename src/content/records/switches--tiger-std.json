@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "tiger-std",
+  "title": "Tiger STD",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 55gf",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "55gf",
+          "length": "24.3mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Tiger STD 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-640.avif",
+              "width": 640,
+              "height": 455
+            },
+            {
+              "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-1280.avif",
+              "width": 726,
+              "height": 516
+            }
+          ]
+        },
+        {
+          "alt": "Tiger STD 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-640.avif",
+              "width": 285,
+              "height": 293
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "TTC Factory Spring 55gf",
+          "manufacturer": "TTC",
+          "series": "Factory",
+          "force": "55gf",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "55gf"
+            },
+            {
+              "label": "Length",
+              "value": "24.3mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "TTC logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+                "width": 260,
+                "height": 119
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Tiger STD 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-640.avif",
+          "width": 640,
+          "height": 455
+        },
+        {
+          "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-0-5b62ddc5c548-1280.avif",
+          "width": 726,
+          "height": 516
+        }
+      ]
+    },
+    {
+      "alt": "Tiger STD 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/tiger-std/a4fc7776df2a18be-a761dff14e42-source-gallery-1-d59dfbc500f3-640.avif",
+          "width": 285,
+          "height": 293
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

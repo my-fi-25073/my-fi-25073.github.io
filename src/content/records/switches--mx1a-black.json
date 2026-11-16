@@ -19,7 +19,7 @@
   },
   "tunings": [
     {
-      "label": "30g",
+      "label": "30g · 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 30g",
@@ -53,7 +53,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -81,7 +81,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -95,10 +95,123 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 30g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "30g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "30g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
       "coverImageIndex": 0
     },
     {
-      "label": "35g [Dia Glide]",
+      "label": "35g · Dia Polished",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -132,7 +245,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -160,7 +273,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -188,7 +301,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -216,7 +329,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -240,6 +353,119 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 35g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "35g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "25.5g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "35g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
       "detailImageIndexes": [
         0,
         2,
@@ -248,7 +474,7 @@
       "coverImageIndex": 2
     },
     {
-      "label": "25g [205 G0]",
+      "label": "25g · 205 G0",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -282,57 +508,142 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-640.avif",
               "width": 640,
-              "height": 410
+              "height": 448
             },
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-1280.avif",
-              "width": 912,
-              "height": 584
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-1280.avif",
+              "width": 1252,
+              "height": 877
             }
           ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 25g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "25g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
         },
         {
-          "alt": "MX1A Black 사진 8",
-          "presentation": "render",
-          "galleryVariants": [
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-gallery-4x3-596dc3a34e9f-640.webp",
-              "width": 640,
-              "height": 480
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
-              "width": 640,
-              "height": 526
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-1280.avif",
-              "width": 1280,
-              "height": 1053
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-2400.avif",
-              "width": 1357,
-              "height": 1116
-            }
-          ]
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
         }
       ],
       "coverImageIndex": 0
     },
     {
-      "label": "25g [205 G2]",
+      "label": "25g · 205 G2",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -362,61 +673,146 @@
       },
       "images": [
         {
-          "alt": "MX1A Black 사진 9",
+          "alt": "MX1A Black 사진 8",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-640.avif",
               "width": 640,
-              "height": 433
+              "height": 459
             },
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-1280.avif",
-              "width": 1022,
-              "height": 692
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-1280.avif",
+              "width": 1131,
+              "height": 811
             }
           ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 25g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "25g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
         },
         {
-          "alt": "MX1A Black 사진 10",
-          "presentation": "render",
-          "galleryVariants": [
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-gallery-4x3-596dc3a34e9f-640.webp",
-              "width": 640,
-              "height": 480
-            }
-          ],
-          "variants": [
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
-              "width": 640,
-              "height": 669
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-1280.avif",
-              "width": 1280,
-              "height": 1337
-            },
-            {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-2400.avif",
-              "width": 1434,
-              "height": 1498
-            }
-          ]
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G2",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
         }
       ],
       "coverImageIndex": 0
     },
     {
-      "label": "50g [Dia Glide]",
+      "label": "50g · Dia Polished",
       "spring": {
         "resolution": "selected",
         "name": "TX Middle 50g",
@@ -444,11 +840,11 @@
       },
       "images": [
         {
-          "alt": "MX1A Black 사진 11",
+          "alt": "MX1A Black 사진 9",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -472,11 +868,11 @@
           ]
         },
         {
-          "alt": "MX1A Black 사진 12",
+          "alt": "MX1A Black 사진 10",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-1-ea9314929616-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -500,13 +896,108 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "TX Middle 50g",
+          "manufacturer": "TX",
+          "series": "TX-Spring",
+          "force": "50g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "50g"
+            },
+            {
+              "label": "Length",
+              "value": "15mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "TX Middle 50g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-e57ddda60baa3d4fb5c7710ac8622aa69032bf7a4d0e4a0ccd8cfef5c6b303e0-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-e57ddda60baa3d4fb5c7710ac8622aa69032bf7a4d0e4a0ccd8cfef5c6b303e0-640.avif",
+                "width": 425,
+                "height": 210
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
       "detailImageIndexes": [
         0
       ],
       "coverImageIndex": 0
     },
     {
-      "label": "25g [Dia Glide]",
+      "label": "25g · Dia Polished",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 25g",
@@ -536,11 +1027,11 @@
       },
       "images": [
         {
-          "alt": "MX1A Black 사진 13",
+          "alt": "MX1A Black 사진 11",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-0-3bd9c0696667-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -564,11 +1055,11 @@
           ]
         },
         {
-          "alt": "MX1A Black 사진 14",
+          "alt": "MX1A Black 사진 12",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-8f898f9416fd-source-gallery-1-ea9314929616-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -590,6 +1081,119 @@
               "height": 1109
             }
           ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 25g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "25g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
         }
       ],
       "detailImageIndexes": [
@@ -629,31 +1233,33 @@
       },
       "images": [
         {
-          "alt": "MX1A Black 사진 15",
-          "presentation": "render",
+          "alt": "MX1A Black 사진 13",
+          "preserveColor": true,
+          "presentation": "icon",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-1a439419f66e-gallery-4x3-86d610a696b7-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-4b5dae16bb5c-640.avif",
-              "width": 484,
-              "height": 489
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-1a439419f66e-640.avif",
+              "width": 510,
+              "height": 510
             }
           ]
         }
       ],
+      "components": [],
       "specificationImages": [
         {
           "alt": "MX1A Black 사진 4",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -687,7 +1293,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-0-aaf50a47cf7a-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -715,7 +1321,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-e3b706904f56-source-gallery-1-4b5dae16bb5c-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -733,7 +1339,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-0-3bd9c0696667-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -761,7 +1367,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-1-ea9314929616-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -789,7 +1395,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-2-e4de767ac9ae-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -817,7 +1423,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-0567cbce0dc2-source-gallery-3-8ff77b5ccf74-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -845,21 +1451,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-640.avif",
           "width": 640,
-          "height": 410
+          "height": 448
         },
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-0-b60009059573-1280.avif",
-          "width": 912,
-          "height": 584
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-gallery-0-8c99d765a7d6-1280.avif",
+          "width": 1252,
+          "height": 877
         }
       ]
     },
@@ -868,86 +1474,30 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-640.avif",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-640.avif",
           "width": 640,
-          "height": 526
+          "height": 459
         },
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-1280.avif",
-          "width": 1280,
-          "height": 1053
-        },
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-198438137190-source-gallery-1-dc4706735eb4-2400.avif",
-          "width": 1357,
-          "height": 1116
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-gallery-0-d51a9a4a2557-1280.avif",
+          "width": 1131,
+          "height": 811
         }
       ]
     },
     {
       "alt": "MX1A Black 사진 9",
-      "presentation": "render",
-      "galleryVariants": [
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-gallery-4x3-596dc3a34e9f-640.webp",
-          "width": 640,
-          "height": 480
-        }
-      ],
-      "variants": [
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-640.avif",
-          "width": 640,
-          "height": 433
-        },
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-0-d3f6fd2b2b78-1280.avif",
-          "width": 1022,
-          "height": 692
-        }
-      ]
-    },
-    {
-      "alt": "MX1A Black 사진 10",
-      "presentation": "render",
-      "galleryVariants": [
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-gallery-4x3-596dc3a34e9f-640.webp",
-          "width": 640,
-          "height": 480
-        }
-      ],
-      "variants": [
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-640.avif",
-          "width": 640,
-          "height": 669
-        },
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-1280.avif",
-          "width": 1280,
-          "height": 1337
-        },
-        {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-90cb2701762e-source-gallery-1-410891084a55-2400.avif",
-          "width": 1434,
-          "height": 1498
-        }
-      ]
-    },
-    {
-      "alt": "MX1A Black 사진 11",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-5ee2992632a5-source-gallery-0-035cd47cabc7-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -969,15 +1519,57 @@
           "height": 1075
         }
       ]
+    },
+    {
+      "alt": "MX1A Black 사진 13",
+      "preserveColor": true,
+      "presentation": "icon",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-1a439419f66e-gallery-4x3-86d610a696b7-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mx1a-black/4eacaa9cdb19df9a-93f5fabc3680-gallery-0-1a439419f66e-640.avif",
+          "width": 510,
+          "height": 510
+        }
+      ]
     }
   ],
+  "modelCover": {
+    "alt": "MX Black",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
   "manufacturerLogo": {
     "alt": "Cherry logo",
     "preserveColor": true,
     "presentation": "icon",
     "galleryVariants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
         "width": 640,
         "height": 480
       }

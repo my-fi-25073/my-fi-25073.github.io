@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "cherry-mx-black-vintage-wsye",
+  "title": "Cherry MX Black Vintage Wsye",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "modelFamily": {
+    "slug": "mx-black",
+    "title": "MX Black",
+    "variantLabel": "Wsye Vintage",
+    "sortOrder": 3,
+    "isRepresentative": false
+  },
+  "tunings": [
+    {
+      "label": "Vintage Wsye 35g · 205 G0",
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "25.5g",
+          "bottom_out_force": "35g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "applied",
+        "method": "film",
+        "material": "TX PET 필름 0.150mm"
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 G0"
+        }
+      },
+      "images": [
+        {
+          "alt": "Cherry MX Black Vintage Wsye 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-640.avif",
+              "width": 640,
+              "height": 538
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-1280.avif",
+              "width": 1280,
+              "height": 1077
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-2400.avif",
+              "width": 1378,
+              "height": 1159
+            }
+          ]
+        },
+        {
+          "alt": "Cherry MX Black Vintage Wsye 사진 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-gallery-4x3-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-640.avif",
+              "width": 640,
+              "height": 680
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-1280.avif",
+              "width": 1280,
+              "height": 1360
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-2400.avif",
+              "width": 1663,
+              "height": 1767
+            }
+          ]
+        },
+        {
+          "alt": "Cherry MX Black Vintage Wsye 사진 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-gallery-4x3-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-640.avif",
+              "width": 640,
+              "height": 624
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-1280.avif",
+              "width": 1280,
+              "height": 1249
+            },
+            {
+              "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-2400.avif",
+              "width": 1807,
+              "height": 1763
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 35g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "35g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "25.5g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "35g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Cherry MX Black Vintage Wsye 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-640.avif",
+          "width": 640,
+          "height": 538
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-1280.avif",
+          "width": 1280,
+          "height": 1077
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-0-80558b3fcd34-2400.avif",
+          "width": 1378,
+          "height": 1159
+        }
+      ]
+    },
+    {
+      "alt": "Cherry MX Black Vintage Wsye 사진 2",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-gallery-4x3-23e4efa7fd49-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-640.avif",
+          "width": 640,
+          "height": 680
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-1280.avif",
+          "width": 1280,
+          "height": 1360
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-1-80b04553dc2a-2400.avif",
+          "width": 1663,
+          "height": 1767
+        }
+      ]
+    },
+    {
+      "alt": "Cherry MX Black Vintage Wsye 사진 3",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-gallery-4x3-23e4efa7fd49-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-640.avif",
+          "width": 640,
+          "height": 624
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-1280.avif",
+          "width": 1280,
+          "height": 1249
+        },
+        {
+          "src": "/media/switches/cherry-mx-black-vintage-wsye/182a440ce5aa1419-18579c14cf6b-source-gallery-2-5557e18f6657-2400.avif",
+          "width": 1807,
+          "height": 1763
+        }
+      ]
+    }
+  ],
+  "modelCover": {
+    "alt": "MX Black",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  "manufacturerLogo": {
+    "alt": "Cherry logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
+        "width": 360,
+        "height": 70
+      }
+    ]
+  },
+  "coverImageIndex": null
+}

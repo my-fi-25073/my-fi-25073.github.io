@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ulp-tactile",
+  "title": "ULP Tactile",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "ULP (PG1316)",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "60g",
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 60g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "32g ± 10g",
+          "tactile_force": "60g ± 10g"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "ULP Tactile 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-1280.avif",
+              "width": 730,
+              "height": 730
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "ULP 60g",
+          "manufacturer": "Kailh",
+          "series": "ULP",
+          "force": null,
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "32g ± 10g"
+            },
+            {
+              "label": "Tactile peak",
+              "value": "60g ± 10g"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Kailh logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+                "width": 640,
+                "height": 240
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+                "width": 1280,
+                "height": 480
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+                "width": 2048,
+                "height": 768
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    },
+    {
+      "label": "35g",
+      "spring": {
+        "resolution": "selected",
+        "name": "ULP 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "25g ± 10g",
+          "tactile_force": "35g ± 10g"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 205 G0"
+        },
+        "stem": {
+          "state": "applied",
+          "name": "Krytox GPL 205 G0"
+        }
+      },
+      "images": [
+        {
+          "alt": "ULP Tactile 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-640.avif",
+              "width": 640,
+              "height": 433
+            },
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-1280.avif",
+              "width": 740,
+              "height": 501
+            }
+          ]
+        },
+        {
+          "alt": "ULP Tactile 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-1-80037c24d607-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-1-80037c24d607-640.avif",
+              "width": 559,
+              "height": 485
+            }
+          ]
+        },
+        {
+          "alt": "ULP Tactile 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-640.avif",
+              "width": 640,
+              "height": 380
+            },
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-1280.avif",
+              "width": 683,
+              "height": 406
+            }
+          ]
+        },
+        {
+          "alt": "ULP Tactile 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-640.avif",
+              "width": 640,
+              "height": 438
+            },
+            {
+              "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-1280.avif",
+              "width": 898,
+              "height": 614
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "ULP 35g",
+          "manufacturer": "Kailh",
+          "series": "ULP",
+          "force": null,
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "25g ± 10g"
+            },
+            {
+              "label": "Tactile peak",
+              "value": "35g ± 10g"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Kailh logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+                "width": 640,
+                "height": 240
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+                "width": 1280,
+                "height": 480
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+                "width": 2048,
+                "height": 768
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 205 G0",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "ULP Tactile 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-33dd50f107d9-source-gallery-0-f818d94ffcca-1280.avif",
+          "width": 730,
+          "height": 730
+        }
+      ]
+    },
+    {
+      "alt": "ULP Tactile 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-640.avif",
+          "width": 640,
+          "height": 433
+        },
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-0-3d8b90a7dea8-1280.avif",
+          "width": 740,
+          "height": 501
+        }
+      ]
+    },
+    {
+      "alt": "ULP Tactile 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-1-80037c24d607-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-1-80037c24d607-640.avif",
+          "width": 559,
+          "height": 485
+        }
+      ]
+    },
+    {
+      "alt": "ULP Tactile 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-640.avif",
+          "width": 640,
+          "height": 380
+        },
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-2-4888afc34eb7-1280.avif",
+          "width": 683,
+          "height": 406
+        }
+      ]
+    },
+    {
+      "alt": "ULP Tactile 사진 5",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-640.avif",
+          "width": 640,
+          "height": 438
+        },
+        {
+          "src": "/media/switches/ulp-tactile/8c2923d16a63f602-757e0a462edd-source-gallery-3-09d4121989b6-1280.avif",
+          "width": 898,
+          "height": 614
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0
+}

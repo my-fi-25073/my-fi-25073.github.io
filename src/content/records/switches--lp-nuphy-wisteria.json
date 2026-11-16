@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lp-nuphy-wisteria",
+  "title": "LP NuPhy Wisteria",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "KS33",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "Gateron Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "55g ± 15g",
+          "bottom_out_force": "50g ± 5g",
+          "length": "16.5mm",
+          "spring_stage": "dual-stage"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "LP NuPhy Wisteria 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-640.avif",
+              "width": 640,
+              "height": 498
+            },
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-1280.avif",
+              "width": 761,
+              "height": 592
+            }
+          ]
+        },
+        {
+          "alt": "LP NuPhy Wisteria 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-640.avif",
+              "width": 640,
+              "height": 249
+            },
+            {
+              "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-1280.avif",
+              "width": 935,
+              "height": 364
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Gateron Factory Spring 50g",
+          "manufacturer": "Gateron",
+          "series": "Factory",
+          "force": "50g ± 5g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "55g ± 15g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "50g ± 5g"
+            },
+            {
+              "label": "Length",
+              "value": "16.5mm"
+            },
+            {
+              "label": "Stages",
+              "value": "dual-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Gateron logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+                "width": 202,
+                "height": 45
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "LP NuPhy Wisteria 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-640.avif",
+          "width": 640,
+          "height": 498
+        },
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-0-9560efadd77a-1280.avif",
+          "width": 761,
+          "height": 592
+        }
+      ]
+    },
+    {
+      "alt": "LP NuPhy Wisteria 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-640.avif",
+          "width": 640,
+          "height": 249
+        },
+        {
+          "src": "/media/switches/lp-nuphy-wisteria/fe74a5bdb9a4e400-11dd8211cf5e-source-gallery-1-68a8bae3996b-1280.avif",
+          "width": 935,
+          "height": 364
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Gateron logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+        "width": 202,
+        "height": 45
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

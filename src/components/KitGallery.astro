@@ -8,8 +8,8 @@ interface Props {
 const { seriesTitle, kits } = Astro.props;
 ---
 {kits.length > 0 && (
-  <section class="kit-gallery-section record-section" aria-label="Kits">
-    <div class="kl-gallery">
+  <section class="kit-gallery-section record-section kl-gallery-scope" aria-label="Kits">
+    <div class="kl-gallery" data-gallery-role="archive">
       {kits.map((kit) => {
         const full = kit.images[0]?.variants.toSorted((a, b) => b.width - a.width)[0];
         return <div data-image-gallery aria-label={`${seriesTitle} ${kit.title}`}>

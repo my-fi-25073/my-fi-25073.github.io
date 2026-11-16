@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lofree-pulse",
+  "title": "Lofree Pulse",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "25g",
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "25g",
+          "length": "11.75mm"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Pulse 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-640.avif",
+              "width": 640,
+              "height": 582
+            },
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-1280.avif",
+              "width": 1280,
+              "height": 1164
+            },
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-2400.avif",
+              "width": 1342,
+              "height": 1220
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Pulse 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-640.avif",
+              "width": 640,
+              "height": 410
+            },
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-1280.avif",
+              "width": 1182,
+              "height": 758
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Choc 25g",
+          "manufacturer": "Sprit",
+          "series": "Choc/Alps",
+          "force": null,
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "11.75mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    },
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "unknown",
+        "name": null,
+        "status": null
+      },
+      "isStock": true,
+      "isFactoryConfiguration": true,
+      "switchSpecifications": {
+        "actuationForce": "40g ± 10g",
+        "actuationTravel": "1.6mm ± 0.3mm",
+        "totalTravel": "2.8mm ± 0.25mm",
+        "springLength": "15.5mm",
+        "durabilityCycles": 50000000,
+        "factoryLubed": true
+      },
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "unknown",
+          "name": null
+        },
+        "stem": {
+          "state": "unknown",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Pulse 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Lofree Pulse 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-640.avif",
+          "width": 640,
+          "height": 582
+        },
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-1280.avif",
+          "width": 1280,
+          "height": 1164
+        },
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-source-gallery-0-e05f14d3c9e4-2400.avif",
+          "width": 1342,
+          "height": 1220
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Pulse 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-640.avif",
+          "width": 640,
+          "height": 410
+        },
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-6f07980b9d2b-gallery-0-41032ca3c724-1280.avif",
+          "width": 1182,
+          "height": 758
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Pulse 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/lofree-pulse/acc737152cfc3c3f-db35f8d4c59e-gallery-0-eb46b2b6d5ac-1280.avif",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 2,
+  "coverIsProductImage": true
+}

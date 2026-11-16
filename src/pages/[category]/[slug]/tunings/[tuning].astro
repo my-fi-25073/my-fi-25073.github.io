@@ -4,6 +4,7 @@ import DisplayFields from '../../../../components/DisplayFields.astro';
 import ImageGallery from '../../../../components/ImageGallery.astro';
 import Lightbox from '../../../../components/Lightbox.astro';
 import SiteLayout from '../../../../layouts/SiteLayout.astro';
+import { renderTuningComponent, tuningComponentRoleLabels } from '../../../../../public/ui/tuning-components.mjs';
 import {
   buildSwitchTuningFields,
   publicSwitchTunings,
@@ -27,7 +28,14 @@ interface Props {
 
 const { productTitle, productSlug, label, tuning } = Astro.props;
 const title = productTitle === label ? label : `${productTitle} · ${label}`;
-const fields = buildSwitchTuningFields(tuning);
+const components = tuning.components ?? [];
+const fields = buildSwitchTuningFields(tuning).filter(field => {
+  if (components.some(c=>c.role==='spring') && ['spring','initial_force','actuation_force','tactile_force','bottom_out_force','final_force','length','spring_stage'].includes(field.key)) return false;
+  if (components.some(c=>c.role==='stem_lubricant') && field.key==='stemLubrication') return false;
+  if (components.some(c=>c.role==='spring_lubricant') && field.key==='springLubrication') return false;
+  if (components.some(c=>c.role==='stem_lubricant') && components.some(c=>c.role==='spring_lubricant') && field.key==='lubrication') return false;
+  return true;
+});
 const detailImages = tuning.detailImageIndexes
   ? tuning.detailImageIndexes.map((index) => tuning.images[index]).filter(Boolean)
   : tuning.images;
@@ -45,6 +53,11 @@ const specificationImages = tuning.isStock || tuning.isFactoryConfiguration
     </header>
 
     <ImageGallery images={detailImages} label={title} />
+    {components.length > 0 && <section class="record-section kl-gallery-scope" aria-label="구성 부품">
+      <div class="kl-gallery" data-gallery-role="relation">
+        {components.map(component => <section class="k-tuning-component"><h2>{tuningComponentRoleLabels[component.role]}</h2><Fragment set:html={renderTuningComponent(component)} /></section>)}
+      </div>
+    </section>}
 
     {fields.length > 0 && (
       <section class="series-properties" aria-label="세팅 사양">
@@ -64,7 +77,7 @@ const specificationImages = tuning.isStock || tuning.isFactoryConfiguration
     align-items: center;
     gap: 6px;
     min-height: 44px;
-    color: var(--color-muted);
+    color: var(--k-muted);
     font-size: 14px;
   }
 

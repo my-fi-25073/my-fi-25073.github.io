@@ -81,9 +81,9 @@ const keycapViews = [
                     {view.groups.map((group) => {
                       const Group = group.label ? 'details' : 'div';
                       return (
-                        <Group class="keycap-view-group" open={group.label ? true : undefined}>
+                        <Group class="keycap-view-group kl-gallery-scope" open={group.label ? true : undefined}>
                           {group.label && <summary><h2>{group.label}</h2><span class="keycap-group-count">{group.records.length}</span></summary>}
-                          <div class="gallery-grid kl-gallery">
+                          <div class="gallery-grid kl-gallery" data-gallery-role="archive">
                             {group.records.map((gallery) => (
                               <GalleryCard
                                 gallery={gallery}
@@ -121,78 +121,18 @@ const keycapViews = [
   .keycap-collections > summary { display: none; }
   .keycap-filter-bar > p { margin: 0 0 4px; font-size: 13px; font-weight: 680; }
 
-  .keycap-filter-bar :global(.archive-view-tabs) {
-    display: grid;
-    gap: 0;
-    border: 0;
-  }
-
-  .keycap-filter-bar :global(.archive-view-tabs button) {
-    min-height: 36px;
-    padding: 3px 4px 3px 9px;
-    border: 0;
-    border-inline-start: 2px solid transparent;
-    text-align: start;
-    font-size: 13px;
-  }
-
-  .keycap-filter-bar :global(.archive-view-tabs button:is(:hover, [aria-selected='true'])) {
-    color: var(--color-text);
-  }
-
-  .keycap-filter-bar :global(.archive-view-tabs button[aria-selected='true']) {
-    border-inline-start-color: var(--color-catalog-accent, #4d382a);
-  }
-
   @media (max-width: 660px) {
-    .keycap-collections > summary {
-      display: flex;
-      justify-content: space-between;
-      min-height: 44px;
-      font-size: 14px;
-      font-weight: 650;
-    }
-    .keycap-collections > summary::after { transform: none; border: 0; width: auto; height: auto; content: '+'; }
-    .keycap-collections[open] > summary::after { transform: none; content: '−'; }
+    .keycap-collections > summary { display: flex; }
     .keycap-filter-bar { padding-block: 8px; }
     .keycap-filter-bar > p { display: none; }
-    .keycap-filter-bar :global(.archive-view-tabs button) { min-height: 44px; }
   }
 
-  .keycap-result-count { margin: 0 0 10px; color: var(--color-muted); font-size: 13px; text-align: end; }
-  .keycap-result-count strong { color: var(--color-text); font-weight: 650; font-variant-numeric: tabular-nums; }
-  .keycap-empty { margin: 24px 0 0; color: var(--color-muted); }
+  .keycap-result-count { margin: 0 0 10px; color: var(--k-muted); font-size: 13px; text-align: end; }
+  .keycap-result-count strong { color: var(--k-ink); font-weight: 650; font-variant-numeric: tabular-nums; }
+  .keycap-empty { margin: 24px 0 0; color: var(--k-muted); }
 
   .keycap-view-group + .keycap-view-group {
-    margin-block-start: var(--space-section);
-  }
-
-  summary {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-height: 44px;
-    border-bottom: 1px solid var(--color-rule);
-    cursor: pointer;
-  }
-
-  summary::-webkit-details-marker {
-    display: none;
-  }
-
-  summary::after {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-inline-end: 1px solid currentColor;
-    border-block-end: 1px solid currentColor;
-    margin-inline-start: auto;
-    margin-inline-end: 4px;
-    transform: rotate(-45deg);
-  }
-
-  details[open] > summary::after {
-    transform: translateY(-2px) rotate(45deg);
+    margin-block-start: var(--k-section-space);
   }
 
   h2 {
@@ -201,5 +141,5 @@ const keycapViews = [
     font-weight: 650;
   }
 
-  .keycap-group-count { color: var(--color-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .keycap-group-count { color: var(--k-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 </style>

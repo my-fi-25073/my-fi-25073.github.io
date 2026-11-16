@@ -13,7 +13,7 @@ const current = section === 'gallery' ? 'keycaps' : section || 'home';
     {items.map((item) => (
       <li>
         <a
-          class:list={['taxonomy-item', { 'is-current': current === item.id }]}
+          class:list={['taxonomy-item', 'k-tab', { 'is-current': current === item.id }]}
           href={item.href}
           aria-current={pathname === item.href ? 'page' : undefined}
         >

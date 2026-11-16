@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "tomcat",
+  "title": "Tomcat",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "length": "20.0mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Tomcat 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-640.avif",
+              "width": 640,
+              "height": 445
+            },
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-1280.avif",
+              "width": 739,
+              "height": 514
+            }
+          ]
+        },
+        {
+          "alt": "Tomcat 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-640.avif",
+              "width": 640,
+              "height": 593
+            },
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-1280.avif",
+              "width": 1280,
+              "height": 1187
+            },
+            {
+              "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-2400.avif",
+              "width": 1335,
+              "height": 1238
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Tomcat 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-640.avif",
+          "width": 640,
+          "height": 445
+        },
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-0-950ae66ac827-1280.avif",
+          "width": 739,
+          "height": 514
+        }
+      ]
+    },
+    {
+      "alt": "Tomcat 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-640.avif",
+          "width": 640,
+          "height": 593
+        },
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-1280.avif",
+          "width": 1280,
+          "height": 1187
+        },
+        {
+          "src": "/media/switches/tomcat/b7256bf7f7eb8281-820068fb0b19-source-gallery-1-b57d8e50a32c-2400.avif",
+          "width": 1335,
+          "height": 1238
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Bsun logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-gallery-4x3-024499697cc7-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-640.avif",
+        "width": 78,
+        "height": 58
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

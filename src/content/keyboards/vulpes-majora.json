@@ -45,7 +45,7 @@
     "switches": [
       {
         "title": "Cheese",
-        "href": "/switches/hmx-cheese/tunings/167eda0e4aee/"
+        "href": "/switches/cheese/tunings/167eda0e4aee/"
       }
     ]
   },
@@ -55,7 +55,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-0-69abe5738224-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-0-69abe5738224-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }
@@ -83,7 +83,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-1-67ad2ff37008-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/vulpes-majora/95b86deb8c09f013-source-gallery-1-67ad2ff37008-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

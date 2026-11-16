@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "choc-v1-dark-yellow",
+  "title": "Choc v1 Dark Yellow",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v1 (PG1350)",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Unlubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 70g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "70g ± 10g"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Choc v1 Dark Yellow 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-640.avif",
+              "width": 640,
+              "height": 545
+            },
+            {
+              "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-1280.avif",
+              "width": 848,
+              "height": 722
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Choc v1 Dark Yellow 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-640.avif",
+          "width": 640,
+          "height": 545
+        },
+        {
+          "src": "/media/switches/choc-v1-dark-yellow/40d8d150f8256604-6b3a8a3ae7e2-source-gallery-0-7918d6e572d4-1280.avif",
+          "width": 848,
+          "height": 722
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

@@ -29,7 +29,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-0-b9edbd8b16ce-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-0-b9edbd8b16ce-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
@@ -57,7 +57,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-1-31de673ab81d-gallery-6x5-d6fde3ecd447-640.webp",
+              "src": "/media/dcx-hyperfuse/kit-8df167afb699f9f5-source-gallery-1-31de673ab81d-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
@@ -89,7 +89,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-gallery-0-e3c193c4debc-gallery-6x5-d6fde3ecd447-640.webp",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-gallery-0-e3c193c4debc-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
@@ -117,7 +117,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-0-1146cc948f17-gallery-6x5-596dc3a34e9f-640.webp",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-0-1146cc948f17-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
@@ -145,7 +145,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-1-b36efe093b70-gallery-6x5-596dc3a34e9f-640.webp",
+          "src": "/media/dcx-hyperfuse/series-13237a963458522e-source-body-1-b36efe093b70-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }

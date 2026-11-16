@@ -95,6 +95,7 @@ const records = defineCollection({
     category: z.literal('switches'),
       manufacturer: z.string().nullable(),
       manufacturerLogo: galleryImage.optional(),
+      modelCover: galleryImage.optional(),
       footprintType: z.string().nullable(),
       switchTypes: z.array(z.string()),
       isFranken: z.boolean(),
@@ -108,6 +109,12 @@ const records = defineCollection({
         isRepresentative: z.boolean(),
       }).optional(),
       tunings: z.array(z.object({
+        components: z.array(z.object({
+          role: z.enum(['spring','stem_lubricant','spring_lubricant']), kind: z.enum(['spring','lubricant']),
+          name: z.string().min(1), manufacturer: z.string().nullable(), series: z.string().nullable(), force: z.string().nullable(),
+          specifications: z.array(z.object({ label: z.string(), value: z.string() })),
+          image: galleryImage.optional(), manufacturerLogo: galleryImage.optional(),
+        })).optional(),
         label: z.string().min(1),
         isFactoryConfiguration: z.literal(true).optional(),
         isStock: z.boolean().optional(),

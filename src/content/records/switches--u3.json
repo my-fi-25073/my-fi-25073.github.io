@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "u3",
+  "title": "U3",
+  "category": "switches",
+  "manufacturer": "Keygeek",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear",
+    "Silent"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "Keygeek Factory Spring 48g",
+        "status": null,
+        "specifications": {
+          "initial_force": "42g",
+          "bottom_out_force": "48g",
+          "length": "18mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "U3 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-gallery-4x3-77eab3aa625c-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-640.avif",
+              "width": 640,
+              "height": 461
+            },
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-1280.avif",
+              "width": 739,
+              "height": 532
+            }
+          ]
+        },
+        {
+          "alt": "U3 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-640.avif",
+              "width": 640,
+              "height": 656
+            },
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-1280.avif",
+              "width": 1280,
+              "height": 1312
+            },
+            {
+              "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-2400.avif",
+              "width": 1464,
+              "height": 1501
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Keygeek Factory Spring 48g",
+          "manufacturer": "Keygeek",
+          "series": "Factory",
+          "force": "48g",
+          "specifications": [
+            {
+              "label": "Initial force",
+              "value": "42g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "48g"
+            },
+            {
+              "label": "Length",
+              "value": "18mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Keygeek logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-640.avif",
+                "width": 352,
+                "height": 36
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "U3 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-gallery-4x3-77eab3aa625c-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-640.avif",
+          "width": 640,
+          "height": 461
+        },
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-0-8ef263f18032-cutout-ff2fd8e5ff46-1280.avif",
+          "width": 739,
+          "height": 532
+        }
+      ]
+    },
+    {
+      "alt": "U3 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-640.avif",
+          "width": 640,
+          "height": 656
+        },
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-1280.avif",
+          "width": 1280,
+          "height": 1312
+        },
+        {
+          "src": "/media/switches/u3/697fa47f86b6e912-fad843aa1a6c-source-gallery-1-c528fb7b3263-2400.avif",
+          "width": 1464,
+          "height": 1501
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Keygeek logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f86bfc23abc980d02e9bb60fe7527b1c0fa854b53e380814afe32d8107e20530-640.avif",
+        "width": 352,
+        "height": 36
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

@@ -64,7 +64,7 @@
     "switches": [
       {
         "title": "Coral Sea",
-        "href": "/switches/hmx-coral-sea/tunings/e2e66b5b2a72/"
+        "href": "/switches/coral-sea/tunings/e2e66b5b2a72/"
       }
     ]
   },
@@ -74,7 +74,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/transition-lite-no-9/bc5d49f55a71d151-source-gallery-0-e5ca1fa8af04-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/transition-lite-no-9/bc5d49f55a71d151-source-gallery-0-e5ca1fa8af04-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lp-chocolate",
+  "title": "LP Chocolate",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "KS33",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "55g ± 15g"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "LP Chocolate 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-640.avif",
+              "width": 483,
+              "height": 382
+            }
+          ]
+        },
+        {
+          "alt": "LP Chocolate 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-640.avif",
+              "width": 354,
+              "height": 283
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "LP Chocolate 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-0-c393e3534a80-640.avif",
+          "width": 483,
+          "height": 382
+        }
+      ]
+    },
+    {
+      "alt": "LP Chocolate 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-chocolate/4c6e14b306805a43-8794ad5b1d6e-source-gallery-1-7f0ebdcfc1ab-640.avif",
+          "width": 354,
+          "height": 283
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Gateron logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+        "width": 202,
+        "height": 45
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

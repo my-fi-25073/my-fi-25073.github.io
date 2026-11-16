@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "hades-v2",
+  "title": "Hades V2",
+  "category": "switches",
+  "manufacturer": "HMX",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 42g",
+        "status": "partial"
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Hades V2 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
+              "width": 640,
+              "height": 457
+            },
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-1280.avif",
+              "width": 924,
+              "height": 660
+            }
+          ]
+        },
+        {
+          "alt": "Hades V2 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
+              "width": 640,
+              "height": 437
+            },
+            {
+              "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-1280.avif",
+              "width": 1279,
+              "height": 874
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Hades V2 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-640.avif",
+          "width": 640,
+          "height": 457
+        },
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-0-e429a1df4cba-1280.avif",
+          "width": 924,
+          "height": 660
+        }
+      ]
+    },
+    {
+      "alt": "Hades V2 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/hades-v2/1f7ee0c67292c9dd-999a8d3fea6c-source-gallery-1-b42b379ae710-1280.avif",
+          "width": 1279,
+          "height": 874
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "HMX logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+        "width": 640,
+        "height": 517
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
+        "width": 1280,
+        "height": 1034
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
+        "width": 2048,
+        "height": 1654
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

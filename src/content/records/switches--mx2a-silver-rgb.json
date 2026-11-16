@@ -11,11 +11,11 @@
   ],
   "isFranken": false,
   "modelFamily": {
-    "slug": "mx-speed-silver",
-    "title": "MX Speed Silver",
+    "slug": "mx-speed-silver-rgb",
+    "title": "MX Speed Silver RGB",
     "variantLabel": "MX2A RGB",
-    "sortOrder": 1,
-    "isRepresentative": false
+    "sortOrder": 0,
+    "isRepresentative": true
   },
   "tunings": [
     {
@@ -54,7 +54,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -77,7 +77,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -96,6 +96,7 @@
           ]
         }
       ],
+      "components": [],
       "coverImageIndex": 0
     }
   ],
@@ -106,7 +107,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-0-5cc9e88fdc57-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -129,7 +130,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-silver-rgb/6263660c4090df30-531cf4adac6e-source-gallery-1-478066bb91f5-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -148,13 +149,36 @@
       ]
     }
   ],
+  "modelCover": {
+    "alt": "MX Speed Silver RGB",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-51e2f11b2f459c06aa8d67dde2a3020f3051c60eab68aa01d69d743e60f94e5e-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-51e2f11b2f459c06aa8d67dde2a3020f3051c60eab68aa01d69d743e60f94e5e-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-51e2f11b2f459c06aa8d67dde2a3020f3051c60eab68aa01d69d743e60f94e5e-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
   "manufacturerLogo": {
     "alt": "Cherry logo",
     "preserveColor": true,
     "presentation": "icon",
     "galleryVariants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
         "width": 640,
         "height": 480
       }

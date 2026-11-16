@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "black-cloud",
+  "title": "Black Cloud",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "45g ± 10g"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Black Cloud 사진 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-gallery-4x3-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-1280.avif",
+              "width": 800,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "alt": "Black Cloud 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-640.avif",
+              "width": 640,
+              "height": 437
+            },
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-1280.avif",
+              "width": 1280,
+              "height": 874
+            },
+            {
+              "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-2400.avif",
+              "width": 1864,
+              "height": 1273
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Black Cloud 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-gallery-4x3-23e4efa7fd49-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-640.avif",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-0-24c6c66c0b9f-1280.avif",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "alt": "Black Cloud 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-640.avif",
+          "width": 640,
+          "height": 437
+        },
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-1280.avif",
+          "width": 1280,
+          "height": 874
+        },
+        {
+          "src": "/media/switches/black-cloud/8d65ce3e96b1a74f-2e49d736131c-source-gallery-1-7a705a80b2bb-2400.avif",
+          "width": 1864,
+          "height": 1273
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

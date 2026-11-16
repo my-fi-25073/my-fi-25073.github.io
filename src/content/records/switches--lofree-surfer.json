@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lofree-surfer",
+  "title": "Lofree Surfer",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 50g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40g ± 10g",
+          "length": "15.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Surfer 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-1280.avif",
+              "width": 1280,
+              "height": 1166
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-2400.avif",
+              "width": 1304,
+              "height": 1188
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Surfer 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-640.avif",
+              "width": 640,
+              "height": 472
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-1280.avif",
+              "width": 1192,
+              "height": 880
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    },
+    {
+      "label": "25g",
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Supreme 25g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "20.4g",
+          "bottom_out_force": "25g",
+          "length": "13.75mm",
+          "spring_stage": "single-stage"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Surfer 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-640.avif",
+              "width": 640,
+              "height": 583
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-1280.avif",
+              "width": 1280,
+              "height": 1166
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-0-2f6ec158a661-2400.avif",
+              "width": 1304,
+              "height": 1188
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Surfer 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-1-d1fe7eb207a2-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-1-d1fe7eb207a2-640.avif",
+              "width": 640,
+              "height": 472
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-source-gallery-1-d1fe7eb207a2-1280.avif",
+              "width": 1192,
+              "height": 880
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Surfer 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-640.avif",
+              "width": 640,
+              "height": 460
+            },
+            {
+              "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-1280.avif",
+              "width": 1189,
+              "height": 855
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 25g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "25g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "20.4g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "25g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 2
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Lofree Surfer 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-640.avif",
+          "width": 640,
+          "height": 583
+        },
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-1280.avif",
+          "width": 1280,
+          "height": 1166
+        },
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-0-2f6ec158a661-2400.avif",
+          "width": 1304,
+          "height": 1188
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Surfer 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-640.avif",
+          "width": 640,
+          "height": 472
+        },
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-97e6a0fa01ba-source-gallery-1-d1fe7eb207a2-1280.avif",
+          "width": 1192,
+          "height": 880
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Surfer 사진 5",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-640.avif",
+          "width": 640,
+          "height": 460
+        },
+        {
+          "src": "/media/switches/lofree-surfer/2425184bef1b7c7f-25a494e50c8f-gallery-0-29cadedc0189-1280.avif",
+          "width": 1189,
+          "height": 855
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

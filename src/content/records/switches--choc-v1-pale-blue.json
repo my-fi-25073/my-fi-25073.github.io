@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "choc-v1-pale-blue",
+  "title": "Choc v1 Pale Blue",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v1 (PG1350)",
+  "switchTypes": [
+    "Click"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Unlubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 70g",
+        "status": "unresolved"
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "none",
+          "name": null
+        },
+        "stem": {
+          "state": "none",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Choc v1 Pale Blue 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-640.avif",
+              "width": 640,
+              "height": 633
+            },
+            {
+              "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-1280.avif",
+              "width": 780,
+              "height": 771
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Choc v1 Pale Blue 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-640.avif",
+          "width": 640,
+          "height": 633
+        },
+        {
+          "src": "/media/switches/choc-v1-pale-blue/dccf8b27fa2b0fec-310d8567cd43-source-gallery-0-8e8616ba96b3-1280.avif",
+          "width": 780,
+          "height": 771
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

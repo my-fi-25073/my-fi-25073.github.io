@@ -43,11 +43,11 @@
     "switches": [
       {
         "title": "Game1989 v1",
-        "href": "/switches/hmx-game1989-v1/tunings/ce6fe47ddb56/"
+        "href": "/switches/game1989-v1/tunings/ce6fe47ddb56/"
       },
       {
         "title": "Duck Duck 3.9",
-        "href": "/switches/hmx-duck-duck-3-9/tunings/ba0466af2f9b/"
+        "href": "/switches/duck-duck-3-9/tunings/ba0466af2f9b/"
       }
     ]
   },
@@ -57,7 +57,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/mitt-38/130deb7f649a79c0-source-gallery-0-b2c2947d6a44-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

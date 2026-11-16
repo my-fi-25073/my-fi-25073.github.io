@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lofree-phatom",
+  "title": "Lofree Phatom",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Tactile"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "35g",
+      "spring": {
+        "resolution": "selected",
+        "name": "Sprit Choc 35g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "35g",
+          "length": "11.75mm"
+        }
+      },
+      "isStock": false,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "applied",
+          "name": "Krytox GPL 105"
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Phatom 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-640.avif",
+              "width": 640,
+              "height": 591
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-1280.avif",
+              "width": 1166,
+              "height": 1076
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
+              "width": 640,
+              "height": 594
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-1280.avif",
+              "width": 1280,
+              "height": 1189
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-2400.avif",
+              "width": 1322,
+              "height": 1228
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
+              "width": 640,
+              "height": 371
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-1280.avif",
+              "width": 1014,
+              "height": 588
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 4",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-640.avif",
+              "width": 640,
+              "height": 458
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-1280.avif",
+              "width": 1179,
+              "height": 843
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Choc 35g",
+          "manufacturer": "Sprit",
+          "series": "Choc/Alps",
+          "force": null,
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "35g"
+            },
+            {
+              "label": "Length",
+              "value": "11.75mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
+        }
+      ],
+      "detailImageIndexes": [
+        0,
+        3
+      ],
+      "coverImageIndex": 3
+    },
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 55g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "45g ± 15g",
+          "length": "15.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Lofree Phatom 사진 5",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-0-953f840fb187-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-0-953f840fb187-640.avif",
+              "width": 640,
+              "height": 591
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-0-953f840fb187-1280.avif",
+              "width": 1166,
+              "height": 1076
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 6",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-640.avif",
+              "width": 640,
+              "height": 594
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-1280.avif",
+              "width": 1280,
+              "height": 1189
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-1-31cd493e9e80-2400.avif",
+              "width": 1322,
+              "height": 1228
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 7",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-2-b279bad122a6-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-2-b279bad122a6-640.avif",
+              "width": 640,
+              "height": 371
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-47bbe8f97e97-source-gallery-2-b279bad122a6-1280.avif",
+              "width": 1014,
+              "height": 588
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "detailImageIndexes": [
+        0
+      ],
+      "specificationImages": [
+        {
+          "alt": "Lofree Phatom 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
+              "width": 640,
+              "height": 594
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-1280.avif",
+              "width": 1280,
+              "height": 1189
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-2400.avif",
+              "width": 1322,
+              "height": 1228
+            }
+          ]
+        },
+        {
+          "alt": "Lofree Phatom 사진 3",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
+              "width": 640,
+              "height": 371
+            },
+            {
+              "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-1280.avif",
+              "width": 1014,
+              "height": 588
+            }
+          ]
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Lofree Phatom 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-640.avif",
+          "width": 640,
+          "height": 591
+        },
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-0-953f840fb187-1280.avif",
+          "width": 1166,
+          "height": 1076
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Phatom 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-640.avif",
+          "width": 640,
+          "height": 594
+        },
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-1280.avif",
+          "width": 1280,
+          "height": 1189
+        },
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-1-31cd493e9e80-2400.avif",
+          "width": 1322,
+          "height": 1228
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Phatom 사진 3",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-640.avif",
+          "width": 640,
+          "height": 371
+        },
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-source-gallery-2-b279bad122a6-1280.avif",
+          "width": 1014,
+          "height": 588
+        }
+      ]
+    },
+    {
+      "alt": "Lofree Phatom 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-640.avif",
+          "width": 640,
+          "height": 458
+        },
+        {
+          "src": "/media/switches/lofree-phatom/012ea6b60ee772a7-b0fd79d32c3a-gallery-0-948d75d15bdb-1280.avif",
+          "width": 1179,
+          "height": 843
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

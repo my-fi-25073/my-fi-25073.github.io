@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "lp-red-black",
+  "title": "LP Red Black",
+  "category": "switches",
+  "manufacturer": "Gateron",
+  "footprintType": "KS33",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 60g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "50g ± 15g",
+          "length": "13.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "LP Red Black 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-0-9de2b837eb8e-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-0-9de2b837eb8e-640.avif",
+              "width": 425,
+              "height": 399
+            }
+          ]
+        },
+        {
+          "alt": "LP Red Black 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-1-f6a0fbe46b7e-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-1-f6a0fbe46b7e-640.avif",
+              "width": 398,
+              "height": 344
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "LP Red Black 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-0-9de2b837eb8e-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-0-9de2b837eb8e-640.avif",
+          "width": 425,
+          "height": 399
+        }
+      ]
+    },
+    {
+      "alt": "LP Red Black 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-1-f6a0fbe46b7e-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/lp-red-black/6589009ea9ff0170-2e3036d59855-source-gallery-1-f6a0fbe46b7e-640.avif",
+          "width": 398,
+          "height": 344
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Gateron logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d551b7d1db28eda60ecf14cffba0fb409d2173d9b73772da7238ef66a33a6dd3-640.avif",
+        "width": 202,
+        "height": 45
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

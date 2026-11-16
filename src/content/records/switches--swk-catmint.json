@@ -44,7 +44,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -67,7 +67,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -91,6 +91,55 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "SWK Factory Spring 50g",
+          "manufacturer": "SWK",
+          "series": "Factory",
+          "force": "50g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "50g"
+            },
+            {
+              "label": "Length",
+              "value": "20mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "SWK logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-640.avif",
+                "width": 640,
+                "height": 266
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-1280.avif",
+                "width": 1280,
+                "height": 531
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-2400.avif",
+                "width": 2048,
+                "height": 850
+              }
+            ]
+          }
+        }
+      ],
       "coverImageIndex": 0
     }
   ],
@@ -101,7 +150,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-0-307e7bddae0f-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -124,7 +173,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/swk-catmint/99d5d69e41278b3a-c7ccf614b492-source-gallery-1-ccc2bec57703-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -148,6 +197,35 @@
       ]
     }
   ],
+  "manufacturerLogo": {
+    "alt": "SWK logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-640.avif",
+        "width": 640,
+        "height": 266
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-1280.avif",
+        "width": 1280,
+        "height": 531
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-16d7e8776c15a7b78a340f10a07c0235b962d08cf714341157be0027a404e276-2400.avif",
+        "width": 2048,
+        "height": 850
+      }
+    ]
+  },
   "coverImageIndex": 0,
   "coverIsProductImage": true
 }

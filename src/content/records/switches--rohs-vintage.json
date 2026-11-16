@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "rohs-vintage",
+  "title": "RoHS Vintage",
+  "category": "switches",
+  "manufacturer": "Cherry",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "modelFamily": {
+    "slug": "mx-black",
+    "title": "MX Black",
+    "variantLabel": "RoHS Vintage",
+    "sortOrder": 4,
+    "isRepresentative": false
+  },
+  "tunings": [],
+  "parts": [],
+  "images": [],
+  "modelCover": {
+    "alt": "MX Black",
+    "presentation": "render",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-gallery-4x3-b04779c9fe11-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-640.avif",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "src": "/media/switches/tuning-components/component-185103cb371e2cb4fa9b8bf8b0db0416b57b481d4c59b9dcb160de421e971c37-1280.avif",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  "manufacturerLogo": {
+    "alt": "Cherry logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
+        "width": 360,
+        "height": 70
+      }
+    ]
+  },
+  "coverImageIndex": null
+}

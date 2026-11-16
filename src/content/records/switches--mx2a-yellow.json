@@ -45,7 +45,7 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-0-f4a906b4a371-gallery-4x3-d6fde3ecd447-640.webp",
+              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-0-f4a906b4a371-gallery-4x3-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 480
             }
@@ -73,7 +73,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-1-adffe50b8b7d-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -96,7 +96,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-2-902cc34f827d-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -119,7 +119,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-3-5dfcda0b9df0-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -141,6 +141,124 @@
               "height": 1096
             }
           ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Sprit Supreme 62g",
+          "manufacturer": "Sprit",
+          "series": "Supreme",
+          "force": "62g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "62g"
+            },
+            {
+              "label": "Length",
+              "value": "13.75mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Sprit Supreme 12g",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-gallery-4x3-5c6247caf940-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-640.avif",
+                "width": 640,
+                "height": 356
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-1280.avif",
+                "width": 1280,
+                "height": 711
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7834e1c42f3828393a73db9910b29ba0598d9ffbcdcf1a08348fbf1d99c29128-2400.avif",
+                "width": 2048,
+                "height": 1138
+              }
+            ]
+          }
+        },
+        {
+          "role": "stem_lubricant",
+          "kind": "lubricant",
+          "name": "Kelowna AF206",
+          "manufacturer": "Kelowna",
+          "series": null,
+          "force": null,
+          "specifications": [
+            {
+              "label": "Material",
+              "value": "불소계"
+            },
+            {
+              "label": "Application",
+              "value": "건식"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Kelowna AF206",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-2e7921fbd63390ca18576bd063921b5ae0fd37bf48372a8ca6e72b275f3a34e3-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-2e7921fbd63390ca18576bd063921b5ae0fd37bf48372a8ca6e72b275f3a34e3-640.avif",
+                "width": 281,
+                "height": 59
+              }
+            ]
+          }
+        },
+        {
+          "role": "spring_lubricant",
+          "kind": "lubricant",
+          "name": "Krytox GPL 105",
+          "manufacturer": "Krytox",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "Krytox GPL 105",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-d51a412533c4712ff601b3ebfc273a3f8795bad3fcdb9555417582569972eaa9-640.avif",
+                "width": 357,
+                "height": 123
+              }
+            ]
+          }
         }
       ],
       "coverImageIndex": 3
@@ -166,7 +284,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-0-f4a906b4a371-gallery-4x3-d6fde3ecd447-640.webp",
+          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-0-f4a906b4a371-gallery-4x3-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 480
         }
@@ -194,7 +312,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-1-adffe50b8b7d-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-1-adffe50b8b7d-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -217,7 +335,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-2-902cc34f827d-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-2-902cc34f827d-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -240,7 +358,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-3-5dfcda0b9df0-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/mx2a-yellow/0ca0d9ca5ef72119-df6d2b2a8528-source-gallery-3-5dfcda0b9df0-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -270,7 +388,7 @@
     "presentation": "icon",
     "galleryVariants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-f3da1eed34b0-640.webp",
+        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-gallery-4x3-b4dfa0792a62-640.webp",
         "width": 640,
         "height": 480
       }

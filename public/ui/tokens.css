@@ -1,0 +1,139 @@
+/* Keylog shared design tokens. Public, Studio and the component catalog consume this file. */
+:root {
+  --k-canvas: #f4f2ed;
+  --k-panel: #fffdfa;
+  --k-surface: #e9e6df;
+  --k-ink: #171716;
+  --k-muted: #68665f;
+  --k-rule: #d7d3ca;
+  --k-focus: var(--k-ink);
+  --k-overlay: rgba(10, 10, 10, .96);
+  --k-danger: #a53626;
+  --k-font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --k-type-display: clamp(40px, 5vw, 72px);
+  --k-type-title: clamp(28px, 3vw, 40px);
+  --k-type-section: 20px;
+  --k-type-body: 16px;
+  --k-type-control: 14px;
+  --k-type-caption: 12px;
+  --k-line-body: 1.6;
+  --k-line-title: 1.15;
+  --k-weight-body: 400;
+  --k-weight-strong: 600;
+  --k-weight-display: 690;
+  --k-space-1: 4px;
+  --k-space-2: 8px;
+  --k-space-3: 12px;
+  --k-space-4: 16px;
+  --k-space-5: 20px;
+  --k-space-6: 24px;
+  --k-space-8: 32px;
+  --k-space-10: 40px;
+  --k-space-12: 48px;
+  --k-space-16: 64px;
+  --k-radius: 4px;
+  --k-border-width: 1px;
+  --k-focus-width: 2px;
+  --k-focus-offset: 4px;
+  --k-control-height: 44px;
+  --k-control-padding: 16px;
+  --k-control-gap: 8px;
+  --k-control-font: 14px;
+  --k-field-font: 16px;
+  --k-field-feedback-height: calc(var(--k-type-caption) * var(--k-line-body) * 2);
+  --k-field-padding-y: 8px;
+  --k-control-radius: 0px;
+  --k-field-border: var(--k-muted);
+  --k-field-background: var(--k-panel);
+  --k-popup-border: var(--k-rule);
+  --k-popup-padding: 4px;
+  --k-popup-gap: 6px;
+  --k-popup-inset: 12px;
+  --k-popup-max-height: 280px;
+  --k-option-active: var(--k-surface);
+  --k-option-height: 36px;
+  --k-field-action-height: 24px;
+  --k-choice-size: 18px;
+  --k-choice-border: var(--k-muted);
+  --k-choice-fill: var(--k-ink);
+  --k-choice-mark: var(--k-panel);
+  --k-textarea-min: 112px;
+  --k-textarea-max: 280px;
+  --k-calendar-width: 320px;
+  --k-menu-width: 220px;
+  --k-tooltip-max-width: 280px;
+  --k-tooltip-background: var(--k-ink);
+  --k-tooltip-foreground: var(--k-panel);
+  --k-row-padding: 16px;
+  --k-icon-size: 16px;
+  --k-brand-height: 24px;
+  --k-brand-max-width: 96px;
+  --k-chevron-size: 6px;
+  --k-button-radius: 0px;
+  --k-button-min-width: 112px;
+  --k-button-padding: 20px;
+  --k-button-weight: 500;
+  --k-button-border: var(--k-rule);
+  --k-button-hover-border: var(--k-muted);
+  --k-toolbar-control-padding: 12px;
+  --k-button-disabled-ink: var(--k-muted);
+  --k-button-disabled-bg: var(--k-surface);
+  --k-button-disabled-border: var(--k-rule);
+  --k-button-progress-size: 12px;
+  --k-button-progress-duration: 800ms;
+  --k-action-bg: var(--k-ink);
+  --k-action-fg: var(--k-panel);
+  --k-action-hover-bg: color-mix(in srgb, var(--k-ink) 86%, var(--k-canvas));
+  --k-secondary-bg: transparent;
+  --k-secondary-hover-bg: var(--k-surface);
+  --k-selected-bg: var(--k-surface);
+  --k-selected-rule: var(--k-ink);
+  --k-dialog-scrim: rgba(10, 10, 10, .48);
+  --k-dialog-width: 560px;
+  --k-dialog-padding: 32px;
+  --k-dialog-inset: 16px;
+  --k-dialog-border: var(--k-ink);
+  --k-dialog-radius: var(--k-control-radius);
+  --k-shell-width: 1440px;
+  --k-page-gutter: clamp(20px, 4vw, 56px);
+  --k-section-space: clamp(32px, 5vw, 64px);
+  --k-icon-occupancy-x: 76%;
+  --k-icon-occupancy-y: 68%;
+  --k-motion-fast: 120ms;
+  --k-scrollbar-size: 8px;
+  --k-scrollbar-thumb: color-mix(in srgb, var(--k-ink) 28%, transparent);
+  --k-scrollbar-thumb-hover: var(--k-muted);
+  --k-scrollbar-track: transparent;
+}
+
+/* Density is a shared component profile, never a Studio-only theme. */
+[data-density="compact"] {
+  --k-control-height: 36px;
+  --k-control-padding: 12px;
+  --k-field-padding-y: 4px;
+  --k-button-padding: 16px;
+  --k-row-padding: 12px;
+}
+[data-date-field] { --k-popup-max-height: 420px; }
+[data-dialog-profile="confirmation"] { --k-dialog-width: 480px; }
+[data-calendar-day] {
+  --k-control-height: 36px;
+  --k-button-min-width: 0px;
+  --k-button-padding: 0px;
+  --k-focus-offset: -2px;
+}
+[data-calendar-day][aria-selected="true"] { --k-focus: var(--k-panel); }
+[data-variant="menu"] {
+  --k-button-min-width: 0px;
+  --k-button-padding: 12px;
+  --k-focus-offset: -2px;
+}
+
+@media (pointer: coarse) {
+  :root, [data-density="compact"] { --k-control-height: 44px; }
+  [data-calendar-day] { --k-control-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --k-motion-fast: 0ms; }
+}
+

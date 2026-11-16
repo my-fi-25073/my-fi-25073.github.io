@@ -65,9 +65,9 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
         <p class="archive-catalog-count" aria-live="polite"><span data-result-count>{records.length}</span>개 빌드</p>
         <div data-keyboard-gallery>
     {displayGroups.map(({ label, records }) => (
-      <section class="archive-section" aria-label={label ?? '키보드 목록'} data-archive-group>
+      <section class="archive-section kl-gallery-scope" aria-label={label ?? '키보드 목록'} data-archive-group>
         {label && <div class="section-heading"><h2>{label}</h2></div>}
-        <div class="gallery-grid kl-gallery">
+        <div class="gallery-grid kl-gallery" data-gallery-role="archive">
           {records.map((keyboard) => {
             const entry = entryBySlug.get(keyboard.slug);
             if (!entry) throw new Error(`Keyboard entry is missing: ${keyboard.slug}`);
@@ -78,9 +78,9 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
       </section>
     ))}
     <template data-keyboard-preset-section>
-      <section class="archive-section" aria-label="키보드 목록">
+      <section class="archive-section kl-gallery-scope" aria-label="키보드 목록">
         <div class="section-heading" hidden><h2></h2></div>
-        <div class="gallery-grid kl-gallery"></div>
+        <div class="gallery-grid kl-gallery" data-gallery-role="archive"></div>
       </section>
     </template>
         </div>
@@ -91,5 +91,5 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
 </SiteLayout>
 
 <style>
-  .empty-keyboard-list { margin-top: 24px; color: var(--color-muted); }
+  .empty-keyboard-list { margin-top: 24px; color: var(--k-muted); }
 </style>

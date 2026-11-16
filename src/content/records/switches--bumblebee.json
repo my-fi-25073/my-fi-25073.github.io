@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "bumblebee",
+  "title": "Bumblebee",
+  "category": "switches",
+  "manufacturer": "Bsun",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "Bsun Factory Spring 50g",
+        "status": null,
+        "specifications": {
+          "actuation_force": "45g ± 5g",
+          "bottom_out_force": "50g ± 5g",
+          "length": "20mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Bumblebee 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-640.avif",
+              "width": 640,
+              "height": 451
+            },
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-1280.avif",
+              "width": 693,
+              "height": 488
+            }
+          ]
+        },
+        {
+          "alt": "Bumblebee 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-640.avif",
+              "width": 640,
+              "height": 405
+            },
+            {
+              "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-1280.avif",
+              "width": 669,
+              "height": 423
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Bsun Factory Spring 50g",
+          "manufacturer": "Bsun",
+          "series": "Factory",
+          "force": "50g ± 5g",
+          "specifications": [
+            {
+              "label": "Actuation",
+              "value": "45g ± 5g"
+            },
+            {
+              "label": "Bottom-out",
+              "value": "50g ± 5g"
+            },
+            {
+              "label": "Length",
+              "value": "20mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Bsun logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-gallery-4x3-024499697cc7-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-640.avif",
+                "width": 78,
+                "height": 58
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Bumblebee 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-640.avif",
+          "width": 640,
+          "height": 451
+        },
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-0-901dccc976fd-1280.avif",
+          "width": 693,
+          "height": 488
+        }
+      ]
+    },
+    {
+      "alt": "Bumblebee 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-640.avif",
+          "width": 640,
+          "height": 405
+        },
+        {
+          "src": "/media/switches/bumblebee/f4a09e940e44ccaf-cccc8393077a-source-gallery-1-178a262f1538-1280.avif",
+          "width": 669,
+          "height": 423
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Bsun logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-gallery-4x3-024499697cc7-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-e2b2aa7b1c94d83b4ab9651dc898bf6837e53b147e7eb7cc86e540472e0a0a9a-640.avif",
+        "width": 78,
+        "height": 58
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

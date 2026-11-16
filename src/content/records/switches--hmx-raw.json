@@ -45,7 +45,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-0-7222c09dbb78-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-0-7222c09dbb78-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -68,7 +68,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-1-758ba1c61dfa-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-1-758ba1c61dfa-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -92,6 +92,59 @@
           ]
         }
       ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "HMX Factory Spring 48g",
+          "manufacturer": "HMX",
+          "series": "Factory",
+          "force": "48g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "48g"
+            },
+            {
+              "label": "Length",
+              "value": "22mm"
+            },
+            {
+              "label": "Stages",
+              "value": "single-stage"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "HMX logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+                "width": 640,
+                "height": 517
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
+                "width": 1280,
+                "height": 1034
+              },
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
+                "width": 2048,
+                "height": 1654
+              }
+            ]
+          }
+        }
+      ],
       "coverImageIndex": 0
     }
   ],
@@ -102,7 +155,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-0-7222c09dbb78-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-0-7222c09dbb78-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -125,7 +178,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-1-758ba1c61dfa-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/hmx-raw/c7cfc23c5667e484-6b9a14f94d4e-source-gallery-1-758ba1c61dfa-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -149,6 +202,35 @@
       ]
     }
   ],
+  "manufacturerLogo": {
+    "alt": "HMX logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+        "width": 640,
+        "height": 517
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
+        "width": 1280,
+        "height": 1034
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
+        "width": 2048,
+        "height": 1654
+      }
+    ]
+  },
   "coverImageIndex": 0,
   "coverIsProductImage": true
 }

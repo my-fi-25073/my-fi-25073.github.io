@@ -41,11 +41,11 @@
     "switches": [
       {
         "title": "Duck Duck 3.5",
-        "href": "/switches/hmx-duck-duck-3-5/tunings/11c678a07fa7/"
+        "href": "/switches/duck-duck-3-5/tunings/11c678a07fa7/"
       },
       {
         "title": "Duck Duck 3.9",
-        "href": "/switches/hmx-duck-duck-3-9/tunings/ba0466af2f9b/"
+        "href": "/switches/duck-duck-3-9/tunings/ba0466af2f9b/"
       }
     ]
   },
@@ -55,7 +55,7 @@
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-gallery-16x9-d6fde3ecd447-640.webp",
+          "src": "/media/keyboards/neo-ergo/9acdcca07e8b2b74-source-gallery-0-614cbf21c0d7-gallery-16x9-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 360
         }

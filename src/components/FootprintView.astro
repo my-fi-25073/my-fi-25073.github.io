@@ -1,0 +1,8 @@
+---
+import { footprintBindings } from '../../public/ui/footprint-bindings.mjs';
+interface Props { name: string; }
+const { name } = Astro.props;
+const file = footprintBindings[name as keyof typeof footprintBindings];
+---
+{file ? <iframe class="k-footprint-frame" title={`${name} 풋프린트 3D`} src={`/footprints/view.html?footprint=${encodeURIComponent(file)}`} loading="lazy"></iframe> : <span>{name}</span>}
+<link rel="stylesheet" href="/ui/footprint.css" />

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "vertex-v1",
+  "title": "Vertex V1",
+  "category": "switches",
+  "manufacturer": "JWK",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "JWK Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "15mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Vertex V1 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-640.avif",
+              "width": 640,
+              "height": 572
+            },
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-1280.avif",
+              "width": 732,
+              "height": 654
+            }
+          ]
+        },
+        {
+          "alt": "Vertex V1 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-640.avif",
+              "width": 640,
+              "height": 758
+            },
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-1280.avif",
+              "width": 1280,
+              "height": 1517
+            },
+            {
+              "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-2400.avif",
+              "width": 1282,
+              "height": 1519
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "JWK Factory Spring 62g",
+          "manufacturer": "JWK",
+          "series": "Factory",
+          "force": "62g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "62g"
+            },
+            {
+              "label": "Length",
+              "value": "15mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "JWK logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-1313650a8023525306b82c5b4d4ac5cce72d7aa51f1778eafb6d08a3abf789d3-gallery-4x3-024499697cc7-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-1313650a8023525306b82c5b4d4ac5cce72d7aa51f1778eafb6d08a3abf789d3-640.avif",
+                "width": 209,
+                "height": 54
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Vertex V1 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-640.avif",
+          "width": 640,
+          "height": 572
+        },
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-0-45d70d26aec9-1280.avif",
+          "width": 732,
+          "height": 654
+        }
+      ]
+    },
+    {
+      "alt": "Vertex V1 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-640.avif",
+          "width": 640,
+          "height": 758
+        },
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-1280.avif",
+          "width": 1280,
+          "height": 1517
+        },
+        {
+          "src": "/media/switches/vertex-v1/5bc6ce80687677e8-98728c598764-source-gallery-1-ea1160b4520c-2400.avif",
+          "width": 1282,
+          "height": 1519
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "JWK logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-1313650a8023525306b82c5b4d4ac5cce72d7aa51f1778eafb6d08a3abf789d3-gallery-4x3-024499697cc7-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-1313650a8023525306b82c5b4d4ac5cce72d7aa51f1778eafb6d08a3abf789d3-640.avif",
+        "width": 209,
+        "height": 54
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

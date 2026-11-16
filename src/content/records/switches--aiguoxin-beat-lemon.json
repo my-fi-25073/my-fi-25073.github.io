@@ -40,7 +40,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -58,7 +58,7 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-596dc3a34e9f-640.webp",
+              "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
@@ -72,6 +72,7 @@
           ]
         }
       ],
+      "components": [],
       "coverImageIndex": 0
     }
   ],
@@ -82,7 +83,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-0-8b8f6adac38e-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
@@ -100,7 +101,7 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-596dc3a34e9f-640.webp",
+          "src": "/media/switches/aiguoxin-beat-lemon/c4d9f034163b1ab5-eef8483e9807-source-gallery-1-412698dfdc44-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }

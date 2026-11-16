@@ -33,21 +33,22 @@
         }
       },
       "images": [],
+      "components": [],
       "coverImageIndex": null
     }
   ],
   "parts": [
     {
       "role": "bottom_housing",
-      "donor": "SWK DragonGhost"
+      "donor": "DragonGhost"
     },
     {
       "role": "stem",
-      "donor": "HMX Xinhai"
+      "donor": "Xinhai"
     },
     {
       "role": "top_housing",
-      "donor": "SWK Jieum V2"
+      "donor": "Jieum V2"
     }
   ],
   "images": [],

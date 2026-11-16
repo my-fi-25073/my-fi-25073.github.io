@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "venus",
+  "title": "Venus",
+  "category": "switches",
+  "manufacturer": "TTC",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "TTC Factory Spring 52g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "52g",
+          "length": "20.5mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Venus 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-640.avif",
+              "width": 640,
+              "height": 427
+            },
+            {
+              "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-1280.avif",
+              "width": 1080,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "alt": "Venus 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-1-b3a3ee7445c5-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-1-b3a3ee7445c5-640.avif",
+              "width": 557,
+              "height": 443
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "TTC Factory Spring 52g",
+          "manufacturer": "TTC",
+          "series": "Factory",
+          "force": "52g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "52g"
+            },
+            {
+              "label": "Length",
+              "value": "20.5mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "TTC logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+                "width": 260,
+                "height": 119
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Venus 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-640.avif",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-0-72d4674745b3-1280.avif",
+          "width": 1080,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "alt": "Venus 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-1-b3a3ee7445c5-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/venus/ae0d4b16ac52f8c0-76b45c0d3868-source-gallery-1-b3a3ee7445c5-640.avif",
+          "width": 557,
+          "height": 443
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "TTC logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
+        "width": 260,
+        "height": 119
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

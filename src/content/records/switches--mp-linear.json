@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "mp-linear",
+  "title": "MP Linear",
+  "category": "switches",
+  "manufacturer": "Haimu",
+  "footprintType": "Cherry MX",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "selected",
+        "name": "Haimu Factory Spring 62g",
+        "status": null,
+        "specifications": {
+          "bottom_out_force": "62g",
+          "length": "18mm"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "MP Linear 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-640.avif",
+              "width": 640,
+              "height": 548
+            },
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-1280.avif",
+              "width": 1141,
+              "height": 977
+            }
+          ]
+        },
+        {
+          "alt": "MP Linear 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-640.avif",
+              "width": 640,
+              "height": 767
+            },
+            {
+              "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-1280.avif",
+              "width": 1245,
+              "height": 1493
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "role": "spring",
+          "kind": "spring",
+          "name": "Haimu Factory Spring 62g",
+          "manufacturer": "Haimu",
+          "series": "Factory",
+          "force": "62g",
+          "specifications": [
+            {
+              "label": "Bottom-out",
+              "value": "62g"
+            },
+            {
+              "label": "Length",
+              "value": "18mm"
+            }
+          ],
+          "manufacturerLogo": {
+            "alt": "Haimu logo",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-d618f7dc48ae69a00a67c3dbb85f11cf0c31e847188d36e5e4b60bb0df0f6563-gallery-4x3-d3cfdf488184-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/manufacturer-logos/manufacturer-d618f7dc48ae69a00a67c3dbb85f11cf0c31e847188d36e5e4b60bb0df0f6563-640.avif",
+                "width": 75,
+                "height": 60
+              }
+            ]
+          }
+        }
+      ],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "MP Linear 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-640.avif",
+          "width": 640,
+          "height": 548
+        },
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-0-446bc66c4064-1280.avif",
+          "width": 1141,
+          "height": 977
+        }
+      ]
+    },
+    {
+      "alt": "MP Linear 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-640.avif",
+          "width": 640,
+          "height": 767
+        },
+        {
+          "src": "/media/switches/mp-linear/52f0a98cc72b7411-9376fe15827d-source-gallery-1-56b95c04421a-1280.avif",
+          "width": 1245,
+          "height": 1493
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Haimu logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d618f7dc48ae69a00a67c3dbb85f11cf0c31e847188d36e5e4b60bb0df0f6563-gallery-4x3-d3cfdf488184-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-d618f7dc48ae69a00a67c3dbb85f11cf0c31e847188d36e5e4b60bb0df0f6563-640.avif",
+        "width": 75,
+        "height": 60
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}

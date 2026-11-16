@@ -1,0 +1,8 @@
+/* Generated from gallery-profiles.mjs. Run npm run ui:tokens. */
+[data-gallery-profile="keycap"] { --k-media-ratio: 6 / 5; }
+[data-gallery-profile="keyboard"] { --k-media-ratio: 16 / 9; }
+[data-gallery-profile="product"] { --k-media-ratio: 4 / 3; }
+[data-gallery-role="archive"] { --k-gallery-min: 220px; --k-gallery-gap-x: 20px; --k-gallery-gap-y: 30px; --k-gallery-title: 20px; --k-gallery-copy-gap: 6px; --k-gallery-copy-top: 12px; }
+[data-gallery-role="relation"] { --k-gallery-min: 154px; --k-gallery-gap-x: 12px; --k-gallery-gap-y: 12px; --k-gallery-title: 14px; --k-gallery-copy-gap: 4px; --k-gallery-copy-top: 8px; }
+[data-gallery-role="timeline"] { --k-gallery-columns: repeat(auto-fit, minmax(min(100%, var(--k-gallery-min)), 1fr)); --k-gallery-min: 250px; --k-gallery-gap-x: 16px; --k-gallery-gap-y: 16px; --k-gallery-title: 20px; --k-gallery-copy-gap: 6px; --k-gallery-copy-top: 12px; --k-gallery-card-max: 420px; }
+[data-gallery-role="media"] { --k-gallery-min: 180px; --k-gallery-gap-x: 12px; --k-gallery-gap-y: 12px; --k-gallery-title: 14px; --k-gallery-copy-gap: 4px; --k-gallery-copy-top: 8px; }

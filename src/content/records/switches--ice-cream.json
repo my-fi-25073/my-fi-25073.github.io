@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "kind": "switch-product",
+  "slug": "ice-cream",
+  "title": "Ice Cream",
+  "category": "switches",
+  "manufacturer": "Kailh",
+  "footprintType": "Choc v2 (PG1353)",
+  "switchTypes": [
+    "Linear"
+  ],
+  "isFranken": false,
+  "tunings": [
+    {
+      "label": "Factory Lubed",
+      "spring": {
+        "resolution": "stock_unresolved",
+        "name": "Factory OG 48g",
+        "status": "partial",
+        "specifications": {
+          "actuation_force": "40gf"
+        }
+      },
+      "isStock": true,
+      "housingFit": {
+        "state": "none",
+        "method": null,
+        "material": null
+      },
+      "lubrication": {
+        "spring": {
+          "state": "factory",
+          "name": null
+        },
+        "stem": {
+          "state": "factory",
+          "name": null
+        }
+      },
+      "images": [
+        {
+          "alt": "Ice Cream 사진 1",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-gallery-4x3-ff43f4ee58ed-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-640.avif",
+              "width": 640,
+              "height": 572
+            },
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-1280.avif",
+              "width": 663,
+              "height": 593
+            }
+          ]
+        },
+        {
+          "alt": "Ice Cream 사진 2",
+          "presentation": "render",
+          "galleryVariants": [
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-gallery-4x3-5332ac4ca83a-640.webp",
+              "width": 640,
+              "height": 480
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-640.avif",
+              "width": 640,
+              "height": 606
+            },
+            {
+              "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-1280.avif",
+              "width": 1132,
+              "height": 1071
+            }
+          ]
+        }
+      ],
+      "components": [],
+      "coverImageIndex": 0
+    }
+  ],
+  "parts": [],
+  "images": [
+    {
+      "alt": "Ice Cream 사진 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-gallery-4x3-ff43f4ee58ed-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-640.avif",
+          "width": 640,
+          "height": 572
+        },
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-0-928481be6a95-cutout-82a4c2557d6b-1280.avif",
+          "width": 663,
+          "height": 593
+        }
+      ]
+    },
+    {
+      "alt": "Ice Cream 사진 2",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-640.avif",
+          "width": 640,
+          "height": 606
+        },
+        {
+          "src": "/media/switches/ice-cream/f9ec558698c19034-1c7bc6f462bd-source-gallery-1-e4823685b059-1280.avif",
+          "width": 1132,
+          "height": 1071
+        }
+      ]
+    }
+  ],
+  "manufacturerLogo": {
+    "alt": "Kailh logo",
+    "preserveColor": true,
+    "presentation": "icon",
+    "galleryVariants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-gallery-4x3-b4dfa0792a62-640.webp",
+        "width": 640,
+        "height": 480
+      }
+    ],
+    "variants": [
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-640.avif",
+        "width": 640,
+        "height": 240
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-1280.avif",
+        "width": 1280,
+        "height": 480
+      },
+      {
+        "src": "/media/switches/manufacturer-logos/manufacturer-7125352fdfe715f10395338f3417c05777400ac0628aa243524857975a7ae7fd-2400.avif",
+        "width": 2048,
+        "height": 768
+      }
+    ]
+  },
+  "coverImageIndex": 0,
+  "coverIsProductImage": true
+}
