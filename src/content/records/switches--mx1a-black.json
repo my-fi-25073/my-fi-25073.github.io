@@ -39,7 +39,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "TX PET 필름 0.150mm"
+        "material": "TX PET Film 0.150mm"
       },
       "lubrication": {
         "spring": {
@@ -219,6 +219,29 @@
           "series": null,
           "force": null,
           "specifications": [],
+          "image": {
+            "alt": "TX PET Film 0.150mm",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-640.avif",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-1280.avif",
+                "width": 1254,
+                "height": 1254
+              }
+            ]
+          },
           "manufacturerLogo": {
             "alt": "TX PET Film 0.150mm",
             "preserveColor": true,
@@ -259,7 +282,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "TX PET 필름 0.150mm"
+        "material": "TX PET Film 0.150mm"
       },
       "lubrication": {
         "spring": {
@@ -505,6 +528,29 @@
           "series": null,
           "force": null,
           "specifications": [],
+          "image": {
+            "alt": "TX PET Film 0.150mm",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-640.avif",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-1280.avif",
+                "width": 1254,
+                "height": 1254
+              }
+            ]
+          },
           "manufacturerLogo": {
             "alt": "TX PET Film 0.150mm",
             "preserveColor": true,
@@ -550,7 +596,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "TX PET 필름 0.150mm"
+        "material": "TX PET Film 0.150mm"
       },
       "lubrication": {
         "spring": {
@@ -707,6 +753,29 @@
           "series": null,
           "force": null,
           "specifications": [],
+          "image": {
+            "alt": "TX PET Film 0.150mm",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-640.avif",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-1280.avif",
+                "width": 1254,
+                "height": 1254
+              }
+            ]
+          },
           "manufacturerLogo": {
             "alt": "TX PET Film 0.150mm",
             "preserveColor": true,
@@ -747,7 +816,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "TX PET 필름 0.150mm"
+        "material": "TX PET Film 0.150mm"
       },
       "lubrication": {
         "spring": {
@@ -904,6 +973,29 @@
           "series": null,
           "force": null,
           "specifications": [],
+          "image": {
+            "alt": "TX PET Film 0.150mm",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-640.avif",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-1280.avif",
+                "width": 1254,
+                "height": 1254
+              }
+            ]
+          },
           "manufacturerLogo": {
             "alt": "TX PET Film 0.150mm",
             "preserveColor": true,
@@ -942,7 +1034,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "SW 폼 필름 v2"
+        "material": "Swagkeys Switch Films V2"
       },
       "lubrication": {
         "spring": {
@@ -1109,11 +1201,34 @@
         {
           "role": "gap_adjustment",
           "kind": "material",
-          "name": "SW 폼 Film v2",
-          "manufacturer": null,
+          "name": "Swagkeys Switch Films V2",
+          "manufacturer": "Swagkeys",
           "series": null,
           "force": null,
-          "specifications": []
+          "specifications": [],
+          "image": {
+            "alt": "Swagkeys Switch Films V2",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-7b3df4f0281bb0f2952ab2be9513d18666e9dd7fad39119753e23011684cb331-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-7b3df4f0281bb0f2952ab2be9513d18666e9dd7fad39119753e23011684cb331-640.avif",
+                "width": 640,
+                "height": 444
+              },
+              {
+                "src": "/media/switches/tuning-components/component-7b3df4f0281bb0f2952ab2be9513d18666e9dd7fad39119753e23011684cb331-1280.avif",
+                "width": 720,
+                "height": 500
+              }
+            ]
+          }
         }
       ],
       "detailImageIndexes": [
@@ -1138,7 +1253,7 @@
       "housingFit": {
         "state": "applied",
         "method": "film",
-        "material": "TX PET 필름 0.150mm"
+        "material": "TX PET Film 0.150mm"
       },
       "lubrication": {
         "spring": {
@@ -1328,6 +1443,29 @@
           "series": null,
           "force": null,
           "specifications": [],
+          "image": {
+            "alt": "TX PET Film 0.150mm",
+            "presentation": "render",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-gallery-4x3-5332ac4ca83a-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-640.avif",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "src": "/media/switches/tuning-components/component-86745f0edd0b73981999e6abc6b07d9f9e3ff40c70d10af38e5675e448cb1098-1280.avif",
+                "width": 1254,
+                "height": 1254
+              }
+            ]
+          },
           "manufacturerLogo": {
             "alt": "TX PET Film 0.150mm",
             "preserveColor": true,
