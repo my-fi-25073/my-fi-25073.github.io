@@ -16,7 +16,7 @@
   "catalogOrder": 1000000,
   "tunings": [
     {
-      "label": "Geon 14mm 45g · 스템 Factory Lube · 스프링 105",
+      "label": "45g · Factory Lube",
       "spring": {
         "resolution": "selected",
         "name": "Geon 14mm 45g",
@@ -168,7 +168,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "SW Classic 50g · 스템 Factory Lube · 스프링 105",
+      "label": "50g · Factory Lube",
       "spring": {
         "resolution": "selected",
         "name": "SW Classic 50g",

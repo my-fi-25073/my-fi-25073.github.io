@@ -16,7 +16,7 @@
   "catalogOrder": 1000000,
   "tunings": [
     {
-      "label": "Krytox GPL 205 G0 · Krytox GPL 105",
+      "label": "205 G0 · 105",
       "spring": {
         "resolution": "stock_unresolved",
         "name": "Factory OG 67g",

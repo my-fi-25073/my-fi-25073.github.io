@@ -16,7 +16,7 @@
   "catalogOrder": 1000000,
   "tunings": [
     {
-      "label": "TB 22mm 23g · 스템 Factory Lube · 스프링 Factory Lube",
+      "label": "23g · Factory Lube",
       "spring": {
         "resolution": "selected",
         "name": "TB 22mm 23g",
