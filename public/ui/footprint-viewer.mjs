@@ -53,9 +53,20 @@ try{
   for(const [id,kind] of [['keepout','keepout'],['height-volume','height']]){const exists=zoneGroups.some(z=>z.kind===kind);$('#'+id).disabled=!exists;$('#'+id).checked=exists;if(!exists)$('#'+id).parentElement.title='이 원본에는 해당 데이터가 없습니다.';}
   $('#labels').onchange=e=>padLabels.forEach(l=>l.visible=e.target.checked);$('#references').onchange=e=>refs.forEach(l=>l.visible=e.target.checked);
   const counts={smd:copper.filter(p=>!p.drill).length,pth:pth.length,npth:npth.length,edgeCuts:cuts.length};$('#counts').textContent=`SMD ${counts.smd} · 도금 홀 ${counts.pth} · 비도금 홀 ${counts.npth} · Edge.Cuts 절개 ${counts.edgeCuts}`;
-  function resize(){const w=host.clientWidth,h=host.clientHeight,aspect=w/h,span=bounds*1.3;renderer.setSize(w,h,false);camera.left=-span*aspect;camera.right=span*aspect;camera.top=span;camera.bottom=-span;camera.updateProjectionMatrix();controls.handleResize();}new ResizeObserver(resize).observe(host);resize();
+  let viewportWidth=0,viewportHeight=0,viewportRatio=0;
+  function resize(){
+    const w=host.clientWidth,h=host.clientHeight,ratio=Math.min(devicePixelRatio,2);
+    if(w<=0||h<=0)return false;
+    if(w===viewportWidth&&h===viewportHeight&&ratio===viewportRatio)return true;
+    viewportWidth=w;viewportHeight=h;viewportRatio=ratio;
+    // Canvas allocation clears the drawing buffer. Resize only in the render
+    // callback, so a complete frame is drawn before the browser can paint it.
+    renderer.setDrawingBufferSize(w,h,ratio);
+    const aspect=w/h,span=bounds*1.3;camera.left=-span*aspect;camera.right=span*aspect;camera.top=span;camera.bottom=-span;camera.updateProjectionMatrix();controls.handleResize();
+    return true;
+  }
   function view(mode){cancelDrag();camera.zoom=1;if(mode==='top'){camera.position.set(0,0,42);camera.up.set(0,1,0);}else if(mode==='bottom'){camera.position.set(0,0,-42);camera.up.set(0,1,0);}else{camera.position.set(10,-25,31);camera.up.set(0,0,1);}camera.updateProjectionMatrix();connect(new THREE.Vector3(0,0,-thickness/2));for(const id of ['iso','top','bottom'])$('#'+id).setAttribute('aria-pressed',String(mode===id));}for(const id of ['iso','top','bottom'])$('#'+id).onclick=()=>view(id);$('#reset').onclick=()=>view('iso');view('iso');
   $('#status').textContent=`미리보기 보드 ${(bounds*2).toFixed(2)} × ${(bounds*2).toFixed(2)} × 1.6 mm`;
-  renderer.setAnimationLoop(()=>{controls.update();camera.updateMatrixWorld();const unit=(camera.top-camera.bottom)/(camera.zoom*host.clientHeight);floating.forEach(({object,aspect,height})=>object.scale.set(unit*height*aspect*(compact?.65:1),unit*height*(compact?.65:1),1));renderer.render(scene,camera);$('#camera-state').textContent=JSON.stringify({name:data.name,counts,activePointers:activePointers.size,position:camera.position.toArray(),layers:Object.fromEntries([...groups].map(([k,v])=>[k,v.visible]))});});
+  renderer.setAnimationLoop(()=>{if(!resize())return;controls.update();camera.updateMatrixWorld();const unit=(camera.top-camera.bottom)/(camera.zoom*viewportHeight);floating.forEach(({object,aspect,height})=>object.scale.set(unit*height*aspect*(compact?.65:1),unit*height*(compact?.65:1),1));renderer.render(scene,camera);$('#camera-state').textContent=JSON.stringify({name:data.name,counts,activePointers:activePointers.size,position:camera.position.toArray(),layers:Object.fromEntries([...groups].map(([k,v])=>[k,v.visible]))});});
   window.addEventListener('pagehide',()=>{renderer.setAnimationLoop(null);controls.dispose();renderer.dispose();},{once:true});
 }catch(error){$('#error').hidden=false;$('#error').style.display='block';$('#error').textContent=error.message;$('#status').textContent='표시 실패 — 원본을 다른 데이터로 대체하지 않았습니다.';throw error;}
