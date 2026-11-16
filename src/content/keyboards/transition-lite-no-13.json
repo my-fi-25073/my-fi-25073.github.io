@@ -47,6 +47,12 @@
         "title": "MX2A Black 63.5g (S3)",
         "href": "/switches/mx2a-black/tunings/4a2c0f93f15a/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

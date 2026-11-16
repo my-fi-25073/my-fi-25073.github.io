@@ -47,6 +47,12 @@
         "title": "MX1A Nixie ",
         "href": "/switches/mx1a-nixie/tunings/d3612ca87f01/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF40-R12AW",
+        "href": "/pcbs/mf40-r12aw/"
+      }
     ]
   },
   "images": [

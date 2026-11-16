@@ -40,6 +40,12 @@
         "title": "Deep Sea Silent Islet White 20g",
         "href": "/switches/deep-sea-silent-islet-white/tunings/6ec569fee3c4/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "Castor LP v2",
+        "href": "/pcbs/castor-lp-v2/"
+      }
     ]
   },
   "images": [

@@ -66,6 +66,12 @@
         "title": "Y2",
         "href": "/switches/y2/tunings/704e0a06b797/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

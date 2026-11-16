@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import type { DisplayField } from './gallery-display';
+import pcbCatalog from '../data/pcbs.json';
 import { buildSwitchTuningFields, publicSwitchTunings, switchCoverImage } from './switch-tuning-display';
 
 export type BuildComponentCover = CollectionEntry<'gallery'>['data']['images'][number];
@@ -17,6 +18,10 @@ export async function loadBuildComponentCoverResolver() {
     getCollection('records'),
   ]);
   const components = new Map<string, BuildComponentPresentation>();
+  for (const pcb of pcbCatalog.items) {
+    const cover = pcb.images[0];
+    components.set(`/pcbs/${pcb.slug}/`, { cover: cover ? { ...cover, presentation: 'render', preserveColor: true } : undefined });
+  }
 
   for (const { data: gallery } of galleries) {
     const href = `/gallery/${gallery.slug}/`;

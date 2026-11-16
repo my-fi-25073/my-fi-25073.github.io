@@ -34,6 +34,12 @@
         "title": "Lofree Surfer 25g",
         "href": "/switches/lofree-surfer/tunings/25a494e50c8f/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "Castor LP v2",
+        "href": "/pcbs/castor-lp-v2/"
+      }
     ]
   },
   "images": [

@@ -78,6 +78,12 @@
         "title": "MX2A Blossom",
         "href": "/switches/mx2a-blossom/tunings/a759e2a6527d/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

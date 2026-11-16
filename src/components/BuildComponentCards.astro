@@ -8,13 +8,14 @@ const { items } = Astro.props;
 ---
 <div class="kl-gallery-scope">
 <ul class="kl-gallery" data-gallery-role="relation">
-  {items.map(({ title, href, quantity, cover, placeholderLogo, productTitle, tuningLabel, fields }) => (
-    <li set:html={renderGalleryCard({
-      title: productTitle ?? title, href, kind: href.startsWith('/switches/') ? 'switch' : 'keycap',
-      image: galleryImage(cover, href.startsWith('/switches/') ? 'switch' : 'keycap'),
+  {items.map(({ title, href, quantity, cover, placeholderLogo, productTitle, tuningLabel, fields }) => {
+    const kind = href.startsWith('/pcbs/') ? 'pcb' : href.startsWith('/switches/') ? 'switch' : 'keycap';
+    return <li set:html={renderGalleryCard({
+      title: productTitle ?? title, href, kind,
+      image: galleryImage(cover, kind),
       placeholderLogo: galleryImage(placeholderLogo, 'vendor'),
       metadata: [...(tuningLabel ? [{ value: tuningLabel }] : []), ...(quantity != null ? [{ label: 'Quantity', value: String(quantity) }] : []), ...(fields ?? [])],
-    })} />
-  ))}
+    })} />;
+  })}
 </ul>
 </div>

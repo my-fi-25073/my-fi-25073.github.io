@@ -84,6 +84,12 @@
         "title": "Sunflower",
         "href": "/switches/sunflower/tunings/90926d803174/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

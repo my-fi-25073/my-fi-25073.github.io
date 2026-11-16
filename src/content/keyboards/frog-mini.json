@@ -44,6 +44,12 @@
         "title": "Mirror Lake V2",
         "href": "/switches/mirror-lake-v2/tunings/db482243215e/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF60-Gondola",
+        "href": "/pcbs/mf60-gondola/"
+      }
     ]
   },
   "images": [

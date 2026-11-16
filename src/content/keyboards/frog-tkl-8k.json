@@ -73,6 +73,12 @@
         "title": "MZ y3",
         "href": "/switches/mz-y3/tunings/40b562e7b283/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-Orthodox",
+        "href": "/pcbs/mf80-orthodox/"
+      }
     ]
   },
   "images": [

@@ -40,6 +40,12 @@
         "title": "Deep Sea Silent Whale Brown 35g",
         "href": "/switches/deep-sea-silent-whale-brown/tunings/71bc0d319884/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "Castor LP v2",
+        "href": "/pcbs/castor-lp-v2/"
+      }
     ]
   },
   "images": [

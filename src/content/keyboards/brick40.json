@@ -53,6 +53,12 @@
         "title": "Yogurt",
         "href": "/switches/yogurt/tunings/fe5efa8560e6/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF40-R13AH",
+        "href": "/pcbs/mf40-r13ah/"
+      }
     ]
   },
   "images": [

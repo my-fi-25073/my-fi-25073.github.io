@@ -66,6 +66,12 @@
         "title": "Coral Sea",
         "href": "/switches/coral-sea/tunings/e2e66b5b2a72/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

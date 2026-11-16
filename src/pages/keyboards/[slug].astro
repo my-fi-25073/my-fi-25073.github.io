@@ -20,6 +20,7 @@ export async function getStaticPaths() {
       entry,
       keycaps: entry.data.build.keycaps.map(withCover),
       switches: entry.data.build.switches.map(withCover),
+      pcbs: (entry.data.build.pcbs ?? []).map(withCover),
     },
   }));
 }
@@ -30,14 +31,16 @@ interface Props {
   entry: CollectionEntry<'keyboards'>;
   keycaps: Array<Keyboard['build']['keycaps'][number] & BuildComponentPresentation>;
   switches: Array<Keyboard['build']['switches'][number] & BuildComponentPresentation>;
+  pcbs: Array<NonNullable<Keyboard['build']['pcbs']>[number] & BuildComponentPresentation>;
 }
 
-const { entry, keycaps, switches } = Astro.props;
+const { entry, keycaps, switches, pcbs } = Astro.props;
 const keyboard = entry.data;
 const fields = buildKeyboardDetailFields(keyboard);
 const components = [
   { title: 'Keycap', items: keycaps },
   { title: 'Switch', items: switches },
+  { title: 'PCB', items: pcbs },
 ].filter(({ items }) => items.length > 0);
 const hasBuildSpec = fields.length > 0 || components.length > 0;
 ---

@@ -40,6 +40,12 @@
         "title": "Lofree Pulse 25g",
         "href": "/switches/lofree-pulse/tunings/6f07980b9d2b/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "Castor LP v2",
+        "href": "/pcbs/castor-lp-v2/"
+      }
     ]
   },
   "images": [

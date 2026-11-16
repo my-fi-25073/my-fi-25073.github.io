@@ -1,9 +1,13 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import { getCollection } from 'astro:content';
+import KeyboardCard from '../../components/KeyboardCard.astro';
 import PcbView from '../../components/PcbView.astro';
 import data from '../../data/pcbs.json';
 export function getStaticPaths(){return data.items.map(record=>({params:{slug:record.slug},props:{record}}));}
 const {record}=Astro.props;
+const keyboards = (await getCollection('keyboards')).filter(({data}) =>
+  data.build.pcbs?.some(pcb => pcb.href === `/pcbs/${record.slug}/`));
 ---
 <SiteLayout title={record.title} description={record.description??undefined}>
   <article class="shell pcb-detail">
@@ -11,6 +15,12 @@ const {record}=Astro.props;
     <header class="detail-header section-heading"><h1>{record.title}</h1>{record.repositoryUrl&&<a class="k-button" data-variant="quiet" href={record.repositoryUrl} target="_blank" rel="noopener noreferrer">GitHub ↗</a>}</header>
     {record.scene&&<PcbView model={record.scene.file} title={record.title}/>}
     {record.description&&<p class="pcb-description">{record.description}</p>}
+    {keyboards.length > 0 && <section class="record-section kl-gallery-scope">
+      <header class="section-heading"><h2>사용 키보드</h2></header>
+      <div class="kl-gallery" data-gallery-role="relation">
+        {keyboards.map(({data}) => <KeyboardCard keyboard={data} headingLevel={3} />)}
+      </div>
+    </section>}
   </article>
 </SiteLayout>
 <style>.pcb-description{white-space:pre-wrap;line-height:1.8;max-width:70ch}.back-link{display:inline-flex;min-height:44px;align-items:center;color:var(--k-muted)}.pcb-detail .section-heading{align-items:center;gap:var(--k-space-4);flex-wrap:wrap}</style>

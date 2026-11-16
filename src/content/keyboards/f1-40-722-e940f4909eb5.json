@@ -60,6 +60,12 @@
         "title": "MX2A Black 25g",
         "href": "/switches/mx2a-black/tunings/9c988a45e7b3/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF40-R12AW",
+        "href": "/pcbs/mf40-r12aw/"
+      }
     ]
   },
   "images": [

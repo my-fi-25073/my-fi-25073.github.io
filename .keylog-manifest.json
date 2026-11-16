@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "4ff0815ea1cdae15cbb56ef233b51cdbe3a9b60229907b59f6863b397e27db9f",
+  "releaseId": "c3af0600143c4366c3a3adfc6ddbff2520af6b1a845665a650891cb907617c54",
   "files": [
     {
       "path": "content/collections.json",
@@ -574,43 +574,43 @@
     },
     {
       "path": "content/keyboards/brick40.json",
-      "bytes": 2824,
-      "sha256": "00af3641d77452bff07daaddd76682cd5726859c35553d49a2ad06dfb1f7c38d"
+      "bytes": 2928,
+      "sha256": "f8494fbcc8051a73079286d1c88cf037843e5b2ac22a59f3d4646574a229eb7e"
     },
     {
       "path": "content/keyboards/castor-bob-lp.json",
-      "bytes": 1745,
-      "sha256": "d3425f059b643e2512f671712aef8901c850965c42adbb5b2400fc3302be9885"
+      "bytes": 1853,
+      "sha256": "1869c1d25b0cc5517ca21d8860c3059eaa6dde3c73dbef1a8a523e6d22583859"
     },
     {
       "path": "content/keyboards/castor-clear-lp.json",
-      "bytes": 1827,
-      "sha256": "97e7c79f0a39f48122986938e80261fc29e3644ffe51323ad4e977e19458dfae"
+      "bytes": 1935,
+      "sha256": "5a227e9476470a266cb09612ce5b74e8868505e63f2142356359276cc0403b94"
     },
     {
       "path": "content/keyboards/castor-handerbeit.json",
-      "bytes": 1640,
-      "sha256": "65fae09826423d47b7051c00ad703c3d42f410d99be8438faa2caa024b63e53f"
+      "bytes": 1748,
+      "sha256": "88bdfc95cb6a6d74c04d6c3e5a27e70fd46f30a765a9c7b1b83533133d2b096d"
     },
     {
       "path": "content/keyboards/castor-harley-quinn-ulp.json",
-      "bytes": 1854,
-      "sha256": "4355f9424ab82ba04fad63313a797c72d10c60ddfdb3fe13fa30dbda6633c32c"
+      "bytes": 1958,
+      "sha256": "4082a540d39b5150a8da5077935cb0c52168640c04749f9421ef5d1f01ac5286"
     },
     {
       "path": "content/keyboards/castor-retro-lp.json",
-      "bytes": 1779,
-      "sha256": "ccb10714643347130d64931d8fb1d6bc98d1b0ad6c03ae88f483e6cf7f76adbf"
+      "bytes": 1887,
+      "sha256": "ac95b828e154370f519c73b74dcc3eecc99086029b0daf8e7b7d764f5081745c"
     },
     {
       "path": "content/keyboards/castor-space-cadet.json",
-      "bytes": 1643,
-      "sha256": "583780ee612c5f48e6794a67e051b685a07f95848343c533689c19754b2fc334"
+      "bytes": 1751,
+      "sha256": "27f5375f8fdc56cc021da310e989824728dc12981b5adda92a4c5ddfc006bec0"
     },
     {
       "path": "content/keyboards/castor-white-lp.json",
-      "bytes": 1446,
-      "sha256": "dd66154354c58d502f67bf40e13ab49330d808bb5bb0638b284fa781f22128af"
+      "bytes": 1554,
+      "sha256": "09bf80d82b59515a90e975784bf29cd3008508273bac55b9dde4c53959bbfb84"
     },
     {
       "path": "content/keyboards/charybdis-mini.json",
@@ -664,13 +664,13 @@
     },
     {
       "path": "content/keyboards/dolphin-toy.json",
-      "bytes": 1716,
-      "sha256": "943dc708a93e0f16f7cb3eb3b4cd83dc3b18550870176e46cc8425a15da4a4ff"
+      "bytes": 1820,
+      "sha256": "c58a753dbdcc93788d6b9b655f397ab9ff92c71ac7050ce631448685686b6a8a"
     },
     {
       "path": "content/keyboards/eava55.json",
-      "bytes": 2875,
-      "sha256": "3c4cda43c822a200c76bc3411cb9d2d1725058c6ed013c84a66903c6c09920b3"
+      "bytes": 2981,
+      "sha256": "d120ed47ec3e0f8fe38d642a4681b277b9c1a4eb9e727098db258929ae5cb577"
     },
     {
       "path": "content/keyboards/eave65.json",
@@ -679,8 +679,8 @@
     },
     {
       "path": "content/keyboards/f1-40-722-e940f4909eb5.json",
-      "bytes": 3144,
-      "sha256": "fe44c640ba17b2dc172d51dcd75b3274edca2abd8ba38e6e89f16b88842af390"
+      "bytes": 3248,
+      "sha256": "a743d6e3bbaa165f668bf1cf85d730812b8563ff5b49c7e03c434e9e453dcf56"
     },
     {
       "path": "content/keyboards/f1-40-722-fd7b0e3ba8ee.json",
@@ -694,18 +694,18 @@
     },
     {
       "path": "content/keyboards/frog-mini-leggera.json",
-      "bytes": 2657,
-      "sha256": "af7ed1214d2d32f435a5c9f3aad6bc26fd16b56b43fe65d29e6b31821205858f"
+      "bytes": 2765,
+      "sha256": "f0f119e218c18b48f48bb7d5399f5a2432254b67621fa84c328465e27db5336e"
     },
     {
       "path": "content/keyboards/frog-mini.json",
-      "bytes": 3513,
-      "sha256": "bc7aca355121b93de7acd3025b0661e5cd7e100cbb07fc1887cbbd25a18eab00"
+      "bytes": 3621,
+      "sha256": "73962f9d1c89a345646068b699bd82c776c11cebebf2cc5ad622e6519b887bd1"
     },
     {
       "path": "content/keyboards/frog-tkl-8k.json",
-      "bytes": 4244,
-      "sha256": "f796c7106e81b8580523929eea8c35cdf34fd803174fa8216894f4ac20737ca3"
+      "bytes": 4354,
+      "sha256": "8f0e89835196f3c099356603b1705daaf3141f760aef081aec8816ee49917c53"
     },
     {
       "path": "content/keyboards/gb34.json",
@@ -799,23 +799,23 @@
     },
     {
       "path": "content/keyboards/transition-lite-no-10.json",
-      "bytes": 2271,
-      "sha256": "dbc050dd0201fc8c3414574c02a74926e42d433704e6e8efd06c3dfffb088d04"
+      "bytes": 2381,
+      "sha256": "a5a027944f849e723c962649694c8078f01832feb08093dd929f6399d7b6adbc"
     },
     {
       "path": "content/keyboards/transition-lite-no-11.json",
-      "bytes": 2283,
-      "sha256": "4d12fe84be63dab2e89f0cbb5cb9ee0cad7ac2e4c2f36a7c1933e9683dcb1b2d"
+      "bytes": 2393,
+      "sha256": "db56319e3f4bd704326511ca014d8e5bd0b6174ebd153e8ad3267f790b825fa8"
     },
     {
       "path": "content/keyboards/transition-lite-no-12.json",
-      "bytes": 1883,
-      "sha256": "f483ed9a706b7cc86e176c2a1af247994460367f35957e6c1ba0b2ac1b58375d"
+      "bytes": 1993,
+      "sha256": "6e7c6d88a16b471a6f99f55311b7d59b959585a4bd453ad75cf49b5252f21129"
     },
     {
       "path": "content/keyboards/transition-lite-no-13.json",
-      "bytes": 1974,
-      "sha256": "f9e0ac453c4d19612d929557654da2bd3d86990085b68b9e6cdea819ec790251"
+      "bytes": 2084,
+      "sha256": "00871a82802933236a34bf0da01bc2a83f6a399a82fd1d0fd29d291529627471"
     },
     {
       "path": "content/keyboards/transition-lite-no-2.json",
@@ -829,33 +829,33 @@
     },
     {
       "path": "content/keyboards/transition-lite-no-4.json",
-      "bytes": 2821,
-      "sha256": "6e5d93c979abd635e38b41c7d0b890e38a2ef6cff0f42c7ceb2b9c837e0f51fe"
+      "bytes": 2931,
+      "sha256": "8c760b14fe3804c48ad92e7008ad8669a94b56e29a5ecfb4219e3391e8864aa2"
     },
     {
       "path": "content/keyboards/transition-lite-no-5.json",
-      "bytes": 2382,
-      "sha256": "68eea3937b45c500b1425b630c4753328869c883ca92c70a60fea9b7900d30d1"
+      "bytes": 2492,
+      "sha256": "a6c809e47fed25b3f94dbb21009beca9e4818133831f7247e240dafc543a6620"
     },
     {
       "path": "content/keyboards/transition-lite-no-6.json",
-      "bytes": 2534,
-      "sha256": "d3eded329360ac919c2c55d5a57b9a239431a54f8442043412bff0458d719e24"
+      "bytes": 2644,
+      "sha256": "090ac9871f405e106bbcfe8f0c72947d4d06838bd1d120dd36b05a733909aeae"
     },
     {
       "path": "content/keyboards/transition-lite-no-7.json",
-      "bytes": 2830,
-      "sha256": "71cb0850066066cb3ca6f1f362885156eee27696a40039913b22ad436fba4292"
+      "bytes": 2940,
+      "sha256": "171a3741faf656e4837ffc8cc84a8b4b7c11baa2981867bb1db13bf79458a6c9"
     },
     {
       "path": "content/keyboards/transition-lite-no-8.json",
-      "bytes": 2695,
-      "sha256": "793412a2731c98c1e60b9a9b7c90d04f253ef4e7ac12ecbcddc50d1963de440d"
+      "bytes": 2805,
+      "sha256": "cc0be5fd17cf93be0e30240e2486f972a9d9deb943ccbc95b23de20ca9e6bde1"
     },
     {
       "path": "content/keyboards/transition-lite-no-9.json",
-      "bytes": 2404,
-      "sha256": "fac15f54ad26d7e2ef1eb7f901c7e05722a7018fe27614e4b3e7e845f0f72355"
+      "bytes": 2514,
+      "sha256": "071ca6aefc62ea3509bf94f40da013e051acbd178217a194c207782d9c2ded10"
     },
     {
       "path": "content/keyboards/vault-35.json",

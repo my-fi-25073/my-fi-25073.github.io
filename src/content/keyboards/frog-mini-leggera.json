@@ -78,6 +78,12 @@
         "title": "MX2A Black 35g",
         "href": "/switches/mx2a-black/tunings/947f13a6b435/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF60-Gondola",
+        "href": "/pcbs/mf60-gondola/"
+      }
     ]
   },
   "images": [

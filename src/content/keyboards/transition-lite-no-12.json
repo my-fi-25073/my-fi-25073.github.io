@@ -53,6 +53,12 @@
         "title": "Snowfall",
         "href": "/switches/snowfall/tunings/7d3fcca560d3/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

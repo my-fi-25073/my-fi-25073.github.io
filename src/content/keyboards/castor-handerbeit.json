@@ -34,6 +34,12 @@
         "title": "Lofree Phatom 35g",
         "href": "/switches/lofree-phatom/tunings/b0fd79d32c3a/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "Castor LP v2",
+        "href": "/pcbs/castor-lp-v2/"
+      }
     ]
   },
   "images": [

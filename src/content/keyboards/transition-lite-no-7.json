@@ -84,6 +84,12 @@
         "title": "MX2A Nixie",
         "href": "/switches/mx2a-nixie/tunings/c7c76c2c8491/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [

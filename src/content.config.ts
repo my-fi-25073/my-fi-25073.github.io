@@ -75,6 +75,10 @@ const keyboards = defineCollection({
         title: z.string().min(1),
         href: z.string().startsWith('/switches/'),
       })),
+      pcbs: z.array(z.object({
+        title: z.string().min(1),
+        href: z.string().startsWith('/pcbs/'),
+      })).optional(),
     }),
     images: z.array(galleryImage).min(1),
   }),

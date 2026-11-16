@@ -60,6 +60,12 @@
         "title": "MX2A Yellow 62g",
         "href": "/switches/mx2a-yellow/tunings/df6d2b2a8528/"
       }
+    ],
+    "pcbs": [
+      {
+        "title": "MF80-900Than9",
+        "href": "/pcbs/mf80-900than9/"
+      }
     ]
   },
   "images": [
