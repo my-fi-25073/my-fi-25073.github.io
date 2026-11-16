@@ -3,7 +3,7 @@ export { galleryAspectRatio } from './gallery-profiles.mjs';
 /**
  * @typedef {{src:string,width:number,height:number}} ImageVariant
  * @typedef {{src?:string,url?:string,thumbnailUrl?:string,galleryUrl?:string,frameUrl?:string,srcset?:string,sizes?:string,width?:number,height?:number,alt?:string,presentation?:'icon'|'photo'|'render',mode?:'icon'|'photo'|'render',eager?:boolean,framed?:boolean,preserveColor?:boolean,brandLabel?:string,springLabel?:{series:string,force:string},variants?:ImageVariant[],galleryVariants?:ImageVariant[]}} GalleryImage
- * @typedef {{title:string,href?:string,image?:GalleryImage|null,placeholderLogo?:GalleryImage|null,kind?:string,metadata?:Array<{label?:string,value:unknown}>,attributes?:Record<string,unknown>,headingLevel?:number,previewImage?:GalleryImage|null,actions?:Array<{id:string,label:string}>,linkAttributes?:Record<string,unknown>,showMedia?:boolean}} GalleryCard
+ * @typedef {{title:string,href?:string,image?:GalleryImage|null,placeholderLogo?:GalleryImage|null,kind?:string,metadata?:Array<{label?:string,value:unknown}>,attributes?:Record<string,unknown>,headingLevel?:number,previewImage?:GalleryImage|null,actions?:Array<{id:string,label:string}>,linkAttributes?:Record<string,unknown>}} GalleryCard
  */
 const icons = {
   keycap: '<path d="m7 7 18 0 4 20H3L7 7Zm0 0 3 12h12l3-12M10 19 3 27m19-8 7 8"/>',
@@ -34,6 +34,7 @@ function attributesHtml(attributes) {
 }
 
 function iconKind(kind) {
+  if(kind==='material')return 'material';
   if (kind === 'pcb') return 'pcb';
   if (kind.startsWith('keycap') || kind === 'kit') return 'keycap';
   if (kind.startsWith('switch')) return 'switch';
@@ -42,7 +43,7 @@ function iconKind(kind) {
 
 function iconMarkup(kind) {
   const type = iconKind(kind);
-  if (type === 'switch' || type === 'keycap' || type === 'pcb') return '';
+  if (type === 'switch' || type === 'keycap' || type === 'pcb' || type === 'material') return '';
   if (type === 'spring') return '<img class="kl-placeholder-icon kl-spring-illustration" src="/ui/spring-illustration.webp" alt="" loading="lazy" decoding="async">';
   return `<svg class="kl-placeholder-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[type]}</svg>`;
 }
@@ -120,11 +121,11 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
 /** One card structure for Astro output and the editable Studio gallery.
  * @param {GalleryCard} options
  */
-export function renderGalleryCard({ title, href = '', image = null, placeholderLogo = null, kind = 'switch', metadata = [], attributes = {}, headingLevel = 3, previewImage = null, actions = [], linkAttributes = {},showMedia=true }) {
+export function renderGalleryCard({ title, href = '', image = null, placeholderLogo = null, kind = 'switch', metadata = [], attributes = {}, headingLevel = 3, previewImage = null, actions = [], linkAttributes = {} }) {
   const tag = headingLevel === 2 ? 'h2' : headingLevel === 3 ? 'h3' : 'strong';
   const metadataHtml = metadata.filter((field) => field.value != null && String(field.value).trim()).map((field) => `<div>${field.label ? `<dt>${escapeHtml(field.label)}</dt>` : ''}<dd>${escapeHtml(field.value)}</dd></div>`).join('');
   const preview = previewImage ? `<template data-gallery-preview>${renderGalleryMedia(previewImage, kind)}</template>` : '';
-  const body = `${showMedia?renderGalleryMedia(image, kind, placeholderLogo):''}${preview}<div class="kl-card-copy"><${tag} class="kl-card-title">${escapeHtml(title)}</${tag}>${metadataHtml ? `<dl class="kl-card-fields">${metadataHtml}</dl>` : ''}</div>`;
+  const body = `${renderGalleryMedia(image, kind, placeholderLogo)}${preview}<div class="kl-card-copy"><${tag} class="kl-card-title">${escapeHtml(title)}</${tag}>${metadataHtml ? `<dl class="kl-card-fields">${metadataHtml}</dl>` : ''}</div>`;
   const destination = safeUrl(href);
   const link = destination ? `<a class="kl-card-link" href="${escapeHtml(destination)}"${attributesHtml(linkAttributes)}>${body}</a>` : `<div class="kl-card-link"${attributesHtml(linkAttributes)}>${body}</div>`;
   const menu = actions.length ? `<details class="kl-card-menu" data-action-menu><summary aria-label="${escapeHtml(title)} actions">⋯</summary><div>${actions.map((action) => `<button type="button" data-gallery-action="${escapeHtml(action.id)}">${escapeHtml(action.label)}</button>`).join('')}</div></details>` : '';

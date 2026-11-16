@@ -112,7 +112,7 @@ const records = defineCollection({
       }).optional(),
       tunings: z.array(z.object({
         components: z.array(z.object({
-          role: z.enum(['spring','stem_lubricant','spring_lubricant']), kind: z.enum(['spring','lubricant']),
+          role: z.enum(['spring','stem_lubricant','spring_lubricant','gap_adjustment']), kind: z.enum(['spring','lubricant','material']),
           name: z.string().min(1), manufacturer: z.string().nullable(), series: z.string().nullable(), force: z.string().nullable(),
           specifications: z.array(z.object({ label: z.string(), value: z.string() })),
           image: galleryImage.optional(), manufacturerLogo: galleryImage.optional(),

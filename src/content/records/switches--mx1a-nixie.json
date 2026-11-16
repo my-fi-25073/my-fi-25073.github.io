@@ -210,6 +210,34 @@
               }
             ]
           }
+        },
+        {
+          "role": "gap_adjustment",
+          "kind": "material",
+          "name": "TX PET Film 0.150mm",
+          "manufacturer": "TX",
+          "series": null,
+          "force": null,
+          "specifications": [],
+          "manufacturerLogo": {
+            "alt": "TX PET Film 0.150mm",
+            "preserveColor": true,
+            "presentation": "icon",
+            "galleryVariants": [
+              {
+                "src": "/media/switches/tuning-components/component-e57ddda60baa3d4fb5c7710ac8622aa69032bf7a4d0e4a0ccd8cfef5c6b303e0-gallery-4x3-b4dfa0792a62-640.webp",
+                "width": 640,
+                "height": 480
+              }
+            ],
+            "variants": [
+              {
+                "src": "/media/switches/tuning-components/component-e57ddda60baa3d4fb5c7710ac8622aa69032bf7a4d0e4a0ccd8cfef5c6b303e0-640.avif",
+                "width": 425,
+                "height": 210
+              }
+            ]
+          }
         }
       ],
       "detailImageIndexes": [

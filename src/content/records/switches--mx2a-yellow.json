@@ -263,6 +263,15 @@
               }
             ]
           }
+        },
+        {
+          "role": "gap_adjustment",
+          "kind": "material",
+          "name": "SW 폼 Film v2",
+          "manufacturer": null,
+          "series": null,
+          "force": null,
+          "specifications": []
         }
       ],
       "coverImageIndex": 3

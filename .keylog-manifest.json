@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "57822cb43077c603d8bd1c240d92fbe6d2552888a441f4227dec70f60c03205a",
+  "releaseId": "7c58856b517a73f541296663287ec7b5451b057874b58a6c66ee511619abc7fb",
   "files": [
     {
       "path": "content/collections.json",
@@ -999,8 +999,8 @@
     },
     {
       "path": "content/records/switches--cherry-mx-black-vintage-wyse.json",
-      "bytes": 12911,
-      "sha256": "d19056952a396b4f95802113a2842af2d3b8fcaf5c5af7d27dfb44dcaa772d7a"
+      "bytes": 13896,
+      "sha256": "b4b544aa601c7a5da5f240bc35d334435156849b7e6830025cc7413ef25b1624"
     },
     {
       "path": "content/records/switches--cherry-vintage.json",
@@ -1274,8 +1274,8 @@
     },
     {
       "path": "content/records/switches--holy-bxb.json",
-      "bytes": 8210,
-      "sha256": "e316cf712a228d0b3395b0b35204ef4e3ff134e2801c64b5529ea92e74a861e6"
+      "bytes": 9195,
+      "sha256": "5c022e4b54e58c170d3652fbe66049ba93a2b63bf6f97049620afa13717dabb5"
     },
     {
       "path": "content/records/switches--holy-panda-v2.json",
@@ -1529,8 +1529,8 @@
     },
     {
       "path": "content/records/switches--mx1a-black.json",
-      "bytes": 50980,
-      "sha256": "879d969db99bd399991c6ab76d218e5c5effccd9fbc2dd07ffa88b4edf0bf458"
+      "bytes": 56148,
+      "sha256": "6b029f44e6cbcaf8675359f0697595e3b59f329b1455d71c8386b73386cbc3f5"
     },
     {
       "path": "content/records/switches--mx1a-blue-rgb.json",
@@ -1564,8 +1564,8 @@
     },
     {
       "path": "content/records/switches--mx1a-nixie.json",
-      "bytes": 14058,
-      "sha256": "f1acfb58103d3ca660c3c8d5bbedf908599977b03f4facbdd974cbd38dd044cd"
+      "bytes": 15043,
+      "sha256": "4f8f6ec19a5d2cb14079812915f74444277f1184ec8ec5a52f071b86abc4789e"
     },
     {
       "path": "content/records/switches--mx1a-red-rgb.json",
@@ -1589,13 +1589,13 @@
     },
     {
       "path": "content/records/switches--mx2a-black.json",
-      "bytes": 105213,
-      "sha256": "4925c0308e7ebfef4b518e92ec111bbb8f05fa00684dada3aa3a157350b83207"
+      "bytes": 115297,
+      "sha256": "d49de069e3cb8d6d355bfb4f8b7232b83bd4a0e02121af91a29ea52c931c9099"
     },
     {
       "path": "content/records/switches--mx2a-blossom.json",
-      "bytes": 10889,
-      "sha256": "66b3aab1f354bd63346353623c44be7a1f39cf10065aec95192d536d59205c38"
+      "bytes": 11874,
+      "sha256": "4dba3df92244f591531e1e92e84c0c75465ed8a81e7fff0f08d396053fe63200"
     },
     {
       "path": "content/records/switches--mx2a-blue.json",
@@ -1624,8 +1624,8 @@
     },
     {
       "path": "content/records/switches--mx2a-nixie.json",
-      "bytes": 9633,
-      "sha256": "22d179d5216fcf923b4ae27787fa2b7d9e4f612a76ce78b88ba9ce3815b9281c"
+      "bytes": 10618,
+      "sha256": "6dfebcb855ff270ff35a4530e7803e8edfea9ed2050c584bba7e5ea08c74540f"
     },
     {
       "path": "content/records/switches--mx2a-northern-light.json",
@@ -1649,8 +1649,8 @@
     },
     {
       "path": "content/records/switches--mx2a-yellow.json",
-      "bytes": 12305,
-      "sha256": "d02b82e5248f08991ce0c0bca5b613ff098a6407f56840214c94c004136e3e57"
+      "bytes": 12542,
+      "sha256": "dce0c38fb3014e1f1288f160df25eb1999ed901454c0cee8df3008047ca94ff6"
     },
     {
       "path": "content/records/switches--mz-y1x.json",

@@ -4,7 +4,7 @@ import DisplayFields from '../../../../components/DisplayFields.astro';
 import ImageGallery from '../../../../components/ImageGallery.astro';
 import Lightbox from '../../../../components/Lightbox.astro';
 import SiteLayout from '../../../../layouts/SiteLayout.astro';
-import { renderTuningComponent, tuningComponentRoleLabels,tuningComponents } from '../../../../../public/ui/tuning-components.mjs';
+import { renderTuningComponent, tuningComponentRoleLabels } from '../../../../../public/ui/tuning-components.mjs';
 import {
   buildSwitchTuningFields,
   publicSwitchTunings,
@@ -28,7 +28,7 @@ interface Props {
 
 const { productTitle, productSlug, label, tuning } = Astro.props;
 const title = productTitle === label ? label : `${productTitle} · ${label}`;
-const components = tuningComponents(tuning);
+const components = tuning.components ?? [];
 const fields = buildSwitchTuningFields(tuning).filter(field => {
   if (components.some(c=>c.role==='spring') && ['spring','initial_force','actuation_force','tactile_force','bottom_out_force','final_force','length','spring_stage'].includes(field.key)) return false;
   if (components.some(c=>c.role==='stem_lubricant') && field.key==='stemLubrication') return false;
