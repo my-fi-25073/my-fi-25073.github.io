@@ -5,6 +5,9 @@
   "title": "SWK Catmint",
   "category": "switches",
   "manufacturer": "SWK",
+  "manufacturers": [
+    "SWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

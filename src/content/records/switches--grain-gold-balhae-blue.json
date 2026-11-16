@@ -5,6 +5,7 @@
   "title": "Grain Gold Balhae Blue",
   "category": "switches",
   "manufacturer": null,
+  "manufacturers": [],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

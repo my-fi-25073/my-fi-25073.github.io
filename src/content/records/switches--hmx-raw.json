@@ -5,6 +5,9 @@
   "title": "HMX Raw",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

@@ -5,6 +5,9 @@
   "title": "G-Square x Moondrop Lunalight",
   "category": "switches",
   "manufacturer": "Haimu",
+  "manufacturers": [
+    "Haimu"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

@@ -5,6 +5,9 @@
   "title": "Princess",
   "category": "switches",
   "manufacturer": "MMD",
+  "manufacturers": [
+    "MMD"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

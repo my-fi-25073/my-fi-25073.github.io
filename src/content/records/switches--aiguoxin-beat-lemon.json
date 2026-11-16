@@ -5,6 +5,7 @@
   "title": "Aiguoxin Beat Lemon",
   "category": "switches",
   "manufacturer": null,
+  "manufacturers": [],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

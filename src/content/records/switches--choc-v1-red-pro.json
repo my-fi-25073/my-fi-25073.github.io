@@ -5,6 +5,9 @@
   "title": "Choc v1 Red Pro",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Choc v1 (PG1350)",
   "switchTypes": [
     "Linear"

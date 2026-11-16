@@ -5,6 +5,9 @@
   "title": "Everglide Aqua King",
   "category": "switches",
   "manufacturer": "JWK",
+  "manufacturers": [
+    "JWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

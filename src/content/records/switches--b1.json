@@ -5,6 +5,9 @@
   "title": "B1",
   "category": "switches",
   "manufacturer": "Keygeek",
+  "manufacturers": [
+    "Keygeek"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

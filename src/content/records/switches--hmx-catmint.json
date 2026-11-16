@@ -5,6 +5,9 @@
   "title": "HMX Catmint",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

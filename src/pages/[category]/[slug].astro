@@ -29,7 +29,7 @@ const title = family ? record.modelFamily!.title : record.title;
 const fields = family ? [
   { key: 'name', label: 'Name', value: title },
   ...['manufacturer','footprintType','switchTypes'].flatMap(key => {
-    const values = [...new Set(records.flatMap(item => key === 'manufacturer' ? item.manufacturer ? [item.manufacturer] : [] : key === 'footprintType' ? item.footprintType ? [item.footprintType] : [] : item.switchTypes))];
+    const values = [...new Set(records.flatMap(item => key === 'manufacturer' ? item.manufacturers??(item.manufacturer?[item.manufacturer]:[]) : key === 'footprintType' ? item.footprintType ? [item.footprintType] : [] : item.switchTypes))];
     const label = {manufacturer:'Manufacturer',footprintType:'Footprint',switchTypes:'Type'}[key]!;
     return key === 'footprintType' ? values.map(value => ({key,label,value})) : values.length ? [{key,label,value:values.join(' · ')}] : [];
   }),

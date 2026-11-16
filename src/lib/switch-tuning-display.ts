@@ -41,12 +41,6 @@ export function publicSwitchTunings(record: DomainRecord) {
   });
 }
 
-const housingMethodLabels: Record<string, string> = {
-  film: 'Film',
-  glue_marker: 'Glue Marker',
-  cyanoacrylate: 'Cyanoacrylate',
-  other: 'Other',
-};
 const springSpecLabels = {
   initial_force: 'Initial force',
   actuation_force: 'Actuation',
@@ -104,14 +98,5 @@ export function buildSwitchTuningFields(tuning: SwitchTuning): DisplayField[] {
     if (springLube) fields.push({ key: 'springLubrication', label: 'Spring lube', value: springLube });
   }
 
-  const { state, method, material } = tuning.housingFit;
-  if (state === 'applied') {
-    const housingMethod = method && (housingMethodLabels[method] ?? method);
-    const value = material ?? housingMethod;
-    if (value) {
-      const label = material && housingMethod && method !== 'other' ? housingMethod : 'Housing fit';
-      fields.push({ key: 'housingFit', label, value });
-    }
-  }
   return fields;
 }

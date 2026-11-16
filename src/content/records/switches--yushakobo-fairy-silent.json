@@ -5,6 +5,9 @@
   "title": "Yushakobo Fairy Silent",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear",

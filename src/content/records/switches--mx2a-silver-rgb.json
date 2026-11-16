@@ -5,6 +5,9 @@
   "title": "MX2A Silver RGB",
   "category": "switches",
   "manufacturer": "Cherry",
+  "manufacturers": [
+    "Cherry"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

@@ -5,7 +5,11 @@
   "title": "용신음",
   "category": "switches",
   "manufacturer": null,
-  "footprintType": null,
+  "manufacturers": [
+    "HMX",
+    "SWK"
+  ],
+  "footprintType": "Cherry MX",
   "switchTypes": [],
   "isFranken": true,
   "catalogOrder": 1000000,

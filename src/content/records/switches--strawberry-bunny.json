@@ -5,6 +5,9 @@
   "title": "Strawberry Bunny",
   "category": "switches",
   "manufacturer": "Keygeek",
+  "manufacturers": [
+    "Keygeek"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

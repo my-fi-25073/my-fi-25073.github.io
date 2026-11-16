@@ -5,6 +5,9 @@
   "title": "LP Red Black",
   "category": "switches",
   "manufacturer": "Gateron",
+  "manufacturers": [
+    "Gateron"
+  ],
   "footprintType": "KS33",
   "switchTypes": [
     "Linear"

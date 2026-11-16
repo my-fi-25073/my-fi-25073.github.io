@@ -5,6 +5,9 @@
   "title": "Heart of Titan",
   "category": "switches",
   "manufacturer": "TTC",
+  "manufacturers": [
+    "TTC"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

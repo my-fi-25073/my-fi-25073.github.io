@@ -37,7 +37,6 @@
           "backSilk": "#171717",
           "copper": "#DACD00",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#F5F5F2",
           "backMask": "#F5F5F2"
         }
@@ -78,7 +77,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#FFE39D",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#E3AC05",
           "backMask": "#E3AC05"
         },
@@ -120,7 +118,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "leftMask": "#395381",
           "rightMask": "#B4051D"
         },
@@ -162,7 +159,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#E3AC05",
           "backMask": "#E3AC05"
         },
@@ -174,7 +170,6 @@
               "backSilk": "#FFFFFF",
               "copper": "#C0C0C0",
               "substrate": "#ADB393",
-              "background": "#C2C5CA",
               "frontMask": "#E3AC05",
               "backMask": "#E3AC05"
             }
@@ -186,7 +181,6 @@
               "backSilk": "#FFFFFF",
               "copper": "#C0C0C0",
               "substrate": "#ADB393",
-              "background": "#C2C5CA",
               "frontMask": "#B4051D",
               "backMask": "#B4051D"
             }
@@ -229,7 +223,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#B4051D",
           "backMask": "#B4051D"
         }
@@ -270,7 +263,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#395381",
           "backMask": "#395381"
         }
@@ -311,7 +303,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#E3AC05",
           "backMask": "#E3AC05"
         }
@@ -352,7 +343,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#603D72",
           "backMask": "#603D72"
         }
@@ -392,7 +382,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#B4051D",
           "backMask": "#B4051D"
         }
@@ -433,7 +422,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#292D32",
           "backMask": "#292D32"
         }
@@ -474,7 +462,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#B4051D",
           "backMask": "#B4051D"
         }
@@ -515,7 +502,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#292D32",
           "backMask": "#292D32"
         }
@@ -561,7 +547,6 @@
           "backSilk": "#FFFFFF",
           "copper": "#C0C0C0",
           "substrate": "#ADB393",
-          "background": "#C2C5CA",
           "frontMask": "#292D32",
           "backMask": "#292D32"
         },

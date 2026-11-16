@@ -5,6 +5,9 @@
   "title": "Elf Ultra-Silent",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear",

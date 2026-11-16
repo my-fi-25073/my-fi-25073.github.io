@@ -94,6 +94,7 @@ const records = defineCollection({
     kind: z.literal('switch-product'),
     category: z.literal('switches'),
       manufacturer: z.string().nullable(),
+      manufacturers:z.array(z.string().min(1)).optional(),
       manufacturerLogo: galleryImage.optional(),
       modelCover: galleryImage.optional(),
       footprintType: z.string().nullable(),

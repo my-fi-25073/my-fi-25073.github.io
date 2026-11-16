@@ -13,7 +13,7 @@ const params=new URLSearchParams(location.search),embedded=params.has('embed'),p
 document.documentElement.dataset.pcbMode=poster?'poster':embedded?'embed':'full';
 document.documentElement.dataset.pcbEditable=String(editable);
 try{
-  const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0xc2c5ca);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;host.prepend(renderer.domElement);
+  const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setClearColor(0,0);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;host.prepend(renderer.domElement);
   const scene=new THREE.Scene(),camera=new THREE.OrthographicCamera(-1,1,1,-1,.00001,1000);
   // Symmetric studio reflections: equal illumination on opposing faces, with
   // broad bright panels and darker gaps for metal to reflect.
@@ -32,7 +32,7 @@ try{
   const ao=new GTAOPass(scene,camera,1,1);ao.updateGtaoMaterial({radius:.0025,thickness:.0003,distanceExponent:1,distanceFallOff:1,scale:1,samples:16,screenSpaceRadius:false});ao.updatePdMaterial({radius:2});ao.blendIntensity=.7;composer.addPass(ao);const output=new OutputPass();composer.addPass(output);
   const antialias=new SMAAPass();composer.addPass(antialias);
   const modelRoot=new THREE.Group();scene.add(modelRoot);let controls,span=1,normal=1,diagonal=1,generation=0,currentModel=null,currentView='top';
-  const colorRoles=[['leftMask','왼쪽 보드'],['rightMask','오른쪽 보드'],['frontMask','앞면 보드'],['backMask','뒷면 보드'],['frontSilk','앞면 실크'],['backSilk','뒷면 실크'],['copper','동박·패드'],['substrate','보드 단면'],['background','뷰어 배경']];
+  const colorRoles=[['leftMask','왼쪽 보드'],['rightMask','오른쪽 보드'],['frontMask','앞면 보드'],['backMask','뒷면 보드'],['frontSilk','앞면 실크'],['backSilk','뒷면 실크'],['copper','동박·패드'],['substrate','보드 단면']];
   const colorInputs=new Map();let colorTargets=new Map(),originalColors=new Map(),colorFile='',savedColors={};
   const layout=document.createElement('div');layout.id='viewer-layout';host.before(layout);layout.append(host);
   const panel=document.createElement('aside');panel.className='color-panel';layout.append(panel);
@@ -75,7 +75,7 @@ try{
   const paletteHint=document.createElement('p');paletteHint.className='small';paletteHint.textContent='색상은 이 브라우저에서 모델별로 기억합니다. GLB 원본 파일은 변경하지 않습니다.';panel.append(paletteHint);
   document.querySelector('.bottom span:last-child').textContent='원본 형상 · 모델별 보기 색상';
   function syncColorInputs(){for(const [role] of colorRoles){const materials=colorTargets.get(role)??[],enabled=role==='background'||materials.length>0,inputs=colorInputs.get(role);inputs.label.hidden=['leftMask','rightMask'].includes(role)?!splitModel(colorFile):['frontMask','backMask'].includes(role)&&splitModel(colorFile);inputs.picker.disabled=inputs.hex.disabled=!enabled;inputs.pair.hidden=!enabled;inputs.absence.hidden=enabled;inputs.label.title=enabled?'':inputs.absence.textContent;const value=role==='background'?'#'+renderer.getClearColor(new THREE.Color()).getHexString():materials[0]?'#'+materials[0].color.getHexString():'#000000';inputs.picker.value=value;inputs.hex.value=value.toUpperCase();}for(const [button,colors] of versionButtons)button.setAttribute('aria-pressed',String(Object.entries(colors).every(([role,value])=>colorInputs.get(role).hex.value.toUpperCase()===value)));}
-  restore.onclick=()=>{for(const [material,value] of originalColors)material.color.copy(value);renderer.setClearColor(0xc2c5ca);savedColors={};storeColors();syncColorInputs();};
+  restore.onclick=()=>{for(const [material,value] of originalColors)material.color.copy(value);renderer.setClearColor(0,0);savedColors={};storeColors();syncColorInputs();};
   camera.position.set(1,1,1);
   function connect(target=new THREE.Vector3()){controls?.dispose();controls=new TrackballControls(camera,renderer.domElement);controls.staticMoving=true;controls.rotateSpeed=1;controls.zoomSpeed=1;controls.panSpeed=.5;controls.minZoom=.15;controls.maxZoom=30;controls.target.copy(target);controls.update();}connect();
   const pointers=new Set();function cancel(){if(!pointers.size)return;const ids=[...pointers];pointers.clear();connect(controls.target.clone());for(const id of ids)if(renderer.domElement.hasPointerCapture(id))renderer.domElement.releasePointerCapture(id);}
@@ -86,19 +86,16 @@ try{
   window.addEventListener('pointerup',e=>{if(!pointers.has(e.pointerId))return;controls.update();pointers.delete(e.pointerId);});
   window.addEventListener('pointercancel',cancel,true);renderer.domElement.addEventListener('lostpointercapture',()=>{if(pointers.size)cancel();});window.addEventListener('blur',cancel);document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});
   let oldW=0,oldH=0,oldRatio=0;
-  function resize(){const w=host.clientWidth,h=host.clientHeight,ratio=Math.min(devicePixelRatio*(currentView==='iso'?1:1.5),3);if(!w||!h)return false;if(w!==oldW||h!==oldH||ratio!==oldRatio){oldW=w;oldH=h;oldRatio=ratio;renderer.setDrawingBufferSize(w,h,ratio);composer.setPixelRatio(ratio);composer.setSize(w,h);camera.left=-span*w/h;camera.right=span*w/h;camera.top=span;camera.bottom=-span;camera.updateProjectionMatrix();controls.handleResize();}return true;}
+  function resize(){const w=host.clientWidth,h=host.clientHeight,ratio=Math.min(devicePixelRatio*1.5,3);if(!w||!h)return false;if(w!==oldW||h!==oldH||ratio!==oldRatio){oldW=w;oldH=h;oldRatio=ratio;renderer.setDrawingBufferSize(w,h,ratio);composer.setPixelRatio(ratio);composer.setSize(w,h);camera.left=-span*w/h;camera.right=span*w/h;camera.top=span;camera.bottom=-span;camera.updateProjectionMatrix();controls.handleResize();}return true;}
   function preset(mode='top'){
     cancel();currentView=mode;camera.zoom=1;camera.up.set(...(normal===2?[0,0,1]:[0,1,0]));
-    if(mode==='iso'){const p=normal===2?[.45,-.65,.8]:normal===1?[.45,.8,.65]:[.8,.65,.45];camera.position.set(...p.map(v=>v*diagonal*2));}
-    else if(mode==='side'){camera.position.set(diagonal*2,0,0);camera.up.set(0,1,0);}
-    else{camera.position.set(0,0,0);camera.position.setComponent(normal,(mode==='bottom'?-1:1)*diagonal*2);camera.up.set(...(normal===2?[0,1,0]:normal===1?[0,0,-1]:[0,1,0]));}
+    {camera.position.set(0,0,0);camera.position.setComponent(normal,(mode==='bottom'?-1:1)*diagonal*2);camera.up.set(...(normal===2?[0,1,0]:normal===1?[0,0,-1]:[0,1,0]));}
     const bodyBounds=new THREE.Box3();currentModel?.updateMatrixWorld(true);currentModel?.traverse(o=>{if(o.isMesh&&o.material.userData.pcbSubstrate)bodyBounds.union(new THREE.Box3().setFromObject(o));});
     const target=bodyBounds.isEmpty()?new THREE.Vector3():bodyBounds.getCenter(new THREE.Vector3());camera.position.add(target);camera.lookAt(target);camera.updateMatrixWorld(true);
     if(currentModel){const box=new THREE.Box3().setFromObject(currentModel),points=[];for(const x of [box.min.x,box.max.x])for(const y of [box.min.y,box.max.y])for(const z of [box.min.z,box.max.z])points.push(new THREE.Vector3(x,y,z).applyMatrix4(camera.matrixWorldInverse));const width=2*Math.max(...points.map(p=>Math.abs(p.x))),height=2*Math.max(...points.map(p=>Math.abs(p.y)));span=Math.max(height,width/(host.clientWidth/host.clientHeight))*.54;}
-    const distance=camera.position.distanceTo(target);camera.near=Math.max(distance-diagonal*1.5,diagonal*.005);camera.far=distance+diagonal*1.5;oldW=0;resize();connect(target);for(const id of ['iso','top','bottom','side'])$('#'+id).setAttribute('aria-pressed',String(id===mode));
+    const distance=camera.position.distanceTo(target);camera.near=Math.max(distance-diagonal*1.5,diagonal*.005);camera.far=distance+diagonal*1.5;oldW=0;resize();connect(target);for(const id of ['top','bottom'])$('#'+id).setAttribute('aria-pressed',String(id===mode));
   }
-  const sideButton=document.createElement('button');sideButton.id='side';sideButton.type='button';sideButton.className='k-button';sideButton.textContent='측면';sideButton.setAttribute('aria-pressed','false');$('#bottom').after(sideButton);
-  for(const id of ['iso','top','bottom','side'])$('#'+id).onclick=()=>preset(id);$('#fit').onclick=()=>preset(currentView);
+  for(const id of ['top','bottom'])$('#'+id).onclick=()=>preset(id);$('#fit').onclick=()=>preset(currentView);
   function disposeModel(object){const geometries=new Set(),materials=new Set(),textures=new Set();object.traverse(o=>{if(o.geometry)geometries.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:o.material?[o.material]:[]){materials.add(m);for(const v of Object.values(m))if(v?.isTexture)textures.add(v);}});textures.forEach(t=>t.dispose());materials.forEach(m=>m.dispose());geometries.forEach(g=>g.dispose());}
   function mergeStaticModel(source){
     source.updateMatrixWorld(true);const batches=new Map(),oldGeometries=new Set();let count=0;
@@ -245,7 +242,7 @@ try{
       versions.replaceChildren();versionButtons.clear();versions.hidden=!item.finishes?.length;
       for(const finish of item.finishes??[]){const button=document.createElement('button');button.type='button';button.className='k-button';button.textContent=finish.label;button.onclick=()=>{for(const [role,value]of Object.entries(finish.colors))applyColor(role,value,false);savedColors={...savedColors,...finish.colors};storeColors();syncColorInputs();};versions.append(button);versionButtons.set(button,finish.colors);}
       if(embedded)document.querySelector('.toolbar').append(versions);
-      renderer.setClearColor(0xc2c5ca);for(const [role,value] of Object.entries(savedColors))if(colorInputs.has(role))applyColor(role,value,false);syncColorInputs();restore.disabled=false;
+      renderer.setClearColor(0,0);for(const [role,value] of Object.entries(savedColors))if(colorInputs.has(role))applyColor(role,value,false);syncColorInputs();restore.disabled=false;
       currentModel=mergeStaticModel(gltf.scene);currentModel.position.sub(center);modelRoot.add(currentModel);diagonal=size.length();
       if(assembly){const pivot=new THREE.Group();pivot.userData.pcbPart='B';pivot.position.copy(assembly.basePivot);const meshes=currentModel.children.filter(mesh=>mesh.userData.pcbPart==='B');for(const mesh of meshes){currentModel.remove(mesh);mesh.position.sub(assembly.basePivot);pivot.add(mesh);}currentModel.add(pivot);assembly.pivot=pivot;applyPlacement();}
       const aspect=host.clientWidth/host.clientHeight;span=Math.max(size.x/Math.max(aspect,.2),size.y,size.z)*.65; if(normal===1)span=Math.max(size.x/Math.max(aspect,.2),size.z)*.65;if(normal===2)span=Math.max(size.x/Math.max(aspect,.2),size.y)*.65;

@@ -5,6 +5,9 @@
   "title": "Zeal PC Zealios v2",
   "category": "switches",
   "manufacturer": "Gateron",
+  "manufacturers": [
+    "Gateron"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

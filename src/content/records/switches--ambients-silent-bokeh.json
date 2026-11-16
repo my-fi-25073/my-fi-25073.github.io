@@ -5,6 +5,9 @@
   "title": "Ambients Silent Bokeh",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Choc v1 (PG1350)",
   "switchTypes": [
     "Linear",

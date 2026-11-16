@@ -5,6 +5,9 @@
   "title": "Hades V2",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

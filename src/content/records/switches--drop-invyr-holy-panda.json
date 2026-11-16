@@ -5,6 +5,9 @@
   "title": "Drop + Invyr Holy Panda",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

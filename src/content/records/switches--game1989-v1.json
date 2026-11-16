@@ -5,6 +5,9 @@
   "title": "Game1989 v1",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

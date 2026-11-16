@@ -5,6 +5,9 @@
   "title": "Everglide Jade Black",
   "category": "switches",
   "manufacturer": "JWK",
+  "manufacturers": [
+    "JWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

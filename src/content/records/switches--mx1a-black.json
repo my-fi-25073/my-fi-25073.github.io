@@ -5,6 +5,9 @@
   "title": "MX1A Black",
   "category": "switches",
   "manufacturer": "Cherry",
+  "manufacturers": [
+    "Cherry"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

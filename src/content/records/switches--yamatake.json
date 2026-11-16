@@ -5,6 +5,9 @@
   "title": "Yamatake",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

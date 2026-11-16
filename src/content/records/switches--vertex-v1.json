@@ -5,6 +5,9 @@
   "title": "Vertex V1",
   "category": "switches",
   "manufacturer": "JWK",
+  "manufacturers": [
+    "JWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

@@ -5,6 +5,9 @@
   "title": "SR YETI",
   "category": "switches",
   "manufacturer": "Bsun",
+  "manufacturers": [
+    "Bsun"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

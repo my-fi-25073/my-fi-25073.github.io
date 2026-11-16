@@ -14,7 +14,7 @@ function listField(key: string, label: string, values: string[]) {
 
 export function buildDomainFields(record: DomainRecord, compact = false): DisplayField[] {
   const fields = [
-    ...textField('manufacturer', 'Manufacturer', record.manufacturer),
+    ...listField('manufacturer','Manufacturer',record.manufacturers??(record.manufacturer?[record.manufacturer]:[])),
     ...textField('footprintType', 'Footprint', record.footprintType === 'None' ? null : record.footprintType),
     ...listField('switchTypes', 'Type', record.switchTypes),
   ];
@@ -28,6 +28,7 @@ export function domainSearchText(record: DomainRecord) {
     record.title,
     record.modelFamily?.title ?? '',
     record.manufacturer ?? '',
+    ...(record.manufacturers??[]),
     record.footprintType ?? '',
     ...record.switchTypes,
     ...record.tunings.flatMap((tuning) => [

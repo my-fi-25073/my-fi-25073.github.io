@@ -5,6 +5,9 @@
   "title": "Hyacinth V2U",
   "category": "switches",
   "manufacturer": "HMX",
+  "manufacturers": [
+    "HMX"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

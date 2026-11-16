@@ -5,6 +5,9 @@
   "title": "SP-Star Meteor White V2",
   "category": "switches",
   "manufacturer": "JWK",
+  "manufacturers": [
+    "JWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

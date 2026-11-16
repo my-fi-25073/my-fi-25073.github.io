@@ -5,6 +5,9 @@
   "title": "Gazzew Boba U4Tx",
   "category": "switches",
   "manufacturer": "Outemu",
+  "manufacturers": [
+    "Outemu"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Silent",

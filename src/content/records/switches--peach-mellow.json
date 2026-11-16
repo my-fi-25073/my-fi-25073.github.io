@@ -5,6 +5,9 @@
   "title": "Peach Mellow",
   "category": "switches",
   "manufacturer": "Bsun",
+  "manufacturers": [
+    "Bsun"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

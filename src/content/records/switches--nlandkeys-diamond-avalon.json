@@ -5,6 +5,7 @@
   "title": "NLandkeys Diamond Avalon",
   "category": "switches",
   "manufacturer": null,
+  "manufacturers": [],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

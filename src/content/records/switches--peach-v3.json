@@ -5,6 +5,9 @@
   "title": "Peach V3",
   "category": "switches",
   "manufacturer": "Outemu",
+  "manufacturers": [
+    "Outemu"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear",

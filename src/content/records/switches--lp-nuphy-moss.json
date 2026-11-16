@@ -5,6 +5,9 @@
   "title": "LP NuPhy Moss",
   "category": "switches",
   "manufacturer": "Gateron",
+  "manufacturers": [
+    "Gateron"
+  ],
   "footprintType": "KS33",
   "switchTypes": [
     "Tactile"

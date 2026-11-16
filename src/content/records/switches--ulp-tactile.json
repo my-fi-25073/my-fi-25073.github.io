@@ -5,6 +5,9 @@
   "title": "ULP Tactile",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "ULP (PG1316)",
   "switchTypes": [
     "Tactile"

@@ -5,6 +5,9 @@
   "title": "Cream Blue",
   "category": "switches",
   "manufacturer": "Akko",
+  "manufacturers": [
+    "Akko"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Tactile"

@@ -5,6 +5,9 @@
   "title": "Haute42 Shadow Hunting",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Choc v2 (PG1353)",
   "switchTypes": [
     "Linear"

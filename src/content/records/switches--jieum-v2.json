@@ -5,6 +5,9 @@
   "title": "Jieum V2",
   "category": "switches",
   "manufacturer": "SWK",
+  "manufacturers": [
+    "SWK"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

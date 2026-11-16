@@ -5,6 +5,9 @@
   "title": "Iron",
   "category": "switches",
   "manufacturer": "TTC",
+  "manufacturers": [
+    "TTC"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

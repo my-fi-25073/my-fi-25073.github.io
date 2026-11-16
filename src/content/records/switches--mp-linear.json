@@ -5,6 +5,9 @@
   "title": "MP Linear",
   "category": "switches",
   "manufacturer": "Haimu",
+  "manufacturers": [
+    "Haimu"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

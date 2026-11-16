@@ -5,6 +5,9 @@
   "title": "LP Blue White",
   "category": "switches",
   "manufacturer": "Gateron",
+  "manufacturers": [
+    "Gateron"
+  ],
   "footprintType": "KS33",
   "switchTypes": [
     "Click"

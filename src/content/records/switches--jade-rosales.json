@@ -5,6 +5,9 @@
   "title": "Jade rosales",
   "category": "switches",
   "manufacturer": "Bsun",
+  "manufacturers": [
+    "Bsun"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"

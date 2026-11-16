@@ -5,6 +5,9 @@
   "title": "Deep Sea Silent Islet White",
   "category": "switches",
   "manufacturer": "Kailh",
+  "manufacturers": [
+    "Kailh"
+  ],
   "footprintType": "Choc v2 (PG1353)",
   "switchTypes": [
     "Linear",

@@ -5,6 +5,9 @@
   "title": "LP NuPhy Daisy",
   "category": "switches",
   "manufacturer": "Gateron",
+  "manufacturers": [
+    "Gateron"
+  ],
   "footprintType": "KS33",
   "switchTypes": [
     "Linear"

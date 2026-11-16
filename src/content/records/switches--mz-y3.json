@@ -5,6 +5,9 @@
   "title": "MZ y3",
   "category": "switches",
   "manufacturer": "Keygeek",
+  "manufacturers": [
+    "Keygeek"
+  ],
   "footprintType": "Cherry MX",
   "switchTypes": [
     "Linear"
