@@ -14,6 +14,7 @@ html[data-pcb-mode=embed],html[data-pcb-mode=embed] body { height:100%;overflow:
 html[data-pcb-mode=embed] main { height:100%;display:flex;flex-direction:column }
 html[data-pcb-mode=embed] .toolbar { flex:0 0 auto }
 html[data-pcb-mode=embed] #viewer-layout { flex:1;min-height:0 }
+html[data-pcb-mode=embed] main > #viewport { flex:1;height:auto }
 html[data-pcb-mode=embed] #viewport { height:100%;min-height:0;border:0 }
 html[data-pcb-mode=embed] .color-versions { margin:0 0 0 auto }
 html[data-pcb-mode=poster] main { width:800px;margin:0 }
