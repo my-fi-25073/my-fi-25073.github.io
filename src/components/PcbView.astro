@@ -1,0 +1,6 @@
+---
+interface Props { model: string; title: string; }
+const {model,title}=Astro.props;
+---
+<iframe class="pcb-view" src={`/ui/pcb/index.html?embed=1&catalog=/pcbs/catalog.json&model=${encodeURIComponent(model)}`} title={`${title} 3D 모델`} loading="eager"></iframe>
+<style>.pcb-view{display:block;width:100%;height:clamp(360px,65svh,680px);border:1px solid var(--k-rule);background:var(--k-surface);margin-block:var(--k-space-6);}</style>

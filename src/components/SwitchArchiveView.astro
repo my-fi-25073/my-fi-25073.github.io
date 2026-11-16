@@ -12,6 +12,7 @@ import {
 import DomainRecordCard from './DomainRecordCard.astro';
 import { switchArchiveRecords, switchModelFamilies } from '../lib/switch-models';
 import { renderBrandMark } from '../../public/ui/gallery.mjs';
+import { switchManufacturerGroup } from '../../public/ui/switch-groups.mjs';
 
 interface Props {
   records: CollectionEntry<'records'>[];
@@ -21,7 +22,7 @@ const { records } = Astro.props;
 const manifest = collectionData as CollectionManifest;
 const sourceRecords = records.map((entry) => entry.data);
 const families = switchModelFamilies(sourceRecords);
-const products = switchArchiveRecords(sourceRecords);
+const products = switchArchiveRecords(sourceRecords).map(record=>({...record,manufacturer:switchManufacturerGroup(record)}));
 const switches = recordsForCollectionView(products, manifest, 'switch-manufacturers');
 const franken = recordsForCollectionView(products, manifest, 'switch-franken');
 const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
@@ -78,8 +79,7 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
           {[{ id: '', label: 'All', count: switches.length }, ...options].map((group) => (
             <label class="k-filter-option">
               <input type="radio" name={parameter} value={group.id} checked={group.id === ''} />
-              <span>{group.label}</span>
-              <small aria-hidden="true">{group.count}</small>
+              <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
             </label>
           ))}
         </fieldset>
@@ -98,7 +98,7 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
             {id === 'franken' ? '조건에 맞는 프랑켄 스위치가 없습니다.' : '조건에 맞는 스위치가 없습니다.'}
           </p>
           {groups.map(({ label, records }) => {
-            const mark = id === 'switches' ? renderBrandMark(records.find(record => record.manufacturer === label)?.manufacturerLogo) : '';
+            const mark = id === 'switches' && !['Franken','Unknown'].includes(label??'') ? renderBrandMark(records.find(record => record.manufacturer === label)?.manufacturerLogo) : '';
             return (
             <details class="archive-section kl-gallery-scope" aria-label={label ?? '스위치 목록'} data-archive-group open>
               <summary><h2 class="k-brand-heading" aria-label={label ?? '스위치 목록'}>
@@ -212,6 +212,10 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
 </script>
 
 <style>
+  [data-archive-group] > summary h2 { margin:0;font-size:var(--k-type-control);font-weight:var(--k-weight-strong); }
+  [data-archive-group] summary { font-size:var(--k-type-control); }
+  [data-archive-group] summary small { color:var(--k-muted);font-size:var(--k-type-caption);font-weight:var(--k-weight-body); }
+  [data-archive-group] > .record-section { margin-top:var(--k-space-4); }
   .result-count { margin: 0; min-height: 38px; padding-top: 5px; color: var(--k-muted); font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; }
   .filter-search { position: relative; flex: 0 1 232px; width: min(100%, 232px); }
   .switch-sidebar summary { display: none; }

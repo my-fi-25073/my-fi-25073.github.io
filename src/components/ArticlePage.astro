@@ -1,0 +1,17 @@
+---
+import {render,type CollectionEntry} from 'astro:content';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import data from '../data/pcbs.json';
+interface Props {post:CollectionEntry<'posts'>}
+const {post}=Astro.props,{Content}=await render(post),section=post.data.section,label=section==='photolog'?'Photolog':'Build Log';
+const pcbs=post.data.pcbs.map(slug=>{const record=data.items.find(pcb=>pcb.slug===slug);if(!record)throw Error(`Unknown PCB link in ${post.id}: ${slug}`);return record;});
+---
+<SiteLayout title={post.data.title} description={post.data.description}>
+  <article class="shell article">
+    <a href={`/${section}/`}>← {label}</a>
+    <header class="detail-header"><h1>{post.data.title}</h1><time datetime={post.data.publishedAt.toISOString()}>{post.data.publishedAt.toISOString().slice(0,10)}</time></header>
+    <div class="article-body"><Content/></div>
+    {pcbs.length>0&&<section class="related"><h2>PCB</h2><ul>{pcbs.map(pcb=><li><a href={`/pcbs/${pcb.slug}/`}>{pcb.title}</a></li>)}</ul></section>}
+  </article>
+</SiteLayout>
+<style>.article{max-width:960px}.article header{padding-block:var(--k-space-6);border-bottom:1px solid var(--k-rule)}time{color:var(--k-muted)}.article-body{padding-block:var(--k-space-6);line-height:1.8}.article-body :global(img){max-width:100%;height:auto}.article-body :global(pre){overflow:auto}.related{padding-block:var(--k-space-6);border-top:1px solid var(--k-rule)}</style>

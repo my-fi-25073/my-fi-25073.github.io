@@ -10,6 +10,7 @@
     "Linear"
   ],
   "isFranken": false,
+  "catalogOrder": 1000000,
   "tunings": [
     {
       "label": "Factory Lubed",
@@ -167,9 +168,9 @@
     ],
     "variants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-704ed577bbcaec116a195a76d68658430429421321befebf3c246c00154b5d03-640.avif",
-        "width": 260,
-        "height": 119
+        "src": "/media/switches/manufacturer-logos/brand-df8e4355a8048d8e0371323dd91cc3b1c35cc23277bb53ffedbb01400c1529f5.webp",
+        "width": 640,
+        "height": 235
       }
     ]
   },

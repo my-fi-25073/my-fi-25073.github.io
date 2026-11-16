@@ -11,6 +11,7 @@
     "Tactile"
   ],
   "isFranken": false,
+  "catalogOrder": 1000000,
   "tunings": [
     {
       "label": "Factory Lubed",
@@ -108,9 +109,9 @@
             ],
             "variants": [
               {
-                "src": "/media/switches/manufacturer-logos/manufacturer-31088ad500faa2fa494416f61d32174bd5a5391194d1d98dc0b56fd14cc5f5f1-640.avif",
-                "width": 497,
-                "height": 120
+                "src": "/media/switches/manufacturer-logos/brand-b36b1d6736a9b43f9ad20f5a40a1f2646e2479dbb6c130fb51cd5cdd4e5f00ca.webp",
+                "width": 640,
+                "height": 145
               }
             ]
           }
@@ -176,9 +177,9 @@
     ],
     "variants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-31088ad500faa2fa494416f61d32174bd5a5391194d1d98dc0b56fd14cc5f5f1-640.avif",
-        "width": 497,
-        "height": 120
+        "src": "/media/switches/manufacturer-logos/brand-b36b1d6736a9b43f9ad20f5a40a1f2646e2479dbb6c130fb51cd5cdd4e5f00ca.webp",
+        "width": 640,
+        "height": 145
       }
     ]
   },

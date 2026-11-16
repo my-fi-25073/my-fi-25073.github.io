@@ -8,6 +8,7 @@
   "footprintType": null,
   "switchTypes": [],
   "isFranken": true,
+  "catalogOrder": 1000000,
   "tunings": [
     {
       "label": "Tuning 1",

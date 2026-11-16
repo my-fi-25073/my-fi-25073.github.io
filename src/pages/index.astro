@@ -4,6 +4,7 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import smallHero from '../assets/keylog-hero-800.avif';
 import mediumHero from '../assets/keylog-hero-1600.avif';
 import largeHero from '../assets/keylog-hero-2400.avif';
+import { projectSections } from '../lib/site-sections.mjs';
 
 const archiveIds = ['keyboards', 'keycaps', 'switches', 'recap'];
 const archives = archiveIds.map((id) => {
@@ -35,6 +36,9 @@ const sources = [smallHero, mediumHero, largeHero]
           <strong>{label}</strong><span aria-hidden="true">↗</span>
         </a>
       ))}
+    </nav>
+    <nav class="home-directory home-projects" aria-label="프로젝트와 기록">
+      {projectSections.map(({id,href,label})=>(<a href={href}><span class:list={['home-symbol',id]} aria-hidden="true"><i></i></span><strong>{label}</strong><span aria-hidden="true">↗</span></a>))}
     </nav>
   </div>
 </SiteLayout>
@@ -89,6 +93,13 @@ const sources = [smallHero, mediumHero, largeHero]
     min-height: 82px;
     padding-inline: 3px;
   }
+  .home-projects { margin-top:0; }
+  .pcbs i::before { inset:4px;border:1px solid; }
+  .pcbs i::after { width:3px;height:3px;border-radius:50%;background:currentColor;left:3px;top:3px;box-shadow:16px 0 currentColor,0 11px currentColor,16px 11px currentColor; }
+  .photolog i::before { width:8px;height:8px;border:1px solid;border-radius:50%;left:7px;top:5px; }
+  .photolog i::after { width:8px;height:3px;border:1px solid;left:3px;top:-4px; }
+  .build-log i::before { inset:5px 4px;border-top:1px solid;border-bottom:1px solid; }
+  .build-log i::after { width:15px;border-top:2px solid;right:-5px;top:5px;transform:rotate(-50deg); }
   .home-directory a:hover strong, .home-directory a:focus-visible strong { text-decoration: underline; text-underline-offset: 5px; }
   .home-directory a > span:last-child { color: var(--k-muted); }
   .home-directory strong { font-size: clamp(1.05rem, 1.8vw, 1.45rem); font-weight: 660; letter-spacing: -.035em; }

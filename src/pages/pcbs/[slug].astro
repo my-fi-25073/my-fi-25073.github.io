@@ -1,0 +1,16 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import PcbView from '../../components/PcbView.astro';
+import data from '../../data/pcbs.json';
+export function getStaticPaths(){return data.items.map(record=>({params:{slug:record.slug},props:{record}}));}
+const {record}=Astro.props;
+---
+<SiteLayout title={record.title} description={record.description??undefined}>
+  <article class="shell pcb-detail">
+    <a class="back-link" href="/pcbs/">← PCB</a>
+    <header class="detail-header section-heading"><h1>{record.title}</h1>{record.repositoryUrl&&<a class="k-button" data-variant="quiet" href={record.repositoryUrl} target="_blank" rel="noopener noreferrer">GitHub ↗</a>}</header>
+    {record.scene&&<PcbView model={record.scene.file} title={record.title}/>}
+    {record.description&&<p class="pcb-description">{record.description}</p>}
+  </article>
+</SiteLayout>
+<style>.pcb-description{white-space:pre-wrap;line-height:1.8;max-width:70ch}.back-link{display:inline-flex;min-height:44px;align-items:center;color:var(--k-muted)}.pcb-detail .section-heading{align-items:center;gap:var(--k-space-4);flex-wrap:wrap}</style>

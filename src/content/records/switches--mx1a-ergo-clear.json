@@ -10,6 +10,7 @@
     "Tactile"
   ],
   "isFranken": false,
+  "catalogOrder": 6,
   "modelFamily": {
     "slug": "mx-ergo",
     "title": "MX Ergo",
@@ -119,9 +120,9 @@
             ],
             "variants": [
               {
-                "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
-                "width": 360,
-                "height": 70
+                "src": "/media/switches/manufacturer-logos/brand-0fc39830e6c6fd18bb1f8834655fb727e1919c0a92af0845125a3a4b9ca9272a.webp",
+                "width": 640,
+                "height": 124
               }
             ]
           }
@@ -215,9 +216,9 @@
     ],
     "variants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-e5f20091a3fcbd1f73d5b7f3ae8e8520988d2d2ae811d1ba091be99c1531ea4a-640.avif",
-        "width": 360,
-        "height": 70
+        "src": "/media/switches/manufacturer-logos/brand-0fc39830e6c6fd18bb1f8834655fb727e1919c0a92af0845125a3a4b9ca9272a.webp",
+        "width": 640,
+        "height": 124
       }
     ]
   },

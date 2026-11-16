@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "kind": "pcb-catalog",
+  "items": [
+    {
+      "slug": "castor-lp-v2",
+      "title": "Castor LP v2",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "Castor LP v2",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/2aa407c8b0bb322836887b526db2375aea624bc9721e5489e009ecc1956ae6d3.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "Castor-LPv2.glb",
+        "name": "Castor LP v2",
+        "parts": [
+          {
+            "file": "Castor-LPv2.glb",
+            "url": "/media/pcbs/ca0da7276700801ee816c09304707da9630190037592861dac78ce6150a06ef9.glb",
+            "bytes": 8321448
+          }
+        ],
+        "bytes": 8321448,
+        "colors": {
+          "frontSilk": "#171717",
+          "backSilk": "#171717",
+          "copper": "#DACD00",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#F5F5F2",
+          "backMask": "#F5F5F2"
+        }
+      }
+    },
+    {
+      "slug": "castor-lp-v3",
+      "title": "Castor LP v3",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "Castor LP v3",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/b9f8779c3460da2ed994985f7e038bfb7aa4b91d0caf958b8a9eaafb57056a76.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "Castor-LPv3.glb",
+        "name": "Castor LP v3",
+        "parts": [
+          {
+            "file": "Castor-LPv3.glb",
+            "url": "/media/pcbs/7d9ac1f5076e8039517b08d82ce3249d29c51f231c022b7e66497ddabcd01cf0.glb",
+            "bytes": 9480904
+          }
+        ],
+        "bytes": 9480904,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#FFE39D",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#E3AC05",
+          "backMask": "#E3AC05"
+        },
+        "edgeFinish": "enig"
+      }
+    },
+    {
+      "slug": "castor-ulp",
+      "title": "Castor ULP",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "Castor ULP",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/d42fb96ac26e3acf92ad3d308b6d026093a0c2d7a369409be1b142c616ce5f9c.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "Castor-ULP.glb",
+        "name": "Castor ULP",
+        "parts": [
+          {
+            "file": "Castor-ULP.glb",
+            "url": "/media/pcbs/77749799d0f6e3ded60b81d64f9c52f15ea58bb52f3c9ec157ba90a3ff8962c5.glb",
+            "bytes": 9596744
+          }
+        ],
+        "bytes": 9596744,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "leftMask": "#395381",
+          "rightMask": "#B4051D"
+        },
+        "splitColors": true
+      }
+    },
+    {
+      "slug": "mf40-r12aw",
+      "title": "MF40-R12AW",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF40-R12AW",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/296ae903a90bc20534607cfa9f47439b8775a0708643175d7c09312b5081cd5a.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF40-R12AW.glb",
+        "name": "MF40-R12AW",
+        "parts": [
+          {
+            "file": "MF40-R12AW.glb",
+            "url": "/media/pcbs/5b0ac87db784d2bbd3c602f59437e7e26adf81d5cbdf5549f48a3b762f40933f.glb",
+            "bytes": 7984416
+          }
+        ],
+        "bytes": 7984416,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#E3AC05",
+          "backMask": "#E3AC05"
+        },
+        "finishes": [
+          {
+            "label": "노랑",
+            "colors": {
+              "frontSilk": "#FFFFFF",
+              "backSilk": "#FFFFFF",
+              "copper": "#C0C0C0",
+              "substrate": "#ADB393",
+              "background": "#C2C5CA",
+              "frontMask": "#E3AC05",
+              "backMask": "#E3AC05"
+            }
+          },
+          {
+            "label": "빨강",
+            "colors": {
+              "frontSilk": "#FFFFFF",
+              "backSilk": "#FFFFFF",
+              "copper": "#C0C0C0",
+              "substrate": "#ADB393",
+              "background": "#C2C5CA",
+              "frontMask": "#B4051D",
+              "backMask": "#B4051D"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mf40-r13ah",
+      "title": "MF40-R13AH",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF40-R13AH",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/48975136fd2e9949fe8a780507c32f681c9aed1b397d60575a7b1bf8cecafa1e.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF40-R13AH.glb",
+        "name": "MF40-R13AH",
+        "parts": [
+          {
+            "file": "MF40-R13AH.glb",
+            "url": "/media/pcbs/3ef8aaa2a001e6a7b8f6aabe5758c53040746e169293086e406b34091ca74669.glb",
+            "bytes": 7746692
+          }
+        ],
+        "bytes": 7746692,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#B4051D",
+          "backMask": "#B4051D"
+        }
+      }
+    },
+    {
+      "slug": "mf40-r13aw",
+      "title": "MF40-R13AW",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF40-R13AW",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/7dd91167bbddfb2b4b2a52dd99aec0fa11e164e16cfa2f04e237066072ca6963.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF40-R13AW.glb",
+        "name": "MF40-R13AW",
+        "parts": [
+          {
+            "file": "MF40-R13AW.glb",
+            "url": "/media/pcbs/18d2c543a72acfd846a048f2d0879f75982f73116027223e3291e6af5020e311.glb",
+            "bytes": 8072552
+          }
+        ],
+        "bytes": 8072552,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#395381",
+          "backMask": "#395381"
+        }
+      }
+    },
+    {
+      "slug": "mf40-r13bw",
+      "title": "MF40-R13BW",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF40-R13BW",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/fee2b01cb9f197b54ca4b6ae03904ea6831ab7a79f21a1db62a080bf5c4eac78.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF40-R13BW.glb",
+        "name": "MF40-R13BW",
+        "parts": [
+          {
+            "file": "MF40-R13BW.glb",
+            "url": "/media/pcbs/bba0d3acde1b4ba2349ddf4e3dc58cff62d96bc82d8ca8937c5df493409c6940.glb",
+            "bytes": 8386368
+          }
+        ],
+        "bytes": 8386368,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#E3AC05",
+          "backMask": "#E3AC05"
+        }
+      }
+    },
+    {
+      "slug": "mf60-gondola",
+      "title": "MF60-Gondola",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF60-Gondola",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/d0c941690efc053f560dbb37b93e5acc863ba89e2552dee27548889c54f38519.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF60-Gondola.glb",
+        "name": "MF60-Gondola",
+        "parts": [
+          {
+            "file": "MF60-Gondola.glb",
+            "url": "/media/pcbs/eba7e41279d6cdef63ec343f46969c2f112d79a4b400bf7e36f0663985487ee5.glb",
+            "bytes": 9336824
+          }
+        ],
+        "bytes": 9336824,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#603D72",
+          "backMask": "#603D72"
+        }
+      }
+    },
+    {
+      "slug": "mf65-eava55",
+      "title": "MF65-Eava55",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF65-Eava55",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/46f0c54a6e7642eba8e9ccf7e091d63699a8b7846d3e81212fae945d34436f56.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF65-Eava55.glb",
+        "name": "MF65-Eava55",
+        "parts": [
+          {
+            "file": "MF65-Eava55.glb",
+            "url": "/media/pcbs/1bb911620ff6d2c45ac22d24b949103cfcfb7cfcdffe55ca7e5f50d47ed72642.glb",
+            "bytes": 8434668
+          }
+        ],
+        "bytes": 8434668,
+        "colors": {
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#B4051D",
+          "backMask": "#B4051D"
+        }
+      }
+    },
+    {
+      "slug": "mf80-900than9",
+      "title": "MF80-900Than9",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF80-900Than9",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/0f58455a70103a0dac02e9a9e57d7ef767f43e8e90e972a0285f03881043ef2d.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF80-900Than9.glb",
+        "name": "MF80-900Than9",
+        "parts": [
+          {
+            "file": "MF80-900Than9.glb",
+            "url": "/media/pcbs/0b5a87caf67fe89a6d17e49bf075c2aaf8543492ce5533a4b158ceeb8b1f30bc.glb",
+            "bytes": 12929376
+          }
+        ],
+        "bytes": 12929376,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#292D32",
+          "backMask": "#292D32"
+        }
+      }
+    },
+    {
+      "slug": "mf80-orthodox",
+      "title": "MF80-Orthodox",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "MF80-Orthodox",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/9be98766b18c381898ce9dad09de2d3645735e0734800ca391729f631b2a7c58.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "MF80-Orthodox.glb",
+        "name": "MF80-Orthodox",
+        "parts": [
+          {
+            "file": "MF80-Orthodox.glb",
+            "url": "/media/pcbs/ecfc32b07dedd7e596cd1cd31a83e6b5aea5f973d1ad7e6ffb9f162829d3572f.glb",
+            "bytes": 10474032
+          }
+        ],
+        "bytes": 10474032,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#B4051D",
+          "backMask": "#B4051D"
+        }
+      }
+    },
+    {
+      "slug": "rc-18xx",
+      "title": "RC-18XX",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "RC-18XX",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/0acbdeacf09bcc3b1465f9d6a43a1400fa6bb56da66e53066950ccc078cbb31a.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "RC-18XX.glb",
+        "name": "RC-18XX",
+        "parts": [
+          {
+            "file": "RC-18XX.glb",
+            "url": "/media/pcbs/e2e246c7a08beb6c195b3aedded087ccbc276f31597725242bc405a1d4c6068a.glb",
+            "bytes": 11813628
+          }
+        ],
+        "bytes": 11813628,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#292D32",
+          "backMask": "#292D32"
+        }
+      }
+    },
+    {
+      "slug": "rc-21xx",
+      "title": "RC-21XX",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "RC-21XX",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/ae904fd77aa3f25e3d838a6ccf97a3e9cc628d6e659f4c2d0ad6f2fe0f425a32.webp",
+              "width": 800,
+              "height": 500
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "RC-21XX-assembly",
+        "name": "RC-21XX",
+        "parts": [
+          {
+            "file": "RC-21XX-A.glb",
+            "url": "/media/pcbs/b140394fa742f1e06b132e42e7d036a2ba0460ea9e8339f057a8206035c07a46.glb",
+            "bytes": 18224512
+          },
+          {
+            "file": "RC-21XX-B.glb",
+            "url": "/media/pcbs/003877516644407faa40c42150da55f31779c2dcaadd5dd10d0ce7226a054186.glb",
+            "bytes": 2432544
+          }
+        ],
+        "bytes": 20657056,
+        "colors": {
+          "frontSilk": "#FFFFFF",
+          "backSilk": "#FFFFFF",
+          "copper": "#C0C0C0",
+          "substrate": "#ADB393",
+          "background": "#C2C5CA",
+          "frontMask": "#292D32",
+          "backMask": "#292D32"
+        },
+        "assembly": {
+          "gap": 12,
+          "height": 12,
+          "tilt": 20
+        }
+      }
+    }
+  ]
+}

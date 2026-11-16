@@ -27,7 +27,8 @@
   border: 0;
   background: transparent;
 }
-.kl-card-link:focus-visible,   outline: var(--k-focus-width) solid var(--k-focus);
+.kl-card-link:focus-visible {
+  outline: var(--k-focus-width) solid var(--k-focus);
   outline-offset: var(--k-focus-offset);
 }
 .kl-card-link:hover .kl-card-title { text-decoration: var(--k-card-hover-decoration, underline); text-underline-offset: .18em; }

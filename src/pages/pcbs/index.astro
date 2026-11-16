@@ -1,0 +1,13 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import data from '../../data/pcbs.json';
+import {galleryImage,renderGalleryCard} from '../../../public/ui/gallery.mjs';
+---
+<SiteLayout title="PCB">
+  <section class="shell archive-catalog-shell kl-gallery-scope">
+    <header class="archive-catalog-heading"><h1 lang="en">PCB</h1></header>
+    <div class="kl-gallery gallery-grid" data-gallery-role="archive">
+      {data.items.map(record=><Fragment set:html={renderGalleryCard({title:record.title,href:`/pcbs/${record.slug}/`,kind:'pcb',headingLevel:2,image:record.images[0]?galleryImage({...record.images[0],presentation:'render'},'pcb'):null})}/>)}
+    </div>
+  </section>
+</SiteLayout>

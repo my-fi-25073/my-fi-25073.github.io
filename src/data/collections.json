@@ -31,6 +31,24 @@
       "label": "Recap",
       "href": "/recap/",
       "order": 40
+    },
+    {
+      "id": "pcbs",
+      "label": "PCB",
+      "href": "/pcbs/",
+      "order": 50
+    },
+    {
+      "id": "photolog",
+      "label": "Photolog",
+      "href": "/photolog/",
+      "order": 60
+    },
+    {
+      "id": "build-log",
+      "label": "Build Log",
+      "href": "/build-log/",
+      "order": 70
     }
   ],
   "queries": [
@@ -792,21 +810,12 @@
             }
           },
           {
-            "id": "keygeek",
-            "label": "Keygeek",
+            "id": "kailh",
+            "label": "Kailh",
             "match": {
               "field": "manufacturer",
               "operator": "equals",
-              "value": "Keygeek"
-            }
-          },
-          {
-            "id": "hmx",
-            "label": "HMX",
-            "match": {
-              "field": "manufacturer",
-              "operator": "equals",
-              "value": "HMX"
+              "value": "Kailh"
             }
           },
           {
@@ -819,12 +828,30 @@
             }
           },
           {
-            "id": "kailh",
-            "label": "Kailh",
+            "id": "hmx",
+            "label": "HMX",
             "match": {
               "field": "manufacturer",
               "operator": "equals",
-              "value": "Kailh"
+              "value": "HMX"
+            }
+          },
+          {
+            "id": "keygeek",
+            "label": "Keygeek",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Keygeek"
+            }
+          },
+          {
+            "id": "swk",
+            "label": "SWK",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "SWK"
             }
           },
           {
@@ -837,12 +864,75 @@
             }
           },
           {
-            "id": "swk",
-            "label": "SWK",
+            "id": "outemu",
+            "label": "Outemu",
             "match": {
               "field": "manufacturer",
               "operator": "equals",
-              "value": "SWK"
+              "value": "Outemu"
+            }
+          },
+          {
+            "id": "ttc",
+            "label": "TTC",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "TTC"
+            }
+          },
+          {
+            "id": "jwk",
+            "label": "JWK",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "JWK"
+            }
+          },
+          {
+            "id": "haimu",
+            "label": "Haimu",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Haimu"
+            }
+          },
+          {
+            "id": "mmd",
+            "label": "MMD",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "MMD"
+            }
+          },
+          {
+            "id": "akko",
+            "label": "Akko",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Akko"
+            }
+          },
+          {
+            "id": "franken",
+            "label": "Franken",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Franken"
+            }
+          },
+          {
+            "id": "unknown",
+            "label": "Unknown",
+            "match": {
+              "field": "manufacturer",
+              "operator": "equals",
+              "value": "Unknown"
             }
           }
         ]
@@ -1448,7 +1538,47 @@
         "cardFields": [
           "title",
           "parts"
-        ]
+        ],
+        "archive": {
+          "predicate": {
+            "all": []
+          },
+          "sort": [
+            {
+              "field": "catalogOrder",
+              "direction": "asc"
+            },
+            {
+              "field": "footprintType",
+              "direction": "asc"
+            },
+            {
+              "field": "title",
+              "direction": "asc"
+            }
+          ],
+          "group": {
+            "field": "manufacturer",
+            "unit": "value",
+            "order": [
+              "Cherry",
+              "Kailh",
+              "Bsun",
+              "HMX",
+              "Keygeek",
+              "SWK",
+              "Gateron",
+              "Outemu",
+              "TTC",
+              "JWK",
+              "Haimu",
+              "MMD",
+              "Akko",
+              "Franken",
+              "Unknown"
+            ]
+          }
+        }
       },
       "eligibility": {
         "frankenOnly": true
@@ -1472,12 +1602,50 @@
           "label": "Switch",
           "href": "/switches/",
           "order": 30
+        },
+        "archive": {
+          "predicate": {
+            "all": []
+          },
+          "sort": [
+            {
+              "field": "catalogOrder",
+              "direction": "asc"
+            },
+            {
+              "field": "footprintType",
+              "direction": "asc"
+            },
+            {
+              "field": "title",
+              "direction": "asc"
+            }
+          ],
+          "group": {
+            "field": "manufacturer",
+            "unit": "value",
+            "order": [
+              "Cherry",
+              "Kailh",
+              "Bsun",
+              "HMX",
+              "Keygeek",
+              "SWK",
+              "Gateron",
+              "Outemu",
+              "TTC",
+              "JWK",
+              "Haimu",
+              "MMD",
+              "Akko",
+              "Franken",
+              "Unknown"
+            ]
+          }
         }
       },
-      "eligibility": {
-        "excludeFranken": true
-      },
-      "revision": 1
+      "eligibility": {},
+      "revision": 2
     }
   ],
   "copy": {

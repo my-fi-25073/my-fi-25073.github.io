@@ -10,6 +10,7 @@
     "Linear"
   ],
   "isFranken": false,
+  "catalogOrder": 1000000,
   "tunings": [
     {
       "label": "Factory Lubed",
@@ -140,19 +141,9 @@
             ],
             "variants": [
               {
-                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+                "src": "/media/switches/manufacturer-logos/brand-bf4873dd063b6c6b00594da50a96a3b7a6ef8e44c32715f11371e3107e066048.webp",
                 "width": 640,
-                "height": 517
-              },
-              {
-                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
-                "width": 1280,
-                "height": 1034
-              },
-              {
-                "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
-                "width": 2048,
-                "height": 1654
+                "height": 499
               }
             ]
           }
@@ -241,19 +232,9 @@
     ],
     "variants": [
       {
-        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-640.avif",
+        "src": "/media/switches/manufacturer-logos/brand-bf4873dd063b6c6b00594da50a96a3b7a6ef8e44c32715f11371e3107e066048.webp",
         "width": 640,
-        "height": 517
-      },
-      {
-        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-1280.avif",
-        "width": 1280,
-        "height": 1034
-      },
-      {
-        "src": "/media/switches/manufacturer-logos/manufacturer-f090ff24618b41641df9a259c56471b22bbf8b93b2b899c6b6e627ee377a977d-2400.avif",
-        "width": 2048,
-        "height": 1654
+        "height": 499
       }
     ]
   },

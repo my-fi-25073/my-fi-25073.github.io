@@ -99,6 +99,7 @@ const records = defineCollection({
       footprintType: z.string().nullable(),
       switchTypes: z.array(z.string()),
       isFranken: z.boolean(),
+      catalogOrder:z.number().int().nonnegative().optional(),
       coverImageIndex: z.number().int().nonnegative().nullable().optional(),
       coverIsProductImage: z.literal(true).optional(),
       modelFamily: z.object({
@@ -167,4 +168,14 @@ const records = defineCollection({
   }),
 });
 
-export const collections = { gallery, keyboards, records };
+const posts=defineCollection({
+  loader:glob({pattern:'*.md',base:'./src/content/posts'}),
+  schema:z.object({
+    title:z.string().min(1),section:z.enum(['photolog','build-log']),
+    publishedAt:z.coerce.date(),description:z.string().optional(),
+    draft:z.boolean().default(true),cover:galleryImage.optional(),
+    pcbs:z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { gallery, keyboards, records, posts };

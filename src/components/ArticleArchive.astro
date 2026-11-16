@@ -1,0 +1,18 @@
+---
+import {getCollection} from 'astro:content';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import {galleryImage,renderGalleryCard} from '../../public/ui/gallery.mjs';
+interface Props{section:'photolog'|'build-log'}
+const {section}=Astro.props;
+const title=section==='photolog'?'Photolog':'Build Log';
+const posts=(await getCollection('posts')).filter(post=>post.data.section===section&&!post.data.draft).sort((a,b)=>b.data.publishedAt.getTime()-a.data.publishedAt.getTime());
+---
+<SiteLayout title={title}>
+  <section class="shell archive-catalog-shell kl-gallery-scope">
+    <header class="archive-catalog-heading"><h1 lang="en">{title}</h1></header>
+    {posts.length?<div class="kl-gallery gallery-grid" data-gallery-role="archive">
+      {posts.map(post=><Fragment set:html={renderGalleryCard({title:post.data.title,href:`/${section}/${post.id}/`,kind:'keyboard',headingLevel:2,image:galleryImage(post.data.cover,'keyboard'),metadata:[{value:post.data.publishedAt.toISOString().slice(0,10)}]})}/>)}
+    </div>:<p class="empty-state">아직 공개된 글이 없습니다.</p>}
+  </section>
+</SiteLayout>
+<style>.empty-state{padding-block:var(--k-space-8);border-top:1px solid var(--k-rule);color:var(--k-muted)}</style>
