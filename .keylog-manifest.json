@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "9c20aabe1463b670cfa921b7a7c351f2f5f6c9406ef63fb1b30eaeaf2b165bff",
+  "releaseId": "dbe63f104c972fa4f0b8a278855c8e2328b6c041c5373af897b881d3d43a5227",
   "files": [
     {
       "path": "content/collections.json",
@@ -714,8 +714,8 @@
     },
     {
       "path": "content/keyboards/metallali.json",
-      "bytes": 4336,
-      "sha256": "9c5d6eaae7456dbb9eab570b03ebf47064f2bac7835a828979d8a27e88fc0566"
+      "bytes": 4446,
+      "sha256": "78e99f8e82ad1efb29d31c85623244d6a407bca58788141e82d616080034a22d"
     },
     {
       "path": "content/keyboards/mitt-38.json",
@@ -839,8 +839,8 @@
     },
     {
       "path": "content/pcbs.json",
-      "bytes": 14973,
-      "sha256": "32597149efd4789a3d870adc9eb73e3180246587124d66586450483edd2dd96b"
+      "bytes": 15843,
+      "sha256": "e0fe3d97d6b3d0926121bc2c567b36fc9d05b573bbb5859e5b5a4a5305668524"
     },
     {
       "path": "content/records/switches--aiguoxin-beat-lemon.json",
@@ -11198,6 +11198,11 @@
       "sha256": "0b5a87caf67fe89a6d17e49bf075c2aaf8543492ce5533a4b158ceeb8b1f30bc"
     },
     {
+      "path": "media/pcbs/0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50.webp",
+      "bytes": 70488,
+      "sha256": "0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50"
+    },
+    {
       "path": "media/pcbs/18d2c543a72acfd846a048f2d0879f75982f73116027223e3291e6af5020e311.glb",
       "bytes": 8072552,
       "sha256": "18d2c543a72acfd846a048f2d0879f75982f73116027223e3291e6af5020e311"
@@ -11236,6 +11241,11 @@
       "path": "media/pcbs/5b0ac87db784d2bbd3c602f59437e7e26adf81d5cbdf5549f48a3b762f40933f.glb",
       "bytes": 7984416,
       "sha256": "5b0ac87db784d2bbd3c602f59437e7e26adf81d5cbdf5549f48a3b762f40933f"
+    },
+    {
+      "path": "media/pcbs/5cec862ffbb16b1b2248d78d8f2ce79da7a41f0833a77ec05332850788f960b2.glb",
+      "bytes": 9671352,
+      "sha256": "5cec862ffbb16b1b2248d78d8f2ce79da7a41f0833a77ec05332850788f960b2"
     },
     {
       "path": "media/pcbs/6f4694986007fad1e611a981087c0bcbbb653bc8f181ddc15e1b2dad9cb3299c.webp",

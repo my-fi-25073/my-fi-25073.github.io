@@ -72,6 +72,7 @@
 .k-button[data-public-hidden][data-ui="text"] { color: var(--k-muted); }
 .kl-card-fields { display: grid; gap: 4px; margin: 0; color: var(--k-muted); font-size: var(--k-type-caption); line-height: 1.45; }
 .kl-card-fields > div { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 7px; }
+.kl-card-fields > [data-field-layout="stacked"] { display: grid; gap: 2px; }
 .kl-card-fields dt { color: var(--k-muted); }
 .kl-card-fields dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
 .kl-card-menu { position: absolute; top: 6px; right: 6px; z-index: 2; }

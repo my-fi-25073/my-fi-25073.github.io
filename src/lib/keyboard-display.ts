@@ -60,10 +60,11 @@ function keyboardLayoutFields(layouts: string[]): DisplayField[] {
   ];
 }
 
-export function buildKeyboardCardFields(record: KeyboardRecord): DisplayField[] {
+export function buildKeyboardCardFields(record: KeyboardRecord) {
+  const keycaps = record.build.keycaps.map((keycap) => keycap.title).filter((title) => title && title !== 'N/A');
   return [
     ...listField('layouts', 'Layout', record.layouts),
-    ...listField('keycaps', 'Keycap', record.build.keycaps.map((keycap) => keycap.title)),
+    ...(keycaps.length ? [{ key: 'keycaps', label: 'Keycap', value: keycaps }] : []),
   ];
 }
 

@@ -123,7 +123,12 @@ export function renderGalleryMedia(image, kind = 'switch', placeholderLogo = nul
  */
 export function renderGalleryCard({ title, href = '', image = null, placeholderLogo = null, kind = 'switch', metadata = [], attributes = {}, headingLevel = 3, previewImage = null, actions = [], linkAttributes = {} }) {
   const tag = headingLevel === 2 ? 'h2' : headingLevel === 3 ? 'h3' : 'strong';
-  const metadataHtml = metadata.filter((field) => field.value != null && String(field.value).trim()).map((field) => `<div>${field.label ? `<dt>${escapeHtml(field.label)}</dt>` : ''}<dd>${escapeHtml(field.value)}</dd></div>`).join('');
+  const metadataHtml = metadata.map(({ label, value }) => {
+    const values = (Array.isArray(value) ? value : [value]).filter((item) => item != null && String(item).trim());
+    if (!values.length) return '';
+    const definitions = values.map((item) => `<dd>${escapeHtml(item)}</dd>`).join('');
+    return `<div${Array.isArray(value) ? ' data-field-layout="stacked"' : ''}>${label ? `<dt>${escapeHtml(label)}</dt>` : ''}${definitions}</div>`;
+  }).join('');
   const preview = previewImage ? `<template data-gallery-preview>${renderGalleryMedia(previewImage, kind)}</template>` : '';
   const body = `${renderGalleryMedia(image, kind, placeholderLogo)}${preview}<div class="kl-card-copy"><${tag} class="kl-card-title">${escapeHtml(title)}</${tag}>${metadataHtml ? `<dl class="kl-card-fields">${metadataHtml}</dl>` : ''}</div>`;
   const destination = safeUrl(href);

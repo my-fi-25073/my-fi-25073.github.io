@@ -125,6 +125,39 @@
       }
     },
     {
+      "slug": "metallali-pcb",
+      "title": "Metallali PCB",
+      "description": null,
+      "repositoryUrl": null,
+      "images": [
+        {
+          "alt": "Metallali PCB",
+          "presentation": "render",
+          "preserveColor": true,
+          "variants": [
+            {
+              "src": "/media/pcbs/0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50.webp",
+              "width": 1200,
+              "height": 543
+            }
+          ]
+        }
+      ],
+      "scene": {
+        "file": "Metallali.glb",
+        "name": "Metallali PCB",
+        "parts": [
+          {
+            "file": "Metallali.glb",
+            "url": "/media/pcbs/5cec862ffbb16b1b2248d78d8f2ce79da7a41f0833a77ec05332850788f960b2.glb",
+            "bytes": 9671352
+          }
+        ],
+        "bytes": 9671352,
+        "colors": {}
+      }
+    },
+    {
       "slug": "mf40-r12aw",
       "title": "MF40-R12AW",
       "description": null,
