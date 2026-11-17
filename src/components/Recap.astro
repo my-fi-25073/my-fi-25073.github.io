@@ -66,14 +66,12 @@ const timeline = activeMonths.map((month) => {
 
 <SiteLayout title={isIndex ? recapTitle : `${year} Recap`} description={description}>
   <div class="shell archive-catalog-shell">
-    {cover && (
-      <div class:list={['recap-cover', `recap-cover-${year}`]}>
+    <section class:list={['archive-catalog-heading', 'recap-heading', cover && 'recap-cover', cover && `recap-cover-${year}`]} aria-labelledby="recap-year-title">
+      {cover && (
         <img src={cover.large.src} srcset={`${cover.small.src} 768w, ${cover.large.src} 1600w`}
           sizes="(max-width: 1440px) 94vw, 1328px" width={cover.large.width} height={cover.large.height}
           alt={cover.alt} fetchpriority="high" />
-      </div>
-    )}
-    <section class="archive-catalog-heading recap-heading" aria-labelledby="recap-year-title">
+      )}
       <h1 id="recap-year-title">{isIndex ? <span lang="en">{recapTitle}</span> : year}</h1>
     </section>
     <div class="archive-catalog-layout">
@@ -155,15 +153,34 @@ const timeline = activeMonths.map((month) => {
 </SiteLayout>
 
 <style>
-  .recap-cover { margin-top: clamp(14px, 2.1vw, 32px); background: var(--k-surface); }
+  .recap-heading { padding-top: clamp(22px, 3.4vw, 44px); }
+  .recap-cover {
+    position: relative;
+    display: grid;
+    align-content: end;
+    justify-content: start;
+    min-height: clamp(244px, 29vw, 424px);
+    margin-top: clamp(14px, 2.1vw, 32px);
+    padding-inline: clamp(16px, 3vw, 42px);
+    background: var(--k-ink);
+    color: #fff;
+  }
   .recap-cover img {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: clamp(168px, 18vw, 284px);
+    height: 100%;
     object-fit: cover;
     object-position: 50% 53%;
   }
+  .recap-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgb(0 0 0 / 78%), transparent 68%);
+  }
+  .recap-cover h1 { position: relative; z-index: 1; }
   .recap-cover-2024 img { object-position: 50% 57%; }
-  .recap-heading { padding-top: clamp(22px, 3.4vw, 44px); }
   .recap-builds { --timeline-label-width: 5.25rem; --timeline-rule: var(--k-rule); }
   .recap-month { padding-bottom: clamp(26px, 4vw, 52px); }
   .recap-month h2 {

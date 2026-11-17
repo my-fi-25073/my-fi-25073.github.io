@@ -17,9 +17,10 @@ interface FilterAxis {
 interface Props {
   axes: FilterAxis[];
   presets?: Record<string, KeyboardFilterPreset>;
+  totalCount: number;
 }
 
-const { axes, presets = {} } = Astro.props;
+const { axes, presets = {}, totalCount } = Astro.props;
 ---
 
 <details class="keyboard-filters" data-keyboard-filters data-presets={JSON.stringify(presets)} open>
@@ -31,7 +32,7 @@ const { axes, presets = {} } = Astro.props;
       <div class="k-filter-options">
         <label class="k-filter-option">
           <input type="radio" name={axis.key} value="" checked />
-          <span>All</span>
+          <span>All<small aria-hidden="true">{totalCount}</small></span>
         </label>
         {axis.groups.map((group) => (
           <label class="k-filter-option">

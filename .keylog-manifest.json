@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "dbe63f104c972fa4f0b8a278855c8e2328b6c041c5373af897b881d3d43a5227",
+  "releaseId": "b3ad7e634e7d0c18cb7167a6a8a5ba8f281404d3ec7060cc8901aadf64bb0270",
   "files": [
     {
       "path": "content/collections.json",
@@ -839,8 +839,8 @@
     },
     {
       "path": "content/pcbs.json",
-      "bytes": 15843,
-      "sha256": "e0fe3d97d6b3d0926121bc2c567b36fc9d05b573bbb5859e5b5a4a5305668524"
+      "bytes": 15918,
+      "sha256": "9184f86806f0b11c7cd1dd97bb7b1b789b165621a3b9b20d70d8b2e4d2c9b289"
     },
     {
       "path": "content/records/switches--aiguoxin-beat-lemon.json",
@@ -11198,11 +11198,6 @@
       "sha256": "0b5a87caf67fe89a6d17e49bf075c2aaf8543492ce5533a4b158ceeb8b1f30bc"
     },
     {
-      "path": "media/pcbs/0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50.webp",
-      "bytes": 70488,
-      "sha256": "0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50"
-    },
-    {
       "path": "media/pcbs/18d2c543a72acfd846a048f2d0879f75982f73116027223e3291e6af5020e311.glb",
       "bytes": 8072552,
       "sha256": "18d2c543a72acfd846a048f2d0879f75982f73116027223e3291e6af5020e311"
@@ -11216,6 +11211,11 @@
       "path": "media/pcbs/1e0ba136b117833690c16f12cb9bb07c3b8fdd78f9dda2a25b24fc925e8651c8.webp",
       "bytes": 55732,
       "sha256": "1e0ba136b117833690c16f12cb9bb07c3b8fdd78f9dda2a25b24fc925e8651c8"
+    },
+    {
+      "path": "media/pcbs/20980b400f9a86f14fb743104986190497ae47bc5e54f1b7cb0f6671d78eb099.webp",
+      "bytes": 67648,
+      "sha256": "20980b400f9a86f14fb743104986190497ae47bc5e54f1b7cb0f6671d78eb099"
     },
     {
       "path": "media/pcbs/24df28604bc0fdbc160cd7d37ff3de809d1eb91097835e8ffcdd45b13ce386e2.webp",

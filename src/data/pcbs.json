@@ -136,9 +136,9 @@
           "preserveColor": true,
           "variants": [
             {
-              "src": "/media/pcbs/0fe9bd33b9a413b9191f5de0824d40a6225ebc09b576c212f09385af9f984a50.webp",
+              "src": "/media/pcbs/20980b400f9a86f14fb743104986190497ae47bc5e54f1b7cb0f6671d78eb099.webp",
               "width": 1200,
-              "height": 543
+              "height": 534
             }
           ]
         }
@@ -154,7 +154,10 @@
           }
         ],
         "bytes": 9671352,
-        "colors": {}
+        "colors": {
+          "frontMask": "#171717",
+          "backMask": "#171717"
+        }
       }
     },
     {
