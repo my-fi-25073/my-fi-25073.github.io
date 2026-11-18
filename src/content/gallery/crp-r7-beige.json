@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "crp-r7-beige",
+  "title": "CRP R7 Beige",
+  "category": "keycaps",
+  "manufacturer": "Hammerworks",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "base-desko-black",
+      "title": "Base - Desko Black",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Base - Desko Black 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-c0c9aaed2f8859d7-gallery-0-515b6f8df765-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-c0c9aaed2f8859d7-gallery-0-515b6f8df765-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-c0c9aaed2f8859d7-gallery-0-515b6f8df765-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-lowercase",
+      "title": "Alphas - Lowercase",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Lowercase 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-7bc47e19199319ff-gallery-0-308948dc8f02-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-7bc47e19199319ff-gallery-0-308948dc8f02-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-7bc47e19199319ff-gallery-0-308948dc8f02-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-peacock",
+      "title": "Alphas - Peacock",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Peacock 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-9fa96fe21d5c8e72-gallery-0-359ac640635a-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-9fa96fe21d5c8e72-gallery-0-359ac640635a-640.avif",
+              "width": 640,
+              "height": 242
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-9fa96fe21d5c8e72-gallery-0-359ac640635a-1280.avif",
+              "width": 1280,
+              "height": 485
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-9fa96fe21d5c8e72-gallery-0-359ac640635a-2400.avif",
+              "width": 2103,
+              "height": 797
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-tulip",
+      "title": "Alphas - Tulip",
+      "kittingTypes": [
+        "Alpha - Latin"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Tulip 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-2b1d40924b58ec99-gallery-0-4a97540cc8c2-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-2b1d40924b58ec99-gallery-0-4a97540cc8c2-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-2b1d40924b58ec99-gallery-0-4a97540cc8c2-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-cyrillic",
+      "title": "Alphas - Cyrillic",
+      "kittingTypes": [
+        "Alpha - Cyrillic"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Cyrillic 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-e2fdc75def5b83d1-gallery-0-a51edce93747-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-e2fdc75def5b83d1-gallery-0-a51edce93747-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-e2fdc75def5b83d1-gallery-0-a51edce93747-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-greek",
+      "title": "Alphas - Greek",
+      "kittingTypes": [
+        "Alpha - Greek"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Greek 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-ff636addf31d2b0c-gallery-0-d1fb912d9f70-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-ff636addf31d2b0c-gallery-0-d1fb912d9f70-640.avif",
+              "width": 640,
+              "height": 248
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-ff636addf31d2b0c-gallery-0-d1fb912d9f70-1280.avif",
+              "width": 1280,
+              "height": 495
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-ff636addf31d2b0c-gallery-0-d1fb912d9f70-2400.avif",
+              "width": 2085,
+              "height": 806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alphas-arabic",
+      "title": "Alphas - Arabic",
+      "kittingTypes": [
+        "Alpha - Arabic"
+      ],
+      "images": [
+        {
+          "alt": "Alphas - Arabic 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-5c6664c70948462e-gallery-0-8d0bc7e82aad-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-5c6664c70948462e-gallery-0-8d0bc7e82aad-640.avif",
+              "width": 640,
+              "height": 242
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-5c6664c70948462e-gallery-0-8d0bc7e82aad-1280.avif",
+              "width": 1280,
+              "height": 483
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-5c6664c70948462e-gallery-0-8d0bc7e82aad-2400.avif",
+              "width": 2135,
+              "height": 806
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "center-mount",
+      "title": "Center Mount",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Center Mount 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-ff496d56913d1e21-gallery-0-635a2baea638-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-ff496d56913d1e21-gallery-0-635a2baea638-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-ff496d56913d1e21-gallery-0-635a2baea638-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mods-all-in",
+      "title": "Mods - All-in",
+      "kittingTypes": [
+        "Modifier - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Mods - All-in 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-271fa9842b733844-gallery-0-e0f8ba077704-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-271fa9842b733844-gallery-0-e0f8ba077704-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-271fa9842b733844-gallery-0-e0f8ba077704-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stepped",
+      "title": "Stepped",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Stepped 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-2d83a89b1395b3a5-gallery-0-2419c5485f14-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-2d83a89b1395b3a5-gallery-0-2419c5485f14-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-2d83a89b1395b3a5-gallery-0-2419c5485f14-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "modern",
+      "title": "Modern",
+      "kittingTypes": [
+        "Modifier - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Modern 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-e58e33273e6f8bdb-gallery-0-d8c00623f402-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-e58e33273e6f8bdb-gallery-0-d8c00623f402-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-e58e33273e6f8bdb-gallery-0-d8c00623f402-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stepped-icon",
+      "title": "Stepped Icon",
+      "kittingTypes": [
+        "Modifier - Icon"
+      ],
+      "images": [
+        {
+          "alt": "Stepped Icon 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-96c7687becdbe4e9-gallery-0-e13132e31ae8-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-96c7687becdbe4e9-gallery-0-e13132e31ae8-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-96c7687becdbe4e9-gallery-0-e13132e31ae8-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "icon",
+      "title": "Icon",
+      "kittingTypes": [
+        "Modifier - Icon"
+      ],
+      "images": [
+        {
+          "alt": "Icon 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-dce8bd2690b97bff-gallery-0-6cd86467934f-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-dce8bd2690b97bff-gallery-0-6cd86467934f-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-dce8bd2690b97bff-gallery-0-6cd86467934f-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mods-40s",
+      "title": "Mods - 40s",
+      "kittingTypes": [
+        "Accent - Nomad"
+      ],
+      "images": [
+        {
+          "alt": "Mods - 40s 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-f18eecb436fdf687-gallery-0-7ff7bf04279a-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-f18eecb436fdf687-gallery-0-7ff7bf04279a-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-f18eecb436fdf687-gallery-0-7ff7bf04279a-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "numpad",
+      "title": "Numpad",
+      "kittingTypes": [
+        "Child - Numpad"
+      ],
+      "images": [
+        {
+          "alt": "Numpad 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-5b3ad9f564165b2d-gallery-0-0a0a3ca447fa-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-5b3ad9f564165b2d-gallery-0-0a0a3ca447fa-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-5b3ad9f564165b2d-gallery-0-0a0a3ca447fa-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spacebars",
+      "title": "Spacebars",
+      "kittingTypes": [
+        "Child - Spacebars"
+      ],
+      "images": [
+        {
+          "alt": "Spacebars 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/crp-r7-beige/kit-1e848e6436a107f3-gallery-0-0296848b99d8-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/crp-r7-beige/kit-1e848e6436a107f3-gallery-0-0296848b99d8-640.avif",
+              "width": 640,
+              "height": 640
+            },
+            {
+              "src": "/media/crp-r7-beige/kit-1e848e6436a107f3-gallery-0-0296848b99d8-1280.avif",
+              "width": 1200,
+              "height": 1200
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": []
+}

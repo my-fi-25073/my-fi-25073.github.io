@@ -161,7 +161,7 @@
         "groups": [
           {
             "id": "80",
-            "label": "75·80%",
+            "label": "80%",
             "match": {
               "field": "layouts[]",
               "operator": "in",
@@ -174,7 +174,7 @@
           },
           {
             "id": "60",
-            "label": "60·65·70%",
+            "label": "60%",
             "match": {
               "field": "layouts[]",
               "operator": "in",
