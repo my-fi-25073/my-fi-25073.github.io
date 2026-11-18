@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "releaseId": "db8d43d897df13203904bb1db80233fc1fd0e6587c8bb76be5b19a9a2a460f47",
+  "releaseId": "e4557705a91c879c4ce3d04ffc1b901befef779243a55672f47338eb1ee2cf21",
   "files": [
     {
       "path": "content/collections.json",
-      "bytes": 36064,
-      "sha256": "3cfc03933e186e8a0304225a0ada8e07800a25d5f1d51a495398d132c242b5f9"
+      "bytes": 37168,
+      "sha256": "e4c77c4e44a8884e0afd18f4d870d3c2c0a23ce3bfeb5c337a03915b0e6be440"
     },
     {
       "path": "content/gallery/800.json",
@@ -561,6 +561,11 @@
       "path": "content/gallery/wob-katakana.json",
       "bytes": 2430,
       "sha256": "17796bbc0ce2f29a48f41b9cf4ff04a61de2aa25ae46cc06707d53362ac77515"
+    },
+    {
+      "path": "content/keyboards/21xx.json",
+      "bytes": 1675,
+      "sha256": "a8515bbeb860e678ba083248b6ecadcc0b1a21d67f17bf49850e3cacf302acdc"
     },
     {
       "path": "content/keyboards/apodiformbird-v1.json",
@@ -6736,6 +6741,26 @@
       "path": "media/kbdfans-hhkb-keysets/series-28dc4eb11789675d-source-gallery-0-30c949fe9393-gallery-6x5-a303c41129ae-640.webp",
       "bytes": 10400,
       "sha256": "0a6ed2f8eacf7664aedcf9873f997e2a1fd21e72e327ecae72c7068ebf2aa10a"
+    },
+    {
+      "path": "media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-1280.avif",
+      "bytes": 84958,
+      "sha256": "13bb6c1c550e98b568968a694dfbbe90ea72888cddfac3782f61fca352d6718a"
+    },
+    {
+      "path": "media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-2400.avif",
+      "bytes": 249976,
+      "sha256": "b8b6c334e57f62fcccd86e93f91297e063347b6798190b269c9e48cdde255c62"
+    },
+    {
+      "path": "media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-640.avif",
+      "bytes": 23418,
+      "sha256": "cd67fb9f2125a6e8278e4628ed7136dfc8d872c87e6a8da4a7afdfdfe10fc0b1"
+    },
+    {
+      "path": "media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-gallery-16x9-23e4efa7fd49-640.webp",
+      "bytes": 36194,
+      "sha256": "fe47080ce8a3e9d8d6c708e1f90526c033bd918a23f331c35090a0f650cdfbf1"
     },
     {
       "path": "media/keyboards/apodiformbird-v1/dce1e2f2ebc774aa-source-gallery-0-9fcdd1e69f3b-1280.avif",

@@ -38,7 +38,7 @@ const sizeUrlAliases = new Map(groupsForCollectionView(manifest, 'keyboard-sizes
 const filterAxes = filterViews.map(({ key, label, viewId }) => ({
   key,
   label,
-  groups: groupsWithCounts(records, manifest, [viewId]).map((group) => ({
+  groups: groupsWithCounts(records, manifest, [viewId], { showEmpty: key === 'size' }).map((group) => ({
     ...group,
     aliases: key === 'size' ? sizeUrlAliases.get(group.id) : undefined,
   })),

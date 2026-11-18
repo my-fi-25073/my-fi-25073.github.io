@@ -223,11 +223,12 @@ export function groupsWithCounts<T extends object>(
   records: T[],
   manifest: CollectionManifest,
   viewIds: string[],
+  { showEmpty = false } = {},
 ) {
   const groups = viewIds.flatMap((viewId) => groupsForCollectionView(manifest, viewId));
   return groups.map((group) => ({
     id: group.id,
     label: group.label,
     count: records.filter((record) => matchesCollectionGroup(record, group.match)).length,
-  })).filter((group) => group.count > 0);
+  })).filter((group) => showEmpty || group.count > 0);
 }

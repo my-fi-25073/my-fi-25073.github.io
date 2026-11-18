@@ -160,6 +160,28 @@
       "group": {
         "groups": [
           {
+            "id": "150",
+            "label": "150%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "150%"
+              ]
+            }
+          },
+          {
+            "id": "100",
+            "label": "100%",
+            "match": {
+              "field": "layouts[]",
+              "operator": "in",
+              "values": [
+                "100%"
+              ]
+            }
+          },
+          {
             "id": "80",
             "label": "80%",
             "match": {
@@ -1086,6 +1108,32 @@
               "6x17",
               "75%"
             ]
+          },
+          "100": {
+            "sort": [
+              {
+                "field": "lastBuiltAt",
+                "direction": "asc"
+              },
+              {
+                "field": "title",
+                "direction": "asc"
+              }
+            ],
+            "groups": []
+          },
+          "150": {
+            "sort": [
+              {
+                "field": "lastBuiltAt",
+                "direction": "asc"
+              },
+              {
+                "field": "title",
+                "direction": "asc"
+              }
+            ],
+            "groups": []
           },
           "low-stagger": {
             "sort": [

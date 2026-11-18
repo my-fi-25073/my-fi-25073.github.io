@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "keyboard",
+  "slug": "21xx",
+  "title": "21XX",
+  "category": "keyboards",
+  "status": "빌드 완료",
+  "lastBuiltAt": "2026-11-15",
+  "modules": [],
+  "plates": [],
+  "ergonomicFeatures": [],
+  "layouts": [
+    "모노블럭",
+    "로우스태거",
+    "100%",
+    "WKL"
+  ],
+  "mounts": [
+    "탑 마운트"
+  ],
+  "foams": [],
+  "build": {
+    "label": "현재 빌드",
+    "state": "draft",
+    "startedAt": null,
+    "completedAt": null,
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "Base - Standard",
+        "quantity": null,
+        "href": "/gallery/norde-beige/#base-standard-dd997faf42bb"
+      },
+      {
+        "kind": "kit",
+        "title": "Beige 2000s",
+        "quantity": null,
+        "href": "/gallery/vintage-keys/#beige-2000s"
+      }
+    ],
+    "switches": []
+  },
+  "images": [
+    {
+      "alt": "21XX 사진 1",
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-gallery-16x9-23e4efa7fd49-640.webp",
+          "width": 640,
+          "height": 360
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-640.avif",
+          "width": 640,
+          "height": 340
+        },
+        {
+          "src": "/media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-1280.avif",
+          "width": 1280,
+          "height": 679
+        },
+        {
+          "src": "/media/keyboards/21xx/f57a65efe84a942f-gallery-0-c01166e23b7c-2400.avif",
+          "width": 2400,
+          "height": 1273
+        }
+      ]
+    }
+  ]
+}
