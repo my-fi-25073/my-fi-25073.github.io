@@ -28,7 +28,14 @@
     "state": "approved",
     "startedAt": null,
     "completedAt": "2026-05-10",
-    "keycaps": [],
+    "keycaps": [
+      {
+        "kind": "series",
+        "title": "PFF Space Cadet",
+        "quantity": null,
+        "href": "/gallery/pff-space-cadet/"
+      }
+    ],
     "switches": [
       {
         "title": "Lofree Surfer",

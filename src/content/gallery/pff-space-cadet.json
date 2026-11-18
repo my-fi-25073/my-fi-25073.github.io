@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "pff-space-cadet-custom",
-  "title": "PFF Space Cadet Custom",
+  "slug": "pff-space-cadet",
+  "title": "PFF Space Cadet",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PFF",
@@ -31,19 +31,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-space-cadet/kit-27a19d71d2f58140-gallery-0-22882b2f0404-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-640.avif",
+              "src": "/media/pff-space-cadet/kit-27a19d71d2f58140-gallery-0-22882b2f0404-640.avif",
               "width": 640,
               "height": 497
             },
             {
-              "src": "/media/pff-space-cadet-custom/kit-27a19d71d2f58140-gallery-0-22882b2f0404-1280.avif",
+              "src": "/media/pff-space-cadet/kit-27a19d71d2f58140-gallery-0-22882b2f0404-1280.avif",
               "width": 911,
               "height": 707
             }
@@ -54,28 +54,28 @@
   ],
   "images": [
     {
-      "alt": "PFF Space Cadet Custom 이미지 1",
+      "alt": "PFF Space Cadet 이미지 1",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-gallery-6x5-23e4efa7fd49-640.webp",
+          "src": "/media/pff-space-cadet/series-187605dc50870215-source-gallery-0-2836e50404a4-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-640.avif",
+          "src": "/media/pff-space-cadet/series-187605dc50870215-source-gallery-0-2836e50404a4-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-1280.avif",
+          "src": "/media/pff-space-cadet/series-187605dc50870215-source-gallery-0-2836e50404a4-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/pff-space-cadet-custom/series-187605dc50870215-source-gallery-0-2836e50404a4-2400.avif",
+          "src": "/media/pff-space-cadet/series-187605dc50870215-source-gallery-0-2836e50404a4-2400.avif",
           "width": 1568,
           "height": 1164
         }

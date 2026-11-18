@@ -28,7 +28,14 @@
     "state": "approved",
     "startedAt": null,
     "completedAt": "2026-05-10",
-    "keycaps": [],
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "White",
+        "quantity": null,
+        "href": "/gallery/klp-blancks-keycoon/#white"
+      }
+    ],
     "switches": [
       {
         "title": "Lofree Surfer 25g",

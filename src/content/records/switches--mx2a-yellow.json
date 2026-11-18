@@ -208,12 +208,8 @@
           "force": null,
           "specifications": [
             {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "건식"
+              "label": "Type",
+              "value": "Dry Lubricant"
             }
           ],
           "manufacturerLogo": {
@@ -243,7 +239,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,

@@ -48,21 +48,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-640.avif",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-640.avif",
               "width": 640,
-              "height": 502
+              "height": 350
             },
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-1280.avif",
-              "width": 662,
-              "height": 519
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-1280.avif",
+              "width": 838,
+              "height": 458
             }
           ]
         },
@@ -71,21 +71,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-640.avif",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-640.avif",
               "width": 640,
-              "height": 350
+              "height": 423
             },
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-1280.avif",
-              "width": 838,
-              "height": 458
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-1280.avif",
+              "width": 875,
+              "height": 578
             }
           ]
         }
@@ -111,9 +111,9 @@
         }
       ],
       "detailImageIndexes": [
-        0
+        1
       ],
-      "coverImageIndex": 0
+      "coverImageIndex": 1
     },
     {
       "label": "Factory Lubed",
@@ -263,23 +263,23 @@
       ],
       "specificationImages": [
         {
-          "alt": "Durock Ice Queen 사진 2",
+          "alt": "Durock Ice Queen 사진 1",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-640.avif",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-640.avif",
               "width": 640,
               "height": 350
             },
             {
-              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-1280.avif",
+              "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-1280.avif",
               "width": 838,
               "height": 458
             }
@@ -296,21 +296,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-640.avif",
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-640.avif",
           "width": 640,
-          "height": 502
+          "height": 350
         },
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-8c30d0dd87c3-1280.avif",
-          "width": 662,
-          "height": 519
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-0-44b3b98e46f9-1280.avif",
+          "width": 838,
+          "height": 458
         }
       ]
     },
@@ -319,21 +319,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-640.avif",
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-640.avif",
           "width": 640,
-          "height": 350
+          "height": 423
         },
         {
-          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-source-gallery-1-44b3b98e46f9-1280.avif",
-          "width": 838,
-          "height": 458
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-8b54a6132229-gallery-0-79a57995f4bc-1280.avif",
+          "width": 875,
+          "height": 578
         }
       ]
     },
@@ -357,6 +357,29 @@
           "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-b5132d7c2e3e-source-gallery-0-b60f515a22fa-1280.avif",
           "width": 737,
           "height": 609
+        }
+      ]
+    },
+    {
+      "alt": "Durock Ice Queen 사진 4",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-b5132d7c2e3e-source-gallery-1-8c30d0dd87c3-gallery-4x3-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 480
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-b5132d7c2e3e-source-gallery-1-8c30d0dd87c3-640.avif",
+          "width": 640,
+          "height": 502
+        },
+        {
+          "src": "/media/switches/durock-ice-queen/34d6003b6ba750ec-b5132d7c2e3e-source-gallery-1-8c30d0dd87c3-1280.avif",
+          "width": 662,
+          "height": 519
         }
       ]
     }

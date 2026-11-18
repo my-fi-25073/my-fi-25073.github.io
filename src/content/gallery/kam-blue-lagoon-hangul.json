@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "custom-gondola-blue-hangul",
-  "title": "Custom Gondola Blue Hangul",
+  "slug": "kam-blue-lagoon-hangul",
+  "title": "KAM Blue Lagoon Hangul",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KAM",
@@ -31,19 +31,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-640.avif",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-640.avif",
               "width": 640,
               "height": 483
             },
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-1280.avif",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-0-725052c1a372-1280.avif",
               "width": 1024,
               "height": 773
             }
@@ -54,19 +54,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-640.avif",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-640.avif",
               "width": 640,
               "height": 483
             },
             {
-              "src": "/media/custom-gondola-blue-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-1280.avif",
+              "src": "/media/kam-blue-lagoon-hangul/kit-314adead9a50c143-source-gallery-1-7109f723b539-1280.avif",
               "width": 1024,
               "height": 772
             }
@@ -77,28 +77,28 @@
   ],
   "images": [
     {
-      "alt": "Custom Gondola Blue Hangul 이미지 1",
+      "alt": "KAM Blue Lagoon Hangul 이미지 1",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
+          "src": "/media/kam-blue-lagoon-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-640.avif",
+          "src": "/media/kam-blue-lagoon-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-1280.avif",
+          "src": "/media/kam-blue-lagoon-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/custom-gondola-blue-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-2400.avif",
+          "src": "/media/kam-blue-lagoon-hangul/series-6c38213d763feeab-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }

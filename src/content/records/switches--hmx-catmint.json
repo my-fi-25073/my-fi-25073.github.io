@@ -50,21 +50,16 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-984b3800d525-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-640.avif",
-              "width": 640,
-              "height": 522
-            },
-            {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-1280.avif",
-              "width": 1075,
-              "height": 876
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-984b3800d525-640.avif",
+              "width": 592,
+              "height": 413
             }
           ]
         },
@@ -73,16 +68,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-984b3800d525-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-984b3800d525-640.avif",
-              "width": 592,
-              "height": 413
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-640.avif",
+              "width": 640,
+              "height": 690
+            },
+            {
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-1280.avif",
+              "width": 712,
+              "height": 768
             }
           ]
         },
@@ -91,21 +91,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-640.avif",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-640.avif",
               "width": 640,
-              "height": 690
+              "height": 480
             },
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-1280.avif",
-              "width": 712,
-              "height": 768
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-1280.avif",
+              "width": 858,
+              "height": 643
             }
           ]
         }
@@ -169,9 +169,9 @@
       ],
       "detailImageIndexes": [
         0,
-        1
+        2
       ],
-      "coverImageIndex": 0
+      "coverImageIndex": 2
     },
     {
       "label": "25g · Factory Lube",
@@ -249,21 +249,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-640.avif",
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-640.avif",
               "width": 640,
-              "height": 500
+              "height": 461
             },
             {
-              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-1280.avif",
-              "width": 1226,
-              "height": 957
+              "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-1280.avif",
+              "width": 895,
+              "height": 644
             }
           ]
         }
@@ -339,21 +339,16 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-984b3800d525-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-640.avif",
-          "width": 640,
-          "height": 522
-        },
-        {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-ca7f168ddefe-1280.avif",
-          "width": 1075,
-          "height": 876
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-0-984b3800d525-640.avif",
+          "width": 592,
+          "height": 413
         }
       ]
     },
@@ -362,16 +357,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-984b3800d525-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-984b3800d525-640.avif",
-          "width": 592,
-          "height": 413
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-640.avif",
+          "width": 640,
+          "height": 690
+        },
+        {
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-1-b41172db2a5c-1280.avif",
+          "width": 712,
+          "height": 768
         }
       ]
     },
@@ -380,21 +380,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-640.avif",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-640.avif",
           "width": 640,
-          "height": 690
+          "height": 480
         },
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-source-gallery-2-b41172db2a5c-1280.avif",
-          "width": 712,
-          "height": 768
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-40532c2c8da5-gallery-0-e156104c57fd-1280.avif",
+          "width": 858,
+          "height": 643
         }
       ]
     },
@@ -403,21 +403,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-640.avif",
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-640.avif",
           "width": 640,
-          "height": 500
+          "height": 461
         },
         {
-          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-source-gallery-2-083ca046e5c8-1280.avif",
-          "width": 1226,
-          "height": 957
+          "src": "/media/switches/hmx-catmint/e25f8d1efdc9c2ee-ad68ded2eda2-gallery-0-ffb3e393427f-1280.avif",
+          "width": 895,
+          "height": 644
         }
       ]
     }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "smrt",
-  "title": "SMRT",
+  "slug": "dcs-smrt",
+  "title": "DCS SMRT",
   "category": "keycaps",
   "manufacturer": "SP",
   "profile": "DCS",
@@ -25,19 +25,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/dcs-smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-640.avif",
+              "src": "/media/dcs-smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-640.avif",
               "width": 640,
               "height": 474
             },
             {
-              "src": "/media/smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-1280.avif",
+              "src": "/media/dcs-smrt/kit-aa27abd20f317b0f-gallery-0-00abb91d19ce-1280.avif",
               "width": 1001,
               "height": 741
             }
@@ -57,19 +57,19 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/dcs-smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-640.avif",
+              "src": "/media/dcs-smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-640.avif",
               "width": 640,
               "height": 445
             },
             {
-              "src": "/media/smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-1280.avif",
+              "src": "/media/dcs-smrt/kit-33418f7440f6af66-gallery-0-953e255ad573-1280.avif",
               "width": 960,
               "height": 667
             }
@@ -80,28 +80,28 @@
   ],
   "images": [
     {
-      "alt": "SMRT 이미지 1",
+      "alt": "DCS SMRT 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-gallery-6x5-5332ac4ca83a-640.webp",
+          "src": "/media/dcs-smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-640.avif",
+          "src": "/media/dcs-smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-640.avif",
           "width": 640,
           "height": 388
         },
         {
-          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-1280.avif",
+          "src": "/media/dcs-smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-1280.avif",
           "width": 1280,
           "height": 776
         },
         {
-          "src": "/media/smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-2400.avif",
+          "src": "/media/dcs-smrt/series-cf8200c870a01ee4-gallery-0-e24346e0b48a-2400.avif",
           "width": 2048,
           "height": 1242
         }

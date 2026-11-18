@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "custom-masonry-wob",
-  "title": "Custom Masonry WoB",
+  "slug": "kam-masonry-wob",
+  "title": "KAM Masonry WoB",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KAM",
@@ -30,24 +30,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-640.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-1280.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-2400.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-0-9d0b71a6b405-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -58,24 +58,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-640.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-640.avif",
               "width": 640,
               "height": 471
             },
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-1280.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-1280.avif",
               "width": 1280,
               "height": 943
             },
             {
-              "src": "/media/custom-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-2400.avif",
+              "src": "/media/kam-masonry-wob/kit-6fc9752386532442-source-gallery-1-65065c6f3486-2400.avif",
               "width": 1472,
               "height": 1084
             }
@@ -86,28 +86,28 @@
   ],
   "images": [
     {
-      "alt": "Custom Masonry WoB 이미지 1",
+      "alt": "KAM Masonry WoB 이미지 1",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
+          "src": "/media/kam-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-640.avif",
+          "src": "/media/kam-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-1280.avif",
+          "src": "/media/kam-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/custom-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-2400.avif",
+          "src": "/media/kam-masonry-wob/series-72f3d70e2de59cfd-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }

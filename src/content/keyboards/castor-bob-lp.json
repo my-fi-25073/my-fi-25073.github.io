@@ -33,6 +33,12 @@
         "title": "LAK Gold On Black",
         "quantity": null,
         "href": "/gallery/lak-gold-on-black/"
+      },
+      {
+        "kind": "kit",
+        "title": "Base",
+        "quantity": null,
+        "href": "/gallery/lak-gold-on-black/#base"
       }
     ],
     "switches": [

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "classic-beige",
-  "title": "Classic Beige",
+  "slug": "klp-askiidata",
+  "title": "KLP AskiiData",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KLP",
@@ -19,32 +19,32 @@
   ],
   "kits": [
     {
-      "slug": "base",
-      "title": "Base",
+      "slug": "base-custom",
+      "title": "Base - Custom",
       "kittingTypes": [
         "Base - Custom"
       ],
       "images": [
         {
-          "alt": "Base 이미지 1",
+          "alt": "Base - Custom 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/classic-beige/kit-1b24c97fc785e176-gallery-0-e9b9e5c6e93e-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/klp-askiidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/classic-beige/kit-1b24c97fc785e176-gallery-0-e9b9e5c6e93e-640.avif",
+              "src": "/media/klp-askiidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-640.avif",
               "width": 640,
-              "height": 482
+              "height": 500
             },
             {
-              "src": "/media/classic-beige/kit-1b24c97fc785e176-gallery-0-e9b9e5c6e93e-1280.avif",
-              "width": 1031,
-              "height": 777
+              "src": "/media/klp-askiidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-1280.avif",
+              "width": 1027,
+              "height": 803
             }
           ]
         }
@@ -53,28 +53,28 @@
   ],
   "images": [
     {
-      "alt": "Classic Beige 이미지 1",
+      "alt": "KLP AskiiData 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/classic-beige/series-f7a1a18cccfc0660-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
+          "src": "/media/klp-askiidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/classic-beige/series-f7a1a18cccfc0660-gallery-0-3acd0bdc2b8b-640.avif",
+          "src": "/media/klp-askiidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/classic-beige/series-f7a1a18cccfc0660-gallery-0-3acd0bdc2b8b-1280.avif",
+          "src": "/media/klp-askiidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/classic-beige/series-f7a1a18cccfc0660-gallery-0-3acd0bdc2b8b-2400.avif",
+          "src": "/media/klp-askiidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-2400.avif",
           "width": 1568,
           "height": 1164
         }

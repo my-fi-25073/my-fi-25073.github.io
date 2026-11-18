@@ -28,7 +28,14 @@
     "state": "approved",
     "startedAt": null,
     "completedAt": "2026-05-14",
-    "keycaps": [],
+    "keycaps": [
+      {
+        "kind": "kit",
+        "title": "Castor Base",
+        "quantity": null,
+        "href": "/gallery/pff-handarbeit-runic/#castor-base"
+      }
+    ],
     "switches": [
       {
         "title": "Lofree Phatom 35g",

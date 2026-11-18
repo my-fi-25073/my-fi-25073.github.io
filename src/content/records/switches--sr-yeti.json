@@ -50,21 +50,26 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-640.avif",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-640.avif",
               "width": 640,
-              "height": 403
+              "height": 505
             },
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-1280.avif",
-              "width": 708,
-              "height": 446
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-1280.avif",
+              "width": 1280,
+              "height": 1011
+            },
+            {
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-2400.avif",
+              "width": 1293,
+              "height": 1021
             }
           ]
         },
@@ -73,26 +78,21 @@
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-640.avif",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-640.avif",
               "width": 640,
-              "height": 505
+              "height": 501
             },
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-1280.avif",
-              "width": 1280,
-              "height": 1011
-            },
-            {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-2400.avif",
-              "width": 1293,
-              "height": 1021
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-1280.avif",
+              "width": 877,
+              "height": 687
             }
           ]
         }
@@ -184,9 +184,9 @@
         }
       ],
       "detailImageIndexes": [
-        0
+        1
       ],
-      "coverImageIndex": 0
+      "coverImageIndex": 1
     },
     {
       "label": "Factory Lubed",
@@ -312,28 +312,28 @@
       ],
       "specificationImages": [
         {
-          "alt": "SR YETI 사진 2",
+          "alt": "SR YETI 사진 1",
           "presentation": "render",
           "galleryVariants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
               "width": 640,
               "height": 480
             }
           ],
           "variants": [
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-640.avif",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-640.avif",
               "width": 640,
               "height": 505
             },
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-1280.avif",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-1280.avif",
               "width": 1280,
               "height": 1011
             },
             {
-              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-2400.avif",
+              "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-2400.avif",
               "width": 1293,
               "height": 1021
             }
@@ -350,21 +350,26 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-640.avif",
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-640.avif",
           "width": 640,
-          "height": 403
+          "height": 505
         },
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-b077b229d2e9-1280.avif",
-          "width": 708,
-          "height": 446
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-1280.avif",
+          "width": 1280,
+          "height": 1011
+        },
+        {
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-0-d6df626e493f-2400.avif",
+          "width": 1293,
+          "height": 1021
         }
       ]
     },
@@ -373,26 +378,21 @@
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-gallery-4x3-5332ac4ca83a-640.webp",
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-gallery-4x3-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 480
         }
       ],
       "variants": [
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-640.avif",
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-640.avif",
           "width": 640,
-          "height": 505
+          "height": 501
         },
         {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-1280.avif",
-          "width": 1280,
-          "height": 1011
-        },
-        {
-          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-source-gallery-1-d6df626e493f-2400.avif",
-          "width": 1293,
-          "height": 1021
+          "src": "/media/switches/sr-yeti/e9f4128d37eb68db-2da83f732569-gallery-0-9e5ad14c5608-1280.avif",
+          "width": 877,
+          "height": 687
         }
       ]
     },

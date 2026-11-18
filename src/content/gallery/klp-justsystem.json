@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "space-cadet",
-  "title": "Space Cadet",
+  "slug": "klp-justsystem",
+  "title": "KLP JustSystem",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KLP",
@@ -30,21 +30,21 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/klp-justsystem/kit-47643c0be349dfc9-gallery-0-a5c67a0ecb1b-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-640.avif",
+              "src": "/media/klp-justsystem/kit-47643c0be349dfc9-gallery-0-a5c67a0ecb1b-640.avif",
               "width": 640,
-              "height": 477
+              "height": 504
             },
             {
-              "src": "/media/space-cadet/kit-c7e2c2ec4453a88e-gallery-0-187ba052dc02-1280.avif",
-              "width": 1025,
-              "height": 764
+              "src": "/media/klp-justsystem/kit-47643c0be349dfc9-gallery-0-a5c67a0ecb1b-1280.avif",
+              "width": 1019,
+              "height": 803
             }
           ]
         }
@@ -53,28 +53,28 @@
   ],
   "images": [
     {
-      "alt": "Space Cadet 이미지 1",
+      "alt": "KLP JustSystem 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
+          "src": "/media/klp-justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-640.avif",
+          "src": "/media/klp-justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-1280.avif",
+          "src": "/media/klp-justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/space-cadet/series-d033bc5b6c7dd051-gallery-0-3acd0bdc2b8b-2400.avif",
+          "src": "/media/klp-justsystem/series-4a144e1b300c65d2-gallery-0-3acd0bdc2b8b-2400.avif",
           "width": 1568,
           "height": 1164
         }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "custom-qaz-lavender",
-  "title": "Custom QAZ Lavender",
+  "slug": "qaz-lavender",
+  "title": "QAZ Lavender",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "Cherry-Clone",
@@ -29,24 +29,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-640.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-640.avif",
               "width": 640,
               "height": 487
             },
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-1280.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-1280.avif",
               "width": 1280,
               "height": 974
             },
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-2400.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-0-a5c42987e38a-2400.avif",
               "width": 1698,
               "height": 1292
             }
@@ -57,24 +57,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-640.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-640.avif",
               "width": 640,
               "height": 484
             },
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-1280.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-1280.avif",
               "width": 1280,
               "height": 967
             },
             {
-              "src": "/media/custom-qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-2400.avif",
+              "src": "/media/qaz-lavender/kit-29b33d7528922dfe-source-gallery-1-d8f825172119-2400.avif",
               "width": 1712,
               "height": 1294
             }
@@ -85,23 +85,23 @@
   ],
   "images": [
     {
-      "alt": "Custom QAZ Lavender 이미지 1",
+      "alt": "QAZ Lavender 이미지 1",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/custom-qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-gallery-6x5-23e4efa7fd49-640.webp",
+          "src": "/media/qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/custom-qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-640.avif",
+          "src": "/media/qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/custom-qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-1280.avif",
+          "src": "/media/qaz-lavender/series-888a89e1b1877fd6-source-gallery-0-38322908823d-1280.avif",
           "width": 1024,
           "height": 760
         }

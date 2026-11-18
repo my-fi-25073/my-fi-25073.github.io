@@ -18,14 +18,14 @@
   ],
   "kits": [
     {
-      "slug": "blanks-white",
-      "title": "Blanks White",
+      "slug": "white",
+      "title": "White",
       "kittingTypes": [
         "Base - Nomad"
       ],
       "images": [
         {
-          "alt": "Blanks White 이미지 1",
+          "alt": "White 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
@@ -50,14 +50,14 @@
       ]
     },
     {
-      "slug": "blanks-black",
-      "title": "Blanks Black",
+      "slug": "black",
+      "title": "Black",
       "kittingTypes": [
         "Base - Nomad"
       ],
       "images": [
         {
-          "alt": "Blanks Black 이미지 1",
+          "alt": "Black 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {

@@ -167,7 +167,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -195,7 +200,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -464,7 +474,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -735,7 +750,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -763,7 +783,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -869,7 +894,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKLube"
+          "name": "KKL Z15M07"
         }
       },
       "images": [
@@ -1030,30 +1055,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKLube",
+          "name": "KKL Z15M07",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "PFPE 구리스"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "습식"
-            },
-            {
-              "label": "Applicator",
-              "value": "Brush pen"
+              "label": "Type",
+              "value": "Grease"
             }
           ],
           "image": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -1081,7 +1094,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -1107,7 +1120,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -1361,12 +1379,8 @@
           "force": null,
           "specifications": [
             {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "건식"
+              "label": "Type",
+              "value": "Dry Lubricant"
             }
           ],
           "manufacturerLogo": {
@@ -1396,7 +1410,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -1501,7 +1520,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "DUBA CHEM DRI-KOTE DL-116Y"
+          "name": "DRI-KOTE DL-116Y"
         }
       },
       "images": [
@@ -1658,26 +1677,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "DUBA CHEM DRI-KOTE DL-116Y",
+          "name": "DRI-KOTE DL-116Y",
           "manufacturer": "DUBA CHEM",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "분산액"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "건식"
+              "label": "Type",
+              "value": "Dry Lubricant"
             }
           ],
           "manufacturerLogo": {
-            "alt": "DUBA CHEM DRI-KOTE DL-116Y",
+            "alt": "DRI-KOTE DL-116Y",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -1703,7 +1714,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -1928,7 +1944,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -1956,7 +1977,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -2060,7 +2086,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKLube"
+          "name": "KKL Z15M07"
         }
       },
       "images": [
@@ -2221,30 +2247,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKLube",
+          "name": "KKL Z15M07",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "PFPE 구리스"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "습식"
-            },
-            {
-              "label": "Applicator",
-              "value": "Brush pen"
+              "label": "Type",
+              "value": "Grease"
             }
           ],
           "image": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -2272,7 +2286,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -2298,7 +2312,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -2576,12 +2595,8 @@
           "force": null,
           "specifications": [
             {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "건식"
+              "label": "Type",
+              "value": "Dry Lubricant"
             }
           ],
           "manufacturerLogo": {
@@ -2611,7 +2626,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -2716,7 +2736,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKLube"
+          "name": "KKL Z15M07"
         }
       },
       "images": [
@@ -2873,30 +2893,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKLube",
+          "name": "KKL Z15M07",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "PFPE 구리스"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "습식"
-            },
-            {
-              "label": "Applicator",
-              "value": "Brush pen"
+              "label": "Type",
+              "value": "Grease"
             }
           ],
           "image": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -2924,7 +2932,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -2950,7 +2958,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -3296,7 +3309,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -3324,7 +3342,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -3424,7 +3447,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKLube"
+          "name": "KKL Z15M07"
         }
       },
       "images": [
@@ -3507,30 +3530,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKLube",
+          "name": "KKL Z15M07",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "PFPE 구리스"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "습식"
-            },
-            {
-              "label": "Applicator",
-              "value": "Brush pen"
+              "label": "Type",
+              "value": "Grease"
             }
           ],
           "image": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -3558,7 +3569,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -3584,7 +3595,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -3684,7 +3700,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKLube"
+          "name": "KKL Z15M07"
         }
       },
       "images": [
@@ -3767,30 +3783,18 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKLube",
+          "name": "KKL Z15M07",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
           "specifications": [
             {
-              "label": "Formulation",
-              "value": "PFPE 구리스"
-            },
-            {
-              "label": "Material",
-              "value": "불소계"
-            },
-            {
-              "label": "Application",
-              "value": "습식"
-            },
-            {
-              "label": "Applicator",
-              "value": "Brush pen"
+              "label": "Type",
+              "value": "Grease"
             }
           ],
           "image": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -3818,7 +3822,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKLube",
+            "alt": "KKL Z15M07",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -3844,7 +3848,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Oil"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,

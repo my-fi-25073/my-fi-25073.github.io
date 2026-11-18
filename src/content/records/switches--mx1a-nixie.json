@@ -162,7 +162,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,
@@ -190,7 +195,12 @@
           "manufacturer": "Krytox",
           "series": null,
           "force": null,
-          "specifications": [],
+          "specifications": [
+            {
+              "label": "Type",
+              "value": "Grease"
+            }
+          ],
           "manufacturerLogo": {
             "alt": "Krytox GPL 105",
             "preserveColor": true,

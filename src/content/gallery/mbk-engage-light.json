@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "engage-light",
-  "title": "Engage light",
+  "slug": "mbk-engage-light",
+  "title": "MBK Engage light",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "MBK",
@@ -29,24 +29,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-640.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-1280.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-2400.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-0-a127d33fd1d3-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -57,24 +57,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-640.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-1280.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-2400.avif",
+              "src": "/media/mbk-engage-light/kit-b31e56f8e4468f23-source-gallery-1-277eaf4f97ee-2400.avif",
               "width": 2048,
               "height": 1536
             }
@@ -85,28 +85,28 @@
   ],
   "images": [
     {
-      "alt": "Engage light 이미지 1",
+      "alt": "MBK Engage light 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-gallery-6x5-5332ac4ca83a-640.webp",
+          "src": "/media/mbk-engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-640.avif",
+          "src": "/media/mbk-engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-640.avif",
           "width": 640,
           "height": 431
         },
         {
-          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-1280.avif",
+          "src": "/media/mbk-engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-1280.avif",
           "width": 1280,
           "height": 862
         },
         {
-          "src": "/media/engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-2400.avif",
+          "src": "/media/mbk-engage-light/series-40266fecb2f025bc-source-gallery-0-8ce065b18235-2400.avif",
           "width": 1600,
           "height": 1078
         }

@@ -7,5 +7,6 @@ export function renderTuningComponent(component, href = '') {
     : component.image ?? component.manufacturerLogo;
   const image = selected ? {...selected,alt:component.image?component.name:`${component.manufacturer??component.name} logo`} : null;
   return renderGalleryCard({title:component.name,href,kind:component.kind,image,placeholderLogo:component.manufacturerLogo,
-    metadata:[...(component.manufacturer?[{label:'Manufacturer',value:component.manufacturer}]:[]),...component.specifications]});
+    metadata:[...(component.kind!=='lubricant'&&component.manufacturer
+      ? [{label:'Manufacturer',value:component.manufacturer}] : []),...component.specifications]});
 }

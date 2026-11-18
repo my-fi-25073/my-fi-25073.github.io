@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "crp-r5-beige",
+  "title": "CRP R5 Beige",
+  "category": "keycaps",
+  "manufacturer": "Hammerworks",
+  "profile": "Cherry-CYL",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "MX"
+  ],
+  "kits": [
+    {
+      "slug": "alpha-eg",
+      "title": "Alpha EG",
+      "kittingTypes": [
+        "Alpha - Hieroglyph"
+      ],
+      "images": []
+    }
+  ],
+  "images": []
+}

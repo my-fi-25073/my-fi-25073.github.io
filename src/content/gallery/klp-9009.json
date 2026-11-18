@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "skidata",
-  "title": "SkiData",
+  "slug": "klp-9009",
+  "title": "KLP 9009",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KLP",
@@ -30,21 +30,21 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/skidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/klp-9009/kit-aaffcb45cb0e5b24-gallery-0-c95e63843bb5-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/skidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-640.avif",
+              "src": "/media/klp-9009/kit-aaffcb45cb0e5b24-gallery-0-c95e63843bb5-640.avif",
               "width": 640,
-              "height": 500
+              "height": 482
             },
             {
-              "src": "/media/skidata/kit-c1b16ec7937e1d92-gallery-0-133cc789b8cf-1280.avif",
-              "width": 1027,
-              "height": 803
+              "src": "/media/klp-9009/kit-aaffcb45cb0e5b24-gallery-0-c95e63843bb5-1280.avif",
+              "width": 1032,
+              "height": 777
             }
           ]
         }
@@ -53,28 +53,28 @@
   ],
   "images": [
     {
-      "alt": "SkiData 이미지 1",
+      "alt": "KLP 9009 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {
-          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
+          "src": "/media/klp-9009/series-cd5ce788bebf09be-gallery-0-3acd0bdc2b8b-gallery-6x5-5332ac4ca83a-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-640.avif",
+          "src": "/media/klp-9009/series-cd5ce788bebf09be-gallery-0-3acd0bdc2b8b-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-1280.avif",
+          "src": "/media/klp-9009/series-cd5ce788bebf09be-gallery-0-3acd0bdc2b8b-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/skidata/series-b90c9b9a235fd393-gallery-0-3acd0bdc2b8b-2400.avif",
+          "src": "/media/klp-9009/series-cd5ce788bebf09be-gallery-0-3acd0bdc2b8b-2400.avif",
           "width": 1568,
           "height": 1164
         }

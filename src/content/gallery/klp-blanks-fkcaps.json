@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "kind": "keycap-series",
   "slug": "klp-blanks-fkcaps",
-  "title": "KLP Blanks FKCaps",
+  "title": "KLP Blanks (FKCaps)",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "KLP",
@@ -19,14 +19,14 @@
   ],
   "kits": [
     {
-      "slug": "blanks-black",
-      "title": "Blanks Black",
+      "slug": "black",
+      "title": "Black",
       "kittingTypes": [
         "Base - Custom"
       ],
       "images": [
         {
-          "alt": "Blanks Black 이미지 1",
+          "alt": "Black 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
@@ -51,14 +51,14 @@
       ]
     },
     {
-      "slug": "blanks-white",
-      "title": "Blanks White",
+      "slug": "white",
+      "title": "White",
       "kittingTypes": [
         "Base - Custom"
       ],
       "images": [
         {
-          "alt": "Blanks White 이미지 1",
+          "alt": "White 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
@@ -85,7 +85,7 @@
   ],
   "images": [
     {
-      "alt": "KLP Blanks FKCaps 이미지 1",
+      "alt": "KLP Blanks (FKCaps) 이미지 1",
       "presentation": "render",
       "galleryVariants": [
         {

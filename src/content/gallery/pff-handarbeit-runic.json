@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "keycap-series",
-  "slug": "pff-handarbeit-custom",
-  "title": "PFF Handarbeit Custom",
+  "slug": "pff-handarbeit-runic",
+  "title": "PFF Handarbeit Runic",
   "category": "keycaps",
   "manufacturer": "Keyreative",
   "profile": "PFF",
@@ -31,24 +31,24 @@
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-handarbeit-runic/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-640.avif",
+              "src": "/media/pff-handarbeit-runic/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-640.avif",
               "width": 640,
               "height": 498
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-1280.avif",
+              "src": "/media/pff-handarbeit-runic/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-1280.avif",
               "width": 1280,
               "height": 995
             },
             {
-              "src": "/media/pff-handarbeit-custom/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-2400.avif",
+              "src": "/media/pff-handarbeit-runic/kit-527aa957c14ab492-source-gallery-0-4f31b3281105-2400.avif",
               "width": 2048,
               "height": 1592
             }
@@ -59,28 +59,28 @@
   ],
   "images": [
     {
-      "alt": "PFF Handarbeit Custom 이미지 1",
+      "alt": "PFF Handarbeit Runic 이미지 1",
       "presentation": "photo",
       "galleryVariants": [
         {
-          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
+          "src": "/media/pff-handarbeit-runic/series-96902d7cfc87886f-source-gallery-0-1be721958e33-gallery-6x5-23e4efa7fd49-640.webp",
           "width": 640,
           "height": 533
         }
       ],
       "variants": [
         {
-          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-640.avif",
+          "src": "/media/pff-handarbeit-runic/series-96902d7cfc87886f-source-gallery-0-1be721958e33-640.avif",
           "width": 640,
           "height": 475
         },
         {
-          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-1280.avif",
+          "src": "/media/pff-handarbeit-runic/series-96902d7cfc87886f-source-gallery-0-1be721958e33-1280.avif",
           "width": 1280,
           "height": 950
         },
         {
-          "src": "/media/pff-handarbeit-custom/series-96902d7cfc87886f-source-gallery-0-1be721958e33-2400.avif",
+          "src": "/media/pff-handarbeit-runic/series-96902d7cfc87886f-source-gallery-0-1be721958e33-2400.avif",
           "width": 1568,
           "height": 1164
         }
