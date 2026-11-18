@@ -1,0 +1,15 @@
+---
+import ArchiveSearch from './ArchiveSearch.astro';
+
+interface Props {
+  label: string;
+  searchLabel?: string;
+  searchDisabled?: boolean;
+}
+
+const { label, searchLabel, searchDisabled } = Astro.props;
+---
+<aside class="archive-catalog-sidebar" aria-label={label}>
+  {searchLabel && <ArchiveSearch label={searchLabel} disabled={searchDisabled} />}
+  <slot />
+</aside>

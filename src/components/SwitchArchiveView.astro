@@ -10,6 +10,7 @@ import {
   type CollectionManifest,
 } from '../lib/collection-views';
 import DomainRecordCard from './DomainRecordCard.astro';
+import ArchiveSidebar from './ArchiveSidebar.astro';
 import { switchArchiveRecords, switchModelFamilies } from '../lib/switch-models';
 import { renderBrandMark } from '../../public/ui/gallery.mjs';
 import { switchManufacturerGroup } from '../../public/ui/switch-groups.mjs';
@@ -24,16 +25,13 @@ const sourceRecords = records.map((entry) => entry.data);
 const families = switchModelFamilies(sourceRecords);
 const products = switchArchiveRecords(sourceRecords).map(record=>({...record,manufacturer:switchManufacturerGroup(record)}));
 const switches = recordsForCollectionView(products, manifest, 'switch-manufacturers');
-const franken = recordsForCollectionView(products, manifest, 'switch-franken');
 const switchGroups = archiveDisplayGroups(switches, manifest, 'switch-manufacturers');
-const frankenGroups = archiveDisplayGroups(franken, manifest, 'switch-franken');
 const makerGroups = groupsWithCounts(switches, manifest, ['switch-manufacturers']);
 const footprintGroups = recordsGroupedByField(switches, 'footprintType', [], 'asc');
 const browsingViews = [
   {
     id: 'switches',
-    label: '제조사별',
-    facetLabel: '제조사',
+    label: 'Manufacturer',
     parameter: 'maker',
     options: makerGroups,
     groups: switchGroups,
@@ -41,71 +39,60 @@ const browsingViews = [
   },
   {
     id: 'footprints',
-    label: '규격별',
-    facetLabel: '규격',
+    label: 'Profile',
     parameter: 'footprint',
     options: footprintGroups.flatMap(({ label, records }) => label ? [{ id: label, label, count: records.length }] : []),
     groups: footprintGroups,
     membership: (record: typeof switches[number]) => record.footprintType ? [record.footprintType] : [],
   },
 ];
-const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
 ---
 
 <div class="shell archive-catalog-shell">
   <header class="archive-catalog-heading">
     <h1 lang="en">Switch</h1>
-    <div class="filter-search" role="search">
-      <label class="visually-hidden" for="switch-search">스위치 검색</label>
-      <input id="switch-search" type="search" placeholder="스위치 검색" autocomplete="off" />
-    </div>
   </header>
 
   <div class="archive-catalog-layout">
-    <details class="archive-catalog-sidebar switch-sidebar" open>
-      <summary>분류</summary>
-      <fieldset class="k-filter-axis">
-        <legend>보기</legend>
-        {viewTabs.map(({ id, label }, index) => (
-          <label class="k-filter-option">
-            <input type="radio" name="switch-view" value={id} checked={index === 0} />
-            <span>{label}</span>
-          </label>
-        ))}
-      </fieldset>
-      {browsingViews.map(({ id, facetLabel, parameter, options }, index) => (
-        <fieldset class="k-filter-axis" data-switch-facet={id} hidden={index > 0}>
-          <legend>{facetLabel}</legend>
-          {[{ id: '', label: 'All', count: switches.length }, ...options].map((group) => (
+    <ArchiveSidebar label="Switch navigation" searchLabel="Search switches">
+      <details class="switch-sidebar" data-archive-disclosure open>
+        <summary>Browse switches</summary>
+        <fieldset class="k-filter-axis" aria-label="Browse switches by">
+          {browsingViews.map(({ id, label }, index) => (
             <label class="k-filter-option">
-              <input type="radio" name={parameter} value={group.id} checked={group.id === ''} />
-              <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
+              <input type="radio" name="switch-view" value={id} checked={index === 0} />
+              <span>{label}</span>
             </label>
           ))}
         </fieldset>
-      ))}
-    </details>
-    <section class="archive-catalog-main archive-catalog-gallery" aria-label="스위치 목록">
-      <p class="result-count" aria-live="polite" aria-atomic="true"><span data-switch-result-count>{switches.length}</span>개 스위치</p>
-      {[...browsingViews, {
-        id: 'franken',
-        parameter: undefined,
-        groups: frankenGroups,
-        membership: () => [],
-      }].map(({ id, parameter, groups, membership }, index) => (
+        {browsingViews.map(({ id, label, parameter, options }, index) => (
+          <fieldset class="k-filter-axis" aria-label={label} data-switch-facet={id} hidden={index > 0}>
+            {[{ id: '', label: 'All', count: switches.length }, ...options].map((group) => (
+              <label class="k-filter-option">
+                <input type="radio" name={parameter} value={group.id} checked={group.id === ''} />
+                <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
+              </label>
+            ))}
+          </fieldset>
+        ))}
+      </details>
+    </ArchiveSidebar>
+    <section class="archive-catalog-main archive-catalog-gallery" aria-label="Switch list">
+      <p class="visually-hidden" aria-live="polite" aria-atomic="true"><span data-switch-result-count>{switches.length} {switches.length === 1 ? 'switch' : 'switches'}</span></p>
+      {browsingViews.map(({ id, parameter, groups, membership }, index) => (
         <div data-switch-panel={id} data-switch-parameter={parameter} hidden={index > 0}>
-          <p data-switch-empty hidden={(id === 'franken' ? franken : switches).length > 0}>
-            {id === 'franken' ? '조건에 맞는 프랑켄 스위치가 없습니다.' : '조건에 맞는 스위치가 없습니다.'}
+          <p data-switch-empty hidden={switches.length > 0}>
+            No matching switches.
           </p>
           {groups.map(({ label, records }) => {
             const mark = id === 'switches' && !['Franken','Unknown'].includes(label??'') ? renderBrandMark(records.find(record => record.manufacturer === label)?.manufacturerLogo) : '';
             return (
-            <details class="archive-section kl-gallery-scope" aria-label={label ?? '스위치 목록'} data-archive-group open>
-              <summary><h2 class="k-brand-heading" aria-label={label ?? '스위치 목록'}>
+            <details class="archive-section kl-gallery-scope" aria-label={label ?? 'Switch list'} data-archive-group open>
+              <summary><h2 class="k-brand-heading" aria-label={label ?? 'Switch list'}>
                 {mark ? <Fragment set:html={mark} /> : <span>{label}</span>}
               </h2><small>{records.length}</small></summary>
               {id === 'switches' && new Set(records.map(record=>record.footprintType)).size > 1 ? recordsGroupedByField(records,'footprintType',[],'asc').map(subgroup=>(
-                <details class="record-section" open><summary><strong>{subgroup.label ?? '미지정'}</strong><small>{subgroup.records.length}</small></summary>
+                <details class="record-section" open><summary><strong>{subgroup.label ?? 'Unspecified'}</strong><small>{subgroup.records.length}</small></summary>
                   <div class="gallery-grid kl-gallery" data-gallery-role="archive">{subgroup.records.map(record=><DomainRecordCard record={record} members={record.modelFamily ? families.get(record.modelFamily.slug) : undefined} headingLevel={3} groups={membership(record)} />)}</div>
                 </details>
               )) :
@@ -124,7 +111,7 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
 </div>
 
 <script>
-  const search = document.querySelector<HTMLInputElement>('#switch-search');
+  const search = document.querySelector<HTMLInputElement>('[data-archive-search]');
   const count = document.querySelector<HTMLElement>('[data-switch-result-count]');
   const sidebar = document.querySelector<HTMLDetailsElement>('.switch-sidebar');
   const mode = [...(sidebar?.querySelectorAll<HTMLInputElement>('input[name="switch-view"]') ?? [])];
@@ -172,7 +159,7 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
       }
       section.hidden = !hasMatch;
     }
-    count.textContent = String(visible.size);
+    count.textContent = `${visible.size} ${visible.size === 1 ? 'switch' : 'switches'}`;
     view.empty.hidden = visible.size !== 0;
   }
 
@@ -216,8 +203,6 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
   [data-archive-group] summary { font-size:var(--k-type-control); }
   [data-archive-group] summary small { color:var(--k-muted);font-size:var(--k-type-caption);font-weight:var(--k-weight-body); }
   [data-archive-group] > .record-section { margin-top:var(--k-space-4); }
-  .result-count { margin: 0; min-height: 38px; padding-top: 5px; color: var(--k-muted); font-size: 13px; font-variant-numeric: tabular-nums; text-align: right; }
-  .filter-search { position: relative; flex: 0 1 232px; width: min(100%, 232px); }
   .switch-sidebar summary { display: none; }
   [data-switch-empty] { margin-top: 24px; color: var(--k-muted); }
 
@@ -225,7 +210,4 @@ const viewTabs = [...browsingViews, { id: 'franken', label: '프랑켄' }];
     .switch-sidebar summary { display: flex; }
   }
 
-  @media (max-width: 440px) {
-    .filter-search { flex-basis: auto; width: 100%; }
-  }
 </style>

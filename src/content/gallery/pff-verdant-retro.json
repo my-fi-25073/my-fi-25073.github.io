@@ -19,119 +19,240 @@
   ],
   "kits": [
     {
-      "slug": "nomad-base",
-      "title": "Nomad Base",
+      "slug": "regular-base",
+      "title": "Regular Base",
+      "kittingTypes": [
+        "Base - Standard"
+      ],
+      "images": [
+        {
+          "alt": "Regular Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-0-a60e93589405-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-0-a60e93589405-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-0-a60e93589405-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-0-a60e93589405-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Regular Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-1-5a7069fb652b-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-1-5a7069fb652b-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-1-5a7069fb652b-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-1-5a7069fb652b-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Regular Base 이미지 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-2-1c9cabc60282-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-2-1c9cabc60282-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-2-1c9cabc60282-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-2-1c9cabc60282-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        },
+        {
+          "alt": "Regular Base 이미지 4",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-3-648fef83a458-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-3-648fef83a458-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-3-648fef83a458-1280.avif",
+              "width": 1280,
+              "height": 960
+            },
+            {
+              "src": "/media/pff-verdant-retro/kit-b2aaacf1391254dc-gallery-3-648fef83a458-2400.avif",
+              "width": 2400,
+              "height": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "40s-ortho-base",
+      "title": "40s & Ortho Base",
       "kittingTypes": [
         "Base - Nomad"
       ],
       "images": [
         {
-          "alt": "Nomad Base 이미지 1",
+          "alt": "40s & Ortho Base 이미지 1",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-cd5387344cd6-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-cd5387344cd6-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-cd5387344cd6-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-dc10003dd446-2400.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-0-cd5387344cd6-2400.avif",
               "width": 2400,
               "height": 1800
             }
           ]
         },
         {
-          "alt": "Nomad Base 이미지 2",
+          "alt": "40s & Ortho Base 이미지 2",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-2c310da1a641-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-2c310da1a641-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-2c310da1a641-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-bfbd96df3388-2400.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-1-2c310da1a641-2400.avif",
               "width": 2400,
               "height": 1800
             }
           ]
         },
         {
-          "alt": "Nomad Base 이미지 3",
+          "alt": "40s & Ortho Base 이미지 3",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-3f4ff1ed1c68-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-3f4ff1ed1c68-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-3f4ff1ed1c68-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-76347648dea0-2400.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-2-3f4ff1ed1c68-2400.avif",
               "width": 2400,
               "height": 1800
             }
           ]
         },
         {
-          "alt": "Nomad Base 이미지 4",
+          "alt": "40s & Ortho Base 이미지 4",
           "presentation": "photo",
           "galleryVariants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-gallery-6x5-23e4efa7fd49-640.webp",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-42ee6df63585-gallery-6x5-23e4efa7fd49-640.webp",
               "width": 640,
               "height": 533
             }
           ],
           "variants": [
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-640.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-42ee6df63585-640.avif",
               "width": 640,
               "height": 480
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-1280.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-42ee6df63585-1280.avif",
               "width": 1280,
               "height": 960
             },
             {
-              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-eb1c6ca3edcf-2400.avif",
+              "src": "/media/pff-verdant-retro/kit-6e61b3feb797e224-gallery-3-42ee6df63585-2400.avif",
               "width": 2400,
               "height": 1800
             }
@@ -166,34 +287,6 @@
           "src": "/media/pff-verdant-retro/series-c476224456e83435-gallery-0-cb41e66d0952-2400.avif",
           "width": 2400,
           "height": 3200
-        }
-      ]
-    },
-    {
-      "alt": "PFF Verdant Retro 이미지 1",
-      "presentation": "render",
-      "galleryVariants": [
-        {
-          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-gallery-6x5-5332ac4ca83a-640.webp",
-          "width": 640,
-          "height": 533
-        }
-      ],
-      "variants": [
-        {
-          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-640.avif",
-          "width": 640,
-          "height": 485
-        },
-        {
-          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-1280.avif",
-          "width": 1280,
-          "height": 970
-        },
-        {
-          "src": "/media/pff-verdant-retro/series-c476224456e83435-source-gallery-0-2db8f4bf1b46-2400.avif",
-          "width": 2048,
-          "height": 1552
         }
       ]
     }

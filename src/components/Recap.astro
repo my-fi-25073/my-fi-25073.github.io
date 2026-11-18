@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveSidebar from './ArchiveSidebar.astro';
 import KeyboardCard from './KeyboardCard.astro';
 import collectionData from '../data/collections.json';
 import SiteLayout from '../layouts/SiteLayout.astro';
@@ -65,7 +66,7 @@ const timeline = activeMonths.map((month) => {
 ---
 
 <SiteLayout title={isIndex ? recapTitle : `${year} Recap`} description={description}>
-  <div class="shell archive-catalog-shell">
+  <div class="shell archive-catalog-shell" data-archive-filter>
     <section class:list={['archive-catalog-heading', 'recap-heading', cover && 'recap-cover', cover && `recap-cover-${year}`]} aria-labelledby="recap-year-title">
       {cover && (
         <img src={cover.large.src} srcset={`${cover.small.src} 768w, ${cover.large.src} 1600w`}
@@ -75,27 +76,29 @@ const timeline = activeMonths.map((month) => {
       <h1 id="recap-year-title">{isIndex ? <span lang="en">{recapTitle}</span> : year}</h1>
     </section>
     <div class="archive-catalog-layout">
-      <nav class="archive-catalog-sidebar recap-year-nav" aria-label="연도 선택">
-        <span class="recap-year-label">연도</span>
-      <ul class="recap-year-links">
-        {recapYears.map((availableYear) => (
-          <li>
-            <a class="k-nav"
-              href={`/recap/${availableYear}/`}
-              aria-current={availableYear === year ? 'page' : undefined}
-            >{availableYear}</a>
-          </li>
-        ))}
-      </ul>
-      </nav>
+      <ArchiveSidebar label="Recap navigation" searchLabel="Search builds">
+        <nav class="recap-year-nav" aria-label="Year">
+          <ul class="recap-year-links">
+            {recapYears.map((availableYear) => (
+              <li>
+                <a class="k-nav"
+                  href={`/recap/${availableYear}/`}
+                  aria-current={availableYear === year ? 'page' : undefined}
+                >{availableYear}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </ArchiveSidebar>
       <div class="archive-catalog-main archive-catalog-gallery">
+        <p class="archive-search-empty" data-archive-search-empty hidden={records.length > 0}>No matching builds.</p>
         <div class="recap-builds">
           {timeline.map(({ month, label, days }) => (
-            <section class="recap-month" aria-labelledby={`month-${month}`}>
+            <section class="recap-month" aria-labelledby={`month-${month}`} data-archive-group>
               <h2 id={`month-${month}`}>{label}</h2>
               <ol class="recap-dates">
                 {days.map(([date, keyboards]) => (
-                  <li class="recap-date">
+                  <li class="recap-date" data-archive-group>
                     <time datetime={date}>{Number(date.slice(8, 10))}일</time>
                     <div class="recap-date-builds kl-gallery-scope"><div class="kl-gallery" data-gallery-role="timeline">
                       {keyboards.map((keyboard) => {
@@ -223,7 +226,6 @@ const timeline = activeMonths.map((month) => {
   @media (max-width: 660px) {
     .recap-builds { --timeline-label-width: 3.25rem; }
   }
-  .recap-year-label { font-size: 13px; font-weight: 680; }
   .recap-year-nav .recap-year-links {
     display: grid;
     gap: 0;

@@ -105,7 +105,7 @@
         "groups": [
           {
             "id": "low-stagger",
-            "label": "로우스태거",
+            "label": "Row Stagger",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -114,7 +114,7 @@
           },
           {
             "id": "column-stagger",
-            "label": "칼럼스태거",
+            "label": "Column Stagger",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -123,7 +123,7 @@
           },
           {
             "id": "ortholinear",
-            "label": "오쏘리니어",
+            "label": "Ortholinear",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -289,7 +289,7 @@
         "groups": [
           {
             "id": "true-split",
-            "label": "트루 스플릿",
+            "label": "True Split",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -298,7 +298,7 @@
           },
           {
             "id": "mono-split",
-            "label": "모노 스플릿",
+            "label": "Mono Split",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -307,7 +307,7 @@
           },
           {
             "id": "monoblock",
-            "label": "모노블럭",
+            "label": "Monoblock",
             "match": {
               "field": "layouts[]",
               "operator": "equals",
@@ -732,7 +732,37 @@
           "direction": "asc"
         }
       ],
-      "group": null,
+      "group": {
+        "field": "profile",
+        "unit": "value",
+        "order": [
+          "SA",
+          "URSA",
+          "MT3",
+          "MT4",
+          "OEM-Topre",
+          "OEM-Clone",
+          "Cherry-CYL",
+          "Cherry-Clone",
+          "DCX",
+          "DCS",
+          "DSS",
+          "MTNU",
+          "DSA",
+          "DOYS",
+          "PBS",
+          "KAM",
+          "KLP",
+          "CLP",
+          "PFF",
+          "LAK",
+          "LCK",
+          "nSA",
+          "MBK",
+          "CFX",
+          "OEM-ULP"
+        ]
+      },
       "revision": 1
     },
     {

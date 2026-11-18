@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "kind": "keycap-series",
+  "slug": "nuphy-coast-pbt-keycaps-xmas-ver",
+  "title": "NuPhy COAST PBT Keycaps (Xmas Ver.)",
+  "category": "keycaps",
+  "manufacturer": "KeyTok",
+  "profile": "nSA",
+  "manufacturingProcess": "Dye Sub",
+  "sleeveStatus": "슬리브 있음",
+  "createdAt": null,
+  "materials": [
+    "PBT"
+  ],
+  "colors": [],
+  "compatibility": [
+    "Choc v2"
+  ],
+  "kits": [
+    {
+      "slug": "base",
+      "title": "Base",
+      "kittingTypes": [
+        "Base - Simple"
+      ],
+      "images": [
+        {
+          "alt": "Base 이미지 1",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-0-37174c41dbfc-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-0-37174c41dbfc-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-0-37174c41dbfc-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Base 이미지 2",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-1-59704b1abef1-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-1-59704b1abef1-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-1-59704b1abef1-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        },
+        {
+          "alt": "Base 이미지 3",
+          "presentation": "photo",
+          "galleryVariants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-2-caea26109f77-gallery-6x5-23e4efa7fd49-640.webp",
+              "width": 640,
+              "height": 533
+            }
+          ],
+          "variants": [
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-2-caea26109f77-640.avif",
+              "width": 640,
+              "height": 480
+            },
+            {
+              "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/kit-1c68612198b87517-gallery-2-caea26109f77-1280.avif",
+              "width": 1024,
+              "height": 768
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "alt": "NuPhy COAST PBT Keycaps (Xmas Ver.) 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/series-b24bbe9ab3461893-gallery-0-5e31feedfdc7-gallery-6x5-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/series-b24bbe9ab3461893-gallery-0-5e31feedfdc7-640.avif",
+          "width": 640,
+          "height": 376
+        },
+        {
+          "src": "/media/nuphy-coast-pbt-keycaps-xmas-ver/series-b24bbe9ab3461893-gallery-0-5e31feedfdc7-1280.avif",
+          "width": 669,
+          "height": 393
+        }
+      ]
+    }
+  ]
+}

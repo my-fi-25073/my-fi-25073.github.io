@@ -1,18 +1,51 @@
 ---
-import {getCollection} from 'astro:content';
+import { getCollection } from 'astro:content';
+import ArchiveFacet from './ArchiveFacet.astro';
+import ArchiveSidebar from './ArchiveSidebar.astro';
 import SiteLayout from '../layouts/SiteLayout.astro';
-import {galleryImage,renderGalleryCard} from '../../public/ui/gallery.mjs';
-interface Props{section:'photolog'|'build-log'}
-const {section}=Astro.props;
-const title=section==='photolog'?'Photolog':'Build Log';
-const posts=(await getCollection('posts')).filter(post=>post.data.section===section&&!post.data.draft).sort((a,b)=>b.data.publishedAt.getTime()-a.data.publishedAt.getTime());
+import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
+
+interface Props {
+  section: 'photolog' | 'build-log';
+}
+
+const { section } = Astro.props;
+const title = section === 'photolog' ? 'Photolog' : 'Build Log';
+const posts = (await getCollection('posts'))
+  .filter(({ data }) => data.section === section && !data.draft)
+  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime())
+  .map(({ id, data }) => ({ id, ...data, date: data.publishedAt.toISOString().slice(0, 10) }));
+const years = [...Map.groupBy(posts, ({ date }) => date.slice(0, 4))]
+  .map(([year, records]) => ({ id: year, label: year, count: records.length }));
 ---
 <SiteLayout title={title}>
-  <section class="shell archive-catalog-shell kl-gallery-scope">
+  <section class="shell archive-catalog-shell" data-archive-filter>
     <header class="archive-catalog-heading"><h1 lang="en">{title}</h1></header>
-    {posts.length?<div class="kl-gallery gallery-grid" data-gallery-role="archive">
-      {posts.map(post=><Fragment set:html={renderGalleryCard({title:post.data.title,href:`/${section}/${post.id}/`,kind:'keyboard',headingLevel:2,image:galleryImage(post.data.cover,'keyboard'),metadata:[{value:post.data.publishedAt.toISOString().slice(0,10)}]})}/>)}
-    </div>:<p class="empty-state">아직 공개된 글이 없습니다.</p>}
+    <div class="archive-catalog-layout">
+      <ArchiveSidebar label={`${title} navigation`} searchLabel="Search posts" searchDisabled={!posts.length}>
+        <ArchiveFacet name="year" label="Year" groups={years} totalCount={posts.length} filterCards />
+      </ArchiveSidebar>
+      <div class="archive-catalog-main archive-catalog-gallery kl-gallery-scope">
+        {posts.length ? <>
+          <p class="visually-hidden" aria-live="polite" aria-atomic="true">Results: <span data-archive-search-count>{posts.length}</span></p>
+          <p class="archive-search-empty" data-archive-search-empty hidden>No matching posts.</p>
+          <div class="kl-gallery gallery-grid" data-gallery-role="archive">
+            {posts.map((post) => <Fragment set:html={renderGalleryCard({
+              title: post.title,
+              href: `/${section}/${post.id}/`,
+              kind: 'keyboard',
+              headingLevel: 2,
+              image: galleryImage(post.cover, 'keyboard'),
+              metadata: [{ value: post.date }],
+              attributes: {
+                'data-archive-card': true,
+                'data-search': [post.title, post.description].filter(Boolean).join(' ').toLocaleLowerCase('ko'),
+                'data-archive-facet': post.date.slice(0, 4),
+              },
+            })} />)}
+          </div>
+        </> : <p class="archive-search-empty">No posts yet.</p>}
+      </div>
+    </div>
   </section>
 </SiteLayout>
-<style>.empty-state{padding-block:var(--k-space-8);border-top:1px solid var(--k-rule);color:var(--k-muted)}</style>

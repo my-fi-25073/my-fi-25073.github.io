@@ -1,5 +1,6 @@
 ---
 import type { KeyboardFilterPreset } from '../lib/collection-views';
+import ArchiveFacet from './ArchiveFacet.astro';
 
 interface FilterGroup {
   id: string;
@@ -23,26 +24,10 @@ interface Props {
 const { axes, presets = {}, totalCount } = Astro.props;
 ---
 
-<details class="keyboard-filters" data-keyboard-filters data-presets={JSON.stringify(presets)} open>
-  <summary>분류</summary>
+<details class="keyboard-filters" data-archive-disclosure data-keyboard-filters data-presets={JSON.stringify(presets)} open>
+  <summary>Filters</summary>
   <div class="filter-axes">
-  {axes.map((axis) => (
-    <fieldset class="k-filter-axis">
-      <legend>{axis.label}</legend>
-      <div class="k-filter-options">
-        <label class="k-filter-option">
-          <input type="radio" name={axis.key} value="" checked />
-          <span>All<small aria-hidden="true">{totalCount}</small></span>
-        </label>
-        {axis.groups.map((group) => (
-          <label class="k-filter-option">
-            <input type="radio" name={axis.key} value={group.id} data-aliases={group.aliases?.join(' ')} />
-            <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
-          </label>
-        ))}
-      </div>
-    </fieldset>
-  ))}
+    {axes.map(({ key, label, groups }) => <ArchiveFacet name={key} label={label} groups={groups} totalCount={totalCount} />)}
   </div>
 </details>
 
@@ -50,17 +35,13 @@ const { axes, presets = {}, totalCount } = Astro.props;
   import type { KeyboardFilterPreset } from '../lib/collection-views';
 
   const root = document.querySelector<HTMLElement>('[data-keyboard-filters]');
-  const search = document.querySelector<HTMLInputElement>('#keyboard-search');
+  const search = document.querySelector<HTMLInputElement>('[data-archive-search]');
   const total = document.querySelector<HTMLElement>('[data-result-count]');
   const empty = document.querySelector<HTMLElement>('[data-keyboard-empty]');
   const gallery = document.querySelector<HTMLElement>('[data-keyboard-gallery]');
   const sectionTemplate = gallery?.querySelector<HTMLTemplateElement>('[data-keyboard-preset-section]');
 
   if (root && search && total && empty && gallery && sectionTemplate) {
-    const smallScreen = matchMedia('(max-width: 660px)');
-    const setFilterDisclosure = () => root.toggleAttribute('open', !smallScreen.matches);
-    setFilterDisclosure();
-    smallScreen.addEventListener('change', setFilterDisclosure);
     const presets: Record<string, KeyboardFilterPreset> = JSON.parse(root.dataset.presets ?? '{}');
     const axes = [...root.querySelectorAll('fieldset')].map((field) => (
       [...field.querySelectorAll<HTMLInputElement>('input[type="radio"]')]

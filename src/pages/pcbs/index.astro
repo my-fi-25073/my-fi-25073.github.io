@@ -1,13 +1,33 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import ArchiveSidebar from '../../components/ArchiveSidebar.astro';
 import data from '../../data/pcbs.json';
-import {galleryImage,renderGalleryCard} from '../../../public/ui/gallery.mjs';
+import { galleryImage, renderGalleryCard } from '../../../public/ui/gallery.mjs';
+
+const records = data.items;
 ---
 <SiteLayout title="PCB">
-  <section class="shell archive-catalog-shell kl-gallery-scope">
+  <section class="shell archive-catalog-shell" data-archive-filter>
     <header class="archive-catalog-heading"><h1 lang="en">PCB</h1></header>
-    <div class="kl-gallery gallery-grid" data-gallery-role="archive">
-      {data.items.map(record=><Fragment set:html={renderGalleryCard({title:record.title,href:`/pcbs/${record.slug}/`,kind:'pcb',headingLevel:2,image:record.images[0]?galleryImage({...record.images[0],presentation:'render'},'pcb'):null})}/>)}
+    <div class="archive-catalog-layout">
+      <ArchiveSidebar label="PCB navigation" searchLabel="Search PCBs" />
+      <div class="archive-catalog-main archive-catalog-gallery kl-gallery-scope">
+        <p class="visually-hidden" aria-live="polite" aria-atomic="true">Results: <span data-archive-search-count>{records.length}</span></p>
+        <p class="archive-search-empty" data-archive-search-empty hidden={records.length > 0}>No matching PCBs.</p>
+        <div class="kl-gallery gallery-grid" data-gallery-role="archive">
+          {records.map((record) => <Fragment set:html={renderGalleryCard({
+            title: record.title,
+            href: `/pcbs/${record.slug}/`,
+            kind: 'pcb',
+            headingLevel: 2,
+            image: record.images[0] ? galleryImage({ ...record.images[0], presentation: 'render' }, 'pcb') : null,
+            attributes: {
+              'data-archive-card': true,
+              'data-search': [record.title, record.description].filter(Boolean).join(' ').toLocaleLowerCase('ko'),
+            },
+          })} />)}
+        </div>
+      </div>
     </div>
   </section>
 </SiteLayout>

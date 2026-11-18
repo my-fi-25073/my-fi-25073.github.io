@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveSidebar from '../../components/ArchiveSidebar.astro';
 import CollectionFilter from '../../components/CollectionFilter.astro';
 import KeyboardCard from '../../components/KeyboardCard.astro';
 import collectionData from '../../data/collections.json';
@@ -24,9 +25,9 @@ const records = recordsForCollectionView(
   'keyboard-all',
 );
 const filterViews = [
-  { key: 'structure', label: '구조', viewId: 'keyboard-structures' },
-  { key: 'arrangement', label: '배열', viewId: 'keyboard-arrangements' },
-  { key: 'size', label: '크기', viewId: 'keyboard-sizes' },
+  { key: 'structure', label: 'Structure', viewId: 'keyboard-structures' },
+  { key: 'arrangement', label: 'Stagger', viewId: 'keyboard-arrangements' },
+  { key: 'size', label: 'Layout', viewId: 'keyboard-sizes' },
 ];
 const sizeUrlAliases = new Map(groupsForCollectionView(manifest, 'keyboard-sizes').map(({ id, match }) => {
   const values = match.operator === 'equals' ? [match.value] : (match.values ?? []);
@@ -52,17 +53,13 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
   <div class="shell archive-catalog-shell">
     <section class="archive-catalog-heading" aria-labelledby="keyboard-title">
       <h1 id="keyboard-title" lang="en">Keyboard</h1>
-      <div class="archive-search" role="search">
-        <label class="visually-hidden" for="keyboard-search">키보드 검색</label>
-        <input id="keyboard-search" type="search" placeholder="키보드 검색" autocomplete="off" />
-      </div>
     </section>
     <div class="archive-catalog-layout">
-      <aside class="archive-catalog-sidebar" aria-label="키보드 분류">
+      <ArchiveSidebar label="Keyboard navigation" searchLabel="Search keyboards">
         <CollectionFilter axes={filterAxes} presets={presets} totalCount={records.length} />
-      </aside>
+      </ArchiveSidebar>
       <div class="archive-catalog-main archive-catalog-gallery">
-        <p class="archive-catalog-count" aria-live="polite"><span data-result-count>{records.length}</span>개 빌드</p>
+        <p class="visually-hidden" aria-live="polite">Results: <span data-result-count>{records.length}</span></p>
         <div data-keyboard-gallery>
     {displayGroups.map(({ label, records }) => (
       <section class="archive-section kl-gallery-scope" aria-label={label ?? '키보드 목록'} data-archive-group>
@@ -84,7 +81,7 @@ const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection
       </section>
     </template>
         </div>
-        <p class="empty-keyboard-list" data-keyboard-empty hidden={records.length > 0}>조건에 맞는 키보드가 없습니다.</p>
+        <p class="empty-keyboard-list" data-keyboard-empty hidden={records.length > 0}>No matching keyboards.</p>
       </div>
     </div>
   </div>

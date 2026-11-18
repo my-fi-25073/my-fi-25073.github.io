@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import ArchiveSidebar from '../../components/ArchiveSidebar.astro';
 import ArchiveViewTabs from '../../components/ArchiveViewTabs.astro';
 import GalleryCard from '../../components/GalleryCard.astro';
 import collectionData from '../../data/collections.json';
@@ -8,6 +9,7 @@ import {
   keycapArchiveViews,
   recordsForCollectionView,
   recordsGroupedByField,
+  requiredCollectionView,
   type CollectionManifest,
 } from '../../lib/collection-views';
 
@@ -18,6 +20,17 @@ const titleCounts = new Map<string, number>();
 for (const entry of entries) {
   titleCounts.set(entry.title, (titleCounts.get(entry.title) ?? 0) + 1);
 }
+const allRecords = recordsForCollectionView(entries, manifest, 'keycap-collections');
+const profileGroup = requiredCollectionView(manifest, 'keycap-collections').query.group;
+if (profileGroup?.field !== 'profile' || !profileGroup.order?.length) {
+  throw new Error('Missing Keycap profile grouping.');
+}
+const allGroups = recordsGroupedByField(allRecords, 'profile', profileGroup.order).map((group) => {
+  if (group.label && !profileGroup.order!.includes(group.label)) {
+    throw new Error(`Unknown Keycap profile: ${group.label}`);
+  }
+  return { ...group, label: group.label ?? 'Unspecified' };
+});
 const keycapViews = [
   ...keycapArchiveViews(manifest).map(({ view, query, id, label }) => {
     const groupRule = query.group;
@@ -42,25 +55,27 @@ const keycapViews = [
   {
     id: 'all',
     label: 'All',
-    count: entries.length,
-    groups: [{ label: null, records: recordsForCollectionView(entries, manifest, 'keycap-collections') }],
+    count: allRecords.length,
+    groups: allGroups,
   },
 ];
 ---
 
 <SiteLayout title={pageCopy?.['keycap.title'] ?? '키캡'} description={pageCopy?.['keycap.description'] ?? undefined}>
-  <div class="shell archive-catalog-shell">
+  <div class="shell archive-catalog-shell" data-archive-filter>
     <section class="archive-catalog-heading" aria-labelledby="keycap-title">
       <h1 id="keycap-title" lang="en">Keycap</h1>
     </section>
     <div class="archive-catalog-layout">
-      <details class="keycap-collections archive-catalog-sidebar" data-keycap-collections open>
-        <summary>컬렉션</summary>
-        <div class="keycap-filter-bar">
-          <p aria-hidden="true">컬렉션</p>
-          <ArchiveViewTabs id="keycap" label="키캡 보기" parameter="collection" views={keycapViews} orientation="vertical" />
-        </div>
-      </details>
+      <ArchiveSidebar label="Keycap navigation" searchLabel="Search keycaps">
+        <details class="keycap-collections" data-archive-disclosure open>
+          <summary>Collection</summary>
+          <div class="keycap-filter-bar">
+            <p aria-hidden="true">Collection</p>
+            <ArchiveViewTabs id="keycap" label="Keycap collections" parameter="collection" views={keycapViews} orientation="vertical" />
+          </div>
+        </details>
+      </ArchiveSidebar>
 
       <div class="keycap-panels archive-catalog-main archive-catalog-gallery">
         {keycapViews.map((view, index) => {
@@ -73,30 +88,28 @@ const keycapViews = [
               role="tabpanel"
               aria-labelledby={`keycap-tab-${view.id}`}
               hidden={deferred}
+              data-archive-search-panel
             >
               <Content data-archive-panel-content={deferred ? '' : undefined}>
-                <p class="keycap-result-count"><strong>{view.count}</strong>개 키캡</p>
-                {view.count > 0
-                  ? <>
-                    {view.groups.map((group) => {
-                      const Group = group.label ? 'details' : 'div';
-                      return (
-                        <Group class="keycap-view-group kl-gallery-scope" open={group.label ? true : undefined}>
-                          {group.label && <summary><h2>{group.label}</h2><span class="keycap-group-count">{group.records.length}</span></summary>}
-                          <div class="gallery-grid kl-gallery" data-gallery-role="archive">
-                            {group.records.map((gallery) => (
-                              <GalleryCard
-                                gallery={gallery}
-                                headingLevel={group.label ? 3 : 2}
-                                showProfile={(titleCounts.get(gallery.title) ?? 0) > 1}
-                              />
-                            ))}
-                          </div>
-                        </Group>
-                      );
-                    })}
-                  </>
-                  : <p class="keycap-empty">이 탭에는 키캡이 없습니다.</p>}
+                <p class="visually-hidden" aria-live="polite" aria-atomic="true">Results: <span data-archive-search-count>{view.count}</span></p>
+                <p class="keycap-empty" data-archive-search-empty hidden={view.count > 0}>No matching keycaps.</p>
+                {view.groups.map((group) => {
+                  const Group = group.label ? 'details' : 'div';
+                  return (
+                    <Group class="keycap-view-group kl-gallery-scope" data-archive-group open={group.label ? true : undefined}>
+                      {group.label && <summary><h2>{group.label}</h2><span class="keycap-group-count">{group.records.length}</span></summary>}
+                      <div class="gallery-grid kl-gallery" data-gallery-role="archive">
+                        {group.records.map((gallery) => (
+                          <GalleryCard
+                            gallery={gallery}
+                            headingLevel={group.label ? 3 : 2}
+                            showProfile={(titleCounts.get(gallery.title) ?? 0) > 1}
+                          />
+                        ))}
+                      </div>
+                    </Group>
+                  );
+                })}
               </Content>
             </section>
           );
@@ -105,16 +118,6 @@ const keycapViews = [
     </div>
   </div>
 </SiteLayout>
-
-<script>
-  const collections = document.querySelector<HTMLDetailsElement>('[data-keycap-collections]');
-  if (collections) {
-    const mobile = window.matchMedia('(max-width: 660px)');
-    const syncDisclosure = () => { collections.open = !mobile.matches; };
-    syncDisclosure();
-    mobile.addEventListener('change', syncDisclosure);
-  }
-</script>
 
 <style>
   .keycap-collections { min-width: 0; }
@@ -127,8 +130,6 @@ const keycapViews = [
     .keycap-filter-bar > p { display: none; }
   }
 
-  .keycap-result-count { margin: 0 0 10px; color: var(--k-muted); font-size: 13px; text-align: end; }
-  .keycap-result-count strong { color: var(--k-ink); font-weight: 650; font-variant-numeric: tabular-nums; }
   .keycap-empty { margin: 24px 0 0; color: var(--k-muted); }
 
   .keycap-view-group + .keycap-view-group {

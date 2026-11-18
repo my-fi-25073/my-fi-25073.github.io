@@ -56,6 +56,7 @@ if (!initialView || new Set(views.map((view) => view.id)).size !== views.length)
         tab.tabIndex = selected ? 0 : -1;
         panel.hidden = !selected;
       }
+      root.dispatchEvent(new Event('keylog:archive-view-change', { bubbles: true }));
     };
     const fromLocation = () => {
       const url = new URL(window.location.href);

@@ -1,0 +1,23 @@
+---
+interface Props {
+  name: string;
+  label: string;
+  totalCount: number;
+  groups: Array<{ id: string; label: string; count: number; aliases?: string[] }>;
+  filterCards?: boolean;
+}
+
+const { name, label, totalCount, groups, filterCards = false } = Astro.props;
+---
+<fieldset class="k-filter-axis">
+  <legend>{label}</legend>
+  <div class="k-filter-options">
+    {[{ id: '', label: 'All', count: totalCount, aliases: undefined }, ...groups].map((group) => (
+      <label class="k-filter-option">
+        <input type="radio" name={name} value={group.id} checked={group.id === ''}
+          data-aliases={group.aliases?.join(' ')} data-archive-search-facet={filterCards ? '' : undefined} />
+        <span>{group.label}<small aria-hidden="true">{group.count}</small></span>
+      </label>
+    ))}
+  </div>
+</fieldset>
