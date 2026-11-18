@@ -14,12 +14,19 @@ const { images, label, compact = false, kind = 'switch' } = Astro.props;
   <div class:list={['image-gallery', 'kl-gallery', { 'is-compact': compact }]} data-gallery-role="media" role="group" aria-label={label} data-image-gallery>
     {images.map((item, index) => {
       const full = item.variants.toSorted((a, b) => b.width - a.width)[0];
+      const eager = !compact && index === 0;
+      const media = {
+        ...item,
+        galleryVariants: item.presentation === 'icon' ? item.galleryVariants : undefined,
+        sizes: eager ? '(min-width: 1320px) 1240px, 94vw' : 'auto, 300px',
+        eager,
+      };
       return (
         <figure class:list={{ 'is-featured': index === 0 }}>
           <button class="image-gallery-button" data-ui="media" type="button" data-lightbox-open
             data-full={full.src} data-alt={item.alt} data-caption={item.caption ?? ''}
             aria-label={`${label} — image ${index + 1}`}
-            set:html={renderGalleryMedia({ ...item, eager: !compact && index === 0 }, kind)} />
+            set:html={renderGalleryMedia(media, kind)} />
           {item.caption && <figcaption>{item.caption}</figcaption>}
         </figure>
       );
