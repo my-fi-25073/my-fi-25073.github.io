@@ -1,6 +1,7 @@
 ---
 import collectionData from '../data/collections.json';
 import SiteLayout from '../layouts/SiteLayout.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
 import smallHero from '../assets/keylog-hero-800.avif';
 import mediumHero from '../assets/keylog-hero-1600.avif';
 import largeHero from '../assets/keylog-hero-2400.avif';
@@ -18,7 +19,7 @@ const sources = [smallHero, mediumHero, largeHero]
 
 <SiteLayout description={collectionData.copy['home.description'] ?? undefined}>
   <header slot="header" class="home-shell home-header">
-    <a class="home-wordmark" href="/" aria-current="page">KEYLOG</a>
+    <div class="k-theme-control"><a class="home-wordmark" href="/" aria-current="page">KEYLOG</a><ThemeToggle /></div>
     <a class="home-live-link" href="https://my-fi-25073.github.io/" target="_blank" rel="noopener noreferrer">현재 배포판 <span aria-hidden="true">↗</span></a>
   </header>
   <div class="home-shell">

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "83ef5a0efdcaa1d72180b130f28298480554ae55a431f8af42025db3a67485f5",
+  "releaseId": "dd5ec4fc17cc4c0b3b5c143d02cde604283c75d643bad892fbc08d3b2bde96da",
   "files": [
     {
       "path": "content/collections.json",
@@ -569,8 +569,8 @@
     },
     {
       "path": "content/keyboards/21xx.json",
-      "bytes": 1917,
-      "sha256": "d050b2c1b59d51b3d4276bd9958de732cf58d1c44742b79243633799b47a536b"
+      "bytes": 1921,
+      "sha256": "5df34c271ac288c2628ccd13ca7f4e26dfd7afa701c8ad5b5d52157dd287fefa"
     },
     {
       "path": "content/keyboards/apodiformbird-v1.json",
@@ -1684,8 +1684,8 @@
     },
     {
       "path": "content/records/switches--mx2a-black.json",
-      "bytes": 146033,
-      "sha256": "04bc0cba5ae6183af746dc402b3ef94430e277bef8314b2b77a9ffbe1d3cc5d5"
+      "bytes": 146003,
+      "sha256": "03c53931139b8652bfc8d0c37bbe5376ac06b8d9da1a2321f9c7cd933fb2bae8"
     },
     {
       "path": "content/records/switches--mx2a-blossom.json",

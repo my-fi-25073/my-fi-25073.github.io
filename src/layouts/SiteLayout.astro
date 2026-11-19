@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import TaxonomyNav from '../components/TaxonomyNav.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
 
 interface Props {
   title?: string;
@@ -20,9 +21,11 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     {description && <meta name="description" content={description} />}
-    <meta name="color-scheme" content="light" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f4f2ed" />
+    <script is:inline src="/ui/theme.js"></script>
     <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/ui/favicon.svg" />
     <link rel="stylesheet" href="/ui/controls.css" />
     <link rel="stylesheet" href="/ui/gallery.css" />
   </head>
@@ -30,7 +33,7 @@ const pageTitle = title === 'KEYLOG' ? title : `${title} — KEYLOG`;
     <a class="skip-link" href="#main">본문으로 이동</a>
     <slot name="header">
       <header class="site-header shell">
-        <a class="wordmark" href="/" aria-label="KEYLOG 홈">KEYLOG</a>
+        <div class="k-theme-control"><a class="wordmark" href="/" aria-label="KEYLOG 홈">KEYLOG</a><ThemeToggle /></div>
         <TaxonomyNav />
       </header>
     </slot>

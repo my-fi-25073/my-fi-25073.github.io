@@ -869,7 +869,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "35g · KKLube · Glue Marker",
+      "label": "35g · KKL ZM15 · Glue Marker",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -894,7 +894,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKL Z15M07"
+          "name": "KKL ZM15"
         }
       },
       "images": [
@@ -1055,7 +1055,7 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKL Z15M07",
+          "name": "KKL ZM15",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
@@ -1066,7 +1066,7 @@
             }
           ],
           "image": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -1094,7 +1094,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -2061,7 +2061,7 @@
       "coverImageIndex": 1
     },
     {
-      "label": "35g · KKLube",
+      "label": "35g · KKL ZM15",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Supreme 35g",
@@ -2086,7 +2086,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKL Z15M07"
+          "name": "KKL ZM15"
         }
       },
       "images": [
@@ -2247,7 +2247,7 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKL Z15M07",
+          "name": "KKL ZM15",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
@@ -2258,7 +2258,7 @@
             }
           ],
           "image": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -2286,7 +2286,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -2712,7 +2712,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "63.5g · SE3 · KKLube",
+      "label": "63.5g · SE3 · KKL ZM15",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 3 63.5g",
@@ -2736,7 +2736,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKL Z15M07"
+          "name": "KKL ZM15"
         }
       },
       "images": [
@@ -2893,7 +2893,7 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKL Z15M07",
+          "name": "KKL ZM15",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
@@ -2904,7 +2904,7 @@
             }
           ],
           "image": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -2932,7 +2932,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -3423,7 +3423,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "55g · SE1 · KKLube",
+      "label": "55g · SE1 · KKL ZM15",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 1 55g",
@@ -3447,7 +3447,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKL Z15M07"
+          "name": "KKL ZM15"
         }
       },
       "images": [
@@ -3530,7 +3530,7 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKL Z15M07",
+          "name": "KKL ZM15",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
@@ -3541,7 +3541,7 @@
             }
           ],
           "image": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -3569,7 +3569,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [
@@ -3676,7 +3676,7 @@
       "coverImageIndex": 0
     },
     {
-      "label": "55g · SE2 · KKLube",
+      "label": "55g · SE2 · KKL ZM15",
       "spring": {
         "resolution": "selected",
         "name": "Sprit Slow Extreme 2 55g",
@@ -3700,7 +3700,7 @@
         },
         "stem": {
           "state": "applied",
-          "name": "KKL Z15M07"
+          "name": "KKL ZM15"
         }
       },
       "images": [
@@ -3783,7 +3783,7 @@
         {
           "role": "stem_lubricant",
           "kind": "lubricant",
-          "name": "KKL Z15M07",
+          "name": "KKL ZM15",
           "manufacturer": "KKLabs",
           "series": null,
           "force": null,
@@ -3794,7 +3794,7 @@
             }
           ],
           "image": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "presentation": "render",
             "galleryVariants": [
               {
@@ -3822,7 +3822,7 @@
             ]
           },
           "manufacturerLogo": {
-            "alt": "KKL Z15M07",
+            "alt": "KKL ZM15",
             "preserveColor": true,
             "presentation": "icon",
             "galleryVariants": [

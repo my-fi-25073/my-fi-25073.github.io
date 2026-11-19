@@ -1,14 +1,15 @@
 /* Keylog shared design tokens. Public, Studio and the component catalog consume this file. */
 :root {
-  --k-canvas: #f4f2ed;
-  --k-panel: #fffdfa;
-  --k-surface: #e9e6df;
-  --k-ink: #171716;
-  --k-muted: #68665f;
-  --k-rule: #d7d3ca;
+  color-scheme: light dark;
+  --k-canvas: light-dark(#f4f2ed, #1c1b19);
+  --k-panel: light-dark(#fffdfa, #242320);
+  --k-surface: light-dark(#e9e6df, #302e2a);
+  --k-ink: light-dark(#171716, #f1eee7);
+  --k-muted: light-dark(#68665f, #b8b3a9);
+  --k-rule: light-dark(#d7d3ca, #514e47);
   --k-focus: var(--k-ink);
   --k-overlay: rgba(10, 10, 10, .96);
-  --k-danger: #a53626;
+  --k-danger: light-dark(#a53626, #ff9e8e);
   --k-font: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   --k-type-display: clamp(40px, 5vw, 72px);
   --k-type-title: clamp(28px, 3vw, 40px);
@@ -107,6 +108,12 @@
 }
 
 /* Density is a shared component profile, never a Studio-only theme. */
+:root[data-theme="dark"] { color-scheme: dark; --k-silhouette: brightness(0) invert(.92); }
+:root[data-theme="light"] { color-scheme: light; }
+.k-theme-control { display: flex; align-items: center; gap: var(--k-space-2); }
+[data-theme-toggle] { font-size: 20px; }
+:root[data-theme-embedded] [data-theme-toggle] { display: none; }
+
 [data-density="compact"] {
   --k-control-height: 36px;
   --k-control-padding: 12px;
