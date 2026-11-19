@@ -45,9 +45,9 @@
       "order": 60
     },
     {
-      "id": "build-log",
-      "label": "Build Log",
-      "href": "/build-log/",
+      "id": "buildlog",
+      "label": "Buildlog",
+      "href": "/buildlog/",
       "order": 70
     }
   ],

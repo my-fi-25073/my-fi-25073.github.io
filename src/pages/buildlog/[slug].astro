@@ -1,0 +1,8 @@
+---
+import StudioPostPage from '../../components/StudioPostPage.astro';
+import { articlePaths } from '../../lib/article-paths';
+export async function getStaticPaths() {
+  return articlePaths('buildlog');
+}
+---
+<StudioPostPage post={Astro.props.post}/>

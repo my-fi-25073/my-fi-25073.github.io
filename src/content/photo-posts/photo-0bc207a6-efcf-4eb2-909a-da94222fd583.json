@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Omega",
+  "publishedAt": "2024-11-02",
+  "body": "",
+  "images": [
+    {
+      "alt": "Omega · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/f308c33944143694f7bf5822ed7d574f1b8444038d34519623b4151b6c2531fd.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Omega · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/121ddc26c84928fbed64e1f0d5f5a700e9047e28c45b59ad9dace20c61e4b7fc.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Omega · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/baf07f8a717583a22295c1fca728da19e04e35268eba2d3bacf5961597b37e37.webp",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    }
+  ]
+}

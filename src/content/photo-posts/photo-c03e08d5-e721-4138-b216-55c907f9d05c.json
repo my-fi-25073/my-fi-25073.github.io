@@ -1,0 +1,29 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Transition Lite",
+  "publishedAt": "2025-03-08",
+  "body": "",
+  "images": [
+    {
+      "alt": "Transition Lite · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/70a435b3603dee6ab9622e7b9f68a870bbedd87c055491d4927d1981a0d2014b.webp",
+          "width": 768,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "alt": "Transition Lite · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/b9ec358f4e764f9e5de2917507200c229b772b73e4ea95f76bb84c80d78c5f9e.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    }
+  ]
+}

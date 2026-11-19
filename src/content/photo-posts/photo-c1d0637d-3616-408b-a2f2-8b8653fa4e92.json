@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Castor",
+  "publishedAt": "2026-01-01",
+  "body": "",
+  "images": [
+    {
+      "alt": "Castor · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/91f42cacd0cbfe364529ef39939dc8c7934dfb5c87990738fd47886646fccc7e.webp",
+          "width": 2186,
+          "height": 1436
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/144d2bd4654e990b207bb1cd56006aae96a06ffc570aa4a8802667413f46cf2d.webp",
+          "width": 2198,
+          "height": 1428
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/50a97a3551e416d28fd87048e459872341e8d7fc4d27d1bd1b7a4a8f3880a87f.webp",
+          "width": 1468,
+          "height": 2138
+        }
+      ]
+    }
+  ]
+}

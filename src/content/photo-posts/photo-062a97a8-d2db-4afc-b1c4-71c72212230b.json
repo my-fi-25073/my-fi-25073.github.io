@@ -1,0 +1,29 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "With Coffee",
+  "publishedAt": "2025-05-04",
+  "body": "",
+  "images": [
+    {
+      "alt": "With Coffee · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/0f6014ece8c300145a29bf7897478e92f9201b2861048e0f4bdcc22a7c996d05.webp",
+          "width": 2090,
+          "height": 1504
+        }
+      ]
+    },
+    {
+      "alt": "With Coffee · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/4878601a68bcf72f85ccc2b8183a844beebaa31536c5527b150d98f588379151.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      ]
+    }
+  ]
+}

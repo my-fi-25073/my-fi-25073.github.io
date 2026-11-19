@@ -1,0 +1,49 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "9009",
+  "publishedAt": "2026-05-05",
+  "body": "",
+  "images": [
+    {
+      "alt": "9009 · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/19a81d51bee0044ef8e3e8f64dcc4423674e34960a4d3fad7b8719df61884daa.webp",
+          "width": 1044,
+          "height": 752
+        }
+      ]
+    },
+    {
+      "alt": "9009 · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/6c949e1705d9ebdf922bc5838460b78b56a69604af03b00fc48f31c6f571ae29.webp",
+          "width": 1000,
+          "height": 784
+        }
+      ]
+    },
+    {
+      "alt": "9009 · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/98539a690f9c33ba19e87819e81bc4a963d279597325b0efbcf354c0eddcffda.webp",
+          "width": 768,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "alt": "9009 · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/5d89680b79d20a76e80f31aac985330036d144c6fb6a7b149d469fa24ee19d8c.webp",
+          "width": 2400,
+          "height": 1535
+        }
+      ]
+    }
+  ]
+}

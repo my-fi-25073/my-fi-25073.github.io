@@ -1,0 +1,89 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Castor",
+  "publishedAt": "2026-04-12",
+  "body": "",
+  "images": [
+    {
+      "alt": "Castor · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/561dd3708ff5701a7d532bf20c804f64d9756acd5a9667e6bef05c2c7b502e44.webp",
+          "width": 2400,
+          "height": 1780
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/e56b3596e9b906579f41f18a56978660fa909f2a3333df7e1152a625163e8310.webp",
+          "width": 2400,
+          "height": 1725
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/0d012418d93aaec78614ed243237eec669aea2aab37bf29e022a5893fd2822eb.webp",
+          "width": 1110,
+          "height": 708
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/9019f442d464bf1c4d827eaa0b7fa0a1642e719091ed5362d7b669ee815379c8.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 5",
+      "variants": [
+        {
+          "src": "/media/photolog/d70f03978566536dffec46a14f9e1d5d32e88de3ef6907b436f2d921982a114d.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 6",
+      "variants": [
+        {
+          "src": "/media/photolog/3a64f86c777353c2eb0f64368049d78f511fc9f713038a84490b341e8438a382.webp",
+          "width": 1468,
+          "height": 2142
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 7",
+      "variants": [
+        {
+          "src": "/media/photolog/2c6d349b91976391a5a40817066d770a290b271e80d28dfbefc7cbd5a2f6a605.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 8",
+      "variants": [
+        {
+          "src": "/media/photolog/2b67a38b6a7726865140a5593fdd1334009b1db6b7019171e86f73bba4016ebc.webp",
+          "width": 914,
+          "height": 860
+        }
+      ]
+    }
+  ]
+}

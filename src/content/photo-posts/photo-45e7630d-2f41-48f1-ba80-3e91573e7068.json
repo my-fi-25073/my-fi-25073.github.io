@@ -1,0 +1,49 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Meet Up!",
+  "publishedAt": "2024-09-14",
+  "body": "",
+  "images": [
+    {
+      "alt": "Meet Up! · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/e9d333b87ee94834fc42cdbc09c87031a52da18a31c75b3b069d8d89a10d813b.webp",
+          "width": 1086,
+          "height": 724
+        }
+      ]
+    },
+    {
+      "alt": "Meet Up! · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/516da37decf9d2e03e3d121072b714b36731ce9696ab227b52af43b93d506aa0.webp",
+          "width": 1440,
+          "height": 960
+        }
+      ]
+    },
+    {
+      "alt": "Meet Up! · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/205dc71c0349ea1fa04945b35ee509a699df5b31db2b52c83701afb615635a08.webp",
+          "width": 540,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "alt": "Meet Up! · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/84d0f982214a000b60a0d7f736ae581f6d3deebbfce6b79a5f4431a2ec2168da.webp",
+          "width": 1440,
+          "height": 960
+        }
+      ]
+    }
+  ]
+}

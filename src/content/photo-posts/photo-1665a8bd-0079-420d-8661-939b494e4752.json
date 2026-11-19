@@ -1,0 +1,59 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Castor",
+  "publishedAt": "2026-04-11",
+  "body": "",
+  "images": [
+    {
+      "alt": "Castor · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/c69667543a9d868f62032862565cb50c1cc8f7d433a28addd9d27b44d723aeb2.webp",
+          "width": 2088,
+          "height": 1506
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/79337bd293c896f05ea6293fe65bfabd4769798072de25ec43407187c9c0b904.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/aacb0b65e43a3700e81807012333ca6d1f50891939b26b5ca95433fb6af29d1e.webp",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/06f848bfe098e815e9d9d6bd4500f84eac951563c4e6647a323bca86f60eae4f.webp",
+          "width": 2102,
+          "height": 1494
+        }
+      ]
+    },
+    {
+      "alt": "Castor · 5",
+      "variants": [
+        {
+          "src": "/media/photolog/7faad2c51199904719ccf1823fddafb11641ce1f19e7e5f03e97534bff7798a7.webp",
+          "width": 2214,
+          "height": 1420
+        }
+      ]
+    }
+  ]
+}

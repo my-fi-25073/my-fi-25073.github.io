@@ -1,0 +1,49 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Summerdays",
+  "publishedAt": "2025-06-28",
+  "body": "",
+  "images": [
+    {
+      "alt": "Summerdays · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/855a3241f213bdc5f35ca47f6da6ec43f3bdb9928c360593f7418656e0e7afb3.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Summerdays · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/513b09f9b7e535ad3bb443bc4c4512af9fcd20460fe81f0d8753c521adf7a28c.webp",
+          "width": 482,
+          "height": 358
+        }
+      ]
+    },
+    {
+      "alt": "Summerdays · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/ca1b5c6effa322080b2097c6a842ff893e19337e1fe7cab31644cf4d8ba643f3.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Summerdays · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/a591440232ea71d41420e1f5c2a3c42bb520eb6ea65f5bbe1be6c87204bff4c1.webp",
+          "width": 1078,
+          "height": 728
+        }
+      ]
+    }
+  ]
+}

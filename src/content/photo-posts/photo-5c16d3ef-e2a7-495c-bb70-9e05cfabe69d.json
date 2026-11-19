@@ -1,0 +1,29 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "True HHKB",
+  "publishedAt": "2025-12-26",
+  "body": "",
+  "images": [
+    {
+      "alt": "True HHKB · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/525120a61e2d1fdd00a2836b150b36b19b79bc6ab5c0f7c7efdcee332f07107c.webp",
+          "width": 1060,
+          "height": 742
+        }
+      ]
+    },
+    {
+      "alt": "True HHKB · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/ba8cbdf3acfb9eb3fcc81f2de5396ebdacc3f7b4f30e2972092db3874f18a600.webp",
+          "width": 1140,
+          "height": 690
+        }
+      ]
+    }
+  ]
+}

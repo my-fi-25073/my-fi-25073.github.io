@@ -1,0 +1,37 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Halloween..?!",
+  "publishedAt": "2025-08-09",
+  "body": "",
+  "images": [
+    {
+      "alt": "Halloween..?! · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/983d416a764ee9450ddc4e9ad7c40224c41559ea30a05a484d44bc528cb6f589.webp",
+          "width": 328,
+          "height": 522
+        }
+      ],
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/photolog/38830c6fc03357f1fbd6db47f66197483243aa19b5e0a31a80a8ac0072f9fbd6.webp",
+          "width": 328,
+          "height": 185
+        }
+      ]
+    },
+    {
+      "alt": "Halloween..?! · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/01c0a0b1f3f3e95bd69e62baf4a8055e8c82736f0618a9862bb1d2c6020c6e4a.webp",
+          "width": 480,
+          "height": 360
+        }
+      ]
+    }
+  ]
+}

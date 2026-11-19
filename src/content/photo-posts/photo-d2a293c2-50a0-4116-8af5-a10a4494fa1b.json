@@ -1,0 +1,47 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Transition Rawww",
+  "publishedAt": "2026-05-30",
+  "body": "",
+  "images": [
+    {
+      "alt": "Transition Rawww · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/4615b4a43d8cd090905d72d8b4d6a233456d19db5c445badcefb8bb23719a33e.webp",
+          "width": 768,
+          "height": 1024
+        }
+      ],
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/photolog/52ae1fc48990b88f700c7c4e00c4e36c079f868fd2f8c4e2fda3175b43ccefc3.webp",
+          "width": 768,
+          "height": 432
+        }
+      ]
+    },
+    {
+      "alt": "Transition Rawww · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/8f2c3a80e247c6866ac56a3b205775fc3ba95d398a2f959e236b3ef8b4de6cb2.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Transition Rawww · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/0401da4346dd8182877b7c76ad220423fd4a2db8587af8d1c9a3460b1e667f43.webp",
+          "width": 2400,
+          "height": 2089
+        }
+      ]
+    }
+  ]
+}

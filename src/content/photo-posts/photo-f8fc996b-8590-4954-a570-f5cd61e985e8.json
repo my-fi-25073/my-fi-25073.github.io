@@ -1,0 +1,49 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Lastday",
+  "publishedAt": "2026-06-07",
+  "body": "",
+  "images": [
+    {
+      "alt": "Lastday · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/6f0d4e7e50c7821813680f4b129c13993980ee52e75d1e5e45ac8a8d97e07dd3.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Lastday · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/48053b7b2e52352fe6ef00128bcaf7094bbd585d8720d31fd8fd77fde22553a3.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Lastday · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/fc93402563aedfe7fb96712b2794176ed7aa21d6e4a73de1e9f6918021a99e6b.webp",
+          "width": 1008,
+          "height": 780
+        }
+      ]
+    },
+    {
+      "alt": "Lastday · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/e96b9199c911b4531cf6cfb0ac6ecfe93a90558559bb5e991f1af4bd811a0b73.webp",
+          "width": 766,
+          "height": 1026
+        }
+      ]
+    }
+  ]
+}

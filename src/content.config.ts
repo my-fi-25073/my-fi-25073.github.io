@@ -176,11 +176,20 @@ const records = defineCollection({
 const posts=defineCollection({
   loader:glob({pattern:'*.md',base:'./src/content/posts'}),
   schema:z.object({
-    title:z.string().min(1),section:z.enum(['photolog','build-log']),
+    title:z.string().min(1),section:z.enum(['photolog','buildlog']),
     publishedAt:z.coerce.date(),description:z.string().optional(),
     draft:z.boolean().default(true),cover:galleryImage.optional(),
     pcbs:z.array(z.string()).default([]),
   }),
 });
 
-export const collections = { gallery, keyboards, records, posts };
+const photoPosts = defineCollection({
+  loader: glob({ pattern: '*.json', base: './src/content/photo-posts' }),
+  schema: z.object({
+    kind: z.literal('photo-post'), title: z.string().min(1),
+    publishedAt: z.coerce.date(), section: z.enum(['photolog','buildlog']).default('photolog'),
+    body: z.string().default(''), images: z.array(galleryImage),
+  }),
+});
+
+export const collections = { gallery, keyboards, records, posts, photoPosts };

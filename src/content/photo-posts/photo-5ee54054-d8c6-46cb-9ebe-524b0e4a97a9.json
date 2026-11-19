@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Gameboy 34",
+  "publishedAt": "2025-05-18",
+  "body": "",
+  "images": [
+    {
+      "alt": "Gameboy 34 · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/4a396386371af3f47360a5060a558979530a9a0999af44eec09efd129958b9f5.webp",
+          "width": 478,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "alt": "Gameboy 34 · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/d106ef1d07e73eaa869690f8326fff845689b97817587e98ebe3f4bdf06abc7e.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Gameboy 34 · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/a8c125ee0d00c252f76d4b37bd1ce9abc70bd77a23e0bfb44065ca89320a7e61.webp",
+          "width": 1552,
+          "height": 2026
+        }
+      ]
+    }
+  ]
+}

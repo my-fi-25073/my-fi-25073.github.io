@@ -1,0 +1,79 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Beige windmill",
+  "publishedAt": "2026-02-20",
+  "body": "",
+  "images": [
+    {
+      "alt": "Beige windmill · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/b0c4a32d14238e0617efaa55ac3bd96ad955680e0c8f7941f7647b69e5a12d00.webp",
+          "width": 1002,
+          "height": 784
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/3d5d0dc27691b0c3ee055946a91f10b62d8c45a2694a2bfe3dd06163257c7eb6.webp",
+          "width": 2400,
+          "height": 2373
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/690b556446b01a327baedffdd833440545cd0d63fbfb787ca99a38585400fec6.webp",
+          "width": 980,
+          "height": 802
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/ad4a7e6f05ac31331143eca4184573058d1b5350083f3d8b65b1d9dd291b4bbe.webp",
+          "width": 2400,
+          "height": 1807
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 5",
+      "variants": [
+        {
+          "src": "/media/photolog/e91f7ffd6a9dc10fa0db6bfdae91fe7040ee0a9d75fe613b26be4e374c9f9b5f.webp",
+          "width": 1072,
+          "height": 734
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 6",
+      "variants": [
+        {
+          "src": "/media/photolog/886b5cc608a0989f2d0ad4a7ea1099f7959a48c34a4a4d698dfac3ccb0a5722c.webp",
+          "width": 1078,
+          "height": 728
+        }
+      ]
+    },
+    {
+      "alt": "Beige windmill · 7",
+      "variants": [
+        {
+          "src": "/media/photolog/e23923d903ed77783d31a1d2071498b397cc2388725ef014237b94ae54b8f4ce.webp",
+          "width": 930,
+          "height": 844
+        }
+      ]
+    }
+  ]
+}

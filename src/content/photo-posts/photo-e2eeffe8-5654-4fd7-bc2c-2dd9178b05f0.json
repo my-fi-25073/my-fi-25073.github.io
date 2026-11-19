@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Park",
+  "publishedAt": "2026-06-22",
+  "body": "",
+  "images": [
+    {
+      "alt": "Park · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/6be27f1c182c8f9033e4232791cbbc2b3ead69d720624ad76b1e8d19cfb96df0.webp",
+          "width": 2106,
+          "height": 1492
+        }
+      ]
+    },
+    {
+      "alt": "Park · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/d62a97c1448b37dee9e415753b818d28035bcfa75aaa5ac7a4938e492f52dc9d.webp",
+          "width": 506,
+          "height": 340
+        }
+      ]
+    },
+    {
+      "alt": "Park · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/8eaedfb698a940c98a780f2c74e85fabfcc84aea22a0a531eead7a491bcc918b.webp",
+          "width": 2400,
+          "height": 1622
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Daylight",
+  "publishedAt": "2025-10-08",
+  "body": "",
+  "images": [
+    {
+      "alt": "Daylight · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/09096e152ad9d89a8bc5e19de3893a44940c1fcb2242a0b3a55222e483f7234c.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    },
+    {
+      "alt": "Daylight · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/6de594536c4bab95bd0efd8b8965af0142dc6e7bd29e846da4f584cd16d11e3a.webp",
+          "width": 1830,
+          "height": 1718
+        }
+      ]
+    }
+  ]
+}

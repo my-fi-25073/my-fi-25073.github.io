@@ -6,15 +6,18 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import { galleryImage, renderGalleryCard } from '../../public/ui/gallery.mjs';
 
 interface Props {
-  section: 'photolog' | 'build-log';
+  section: 'photolog' | 'buildlog';
 }
 
 const { section } = Astro.props;
-const title = section === 'photolog' ? 'Photolog' : 'Build Log';
-const posts = (await getCollection('posts'))
+const title = section === 'photolog' ? 'Photolog' : 'Buildlog';
+const articles = (await getCollection('posts'))
   .filter(({ data }) => data.section === section && !data.draft)
-  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime())
   .map(({ id, data }) => ({ id, ...data, date: data.publishedAt.toISOString().slice(0, 10) }));
+const photos = (await getCollection('photoPosts', ({data}) => data.section === section)).map(({ id, data }) => ({
+  id, title: data.title, date: data.publishedAt.toISOString().slice(0, 10), cover: data.images[0], description: data.body,
+}));
+const posts = [...articles, ...photos].sort((a, b) => b.date.localeCompare(a.date));
 const years = [...Map.groupBy(posts, ({ date }) => date.slice(0, 4))]
   .map(([year, records]) => ({ id: year, label: year, count: records.length }));
 ---

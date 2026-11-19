@@ -1,0 +1,49 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Transition Raw",
+  "publishedAt": "2026-05-23",
+  "body": "",
+  "images": [
+    {
+      "alt": "Transition Raw · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/e7607082e6b071022faadd693b9e9801df9d3e2515703155293b1d592fb15b26.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Transition Raw · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/d3bdef5ecde6f096cd506cb40424aa5a4d609b5da9a0e1faf1f222ea914109d7.webp",
+          "width": 2400,
+          "height": 1853
+        }
+      ]
+    },
+    {
+      "alt": "Transition Raw · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/bc711d23ad4a12645391e1993ca3165d816ccb98a45b9dccfd9b052a21de1c71.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Transition Raw · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/50f439a616a8fd3af0732711fb472efe08bb0d7bcb8b7b41140ac4c890e6e0b6.webp",
+          "width": 2400,
+          "height": 1638
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Beige on Silver",
+  "publishedAt": "2025-04-05",
+  "body": "",
+  "images": [
+    {
+      "alt": "Beige on Silver · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/53f0d440b5c8fa64e078d658f43e2c19f25ee03e7eb58931e49777cb5eb63f71.webp",
+          "width": 738,
+          "height": 1064
+        }
+      ],
+      "presentation": "photo",
+      "galleryVariants": [
+        {
+          "src": "/media/photolog/b60a5c591764304ea7501851133ffd65cac884a5efd5ecb9934c94b4d02a0604.webp",
+          "width": 738,
+          "height": 415
+        }
+      ]
+    },
+    {
+      "alt": "Beige on Silver · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/19d272baa7970d09d53299c9b16a08ebf5be0c5e9e14139af5c970c1da2975aa.webp",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "alt": "Beige on Silver · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/6df8b550d88d047664f25e286893da9b5edfdbacbaa95a47af48cf6d0393e8f7.webp",
+          "width": 2048,
+          "height": 1536
+        }
+      ]
+    }
+  ]
+}

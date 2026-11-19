@@ -1,0 +1,69 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Beige Alert",
+  "publishedAt": "2025-10-18",
+  "body": "",
+  "images": [
+    {
+      "alt": "Beige Alert · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/a52efdcb56abb937d8d39abede09b19fa10f315e6afd5aa021ed8ed1cdb623a3.webp",
+          "width": 1874,
+          "height": 1676
+        }
+      ]
+    },
+    {
+      "alt": "Beige Alert · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/2292546dd199902d83fade125caa4d32ab381ea491c17c2d8d2e7df2b3a627be.webp",
+          "width": 922,
+          "height": 852
+        }
+      ]
+    },
+    {
+      "alt": "Beige Alert · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/f4ba38b2b99fbd0f56814bfb15490d663014f6cea48e7c31434dee0284f8662f.webp",
+          "width": 1802,
+          "height": 1744
+        }
+      ]
+    },
+    {
+      "alt": "Beige Alert · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/63c6cb122bb998b1cc05b22f8c84eba4e390fd8b652789e35b03efeb71c0645c.webp",
+          "width": 2114,
+          "height": 1486
+        }
+      ]
+    },
+    {
+      "alt": "Beige Alert · 5",
+      "variants": [
+        {
+          "src": "/media/photolog/4ad7121ade999771cce77962f5d32d90bb974005d91d6f21d15371c62644b57d.webp",
+          "width": 540,
+          "height": 360
+        }
+      ]
+    },
+    {
+      "alt": "Beige Alert · 6",
+      "variants": [
+        {
+          "src": "/media/photolog/488a456d56820bf6c2de7016a3e4322536c1259fb0cbbef151ea4fae5e4e15d1.webp",
+          "width": 2172,
+          "height": 1448
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Classic Retro",
+  "publishedAt": "2025-12-13",
+  "body": "",
+  "images": [
+    {
+      "alt": "Classic Retro · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/415845a3a4698c3e6631a6ed77b60070cc061d4d455985afaed7a3e9c0c66406.webp",
+          "width": 886,
+          "height": 886
+        }
+      ]
+    },
+    {
+      "alt": "Classic Retro · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/b76dc6aae23404728585a0edc1c1973a9ae238d82ac3845e856965a638ac7c37.webp",
+          "width": 1084,
+          "height": 724
+        }
+      ]
+    },
+    {
+      "alt": "Classic Retro · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/02e7263cb4a6b5498662b51f89e69c3f5bb7f42734b250c710a18e31ea874ee6.webp",
+          "width": 2170,
+          "height": 1449
+        }
+      ]
+    }
+  ]
+}

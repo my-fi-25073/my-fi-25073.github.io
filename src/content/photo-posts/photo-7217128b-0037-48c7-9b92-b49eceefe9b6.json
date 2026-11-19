@@ -1,0 +1,39 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Vulpes Majora",
+  "publishedAt": "2024-12-28",
+  "body": "",
+  "images": [
+    {
+      "alt": "Vulpes Majora · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/b313f9d22ef55cf816133d6d244acf8db3fbf5d970d16ff3ac52df9484b5d024.webp",
+          "width": 1224,
+          "height": 641
+        }
+      ]
+    },
+    {
+      "alt": "Vulpes Majora · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/db4cd47c5a208ef8764bcc75876ba662e02340fa047fa4a73779c084679e92ac.webp",
+          "width": 2364,
+          "height": 1329
+        }
+      ]
+    },
+    {
+      "alt": "Vulpes Majora · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/7d3721160ff27cc4ac8233e9a68737972683f6515ac1c63dbe55701cdbd231ca.webp",
+          "width": 698,
+          "height": 1128
+        }
+      ]
+    }
+  ]
+}

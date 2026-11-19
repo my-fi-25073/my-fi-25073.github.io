@@ -1,0 +1,79 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "F1-40 722",
+  "publishedAt": "2026-09-19",
+  "body": "",
+  "images": [
+    {
+      "alt": "F1-40 722 · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/2478431931609fb81e1162674d4dded0489e92ae4047e5bcb5ddb38c338bb642.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/e8fc779803a11a5ce429b312afa31df988032cd0c356712455b54255dec71a5f.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 3",
+      "variants": [
+        {
+          "src": "/media/photolog/62c6180ac2331029f71e10fa4607c4c546b92fcdb619ee23d260ced83c9e4c23.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 4",
+      "variants": [
+        {
+          "src": "/media/photolog/5492f881d4dca4024566e462a007ebef43efa15683bb4400093e243df51ffc8e.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 5",
+      "variants": [
+        {
+          "src": "/media/photolog/09b55ce51a4bfcc4798c7b55d789328b09d2c6eb5ba28c0bb06e057cf72b08cc.webp",
+          "width": 2400,
+          "height": 1028
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 6",
+      "variants": [
+        {
+          "src": "/media/photolog/ae65f31cea15afb15021453df4170fdba689c36e260adcf90909d5c827c9ecda.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    },
+    {
+      "alt": "F1-40 722 · 7",
+      "variants": [
+        {
+          "src": "/media/photolog/c70c4f7c0b556037ad9440117ed5cf0ba00f75058cbae92efecff9c0664f8b2d.webp",
+          "width": 2400,
+          "height": 1800
+        }
+      ]
+    }
+  ]
+}

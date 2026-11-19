@@ -1,0 +1,29 @@
+{
+  "kind": "photo-post",
+  "section": "photolog",
+  "title": "Beige",
+  "publishedAt": "2025-07-13",
+  "body": "",
+  "images": [
+    {
+      "alt": "Beige · 1",
+      "variants": [
+        {
+          "src": "/media/photolog/337ee318ce299e7b2b9d52aceac10eec646b13429f669fa9ac068fbddec329df.webp",
+          "width": 1826,
+          "height": 1722
+        }
+      ]
+    },
+    {
+      "alt": "Beige · 2",
+      "variants": [
+        {
+          "src": "/media/photolog/c4bb1fc4e532f09f526e907012cf6392571701f606f30087c78472da3ae8c762.webp",
+          "width": 1818,
+          "height": 1728
+        }
+      ]
+    }
+  ]
+}

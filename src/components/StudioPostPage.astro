@@ -1,0 +1,70 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ArticlePage from './ArticlePage.astro';
+import SiteLayout from '../layouts/SiteLayout.astro';
+interface Props { post: CollectionEntry<'posts'> | CollectionEntry<'photoPosts'> }
+const {post}=Astro.props;
+const section=post.data.section;
+---
+{post.collection === 'posts' ? <ArticlePage post={post}/> : <SiteLayout title={post.data.title}>
+  <article class="shell photo-post" data-photolog-id={post.id.slice(post.id.indexOf('-') + 1)}>
+    <a href={`/${section}/`}>← {section === 'photolog' ? 'Photolog' : 'Buildlog'}</a>
+    <header class="detail-header"><h1>{post.data.title}</h1>
+      {post.data.title !== post.data.publishedAt.toISOString().slice(0, 10) &&
+        <time>{post.data.publishedAt.toISOString().slice(0, 10)}</time>}
+    </header>
+    {post.data.body && <p class="post-body">{post.data.body}</p>}
+    {post.data.images.length > 0 && <section class="post-album" aria-label="Photos">
+    <div class="album-track" tabindex={post.data.images.length > 1 ? 0 : undefined}>
+    {post.data.images.map((image, index) => {
+      const variant = image.variants[image.variants.length - 1];
+      return <figure><img src={variant.src} width={variant.width} height={variant.height} alt={image.alt} loading={index ? 'lazy' : 'eager'} /></figure>;
+    })}
+    </div>
+    {post.data.images.length > 1 && <div class="album-controls" hidden>
+      <button type="button" class="k-button" data-variant="quiet" aria-label="Previous photo">←</button>
+      <output aria-live="polite">1 / {post.data.images.length}</output>
+      <button type="button" class="k-button" data-variant="quiet" aria-label="Next photo">→</button>
+    </div>}
+    </section>}
+  </article>
+</SiteLayout>}
+<style>
+  .post-body { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.7; }
+  .photo-post { max-width: 1100px; padding-block: var(--k-space-6); }
+  .post-album { margin-block: var(--k-space-6); }
+  .album-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; }
+  .album-track figure { flex: 0 0 100%; min-width: 0; margin: 0; display: grid; place-items: center; scroll-snap-align: start; }
+  .album-track img { display: block; max-width: 100%; width: auto; height: auto; max-height: 75dvh; }
+  .album-controls:not([hidden]) { display: flex; justify-content: center; align-items: center; gap: var(--k-space-3); }
+</style>
+<script>
+  for (const album of document.querySelectorAll<HTMLElement>('.post-album')) {
+    const controls = album.querySelector<HTMLElement>('.album-controls');
+    if (!controls) continue;
+    const track = album.querySelector<HTMLElement>('.album-track')!;
+    const [previous, next] = controls.querySelectorAll('button');
+    const count = track.children.length;
+    const index = () => Math.round(track.scrollLeft / Math.max(track.clientWidth, 1));
+    function show(position: number) {
+      track.scrollTo({ left: Math.max(0, Math.min(position, count - 1)) * track.clientWidth });
+    }
+    function sync() {
+      const current = index();
+      previous.disabled = current === 0;
+      next.disabled = current === count - 1;
+      controls!.querySelector('output')!.value = `${current + 1} / ${count}`;
+    }
+    previous.onclick = () => show(index() - 1);
+    next.onclick = () => show(index() + 1);
+    track.onkeydown = event => {
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      show(index() + (event.key === 'ArrowRight' ? 1 : -1));
+    };
+    track.addEventListener('scroll', sync, { passive: true });
+    new ResizeObserver(sync).observe(track);
+    controls.hidden = false;
+    sync();
+  }
+</script>
