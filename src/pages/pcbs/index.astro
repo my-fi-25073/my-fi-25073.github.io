@@ -1,16 +1,44 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import ArchiveSidebar from '../../components/ArchiveSidebar.astro';
+import ArchiveFacet from '../../components/ArchiveFacet.astro';
 import data from '../../data/pcbs.json';
 import { galleryImage, renderGalleryCard } from '../../../public/ui/gallery.mjs';
 
-const records = data.items;
+const categories = ['Split', 'MX', 'LP', 'ULP', 'MF', 'RC'];
+const memberships: Record<string, string[]> = {
+  'castor-ulp': ['Split', 'ULP'],
+  'castor-lp-v2': ['Split', 'LP'],
+  'castor-lp-v3': ['Split', 'LP'],
+  'metallali-pcb': ['Split', 'ULP'],
+  'mf40-r12aw': ['MX', 'MF'],
+  'mf40-r13ah': ['MX', 'MF'],
+  'mf40-r13aw': ['MX', 'MF'],
+  'mf40-r13bw': ['MX', 'MF'],
+  'mf60-gondola': ['MX', 'MF'],
+  'mf65-eava55': ['MX', 'MF'],
+  'mf80-900than9': ['MX', 'MF'],
+  'mf80-orthodox': ['MX', 'MF'],
+  'rc-18xx': ['MX', 'RC'],
+  'rc-21xx': ['MX', 'RC'],
+};
+const order = Object.keys(memberships);
+const records = data.items.map(record => {
+  const facets = memberships[record.slug];
+  if (!facets) throw new Error(`Missing PCB categories for ${record.slug}`);
+  return { ...record, facets };
+}).sort((left, right) => order.indexOf(left.slug) - order.indexOf(right.slug));
+const groups = categories.map(label => ({
+  id: label, label, count: records.filter(record => record.facets.includes(label)).length,
+}));
 ---
 <SiteLayout title="PCB">
   <section class="shell archive-catalog-shell" data-archive-filter>
     <header class="archive-catalog-heading"><h1 lang="en">PCB</h1></header>
     <div class="archive-catalog-layout">
-      <ArchiveSidebar label="PCB navigation" searchLabel="Search PCBs" />
+      <ArchiveSidebar label="PCB navigation" searchLabel="Search PCBs">
+        <ArchiveFacet name="pcb-category" label="PCB category" totalCount={records.length} groups={groups} filterCards hideLegend />
+      </ArchiveSidebar>
       <div class="archive-catalog-main archive-catalog-gallery kl-gallery-scope">
         <p class="visually-hidden" aria-live="polite" aria-atomic="true">Results: <span data-archive-search-count>{records.length}</span></p>
         <p class="archive-search-empty" data-archive-search-empty hidden={records.length > 0}>No matching PCBs.</p>
@@ -23,6 +51,7 @@ const records = data.items;
             image: record.images[0] ? galleryImage({ ...record.images[0], presentation: 'render' }, 'pcb') : null,
             attributes: {
               'data-archive-card': true,
+              'data-archive-facet': record.facets.join(' '),
               'data-search': [record.title, record.description].filter(Boolean).join(' ').toLocaleLowerCase('ko'),
             },
           })} />)}

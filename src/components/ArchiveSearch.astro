@@ -38,7 +38,7 @@ const { label, disabled = false } = Astro.props;
       const visible = new Set<string | HTMLElement>();
       for (const card of panel.querySelectorAll<HTMLElement>('[data-archive-card]')) {
         const matchesSearch = !query || (card.dataset.search ?? '').includes(query);
-        const matchesFacet = !selection || card.dataset.archiveFacet === selection;
+        const matchesFacet = !selection || card.dataset.archiveFacet?.split(' ').includes(selection);
         card.hidden = !matchesSearch || !matchesFacet;
         if (!card.hidden) visible.add(card.querySelector('a')?.href ?? card);
       }

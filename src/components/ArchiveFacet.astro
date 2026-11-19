@@ -5,12 +5,13 @@ interface Props {
   totalCount: number;
   groups: Array<{ id: string; label: string; count: number; aliases?: string[] }>;
   filterCards?: boolean;
+  hideLegend?: boolean;
 }
 
-const { name, label, totalCount, groups, filterCards = false } = Astro.props;
+const { name, label, totalCount, groups, filterCards = false, hideLegend = false } = Astro.props;
 ---
 <fieldset class="k-filter-axis">
-  <legend>{label}</legend>
+  <legend class:list={[hideLegend && 'visually-hidden']}>{label}</legend>
   <div class="k-filter-options">
     {[{ id: '', label: 'All', count: totalCount, aliases: undefined }, ...groups].map((group) => (
       <label class="k-filter-option">
