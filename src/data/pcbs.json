@@ -544,13 +544,13 @@
       }
     },
     {
-      "slug": "rc-21xx",
-      "title": "RC-21XX",
+      "slug": "rc-25xx",
+      "title": "RC-25XX",
       "description": null,
       "repositoryUrl": null,
       "images": [
         {
-          "alt": "RC-21XX",
+          "alt": "RC-25XX",
           "presentation": "render",
           "preserveColor": true,
           "variants": [
@@ -564,7 +564,7 @@
       ],
       "scene": {
         "file": "RC-21XX-assembly",
-        "name": "RC-21XX",
+        "name": "RC-25XX",
         "parts": [
           {
             "file": "RC-21XX-A.glb",

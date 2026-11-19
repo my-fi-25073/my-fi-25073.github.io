@@ -7,27 +7,27 @@ import { galleryImage, renderGalleryCard } from '../../../public/ui/gallery.mjs'
 
 const categories = ['Split', 'MX', 'LP', 'ULP', 'MF', 'RC'];
 const memberships: Record<string, string[]> = {
-  'castor-ulp': ['Split', 'ULP'],
-  'castor-lp-v2': ['Split', 'LP'],
-  'castor-lp-v3': ['Split', 'LP'],
-  'metallali-pcb': ['Split', 'ULP'],
-  'mf40-r12aw': ['MX', 'MF'],
-  'mf40-r13ah': ['MX', 'MF'],
-  'mf40-r13aw': ['MX', 'MF'],
-  'mf40-r13bw': ['MX', 'MF'],
-  'mf60-gondola': ['MX', 'MF'],
-  'mf65-eava55': ['MX', 'MF'],
-  'mf80-900than9': ['MX', 'MF'],
-  'mf80-orthodox': ['MX', 'MF'],
-  'rc-18xx': ['MX', 'RC'],
-  'rc-21xx': ['MX', 'RC'],
+  'Castor-ULP.glb': ['Split', 'ULP'],
+  'Castor-LPv2.glb': ['Split', 'LP'],
+  'Castor-LPv3.glb': ['Split', 'LP'],
+  'Metallali.glb': ['Split', 'ULP'],
+  'MF40-R12AW.glb': ['MX', 'MF'],
+  'MF40-R13AH.glb': ['MX', 'MF'],
+  'MF40-R13AW.glb': ['MX', 'MF'],
+  'MF40-R13BW.glb': ['MX', 'MF'],
+  'MF60-Gondola.glb': ['MX', 'MF'],
+  'MF65-Eava55.glb': ['MX', 'MF'],
+  'MF80-900Than9.glb': ['MX', 'MF'],
+  'MF80-Orthodox.glb': ['MX', 'MF'],
+  'RC-18XX.glb': ['MX', 'RC'],
+  'RC-21XX-assembly': ['MX', 'RC'],
 };
 const order = Object.keys(memberships);
 const records = data.items.map(record => {
-  const facets = memberships[record.slug];
+  const facets = memberships[record.scene.file];
   if (!facets) throw new Error(`Missing PCB categories for ${record.slug}`);
   return { ...record, facets };
-}).sort((left, right) => order.indexOf(left.slug) - order.indexOf(right.slug));
+}).sort((left, right) => order.indexOf(left.scene.file) - order.indexOf(right.scene.file));
 const groups = categories.map(label => ({
   id: label, label, count: records.filter(record => record.facets.includes(label)).length,
 }));
