@@ -1,1 +1,1 @@
-export const pcbViewerVersion="cedf31a60c84660a";
+export const pcbViewerVersion="fedc5cd915079d85";

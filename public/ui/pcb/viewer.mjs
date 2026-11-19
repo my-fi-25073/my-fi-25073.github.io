@@ -77,7 +77,25 @@ try{
   function syncColorInputs(){for(const [role] of colorRoles){const materials=colorTargets.get(role)??[],enabled=role==='background'||materials.length>0,inputs=colorInputs.get(role);inputs.label.hidden=['leftMask','rightMask'].includes(role)?!splitModel(colorFile):['frontMask','backMask'].includes(role)&&splitModel(colorFile);inputs.picker.disabled=inputs.hex.disabled=!enabled;inputs.pair.hidden=!enabled;inputs.absence.hidden=enabled;inputs.label.title=enabled?'':inputs.absence.textContent;const value=role==='background'?'#'+renderer.getClearColor(new THREE.Color()).getHexString():materials[0]?'#'+materials[0].color.getHexString():'#000000';inputs.picker.value=value;inputs.hex.value=value.toUpperCase();}for(const [button,colors] of versionButtons)button.setAttribute('aria-pressed',String(Object.entries(colors).every(([role,value])=>colorInputs.get(role).hex.value.toUpperCase()===value)));}
   restore.onclick=()=>{for(const [material,value] of originalColors)material.color.copy(value);renderer.setClearColor(0,0);savedColors={};storeColors();syncColorInputs();};
   camera.position.set(1,1,1);
-  function connect(target=new THREE.Vector3()){controls?.dispose();controls=new TrackballControls(camera,renderer.domElement);controls.staticMoving=true;controls.rotateSpeed=1;controls.zoomSpeed=1;controls.panSpeed=.5;controls.minZoom=.15;controls.maxZoom=30;controls.target.copy(target);controls.update();}connect();
+  // Trackball supplies normalized screen deltas. Convert them directly into
+  // orthographic camera units so the grabbed point follows the pointer.
+  class PcbTrackball extends TrackballControls {
+    _panCamera() {
+      const dx = this._panEnd.x - this._panStart.x;
+      const dy = this._panEnd.y - this._panStart.y;
+      if (!dx && !dy) return;
+      const offset = new THREE.Vector3()
+        .set(-dx * (camera.right - camera.left), dy * (camera.top - camera.bottom), 0)
+        .divideScalar(camera.zoom).applyQuaternion(camera.quaternion);
+      camera.position.add(offset);
+      this.target.add(offset);
+      this._panStart.copy(this._panEnd);
+    }
+  }
+  function connect(target=new THREE.Vector3()){controls?.dispose();controls=new PcbTrackball(camera,renderer.domElement);controls.staticMoving=true;controls.rotateSpeed=1;controls.zoomSpeed=1;controls.minZoom=.15;controls.maxZoom=30;controls.target.copy(target);controls.update();}connect();
+  renderer.domElement.addEventListener('pointerdown', event => {
+    controls.mouseButtons.LEFT = event.shiftKey ? THREE.MOUSE.PAN : THREE.MOUSE.ROTATE;
+  }, true);
   const pointers=new Set();function cancel(){if(!pointers.size)return;const ids=[...pointers];pointers.clear();connect(controls.target.clone());for(const id of ids)if(renderer.domElement.hasPointerCapture(id))renderer.domElement.releasePointerCapture(id);}
   renderer.domElement.addEventListener('pointerdown',e=>pointers.add(e.pointerId),true);
   // Let TrackballControls consume the final move/up before ending our pointer

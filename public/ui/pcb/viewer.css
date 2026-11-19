@@ -9,7 +9,8 @@ html[data-pcb-editable=false] .color-panel { display:none }
 html[data-pcb-mode=embed] main,html[data-pcb-mode=poster] main { max-width:none;padding:0 }
 html[data-pcb-mode=embed] header,html[data-pcb-mode=embed] h1,html[data-pcb-mode=embed] .toolbar>label,html[data-pcb-mode=embed] .bottom,html[data-pcb-mode=poster] header,html[data-pcb-mode=poster] h1,html[data-pcb-mode=poster] .toolbar,html[data-pcb-mode=poster] .bottom { display:none }
 html[data-pcb-mode=embed] .toolbar { margin:0;padding:8px;gap:8px;min-height:52px }
-html[data-pcb-mode=embed] .hint { display:none }
+.touch-hint { display:none }
+@media (pointer:coarse) { .mouse-hint { display:none } .touch-hint { display:inline } }
 html[data-pcb-mode=embed],html[data-pcb-mode=embed] body { height:100%;overflow:hidden }
 html[data-pcb-mode=embed] main { height:100%;display:flex;flex-direction:column }
 html[data-pcb-mode=embed] .toolbar { flex:0 0 auto }

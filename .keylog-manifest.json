@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseId": "78f21194912cfbb6b843484b9bb58813d68779e3d461880ccaca620673028ed5",
+  "releaseId": "83ef5a0efdcaa1d72180b130f28298480554ae55a431f8af42025db3a67485f5",
   "files": [
     {
       "path": "content/collections.json",
@@ -569,8 +569,8 @@
     },
     {
       "path": "content/keyboards/21xx.json",
-      "bytes": 1675,
-      "sha256": "a8515bbeb860e678ba083248b6ecadcc0b1a21d67f17bf49850e3cacf302acdc"
+      "bytes": 1917,
+      "sha256": "d050b2c1b59d51b3d4276bd9958de732cf58d1c44742b79243633799b47a536b"
     },
     {
       "path": "content/keyboards/apodiformbird-v1.json",
