@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <filter id="dark-ink" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+    <!-- Lift near-black ink on transparent marks while retaining saturated colors. -->
+    <feColorMatrix type="matrix" values="0 0 0 0 .945  0 0 0 0 .933  0 0 0 0 .906  -2 -2 -2 0 1.35"/>
+    <feComposite in2="SourceGraphic" operator="atop"/>
+  </filter>
+</svg>

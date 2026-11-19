@@ -24,11 +24,18 @@ img { display: block; max-width: 100%; }
 .k-button:is(:disabled,[aria-disabled="true"]):not([aria-busy="true"]) { color: var(--k-button-disabled-ink); background: var(--k-button-disabled-bg); border-color: var(--k-button-disabled-border); cursor: not-allowed; text-decoration: none; }
 .k-button:is([data-variant="quiet"],[data-variant="danger"]):is(:disabled,[aria-disabled="true"]):not([aria-busy="true"]) { background: transparent; border-color: transparent; }
 .k-button[aria-pressed="true"] { --k-secondary-hover-bg: var(--k-action-hover-bg); background: var(--k-ink); color: var(--k-panel); border-color: var(--k-selected-rule); }
+.k-button[data-theme-toggle][data-icon-only][data-variant="quiet"]:not(:disabled):is([aria-pressed], :hover, :active) {
+  background: transparent;
+  border-color: transparent;
+  color: var(--k-ink);
+  text-decoration: none;
+}
 .k-button[aria-busy="true"] { cursor: progress; }
 .k-button-progress { width: var(--k-button-progress-size); height: var(--k-button-progress-size); flex: none; border: 1.5px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: button-progress var(--k-button-progress-duration) linear infinite; }
 @keyframes button-progress { to { transform: rotate(1turn); } }
 .k-link { text-underline-offset: .2em; text-decoration: underline; }
 .k-brand-mark { display: block; flex: none; width: auto; max-width: var(--k-brand-max-width); height: var(--k-brand-height); object-fit: contain; }
+:root[data-theme="dark"] .k-brand-heading .k-brand-mark { filter: url("./brand-contrast.svg#dark-ink"); }
 .k-brand-heading { display: flex; align-items: center; gap: var(--k-space-3); }
 .k-link:hover { text-decoration-thickness: 2px; }
 .k-field { display: grid; gap: var(--k-space-2); align-content: start; min-width: 0; }
@@ -183,9 +190,6 @@ img { display: block; max-width: 100%; }
 .k-button[aria-busy="true"]:not(:has(.k-button-progress))::before { content: ''; flex: none; width: var(--k-button-progress-size); height: var(--k-button-progress-size); border: 1.5px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: button-progress var(--k-button-progress-duration) linear infinite; }
 @media (prefers-reduced-motion: reduce) { .k-button[aria-busy="true"]::before { animation: none; } }
 
-/* One scrollbar treatment for pages, panels, long lists and text fields. */
-* { scrollbar-width: thin; scrollbar-color: var(--k-scrollbar-thumb) var(--k-scrollbar-track); }
-*::-webkit-scrollbar { width: var(--k-scrollbar-size); height: var(--k-scrollbar-size); }
-*::-webkit-scrollbar-track, *::-webkit-scrollbar-corner { background: var(--k-scrollbar-track); border: 0; }
-*::-webkit-scrollbar-thumb { min-height: var(--k-space-6); border: 2px solid transparent; border-radius: var(--k-radius); background: var(--k-scrollbar-thumb); background-clip: padding-box; }
-*::-webkit-scrollbar-thumb:hover { background-color: var(--k-scrollbar-thumb-hover); }
+/* Hide the native rails while preserving scrolling and keyboard navigation. */
+* { scrollbar-width: none; }
+*::-webkit-scrollbar { display: none; }
