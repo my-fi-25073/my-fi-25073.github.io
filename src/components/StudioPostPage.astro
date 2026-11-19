@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import ArticlePage from './ArticlePage.astro';
 import SiteLayout from '../layouts/SiteLayout.astro';
+import PhotoCollage from './PhotoCollage.astro';
 interface Props { post: CollectionEntry<'posts'> | CollectionEntry<'photoPosts'> }
 const {post}=Astro.props;
 const section=post.data.section;
@@ -14,7 +15,8 @@ const section=post.data.section;
         <time>{post.data.publishedAt.toISOString().slice(0, 10)}</time>}
     </header>
     {post.data.body && <p class="post-body">{post.data.body}</p>}
-    {post.data.images.length > 0 && <section class="post-album" aria-label="Photos">
+    {section === 'photolog' && post.data.images.length > 0 && <PhotoCollage images={post.data.images} />}
+    {section === 'buildlog' && post.data.images.length > 0 && <section class="post-album" aria-label="Photos">
     <div class="album-track" tabindex={post.data.images.length > 1 ? 0 : undefined}>
     {post.data.images.map((image, index) => {
       const variant = image.variants[image.variants.length - 1];
