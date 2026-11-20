@@ -26,5 +26,34 @@
       "images": []
     }
   ],
-  "images": []
+  "images": [
+    {
+      "alt": "CRP R5 Beige 이미지 1",
+      "presentation": "render",
+      "galleryVariants": [
+        {
+          "src": "/media/crp-r5-beige/series-6796a46f30221886-gallery-0-e0dd8ab0b371-gallery-6x5-5332ac4ca83a-640.webp",
+          "width": 640,
+          "height": 533
+        }
+      ],
+      "variants": [
+        {
+          "src": "/media/crp-r5-beige/series-6796a46f30221886-gallery-0-e0dd8ab0b371-640.avif",
+          "width": 640,
+          "height": 470
+        },
+        {
+          "src": "/media/crp-r5-beige/series-6796a46f30221886-gallery-0-e0dd8ab0b371-1280.avif",
+          "width": 1280,
+          "height": 941
+        },
+        {
+          "src": "/media/crp-r5-beige/series-6796a46f30221886-gallery-0-e0dd8ab0b371-2400.avif",
+          "width": 1463,
+          "height": 1075
+        }
+      ]
+    }
+  ]
 }
