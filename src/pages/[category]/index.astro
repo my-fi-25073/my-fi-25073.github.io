@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import SwitchArchiveView from '../../components/SwitchArchiveView.astro';
 import collectionData from '../../data/collections.json';
+import { navigationLabel } from '../../lib/collection-views';
 
 export function getStaticPaths() {
   return [{
@@ -11,8 +12,9 @@ export function getStaticPaths() {
 }
 
 const records = await getCollection('records');
+const title = navigationLabel(collectionData, '/switches/');
 ---
 
-<SiteLayout title={collectionData.copy['switch.title'] ?? '스위치'} description={collectionData.copy['switch.description'] ?? undefined}>
-  <SwitchArchiveView records={records} />
+<SiteLayout title={title} description={collectionData.copy['switch.description'] ?? undefined}>
+  <SwitchArchiveView records={records} title={title} />
 </SiteLayout>

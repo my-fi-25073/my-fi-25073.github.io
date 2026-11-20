@@ -7,6 +7,7 @@ import collectionData from '../../data/collections.json';
 import SiteLayout from '../../layouts/SiteLayout.astro';
 import {
   keycapArchiveViews,
+  navigationLabel,
   recordsForCollectionView,
   recordsGroupedByField,
   requiredCollectionView,
@@ -15,6 +16,7 @@ import {
 
 const manifest = collectionData as CollectionManifest;
 const pageCopy = manifest.copy;
+const title = navigationLabel(manifest, '/keycaps/');
 const entries = (await getCollection('gallery', ({ data }) => !data.hideFromArchive)).map((entry) => entry.data);
 const titleCounts = new Map<string, number>();
 for (const entry of entries) {
@@ -61,10 +63,10 @@ const keycapViews = [
 ];
 ---
 
-<SiteLayout title={pageCopy?.['keycap.title'] ?? '키캡'} description={pageCopy?.['keycap.description'] ?? undefined}>
+<SiteLayout title={title} description={pageCopy?.['keycap.description'] ?? undefined}>
   <div class="shell archive-catalog-shell" data-archive-filter>
     <section class="archive-catalog-heading" aria-labelledby="keycap-title">
-      <h1 id="keycap-title" lang="en">Keycap</h1>
+      <h1 id="keycap-title" lang="en">{title}</h1>
     </section>
     <div class="archive-catalog-layout">
       <ArchiveSidebar label="Keycap navigation" searchLabel="Search keycaps">

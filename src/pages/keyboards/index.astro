@@ -10,6 +10,7 @@ import {
   groupIdsForRecord,
   groupsForCollectionView,
   groupsWithCounts,
+  navigationLabel,
   recordsForCollectionView,
   requiredCollectionView,
   type CollectionManifest,
@@ -17,6 +18,7 @@ import {
 
 const manifest = collectionData as CollectionManifest;
 const pageCopy = manifest.copy;
+const title = navigationLabel(manifest, '/keyboards/');
 const entries = await getCollection('keyboards');
 const entryBySlug = new Map(entries.map((entry) => [entry.data.slug, entry]));
 const records = recordsForCollectionView(
@@ -49,10 +51,10 @@ const displayGroups = archiveDisplayGroups(records, manifest, 'keyboard-all');
 const presets = requiredCollectionView(manifest, 'keyboard-all').view.projection.keyboardFilterPresets;
 ---
 
-<SiteLayout title={pageCopy?.['keyboard.title'] ?? '키보드'} description={pageCopy?.['keyboard.description'] ?? undefined}>
+<SiteLayout title={title} description={pageCopy?.['keyboard.description'] ?? undefined}>
   <div class="shell archive-catalog-shell">
     <section class="archive-catalog-heading" aria-labelledby="keyboard-title">
-      <h1 id="keyboard-title" lang="en">Keyboard</h1>
+      <h1 id="keyboard-title" lang="en">{title}</h1>
     </section>
     <div class="archive-catalog-layout">
       <ArchiveSidebar label="Keyboard navigation" searchLabel="Search keyboards">

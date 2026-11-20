@@ -16,10 +16,11 @@ import { renderBrandMark } from '../../public/ui/gallery.mjs';
 import { switchManufacturerGroup } from '../../public/ui/switch-groups.mjs';
 
 interface Props {
+  title: string;
   records: CollectionEntry<'records'>[];
 }
 
-const { records } = Astro.props;
+const { records, title } = Astro.props;
 const manifest = collectionData as CollectionManifest;
 const sourceRecords = records.map((entry) => entry.data);
 const families = switchModelFamilies(sourceRecords);
@@ -50,7 +51,7 @@ const browsingViews = [
 
 <div class="shell archive-catalog-shell">
   <header class="archive-catalog-heading">
-    <h1 lang="en">Switch</h1>
+    <h1 lang="en">{title}</h1>
   </header>
 
   <div class="archive-catalog-layout">

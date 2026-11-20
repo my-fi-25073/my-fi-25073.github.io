@@ -7,6 +7,12 @@ export interface CollectionNavigationItem {
   order: number;
 }
 
+export function navigationLabel(manifest: Pick<CollectionManifest, 'navigation'>, href: string) {
+  const item = manifest.navigation.find(entry => entry.href === href);
+  if (!item) throw new Error(`Missing navigation label for ${href}`);
+  return item.label;
+}
+
 export type CollectionCondition =
   | { field: string; operator: 'equals' | 'year'; value: unknown }
   | { field: string; operator: 'in'; value: Array<string | number> }
